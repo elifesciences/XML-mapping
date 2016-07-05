@@ -7,7 +7,238 @@
     <body>
     </body>
     <back>
-        <ref-list></ref-list>
+        <ref-list>
+            <!--Journal reference: in press -->
+            <ref id="bib1">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Roy</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name>
+                            <surname>Wapinski</surname>
+                            <given-names>I</given-names>
+                        </name>
+                        <name>
+                            <surname>Pfiffner</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>French</surname>
+                            <given-names>C</given-names>
+                        </name>
+                        <name>
+                            <surname>Socha</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Konieczka</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>Regev</surname>
+                            <given-names>A</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2013">2013</year>
+                    <article-title>Arboretum: reconstruction and analysis of the evolutionary
+                        history of condition-specific transcriptional programs</article-title>
+                    <source>Genome Res</source>
+                    <comment>in press</comment>
+                </element-citation>
+            </ref>
+            <!--Journal reference: page numbers and DOI -->
+            <ref id="bib2">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Aivazian</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <name>
+                            <surname>Serrano</surname>
+                            <given-names>RL</given-names>
+                        </name>
+                        <name>
+                            <surname>Pfeffer</surname>
+                            <given-names>S</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2006">2006</year>
+                    <article-title>TIP47 is a key effector for Rab9 localization</article-title>
+                    <source>The Journal of Cell Biology</source>
+                    <volume>173</volume>
+                    <fpage>917</fpage>
+                    <lpage>926</lpage>
+                    <pub-id pub-id-type="doi">10.1083/jcb.200510010</pub-id>
+                </element-citation>
+            </ref>
+            <!--Journal reference: elocation-id and DOI -->
+            <ref id="bib3">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Wolski</surname>
+                            <given-names>SC</given-names>
+                        </name>
+                        <name>
+                            <surname>Kuper</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>Hanzelmann</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name>
+                            <surname>Truglio</surname>
+                            <given-names>JJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Croteau</surname>
+                            <given-names>DL</given-names>
+                        </name>
+                        <name>
+                            <surname>Van Houten</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <year  iso-8601-date="2008">2008</year>
+                    <article-title>Crystal structure of the FeS cluster-containing nucleotide
+                        excision repair helicase XPD</article-title>
+                    <source>PLoS Biol</source>
+                    <volume>6</volume>
+                    <elocation-id>e149</elocation-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pbio.0060149</pub-id>
+                </element-citation>
+            </ref>
+            <!--Journal reference: collab author -->
+            <ref id="bib4">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>McQuilton</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name>
+                            <surname>St Pierre</surname>
+                            <given-names>SE</given-names>
+                        </name>
+                        <name>
+                            <surname>Thurmond</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <collab>FlyBase Consortium</collab>
+                    </person-group>
+                    <year  iso-8601-date="2012">2012</year>
+                    <article-title>FlyBase 101—the basics of navigating FlyBase</article-title>
+                    <source>Nucleic Acids Res</source>
+                    <volume>40</volume>
+                    <fpage>D706</fpage>
+                    <lpage>D714</lpage>
+                    <pub-id pub-id-type="doi">10.1093/nar/gkr1030</pub-id>
+                </element-citation>
+            </ref>
+            <!--Journal reference: author with suffix -->
+            <ref id="bib5">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Gall</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Treuting</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name>
+                            <surname>Elkon</surname>
+                            <given-names>KB</given-names>
+                        </name>
+                        <name>
+                            <surname>Loo</surname>
+                            <given-names>YM</given-names>
+                        </name>
+                        <name>
+                            <surname>Gale</surname>
+                            <given-names>M</given-names>
+                            <suffix>Jnr</suffix>
+                        </name>
+                        <name>
+                            <surname>Barber</surname>
+                            <given-names>GN</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <year  iso-8601-date="2012">2012</year>
+                    <article-title>Autoimmunity initiates in nonhematopoietic cells and progresses
+                        via lymphocytes in an interferon-dependent autoimmune
+                        disease</article-title>
+                    <source>Immunity</source>
+                    <volume>36</volume>
+                    <fpage>120</fpage>
+                    <lpage>131</lpage>
+                </element-citation>
+            </ref>
+            <!--Journal reference: year a -->
+            <ref id="bib6">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Brettar</surname>
+                            <given-names>I</given-names>
+                        </name>
+                        <name>
+                            <surname>Christen</surname>
+                            <given-names>R</given-names>
+                        </name>
+                        <name>
+                            <surname>Hofle</surname>
+                            <given-names>M</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2004">2004a</year>
+                    <article-title>Aquiflexum balticum gen. nov., sp nov., a novel marine bacterium
+                        of the Cytophaga-Flavobacterium-Bacteroides group isolated from surface
+                        water of the central Baltic Sea</article-title>
+                    <source>International journal of systematic and evolutionary
+                        microbiology</source>
+                    <volume>54</volume>
+                    <fpage>2335</fpage>
+                    <lpage>2341</lpage>
+                    <pub-id pub-id-type="doi">10.1099/ijs.0.63255-0</pub-id>
+                </element-citation>
+            </ref>
+            <!--Journal reference: year b -->
+            <ref id="bib7">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Brettar</surname>
+                            <given-names>I</given-names>
+                        </name>
+                        <name>
+                            <surname>Christen</surname>
+                            <given-names>R</given-names>
+                        </name>
+                        <name>
+                            <surname>Hofle</surname>
+                            <given-names>MG</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2004">2004b</year>
+                    <article-title>Belliella baltica gen. nov., sp. nov., a novel marine bacterium
+                        of the Cytophaga-Flavobacterium-Bacteroides group isolated from surface
+                        water of the central Baltic Sea</article-title>
+                    <source>International journal of systematic and evolutionary
+                        microbiology</source>
+                    <volume>54</volume>
+                    <fpage>65</fpage>
+                    <pub-id pub-id-type="doi">10.1099/ijs.0.02752-0</pub-id>
+                </element-citation>
+            </ref>
+        </ref-list>
     </back>
 </article>
 
