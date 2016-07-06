@@ -640,7 +640,7 @@
                     <pub-id pub-id-type="art-access-id" xlink:href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl">MA0547.1</pub-id>
               </element-citation>
             </ref>
-            <!--Data reference: modMine - NOTE: this url is broken, have reached out to modMine regarding citing their datasets-->
+            <!--Data reference: modMine pub-id-type="archive"-->
             <ref id="bib19">
                 <element-citation publication-type="data">
                     <person-group person-group-type="author">
@@ -702,14 +702,13 @@
                         </name>
                     </person-group>
                     <year iso-8601-date="2013">2013</year>
-                    <data-title>Identification of Transcription Factor SKN-1::GFP Binding Regions in
-                        L2</data-title>
+                    <data-title>ChIP-Seq Identification of C. elegans TF Binding Sites</data-title>
                     <source>modMine</source>
-                    <pub-id pub-id-type="art-access-id">mod ENCODE_3369</pub-id>
+                    <pub-id pub-id-type="archive">modENCODE_3369</pub-id>
                     <comment>
                         <ext-link ext-link-type="uri"
                             xlink:href="http://intermine.modencode.org/release-33/report.do?id=77000379"
-                            >http://intermine.modencode.org/release-33/report.do?id=77000379</ext-link>
+                            >http://intermine.modencode.org/release-33/report.do;jsessionid=03E0333698FA9A66AF60C7AC0D64E8F3?id=77000379#other</ext-link>
                     </comment>
                 </element-citation>
             </ref>
