@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<article dtd-version="1.1d3" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<article dtd-version="1.1d3" xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
-        <journal-meta></journal-meta>
-        <article-meta></article-meta>
+        <journal-meta/>
+        <article-meta/>
     </front>
-    <body>
-    </body>
+    <body> </body>
     <back>
         <ref-list>
             <!--Journal reference: in press -->
@@ -105,7 +105,7 @@
                         </name>
                         <etal/>
                     </person-group>
-                    <year  iso-8601-date="2008">2008</year>
+                    <year iso-8601-date="2008">2008</year>
                     <article-title>Crystal structure of the FeS cluster-containing nucleotide
                         excision repair helicase XPD</article-title>
                     <source>PLoS Biol</source>
@@ -132,7 +132,7 @@
                         </name>
                         <collab>FlyBase Consortium</collab>
                     </person-group>
-                    <year  iso-8601-date="2012">2012</year>
+                    <year iso-8601-date="2012">2012</year>
                     <article-title>FlyBase 101—the basics of navigating FlyBase</article-title>
                     <source>Nucleic Acids Res</source>
                     <volume>40</volume>
@@ -172,7 +172,7 @@
                         </name>
                         <etal/>
                     </person-group>
-                    <year  iso-8601-date="2012">2012</year>
+                    <year iso-8601-date="2012">2012</year>
                     <article-title>Autoimmunity initiates in nonhematopoietic cells and progresses
                         via lymphocytes in an interferon-dependent autoimmune
                         disease</article-title>
@@ -263,7 +263,9 @@
                     <year iso-8601-date="2015">2015</year>
                     <data-title>Data from: Genome-wide errant targeting by Hairy</data-title>
                     <source>Dryad Digital Repository</source>
-                    <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository" xlink:href="http://datadryad.org/resource/doi:10.5061/dryad.cv323">10.5061/dryad.cv323</pub-id>
+                    <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository"
+                        xlink:href="http://datadryad.org/resource/doi:10.5061/dryad.cv323"
+                        >10.5061/dryad.cv323</pub-id>
                 </element-citation>
             </ref>
             <!--Data reference: RCSB Protein Data Bank -->
@@ -316,10 +318,12 @@
                         </name>
                     </person-group>
                     <year iso-8601-date="2014">2014</year>
-                    <data-title>Crystal structure of KRYPTONITE in complex with mCHH DNA and SAH</data-title>
+                    <data-title>Crystal structure of KRYPTONITE in complex with mCHH DNA and
+                        SAH</data-title>
                     <source>RCSB Protein Data Bank</source>
-                    <pub-id pub-id-type="doi" assigning-authority="RCSB Protein Data Bank">10.2210/pdb4qen/pdb</pub-id>
-                  </element-citation>
+                    <pub-id pub-id-type="doi" assigning-authority="RCSB Protein Data Bank"
+                        >10.2210/pdb4qen/pdb</pub-id>
+                </element-citation>
             </ref>
             <!--Data reference: ProteomeXchange: pub-id-type="archive Identifier" - not clear what this number is, so default option -->
             <ref id="bib10">
@@ -356,7 +360,8 @@
                         <name>
                             <surname>Dussurget</surname>
                             <given-names>O</given-names>
-                        </name> <name>
+                        </name>
+                        <name>
                             <surname>Pizarro-Cerdá</surname>
                             <given-names>J</given-names>
                         </name>
@@ -370,9 +375,12 @@
                         </name>
                     </person-group>
                     <year iso-8601-date="2015">2015a</year>
-                    <data-title>ISG15 counteracts <italic>Listeria monocytogenes</italic> infection</data-title>
+                    <data-title>ISG15 counteracts <italic>Listeria monocytogenes</italic>
+                        infection</data-title>
                     <source>ProteomeXchange</source>
-                    <pub-id pub-id-type="archive Identifier" xlink:href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001805">PXD001805</pub-id>
+                    <pub-id pub-id-type="archive Identifier"
+                        xlink:href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001805"
+                        >PXD001805</pub-id>
                 </element-citation>
             </ref>
             <!--Data reference: ArrayExpress: pub-id-type="accession"-->
@@ -410,7 +418,8 @@
                         <name>
                             <surname>Dussurget</surname>
                             <given-names>O</given-names>
-                        </name> <name>
+                        </name>
+                        <name>
                             <surname>Pizarro-Cerdá</surname>
                             <given-names>J</given-names>
                         </name>
@@ -424,10 +433,14 @@
                         </name>
                     </person-group>
                     <year iso-8601-date="2015">2015b</year>
-                    <article-title>Transcription profiling by high throughput sequencing of LoVo cells infected with Listeria for 24 hr compared to uninfected cells</article-title>
+                    <article-title>Transcription profiling by high throughput sequencing of LoVo
+                        cells infected with Listeria for 24 hr compared to uninfected
+                        cells</article-title>
                     <source>ArrayExpress</source>
-                    <pub-id pub-id-type="accession" xlink:href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3649/">E-MTAB-3649</pub-id>
-                  </element-citation>
+                    <pub-id pub-id-type="accession"
+                        xlink:href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3649/"
+                        >E-MTAB-3649</pub-id>
+                </element-citation>
             </ref>
             <!--Data reference: NCBI Gene Expression Omnibus: pub-id-type="accession" assigning-authority="NCBI"-->
             <ref id="bib12">
@@ -510,8 +523,9 @@
                     <data-title>NKX2-5 mutations causative for congenital heart disease retain
                         functionality and are directed to hundreds of targets</data-title>
                     <source>NCBI Gene Expression Omnibus</source>
-                    <pub-id pub-id-type="accession" assigning-authority="NCBI" 
-                        xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44902">GSE44902</pub-id>
+                    <pub-id pub-id-type="accession" assigning-authority="NCBI"
+                        xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44902"
+                        >GSE44902</pub-id>
                 </element-citation>
             </ref>
             <!--Data reference: NCBI Nucleotide: pub-id-type="accession" assigning-authority="NCBI" contains version details-->
@@ -530,11 +544,13 @@
                             <surname>Papaioannou</surname>
                             <given-names>VE</given-names>
                         </name>
-                     </person-group>
+                    </person-group>
                     <year iso-8601-date="2014">2014</year>
                     <data-title>Mus musculus T-box 2 (Tbx2), mRNA</data-title>
                     <source>NCBI Nucleotide</source>
-                    <pub-id pub-id-type="accession" assigning-authority="NCBI" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/120407038">NM_009324</pub-id>
+                    <pub-id pub-id-type="accession" assigning-authority="NCBI"
+                        xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/120407038"
+                        >NM_009324</pub-id>
                     <version designator="NM_009324.2">NM_009324.2</version>
                 </element-citation>
             </ref>
@@ -564,7 +580,8 @@
                         acinar cells) by the inactivation of the Ptf1a gene in vivo</data-title>
                     <source>NCBI Gene Expression Omnibus</source>
                     <pub-id pub-id-type="accession" assigning-authority="NCBI"
-                        xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70542">GSE70542</pub-id>
+                        xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70542"
+                        >GSE70542</pub-id>
                 </element-citation>
             </ref>
             <!--Data reference: NCBI BioProject: author is a collab pub-id-type="accession" assigning-authority="NCBI" example of 3 references with same author/year-->
@@ -577,8 +594,9 @@
                     <data-title>Global Diversity of Shigella Species</data-title>
                     <source>NCBI BioProject</source>
                     <pub-id pub-id-type="accession" assigning-authority="NCBI"
-                        xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB2846">PRJEB2846</pub-id>
-                  </element-citation>
+                        xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB2846"
+                        >PRJEB2846</pub-id>
+                </element-citation>
             </ref>
             <ref id="bib16">
                 <element-citation publication-type="data">
@@ -586,12 +604,12 @@
                         <collab>The <italic>Shigella</italic> Genome Sequencing Consortium</collab>
                     </person-group>
                     <year iso-8601-date="2015">2015b</year>
-                    <data-title>Shigella sonnei and flexneri from around the
-                        world</data-title>
+                    <data-title>Shigella sonnei and flexneri from around the world</data-title>
                     <source>NCBI BioProject</source>
                     <pub-id pub-id-type="accession" assigning-authority="NCBI"
-                        xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/204320">PRJEB2460</pub-id>
-                 </element-citation>
+                        xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/204320"
+                        >PRJEB2460</pub-id>
+                </element-citation>
             </ref>
             <ref id="bib17">
                 <element-citation publication-type="data">
@@ -602,11 +620,12 @@
                     <data-title>Shigella flexneri from around the world</data-title>
                     <source>NCBI BioProject </source>
                     <pub-id pub-id-type="accession" assigning-authority="NCBI"
-                        xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB2542">PRJEB2542</pub-id>
-                  </element-citation>
+                        xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB2542"
+                        >PRJEB2542</pub-id>
+                </element-citation>
             </ref>
             <!--Data reference: JASPAR-->
-                        <ref id="bib18">
+            <ref id="bib18">
                 <element-citation publication-type="data">
                     <person-group person-group-type="author">
                         <name>
@@ -637,8 +656,10 @@
                     <year iso-8601-date="2013">2013</year>
                     <data-title>SKN-1 from the JASPAR CORE database</data-title>
                     <source>JASPAR</source>
-                    <pub-id pub-id-type="art-access-id" xlink:href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl">MA0547.1</pub-id>
-              </element-citation>
+                    <pub-id pub-id-type="art-access-id"
+                        xlink:href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl"
+                        >MA0547.1</pub-id>
+                </element-citation>
             </ref>
             <!--Data reference: modMine pub-id-type="archive"-->
             <ref id="bib19">
@@ -712,8 +733,138 @@
                     </comment>
                 </element-citation>
             </ref>
-            
+            <!--Book reference: simple book reference, with ISBN-->
+            <ref id="bib20">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Horne</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name>
+                            <surname>Page</surname>
+                            <given-names>J</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2008">2008</year>
+                    <source>Integrated pest management for crops and pastures</source>
+                    <publisher-name>Landlinks Press</publisher-name>
+                    <publisher-loc>Victoria</publisher-loc>
+                    <pub-id pub-id-type="isbn">9780643092570</pub-id>
+                </element-citation>
+            </ref>
+            <!--Book reference: chapter in book with editors-->
+            <ref id="bib21">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Turlings</surname>
+                            <given-names>TCJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Wäckers</surname>
+                            <given-names>FL</given-names>
+                        </name>
+                    </person-group>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Cardé</surname>
+                            <given-names>RT</given-names>
+                        </name>
+                        <name>
+                            <surname>Millar</surname>
+                            <given-names>JG</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2004">2004</year>
+                    <source>Advances in insect chemical ecology</source>
+                    <chapter-title>Recruitment of predators and parasitoids by herbivore-injured
+                        plants</chapter-title>
+                    <publisher-name>Cambridge University Press</publisher-name>
+                    <publisher-loc>Cambridge</publisher-loc>
+                    <fpage>21</fpage>
+                    <lpage>75</lpage>
+                </element-citation>
+            </ref>
+            <!--Book reference: publisher location - US: city followed by state code-->
+                        <ref id="bib22">
+               <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Coyne</surname>
+                            <given-names>JA</given-names>
+                        </name>
+                        <name>
+                            <surname>Orr</surname>
+                            <given-names>HA</given-names>
+                        </name>
+                    </person-group>
+                   <person-group person-group-type="editor">
+                       <name>
+                           <surname>Otte</surname>
+                           <given-names>D</given-names>
+                       </name>
+                       <name>
+                           <surname>Endler</surname>
+                           <given-names>JA</given-names>
+                       </name>
+                   </person-group>
+                   <year iso-8601-date="1989">1989</year>
+                    <chapter-title>Two rules of speciation</chapter-title>
+                    <source>Speciation and its consequences</source>
+                    <publisher-loc>Sunderland, MA</publisher-loc>
+                    <publisher-name>Sinauer Associates</publisher-name>
+                </element-citation>
+            </ref>
+            <!--Book reference: Editors, no chapter details-->
+            <ref id="bib23">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Cardé</surname>
+                            <given-names>RT</given-names>
+                        </name>
+                        <name>
+                            <surname>Millar</surname>
+                            <given-names>JG</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2004">2004</year>
+                    <source>Advances in insect chemical ecology</source>
+                    <publisher-name>Cambridge University Press</publisher-name>
+                    <publisher-loc>Cambridge</publisher-loc>
+                </element-citation>
+            </ref>
+            <!--Book reference: Has volume, no publisher location-->
+            <ref id="bib24">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Koch</surname>
+                            <given-names>S</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="1959">1959</year>
+                    <volume>3: Formulations of the Person and the Social Context</volume>
+                    <source>Psychology A Study Of A Science</source>
+                    <publisher-name>Mcgraw-Hill Book Company</publisher-name>
+               </element-citation>
+            </ref>
+        <!--Book reference: Has edition, editor is author-->
+        <ref id="bib25">
+            <element-citation publication-type="book">
+                <person-group person-group-type="editor">
+                    <name>
+                        <surname>Chmeil</surname>
+                        <given-names>N</given-names>
+                    </name>
+                </person-group>
+                <year iso-8601-date="2008">2008</year>
+                <edition>2</edition>
+                <source>An Introduction to Work and Organizational Psychology: A European Perspective</source>
+                <publisher-name>Wiley-Blackwell</publisher-name>
+            </element-citation>
+        </ref>
         </ref-list>
     </back>
 </article>
-
