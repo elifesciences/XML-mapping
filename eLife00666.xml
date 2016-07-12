@@ -27,10 +27,56 @@
                 <title-group>	
                     <article-title>Bacterial regulation of colony development in the closest living relatives of animals</article-title>	
                 </title-group>
-               </article-meta>
+        <contrib-group>
+            <contrib contrib-type="author" id="author-00000">
+                <name>
+                    <surname>Harrison</surname>
+                    <given-names>Melissa</given-names>
+                </name>
+                <xref ref-type="aff" rid="aff1"/>
+                <xref ref-type="other" rid="par-1"/>
+                <xref ref-type="fn" rid="conf1"/>
+                <xref ref-type="fn" rid="con1"/>
+            </contrib>
+            </contrib-group>
+        <aff id="aff1"><institution content-type="dept">Department of Production</institution>,
+            <institution>eLife</institution>,
+            <addr-line><named-content content-type="city">Cambridge</named-content></addr-line>,
+            <country>United Kingdom</country>
+        </aff>
+        <funding-group>
+            <award-group id="par-1">
+                <funding-source>
+                    <institution-wrap>
+                        <institution>Wellcome</institution>
+                    </institution-wrap>
+                </funding-source>
+                <principal-award-recipient>
+                    <name>
+                        <surname>Harrison</surname>
+                        <given-names>Melissa</given-names>
+                    </name>
+                </principal-award-recipient>
+            </award-group>
+        </funding-group>  
+      </article-meta>
     </front>
     <body> </body>
     <back>
+        <sec sec-type="additional-information">
+            <fn-group content-type="competing-interest">
+                <title>Competing interests</title>
+                <fn fn-type="conflict" id="conf1">
+                    <p>The author has declared that no competing interests exist</p>
+                </fn>
+            </fn-group>
+            <fn-group content-type="author-contribution">
+            <title>Author contribution</title>
+            <fn fn-type="con" id="con1">
+                <p>Melissa Harrison, wrote this XML example</p>
+            </fn>
+            </fn-group>    
+                </sec>
         <ref-list>
             <!--Journal reference: in press -->
             <ref id="bib1">
