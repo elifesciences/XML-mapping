@@ -2,7 +2,17 @@
 <article dtd-version="1.1d3" xmlns:mml="http://www.w3.org/1998/Math/MathML"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
-        <journal-meta/>
+        <journal-meta>
+            <journal-id journal-id-type="nlm-ta">eLife</journal-id>
+            <journal-id journal-id-type="publisher-id">eLife</journal-id>
+            <journal-title-group>
+                <journal-title>eLife</journal-title>
+            </journal-title-group>
+            <issn publication-format="electronic">2050-084X</issn>
+            <publisher>
+                <publisher-name>eLife Sciences Publications, Ltd</publisher-name>
+            </publisher>
+        </journal-meta>
         <article-meta/>
     </front>
     <body> </body>
