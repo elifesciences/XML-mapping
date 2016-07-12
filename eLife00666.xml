@@ -13,7 +13,21 @@
                 <publisher-name>eLife Sciences Publications, Ltd</publisher-name>
             </publisher>
         </journal-meta>
-        <article-meta/>
+           <article-meta>	
+                <article-id pub-id-type="publisher-id">00666</article-id>	
+                <article-id pub-id-type="doi">10.7554/eLife.00666</article-id>	
+                <article-categories>	
+                    <subj-group subj-group-type="display-channel">
+                        <subject>Research article</subject>
+                    </subj-group>
+                    <subj-group subj-group-type="heading">
+                        <subject>Cell biology</subject>
+                    </subj-group>
+                </article-categories>	
+                <title-group>	
+                    <article-title>Bacterial regulation of colony development in the closest living relatives of animals</article-title>	
+                </title-group>
+               </article-meta>
     </front>
     <body> </body>
     <back>
