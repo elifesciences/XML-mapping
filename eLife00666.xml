@@ -60,6 +60,16 @@
                    </license>
                </permissions>
                <self-uri content-type="pdf" xlink:href="elife00666.pdf"/>
+               <abstract>
+                   <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
+               <p>This is the abstract. It can contain any formatting, such as <italics>italics</italics>, <bold>bold</bold>, <sup>superscript</sup> or <sub>subscript</sub>.</p>
+               <p>eLife does not structure abstracts into sub headings, but the abstract can have multiple paragarahs. The sub DOI is always .001 as it is the first asset in any paper</p>
+               </abstract>
+               <abstract abstract-type="executive-summary">
+                   <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
+                   <title>eLife digest</title>
+                   <p>eLife digest are now optional and not every research paper will contain one. These are layman abstracts, designed for non-specialists in this field to be able to understand this article, as well as the general public.</p>
+               </abstract>
         <funding-group>
             <award-group id="par-1">
                 <funding-source>
