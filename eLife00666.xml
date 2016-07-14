@@ -125,7 +125,15 @@
                     </name>
                 </principal-award-recipient>
             </award-group>
-        </funding-group>  
+        </funding-group>
+               <!--Custom-meta: no longer using eLife version as was never used properly.
+                   Impact statement:-->
+               <custom-meta-group>
+                   <custom-meta specific-use="meta-only">
+                       <meta-name>Author impact statement</meta-name>
+                       <meta-value>The chemical nature of RIF-1 may reveal a new class of bacterial signaling molecules</meta-value>
+                   </custom-meta>
+               </custom-meta-group>
      </article-meta>
     </front>
     <body> </body>
