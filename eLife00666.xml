@@ -2,6 +2,8 @@
 <article dtd-version="1.1d3" xmlns:mml="http://www.w3.org/1998/Math/MathML"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
+        <!--journal-meta is standard for all articles published by eLife. No change, can be boilerplate text.
+        <journal-id journal-id-type="hwp">eLife</journal-id> has been removed now-->
         <journal-meta>
             <journal-id journal-id-type="nlm-ta">eLife</journal-id>
             <journal-id journal-id-type="publisher-id">eLife</journal-id>
@@ -13,13 +15,17 @@
                 <publisher-name>eLife Sciences Publications, Ltd</publisher-name>
             </publisher>
         </journal-meta>
-           <article-meta>	
+           <article-meta>
+               <!--@pub-id-type publisher-id - always 5 digit number-->
                 <article-id pub-id-type="publisher-id">00666</article-id>	
+               <!--@pub-id-type doi - always elife prefix followed by eLife and same 5 digit number-->
                 <article-id pub-id-type="doi">10.7554/eLife.00666</article-id>	
                 <article-categories>	
+                    <!--@subj-group-type display-channel - elife defined article type, controlled list-->
                     <subj-group subj-group-type="display-channel">
                         <subject>Research article</subject>
                     </subj-group>
+                    <!--@subj-group-type heading - elife defined major subject area, controlled list-->
                     <subj-group subj-group-type="heading">
                         <subject>Cell biology</subject>
                     </subj-group>
