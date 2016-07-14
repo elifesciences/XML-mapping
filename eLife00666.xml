@@ -196,7 +196,7 @@
                     <article-title>Arboretum: reconstruction and analysis of the evolutionary
                         history of condition-specific transcriptional programs</article-title>
                     <source>Genome Res</source>
-                    <comment>in press</comment>
+                    <comment>In press</comment>
                 </element-citation>
             </ref>
             <!--Journal reference: page numbers and DOI -->
@@ -1016,6 +1016,19 @@
                 <publisher-name>Wiley-Blackwell</publisher-name>
             </element-citation>
         </ref>
+            <!--Book reference: Has edition, editor is author-->
+            <ref id="bib26">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <collab>World Health Organization</collab>
+                    </person-group>
+                    <year iso-8601-date="2016">2016</year>
+                    <edition>2</edition>
+                    <source>	
+                        Growing up unequal: gender and socioeconomic differences in young people's health and well-being. Health Behaviour in School-aged Children (HBSC) study</source>
+                    <publisher-name>World Health Organization</publisher-name>
+                </element-citation>
+            </ref>
         </ref-list>
     </back>
 </article>
