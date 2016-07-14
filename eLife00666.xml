@@ -44,6 +44,21 @@
             <addr-line><named-content content-type="city">Cambridge</named-content></addr-line>,
             <country>United Kingdom</country>
         </aff>
+               <permissions>
+                   <copyright-statement>&#x00A9; 2016, Harrison et al</copyright-statement>
+                   <copyright-year>2016</copyright-year>
+                   <copyright-holder>Harrison et al</copyright-holder>
+                   <ali:free_to_read/>
+                   <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                       <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                       <license-p>This article is distributed under the terms of the <ext-link
+                           ext-link-type="uri"
+                           xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
+                           Commons Attribution License</ext-link>, which permits unrestricted use
+                           and redistribution provided that the original author and source are
+                           credited.</license-p>
+                   </license>
+               </permissions>
         <funding-group>
             <award-group id="par-1">
                 <funding-source>
@@ -59,7 +74,7 @@
                 </principal-award-recipient>
             </award-group>
         </funding-group>  
-      </article-meta>
+     </article-meta>
     </front>
     <body> </body>
     <back>
