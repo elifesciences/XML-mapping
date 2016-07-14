@@ -97,6 +97,17 @@
                    <title>eLife digest</title>
                    <p>eLife digest are now optional and not every research paper will contain one. These are layman abstracts, designed for non-specialists in this field to be able to understand this article, as well as the general public.</p>
                </abstract>
+               <!--Author keywords: this has changed: removed title from XML - is implicit in the @kwd-group-type-->
+               <kwd-group kwd-group-type="author-keywords">
+                   <kwd>XML</kwd>
+                   <kwd>Housestyle</kwd>
+                   <kwd>eLife</kwd>
+               </kwd-group>
+               <!--Research organism: this has changed: removed title from XML - is implicit in the @kwd-group-type-->
+               <kwd-group kwd-group-type="research-organism">
+                   <kwd>Human</kwd>
+                   <kwd>Machine</kwd>
+               </kwd-group>
         <funding-group>
             <award-group id="par-1">
                 <funding-source>
