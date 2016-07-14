@@ -44,7 +44,8 @@
             <addr-line><named-content content-type="city">Cambridge</named-content></addr-line>,
             <country>United Kingdom</country>
         </aff>
-               <permissions>
+               <!--Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
+              <permissions>
                    <copyright-statement>&#x00A9; 2016, Harrison et al</copyright-statement>
                    <copyright-year>2016</copyright-year>
                    <copyright-holder>Harrison et al</copyright-holder>
@@ -60,11 +61,37 @@
                    </license>
                </permissions>
                <self-uri content-type="pdf" xlink:href="elife00666.pdf"/>
+               <!--Abstract: this has changed: The following is no longer required for the XML file:
+                   <bold>DOI:</bold>
+				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">http://dx.doi.org/10.7554/eLife.00666.001</ext-link> -->
                <abstract>
                    <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
-               <p>This is the abstract. It can contain any formatting, such as <italics>italics</italics>, <bold>bold</bold>, <sup>superscript</sup> or <sub>subscript</sub>.</p>
+                   <p>This is the abstract. It can contain any formatting, such as <italic>italics</italic>, <bold>bold</bold>, <sup>superscript</sup> or <sub>subscript</sub>.MathML is also allowed: <mml:math>
+                           <mml:mrow>
+                               <mml:munder>
+                                   <mml:mo/>
+                                   <mml:mi>m</mml:mi>
+                               </mml:munder>
+                               <mml:mrow>
+                                   <mml:msub>
+                                       <mml:mover accent="true">
+                                           <mml:mi>p</mml:mi>
+                                           <mml:mo/>
+                                       </mml:mover>
+                                       <mml:mi>m</mml:mi>
+                                   </mml:msub>
+                                   <mml:mo>=</mml:mo>
+                                   <mml:mn>0</mml:mn>
+                               </mml:mrow>
+                           </mml:mrow>
+                       </mml:math>
+                   </p>
                <p>eLife does not structure abstracts into sub headings, but the abstract can have multiple paragarahs. The sub DOI is always .001 as it is the first asset in any paper</p>
                </abstract>
+               <!--Digest: this has changed: The following is no longer required for the XML file:
+                   <bold>DOI:</bold>
+				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.002">http://dx.doi.org/10.7554/eLife.00666.002</ext-link>
+               Also, is no longer required for all research content-->
                <abstract abstract-type="executive-summary">
                    <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
                    <title>eLife digest</title>
