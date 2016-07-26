@@ -142,7 +142,41 @@
                </custom-meta-group>
      </article-meta>
     </front>
-    <body> </body>
+    <body>
+        <!--the headings used by eLife are standardised at the top level and sec is used, with a sec-type. 
+            A headings can be identified by the ID not having a further subdivision, for example S1 is the first section heading. 
+            If there are B headings in this section they will have a sec id of S1-1 etc
+            eLife allowed A heads for research content are:
+            Introduction - sec-type="intro"
+            Results - sec-type="results"
+            Discussion - sec-type="discussion"
+            Materials and methods - sec-type="materials|methods"
+            Exceptions:
+            A merged results and discussion section is acceptable:
+            Results and discussion - sec-type="results|discussion"
+            Discussion - sec-type="discussion"
+            For Methods articles - identifiable as articles that describe models and are generally maths-heavy - the following structure is allowed: 
+            Introduction sec-type="intro"
+            Model - sec-type="model"
+            Results - sec-type="results"
+            Discussion - sec-type="discussion"
+            OR 
+            Introduction sec-type="intro"
+            Methods - sec-type="methods"
+            Results - sec-type="results"
+            Discussion - sec-type="discussion"
+            For research advances: Authors have more flexibility with structure and sections can be combined, although materials and methods section
+            is mandatory.
+            To allow for the flexibility, a title is also apploed to each section
+        -->
+        <sec sec-type="intro" id="s1">
+            <title>Introduction</title>
+            <p>The function of the introduction is to establish the context of the work being reported. 
+                This is accomplished by discussing the relevant primary research literature (with citations) and summarizing our current 
+                understanding of the problem you are investigating. Also state the purpose of the work in the form of the hypothesis, question, 
+                or problem you investigated. Briefly explain your rationale and approach and, whenever possible, the possible outcomes your study can reveal.
+            </p>
+    </body>
     <back>
         <sec sec-type="additional-information">
             <fn-group content-type="competing-interest">
