@@ -177,7 +177,7 @@
                 or problem you investigated. Briefly explain your rationale and approach and, whenever possible, the possible outcomes your study can reveal.
             </p>
         </sec>
-        <sec sec-type="materials|methods" id="s1">
+        <sec sec-type="materials|methods" id="s2">
             <title>Materials and methods</title>
             <p>
                 In this section you explain clearly how you carried out your study in the following general structure and organization.
@@ -191,7 +191,7 @@
                 You should also indicate the statistical procedures used to analyze your results, including the probability level at which you determined significance (usually at 0.05 probability).              
             </p>
         </sec>
-        <sec sec-type="results" id="s1">
+        <sec sec-type="results" id="s3">
             <title>Results</title>
             <p>The function of the Results section is to objectively present your key results, without interpretation, in an orderly and logical sequence using both text and illustrative materials (Tables and Figures). 
                 The results section always begins with text, reporting the key results and referring to your figures and tables as you proceed. Summaries of the statistical analyses may appear either in the text (usually parenthetically) or in the relevant Tables or Figures (in the legend or as footnotes to the Table or Figure). 
@@ -199,7 +199,7 @@
                 Important negative results should be reported, too. Authors usually write the text of the results section based upon the sequence of Tables and Figures.
             </p>
         </sec>
-        <sec sec-type="discussion" id="s1">
+        <sec sec-type="discussion" id="s4">
             <title>Discussion</title>
             <p>The function of the Discussion is to interpret your results in light of what was already known about the subject of the investigation, and to explain our new understanding of the problem after taking your results into consideration. 
                 The Discussion will always connect to the Introduction by way of the question(s) or hypotheses you posed and the literature you cited, but it does not simply repeat or rearrange the Introduction. 
