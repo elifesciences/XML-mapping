@@ -50,11 +50,30 @@
             <addr-line><named-content content-type="city">Cambridge</named-content></addr-line>,
             <country>United Kingdom</country>
         </aff>
+               <!--pub-date and history subject to change pending outcome of JATS4R history and versions rcommendation -->
+               <pub-date publication-format="electronic" date-type="pub">
+                   <day>25</day>
+                   <month>04</month>
+                   <year>2016</year>
+               </pub-date>
                <!--Added pub-type collection in order for continuum to process as VoR -->
                <pub-date pub-type="collection">
                    <year>2016</year>
                </pub-date>
                <volume>5</volume>
+               <elocation-id>e15802</elocation-id>
+               <history>
+                   <date date-type="received">
+                       <day>05</day>
+                       <month>03</month>
+                       <year>2016</year>
+                   </date>
+                   <date date-type="accepted">
+                       <day>06</day>
+                       <month>04</month>
+                       <year>2016</year>
+                   </date>
+               </history>
                <!--Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
               <permissions>
                    <copyright-statement>&#x00A9; 2016, Harrison et al</copyright-statement>
