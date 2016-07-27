@@ -50,6 +50,11 @@
             <addr-line><named-content content-type="city">Cambridge</named-content></addr-line>,
             <country>United Kingdom</country>
         </aff>
+               <!--Added pub-type collection in order for continuum to process as VoR -->
+               <pub-date pub-type="collection">
+                   <year>2016</year>
+               </pub-date>
+               <volume>5</volume>
                <!--Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
               <permissions>
                    <copyright-statement>&#x00A9; 2016, Harrison et al</copyright-statement>
