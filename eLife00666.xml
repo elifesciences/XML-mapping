@@ -177,6 +177,35 @@
                 or problem you investigated. Briefly explain your rationale and approach and, whenever possible, the possible outcomes your study can reveal.
             </p>
         </sec>
+        <sec sec-type="materials|methods" id="s1">
+            <title>Materials and methods</title>
+            <p>
+                In this section you explain clearly how you carried out your study in the following general structure and organization.
+                The the organism(s) studied (plant, animal, human, etc.) and, when relevant, their pre-experiment handling and care, and when and where the study was carried out (only if location and time are important factors); note that the term "subject" is used ONLY for human studies.
+                if you did a field study, provide a description of the study site, including the significant physical and biological features, and the precise location (latitude and longitude, map, etc);
+                the experimental OR sampling design (i.e., how the experiment or study was structured. For example, controls, treatments, what variable(s) were measured, how many samples were collected, replication, the final form of the data, etc.);
+                the protocol for collecting data, i.e., how the experimental procedures were carried out, and,
+                how the data were analyzed (qualitative analyses and/or statistical procedures used to determine significance, data transformations used, what probability was used to decide significance, etc).
+                Organize your presentation so your reader will understand the logical flow of the experiment(s); subheadings work well for this purpose. Each experiment or procedure should be presented as a unit, even if it was broken up over time. The experimental design and procedure are sometimes most efficiently presented as an integrated unit, because otherwise it would be difficult to split them up. 
+                In general, provide enough quantitative detail (how much, how long, when, etc.) about your experimental protocol such that other scientists could reproduce your experiments. 
+                You should also indicate the statistical procedures used to analyze your results, including the probability level at which you determined significance (usually at 0.05 probability).              
+            </p>
+        </sec>
+        <sec sec-type="results" id="s1">
+            <title>Results</title>
+            <p>The function of the Results section is to objectively present your key results, without interpretation, in an orderly and logical sequence using both text and illustrative materials (Tables and Figures). 
+                The results section always begins with text, reporting the key results and referring to your figures and tables as you proceed. Summaries of the statistical analyses may appear either in the text (usually parenthetically) or in the relevant Tables or Figures (in the legend or as footnotes to the Table or Figure). 
+                The Results section should be organized around Tables and/or Figures that should be sequenced to present your key findings in a logical order. The text of the Results section should be crafted to follow this sequence and highlight the evidence needed to answer the questions/hypotheses you investigated. 
+                Important negative results should be reported, too. Authors usually write the text of the results section based upon the sequence of Tables and Figures.
+            </p>
+        </sec>
+        <sec sec-type="discussion" id="s1">
+            <title>Discussion</title>
+            <p>The function of the Discussion is to interpret your results in light of what was already known about the subject of the investigation, and to explain our new understanding of the problem after taking your results into consideration. 
+                The Discussion will always connect to the Introduction by way of the question(s) or hypotheses you posed and the literature you cited, but it does not simply repeat or rearrange the Introduction. 
+                Instead, it tells how your study has moved us forward from the place you left us at the end of the Introduction.
+            </p>
+        </sec>
             <!--html allows for 6 levels of heading. No more can be allowed -->     
     </body>
     <back>
