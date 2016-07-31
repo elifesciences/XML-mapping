@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<article dtd-version="1.1d3" xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:mml="http://www.w3.org/1998/Math/MathML"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
+<!--eLife uses the JATS suggested @article-types from the given attribute. This is the location where we match our content names to known terms, we use subj-groups to use-eLife specific terms.
+The @article-types currently used are:
+article-commentary - Insight
+correction - Correction
+discussion - Feature 1/Feature 2
+research-article - all research content (ie non-feature content)
+-->
+<article article-type="research-article" dtd-version="1.1d3" xmlns:ali="http://www.niso.org/schemas/ali/1.0"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
         <!--journal-meta is standard for all articles published by eLife. No change, can be boilerplate text.
         <journal-id journal-id-type="hwp">eLife</journal-id> has been removed now-->
@@ -15,156 +22,165 @@
                 <publisher-name>eLife Sciences Publications, Ltd</publisher-name>
             </publisher>
         </journal-meta>
-           <article-meta>
-               <!--@pub-id-type publisher-id - always 5 digit number-->
-                <article-id pub-id-type="publisher-id">00666</article-id>	
-               <!--@pub-id-type doi - always elife prefix followed by eLife and same 5 digit number-->
-                <article-id pub-id-type="doi">10.7554/eLife.00666</article-id>	
-                <article-categories>	
-                    <!--@subj-group-type display-channel - elife defined article type, controlled list-->
-                    <subj-group subj-group-type="display-channel">
-                        <subject>Research article</subject>
-                    </subj-group>
-                    <!--@subj-group-type heading - elife defined major subject area, controlled list-->
-                    <subj-group subj-group-type="heading">
-                        <subject>Cell biology</subject>
-                    </subj-group>
-                </article-categories>	
-                <title-group>	
-                    <article-title>The eLife research paper</article-title>	
-                </title-group>
-        <contrib-group>
-            <contrib contrib-type="author" id="author-00000">
-                <name>
-                    <surname>Harrison</surname>
-                    <given-names>Melissa</given-names>
-                </name>
-                <xref ref-type="aff" rid="aff1"/>
-                <xref ref-type="other" rid="par-1"/>
-                <xref ref-type="fn" rid="conf1"/>
-                <xref ref-type="fn" rid="con1"/>
-            </contrib>
-            </contrib-group>
-        <aff id="aff1"><institution content-type="dept">Department of Production</institution>,
-            <institution>eLife</institution>,
-            <addr-line><named-content content-type="city">Cambridge</named-content></addr-line>,
-            <country>United Kingdom</country>
-        </aff>
-               <!--pub-date and history subject to change pending outcome of JATS4R history and versions rcommendation -->
-               <pub-date publication-format="electronic" date-type="pub">
-                   <day>25</day>
-                   <month>04</month>
-                   <year>2016</year>
-               </pub-date>
-               <!--Added pub-type collection in order for continuum to process as VoR -->
-               <pub-date pub-type="collection">
-                   <year>2016</year>
-               </pub-date>
-               <volume>5</volume>
-               <elocation-id>e15802</elocation-id>
-               <history>
-                   <date date-type="received">
-                       <day>05</day>
-                       <month>03</month>
-                       <year>2016</year>
-                   </date>
-                   <date date-type="accepted">
-                       <day>06</day>
-                       <month>04</month>
-                       <year>2016</year>
-                   </date>
-               </history>
-               <!--Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
-              <permissions>
-                   <copyright-statement>&#x00A9; 2016, Harrison et al</copyright-statement>
-                   <copyright-year>2016</copyright-year>
-                   <copyright-holder>Harrison et al</copyright-holder>
-                   <ali:free_to_read/>
-                   <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
-                       <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref>
-                       <license-p>This article is distributed under the terms of the <ext-link
-                           ext-link-type="uri"
-                           xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
-                           Commons Attribution License</ext-link>, which permits unrestricted use
-                           and redistribution provided that the original author and source are
-                           credited.</license-p>
-                   </license>
-               </permissions>
-               <self-uri content-type="pdf" xlink:href="elife00666.pdf"/>
-               <!--Abstract: this has changed: The following is no longer required for the XML file:
-                   <bold>DOI:</bold>
-				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">http://dx.doi.org/10.7554/eLife.00666.001</ext-link> -->
-               <abstract>
-                   <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
-                   <p>This is the abstract. It can contain any formatting, such as <italic>italics</italic>, <bold>bold</bold>, <sup>superscript</sup> or <sub>subscript</sub>.MathML is also allowed: <mml:math>
-                           <mml:mrow>
-                               <mml:munder>
-                                   <mml:mo/>
-                                   <mml:mi>m</mml:mi>
-                               </mml:munder>
-                               <mml:mrow>
-                                   <mml:msub>
-                                       <mml:mover accent="true">
-                                           <mml:mi>p</mml:mi>
-                                           <mml:mo/>
-                                       </mml:mover>
-                                       <mml:mi>m</mml:mi>
-                                   </mml:msub>
-                                   <mml:mo>=</mml:mo>
-                                   <mml:mn>0</mml:mn>
-                               </mml:mrow>
-                           </mml:mrow>
-                       </mml:math>
-                   </p>
-               <p>eLife does not structure abstracts into sub headings, but the abstract can have multiple paragarahs. The sub DOI is always .001 as it is the first asset in any paper</p>
-               </abstract>
-               <!--Digest: this has changed: The following is no longer required for the XML file:
-                   <bold>DOI:</bold>
-				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.002">http://dx.doi.org/10.7554/eLife.00666.002</ext-link>
-               Also, is no longer required for all research content-->
-               <abstract abstract-type="executive-summary">
-                   <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
-                   <title>eLife digest</title>
-                   <p>eLife digest are now optional and not every research paper will contain one. These are layman abstracts, designed for non-specialists in this field to be able to understand this article, as well as the general public.</p>
-               </abstract>
-               <!--Author keywords: this has changed: removed title from XML - is implicit in the @kwd-group-type
-               Can contain italics, but no bold or other formatting-->
-               <kwd-group kwd-group-type="author-keywords">
-                   <kwd>XML</kwd>
-                   <kwd>Housestyle</kwd>
-                   <kwd>eLife</kwd>
-                   <kwd><italic>formatting</italic></kwd>
-               </kwd-group>
-               <!--Research organism: this has changed: removed title from XML - is implicit in the @kwd-group-type
-               Can contain italics, but no bold or other formatting-->
-               <kwd-group kwd-group-type="research-organism">
-                   <kwd>Human</kwd>
-                   <kwd>Machine</kwd>
-               </kwd-group>
-        <funding-group>
-            <award-group id="par-1">
-                <funding-source>
-                    <institution-wrap>
-                        <institution>Wellcome</institution>
-                    </institution-wrap>
-                </funding-source>
-                <principal-award-recipient>
+        <article-meta>
+            <!--@pub-id-type publisher-id - always 5 digit number-->
+            <article-id pub-id-type="publisher-id">00666</article-id>
+            <!--@pub-id-type doi - always elife prefix followed by eLife and same 5 digit number-->
+            <article-id pub-id-type="doi">10.7554/eLife.00666</article-id>
+            <article-categories>
+                <!--@subj-group-type display-channel - elife defined article type, controlled list-->
+                <subj-group subj-group-type="display-channel">
+                    <subject>Research article</subject>
+                </subj-group>
+                <!--@subj-group-type heading - elife defined major subject area, controlled list-->
+                <subj-group subj-group-type="heading">
+                    <subject>Cell biology</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>The eLife research paper</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" id="author-00000">
                     <name>
                         <surname>Harrison</surname>
                         <given-names>Melissa</given-names>
                     </name>
-                </principal-award-recipient>
-            </award-group>
-        </funding-group>
-               <!--Custom-meta: no longer using eLife version as was never used properly.
+                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="other" rid="par-1"/>
+                    <xref ref-type="fn" rid="conf1"/>
+                    <xref ref-type="fn" rid="con1"/>
+                </contrib>
+            </contrib-group>
+            <aff id="aff1"><institution content-type="dept">Department of Production</institution>,
+                    <institution>eLife</institution>, <addr-line><named-content content-type="city"
+                        >Cambridge</named-content></addr-line>, <country>United Kingdom</country>
+            </aff>
+            <!--pub-date and history subject to change pending outcome of JATS4R history and versions rcommendation -->
+            <pub-date publication-format="electronic" date-type="pub">
+                <day>25</day>
+                <month>04</month>
+                <year>2016</year>
+            </pub-date>
+            <!--Added pub-type collection in order for continuum to process as VoR -->
+            <pub-date pub-type="collection">
+                <year>2016</year>
+            </pub-date>
+            <volume>5</volume>
+            <elocation-id>e15802</elocation-id>
+            <history>
+                <date date-type="received">
+                    <day>05</day>
+                    <month>03</month>
+                    <year>2016</year>
+                </date>
+                <date date-type="accepted">
+                    <day>06</day>
+                    <month>04</month>
+                    <year>2016</year>
+                </date>
+            </history>
+            <!--Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
+            <permissions>
+                <copyright-statement>&#x00A9; 2016, Harrison et al</copyright-statement>
+                <copyright-year>2016</copyright-year>
+                <copyright-holder>Harrison et al</copyright-holder>
+                <ali:free_to_read/>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                    <license-p>This article is distributed under the terms of the <ext-link
+                            ext-link-type="uri"
+                            xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
+                            Commons Attribution License</ext-link>, which permits unrestricted use
+                        and redistribution provided that the original author and source are
+                        credited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="elife00666.pdf"/>
+            <!--Abstract: this has changed: The following is no longer required for the XML file:
+                   <bold>DOI:</bold>
+				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">http://dx.doi.org/10.7554/eLife.00666.001</ext-link> -->
+            <abstract>
+                <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
+                <p>This is the abstract. This paper will describe the eLife paper and the process.
+                    An abstract can contain any formatting, such as <italic>italics</italic>,
+                        <bold>bold</bold>, <sup>superscript</sup> or <sub>subscript</sub>.MathML is
+                    also allowed: <mml:math>
+                        <mml:mrow>
+                            <mml:munder>
+                                <mml:mo/>
+                                <mml:mi>m</mml:mi>
+                            </mml:munder>
+                            <mml:mrow>
+                                <mml:msub>
+                                    <mml:mover accent="true">
+                                        <mml:mi>p</mml:mi>
+                                        <mml:mo/>
+                                    </mml:mover>
+                                    <mml:mi>m</mml:mi>
+                                </mml:msub>
+                                <mml:mo>=</mml:mo>
+                                <mml:mn>0</mml:mn>
+                            </mml:mrow>
+                        </mml:mrow>
+                    </mml:math>
+                </p>
+                <p>eLife does not structure abstracts into sub headings, but the abstract can have
+                    multiple paragarahs. The sub DOI is always .001 as it is the first asset in any
+                    paper</p>
+            </abstract>
+            <!--Digest: this has changed: The following is no longer required for the XML file:
+                   <bold>DOI:</bold>
+				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.002">http://dx.doi.org/10.7554/eLife.00666.002</ext-link>
+               Also, is no longer required for all research content-->
+            <abstract abstract-type="executive-summary">
+                <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
+                <title>eLife digest</title>
+                <p>eLife digest are now optional and not every research paper will contain one.
+                    These are layman abstracts, designed for non-specialists in this field to be
+                    able to understand this article, as well as the general public.</p>
+            </abstract>
+            <!--Author keywords: this has changed: removed title from XML - is implicit in the @kwd-group-type
+               Can contain italics, but no bold or other formatting-->
+            <kwd-group kwd-group-type="author-keywords">
+                <kwd>XML</kwd>
+                <kwd>Housestyle</kwd>
+                <kwd>eLife</kwd>
+                <kwd>
+                    <italic>formatting</italic>
+                </kwd>
+            </kwd-group>
+            <!--Research organism: this has changed: removed title from XML - is implicit in the @kwd-group-type
+               Can contain italics, but no bold or other formatting-->
+            <kwd-group kwd-group-type="research-organism">
+                <kwd>Human</kwd>
+                <kwd>Machine</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="par-1">
+                    <funding-source>
+                        <institution-wrap>
+                            <institution>Wellcome</institution>
+                        </institution-wrap>
+                    </funding-source>
+                    <principal-award-recipient>
+                        <name>
+                            <surname>Harrison</surname>
+                            <given-names>Melissa</given-names>
+                        </name>
+                    </principal-award-recipient>
+                </award-group>
+            </funding-group>
+            <!--Custom-meta: no longer using eLife version as was never used properly.
                    Impact statement:-->
-               <custom-meta-group>
-                   <custom-meta specific-use="meta-only">
-                       <meta-name>Author impact statement</meta-name>
-                       <meta-value>The chemical nature of RIF-1 may reveal a new class of bacterial signaling molecules</meta-value>
-                   </custom-meta>
-               </custom-meta-group>
-     </article-meta>
+            <custom-meta-group>
+                <custom-meta specific-use="meta-only">
+                    <meta-name>Author impact statement</meta-name>
+                    <meta-value>The chemical nature of RIF-1 may reveal a new class of bacterial
+                        signaling molecules</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </article-meta>
     </front>
     <body>
         <!--the headings used by eLife are standardised at the top level and sec is used, with a sec-type. 
@@ -195,42 +211,102 @@
         -->
         <sec sec-type="intro" id="s1">
             <title>Introduction</title>
-            <p>The function of the introduction is to establish the context of the work being reported. 
-                This is accomplished by discussing the relevant primary research literature (with citations) and summarizing our current 
-                understanding of the problem you are investigating. Also state the purpose of the work in the form of the hypothesis, question, 
-                or problem you investigated. Briefly explain your rationale and approach and, whenever possible, the possible outcomes your study can reveal.
-            </p>
+            <p>The function of the introduction is to establish the context of the work being
+                reported. This is accomplished by discussing the relevant primary research
+                literature (with citations) and summarizing our current understanding of the problem
+                you are investigating. Also state the purpose of the work in the form of the
+                hypothesis, question, or problem you investigated. Briefly explain your rationale
+                and approach and, whenever possible, the possible outcomes your study can reveal.
+                The eLife editorial process is as follows: eLife publishes the most highly
+                influential research across the life sciences and biomedicine. Before you submit
+                your work, please note that eLife is a very selective journal that aims to publish
+                work of the highest scientific standards and importance. Leading academic
+                researchers evaluate new submissions and approximately two-thirds are returned to
+                the authors without further peer review. Approximately half of the articles that are
+                selected for peer review go on to be published. If other researchers publish similar
+                findings after submission, this will not be a reason for rejection. The eLife
+                editorial process broadly occurs in three phases. If you are interested in
+                submitting your work to eLife, please review the guidelines relating to initial
+                submissions. If you have received an encouraging response to your initial
+                submission, please review the guidelines relating to full submissions. If your full
+                submission has been peer reviewed and you have been asked to make revisions, please
+                review our guidelines for revised submissions. Initial submission. eLife publishes
+                research of the very highest standard and significance, so many manuscripts are
+                returned to the authors without in-depth peer review. During the initial submission
+                phase, members of eLife’s senior editorial team rapidly assess new submissions,
+                often in consultation with members of the Board of Reviewing Editors or with
+                external guest editors where necessary, to identify the ones that are appropriate
+                for in-depth peer review. To simplify the submission process, authors should submit
+                their full manuscript as a single PDF. Limited additional information is collected
+                via the submission screen questions to complete the submission. Full submission. For
+                manuscripts that are invited for in-depth peer review, we request detailed
+                information about the work to support the peer review process, to ensure that the
+                work meets appropriate standards for the reporting of new findings, and, if
+                accepted, to assist in rapid publication and further dissemination of the work in
+                relevant indexes and repositories. Authors are asked to agree to publish their work
+                under the terms of the Creative Commons Attribution license (PDF of the agreement),
+                or the Creative Commons CC0 public domain dedication (PDF of the agreement) if one
+                or more authors are US-government employees. Revised submission. We will require a
+                response to the essential revision requirements outlined in the decision letter. A
+                response to minor comments is optional. In the event of acceptance, the substantive
+                revision requests and the authors’ response will be published, under the terms of
+                the Creative Commons Attribution license. In preparation for submission, authors
+                should ensure they have all the materials and information necessary to expedite the
+                submission and assessment of their work. </p>
         </sec>
         <sec sec-type="materials|methods" id="s2">
             <title>Materials and methods</title>
-            <p>
-                In this section you explain clearly how you carried out your study in the following general structure and organization.
-                The the organism(s) studied (plant, animal, human, etc.) and, when relevant, their pre-experiment handling and care, and when and where the study was carried out (only if location and time are important factors); note that the term "subject" is used ONLY for human studies.
-                if you did a field study, provide a description of the study site, including the significant physical and biological features, and the precise location (latitude and longitude, map, etc);
-                the experimental OR sampling design (i.e., how the experiment or study was structured. For example, controls, treatments, what variable(s) were measured, how many samples were collected, replication, the final form of the data, etc.);
-                the protocol for collecting data, i.e., how the experimental procedures were carried out, and,
-                how the data were analyzed (qualitative analyses and/or statistical procedures used to determine significance, data transformations used, what probability was used to decide significance, etc).
-                Organize your presentation so your reader will understand the logical flow of the experiment(s); subheadings work well for this purpose. Each experiment or procedure should be presented as a unit, even if it was broken up over time. The experimental design and procedure are sometimes most efficiently presented as an integrated unit, because otherwise it would be difficult to split them up. 
-                In general, provide enough quantitative detail (how much, how long, when, etc.) about your experimental protocol such that other scientists could reproduce your experiments. 
-                You should also indicate the statistical procedures used to analyze your results, including the probability level at which you determined significance (usually at 0.05 probability).              
-            </p>
+            <p> In this section you explain clearly how you carried out your study in the following
+                general structure and organization. The the organism(s) studied (plant, animal,
+                human, etc.) and, when relevant, their pre-experiment handling and care, and when
+                and where the study was carried out (only if location and time are important
+                factors); note that the term "subject" is used ONLY for human studies. if you did a
+                field study, provide a description of the study site, including the significant
+                physical and biological features, and the precise location (latitude and longitude,
+                map, etc); the experimental OR sampling design (i.e., how the experiment or study
+                was structured. For example, controls, treatments, what variable(s) were measured,
+                how many samples were collected, replication, the final form of the data, etc.); the
+                protocol for collecting data, i.e., how the experimental procedures were carried
+                out, and, how the data were analyzed (qualitative analyses and/or statistical
+                procedures used to determine significance, data transformations used, what
+                probability was used to decide significance, etc). Organize your presentation so
+                your reader will understand the logical flow of the experiment(s); subheadings work
+                well for this purpose. Each experiment or procedure should be presented as a unit,
+                even if it was broken up over time. The experimental design and procedure are
+                sometimes most efficiently presented as an integrated unit, because otherwise it
+                would be difficult to split them up. In general, provide enough quantitative detail
+                (how much, how long, when, etc.) about your experimental protocol such that other
+                scientists could reproduce your experiments. You should also indicate the
+                statistical procedures used to analyze your results, including the probability level
+                at which you determined significance (usually at 0.05 probability). </p>
         </sec>
         <sec sec-type="results" id="s3">
             <title>Results</title>
-            <p>The function of the Results section is to objectively present your key results, without interpretation, in an orderly and logical sequence using both text and illustrative materials (Tables and Figures). 
-                The results section always begins with text, reporting the key results and referring to your figures and tables as you proceed. Summaries of the statistical analyses may appear either in the text (usually parenthetically) or in the relevant Tables or Figures (in the legend or as footnotes to the Table or Figure). 
-                The Results section should be organized around Tables and/or Figures that should be sequenced to present your key findings in a logical order. The text of the Results section should be crafted to follow this sequence and highlight the evidence needed to answer the questions/hypotheses you investigated. 
-                Important negative results should be reported, too. Authors usually write the text of the results section based upon the sequence of Tables and Figures.
+            <p>The function of the Results section is to objectively present your key results,
+                without interpretation, in an orderly and logical sequence using both text and
+                illustrative materials (Tables and Figures). The results section always begins with
+                text, reporting the key results and referring to your figures and tables as you
+                proceed. Summaries of the statistical analyses may appear either in the text
+                (usually parenthetically) or in the relevant Tables or Figures (in the legend or as
+                footnotes to the Table or Figure). The Results section should be organized around
+                Tables and/or Figures that should be sequenced to present your key findings in a
+                logical order. The text of the Results section should be crafted to follow this
+                sequence and highlight the evidence needed to answer the questions/hypotheses you
+                investigated. Important negative results should be reported, too. Authors usually
+                write the text of the results section based upon the sequence of Tables and Figures.
             </p>
         </sec>
         <sec sec-type="discussion" id="s4">
             <title>Discussion</title>
-            <p>The function of the Discussion is to interpret your results in light of what was already known about the subject of the investigation, and to explain our new understanding of the problem after taking your results into consideration. 
-                The Discussion will always connect to the Introduction by way of the question(s) or hypotheses you posed and the literature you cited, but it does not simply repeat or rearrange the Introduction. 
-                Instead, it tells how your study has moved us forward from the place you left us at the end of the Introduction.
-            </p>
+            <p>The function of the Discussion is to interpret your results in light of what was
+                already known about the subject of the investigation, and to explain our new
+                understanding of the problem after taking your results into consideration. The
+                Discussion will always connect to the Introduction by way of the question(s) or
+                hypotheses you posed and the literature you cited, but it does not simply repeat or
+                rearrange the Introduction. Instead, it tells how your study has moved us forward
+                from the place you left us at the end of the Introduction. </p>
         </sec>
-            <!--html allows for 6 levels of heading. No more can be allowed -->     
+        <!--html allows for 6 levels of heading. No more can be allowed -->
     </body>
     <back>
         <sec sec-type="additional-information">
@@ -241,12 +317,12 @@
                 </fn>
             </fn-group>
             <fn-group content-type="author-contribution">
-            <title>Author contribution</title>
-            <fn fn-type="con" id="con1">
-                <p>Melissa Harrison, wrote this XML example</p>
-            </fn>
-            </fn-group>    
-                </sec>
+                <title>Author contribution</title>
+                <fn fn-type="con" id="con1">
+                    <p>Melissa Harrison, wrote this XML example</p>
+                </fn>
+            </fn-group>
+        </sec>
         <ref-list>
             <!--Journal reference: in press -->
             <ref id="bib1">
@@ -258,7 +334,6 @@
                         </name>
                         <name>
                             <surname>Wapinski</surname>
-                            <given-names>I</given-names>
                         </name>
                         <name>
                             <surname>Pfiffner</surname>
@@ -1027,8 +1102,8 @@
                 </element-citation>
             </ref>
             <!--Book reference: publisher location - US: city followed by state code-->
-                        <ref id="bib22">
-               <element-citation publication-type="book">
+            <ref id="bib22">
+                <element-citation publication-type="book">
                     <person-group person-group-type="author">
                         <name>
                             <surname>Coyne</surname>
@@ -1039,17 +1114,17 @@
                             <given-names>HA</given-names>
                         </name>
                     </person-group>
-                   <person-group person-group-type="editor">
-                       <name>
-                           <surname>Otte</surname>
-                           <given-names>D</given-names>
-                       </name>
-                       <name>
-                           <surname>Endler</surname>
-                           <given-names>JA</given-names>
-                       </name>
-                   </person-group>
-                   <year iso-8601-date="1989">1989</year>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Otte</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <name>
+                            <surname>Endler</surname>
+                            <given-names>JA</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="1989">1989</year>
                     <chapter-title>Two rules of speciation</chapter-title>
                     <source>Speciation and its consequences</source>
                     <publisher-loc>Sunderland, MA</publisher-loc>
@@ -1088,23 +1163,24 @@
                     <volume>3: Formulations of the Person and the Social Context</volume>
                     <source>Psychology A Study Of A Science</source>
                     <publisher-name>Mcgraw-Hill Book Company</publisher-name>
-               </element-citation>
+                </element-citation>
             </ref>
-        <!--Book reference: Has edition, editor is author-->
-        <ref id="bib25">
-            <element-citation publication-type="book">
-                <person-group person-group-type="editor">
-                    <name>
-                        <surname>Chmeil</surname>
-                        <given-names>N</given-names>
-                    </name>
-                </person-group>
-                <year iso-8601-date="2008">2008</year>
-                <edition>2</edition>
-                <source>An Introduction to Work and Organizational Psychology: A European Perspective</source>
-                <publisher-name>Wiley-Blackwell</publisher-name>
-            </element-citation>
-        </ref>
+            <!--Book reference: Has edition, editor is author-->
+            <ref id="bib25">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Chmeil</surname>
+                            <given-names>N</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2008">2008</year>
+                    <edition>2</edition>
+                    <source>An Introduction to Work and Organizational Psychology: A European
+                        Perspective</source>
+                    <publisher-name>Wiley-Blackwell</publisher-name>
+                </element-citation>
+            </ref>
             <!--Book reference: Has edition, editor is author-->
             <ref id="bib26">
                 <element-citation publication-type="book">
@@ -1113,8 +1189,9 @@
                     </person-group>
                     <year iso-8601-date="2016">2016</year>
                     <edition>2</edition>
-                    <source>	
-                        Growing up unequal: gender and socioeconomic differences in young people's health and well-being. Health Behaviour in School-aged Children (HBSC) study</source>
+                    <source> Growing up unequal: gender and socioeconomic differences in young
+                        people's health and well-being. Health Behaviour in School-aged Children
+                        (HBSC) study</source>
                     <publisher-name>World Health Organization</publisher-name>
                 </element-citation>
             </ref>
