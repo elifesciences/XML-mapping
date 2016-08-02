@@ -170,6 +170,16 @@ research-article - all research content (ie non-feature content)
                     </aff>
                 </contrib>
             </contrib-group>
+            <author-notes>
+                <corresp id="cor1">
+                    <label>&#x2a;</label>
+                    For correspondence: <email>m.harrison@elifesciences.org</email>
+                </corresp>
+                <fn fn-type="con" id="equal-contrib">
+                    <label>&#x2020;</label>
+                    <p>These authors contributed equally to this work</p>
+                </fn>
+            </author-notes>
             <!--pub-date and history subject to change pending outcome of JATS4R history and versions rcommendation -->
             <pub-date publication-format="electronic" date-type="pub">
                 <day>25</day>
