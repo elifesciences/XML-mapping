@@ -18,7 +18,7 @@ research-article - all research content (ie non-feature content)
             <journal-title-group>
                 <journal-title>eLife</journal-title>
             </journal-title-group>
-            <issn publication-format="electronic">2050-084X</issn>
+            <issn publication-format="electronic" pub-type="epub">2050-084X</issn>
             <publisher>
                 <publisher-name>eLife Sciences Publications, Ltd</publisher-name>
             </publisher>
