@@ -116,6 +116,13 @@ research-article - all research content (ie non-feature content)
                     <contrib-id contrib-id-type="group-author-key">group-author-id1</contrib-id>
                     <collab>eLife Production Group</collab>
                 </contrib>
+                <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
+                    <contrib-id contrib-id-type="group-author-key">group-author-id2</contrib-id>
+                    <collab>eLife Technology Group</collab>
+                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="fn" rid="conf3"/>
+                    <xref ref-type="corresp" rid="cor2">&#x2a;</xref>
+                </contrib>
                 <!-- on behalf of-->
                 <on-behalf-of>for the eLife team</on-behalf-of>
             </contrib-group>
@@ -170,10 +177,39 @@ research-article - all research content (ie non-feature content)
                     </aff>
                 </contrib>
             </contrib-group>
+            <contrib-group>
+                <contrib contrib-type="author non-byline">
+                    <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
+                        This text is not for display-->
+                    <contrib-id contrib-id-type="group-author-key">group-author-id2</contrib-id>
+                    <name>
+                        <surname>Wilkinson</surname>
+                        <given-names>Chris</given-names>
+                    </name>
+                    <name>
+                        <surname>Skibinski</surname>
+                        <given-names>Luke</given-names>
+                    </name>
+                    <name>
+                        <surname>Nott</surname>
+                        <given-names>Graham</given-names>
+                    </name>
+                    <aff>
+                        <institution>Graham Nott Enterprises</institution>,
+                        <addr-line>
+                            <named-content content-type="city">Victoria</named-content>
+                        </addr-line>
+                        <country>Canada</country>
+                    </aff>
+                </contrib>
+            </contrib-group>
             <author-notes>
                 <corresp id="cor1">
                     <label>&#x2a;</label>
                     For correspondence: <email>m.harrison@elifesciences.org</email>
+                </corresp>
+                <corresp id="cor2">
+                    <email>c.wilkinson@elifesciences.org</email>
                 </corresp>
                 <fn fn-type="con" id="equal-contrib">
                     <label>&#x2020;</label>
@@ -442,6 +478,9 @@ research-article - all research content (ie non-feature content)
                 <fn fn-type="conflict" id="conf2">
                     <p>The author has declared that no competing interests exist</p>
                 </fn>
+                <fn fn-type="conflict" id="conf3">
+                    <p>Graham Nott is not an eLife employee</p>
+                </fn>
             </fn-group>
             <fn-group content-type="author-contribution">
                 <title>Author contribution</title>
@@ -449,6 +488,9 @@ research-article - all research content (ie non-feature content)
                     <p>Melissa Harrison, completed the XML mapping exercise and wrote this XML example</p>
                 </fn>
                 <fn fn-type="con" id="con2">
+                    <p>James Gilbert, contributed to the XML mapping exercise and quality checked all the tagging and content</p>
+                </fn>
+                <fn fn-type="con" id="con3">
                     <p>James Gilbert, contributed to the XML mapping exercise and quality checked all the tagging and content</p>
                 </fn>
             </fn-group>
