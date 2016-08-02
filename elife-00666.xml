@@ -469,10 +469,12 @@ research-article - all research content (ie non-feature content)
             <sec id="s3-1">
                 <title>Lists (level 2 heading)</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
+                    See <xref ref-type="fig" rid="fig1">Figure 1</xref> for the representation of the Major Subject Areas, Research
+                    Organisms and author keywords on the eLife HTML page.
                 </p>
             </sec>
                 <sec id="s3-1-1">
-                    <title>Major subject areas (level 3 heading)</title>
+                    <title>Major Subject Areas (level 3 heading)</title>
                     <p>This is an example of a bulleted list. eLife Major subject areas are taken from a controlled list:</p>
                 <list list-type="bullet">
                     <list-item><p>Biochemistry</p></list-item>
@@ -490,8 +492,16 @@ research-article - all research content (ie non-feature content)
                     <list-item><p>Neuroscience</p></list-item>
                     <list-item><p>Plant Biology</p></list-item>
                 </list>
-            </sec>
-                <sec id="s3-1-2">
+        <fig id="fig1" position="float">
+            <object-id pub-id-type="doi">10.7554/eLife.13222.003</object-id>
+            <label>Figure 1.</label>
+            <caption>
+                <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page.</title>
+            </caption>
+            <graphic xlink:href="elife-00666-fig1-v1"/>
+        </fig>
+                </sec>
+            <sec id="s3-1-2">
                     <title>Research Organism (level 3 heading)</title>
                     <p>This is an example of an ordered list, the "system" will default to numbers. eLife Research organsims are taken from a controlled list from the submission system:</p>
                     <list list-type="order">
@@ -527,7 +537,8 @@ research-article - all research content (ie non-feature content)
                         <list-item><p><italic>P</italic>. <italic>cynocephalus</italic></p></list-item>
                         <list-item><p>Zebrafish</p></list-item>
                     </list>
-  <p>However, additional researchorganisms can be added during the production process.</p>
+  <p>However, additional research organisms can be added during the production process so this is not a controlled list once it is output from the editorial system. 
+      The research organism "Other" is hidden from display on the eLife website.</p>
         </sec>
         <sec sec-type="discussion" id="s4">
             <title>Discussion</title>
