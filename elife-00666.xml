@@ -451,7 +451,7 @@ research-article - all research content (ie non-feature content)
                 at which you determined significance (usually at 0.05 probability). </p>
         </sec>
         <sec sec-type="results" id="s3">
-            <title>Results</title>
+            <title>Results (level 1 heading)</title>
             <p>The function of the Results section is to objectively present your key results,
                 without interpretation, in an orderly and logical sequence using both text and
                 illustrative materials (Tables and Figures). The results section always begins with
@@ -467,13 +467,13 @@ research-article - all research content (ie non-feature content)
             </p>
         </sec>
             <sec id="s3-1">
-                <title>Lists</title>
+                <title>Lists (level 2 heading)</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
                 </p>
             </sec>
                 <sec id="s3-1-1">
-                    <title>Major subject areas</title>
-                <p>eLife Major subject areas are taken from a controlled list:</p>
+                    <title>Major subject areas (level 3 heading)</title>
+                    <p>This is an example of a bulleted list. eLife Major subject areas are taken from a controlled list:</p>
                 <list list-type="bullet">
                     <list-item><p>Biochemistry</p></list-item>
                     <list-item><p>Biophysics and Structural Biology</p></list-item>
@@ -492,8 +492,42 @@ research-article - all research content (ie non-feature content)
                 </list>
             </sec>
                 <sec id="s3-1-2">
-                <title>Research Organism</title>
-                <p></p>
+                    <title>Research Organism (level 3 heading)</title>
+                    <p>This is an example of an ordered list, the "system" will default to numbers. eLife Research organsims are taken from a controlled list from the submission system:</p>
+                    <list list-type="order">
+                        <list-item><p><italic>Arabidopsis</italic></p></list-item>
+                        <list-item><p><italic>B</italic>. <italic>subtilis</italic></p></list-item>
+                        <list-item><p><italic>C</italic>. <italic>elegans</italic></p></list-item>
+                        <list-item><p><italic>C</italic>. <italic>intestinalis</italic></p></list-item>
+                        <list-item><p>Chicken</p></list-item>
+                        <list-item><p><italic>D</italic>. <italic>melanogaster</italic></p></list-item>
+                        <list-item><p><italic>Dictyostelium</italic></p></list-item>
+                        <list-item><p><italic>E</italic>. <italic>coli</italic></p></list-item>
+                        <list-item><p>Frog</p></list-item>
+                        <list-item><p>Human</p></list-item>
+                        <list-item><p><italic>M</italic>. <italic>mulatta</italic></p></list-item>
+                        <list-item><p>Maize</p></list-item>
+                        <list-item><p>Mouse</p></list-item>
+                        <list-item><p><italic>M</italic>. <italic>thermophila</italic></p></list-item>
+                        <list-item><p><italic>M</italic>. <italic>crassa</italic></p></list-item>
+                        <list-item><p><italic>Neurospora</italic></p></list-item>
+                        <list-item><p>None</p></list-item>
+                        <list-item><p>Other</p></list-item>
+                        <list-item><p><italic>O</italic>. <italic>fasciatus</italic></p></list-item>
+                        <list-item><p><italic>P</italic>. <italic>falciparum</italic></p></list-item>
+                        <list-item><p><italic>P</italic>. <italic>dumerilii</italic></p></list-item>
+                        <list-item><p>Rat</p></list-item>
+                        <list-item><p><italic>S</italic>. <italic>cerevisiae</italic></p></list-item>
+                        <list-item><p><italic>S</italic>. <italic>pombe</italic></p></list-item>
+                        <list-item><p><italic>S</italic>. <italic>enterica</italic>serovar Typhi</p></list-item>
+                        <list-item><p><italic>S</italic>. <italic>pyogenes</italic></p></list-item>
+                        <list-item><p>Virus</p></list-item>
+                        <list-item><p><italic>Volvox</italic></p></list-item>
+                        <list-item><p><italic>Xenopus</italic></p></list-item>
+                        <list-item><p><italic>P</italic>. <italic>cynocephalus</italic></p></list-item>
+                        <list-item><p>Zebrafish</p></list-item>
+                    </list>
+  <p>However, additional researchorganisms can be added during the production process.</p>
         </sec>
         <sec sec-type="discussion" id="s4">
             <title>Discussion</title>
