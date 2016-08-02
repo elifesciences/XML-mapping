@@ -208,10 +208,10 @@ research-article - all research content (ie non-feature content)
             <author-notes>
                 <corresp id="cor1">
                     <label>&#x2a;</label>
-                    For correspondence: <email>m.harrison@elifesciences.org</email>
+                    For correspondence: <email>m.harrison@elifesciences.org</email> (MH)
                 </corresp>
                 <corresp id="cor2">
-                    <email>c.wilkinson@elifesciences.org</email>
+                    <email>c.wilkinson@elifesciences.org</email> (CW)
                 </corresp>
                 <fn fn-type="con" id="equal-contrib">
                     <label>&#x2020;</label>
@@ -465,6 +465,35 @@ research-article - all research content (ie non-feature content)
                 investigated. Important negative results should be reported, too. Authors usually
                 write the text of the results section based upon the sequence of Tables and Figures.
             </p>
+        </sec>
+            <sec id="s3-1">
+                <title>Lists</title>
+                <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
+                </p>
+            </sec>
+                <sec id="s3-1-1">
+                    <title>Major subject areas</title>
+                <p>eLife Major subject areas are taken from a controlled list:</p>
+                <list list-type="bullet">
+                    <list-item><p>Biochemistry</p></list-item>
+                    <list-item><p>Biophysics and Structural Biology</p></list-item>
+                    <list-item><p>Cell Biology</p></list-item>
+                    <list-item><p>Computational and Systems Biology</p></list-item>
+                    <list-item><p>Developmental Biology and Stem Cells</p></list-item>
+                    <list-item><p>Ecology</p></list-item>
+                    <list-item><p>Epidemiology and Global Health</p></list-item>
+                    <list-item><p>Genes and Chromosomes</p></list-item>
+                    <list-item><p>Genomics and Evolutionary Biology</p></list-item>
+                    <list-item><p>Human Biology and Medicine</p></list-item>
+                    <list-item><p>Immunology</p></list-item>
+                    <list-item><p>Microbiology and Infectious Disease</p></list-item>
+                    <list-item><p>Neuroscience</p></list-item>
+                    <list-item><p>Plant Biology</p></list-item>
+                </list>
+            </sec>
+                <sec id="s3-1-2">
+                <title>Research Organism</title>
+                <p></p>
         </sec>
         <sec sec-type="discussion" id="s4">
             <title>Discussion</title>
