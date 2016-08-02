@@ -28,11 +28,32 @@ research-article - all research content (ie non-feature content)
             <!--@pub-id-type doi - always elife prefix followed by eLife and same 5 digit number-->
             <article-id pub-id-type="doi">10.7554/eLife.00666</article-id>
             <article-categories>
-                <!--@subj-group-type display-channel - elife defined article type, controlled list-->
+                <!--@subj-group-type display-channel - elife defined article type, controlled list:
+                Research Article
+                Short Report
+                Tools and Resources
+                Research Advance
+                Registered Report-->
                 <subj-group subj-group-type="display-channel">
                     <subject>Research article</subject>
                 </subj-group>
-                <!--@subj-group-type heading - elife defined major subject area, controlled list-->
+                <!--@subj-group-type heading - elife defined major subject area. There can be up to 3 per article.
+                    Controlled list:
+                    Biochemistry
+                    Biophysics and Structural Biology
+                    Cell Biology
+                    Computational and Systems Biology
+                    Developmental Biology and Stem Cells
+                    Ecology
+                    Epidemiology and Global Health
+                    Genes and Chromosomes
+                    Genomics and Evolutionary Biology
+                    Human Biology and Medicine
+                    Immunology
+                    Microbiology and Infectious Disease
+                    Neuroscience
+                    Plant Biology
+                -->
                 <subj-group subj-group-type="heading">
                     <subject>Cell biology</subject>
                 </subj-group>
@@ -41,15 +62,53 @@ research-article - all research content (ie non-feature content)
                 <article-title>The eLife research paper</article-title>
             </title-group>
             <contrib-group>
-                <contrib contrib-type="author" id="author-00000">
+                <!--The contrib must have following attributes:
+                    contrib-type="author"
+                    id="author-00000" - this is the unique number assigned to an author via the submission system
+                    The contrib may have following attributes:
+                    equal-contrib="yes" - can only be used if an author contributed equally with another author and
+                    this attribute must be present on their contrib. There is no limit to the number of equal contributions 
+                    and there can be seperate groups of equal - the symbol denoted in the following is the indicator for who 
+                    contributed with whom <xref ref-type="fn" rid="equal-contrib">&#x2020;</xref>
+                    deceased="yes" - only used if author is now dead
+                    corresp="yes" - only used if the author is a corresponding author. There can be more than one corresponding author-->
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="author-00001">
                     <name>
                         <surname>Harrison</surname>
                         <given-names>Melissa</given-names>
                     </name>
+                    <!-- All corresponding authors in articles should now have an ORCID and other authors are encouraged to have one-->
+                    <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3523-4408</contrib-id>
+                    <!-- author affiliation(s) are linked to the contrib via the xref link to their "aff"
+                    Authors can have one or multiple affiliations-->
                     <xref ref-type="aff" rid="aff1"/>
+                    <!-- authors who have funding that is declared on the paper are linked to this via the 
+                        xref link to the <award-group> via the"par" ID. Authors can have one or multiple funding-->
                     <xref ref-type="other" rid="par-1"/>
+                    <!-- author competing interests statement is linked to the contrib via the footnote with attribute 
+                        fn-type="conflict" and the corresponding id. Only one is allowed per author-->
                     <xref ref-type="fn" rid="conf1"/>
+                    <!-- author contributions are linked to their contrib via the footnote with attribute 
+                        fn-type="con" and the corresponding id. Only one is allowed per author-->
                     <xref ref-type="fn" rid="con1"/>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes" id="author-00002">
+                    <name>
+                        <surname>Gilbert</surname>
+                        <given-names>James F</given-names>
+                    </name>
+                    <!-- author affiliation(s) are linked to the contrib via the xref link to their "aff"
+                    Authors can have one or multiple affiliations-->
+                    <xref ref-type="aff" rid="aff1"/>
+                    <!-- authors who have funding that is declared on the paper are linked to this via the 
+                        xref link to the <award-group> via the"par" ID. Authors can have one or multiple funding-->
+                    <xref ref-type="other" rid="par-1"/>
+                    <!-- author competing interests statement is linked to the contrib via the footnote with attribute 
+                        fn-type="conflict" and the corresponding id. Only one is allowed per author-->
+                    <xref ref-type="fn" rid="conf2"/>
+                    <!-- author contributions are linked to their contrib via the footnote with attribute 
+                        fn-type="con" and the corresponding id. Only one is allowed per author-->
+                    <xref ref-type="fn" rid="con2"/>
                 </contrib>
             </contrib-group>
             <aff id="aff1"><institution content-type="dept">Department of Production</institution>,
@@ -313,13 +372,19 @@ research-article - all research content (ie non-feature content)
             <fn-group content-type="competing-interest">
                 <title>Competing interests</title>
                 <fn fn-type="conflict" id="conf1">
+                    <p>Melissa Harrison is chair of JATS4R</p>
+                </fn>
+                <fn fn-type="conflict" id="conf2">
                     <p>The author has declared that no competing interests exist</p>
                 </fn>
             </fn-group>
             <fn-group content-type="author-contribution">
                 <title>Author contribution</title>
                 <fn fn-type="con" id="con1">
-                    <p>Melissa Harrison, wrote this XML example</p>
+                    <p>Melissa Harrison, completed the XML mapping exercise and wrote this XML example</p>
+                </fn>
+                <fn fn-type="con" id="con2">
+                    <p>James Gilbert, contributed to the XML mapping exercise and quality checked all the tagging and content</p>
                 </fn>
             </fn-group>
         </sec>
