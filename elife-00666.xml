@@ -492,7 +492,11 @@ research-article - all research content (ie non-feature content)
                     <list-item><p>Neuroscience</p></list-item>
                     <list-item><p>Plant Biology</p></list-item>
                 </list>
-        <fig id="fig1" position="float">
+                    <!-- Change: The following has been removed from the XML as it is not necessary to repeat it, can be derived from the object-id DOI:
+                        <p><bold>DOI:</bold>
+                                 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.003"
+                                                >http://dx.doi.org/10.7554/eLife.00666.003</ext-link></p>-->
+                    <fig id="fig1" position="float">
             <object-id pub-id-type="doi">10.7554/eLife.13222.003</object-id>
             <label>Figure 1.</label>
             <caption>
