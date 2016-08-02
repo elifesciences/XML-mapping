@@ -901,7 +901,7 @@ research-article - all research content (ie non-feature content)
                         >10.2210/pdb4qen/pdb</pub-id>
                 </element-citation>
             </ref>
-            <!--Data reference: ProteomeXchange: pub-id-type="archive Identifier" - not clear what this number is, so default option -->
+            <!--Data reference: ProteomeXchange: pub-id-type="archive" - not clear what this number is, so default option -->
             <ref id="bib10">
                 <element-citation publication-type="data">
                     <person-group person-group-type="author">
@@ -954,7 +954,7 @@ research-article - all research content (ie non-feature content)
                     <data-title>ISG15 counteracts <italic>Listeria monocytogenes</italic>
                         infection</data-title>
                     <source>ProteomeXchange</source>
-                    <pub-id pub-id-type="archive Identifier"
+                    <pub-id pub-id-type="archive"
                         xlink:href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001805"
                         >PXD001805</pub-id>
                 </element-citation>
