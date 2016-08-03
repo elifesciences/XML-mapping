@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d3 20150301//EN" "JATS-archivearticle1.dtd">
-<!--eLife uses the JATS suggested @article-types from the given attribute. This is the location where we match our content names to known terms, we use subj-groups to use-eLife specific terms.
+<!--eLife uses the JATS suggested @article-types from the given attribute list. This is the location where we match our content names to known terms, 
+    we use subj-groups to use-eLife specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits
 The @article-types currently used are:
 article-commentary - Insight
 correction - Correction
 discussion - Feature 1/Feature 2
+editorial - Editorial
 research-article - all research content (ie non-feature content)
 -->
 <article article-type="research-article" dtd-version="1.1d3" xmlns:ali="http://www.niso.org/schemas/ali/1.0"
