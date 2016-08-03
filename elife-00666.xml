@@ -474,8 +474,7 @@ research-article - all research content (ie non-feature content)
                 </p>
                 <sec id="s3-1-1">
                     <title>Article types</title>
-                    <p>This is an example of a list where the prefix character is a lowercase roman numeral. We also allow the list type attribute of "roman-upper", 
-                        which would produce a list where the prefix character is an uppercase roman numeral.  eLife Article Types are taken from a controlled list:</p>
+                    <p>This is an example of a list where the prefix character is a lowercase roman numeral. eLife Article Types are taken from a controlled list:</p>
                     <list list-type="roman-lower">
                         <list-item><p>Research article</p></list-item>
                         <list-item><p>Short Report</p></list-item>
@@ -484,6 +483,17 @@ research-article - all research content (ie non-feature content)
                         <list-item><p>Registered Report</p></list-item>
                         <list-item><p>Replication Study</p></list-item>
                     </list>
+                    <sec id="s3-1-1-1">
+                        <title>Article types (XML only, not display) (level 4 heading)</title>
+                        <p>This is an example of a list where the prefix character is a uppercase roman numeral. This is a controlled list from the JATS DTD</p>
+                        <list list-type="roman-upper">
+                            <list-item><p>article-commentary (used for Insights)</p></list-item>
+                            <list-item><p>correction</p></list-item>
+                            <list-item><p>discussion (used for Feature 1 and Feature 2)</p></list-item>
+                            <list-item><p>editorial</p></list-item>
+                            <list-item><p>research-article (all reseasrch content)</p></list-item>
+                        </list>
+                    </sec>
                 </sec>
                 <sec id="s3-1-2">
                     <title>Major Subject Areas</title>
