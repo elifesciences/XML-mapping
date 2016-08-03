@@ -384,8 +384,7 @@ research-article - all research content (ie non-feature content)
             <title>Introduction (Level 1 heading)</title>
             <p>This article is a guide to the tagging and display of eLife articles and will 
                 encompass all the elements that can be possible for an eLife article. 
-                It will aslo include information from the author guide.</p>
-        </sec>    
+                It will aslo include information from the author guide.</p>   
         <sec id="s1-1"> 
             <title>The eLife editorial process (level 2 heading)</title>
                 <p>eLife publishes the most highly influential research across the life sciences and biomedicine. 
@@ -401,7 +400,6 @@ research-article - all research content (ie non-feature content)
                 submission, please review the guidelines relating to full submissions. If your full
                 submission has been peer reviewed and you have been asked to make revisions, please
                 review our guidelines for revised submissions.</p>
-        </sec>
             <sec id="s1-1-1"> 
                 <title>Initial submission (level 3 heading)</title> 
                 <p>eLife publishes research of the very highest standard and significance, so many manuscripts are
@@ -433,6 +431,7 @@ research-article - all research content (ie non-feature content)
                 should ensure they have all the materials and information necessary to expedite the
                 submission and assessment of their work.</p>
         </sec>
+        </sec>
         <sec id="s1-2"> 
             <title>The eLife production process (level 2 heading)</title>
             <sec id="s1-2-1"> 
@@ -441,7 +440,6 @@ research-article - all research content (ie non-feature content)
                 The mean time from acceptance to publication at this stage is 1 day. Using MsQl basic metadata is exported from the submission system to an 
                 AWS bucket as CSV files. The author files are exported to another AWS and an eLife process generates a package of this information and the 
                 author files to deliver to the online platform, Continuum.</p>
-        </sec>
         <sec id="s1-2-2"> 
             <title>Publication of the full version (Version of record) (level 3 heading)</title>
             <p>The production process includes an author proofing cycle and the output is the final full text version of the paper online, as well as a typeset PDF.</p>
@@ -455,57 +453,39 @@ research-article - all research content (ie non-feature content)
                 <p>eLife allows up to four levels of headings and no more. This is a demostration of a level 4 heading.</p>
             </sec>
         </sec>
+        </sec>
+        </sec>
         <sec sec-type="materials|methods" id="s2">
             <title>Materials and methods</title>
-            <p> In this section you explain clearly how you carried out your study in the following
-                general structure and organization. The the organism(s) studied (plant, animal,
-                human, etc.) and, when relevant, their pre-experiment handling and care, and when
-                and where the study was carried out (only if location and time are important
-                factors); note that the term "subject" is used ONLY for human studies. if you did a
-                field study, provide a description of the study site, including the significant
-                physical and biological features, and the precise location (latitude and longitude,
-                map, etc); the experimental OR sampling design (i.e., how the experiment or study
-                was structured. For example, controls, treatments, what variable(s) were measured,
-                how many samples were collected, replication, the final form of the data, etc.); the
-                protocol for collecting data, i.e., how the experimental procedures were carried
-                out, and, how the data were analyzed (qualitative analyses and/or statistical
-                procedures used to determine significance, data transformations used, what
-                probability was used to decide significance, etc). Organize your presentation so
-                your reader will understand the logical flow of the experiment(s); subheadings work
-                well for this purpose. Each experiment or procedure should be presented as a unit,
-                even if it was broken up over time. The experimental design and procedure are
-                sometimes most efficiently presented as an integrated unit, because otherwise it
-                would be difficult to split them up. In general, provide enough quantitative detail
-                (how much, how long, when, etc.) about your experimental protocol such that other
-                scientists could reproduce your experiments. You should also indicate the
-                statistical procedures used to analyze your results, including the probability level
-                at which you determined significance (usually at 0.05 probability). </p>
+            <p> eLife is tagged up as XML using the NISO standard JATS DTD. 
+                We conform to the JATS4R recommendations where possible and also deliver our content to PMC.
+                We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them.
+                eLife content is delivered to more repositories and it can be scraped from the eLife site.</p>
         </sec>
         <sec sec-type="results" id="s3">
-            <title>Results (level 1 heading)</title>
-            <p>The function of the Results section is to objectively present your key results,
-                without interpretation, in an orderly and logical sequence using both text and
-                illustrative materials (Tables and Figures). The results section always begins with
-                text, reporting the key results and referring to your figures and tables as you
-                proceed. Summaries of the statistical analyses may appear either in the text
-                (usually parenthetically) or in the relevant Tables or Figures (in the legend or as
-                footnotes to the Table or Figure). The Results section should be organized around
-                Tables and/or Figures that should be sequenced to present your key findings in a
-                logical order. The text of the Results section should be crafted to follow this
-                sequence and highlight the evidence needed to answer the questions/hypotheses you
-                investigated. Important negative results should be reported, too. Authors usually
-                write the text of the results section based upon the sequence of Tables and Figures.
-            </p>
-        </sec>
+            <title>Results</title>
+            <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. However, the Introduction section was used to demostrate heading levels.</p>
             <sec id="s3-1">
-                <title>Lists (level 2 heading)</title>
+                <title>eLife controlled lists</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
                     See <xref ref-type="fig" rid="fig1">Figure 1</xref> for the representation of the Major Subject Areas, Research
                     Organisms and author keywords on the eLife HTML page.
                 </p>
-            </sec>
                 <sec id="s3-1-1">
-                    <title>Major Subject Areas (level 3 heading)</title>
+                    <title>Article types</title>
+                    <p>This is an example of a list where the prefix character is a lowercase roman numeral. We also allow the list type attribute of "roman-upper", 
+                        which would produce a list where the prefix character is an uppercase roman numeral.  eLife Article Types are taken from a controlled list:</p>
+                    <list list-type="roman-lower">
+                        <list-item><p>Research article</p></list-item>
+                        <list-item><p>Short Report</p></list-item>
+                        <list-item><p>Tools and Resources</p></list-item>
+                        <list-item><p>Research Advance</p></list-item>
+                        <list-item><p>Registered Report</p></list-item>
+                        <list-item><p>Replication Study</p></list-item>
+                    </list>
+                </sec>
+                <sec id="s3-1-2">
+                    <title>Major Subject Areas</title>
                     <p>This is an example of a bulleted list. eLife Major subject areas are taken from a controlled list:</p>
                 <list list-type="bullet">
                     <list-item><p>Biochemistry</p></list-item>
@@ -523,21 +503,8 @@ research-article - all research content (ie non-feature content)
                     <list-item><p>Neuroscience</p></list-item>
                     <list-item><p>Plant Biology</p></list-item>
                 </list>
-                    <!-- Change: The following has been removed from the XML as it is not necessary to repeat it, can be derived from the object-id DOI:
-                        <p><bold>DOI:</bold>
-                                 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.003"
-                                                >http://dx.doi.org/10.7554/eLife.00666.003</ext-link></p>-->
-                    <fig id="fig1" position="float">
-            <object-id pub-id-type="doi">10.7554/eLife.13222.003</object-id>
-            <label>Figure 1.</label>
-            <caption>
-                <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page.</title>
-            </caption>
-            <graphic xlink:href="elife-00666-fig1-v1"/>
-        </fig>
-                </sec>
-            <sec id="s3-1-2">
-                    <title>Research Organism (level 3 heading)</title>
+            <sec id="s3-1-4">
+                    <title>Research Organism</title>
                     <p>This is an example of an ordered list, the "system" will default to numbers. eLife Research organsims are taken from a controlled list from the submission system:</p>
                     <list list-type="order">
                         <list-item><p><italic>Arabidopsis</italic></p></list-item>
@@ -574,7 +541,37 @@ research-article - all research content (ie non-feature content)
                     </list>
   <p>However, additional research organisms can be added during the production process so this is not a controlled list once it is output from the editorial system. 
       The research organism "Other" is hidden from display on the eLife website.</p>
-        </sec>
+            </sec>
+                </sec>
+            </sec>
+                <sec id="s3-2">
+                    <title>Tables</title>
+                    <p></p>
+                </sec>
+                <sec id="s3-3">
+                    <title>Math</title>
+                    <p></p>
+                </sec>
+                <sec id="s3-4">
+                    <title>Figures</title>
+                    <p><!-- Change: The following has been removed from the XML as it is not necessary to repeat it, can be derived from the object-id DOI:
+                        <p><bold>DOI:</bold>
+                                 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.003"
+                                                >http://dx.doi.org/10.7554/eLife.00666.003</ext-link></p>-->
+                        <fig id="fig1" position="float">
+                            <object-id pub-id-type="doi">10.7554/eLife.13222.003</object-id>
+                            <label>Figure 1.</label>
+                            <caption>
+                                <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page.</title>
+                            </caption>
+                            <graphic xlink:href="elife-00666-fig1-v1"/>
+                        </fig></p>
+                </sec>
+                <sec id="s3-5">
+                    <title>Boxes</title>
+                    <p></p>
+                </sec>
+            </sec>
         <sec sec-type="discussion" id="s4">
             <title>Discussion</title>
             <p>The function of the Discussion is to interpret your results in light of what was
