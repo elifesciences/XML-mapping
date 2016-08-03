@@ -190,6 +190,7 @@ research-article - all research content (ie non-feature content)
                     <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
                         This text is not for display-->
                     <contrib-id contrib-id-type="group-author-key">group-author-id2</contrib-id>
+                    <!-- A group author member can have an ORCID -->
                     <name>
                         <surname>Wilkinson</surname>
                         <given-names>Chris</given-names>
@@ -199,7 +200,7 @@ research-article - all research content (ie non-feature content)
                         <surname>Skibinski</surname>
                         <given-names>Luke</given-names>
                     </name>
-                    <name>
+                    <!-- A group author member can have an affiliation, but it is contained within the contrib after their name--><name>
                         <surname>Nott</surname>
                         <given-names>Graham</given-names>
                     </name>
