@@ -12,8 +12,8 @@ research-article - all research content (ie non-feature content)
 <article article-type="research-article" dtd-version="1.1d3" xmlns:ali="http://www.niso.org/schemas/ali/1.0"
     xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
-        <!--journal-meta is standard for all articles published by eLife. No change, can be boilerplate text.
-        <journal-id journal-id-type="hwp">eLife</journal-id> has been removed now-->
+        <!--journal-meta is standard for all articles published by eLife. Can be boilerplate text as this will not change.
+        <journal-id journal-id-type="hwp">eLife</journal-id> has been removed from this version of the kitchen sink as we are no longer hosted by HighWirePress-->
         <journal-meta>
             <journal-id journal-id-type="nlm-ta">eLife</journal-id>
             <journal-id journal-id-type="publisher-id">eLife</journal-id>
