@@ -66,16 +66,17 @@ research-article - all research content (ie non-feature content)
                 <article-title>The eLife research paper</article-title>
             </title-group>
             <contrib-group>
-                <!--The contrib must have following attributes:
-                    contrib-type="author"
+                <!--Each contrib must have following attributes:
+                    @contrib-type - "author". "editor" also used in one place: see <contrib-group content-type="section">.
                     id="author-00000" - this is the unique number assigned to an author via the submission system
                     The contrib may have following attributes:
                     equal-contrib="yes" - can only be used if an author contributed equally with another author and
-                    this attribute must be present on their contrib. There is no limit to the number of equal contributions 
-                    and there can be seperate groups of equal - the symbol denoted in the following is the indicator for who 
+                    this attribute must be present on both their contribs. There is no limit to the number of equal contributions 
+                    and there can be seperate groups of equal contribution - the symbol denoted in the following is the indicator for who 
                     contributed with whom <xref ref-type="fn" rid="equal-contrib">&#x2020;</xref>
                     deceased="yes" - only used if author is now dead
-                    corresp="yes" - only used if the author is a corresponding author. There can be more than one corresponding author-->
+                    corresp="yes" - only used if the author is a corresponding author. There can be more than one corresponding author and 
+                    there is no limit to the number of corresponding authors-->
                 <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="author-00001">
                     <name>
                         <surname>Harrison</surname>
