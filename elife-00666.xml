@@ -207,12 +207,13 @@ research-article - all research content (ie non-feature content)
                 </contrib>
             </contrib-group>
             <author-notes>
+                <!--Corresponednece - removed "For correspondence:" and author initials in brackets - they are not tagged and the html version does not require it, PDF can automate? -->
                 <corresp id="cor1">
                     <label>&#x2a;</label>
-                    For correspondence: <email>m.harrison@elifesciences.org</email> (MH)
+                    <email>m.harrison@elifesciences.org</email>
                 </corresp>
                 <corresp id="cor2">
-                    <email>c.wilkinson@elifesciences.org</email> (CW)
+                    <email>c.wilkinson@elifesciences.org</email>
                 </corresp>
                 <fn fn-type="con" id="equal-contrib">
                     <label>&#x2020;</label>
