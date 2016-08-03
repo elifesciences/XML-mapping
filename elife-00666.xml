@@ -123,6 +123,7 @@ research-article - all research content (ie non-feature content)
                     <collab>eLife Technology Group</collab>
                     <xref ref-type="aff" rid="aff1"/>
                     <xref ref-type="fn" rid="conf3"/>
+                    <xref ref-type="fn" rid="con3"/>
                     <xref ref-type="corresp" rid="cor2">&#x2a;</xref>
                 </contrib>
                 <!-- on behalf of-->
@@ -618,7 +619,9 @@ research-article - all research content (ie non-feature content)
                     <p>James Gilbert, contributed to the XML mapping exercise and quality checked all the tagging and content</p>
                 </fn>
                 <fn fn-type="con" id="con3">
-                    <p>James Gilbert, contributed to the XML mapping exercise and quality checked all the tagging and content</p>
+                    <p>Chris Wilkinson,  performed the XML mapping exercise and generated the JSON Schema</p>
+                    <p>Graham Nott, wrote the JATSscraper</p>
+                    <p>Luke Skibinski, identified missing components from the JATSscraper</p>
                 </fn>
             </fn-group>
         </sec>
