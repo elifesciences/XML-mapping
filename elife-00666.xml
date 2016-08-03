@@ -381,16 +381,15 @@ research-article - all research content (ie non-feature content)
             To allow for the flexibility, a title is also apploed to each section
         -->
         <sec sec-type="intro" id="s1">
-            <title>Introduction</title>
-            <p>The function of the introduction is to establish the context of the work being
-                reported. This is accomplished by discussing the relevant primary research
-                literature (with citations) and summarizing our current understanding of the problem
-                you are investigating. Also state the purpose of the work in the form of the
-                hypothesis, question, or problem you investigated. Briefly explain your rationale
-                and approach and, whenever possible, the possible outcomes your study can reveal.
-                The eLife editorial process is as follows: eLife publishes the most highly
-                influential research across the life sciences and biomedicine. Before you submit
-                your work, please note that eLife is a very selective journal that aims to publish
+            <title>Introduction (Level 1 heading)</title>
+            <p>This article is a guide to the tagging and display of eLife articles and will 
+                encompass all the elements that can be possible for an eLife article. 
+                It will aslo include information from the author guide.</p>
+        </sec>    
+        <sec id="s1-1"> 
+            <title>The eLife editorial process (level 2 heading)</title>
+                <p>eLife publishes the most highly influential research across the life sciences and biomedicine. 
+                Before you submit your work, please note that eLife is a very selective journal that aims to publish
                 work of the highest scientific standards and importance. Leading academic
                 researchers evaluate new submissions and approximately two-thirds are returned to
                 the authors without further peer review. Approximately half of the articles that are
@@ -401,29 +400,60 @@ research-article - all research content (ie non-feature content)
                 submissions. If you have received an encouraging response to your initial
                 submission, please review the guidelines relating to full submissions. If your full
                 submission has been peer reviewed and you have been asked to make revisions, please
-                review our guidelines for revised submissions. Initial submission. eLife publishes
-                research of the very highest standard and significance, so many manuscripts are
+                review our guidelines for revised submissions.</p>
+        </sec>
+            <sec id="s1-1-1"> 
+                <title>Initial submission (level 3 heading)</title> 
+                <p>eLife publishes research of the very highest standard and significance, so many manuscripts are
                 returned to the authors without in-depth peer review. During the initial submission
                 phase, members of eLife’s senior editorial team rapidly assess new submissions,
                 often in consultation with members of the Board of Reviewing Editors or with
                 external guest editors where necessary, to identify the ones that are appropriate
                 for in-depth peer review. To simplify the submission process, authors should submit
                 their full manuscript as a single PDF. Limited additional information is collected
-                via the submission screen questions to complete the submission. Full submission. For
-                manuscripts that are invited for in-depth peer review, we request detailed
+                via the submission screen questions to complete the submission.</p>
+            </sec>      
+          <sec id="s1-1-2"> 
+              <title>Full submission (level 3 heading)</title>
+                <p>For manuscripts that are invited for in-depth peer review, we request detailed
                 information about the work to support the peer review process, to ensure that the
                 work meets appropriate standards for the reporting of new findings, and, if
                 accepted, to assist in rapid publication and further dissemination of the work in
                 relevant indexes and repositories. Authors are asked to agree to publish their work
                 under the terms of the Creative Commons Attribution license (PDF of the agreement),
                 or the Creative Commons CC0 public domain dedication (PDF of the agreement) if one
-                or more authors are US-government employees. Revised submission. We will require a
-                response to the essential revision requirements outlined in the decision letter. A
+                or more authors are US-government employees.</p>
+          </sec>  
+            <sec id="s1-1-3"> 
+                <title>Revised submission (level 3 heading)</title>
+                <p>We will require a response to the essential revision requirements outlined in the decision letter. A
                 response to minor comments is optional. In the event of acceptance, the substantive
                 revision requests and the authors’ response will be published, under the terms of
                 the Creative Commons Attribution license. In preparation for submission, authors
                 should ensure they have all the materials and information necessary to expedite the
-                submission and assessment of their work. </p>
+                submission and assessment of their work.</p>
+        </sec>
+        <sec id="s1-2"> 
+            <title>The eLife production process (level 2 heading)</title>
+            <sec id="s1-2-1"> 
+                <title>Immediate publication (accepted manuscript) (level 3 heading)</title>
+                <p>On acceptance an eLife article can be published in accepted manuscript form immediately. 
+                The mean time from acceptance to publication at this stage is 1 day. Using MsQl basic metadata is exported from the submission system to an 
+                AWS bucket as CSV files. The author files are exported to another AWS and an eLife process generates a package of this information and the 
+                author files to deliver to the online platform, Continuum.</p>
+        </sec>
+        <sec id="s1-2-2"> 
+            <title>Publication of the full version (Version of record) (level 3 heading)</title>
+            <p>The production process includes an author proofing cycle and the output is the final full text version of the paper online, as well as a typeset PDF.</p>
+        </sec>
+            <sec id="s1-2-3"> 
+                <title>Publication of versions (level 3 heading)</title>
+                <p>eLife allows the publication of updates to a paper after the full version has been produced.</p>
+            </sec>
+            <sec id="s1-2-3-1"> 
+                <title>level 4 heading</title>
+                <p>eLife allows up to four levels of headings and no more. This is a demostration of a level 4 heading.</p>
+            </sec>
         </sec>
         <sec sec-type="materials|methods" id="s2">
             <title>Materials and methods</title>
