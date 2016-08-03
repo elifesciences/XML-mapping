@@ -82,16 +82,20 @@ research-article - all research content (ie non-feature content)
                         <surname>Harrison</surname>
                         <given-names>Melissa</given-names>
                     </name>
-                    <!-- All corresponding authors in articles should now have an ORCID and other authors are encouraged to have one-->
+                    <!-- Corresponding author (correspondent for peer review process) should now have an ORCID and other authors are encouraged to have one. 
+                        NOTE: this author is indicated in the output XML from the submission system, but this is not retained in the final XML, 
+                        so there could be multiple corresponding authors and they may not all have an ORCID-->
                     <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3523-4408</contrib-id>
                     <!-- author affiliation(s) are linked to the contrib via the xref link to their "aff"
-                    Authors can have one or multiple affiliations-->
+                    Authors can have one or multiple affiliations
+                    there is one aff per affiliation and these are shared by the authors, not repeated.-->
                     <xref ref-type="aff" rid="aff1"/>
                     <!-- authors who have funding that is declared on the paper are linked to this via the 
-                        xref link to the <award-group> via the"par" ID. Authors can have one or multiple funding-->
+                        xref link to the <award-group> via the"par" ID. Authors can have one or multiple funding and multiple authors can be associated with one funding-->
                     <xref ref-type="other" rid="par-1"/>
                     <!-- author competing interests statement is linked to the contrib via the footnote with attribute 
-                        fn-type="conflict" and the corresponding id. Only one is allowed per author-->
+                        fn-type="conflict" and the corresponding id. Only one is allowed per author. If the author has no competing interets this footnote can be shared with other authors. 
+                        Where a competing interested is listed, this must be unique to the author-->
                     <xref ref-type="fn" rid="conf1"/>
                     <!-- author contributions are linked to their contrib via the footnote with attribute 
                         fn-type="con" and the corresponding id. Only one is allowed per author-->
