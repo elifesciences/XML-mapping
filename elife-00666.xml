@@ -154,7 +154,8 @@ research-article - all research content (ie non-feature content)
             <!-- Group authors are given the contrib-type="author non-byline" as they are not primary authors
             A group authorship can be given an affiliation at the top level and can also have 
             competing interests and all the other associated footnotes such as contributions, funding etc. 
-            However, they cannot be associated with each individual member of the group. Each group member can or cannot have an aff within their contrib-->
+            However, they cannot be associated with each individual member of the group. Each group member can or cannot have an aff within their contrib
+            A group can call out individual members or leave as just a group name-->
             <contrib-group>
                 <contrib contrib-type="author non-byline">
                     <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
