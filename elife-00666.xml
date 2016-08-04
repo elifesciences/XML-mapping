@@ -9,7 +9,7 @@ discussion - Feature 1/Feature 2
 editorial - Editorial
 research-article - all research content (ie non-feature content)
 -->
-<article article-type="research-article" dtd-version="1.1" xmlns:ali="http://www.niso.org/schemas/ali/1.0"
+<article article-type="research-article" dtd-version="1.1" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
         <!--journal-meta is standard for all articles published by eLife. Can be boilerplate text as this will not change.
@@ -111,8 +111,8 @@ research-article - all research content (ie non-feature content)
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="con2"/>
                 </contrib>
-                <!-- group authors. If the individuals of the group are to be called out, they will be listed as a 
-                    third contrib group after the reviewing editor. The reviewing editor is listed after the author affs-->
+                <!-- group authors. If the individuals of the group are to be called out, they now will be listed as a contrib-group and contributors within collab.
+                    They are no longer seperated from their group name-->
                 <contrib contrib-type="author">
                     <collab>eLife Production Group
                     <contrib-group>
@@ -152,16 +152,20 @@ research-article - all research content (ie non-feature content)
                     <xref ref-type="aff" rid="aff2"/>
                     <xref ref-type="fn" rid="conf3"/>
                     <xref ref-type="fn" rid="con3"/>
-                    <xref ref-type="corresp" rid="cor2">&#x2a;</xref>
+                    <xref ref-type="corresp" rid="cor2"/>
                 </contrib>
                 <!-- on behalf of-->
                 <on-behalf-of>for the eLife Staff Team</on-behalf-of>
                 <!-- affiliations are granular and a department field must contain one department. For example 2 departments at one institution (see below) generate two seperate affiliations-->
-                <aff id="aff1"><institution content-type="dept">Department of Production</institution>,
+                <aff id="aff1">
+                    <label>1</label>
+                    <institution content-type="dept">Department of Production</institution>,
                     <institution>eLife</institution>, <addr-line><named-content content-type="city"
                         >Cambridge</named-content></addr-line>, <country>United Kingdom</country>
                 </aff>
-                <aff id="aff2"><institution content-type="dept">Department of Technology</institution>,
+                <aff id="aff2">
+                    <label>2</label
+                    <institution content-type="dept">Department of Technology</institution>,
                     <institution>eLife</institution>, <addr-line><named-content content-type="city"
                         >Cambridge</named-content></addr-line>, <country>United Kingdom</country>
                 </aff>
@@ -180,51 +184,15 @@ research-article - all research content (ie non-feature content)
                     </aff>
                 </contrib>
             </contrib-group>
-           
-            <contrib-group content-type="collab-list">
-                <contrib contrib-type="collab" rid="collab2">
-                    <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
-                        This text is not for display-->
-                    <!-- A group author member can have an ORCID -->
-                    <name>
-                        <surname>Wilkinson</surname>
-                        <given-names>Chris</given-names>
-                    </name>
-                    <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4921-6155</contrib-id>
-                    <name>
-                        <surname>Skibinski</surname>
-                        <given-names>Luke</given-names>
-                    </name>
-                    <!-- A group author member can have an affiliation, but it is contained within the contrib after their name--><name>
-                        <surname>Nott</surname>
-                        <given-names>Graham</given-names>
-                    </name>
-                    <aff>
-                        <institution>Graham Nott Enterprises</institution>,
-                        <addr-line>
-                            <named-content content-type="city">Victoria</named-content>
-                        </addr-line>
-                        <country>Canada</country>
-                    </aff>
-                </contrib>
-            </contrib-group> 
-            <!-- Group authors are given the contrib-type="author non-byline" as they are not primary authors
-            A group authorship can be given an affiliation at the top level and can also have 
-            competing interests and all the other associated footnotes such as contributions, funding etc. 
-            However, they cannot be associated with each individual member of the group. Each group member can or cannot have an aff within their contrib
-            A group can call out individual members or leave as just a group name-->
-  
             <author-notes>
-                <!--Corresponednece - removed "For correspondence:" and author initials in brackets - they are not tagged and the html version does not require it, PDF can automate? -->
+                <!--Corresponedence - removed "For correspondence:" and author initials in brackets - they are not tagged and the html version does not require it, PDF can automate? -->
                 <corresp id="cor1">
-                    <label>&#x2a;</label>
                     <email>m.harrison@elifesciences.org</email>
                 </corresp>
                 <corresp id="cor2">
                     <email>c.wilkinson@elifesciences.org</email>
                 </corresp>
                 <fn fn-type="con" id="equal-contrib">
-                    <label>&#x2020;</label>
                     <p>These authors contributed equally to this work</p>
                 </fn>
             </author-notes>
