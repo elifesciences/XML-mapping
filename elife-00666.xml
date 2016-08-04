@@ -168,8 +168,9 @@ research-article - all research content (ie non-feature content)
                         <given-names>Luke</given-names>
                     </name>
                         </contrib>
-                    <!-- A group author member can have an affiliation, but it is contained within the contrib after their name--><name>
+                    <!-- A group author member can have an affiliation, but it is contained within the contrib after their name-->
                         <contrib>
+                            <name>
                         <surname>Nott</surname>
                         <given-names>Graham</given-names>
                     </name>
@@ -194,7 +195,7 @@ research-article - all research content (ie non-feature content)
                         >Cambridge</named-content></addr-line>, <country>United Kingdom</country>
                 </aff>
                 <aff id="aff2">
-                    <label>2</label
+                    <label>2</label>
                     <institution content-type="dept">Department of Technology</institution>,
                     <institution>eLife</institution>, <addr-line><named-content content-type="city"
                         >Cambridge</named-content></addr-line>, <country>United Kingdom</country>
