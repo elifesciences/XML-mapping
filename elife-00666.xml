@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE article SYSTEM "https://jats.nlm.nih.gov/archiving/1.1/JATS-archivearticle1-mathml3.dtd">
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd">
 <!--eLife uses the JATS suggested @article-types from the given attribute list. This is the location where we match our content names to known terms, 
     we use subj-groups to use-eLife specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits
 The @article-types currently used are:
@@ -9,7 +9,7 @@ discussion - Feature 1/Feature 2
 editorial - Editorial
 research-article - all research content (ie non-feature content)
 -->
-<article article-type="research-article" dtd-version="1.1" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+<article article-type="research-article" dtd-version="1.1" xmlns:ali="http://www.niso.org/schemas/ali/1.0"
     xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
         <!--journal-meta is standard for all articles published by eLife. Can be boilerplate text as this will not change.
@@ -113,8 +113,39 @@ research-article - all research content (ie non-feature content)
                 </contrib>
                 <!-- group authors. If the individuals of the group are to be called out, they will be listed as a 
                     third contrib group after the reviewing editor. The reviewing editor is listed after the author affs-->
-                <contrib contrib-type="author" id="collab1">
-                    <collab>eLife Production Group</collab>
+                <contrib contrib-type="author">
+                    <collab>eLife Production Group
+                    <contrib-group>
+                        <contrib>
+                            <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
+                        This text is not for display-->
+                            <name>
+                                <surname>Shearer</surname>
+                                <given-names>Alistair</given-names>
+                            </name>
+                            <aff>
+                                <institution>eLife</institution>,
+                                <addr-line>
+                                    <named-content content-type="city">Cambridge</named-content>
+                                </addr-line>
+                                <country>United Kingdom</country>
+                            </aff>
+                        </contrib>
+                            <contrib>
+                                <name>
+                                <surname>Caton</surname>
+                                <given-names>Hannah</given-names>
+                            </name>
+                            <aff>
+                                <institution>eLife</institution>,
+                                <addr-line>
+                                    <named-content content-type="city">Cambridge</named-content>
+                                </addr-line>
+                                <country>United Kingdom</country>
+                            </aff>
+                        </contrib>
+                    </contrib-group>
+                </collab>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes" id="collab2">
                     <collab>eLife Technology Group</collab>
@@ -149,34 +180,7 @@ research-article - all research content (ie non-feature content)
                     </aff>
                 </contrib>
             </contrib-group>
-            <contrib-group content-type="collab-list">
-                <contrib contrib-type="collab" rid="collab1">
-                    <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
-                        This text is not for display-->
-                    <name>
-                        <surname>Shearer</surname>
-                        <given-names>Alistair</given-names>
-                    </name>
-                    <aff>
-                        <institution>eLife</institution>,
-                        <addr-line>
-                            <named-content content-type="city">Cambridge</named-content>
-                        </addr-line>
-                        <country>United Kingdom</country>
-                    </aff>
-                    <name>
-                        <surname>Caton</surname>
-                        <given-names>Hannah</given-names>
-                    </name>
-                    <aff>
-                        <institution>eLife</institution>,
-                        <addr-line>
-                            <named-content content-type="city">Cambridge</named-content>
-                        </addr-line>
-                        <country>United Kingdom</country>
-                    </aff>
-                </contrib>
-            </contrib-group>
+           
             <contrib-group content-type="collab-list">
                 <contrib contrib-type="collab" rid="collab2">
                     <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
