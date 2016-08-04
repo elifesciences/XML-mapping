@@ -113,12 +113,10 @@ research-article - all research content (ie non-feature content)
                 </contrib>
                 <!-- group authors. If the individuals of the group are to be called out, they will be listed as a 
                     third contrib group after the reviewing editor. The reviewing editor is listed after the author affs-->
-                <contrib contrib-type="author">
-                    <contrib-id contrib-id-type="group-author-key">group-author-id1</contrib-id>
+                <contrib contrib-type="author" id="collab1">
                     <collab>eLife Production Group</collab>
                 </contrib>
-                <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
-                    <contrib-id contrib-id-type="group-author-key">group-author-id2</contrib-id>
+                <contrib contrib-type="author" equal-contrib="yes" corresp="yes" id="collab2">
                     <collab>eLife Technology Group</collab>
                     <xref ref-type="aff" rid="aff2"/>
                     <xref ref-type="fn" rid="conf3"/>
@@ -151,16 +149,10 @@ research-article - all research content (ie non-feature content)
                     </aff>
                 </contrib>
             </contrib-group>
-            <!-- Group authors are given the contrib-type="author non-byline" as they are not primary authors
-            A group authorship can be given an affiliation at the top level and can also have 
-            competing interests and all the other associated footnotes such as contributions, funding etc. 
-            However, they cannot be associated with each individual member of the group. Each group member can or cannot have an aff within their contrib
-            A group can call out individual members or leave as just a group name-->
-            <contrib-group>
-                <contrib contrib-type="author non-byline">
+            <contrib-group content-type="collab-list">
+                <contrib contrib-type="collab" rid="collab1">
                     <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
                         This text is not for display-->
-                    <contrib-id contrib-id-type="group-author-key">group-author-id1</contrib-id>
                     <name>
                         <surname>Shearer</surname>
                         <given-names>Alistair</given-names>
@@ -185,11 +177,10 @@ research-article - all research content (ie non-feature content)
                     </aff>
                 </contrib>
             </contrib-group>
-            <contrib-group>
-                <contrib contrib-type="author non-byline">
+            <contrib-group content-type="collab-list">
+                <contrib contrib-type="collab" rid="collab2">
                     <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
                         This text is not for display-->
-                    <contrib-id contrib-id-type="group-author-key">group-author-id2</contrib-id>
                     <!-- A group author member can have an ORCID -->
                     <name>
                         <surname>Wilkinson</surname>
@@ -212,7 +203,13 @@ research-article - all research content (ie non-feature content)
                         <country>Canada</country>
                     </aff>
                 </contrib>
-            </contrib-group>
+            </contrib-group> 
+            <!-- Group authors are given the contrib-type="author non-byline" as they are not primary authors
+            A group authorship can be given an affiliation at the top level and can also have 
+            competing interests and all the other associated footnotes such as contributions, funding etc. 
+            However, they cannot be associated with each individual member of the group. Each group member can or cannot have an aff within their contrib
+            A group can call out individual members or leave as just a group name-->
+  
             <author-notes>
                 <!--Corresponednece - removed "For correspondence:" and author initials in brackets - they are not tagged and the html version does not require it, PDF can automate? -->
                 <corresp id="cor1">
