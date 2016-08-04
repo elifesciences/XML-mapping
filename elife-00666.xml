@@ -147,13 +147,43 @@ research-article - all research content (ie non-feature content)
                     </contrib-group>
                 </collab>
                 </contrib>
-                <contrib contrib-type="author" equal-contrib="yes" corresp="yes" id="collab2">
-                    <collab>eLife Technology Group</collab>
+                <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
                     <xref ref-type="aff" rid="aff2"/>
                     <xref ref-type="fn" rid="conf3"/>
                     <xref ref-type="fn" rid="con3"/>
                     <xref ref-type="corresp" rid="cor2"/>
+                    <collab>eLife Technology Group
+                    <contrib-group>
+                        <contrib>
+                    <!-- A group author member can have an ORCID -->
+                    <name>
+                        <surname>Wilkinson</surname>
+                        <given-names>Chris</given-names>
+                    </name>
+                    <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4921-6155</contrib-id>
+                    </contrib>
+                        <contrib>
+                        <name>
+                        <surname>Skibinski</surname>
+                        <given-names>Luke</given-names>
+                    </name>
+                        </contrib>
+                    <!-- A group author member can have an affiliation, but it is contained within the contrib after their name--><name>
+                        <contrib>
+                        <surname>Nott</surname>
+                        <given-names>Graham</given-names>
+                    </name>
+                    <aff>
+                        <institution>Graham Nott Enterprises</institution>,
+                        <addr-line>
+                            <named-content content-type="city">Victoria</named-content>
+                        </addr-line>
+                        <country>Canada</country>
+                    </aff>
                 </contrib>
+            </contrib-group>
+            </collab>
+            </contrib>
                 <!-- on behalf of-->
                 <on-behalf-of>for the eLife Staff Team</on-behalf-of>
                 <!-- affiliations are granular and a department field must contain one department. For example 2 departments at one institution (see below) generate two seperate affiliations-->
