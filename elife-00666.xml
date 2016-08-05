@@ -476,7 +476,7 @@ research-article - all research content (ie non-feature content)
             <sec id="s3-1">
                 <title>eLife controlled lists</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
-                    See <xref ref-type="fig" rid="fig1">Figure 1</xref> for the representation of the Major Subject Areas, Research
+                    See <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref> for the representation of the Major Subject Areas, Research
                     Organisms and author keywords on the eLife HTML page.
                 </p>
                 <sec id="s3-1-1">
@@ -572,7 +572,11 @@ research-article - all research content (ie non-feature content)
                 </sec>
                 <sec id="s3-4">
                     <title>Figures</title>
-                    <p><!-- Change: The following has been removed from the XML as it is not necessary to repeat it, can be derived from the object-id DOI:
+                    <p>This section of the paper shows how figures should be presented and will 
+                        include examples of single figures and figures arranged with a variety of additional assets.</p>
+                        <!--NOTE: the version suffix (e.g. "-v1" is applied by the eLife platform and does not need to be supplied in the XML from the production vendor
+                            Change: figures do not need to be contained within <p> and should not be
+                            Change: The following has been removed from the XML as it is not necessary to repeat it, can be derived from the object-id DOI:
                         <p><bold>DOI:</bold>
                                  <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.003"
                                                 >http://dx.doi.org/10.7554/eLife.00666.003</ext-link></p>-->
@@ -580,10 +584,87 @@ research-article - all research content (ie non-feature content)
                             <object-id pub-id-type="doi">10.7554/eLife.13222.003</object-id>
                             <label>Figure 1.</label>
                             <caption>
-                                <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page.</title>
+                                <title>Single figure: The header of an eLife article example on the HTML page.</title>
                             </caption>
                             <graphic xlink:href="elife-00666-fig1-v1"/>
-                        </fig></p>
+                        </fig>
+                    <!--If a figure has figure supplements it must be contained within fig-group and the supplemental figures must be given 
+                        a @specific-use attribute of "child-fig"
+                    There is no limit to the number of figure supplements-->
+                    <fig-group>
+                        <fig id="fig2" position="float">
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.004</object-id>
+                        <label>Figure 2.</label>
+                        <caption>
+                            <title>Figure with figure supplements: This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view</title>
+                        </caption>
+                        <graphic xlink:href="elife-00666-fig1-v1"/>
+                    </fig>
+                        <fig id="fig2s1" position="float" specific-use="child-fig">
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.005</object-id>
+                            <label>Figure 2—figure supplement 1.</label>
+                            <caption>
+                                <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page</title>
+                            </caption>
+                            <graphic xlink:href="elife-00666-fig2-figsupp1-v1"/>
+                        </fig>
+                        <fig id="fig2s2" position="float" specific-use="child-fig">
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.006</object-id>
+                            <label>Figure 2—figure supplement 2.</label>
+                            <caption>
+                                <title>Representation of figure with figure supplements on the HTML view.</title>
+                            </caption>
+                            <graphic xlink:href="elife-00666-fig2-figsupp2-v1"/>
+                        </fig>
+                    </fig-group>
+                    <fig-group>
+                        <fig id="fig3" position="float">
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.007</object-id>
+                            <label>Figure 3.</label>
+                            <caption>
+                                <title>Figure with figure supplements and figure supplement with source data: <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view</title>
+                            </caption>
+                            <graphic xlink:href="elife-00666-fig3-v1"/>
+                        </fig>
+                        <fig id="fig3s1" position="float" specific-use="child-fig">
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.008</object-id>
+                            <label>Figure 3—figure supplement 1.</label>
+                            <caption>
+                                <title>Title of the figure supplement</title>
+                                <p>
+                                    <supplementary-material id="SD1-data">
+                                        <object-id pub-id-type="doi">10.7554/eLife.00666.009</object-id>
+                                        <label>Figure 3—figure supplement 1—Source data 1.</label>
+                                        <caption>
+                                            <title>Title of the figure supplement source data.</title>
+                                            <p>Legend of the figure supplement source data.</p>
+                                        </caption>
+                                        <media mimetype="xlsx" xlink:href="elife-00666-fig3-figsupp1-data1-v1.xlsx"/>
+                                    </supplementary-material>
+                                </p>
+                            </caption>
+                            <graphic xlink:href="elife-00666-fig3-figsupp1-v1"/>
+                        </fig>
+                    </fig-group>
+                    <fig id="fig4" position="float">
+                        <object-id pub-id-type="doi">10.7554/eLife.13222.010</object-id>
+                        <label>Figure 4.</label>
+                        <caption>
+                            <title>Single figure with source code.</title>
+                        </caption>
+                        <graphic xlink:href="elife-00666-fig4-v1"/>
+                        <p>
+                            <supplementary-material id="SD2-data">
+                                <object-id pub-id-type="doi">10.7554/eLife.00666.011</object-id>
+                                <label>Figure 4—Source code 1.</label>
+                                <caption>
+                                    <title>Title of the source code.</title>
+                                    <p>Legend of the source code.</p>
+                                </caption>
+                                <media mimetype="xlsx" xlink:href="elife-00666-fig4-data1-v1.xlsx"/>
+                            </supplementary-material>
+                        </p>
+                    </fig>
                 </sec>
                 <sec id="s3-5">
                     <title>Boxes</title>
@@ -599,6 +680,7 @@ research-article - all research content (ie non-feature content)
                 hypotheses you posed and the literature you cited, but it does not simply repeat or
                 rearrange the Introduction. Instead, it tells how your study has moved us forward
                 from the place you left us at the end of the Introduction. </p>
+            
         </sec>
         <!--html allows for 6 levels of heading. No more can be allowed -->
     </body>
