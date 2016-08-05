@@ -89,7 +89,7 @@ research-article - all research content (ie non-feature content)
                     <!-- author affiliation(s) are linked to the contrib via the xref link to their "aff"
                     Authors can have one or multiple affiliations
                     there is one aff per affiliation and these are shared by the authors, not repeated.-->
-                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="aff" rid="aff1">1</xref>
                     <!-- authors who have funding that is declared on the paper are linked to this via the 
                         xref link to the <award-group> via the"par" ID. Authors can have one or multiple funding and multiple authors can be associated with one funding-->
                     <xref ref-type="other" rid="par-1"/>
@@ -106,7 +106,7 @@ research-article - all research content (ie non-feature content)
                         <surname>Gilbert</surname>
                         <given-names>James F</given-names>
                     </name>
-                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="other" rid="par-1"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="con2"/>
