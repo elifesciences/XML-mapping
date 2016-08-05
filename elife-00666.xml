@@ -617,6 +617,7 @@ research-article - all research content (ie non-feature content)
                             <graphic xlink:href="elife-00666-fig2-figsupp2-v1"/>
                         </fig>
                     </fig-group>
+                    <!--See below (figure 4) for preferred method of modelling supplementary material for a figure. TBC-->
                     <fig-group>
                         <fig id="fig3" position="float">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.007</object-id>
@@ -646,6 +647,7 @@ research-article - all research content (ie non-feature content)
                             <graphic xlink:href="elife-00666-fig3-figsupp1-v1"/>
                         </fig>
                     </fig-group>
+                    <!--This is the preferred model, but is TBC-->
                     <fig id="fig4" position="float">
                         <object-id pub-id-type="doi">10.7554/eLife.13222.010</object-id>
                         <label>Figure 4.</label>
