@@ -718,7 +718,7 @@ research-article - all research content (ie non-feature content)
         <!--html allows for 6 levels of heading. No more can be allowed -->
     </body>
     <back>
-        <sec sec-type="additional-information">
+        <sec sec-type="additional-information" id="s5">
             <fn-group content-type="competing-interest">
                 <title>Competing interests</title>
                 <fn fn-type="conflict" id="conf1">
@@ -746,6 +746,12 @@ research-article - all research content (ie non-feature content)
                 </fn>
             </fn-group>
         </sec>
+        <sec sec-type="supplementary-material" id="s6" >
+            <title>Additional files</title>
+        </sec>
+            <sec sec-type="datasets" id="s7">
+                <title>Major datasets</title>
+            </sec>
         <ref-list>
             <!--Journal reference: in press -->
             <ref id="bib1">
@@ -1619,5 +1625,15 @@ research-article - all research content (ie non-feature content)
                 </element-citation>
             </ref>
         </ref-list>
+        <app-group>
+            <app>
+            <title>Appendix 1</title>
+                <sec sec-type="appendix" id="s8">
+                    <!--Appendix: Change: no longer contaiend within box text as this is a display feature only-->
+                    <title>Animal preparation</title>
+                    <p>Blah</p>
+                </sec>
+        </app>
+        </app-group>
     </back>
 </article>
