@@ -621,6 +621,33 @@ research-article - all research content (ie non-feature content)
                             <graphic xlink:href="elife-00666-fig2-figsupp2-v1"/>
                         </fig>
                     </fig-group>
+                    <p>Here is an example of inline formula
+                        <!--no id required for inline formulae-->
+                        <inline-formula>
+                        <mml:math>
+                            <mml:mrow>
+                                <mml:mi>P</mml:mi>
+                                <mml:mrow>
+                                    <mml:mo>(</mml:mo>
+                                    <mml:mrow><mml:mi
+                                        mathvariant="bold"
+                                        >x</mml:mi>
+                                        <mml:mo>|</mml:mo>
+                                        <mml:mi>T</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mo>)</mml:mo>
+                                </mml:mrow>
+                            </mml:mrow>
+                        </mml:math>
+                    </inline-formula> and here is an example of dipslay formula:</p>
+                    <disp-formula id="equ1">
+                        <label>(1)</label>
+                        <mml:math id="m1"><mml:mrow><mml:mi>S</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi>
+                        </mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo>
+                            <mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>n</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo>
+                        </mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub>
+                            <mml:mo>+</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>n</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub>
+                            <mml:msub><mml:mi>β</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:math></disp-formula>
                     <!--See below (figure 4) for preferred method of modelling supplementary material for a figure. TBC-->
                     <fig-group>
                         <fig id="fig3" position="float">
