@@ -1636,4 +1636,33 @@ research-article - all research content (ie non-feature content)
         </app>
         </app-group>
     </back>
+    <sub-article article-type="article-commentary" id="SA1">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.020</article-id>
+            <title-group>
+                <article-title>Decision letter</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="editor">
+                    <name>
+                        <surname>Collings</surname>
+                        <given-names>Andy</given-names>
+                    </name>
+                    <role>Reviewing editor</role>
+                    <aff>
+                        <institution>eLife</institution>,
+                        <country>United Kingdom</country>
+                    </aff>
+                </contrib>
+            </contrib-group>
+        </front-stub>
+    </sub-article>
+    <sub-article article-type="reply" id="SA2">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.021</article-id>
+            <title-group>
+                <article-title>Author response</article-title>
+            </title-group>
+        </front-stub>
+    </sub-article>
 </article>
