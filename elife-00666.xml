@@ -588,6 +588,10 @@ research-article - all research content (ie non-feature content)
                             </caption>
                             <graphic xlink:href="elife-00666-fig1-v1"/>
                         </fig>
+                    <p>Here is an example of making text display in different colours:
+                        <named-content content-type="author-callout-style1">red</named-content> and 
+                        <named-content content-type="author-callout-style2">blue</named-content>.</p>
+                    <p> Here is an example of pulling in an inline graphic <inline-graphic xlink:href="elife-00666-inf001-v1"/>.</p>
                     <!--If a figure has figure supplements it must be contained within fig-group and the supplemental figures must be given 
                         a @specific-use attribute of "child-fig"
                     There is no limit to the number of figure supplements-->
