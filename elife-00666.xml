@@ -114,37 +114,95 @@ research-article - all research content (ie non-feature content)
                 <!-- group authors. If the individuals of the group are to be called out, they now will be listed as a contrib-group and contributors within collab.
                     They are no longer seperated from their group name-->
                 <contrib contrib-type="author">
-                    <collab>eLife Production Group
-                    <contrib-group>
-                        <contrib>
-                            <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
+                    <collab>eLife Editorial Production Group
+                        <contrib-group>
+                            <role>Writing group</role>
+                            <contrib>
+                                <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
                         This text is not for display-->
-                            <name>
-                                <surname>Shearer</surname>
-                                <given-names>Alistair</given-names>
-                            </name>
-                            <aff>
-                                <institution>eLife</institution>,
-                                <addr-line>
-                                    <named-content content-type="city">Cambridge</named-content>
-                                </addr-line>
-                                <country>United Kingdom</country>
-                            </aff>
-                        </contrib>
+                                <name>
+                                    <surname>Shearer</surname>
+                                    <given-names>Alistair</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>,
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
                             <contrib>
                                 <name>
-                                <surname>Caton</surname>
-                                <given-names>Hannah</given-names>
-                            </name>
-                            <aff>
-                                <institution>eLife</institution>,
-                                <addr-line>
-                                    <named-content content-type="city">Cambridge</named-content>
-                                </addr-line>
-                                <country>United Kingdom</country>
-                            </aff>
-                        </contrib>
-                    </contrib-group>
+                                    <surname>Caton</surname>
+                                    <given-names>Hannah</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>,
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                        </contrib-group>
+                        <contrib-group>
+                            <role>Editing group</role>
+                            <contrib>
+                                <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
+                        This text is not for display-->
+                                <name>
+                                    <surname>Chan</surname>
+                                    <given-names>Wei Mun</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>,
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                            <contrib>
+                                <name>
+                                    <surname>Drury</surname>
+                                    <given-names>Hannah</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>,
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                            <contrib>
+                                <name>
+                                    <surname>Guerreiro</surname>
+                                    <given-names>Maria</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>,
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                            <contrib>
+                                <name>
+                                    <surname>Richmond</surname>
+                                    <given-names>Susanna</given-names>
+                                </name>
+                                <aff>
+                                    <institution>eLife</institution>,
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
+                            </contrib>
+                        </contrib-group>
                 </collab>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
