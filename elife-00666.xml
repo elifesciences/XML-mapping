@@ -1583,8 +1583,77 @@ If an article goes through one of these processes more than once, the value shou
                     <pub-id pub-id-type="archive" xlink:href="http://intermine.modencode.org/release-33/report.do?id=77000379">modENCODE_3369</pub-id>
                 </element-citation>
             </ref>
-            <!--Book reference: simple book reference, with ISBN-->
             <ref id="bib20">
+                <element-citation publication-type="data">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Ferry</surname>
+                            <given-names>Q</given-names>
+                        </name>
+                        <name>
+                            <surname>Steinberg</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>Webber</surname>
+                            <given-names>C</given-names>
+                        </name>
+                        <name>
+                            <surname>FitzPatrick</surname>
+                            <given-names>DR</given-names>
+                        </name>
+                        <name>
+                            <surname>Ponting</surname>
+                            <given-names>CP</given-names>
+                        </name>
+                        <name>
+                            <surname>Zisserman</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Nellåker</surname>
+                            <given-names>C</given-names>
+                        </name>
+                    </person-group>   
+                    <year iso-8601-date="2014">2014</year>
+                    <data-title>Diagnostically relevant facial gestalt information from ordinary photos database</data-title>
+                    <source>Division of Clinical Neurology, University of Oxford</source>
+                        <comment>Original database, excluding the Gorlin collection, and previously published images 
+                (which are available from the cited original publications) can be requested by contacting CN (
+                <email>christoffer.nellaker@dpag.ox.ac.uk</email>). 
+                Requests will be assessed by a Data Access Committee (DAC) comprised of
+                CPP, DRF, AZ, CN and Dr Zameel Cader of the Division of Clinical Neurology, University of Oxford. 
+                The DAC will make data available to researchers in good standing with the relevant institution and funding agencies (i.e., no known sanctions). 
+                The data are provided without copyright.
+                Pipeline code was written in python 2.7 and uses the module Ruffus (
+                <xref ref-type="bibr" rid="bib21">Goodstadt, 2010</xref>) for task management. The code is available through an open source MIT license at
+                <ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline">
+                    https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline
+                </ext-link>.
+                        </comment>
+                </element-citation>
+            </ref>
+            <ref id="bib21">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Goodstadt</surname>
+                            <given-names>L</given-names>
+                        </name>
+                    </person-group>
+                    <year>2010</year>
+                    <article-title>
+                        Ruffus: a lightweight Python library for computational pipelines
+                    </article-title>
+                    <source>Bioinformatics</source>
+                    <volume>26</volume>
+                    <fpage>2778</fpage>
+                    <lpage>2779</lpage>
+                    <pub-id pub-id-type="doi">10.1093/bioinformatics/btq524</pub-id>
+                </element-citation>
+            </ref>
+            <!--Book reference: simple book reference, with ISBN-->
+            <ref id="bib22">
                 <element-citation publication-type="book">
                     <person-group person-group-type="author">
                         <name>
@@ -1604,7 +1673,7 @@ If an article goes through one of these processes more than once, the value shou
                 </element-citation>
             </ref>
             <!--Book reference: chapter in book with editors-->
-            <ref id="bib21">
+            <ref id="bib23">
                 <element-citation publication-type="book">
                     <person-group person-group-type="author">
                         <name>
@@ -1637,7 +1706,7 @@ If an article goes through one of these processes more than once, the value shou
                 </element-citation>
             </ref>
             <!--Book reference: publisher location - US: city followed by state code-->
-            <ref id="bib22">
+            <ref id="bib24">
                 <element-citation publication-type="book">
                     <person-group person-group-type="author">
                         <name>
@@ -1667,7 +1736,7 @@ If an article goes through one of these processes more than once, the value shou
                 </element-citation>
             </ref>
             <!--Book reference: Editors, no chapter details-->
-            <ref id="bib23">
+            <ref id="bib25">
                 <element-citation publication-type="book">
                     <person-group person-group-type="editor">
                         <name>
@@ -1686,7 +1755,7 @@ If an article goes through one of these processes more than once, the value shou
                 </element-citation>
             </ref>
             <!--Book reference: Has volume, no publisher location-->
-            <ref id="bib24">
+            <ref id="bib26">
                 <element-citation publication-type="book">
                     <person-group person-group-type="author">
                         <name>
@@ -1701,7 +1770,7 @@ If an article goes through one of these processes more than once, the value shou
                 </element-citation>
             </ref>
             <!--Book reference: Has edition, editor is author-->
-            <ref id="bib25">
+            <ref id="bib27">
                 <element-citation publication-type="book">
                     <person-group person-group-type="editor">
                         <name>
@@ -1717,7 +1786,7 @@ If an article goes through one of these processes more than once, the value shou
                 </element-citation>
             </ref>
             <!--Book reference: Has edition, editor is author-->
-            <ref id="bib26">
+            <ref id="bib28">
                 <element-citation publication-type="book">
                     <person-group person-group-type="author">
                         <collab>World Health Organization</collab>
@@ -1728,6 +1797,24 @@ If an article goes through one of these processes more than once, the value shou
                         people's health and well-being. Health Behaviour in School-aged Children
                         (HBSC) study</source>
                     <publisher-name>World Health Organization</publisher-name>
+                </element-citation>
+            </ref>
+            <!--Software reference: Non-standard-->
+            <ref id="bib29">
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Nellåker</surname>
+                            <given-names>C</given-names>
+                        </name>
+                    </person-group>   
+                    <year iso-8601-date="2014">2014</year>
+                    <data-title>Clinical_Face_Phenotype_Space_Pipeline</data-title>
+                    <source>Github</source>
+                        <ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline">
+                            https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline
+                        </ext-link>
+                    <version>v1.2</version>
                 </element-citation>
             </ref>
         </ref-list>
