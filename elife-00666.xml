@@ -1580,12 +1580,7 @@ If an article goes through one of these processes more than once, the value shou
                     <year iso-8601-date="2013">2013</year>
                     <data-title>ChIP-Seq Identification of C. elegans TF Binding Sites</data-title>
                     <source>modMine</source>
-                    <pub-id pub-id-type="archive">modENCODE_3369</pub-id>
-                    <comment>
-                        <ext-link ext-link-type="uri"
-                            xlink:href="http://intermine.modencode.org/release-33/report.do?id=77000379"
-                            >http://intermine.modencode.org/release-33/report.do;jsessionid=03E0333698FA9A66AF60C7AC0D64E8F3?id=77000379#other</ext-link>
-                    </comment>
+                    <pub-id pub-id-type="archive" xlink:href="http://intermine.modencode.org/release-33/report.do?id=77000379">modENCODE_3369</pub-id>
                 </element-citation>
             </ref>
             <!--Book reference: simple book reference, with ISBN-->
