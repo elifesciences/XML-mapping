@@ -86,16 +86,18 @@ If an article goes through one of these processes more than once, the value shou
                     contributed with whom <xref ref-type="fn" rid="equal-contrib">&#x2020;</xref>
                     deceased="yes" - only used if author is now dead
                     corresp="yes" - only used if the author is a corresponding author. There can be more than one corresponding author and 
-                    there is no limit to the number of corresponding authors-->
+                    there is no limit to the number of corresponding authors
+                    CHANGE: email is within contrib now and no longer in author notes-->
                 <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="author-00001">
                     <name>
                         <surname>Harrison</surname>
                         <given-names>Melissa</given-names>
-                    </name>
+                     </name>
                     <!-- Corresponding author (correspondent for peer review process) should now have an ORCID and other authors are encouraged to have one. 
                         NOTE: this author is indicated in the output XML from the submission system, but this is not retained in the final XML, 
                         so there could be multiple corresponding authors and they may not all have an ORCID-->
                     <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3523-4408</contrib-id>
+                    <email>m.harrison@elifesciences.org</email>
                     <!-- author affiliation(s) are linked to the contrib via the xref link to their "aff"
                     Authors can have one or multiple affiliations
                     there is one aff per affiliation and these are shared by the authors, not repeated.-->
@@ -219,7 +221,6 @@ If an article goes through one of these processes more than once, the value shou
                     <xref ref-type="aff" rid="aff2"/>
                     <xref ref-type="fn" rid="conf3"/>
                     <xref ref-type="fn" rid="con3"/>
-                    <xref ref-type="corresp" rid="cor2"/>
                     <collab>eLife Technology Group
                     <contrib-group>
                         <contrib>
@@ -228,6 +229,7 @@ If an article goes through one of these processes more than once, the value shou
                         <surname>Wilkinson</surname>
                         <given-names>Chris</given-names>
                     </name>
+                    <email>c.wilkinson@elifesciences.org</email>
                     <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4921-6155</contrib-id>
                     </contrib>
                         <contrib>
@@ -284,14 +286,8 @@ If an article goes through one of these processes more than once, the value shou
                 </contrib>
             </contrib-group>
             <author-notes>
-                <!--Corresponedence - removed "For correspondence:" and author initials in brackets - they are not tagged and the html version does not require it, PDF can automate? -->
-                <corresp id="cor1">
-                    <email>m.harrison@elifesciences.org</email>
-                </corresp>
-                <corresp id="cor2">
-                    <email>c.wilkinson@elifesciences.org</email>
-                </corresp>
-                <fn fn-type="con" id="equal-contrib">
+                <!--Corresponedence - removed "For correspondence from author-notes-->
+               <fn fn-type="con" id="equal-contrib">
                     <p>These authors contributed equally to this work</p>
                 </fn>
             </author-notes>
