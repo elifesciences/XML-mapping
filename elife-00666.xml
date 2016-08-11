@@ -8,6 +8,16 @@ correction - Correction
 discussion - Feature 1/Feature 2
 editorial - Editorial
 research-article - all research content (ie non-feature content)
+
+PENDING (cannot validate on DTD):
+New feature: @article-types will also be used to describe the instance of the article. The descriptions are:
+AM - Accepted Manuscript
+EAM - Enhanced Accepted Manuscript (used for further versions of PoA)
+VoR - Version of Record
+CVoR - Corrected Version of Record (used for a VoR article that has an official correction article associated with it)
+EVoR - Enhanced Version of Record (used for a VoR article that has been updated by versioning on the eLife site)
+Retraction - Retraction
+If an article goes through one of these processes more than once, the value should contain a suffix of “-r1”, ie another VoR enhancement - EVor-r1
 -->
 <article article-type="research-article" dtd-version="1.1" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -285,30 +295,66 @@ research-article - all research content (ie non-feature content)
                     <p>These authors contributed equally to this work</p>
                 </fn>
             </author-notes>
-            <!--pub-date and history subject to change pending outcome of JATS4R history and versions rcommendation -->
-            <pub-date publication-format="electronic" date-type="pub">
+            <!--CHANGE: pub-date will will still continue to keep the PoA pub date in the XML but it will also include the 
+                updated date that the VoR is published. The first time an article is published it will contain one date, 
+                which will containt the @date-type attribute of "Publication". 
+                This instance of the XML will also be added into pub-date with a @date-type attribute of "Update" -->
+            <pub-date publication-format="electronic" date-type="Update">
+                <day>11</day>
+                <month>08</month>
+                <year>2016</year>
+            </pub-date>
+            <pub-date publication-format="electronic" date-type="Publication">
                 <day>25</day>
                 <month>04</month>
                 <year>2016</year>
-            </pub-date>
+             </pub-date>
             <!--Added pub-type collection in order for continuum to process as VoR -->
             <pub-date pub-type="collection">
                 <year>2016</year>
             </pub-date>
             <volume>5</volume>
             <elocation-id>e00666</elocation-id>
+            <!--CHANGE: all the historical publication information related to an article will be added to the history, with iso-8601-date attributes.
+            Also, the links to the previous published versions will be added, as well as a comment to indicate the changes. This will not be necessary between PoA and VoR, 
+            but will be necessary between versions of PoA and versions of VoRs
+            The date will have an iso-8601-date= attribute added-->
             <history>
-                <date date-type="received">
-                    <day>05</day>
+                <date date-type="received" iso-8601-date="2016-03-01">
+                    <day>01</day>
                     <month>03</month>
                     <year>2016</year>
                 </date>
-                <date date-type="accepted">
-                    <day>06</day>
+                <date date-type="accepted" iso-8601-date="2016-04-01">
+                    <day>01</day>
                     <month>04</month>
                     <year>2016</year>
                 </date>
-            </history>
+                <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v1">
+                    <date date-type="AM-pub" iso-8601-date="2016-04-25">
+                    <day>25</day>
+                    <month>04</month>
+                    <year>2016</year>
+                </date>
+                </related-object>
+                <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v2">
+                    <date date-type="EAM-pub" iso-8601-date="2016-06-12">
+                    <day>12</day>
+                    <month>06</month>
+                    <year>2016</year>
+                </date>
+                    <comment>The first version of this article was enhanced considerably between versions of the XML instance. These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.</comment>
+                </related-object>
+                <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v3">
+                <date date-type="VoR-pub" iso-8601-date="2016-06-12">
+                    <day>27</day>
+                    <month>07</month>
+                    <year>2016</year>
+                </date>
+                    <comment>The first version of this article was enhanced considerably between versions of the XML instance. 
+                             These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.</comment>
+                </related-object>
+                </history>
             <!--Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
             <permissions>
                 <copyright-statement>&#x00A9; 2016, Harrison et al</copyright-statement>
