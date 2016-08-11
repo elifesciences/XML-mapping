@@ -318,7 +318,18 @@ If an article goes through one of these processes more than once, the value shou
             <!--CHANGE: all the historical publication information related to an article will be added to the history, with iso-8601-date attributes.
             Also, the links to the previous published versions will be added, as well as a comment to indicate the changes. This will not be necessary between PoA and VoR, 
             but will be necessary between versions of PoA and versions of VoRs
-            The date will have an iso-8601-date= attribute added-->
+            The date will have an iso-8601-date= attribute added
+            
+            @date-type values
+            preprint - The date a preprint was disseminated (electronic or print)
+            AM-pub -  The date a manuscript, was published
+            EAM-pub - The date a manuscript, was enhanced and re-published
+            VoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was published
+            CVoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was corrected (an official correction notice has been published to accompany this article)
+            EVoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was enhanced and re-published (this article has been updated and republished, with no official correction notice)
+            retracted - The date an article was retracted
+            If an article goes through one of these processes more than once, the value should contain a suffix of “-r1”, ie another VoR enhancement - EVor-pub-r1
+            -->
             <history>
                 <date date-type="received" iso-8601-date="2016-03-01">
                     <day>01</day>
