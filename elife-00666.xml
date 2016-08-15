@@ -1976,6 +1976,7 @@ If an article goes through one of these processes more than once, the value shou
                    <ext-link ext-link-type="uri" xlink:href='https://www.pymol.org/'>https://www.pymol.org/</ext-link>
                </element-citation>
            </ref>
+            <!--Software reference: R-->
             <ref><element-citation publication-type="software">
                 <person-group person-group-type="author">
                     <collab>R Development Core Team</collab>
@@ -1985,10 +1986,10 @@ If an article goes through one of these processes more than once, the value shou
                     <year iso-8601-date="2015">2015</year>
                     <publisher-loc>Vienna, Austria</publisher-loc>
                     <publisher-name>R Foundation for Statistical Computing</publisher-name>
-                    <uri>http://www.r-project.org/</uri>
+                <uri xlink:href="http://www.r-project.org/">http://www.r-project.org/</uri>
             </element-citation>
             </ref>
-            
+            <!--Software reference: no source-->
             <ref id="bib36">
                 <element-citation publication-type="software">
                     <person-group person-group-type="author">
@@ -1998,11 +1999,13 @@ If an article goes through one of these processes more than once, the value shou
                         </name>
                     </person-group>
                     <year iso-8601-date="1997">1997</year>
-                    <source>Image J</source>
+                    <article-title>Image J</article-title>
                     <publisher-loc>Bethesda, MA</publisher-loc>
                     <publisher-name>US National Institutes of Health</publisher-name>
-                    <uri xlink:href="http://imagej.nih.gov/ij/">http://imagej.nih.gov/ij/</uri></element-citation>
+                    <uri xlink:href="http://imagej.nih.gov/ij/">http://imagej.nih.gov/ij/</uri>
+                </element-citation>
             </ref>
+            <!--Software reference: no title-->
             <ref id="bib37">
                 <element-citation publication-type="software">
                     <person-group person-group-type="author">
