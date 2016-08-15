@@ -2062,6 +2062,130 @@ If an article goes through one of these processes more than once, the value shou
                     <uri xlink:href="https://www.globalphasing.com/buster/">https://www.globalphasing.com/buster/</uri>
                 </element-citation>
             </ref>
+            <!-- Technical report -->
+            <ref id="bib38">
+            <element-citation publication-type="report">
+                <person-group person-group-type="author">
+                    <collab>National Institute of Mental Health</collab>
+                </person-group>
+                <year iso-8601-date="1990">1990</year>
+                <source>Clinical training in serious mental illness (DHHS Publication No. ADM 90-1679)</source>
+                <publisher-name>Government Printing Office</publisher-name>
+                <publisher-loc>Washington, DC, United States</publisher-loc>
+            </element-citation>
+            </ref>
+            <!-- UK White Paper with ISBN -->
+            <ref id="bib39">
+            <element-citation publication-type="report">
+                <person-group person-group-type="author">
+                    <collab>Department of Education</collab>
+                    <name>
+                        <surname>Morgan</surname><given-names>N</given-names>
+                    </name>
+                </person-group>
+                <year iso-8601-date="2016">2016</year>
+                <source>Educational xcellence everywhere</source>
+                <publisher-name>Her Majesty’s Stationery Office</publisher-name>
+                <publisher-loc>United Kingdom</publisher-loc>
+                <pub-id pub-id-type="isbn">9781474130158</pub-id>
+            </element-citation>
+            </ref>
+            <!-- Product information with web-page -->
+            <ref id="bib40">
+            <element-citation publication-type="report">
+                <person-group person-group-type="author">
+                    <collab>GlaxoSmithKline UK</collab>
+                </person-group>
+                <year iso-8601-date="2016">2016</year>
+                <source>Augmentin 250/62 SF Suspension</source>
+                <publisher-name>GlaxoSmithKline UK</publisher-name>
+                <publisher-loc>United Kingdom</publisher-loc>
+                <ext-link ext-link-type="uri" xlink:href='https://www.medicines.org.uk/emc/medicine/19188'>https://www.medicines.org.uk/emc/medicine/19188</ext-link>
+            </element-citation>
+            </ref>
+            <!-- Reference to a post on a blog (page on a Website) -->
+            <ref id="bib41">
+            <element-citation publication-type="web">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Eisen</surname><given-names>M</given-names>
+                    </name>
+                </person-group>
+                <year iso-8601-date="2016">2016</year>
+                <article-title>The Imprinter of All Maladies</article-title>
+                <source>it is NOT junk</source>
+                <ext-link ext-link-type="uri" xlink:href='http://www.michaeleisen.org/blog/?p=1894'>http://www.michaeleisen.org/blog/?p=1894</ext-link>
+            </element-citation>
+            </ref>
+            <!-- Reference to a whole Website -->
+            <ref id="bib42">
+            <element-citation publication-type="web">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Walker</surname><given-names>J</given-names>
+                    </name>
+                </person-group>
+                <year iso-8601-date="1995">1995</year>
+                <article-title>Solar System Live</article-title>
+                <ext-link ext-link-type="uri" xlink:href='https://www.fourmilab.ch/solar/'>https://www.fourmilab.ch/solar/</ext-link>
+            </element-citation>
+            </ref>
+            <!-- Reference to a Newspaper article -->
+            <ref id="bib43">
+            <element-citation publication-type="periodical">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Schwartz</surname><given-names>J</given-names>
+                    </name>
+                </person-group>
+                <year iso-8601-date="1993-09-30">1993</year>
+                <article-title>Obesity affects economic, social status</article-title>
+                <source>The Washington Post</source>
+                <fpage>A1</fpage>
+                <lpage>A4</lpage>
+            </element-citation>
+            </ref>
+            <!-- Reference to a United States Patent -->
+            <ref id="bib44">
+            <element-citation publication-type="patent">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Patterson</surname><given-names>JB</given-names>
+                    </name>
+                    <name>
+                        <surname>Lonergan</surname><given-names>DG</given-names>
+                    </name>
+                    <name>
+                        <surname>Flynn</surname><given-names>GA</given-names>
+                    </name>
+                    <name>
+                        <surname>Qingpeng</surname><given-names>Z</given-names>
+                    </name>
+                    <name>
+                        <surname>Pallai</surname><given-names>PV</given-names>
+                    </name>
+                    <collab>Mankind Corp</collab>
+                </person-group>
+                <year iso-8601-date="2011">2011</year>
+                <article-title>IRE-1alpha inhibitors</article-title>
+                <source>United States patent</source>
+                <patent country="United States">US20100941530</patent>
+            </element-citation>
+            </ref>
+            <!-- Reference to a Thesis -->
+            <ref id="bib45">
+            <element-citation publication-type="thesis">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Schneider</surname><given-names>P</given-names>
+                    </name>
+                </person-group>
+                <year iso-8601-date="2006">2006</year>
+                <article-title>PhD thesis: Submicroscopic <italic>Plasmodium falciparum</italic> gametocytaemia and the contribution to malaria transmission</article-title>
+                <publisher-name>Radboud University Nijmegen Medical Centre</publisher-name>
+                <publisher-loc>Nijmegen, The Netherlands</publisher-loc>
+            </element-citation>
+            </ref>
            </ref-list>
         <app-group>
             <app>
