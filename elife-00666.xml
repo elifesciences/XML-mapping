@@ -2282,9 +2282,25 @@ If an article goes through one of these processes more than once, the value shou
                     <source>preprints</source>
                     <pub-id pub-id-type="doi">10.20944/preprints201608.0124.v1</pub-id>
                 </element-citation>
+            </ref>
+                <!-- Reference to a Preprint: arXiv.org, no DOI -->
+                <ref id="bib48">
+                    <element-citation publication-type="preprint">
+                        <person-group person-group-type="author">
+                            <name>
+                                <surname>Cartwright</surname>
+                                <given-names>A</given-names>
+                            </name>
+                         </person-group>
+                        <year iso-8601-date="2016">2016</year>
+                        <article-title>The Venus Hypothesis</article-title>
+                        <source>arXiv.org</source>
+                        <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1608.03074">arXiv:1608.03074</ext-link>
+                    </element-citation>
+                
             </ref> 
                 <!-- Reference to a Clinical Trial - subject to revision-->
-            <ref id="bib48">
+            <ref id="bib49">
                 <element-citation publication-type="clinical trial">
                     <person-group person-group-type="sponsor">
                         <collab>Scripps Translational Science Institute</collab>
