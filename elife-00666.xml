@@ -325,6 +325,7 @@ If an article goes through one of these processes more than once, the value shou
             EVoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was enhanced and re-published (this article has been updated and republished, with no official correction notice)
             retracted - The date an article was retracted
             If an article goes through one of these processes more than once, the value should contain a suffix of “-r1”, ie another VoR enhancement - EVor-pub-r1
+            NOT IN PMC YET, will need to discuss with them when we wanty to impelment
             -->
             <history>
                 <date date-type="received" iso-8601-date="2016-03-01">
