@@ -1799,7 +1799,7 @@ If an article goes through one of these processes more than once, the value shou
                     <publisher-name>World Health Organization</publisher-name>
                 </element-citation>
             </ref>
-            <!--Software reference: Non-standard-->
+            <!--Software reference: Has author, title and source but no publisher-->
             <ref id="bib29">
                 <element-citation publication-type="software">
                     <person-group person-group-type="author">
@@ -1809,15 +1809,257 @@ If an article goes through one of these processes more than once, the value shou
                         </name>
                     </person-group>   
                     <year iso-8601-date="2014">2014</year>
-                    <data-title>Clinical_Face_Phenotype_Space_Pipeline</data-title>
+                    <article-title>Clinical_Face_Phenotype_Space_Pipeline</article-title>
                     <source>Github</source>
+                    <version>v1.2</version>
                         <ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline">
                             https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline
                         </ext-link>
-                    <version>v1.2</version>
                 </element-citation>
             </ref>
-        </ref-list>
+            <!--Software reference: Has authors, curator, title and source but no publisher-->
+            <ref id="bib30">
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Bates</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <name>
+                            <surname>Maechler</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name>
+                            <surname>Bolker</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name>
+                            <surname>Walker</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name>
+                            <surname>Haubo Bojesen Christensen</surname>
+                            <given-names>R</given-names>
+                        </name>
+                        <name>
+                            <surname>Singmann</surname>
+                            <given-names>H</given-names>
+                        </name>
+                        <name>
+                            <surname>Dai</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name>
+                            <surname>Grothendieck</surname>
+                            <given-names>G</given-names>
+                        </name>
+                        <name>
+                            <surname>Green</surname>
+                            <given-names>P</given-names>
+                        </name>
+                   </person-group>
+                    <person-group person-group-type="curator">
+                        <name>
+                            <surname>Bolker</surname>
+                            <given-names>B</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2014">2016</year>
+                    <article-title>Lme4: Linear Mixed-Effects Models Using Eigen and S4</article-title>
+                    <source>CRAN</source>
+                    <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/lme4/index.html">
+                        https://cran.r-project.org/web/packages/lme4/index.html
+                    </ext-link>
+                        <version>1.1-12</version>
+                </element-citation>
+            </ref>
+            <!--Software reference: Has authors, source and publisher but no title-->
+            <ref id="bib31">
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Hubbard</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name>
+                            <surname>Thornton</surname>
+                            <given-names>J</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="1993">1993</year>
+                    <source>Naccess</source>
+                    <publisher-name>Department of Biochemistry Molecular Biology, University College London</publisher-name>
+                    <version>V2.1.1</version>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.bioinf.manchester.ac.uk/naccess">www.bioinf.manchester.ac.uk/naccess</ext-link>
+                </element-citation>
+            </ref>
+            <!--Software reference: Has authors, title, source -->
+            <ref id="bib32">
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Pages</surname>
+                            <given-names>H</given-names>
+                        </name>
+                        <name>
+                            <surname>Gentleman</surname>
+                            <given-names>R</given-names>
+                        </name>
+                        <name>
+                            <surname>Aboyoun</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name>
+                            <surname>Biostrings</surname>
+                            <given-names>DS</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2014">2014</year>
+                    <article-title>String objects representing biological sequences, and matching algorithms</article-title>
+                    <source>Bioconductor</source>
+                    <version>R Package Version 2.30.1</version>
+                    <ext-link ext-link-type="uri" xlink:href='https://bioconductor.org/packages/release/bioc/html/Biostrings.html'>
+                        https://bioconductor.org/packages/release/bioc/html/Biostrings.html</ext-link>
+                   </element-citation>
+            </ref>
+            <!--Software reference: Question to Software citation group. Author correct??? Details correct?? See also bib35-->
+            <ref id="bib33">
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>DeLano</surname>
+                            <given-names>W</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2002">2002</year>
+                    <source>PyMol</source>
+                        <article-title>The PyMol Molecular Graphics System</article-title>
+                    <version> Version 1.7.4</version>
+                    <publisher-name>Schrödinger LLC</publisher-name>
+                    <ext-link ext-link-type="uri" xlink:href='https://www.pymol.org/'>https://www.pymol.org/</ext-link>  
+                </element-citation>
+            </ref>
+            <!--Software reference: No title-->
+            <ref id="bib34">
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Smit</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Hubley</surname>
+                            <given-names>R</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2010">2010</year>
+                    <source>RepeatModeler</source>
+                    <publisher-name>Institute for Systems Biology</publisher-name>
+                    <publisher-loc>Seattle, USA</publisher-loc>
+                    <version>open-1.0</version>
+                    <uri xlink:href="http://www.repeatmasker.org/RepeatModeler.html">http://www.repeatmasker.org/RepeatModeler.html</uri>
+                </element-citation>
+            </ref>
+            <!--Software reference: should source be article title?-->
+           <ref id="bib35">
+               <element-citation publication-type="software">
+                   <person-group person-group-type="author">
+                       <name>
+                           <surname>Schrödinger</surname>
+                           <given-names>LLC</given-names>
+                       </name>
+                   </person-group>
+                   <year iso-8601-date="2011">2011</year>
+                   <source>The PyMOL Molecular Graphics System</source>
+                   <publisher-name>Schrödinger LLC</publisher-name>
+                   <version>1.2r3pre</version>
+                   <ext-link ext-link-type="uri" xlink:href='https://www.pymol.org/'>https://www.pymol.org/</ext-link>
+               </element-citation>
+           </ref>
+            <ref><element-citation publication-type="software">
+                <person-group person-group-type="author">
+                    <collab>R Development Core Team</collab>
+                </person-group>
+                <data-title>R: a language and environment for statistical computing</data-title>
+                <version>3.2.2</version>
+                    <year iso-8601-date="2015">2015</year>
+                    <publisher-loc>Vienna, Austria</publisher-loc>
+                    <publisher-name>R Foundation for Statistical Computing</publisher-name>
+                    <uri>http://www.r-project.org/</uri>
+            </element-citation>
+            </ref>
+            
+            <ref id="bib36">
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Rasband</surname>
+                            <given-names>WS</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="1997">1997</year>
+                    <source>Image J</source>
+                    <publisher-loc>Bethesda, MA</publisher-loc>
+                    <publisher-name>US National Institutes of Health</publisher-name>
+                    <uri xlink:href="http://imagej.nih.gov/ij/">http://imagej.nih.gov/ij/</uri></element-citation>
+            </ref>
+            <ref id="bib37">
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Bricogne</surname>
+                            <given-names>G</given-names>
+                        </name>
+                        <name>
+                            <surname>Blanc</surname>
+                            <given-names>E</given-names>
+                        </name>
+                        <name>
+                            <surname>Brandl</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name>
+                            <surname>Flensburg</surname>
+                            <given-names>C</given-names>
+                        </name>
+                        <name>
+                            <surname>Keller</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name>
+                            <surname>Paciorek</surname>
+                            <given-names>W</given-names>
+                        </name>
+                        <name>
+                            <surname>Roversi</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name>
+                            <surname>Sharff</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Smart</surname>
+                            <given-names>OS</given-names>
+                        </name>
+                        <name>
+                            <surname>Vonrhein</surname>
+                            <given-names>C</given-names>
+                        </name>
+                        <name>
+                            <surname>Womack</surname>
+                            <given-names>TO</given-names>
+                        </name>
+                    </person-group>
+                    <source>BUSTER</source>
+                    <edition>2.10.0</edition>
+                    <publisher-loc>Cambridge, UK</publisher-loc>
+                    <publisher-name>Global Phasing Ltd</publisher-name>
+                    <year iso-8601-date="2011">2011</year>
+                    <uri xlink:href="https://www.globalphasing.com/buster/">https://www.globalphasing.com/buster/</uri>
+                </element-citation>
+            </ref>
+           </ref-list>
         <app-group>
             <app>
             <title>Appendix 1</title>
