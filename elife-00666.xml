@@ -2187,7 +2187,114 @@ If an article goes through one of these processes more than once, the value shou
                 <publisher-loc>Nijmegen, The Netherlands</publisher-loc>
             </element-citation>
             </ref>
-           </ref-list>
+         <!-- Reference to a Preprint: bioRxiv -->
+            <ref id="bib46">
+                <element-citation publication-type="preprint">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Bloss</surname>
+                            <given-names>CS</given-names>
+                        </name>
+                        <name>
+                            <surname>Wineinger</surname>
+                            <given-names>NE</given-names>
+                        </name>
+                        <name>
+                            <surname>Peters</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name>
+                            <surname>Boeldt</surname>
+                            <given-names>DL</given-names>
+                        </name>
+                        <name>
+                            <surname>Ariniello</surname>
+                            <given-names>L</given-names>
+                        </name>
+                        <name>
+                            <surname>Kim</surname>
+                            <given-names>JL</given-names>
+                        </name>
+                        <name>
+                            <surname>Judy Sheard</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>Komatireddy</surname>
+                            <given-names>R</given-names>
+                        </name>
+                        <name>
+                            <surname>Barrett</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name>
+                            <surname>Topol</surname>
+                            <given-names>EJ</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2016">2016</year>
+                    <article-title>A prospective randomized trial examining health care utilization in individuals using multiple 
+                        smartphone-enabled biosensors</article-title>
+                    <source>bioRxiv</source>
+                    <pub-id pub-id-type="doi">10.1101/029983</pub-id>
+                 </element-citation>
+            </ref> 
+         <!-- Reference to a Preprint: preprints -->
+            <ref id="bib47">
+                <element-citation publication-type="preprint">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Tanaka</surname>
+                            <given-names>Y</given-names>
+                        </name>
+                        <name>
+                            <surname>Hosoyama</surname>
+                            <given-names>T</given-names>
+                        </name>
+                        <name>
+                            <surname>Mikamo</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Kurazumi</surname>
+                            <given-names>H</given-names>
+                        </name>
+                        <name>
+                            <surname>Nishimoto</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Ueno</surname>
+                            <given-names>K</given-names>
+                        </name>
+                        <name>
+                            <surname>Shirasawa</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name>
+                            <surname>Hamano</surname>
+                            <given-names>K</given-names>
+                        </name>
+                        </person-group>
+                    <year iso-8601-date="2016">2016</year>
+                    <article-title>Hypoxic Preconditioning of Human Cardiosphere-derived Cell Sheets Enhances Cellular Functions via 
+                        Activation of the PI3K/Akt/mTOR/HIF-1a Pathway</article-title>
+                    <source>preprints</source>
+                    <pub-id pub-id-type="doi">10.20944/preprints201608.0124.v1</pub-id>
+                </element-citation>
+            </ref> 
+                <!-- Reference to a Clinical Trial - subject to revision-->
+            <ref id="bib48">
+                <element-citation publication-type="clinical trial">
+                    <person-group person-group-type="sponsor">
+                        <collab>Scripps Translational Science Institute</collab>
+                    </person-group>
+                    <year iso-8601-date="2006">2015</year>
+                    <article-title>Scripps Wired for Health Study</article-title>
+                    <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/home">NCT01975428</ext-link>
+                </element-citation>
+            </ref> 
+ </ref-list>
         <app-group>
             <app>
             <title>Appendix 1</title>
