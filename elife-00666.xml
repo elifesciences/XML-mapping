@@ -1978,7 +1978,7 @@ If an article goes through one of these processes more than once, the value shou
                </element-citation>
            </ref>
             <!--Software reference: R-->
-            <ref><element-citation publication-type="software">
+            <ref id="bib36"><element-citation publication-type="software">
                 <person-group person-group-type="author">
                     <collab>R Development Core Team</collab>
                 </person-group>
@@ -1991,7 +1991,7 @@ If an article goes through one of these processes more than once, the value shou
             </element-citation>
             </ref>
             <!--Software reference: no source-->
-            <ref id="bib36">
+            <ref id="bib37">
                 <element-citation publication-type="software">
                     <person-group person-group-type="author">
                         <name>
@@ -2007,7 +2007,7 @@ If an article goes through one of these processes more than once, the value shou
                 </element-citation>
             </ref>
             <!--Software reference: no title-->
-            <ref id="bib37">
+            <ref id="bib38">
                 <element-citation publication-type="software">
                     <person-group person-group-type="author">
                         <name>
@@ -2064,7 +2064,7 @@ If an article goes through one of these processes more than once, the value shou
                 </element-citation>
             </ref>
             <!-- Technical report -->
-            <ref id="bib38">
+            <ref id="bib39">
             <element-citation publication-type="report">
                 <person-group person-group-type="author">
                     <collab>National Institute of Mental Health</collab>
@@ -2076,7 +2076,7 @@ If an article goes through one of these processes more than once, the value shou
             </element-citation>
             </ref>
             <!-- UK White Paper with ISBN -->
-            <ref id="bib39">
+            <ref id="bib40">
             <element-citation publication-type="report">
                 <person-group person-group-type="author">
                     <collab>Department of Education</collab>
@@ -2092,7 +2092,7 @@ If an article goes through one of these processes more than once, the value shou
             </element-citation>
             </ref>
             <!-- Product information with web-page -->
-            <ref id="bib40">
+            <ref id="bib41">
             <element-citation publication-type="report">
                 <person-group person-group-type="author">
                     <collab>GlaxoSmithKline UK</collab>
@@ -2105,7 +2105,7 @@ If an article goes through one of these processes more than once, the value shou
             </element-citation>
             </ref>
             <!-- Reference to a post on a blog (page on a Website) -->
-            <ref id="bib41">
+            <ref id="bib42">
             <element-citation publication-type="web">
                 <person-group person-group-type="author">
                     <name>
@@ -2119,7 +2119,7 @@ If an article goes through one of these processes more than once, the value shou
             </element-citation>
             </ref>
             <!-- Reference to a whole Website -->
-            <ref id="bib42">
+            <ref id="bib43">
             <element-citation publication-type="web">
                 <person-group person-group-type="author">
                     <name>
@@ -2132,7 +2132,7 @@ If an article goes through one of these processes more than once, the value shou
             </element-citation>
             </ref>
             <!-- Reference to a Newspaper article -->
-            <ref id="bib43">
+            <ref id="bib44">
             <element-citation publication-type="periodical">
                 <person-group person-group-type="author">
                     <name>
@@ -2147,7 +2147,7 @@ If an article goes through one of these processes more than once, the value shou
             </element-citation>
             </ref>
             <!-- Reference to a United States Patent -->
-            <ref id="bib44">
+            <ref id="bib45">
             <element-citation publication-type="patent">
                 <person-group person-group-type="author">
                     <name>
@@ -2174,7 +2174,7 @@ If an article goes through one of these processes more than once, the value shou
             </element-citation>
             </ref>
             <!-- Reference to a Thesis -->
-            <ref id="bib45">
+            <ref id="bib46">
             <element-citation publication-type="thesis">
                 <person-group person-group-type="author">
                     <name>
@@ -2188,7 +2188,7 @@ If an article goes through one of these processes more than once, the value shou
             </element-citation>
             </ref>
          <!-- Reference to a Preprint: bioRxiv -->
-            <ref id="bib46">
+            <ref id="bib47">
                 <element-citation publication-type="preprint">
                     <person-group person-group-type="author">
                         <name>
@@ -2240,7 +2240,7 @@ If an article goes through one of these processes more than once, the value shou
                  </element-citation>
             </ref> 
          <!-- Reference to a Preprint: preprints -->
-            <ref id="bib47">
+            <ref id="bib48">
                 <element-citation publication-type="preprint">
                     <person-group person-group-type="author">
                         <name>
@@ -2284,7 +2284,7 @@ If an article goes through one of these processes more than once, the value shou
                 </element-citation>
             </ref>
                 <!-- Reference to a Preprint: arXiv.org, no DOI -->
-                <ref id="bib48">
+                <ref id="bib49">
                     <element-citation publication-type="preprint">
                         <person-group person-group-type="author">
                             <name>
@@ -2297,10 +2297,9 @@ If an article goes through one of these processes more than once, the value shou
                         <source>arXiv.org</source>
                         <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1608.03074">arXiv:1608.03074</ext-link>
                     </element-citation>
-                
             </ref> 
                 <!-- Reference to a Clinical Trial - subject to revision-->
-            <ref id="bib49">
+            <ref id="bib50">
                 <element-citation publication-type="clinical trial">
                     <person-group person-group-type="sponsor">
                         <collab>Scripps Translational Science Institute</collab>
