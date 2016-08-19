@@ -1512,7 +1512,7 @@ If an article goes through one of these processes more than once, the value shou
                     <year iso-8601-date="2013">2013</year>
                     <data-title>SKN-1 from the JASPAR CORE database</data-title>
                     <source>JASPAR</source>
-                    <pub-id pub-id-type="art-access-id"
+                    <pub-id pub-id-type="archive"
                         xlink:href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl"
                         >MA0547.1</pub-id>
                 </element-citation>
