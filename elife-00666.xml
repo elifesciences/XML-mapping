@@ -2386,8 +2386,7 @@ If an article goes through one of these processes more than once, the value shou
                     <year iso-8601-date="2010">2010</year>
                     <article-title>Boundary learning by optimization with topological
                         constraints</article-title>
-                    <conf-name>Computer Vision and Pattern Recognition (CVPR), 2010 IEEE Conference On, IEEE
-                    </conf-name>
+                    <conf-name>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2010</conf-name>
                 </element-citation>
             </ref>
             <!-- Reference to a conference: has page numbers-->
