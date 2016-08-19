@@ -2301,7 +2301,7 @@ If an article goes through one of these processes more than once, the value shou
             </ref> 
                 <!-- Reference to a Clinical Trial - subject to revision-->
             <ref id="bib50">
-                <element-citation publication-type="clinical trial">
+                <element-citation publication-type="clinicaltrial">
                     <person-group person-group-type="sponsor">
                         <collab>Scripps Translational Science Institute</collab>
                     </person-group>
