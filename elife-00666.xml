@@ -2056,7 +2056,7 @@ If an article goes through one of these processes more than once, the value shou
                         </name>
                     </person-group>
                     <source>BUSTER</source>
-                    <edition>2.10.0</edition>
+                    <version>2.10.0</version>
                     <publisher-loc>Cambridge, UK</publisher-loc>
                     <publisher-name>Global Phasing Ltd</publisher-name>
                     <year iso-8601-date="2011">2011</year>
