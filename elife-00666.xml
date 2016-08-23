@@ -252,7 +252,8 @@ list is retained as per the XML order-->
 Most of the time it is the last entry, but this is not a requirement-->
                 <on-behalf-of>for the eLife Staff Team</on-behalf-of>
 <!-- affiliations are granular and a department field must contain one department. For example 2 departments at one institution (see below) generate two seperate affiliations
-UPDATE: punctiation outside of XML tags has been removed, is not necessary. Will need to be biolerplated for the PDF display-->
+UPDATE: punctiation outside of XML tags has been removed, is not necessary. Will need to be biolerplated for the PDF display
+Label is required for display on PMC-->
                 <aff id="aff1">
                     <label>1</label>
                     <institution content-type="dept">Department of Production</institution>
@@ -270,7 +271,8 @@ UPDATE: punctiation outside of XML tags has been removed, is not necessary. Will
                     </addr-line>
                     <country>United Kingdom</country>
                 </aff>             
-<!-- eLife papers are shepherded through the review process by a reviewing editor, who is called out-->
+<!-- eLife papers are shepherded through the review process by a reviewing editor, who is called out
+Punctuation outside XML tags has been removed -->
             </contrib-group>
             <contrib-group content-type="section">
                 <contrib contrib-type="editor" id="author-10">
