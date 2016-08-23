@@ -157,7 +157,7 @@ list is retained as per the XML order-->
                                     <given-names>Wei Mun</given-names>
                                 </name>
                                 <aff>
-                                    <institution>eLife</institution>,
+                                    <institution>eLife</institution>
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
@@ -234,7 +234,7 @@ list is retained as per the XML order-->
                         <given-names>Graham</given-names>
                     </name>
                     <aff>
-                        <institution>Graham Nott Enterprises</institution>,
+                        <institution>Graham Nott Enterprises</institution>
                         <addr-line>
                             <named-content content-type="city">Victoria</named-content>
                         </addr-line>
@@ -247,18 +247,24 @@ list is retained as per the XML order-->
 <!-- on behalf of can be used in any position of the author list. It must be retained in the correct position in the author list. 
 Most of the time it is the last entry, but this is not a requirement-->
                 <on-behalf-of>for the eLife Staff Team</on-behalf-of>
-<!-- affiliations are granular and a department field must contain one department. For example 2 departments at one institution (see below) generate two seperate affiliations-->
+<!-- affiliations are granular and a department field must contain one department. For example 2 departments at one institution (see below) generate two seperate affiliations
+UPDATE: punctiation outside of XML tags has been removed, is not necessary. Will need to be biolerplated for the PDF display-->
                 <aff id="aff1">
                     <label>1</label>
-                    <institution content-type="dept">Department of Production</institution>,
-                    <institution>eLife</institution>, <addr-line><named-content content-type="city"
-                        >Cambridge</named-content></addr-line>, <country>United Kingdom</country>
+                    <institution content-type="dept">Department of Production</institution>
+                    <institution>eLife</institution>
+                    <addr-line>
+                        <named-content content-type="city">Cambridge</named-content>
+                    </addr-line>
+                    <country>United Kingdom</country>
                 </aff>
                 <aff id="aff2">
                     <label>2</label>
-                    <institution content-type="dept">Department of Technology</institution>,
-                    <institution>eLife</institution>, <addr-line><named-content content-type="city"
-                        >Cambridge</named-content></addr-line>, <country>United Kingdom</country>
+                    <institution content-type="dept">Department of Technology</institution>
+                    <institution>eLife</institution>
+                    <addr-line><named-content content-type="city">Cambridge</named-content>
+                    </addr-line>
+                    <country>United Kingdom</country>
                 </aff>
 <!-- eLife papers are shepherded through the review process by a reviewing editor, who is called out-->
             </contrib-group>
@@ -270,7 +276,7 @@ Most of the time it is the last entry, but this is not a requirement-->
                     </name>
                     <role>Reviewing Editor</role>
                     <aff>
-                        <institution>eLife Sciences</institution>,
+                        <institution>eLife Sciences</institution>
                         <country>United Kingdom</country>
                     </aff>
                 </contrib>
