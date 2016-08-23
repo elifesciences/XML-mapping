@@ -71,7 +71,8 @@ The contrib MAY have following attributes:
 equal-contrib="yes" - can only be used if an author contributed equally with another author and this attribute must be present on both their contribs. 
 There is no limit to the number of equal contributions and there can be seperate groups of equal contribution - the symbol denoted in the 
 <xref ref-type="fn" rid="equal-contrib">XXX</xref> indicates which group
-deceased="yes" - only used if author is now dead
+deceased="yes" - only used if author is now dead.
+UPDATE: footnote in XML no longer exists for deceased tag. PDF requirement - generate footnote.
 corresp="yes" - only used if the author is a corresponding author. There can be more than one corresponding author and there is no limit to the number of corresponding authors
 A corresponding author must have an email address-->
                 <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="author-00001">
