@@ -86,17 +86,18 @@ so there could be multiple corresponding authors and they may not all have an OR
 <!--UPDATE: email for corresponding author is contained within contrib and no longer in author notes-->                    
                     <email>m.harrison@elifesciences.org</email>
 <!-- author affiliation(s) are linked to the contrib via the xref link to their "aff"
-Authors can have one or multiple affiliations there is one aff per affiliation and these are shared by the authors, not repeated.-->
+Authors can have one or multiple affiliations there is one aff per affiliation and these are shared by the authors, not repeated.
+ Xref link requires display number (eg see below "1") This is required for PMC-->
                     <xref ref-type="aff" rid="aff1">1</xref>
 <!-- authors who have funding that is declared on the paper are linked to this via the xref link to the <award-group> via the"par" ID. 
-Authors can have one or multiple funding and multiple authors can be associated with one funding-->
+Authors can have one or multiple funding and multiple authors can be associated with one funding. There is no display text associated with this link-->
                     <xref ref-type="other" rid="par-1"/>
 <!-- author competing interests statement is linked to the contrib via the footnote with attribute fn-type="conflict" and the corresponding id. 
 Only one is allowed per author. If the author has no competing interets this footnote can be shared with other authors. 
-Where a competing interested is listed, this must be unique to the author-->
+Where a competing interested is listed, this must be unique to the author. There is no display text associated with this link -->
                     <xref ref-type="fn" rid="conf1"/>
-                    <!-- author contributions are linked to their contrib via the footnote with attribute 
-                        fn-type="con" and the corresponding id. Only one is allowed per author-->
+<!-- author contributions are linked to their contrib via the footnote with attribute fn-type="con" and the corresponding id. Only one is allowed per author. 
+There is no display text associated with this link-->
                     <xref ref-type="fn" rid="con1"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" id="author-00002">
@@ -109,15 +110,15 @@ Where a competing interested is listed, this must be unique to the author-->
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="con2"/>
                 </contrib>
-                <!-- group authors. If the individuals of the group are to be called out, they now will be listed as a contrib-group and contributors within collab.
-                    They are no longer seperated from their group name-->
+<!-- UPDATE: group authors. If the individuals of the group are listed, they now will be listed as a contrib-group and contributors within collab.
+They are no longer seperated from their group name in tagging and linked by author key. Multiple group authors are allowed and their position in the author 
+list is retained as per the XML order-->
                 <contrib contrib-type="author">
                     <collab>eLife Editorial Production Group
                         <contrib-group>
+<!-- UPDATE: use of role in group authors. If the group is subdivided into sections, this is indicated using the role tag-->                           
                             <role>Writing group</role>
                             <contrib>
-                                <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
-                        This text is not for display-->
                                 <name>
                                     <surname>Shearer</surname>
                                     <given-names>Alistair</given-names>
@@ -147,8 +148,6 @@ Where a competing interested is listed, this must be unique to the author-->
                         <contrib-group>
                             <role>Editing group</role>
                             <contrib>
-                                <!--There can be multiple groups of group authors and they are identified via the contrib id attribute contrib-id-type="group-author-key". 
-                        This text is not for display-->
                                 <name>
                                     <surname>Chan</surname>
                                     <given-names>Wei Mun</given-names>
@@ -210,7 +209,7 @@ Where a competing interested is listed, this must be unique to the author-->
                     <collab>eLife Technology Group
                     <contrib-group>
                         <contrib>
-                    <!-- A group author member can have an ORCID -->
+<!-- A group author member can have an ORCID -->
                     <name>
                         <surname>Wilkinson</surname>
                         <given-names>Chris</given-names>
@@ -224,7 +223,7 @@ Where a competing interested is listed, this must be unique to the author-->
                         <given-names>Luke</given-names>
                     </name>
                         </contrib>
-                    <!-- A group author member can have an affiliation, but it is contained within the contrib after their name-->
+<!-- UPDATE: A group author member can have an affiliation, but it is contained within the contrib after their name-->
                         <contrib>
                             <name>
                         <surname>Nott</surname>
@@ -241,9 +240,10 @@ Where a competing interested is listed, this must be unique to the author-->
             </contrib-group>
             </collab>
             </contrib>
-                <!-- on behalf of-->
+<!-- on behalf of can be used in any position of the author list. It must be retained in the correct position in the author list. 
+Most of the time it is the last entry, but this is not a requirement-->
                 <on-behalf-of>for the eLife Staff Team</on-behalf-of>
-                <!-- affiliations are granular and a department field must contain one department. For example 2 departments at one institution (see below) generate two seperate affiliations-->
+<!-- affiliations are granular and a department field must contain one department. For example 2 departments at one institution (see below) generate two seperate affiliations-->
                 <aff id="aff1">
                     <label>1</label>
                     <institution content-type="dept">Department of Production</institution>,
@@ -256,7 +256,7 @@ Where a competing interested is listed, this must be unique to the author-->
                     <institution>eLife</institution>, <addr-line><named-content content-type="city"
                         >Cambridge</named-content></addr-line>, <country>United Kingdom</country>
                 </aff>
-                <!-- eLife papers are shepherded through the review process by a reviewing editor, who is called out-->
+<!-- eLife papers are shepherded through the review process by a reviewing editor, who is called out-->
             </contrib-group>
             <contrib-group content-type="section">
                 <contrib contrib-type="editor" id="author-10">
@@ -272,7 +272,7 @@ Where a competing interested is listed, this must be unique to the author-->
                 </contrib>
             </contrib-group>
             <author-notes>
-                <!--Corresponedence - removed "For correspondence from author-notes-->
+<!--Corresponedence - removed "For correspondence from author-notes-->
                <fn fn-type="con" id="equal-contrib">
                     <p>These authors contributed equally to this work</p>
                 </fn>
@@ -817,16 +817,23 @@ Where a competing interested is listed, this must be unique to the author-->
     </body>
     <back>
         <sec sec-type="additional-information" id="s5">
+            <!--XML comtains no names of authors in competing interest footnote, but PDF must add full name of author where they decclare an interest, 
+                eg below "Chair of JATS4R" would be come: Melissa Harrison: Chair of JATS4R" Generic "No competing interests declared" is linked to 
+                all authors who do not declare a competing interest. For the PDF rules are as follows:
+            All authors declare no competing interests: statement reads "The authors declare that no competing interests exist."
+            One or more authors declare competing interests and rest do not: "The other authors declare that no competing interests exist."
+            Only one author out of two or more declares no competing interests exist: "The other author declares that no competing interests exist."
+            One author only and there declare no competing interests: "The author declares that no competing interests exist."-->
             <fn-group content-type="competing-interest">
                 <title>Competing interests</title>
                 <fn fn-type="conflict" id="conf1">
-                    <p>Melissa Harrison is chair of JATS4R</p>
+                    <p>Chair of JATS4R</p>
                 </fn>
                 <fn fn-type="conflict" id="conf2">
-                    <p>The author has declared that no competing interests exist</p>
+                    <p>No competing interests declared</p>
                 </fn>
                 <fn fn-type="conflict" id="conf3">
-                    <p>Graham Nott is not an eLife employee</p>
+                    <p>Not an eLife employee</p>
                 </fn>
             </fn-group>
             <fn-group content-type="author-contribution">
