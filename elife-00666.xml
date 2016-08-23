@@ -100,6 +100,9 @@ Where a competing interested is listed, this must be unique to the author. There
 <!-- author contributions are linked to their contrib via the footnote with attribute fn-type="con" and the corresponding id. Only one is allowed per author. 
 There is no display text associated with this link-->
                     <xref ref-type="fn" rid="con1"/>
+<!-- present addresses are linked to their contrib via the footnote with attribute fn-type="con" and the corresponding id. No limit to number allowed per author 
+and same authors can share a present address. There is no display text associated with this link-->
+                    <xref ref-type="fn" rid="pa1"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" id="author-00002">
                     <name>
@@ -273,9 +276,13 @@ Most of the time it is the last entry, but this is not a requirement-->
                 </contrib>
             </contrib-group>
             <author-notes>
-<!--Corresponedence - removed "For correspondence from author-notes-->
+<!--Correspondence - removed "For correspondence from author-notes-->
                <fn fn-type="con" id="equal-contrib">
                     <p>These authors contributed equally to this work</p>
+                </fn>
+<!--UPDATE: Present address - removed label (is a PDF display issue only)-->
+                <fn fn-type="present-address" id="pa1">
+                    <p>Department of Wellcome Trust, Sanger Institute, London, United Kingdom</p>
                 </fn>
             </author-notes>
             <!--CHANGE: pub-date will will still continue to keep the PoA pub date in the XML but it will also include the 
