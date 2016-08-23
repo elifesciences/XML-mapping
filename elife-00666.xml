@@ -836,13 +836,18 @@ Most of the time it is the last entry, but this is not a requirement-->
                     <p>Not an eLife employee</p>
                 </fn>
             </fn-group>
+            <!--UPDATE: Contributions: There is one contribution per author and they are listed sequentially (ie author 1 must have con1, etc).
+            Text string, no name is prefaced. No full stop at end.
+            UPDATE: PDF add full author name followed by colon then insert contribution. In author order, one line per author. 
+            Group author con - do the same (ie add group author name and colon) but note the text string may contain individual names and correction 
+            further punctuation-->
             <fn-group content-type="author-contribution">
                 <title>Author contribution</title>
                 <fn fn-type="con" id="con1">
-                    <p>Melissa Harrison, completed the XML mapping exercise and wrote this XML example</p>
+                    <p>Completed the XML mapping exercise and wrote this XML example</p>
                 </fn>
                 <fn fn-type="con" id="con2">
-                    <p>James Gilbert, contributed to the XML mapping exercise and quality checked all the tagging and content</p>
+                    <p>Contributed to the XML mapping exercise and quality checked all the tagging and content</p>
                 </fn>
                 <fn fn-type="con" id="con3">
                     <p>Chris Wilkinson,  performed the XML mapping exercise and generated the JSON Schema</p>
