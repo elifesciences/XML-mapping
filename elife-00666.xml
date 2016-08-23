@@ -103,6 +103,10 @@ There is no display text associated with this link-->
 <!-- present addresses are linked to their contrib via the footnote with attribute fn-type="con" and the corresponding id. No limit to number allowed per author 
 and same authors can share a present address. There is no display text associated with this link-->
                     <xref ref-type="fn" rid="pa1"/>
+<!-- Other footnotes are linked to their contrib via the footnote with attribute fn-type="fn" and the corresponding id. No limit to number allowed per author 
+and same authors can share a footnote. There is no display text associated with this link.
+Other footnotes are rare (they ahve only been used 3 times in the history of eLife) -->                   
+                    <xref ref-type="fn" rid="fn1"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" id="author-00002">
                     <name>
@@ -265,7 +269,7 @@ UPDATE: punctiation outside of XML tags has been removed, is not necessary. Will
                     <addr-line><named-content content-type="city">Cambridge</named-content>
                     </addr-line>
                     <country>United Kingdom</country>
-                </aff>
+                </aff>             
 <!-- eLife papers are shepherded through the review process by a reviewing editor, who is called out-->
             </contrib-group>
             <contrib-group content-type="section">
@@ -290,11 +294,17 @@ UPDATE: punctiation outside of XML tags has been removed, is not necessary. Will
                 <fn fn-type="present-address" id="pa1">
                     <p>Department of Wellcome Trust, Sanger Institute, London, United Kingdom</p>
                 </fn>
+<!--UPDATE: Other footnotes - removed label (is a PDF display issue only)
+Other footnotes are rare (they have only been used 3 times in the history of eLife. The text of the footnote is transitioned directly to the website, so the content must work 
+as a discrete item on each author's roll over and on the display at the end of the article-->
+                <fn fn-type="other" id="fn1">
+                    <p>This footnote text must work in isolation and nothing is processed on the html view to make it "work"</p>
+                </fn>
             </author-notes>
-            <!--CHANGE: pub-date will will still continue to keep the PoA pub date in the XML but it will also include the 
-                updated date that the VoR is published. The first time an article is published it will contain one date, 
-                which will containt the @date-type attribute of "Publication". 
-                This instance of the XML will also be added into pub-date with a @date-type attribute of "Update" -->
+<!--CHANGE: pub-date will  still continue to keep the PoA pub date in the XML but it will also include the 
+updated date that the VoR is published. The first time an article is published it will contain one date, 
+which will containt the @date-type attribute of "Publication". 
+This new instance of the XML will also be added into pub-date with a @date-type attribute of "Update" -->
             <pub-date publication-format="electronic" date-type="Update">
                 <day>11</day>
                 <month>08</month>
@@ -305,28 +315,27 @@ UPDATE: punctiation outside of XML tags has been removed, is not necessary. Will
                 <month>04</month>
                 <year>2016</year>
              </pub-date>
-            <!--Added pub-type collection in order for continuum to process as VoR -->
+<!--Added pub-type collection in order for continuum to process as VoR, but plan to remove before eLife 2.0 -->
             <pub-date pub-type="collection">
                 <year>2016</year>
             </pub-date>
             <volume>5</volume>
             <elocation-id>e00666</elocation-id>
-            <!--CHANGE: all the historical publication information related to an article will be added to the history, with iso-8601-date attributes.
-            Also, the links to the previous published versions will be added, as well as a comment to indicate the changes. This will not be necessary between PoA and VoR, 
-            but will be necessary between versions of PoA and versions of VoRs
-            The date will have an iso-8601-date= attribute added
-            
-            @date-type values
-            preprint - The date a preprint was disseminated (electronic or print)
-            AM-pub -  The date a manuscript, was published
-            EAM-pub - The date a manuscript, was enhanced and re-published
-            VoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was published
-            CVoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was corrected (an official correction notice has been published to accompany this article)
-            EVoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was enhanced and re-published (this article has been updated and republished, with no official correction notice)
-            retracted - The date an article was retracted
-            If an article goes through one of these processes more than once, the value should contain a suffix of “-r1”, ie another VoR enhancement - EVor-pub-r1
-            NOT IN PMC YET, will need to discuss with them when we wanty to impelment
-            -->
+<!--CHANGE: all the historical publication information related to an article will be added to the history, with iso-8601-date attributes.
+Also, the links to the previous published versions will be added, as well as a comment to indicate the changes. This will not be necessary between PoA and VoR, 
+but will be necessary between versions of PoA and versions of VoRs
+The date will have an iso-8601-date= attribute added
+@date-type values
+preprint - The date a preprint was disseminated (electronic or print)
+AM-pub -  The date a manuscript, was published
+EAM-pub - The date a manuscript, was enhanced and re-published
+VoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was published
+CVoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was corrected (an official correction notice has been published to accompany this article)
+EVoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was enhanced and re-published (this article has been updated and republished, with no official correction notice)
+retracted - The date an article was retracted
+If an article goes through one of these processes more than once, the value should contain a suffix of “-r1”, ie another VoR enhancement - EVor-pub-r1
+NOT IN PMC YET, will need to discuss with them when we wanty to impelment
+-->
             <history>
                 <date date-type="received" iso-8601-date="2016-03-01">
                     <day>01</day>
