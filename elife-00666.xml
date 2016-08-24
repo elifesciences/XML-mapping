@@ -69,14 +69,16 @@ Plant Biology-->
 id="author-00000" - this is the unique number assigned to an author via the submission system
 The contrib MAY have following attributes:
 equal-contrib="yes" - can only be used if an author contributed equally with another author and this attribute must be present on both their contribs. 
-There is no limit to the number of equal contributions and there can be seperate groups of equal contribution - the symbol denoted in the 
-<xref ref-type="fn" rid="equal-contrib">XXX</xref> indicates which group
+There is no limit to the number of equal contributions and there can be seperate groups of equal contribution.
+This is linked to a footnote via an xref. 
+UPDATE: The rid should be equal-contrib1, equal-contrib2 etc to inidcate which equal contrib group each author is part of. Even if there is only 1 group, 
+number suffix is still required
 deceased="yes" - only used if author is now dead.
 UPDATE: footnote in XML no longer exists for deceased tag. PDF requirement - generate footnote.
-corresp="yes" - only used if the author is a corresponding author. There can be more than one corresponding author and there is no limit to the number of corresponding authors
-A corresponding author must have an email address
-FOTNOTES: the requirements for footnote symbols to be retained in the XML is completely depenent on PMC display stle and NOT the PDF.
-Corresponding author footnote on PDF always takes symbol *. Footnotes to addresses follow the superscript numbering system (1,2,3 etc). All following footnotes use the following 
+corresp="yes" - only used if the author is a corresponding author. There can be more than one corresponding author and there is no limit to the number of 
+corresponding authors. A corresponding author must have an email address.
+UPDATE: no footnote xref to footnote required 
+PDF display: Corresponding author footnote on PDF always takes symbol *. Footnotes to addresses follow the superscript numbering system (1,2,3 etc). All following footnotes use the following 
 symbols in order:   †, ‡, §,#, ¶,**,††, ‡‡,§§,##,¶¶-->
                 <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="author-00001">
                     <name>
@@ -94,7 +96,7 @@ See Kitchen sink PDF for example.-->
 <!-- author affiliation(s) are linked to the contrib via the xref link to their "aff"
 Authors can have one or multiple affiliations there is one aff per affiliation and these are shared by the authors, not repeated.
  Xref link requires display number (eg see below "1") This is required for PMC-->
-                    <xref ref-type="aff" rid="aff1">1</xref>
+                    <xref ref-type="aff" rid="aff1"/>
 <!-- authors who have funding that is declared on the paper are linked to this via the xref link to the <award-group> via the"fund" ID. All ids have a number value only if 1 exist in the paper, 
 eg fund1. Authors can have one or multiple funding and multiple authors can be associated with one funding. There is no display text associated with this link
 UPDATE: id value changed from par to fund and hyphen removed to be consistent with other links. All ids have a number value only if 1 exist in the paper. -->
@@ -108,7 +110,7 @@ There is no display text associated with this link-->
                     <xref ref-type="fn" rid="con1"/>
 <!-- present addresses are linked to their contrib via the footnote with attribute fn-type="con" and the corresponding id. No limit to number allowed per author 
 and same authors can share a present address. There is no display text associated with this link-->
-                    <xref ref-type="fn" rid="pa1">{TO INSERT LABEL}</xref>
+                    <xref ref-type="fn" rid="pa1"/>
 <!-- equal contributions are linked to their contrib via the footnote with attribute fn-type="fn" and the corresponding id. RID value is "equal-contrib" suffixed by sequential number. 
 There is no display text associated with this link-->                   
                     <xref ref-type="fn" rid="equal-contrib1"/>
@@ -122,7 +124,7 @@ Other footnotes are rare (they ahve only been used 3 times in the history of eLi
                         <surname>Gilbert</surname>
                         <given-names>James F</given-names>
                     </name>
-                    <xref ref-type="aff" rid="aff1">1</xref>
+                    <xref ref-type="aff" rid="aff1"/>
                     <xref ref-type="other" rid="fund1"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="con2"/>
@@ -300,13 +302,16 @@ Punctuation outside XML tags has been removed -->
                 </contrib>
             </contrib-group>
             <author-notes>
-<!--Correspondence - removed "For correspondence from author-notes-->
-               <fn fn-type="con" id="equal-contrib">
+<!--Correspondence - removed "For correspondence" from author-notes-->
+<!--Equal contributions - removed labels (symbols)-->                
+               <fn fn-type="con" id="equal-contrib1">
                     <p>These authors contributed equally to this work</p>
+                </fn>
+                <fn fn-type="con" id="equal-contrib2">
+                    <p>These authors also contributed equally to this work</p>
                 </fn>
 <!--UPDATE: Present address - removed label (is a PDF display issue only)-->
                 <fn fn-type="present-address" id="pa1">
-                    <label>{TO INSERT LABEL}Present address</label>
                     <p>Department of Wellcome Trust, Sanger Institute, London, United Kingdom</p>
                 </fn>
 <!--UPDATE: Other footnotes - removed label (is a PDF display issue only)
@@ -314,15 +319,6 @@ Other footnotes are rare (they have only been used 3 times in the history of eLi
 as a discrete item on each author's roll over and on the display at the end of the article-->
                 <fn fn-type="other" id="fn1">
                     <p>This footnote text must work in isolation and nothing is processed on the html view to make it "work"</p>
-                </fn>
-<!-- Equal contributions -  label required for PMC-->
-                <fn fn-type="con" id="equal-contrib1">
-                    <label></label>
-                    <p>These authors contributed equally to this work</p>
-                </fn>
-                <fn fn-type="con" id="equal-contrib2">
-                    <label></label>
-                    <p>These authors also contributed equally to this work</p>
                 </fn>
             </author-notes>
 <!--CHANGE: pub-date will  still continue to keep the PoA pub date in the XML but it will also include the 
