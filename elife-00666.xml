@@ -410,6 +410,17 @@ NOT IN PMC YET, will need to discuss with them when we wanty to impelment
                 </license>
             </permissions>
             <self-uri content-type="pdf" xlink:href="elife00666.pdf"/>
+<!--Related article linking: 
+Optional. Set of accepted @related-article-type:
+Research to Research (or features to features):
+<related-article related-article-type="article-reference" ext-link-type="doi" xlink:href="10.7554/eLife.01295" id="ra1"/>
+Research to Insight:
+<related-article related-article-type="commentary" ext-link-type="doi" xlink:href="10.7554/eLife.01738" id="ra1"/>
+Insight to Research:
+<related-article related-article-type="commentary-article" ext-link-type="doi" xlink:href="10.7554/eLife.01236" id="ra1"/>
+Correction to Research:
+<related-article related-article-type="corrected-article" ext-link-type="doi" xlink:href="10.7554/eLife.00712" id="ra1"/>-->
+            <related-article ext-link-type="doi" related-article-type="commentary" xlink:href="10.7554/eLife.00013"/>
             <!--Abstract: this has changed: The following is no longer required for the XML file:
                    <bold>DOI:</bold>
 				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">http://dx.doi.org/10.7554/eLife.00666.001</ext-link> -->
