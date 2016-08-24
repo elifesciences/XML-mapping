@@ -91,7 +91,8 @@ Authors can have one or multiple affiliations there is one aff per affiliation a
  Xref link requires display number (eg see below "1") This is required for PMC-->
                     <xref ref-type="aff" rid="aff1">1</xref>
 <!-- authors who have funding that is declared on the paper are linked to this via the xref link to the <award-group> via the"par" ID. 
-Authors can have one or multiple funding and multiple authors can be associated with one funding. There is no display text associated with this link-->
+Authors can have one or multiple funding and multiple authors can be associated with one funding. There is no display text associated with this link
+                    UPDATE: id value changed from par to fund and hyphen removed to be consistent with other links-->
                     <xref ref-type="other" rid="fund1"/>
 <!-- author competing interests statement is linked to the contrib via the footnote with attribute fn-type="conflict" and the corresponding id. 
 Only one is allowed per author. If the author has no competing interets this footnote can be shared with other authors. 
