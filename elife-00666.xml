@@ -84,6 +84,7 @@ symbols in order:   †, ‡, §,#, ¶,**,††, ‡‡,§§,##,¶¶-->
                     <name>
                         <surname>Harrison</surname>
                         <given-names>Melissa</given-names>
+                        <suffix>Jnr</suffix>
                      </name>
 <!-- Corresponding author (correspondent for peer review process) must now have an ORCID and other authors are encouraged to have one. 
 NOTE: the corresponding author for peer the review process is indicated in the output XML from the submission system, but this is not retained in the final XML,
