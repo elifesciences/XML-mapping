@@ -2517,13 +2517,16 @@ Therefore, no change proposed to tagging currently.-->
         </app>
         </app-group>
     </back>
-    <!--UPDATE: Links to the DOIs of the decision letter and author response need to be added to the PDF template.-->    
-    <sub-article article-type="article-commentary" id="SA1">
+<!--UPDATE: Links to the DOIs of the decision letter and author response need to be added to the PDF template.
+UPDATE: article-type has been changed from article-commentary to decision-letter-->    
+    <sub-article article-type="decision-letter" id="SA1">
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.00666.020</article-id>
             <title-group>
                 <article-title>Decision letter</article-title>
             </title-group>
+<!--NOTE: repetition of the reviewing editor in this section is required as it indicates that person is the author of this sub-article.
+UPDATE: punctuation between institution and contry removed.            -->     
             <contrib-group>
                 <contrib contrib-type="editor">
                     <name>
@@ -2532,12 +2535,30 @@ Therefore, no change proposed to tagging currently.-->
                     </name>
                     <role>Reviewing editor</role>
                     <aff>
-                        <institution>eLife</institution>,
+                        <institution>eLife</institution>
                         <country>United Kingdom</country>
                     </aff>
                 </contrib>
             </contrib-group>
         </front-stub>
+            <body>
+                <!--NOTE: the boxed text is occassionally updated by editorial so although it remains the same for all articles, it cannot be boiler plate text--> 
+                <boxed-text>
+                    <p>In the interests of transparency, eLife includes the editorial decision letter and accompanying author responses. 
+                        A lightly edited version of the letter sent to the authors after peer review is shown, indicating the most substantive concerns;
+                        minor comments are not usually included.</p>
+                </boxed-text>
+                <p>Thank you for submitting your article "The eLife research paper" for consideration by <italic>eLife</italic>. 
+                    Your article has been reviewed by three peer reviewers, one of whom, Joe Bloggs, 
+                    is a member of our editorial board and also oversaw the process as Senior editor. 
+                    John Doe (peer reviewer) has agreed to reveal his identity.
+                </p>
+                <p>
+                    The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.
+                </p>
+                <p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough information contained within the 
+                    tagging to generate a typeset PDF from the XML with no additional information provided.</p>
+            </body>
     </sub-article>
     <sub-article article-type="reply" id="SA2">
         <front-stub>
