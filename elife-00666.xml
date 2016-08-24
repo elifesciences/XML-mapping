@@ -74,7 +74,10 @@ There is no limit to the number of equal contributions and there can be seperate
 deceased="yes" - only used if author is now dead.
 UPDATE: footnote in XML no longer exists for deceased tag. PDF requirement - generate footnote.
 corresp="yes" - only used if the author is a corresponding author. There can be more than one corresponding author and there is no limit to the number of corresponding authors
-A corresponding author must have an email address-->
+A corresponding author must have an email address
+FOTNOTES: the requirements for footnote symbols to be retained in the XML is completely depenent on PMC display stle and NOT the PDF.
+Corresponding author footnote on PDF always takes symbol *. Footnotes to addresses follow the superscript numbering system (1,2,3 etc). All following footnotes use the following 
+symbols in order:   †, ‡, §,#, ¶,**,††, ‡‡,§§,##,¶¶-->
                 <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="author-00001">
                     <name>
                         <surname>Harrison</surname>
@@ -85,16 +88,16 @@ NOTE: the corresponding author for peer the review process is indicated in the o
 so there could be multiple corresponding authors and they may not all have an ORCID-->
                     <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3523-4408</contrib-id>
 <!--UPDATE: email for corresponding author is contained within contrib and no longer in author notes. For PDF display footnote "*For correspondence:" must be added as biolerplate and pull in email address. 
-                        If multiple corresponding authors the emails must be added in order of author list and semicolon seperated. Also, author initials need to be added in brackets after each email address. 
-                        See Kitchen sink PDF for example-->                    
+If multiple corresponding authors the emails must be added in order of author list and semicolon seperated. Also, author initials need to be added in brackets after each email address. 
+See Kitchen sink PDF for example.-->                    
                     <email>m.harrison@elifesciences.org</email>
 <!-- author affiliation(s) are linked to the contrib via the xref link to their "aff"
 Authors can have one or multiple affiliations there is one aff per affiliation and these are shared by the authors, not repeated.
  Xref link requires display number (eg see below "1") This is required for PMC-->
                     <xref ref-type="aff" rid="aff1">1</xref>
-<!-- authors who have funding that is declared on the paper are linked to this via the xref link to the <award-group> via the"par" ID. 
-Authors can have one or multiple funding and multiple authors can be associated with one funding. There is no display text associated with this link
-                    UPDATE: id value changed from par to fund and hyphen removed to be consistent with other links-->
+<!-- authors who have funding that is declared on the paper are linked to this via the xref link to the <award-group> via the"fund" ID. All ids have a number value only if 1 exist in the paper, 
+eg fund1. Authors can have one or multiple funding and multiple authors can be associated with one funding. There is no display text associated with this link
+UPDATE: id value changed from par to fund and hyphen removed to be consistent with other links. All ids have a number value only if 1 exist in the paper. -->
                     <xref ref-type="other" rid="fund1"/>
 <!-- author competing interests statement is linked to the contrib via the footnote with attribute fn-type="conflict" and the corresponding id. 
 Only one is allowed per author. If the author has no competing interets this footnote can be shared with other authors. 
