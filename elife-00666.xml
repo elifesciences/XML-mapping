@@ -489,13 +489,16 @@ NOTE: id="ra1" is required for PMC, not for eLife publication -->
                 <kwd>Human</kwd>
                 <kwd>Machine</kwd>
             </kwd-group>
+<!--Funding:  Website will match  author ID contrib which is xref linked to this section and will ignore the name pulled in. However, production want to 
+leave the name in the XML too as we feel it is better for TDM. We can add Schematron validation to ensure the name listed here matches the name listed with the ID-->
             <funding-group>
                 <award-group id="fund1">
                     <funding-source>
-                        <institution-wrap>
-                            <institution>Wellcome</institution>
+                        <institution-wrap><institution-id institution-id-type="FundRef">dx.doi.org/10.13039/100000011</institution-id>
+                        <institution>Howard Hughes Medical Institute</institution>
                         </institution-wrap>
                     </funding-source>
+                    <award-id>F32 GM089018</award-id>
                     <principal-award-recipient>
                         <name>
                             <surname>Harrison</surname>
@@ -504,13 +507,12 @@ NOTE: id="ra1" is required for PMC, not for eLife publication -->
                     </principal-award-recipient>
                 </award-group>
             </funding-group>
-            <!--Custom-meta: no longer using eLife version as was never used properly.
-                   Impact statement:-->
+<!--UPDATE: Custom-meta: no longer using eLife version as was never used properly.
+Impact statement:-->
             <custom-meta-group>
                 <custom-meta specific-use="meta-only">
                     <meta-name>Author impact statement</meta-name>
-                    <meta-value>The chemical nature of RIF-1 may reveal a new class of bacterial
-                        signaling molecules</meta-value>
+                    <meta-value>How to tag an eLife paper using JATS XML.</meta-value>
                 </custom-meta>
             </custom-meta-group>
         </article-meta>
