@@ -2567,5 +2567,16 @@ UPDATE: punctuation between institution and contry removed.            -->
                 <article-title>Author response</article-title>
             </title-group>
         </front-stub>
+        <body>
+<!--UPDATE: Italics formatting ws used to indicate the editor comments previously, but now we want to semanticly differentiate it. The website and Kriya needs to 
+ display any disp-quote within the  sub-article article-type="reply" as italics and not the nonrmal display quote style used for main body of content-->  
+<disp-quote content-type="editor-comment"><p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough 
+    information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p></disp-quote>
+            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the 
+                PMC validator to check our decisions against display on the PMC site {Insert figure}. However, some decisions required some communication with PMC 
+                to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all 
+                formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} in order to produce rules for the 
+                production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.{Insert table}</p>
+        </body>
     </sub-article>
 </article>
