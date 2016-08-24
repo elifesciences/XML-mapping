@@ -84,7 +84,9 @@ A corresponding author must have an email address-->
 NOTE: the corresponding author for peer the review process is indicated in the output XML from the submission system, but this is not retained in the final XML,
 so there could be multiple corresponding authors and they may not all have an ORCID-->
                     <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3523-4408</contrib-id>
-<!--UPDATE: email for corresponding author is contained within contrib and no longer in author notes-->                    
+<!--UPDATE: email for corresponding author is contained within contrib and no longer in author notes. For PDF display footnote "*For correspondence:" must be added as biolerplate and pull in email address. 
+                        If multiple corresponding authors the emails must be added in order of author list and semicolon seperated. Also, author initials need to be added in brackets after each email address. 
+                        See Kitchen sink PDF for example-->                    
                     <email>m.harrison@elifesciences.org</email>
 <!-- author affiliation(s) are linked to the contrib via the xref link to their "aff"
 Authors can have one or multiple affiliations there is one aff per affiliation and these are shared by the authors, not repeated.
@@ -103,7 +105,7 @@ There is no display text associated with this link-->
                     <xref ref-type="fn" rid="con1"/>
 <!-- present addresses are linked to their contrib via the footnote with attribute fn-type="con" and the corresponding id. No limit to number allowed per author 
 and same authors can share a present address. There is no display text associated with this link-->
-                    <xref ref-type="fn" rid="pa1"/>
+                    <xref ref-type="fn" rid="pa1">{TO INSERT LABEL}</xref>
 <!-- equal contributions are linked to their contrib via the footnote with attribute fn-type="fn" and the corresponding id. RID value is "equal-contrib" suffixed by sequential number. 
 There is no display text associated with this link-->                   
                     <xref ref-type="fn" rid="equal-contrib1"/>
@@ -301,6 +303,7 @@ Punctuation outside XML tags has been removed -->
                 </fn>
 <!--UPDATE: Present address - removed label (is a PDF display issue only)-->
                 <fn fn-type="present-address" id="pa1">
+                    <label>{TO INSERT LABEL}Present address</label>
                     <p>Department of Wellcome Trust, Sanger Institute, London, United Kingdom</p>
                 </fn>
 <!--UPDATE: Other footnotes - removed label (is a PDF display issue only)
