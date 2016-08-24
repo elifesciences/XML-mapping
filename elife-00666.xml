@@ -419,7 +419,8 @@ Research to Insight:
 Insight to Research:
 <related-article related-article-type="commentary-article" ext-link-type="doi" xlink:href="10.7554/eLife.01236" id="ra1"/>
 Correction to Research:
-<related-article related-article-type="corrected-article" ext-link-type="doi" xlink:href="10.7554/eLife.00712" id="ra1"/>-->
+<related-article related-article-type="corrected-article" ext-link-type="doi" xlink:href="10.7554/eLife.00712" id="ra1"/>
+NOTE: id="ra1" is required for PMC, not for eLife publication -->
             <related-article ext-link-type="doi" related-article-type="commentary" xlink:href="10.7554/eLife.00013"/>
             <!--Abstract: this has changed: The following is no longer required for the XML file:
                    <bold>DOI:</bold>
