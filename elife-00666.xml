@@ -103,6 +103,9 @@ There is no display text associated with this link-->
 <!-- present addresses are linked to their contrib via the footnote with attribute fn-type="con" and the corresponding id. No limit to number allowed per author 
 and same authors can share a present address. There is no display text associated with this link-->
                     <xref ref-type="fn" rid="pa1"/>
+<!-- equal contributions are linked to their contrib via the footnote with attribute fn-type="fn" and the corresponding id. RID value is "equal-contrib" suffixed by sequential number. 
+There is no display text associated with this link-->                   
+                    <xref ref-type="fn" rid="equal-contrib1"/>
 <!-- Other footnotes are linked to their contrib via the footnote with attribute fn-type="fn" and the corresponding id. No limit to number allowed per author 
 and same authors can share a footnote. There is no display text associated with this link.
 Other footnotes are rare (they ahve only been used 3 times in the history of eLife) -->                   
@@ -117,11 +120,13 @@ Other footnotes are rare (they ahve only been used 3 times in the history of eLi
                     <xref ref-type="other" rid="par-1"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="con2"/>
+                    <xref ref-type="fn" rid="equal-contrib1"/>
                 </contrib>
 <!-- UPDATE: group authors. If the individuals of the group are listed, they now will be listed as a contrib-group and contributors within collab.
 They are no longer seperated from their group name in tagging and linked by author key. Multiple group authors are allowed and their position in the author 
 list is retained as per the XML order-->
                 <contrib contrib-type="author">
+                    <xref ref-type="fn" rid="equal-contrib2"/>
                     <collab>eLife Editorial Production Group
                         <contrib-group>
 <!-- UPDATE: use of role in group authors. If the group is subdivided into sections, this is indicated using the role tag-->                           
@@ -214,6 +219,7 @@ list is retained as per the XML order-->
                     <xref ref-type="aff" rid="aff2"/>
                     <xref ref-type="fn" rid="conf3"/>
                     <xref ref-type="fn" rid="con3"/>
+                    <xref ref-type="fn" rid="equal-contrib2"/>
                     <collab>eLife Technology Group
                     <contrib-group>
                         <contrib>
@@ -301,6 +307,12 @@ Other footnotes are rare (they have only been used 3 times in the history of eLi
 as a discrete item on each author's roll over and on the display at the end of the article-->
                 <fn fn-type="other" id="fn1">
                     <p>This footnote text must work in isolation and nothing is processed on the html view to make it "work"</p>
+                </fn>
+                <fn fn-type="con" id="equal-contrib1">
+                    <p>These authors contributed equally to this work</p>
+                </fn>
+                <fn fn-type="con" id="equal-contrib2">
+                    <p>These authors also contributed equally to this work</p>
                 </fn>
             </author-notes>
 <!--CHANGE: pub-date will  still continue to keep the PoA pub date in the XML but it will also include the 
@@ -2447,6 +2459,7 @@ NOT IN PMC YET, will need to discuss with them when we wanty to impelment
         </app>
         </app-group>
     </back>
+    <!--UPDATE: Links to the DOIs of the decision letter and author response need to be added to the PDF template.-->    
     <sub-article article-type="article-commentary" id="SA1">
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.00666.020</article-id>
