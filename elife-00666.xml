@@ -119,6 +119,9 @@ There is no display text associated with this link-->
 and same authors can share a footnote. There is no display text associated with this link.
 Other footnotes are rare (they ahve only been used 3 times in the history of eLife) -->                   
                     <xref ref-type="fn" rid="fn1"/>
+<!-- Datasets:  -->                        
+                    <xref ref-type="other" rid="dataro1"/>
+                    <xref ref-type="other" rid="dataro2"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" id="author-00002">
                     <name>
@@ -490,7 +493,11 @@ NOTE: id="ra1" is required for PMC, not for eLife publication -->
                 <kwd>Machine</kwd>
             </kwd-group>
 <!--Funding:  Website will match  author ID contrib which is xref linked to this section and will ignore the name pulled in. However, production want to 
-leave the name in the XML too as we feel it is better for TDM. We can add Schematron validation to ensure the name listed here matches the name listed with the ID-->
+leave the name in the XML too as we feel it is better for TDM. We can add Schematron validation to ensure the name listed here matches the name listed with the ID.
+There is no limit to the number of award groups and the authors assigned to each award group. Rules: new award group per new award-id. 
+Although, award-id is not required.
+Minimum of one author per funding source. Max is max number of authors on the paper.
+Individual members of a group authorship cannot be named in the funder section, only the main atuhor list can be-->
             <funding-group>
                 <award-group id="fund1">
                     <funding-source>
@@ -916,10 +923,40 @@ Impact statement:-->
         </sec>
         <sec sec-type="supplementary-material" id="s6" >
             <title>Additional files</title>
-        </sec>
+<!--Datasets: this section is subject to change further to outcomes of Force11 Data citations working group. 
+Also, is undecided whether they will be added to eLife profiles. Also, the tagging of the collaborator name again within this section is required for PMC display
+Therefore, no change proposed to tagging currently.-->
             <sec sec-type="datasets" id="s7">
                 <title>Major datasets</title>
+                <p>The following dataset was generated:</p>
+                <p>
+                    <related-object content-type="generated-dataset"
+                        source-id="https://github.com/elifesciences/XML-mapping/blob/master/elife-00666.xml"
+                        source-id-type="uri" id="dataro1">
+                        <collab collab-type="author">M Harrison</collab>
+                        <year>2016</year>
+                        <source>xml-mapping</source>
+                        <ext-link ext-link-type="uri"
+                            xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/elife-00666.xml"
+                            >https://github.com/elifesciences/XML-mapping/blob/master/elife-00666.xml</ext-link>
+                        <comment>Publicly available on GitHub</comment>
+                    </related-object>
+                </p>
+                <p>The following previously published dataset was used:</p>
+                <p>
+                    <related-object content-type="existing-dataset" source-id="https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml" 
+                        source-id-type="uri" id="dataro2"> 
+                        <collab collab-type="author">M Harrison</collab> 
+                        <year>2012</year>
+                        <source>elife-vendor-workflow-config</source>
+                        <ext-link ext-link-type="uri"
+                            xlink:href="https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml"
+                            >https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml</ext-link>
+                        <comment>Publicly available on GitHub</comment>
+                    </related-object>
+                </p>
             </sec>
+    </sec>
 <ref-list>
 <!--Journal reference: page numbers and DOI -->
     <ref id="bib1">
