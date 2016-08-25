@@ -2532,6 +2532,13 @@ Therefore, no change proposed to tagging currently.-->
                     <p>Blah</p>
                 </sec>
         </app>
+            <app>
+                <title>Appendix 2</title>
+                <sec sec-type="appendix" id="s9">
+              <title>Negotaition</title>
+                    <p>Blah</p>
+                </sec>
+            </app>
         </app-group>
     </back>
 <!--UPDATE: Links to the DOIs of the decision letter and author response need to be added to the PDF template.
