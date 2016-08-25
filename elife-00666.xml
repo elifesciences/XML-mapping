@@ -882,15 +882,16 @@ Impact statement:-->
     </body>
     <back>
         <sec sec-type="additional-information" id="s5">
-            <!--XML comtains no names of authors in competing interest footnote, but PDF must add full name of author where they decclare an interest, 
-                eg below "Chair of JATS4R" would be come: Melissa Harrison: Chair of JATS4R" Generic "No competing interests declared" is linked to 
-                all authors who do not declare a competing interest. For the PDF rules are as follows:
-            All authors declare no competing interests: statement reads "The authors declare that no competing interests exist."
-            One or more authors declare competing interests and rest do not: "The other authors declare that no competing interests exist."
-            Only one author out of two or more declares no competing interests exist: "The other author declares that no competing interests exist."
-            One author only and there declare no competing interests: "The author declares that no competing interests exist."-->
+<!--UPDATE: XML comtains no names of authors in competing interest footnote, but PDF must add full name of author where they decclare an interest, 
+eg below "Chair of JATS4R" would be come: Melissa Harrison: Chair of JATS4R" Generic "No competing interests declared" is linked to 
+all authors who do not declare a competing interest. For the PDF rules are as follows:
+All authors declare no competing interests: statement reads "The authors declare that no competing interests exist."
+One or more authors declare competing interests and rest do not: "The other authors declare that no competing interests exist."
+Only one author out of two or more declares no competing interests exist: "The other author declares that no competing interests exist."
+One author only and there declare no competing interests: "The author declares that no competing interests exist."
+Order in XML is based on author order, but on PDF competing interests come first, followed by the No competing interest statement            -->
             <fn-group content-type="competing-interest">
-                <title>Competing interests</title>
+<!--UPDATE: <title>Additional information</title> removed. Is required for PDF representation only -->
                 <fn fn-type="conflict" id="conf1">
                     <p>Chair of JATS4R</p>
                 </fn>
@@ -901,13 +902,12 @@ Impact statement:-->
                     <p>Not an eLife employee</p>
                 </fn>
             </fn-group>
-            <!--UPDATE: Contributions: There is one contribution per author and they are listed sequentially (ie author 1 must have con1, etc).
-            Text string, no name is prefaced. No full stop at end.
-            UPDATE: PDF add full author name followed by colon then insert contribution. In author order, one line per author. 
-            Group author con - do the same (ie add group author name and colon) but note the text string may contain individual names and correction 
-            further punctuation-->
+<!--UPDATE: Contributions: There is one contribution per author and they are listed sequentially (ie author 1 must have con1, etc).
+Text string, no name is prefaced. No full stop at end.
+UPDATE: PDF add full author name followed by colon then insert contribution. In author order, one line per author. 
+Group author con - do the same (ie add group author name and colon) but note the text string may contain individual names and correction further punctuation-->
             <fn-group content-type="author-contribution">
-                <title>Author contribution</title>
+<!--UPDATE: <title>Author contributions</title> removed. Is required for PDF representation only -->
                 <fn fn-type="con" id="con1">
                     <p>Completed the XML mapping exercise and wrote this XML example</p>
                 </fn>
@@ -922,18 +922,32 @@ Impact statement:-->
             </fn-group>
         </sec>
         <sec sec-type="supplementary-material" id="s6" >
-            <title>Additional files</title>
+<!--UPDATE: <title>Additional files</title> removed. Is required for PDF representation only-->  
+            <supplementary-material id="SD3-data">
+<!--UPDATE: The following is removed. Not required for HTML representation, is PDF only: <bold>DOI:</bold> 
+<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.XXX">http://dx.doi.org/10.7554/eLife.00666.XXX"</ext-link> -->
+                <object-id pub-id-type="doi">10.7554/eLife.00666.024</object-id>
+                <label>Supplementary file 1.</label>
+                <caption>
+                    <title>This is the title of the supplementary file 1.</title>
+                    <p>A file containing underlying data.</p>
+                    </caption>
+                <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
+            </supplementary-material>
+        </sec>        
 <!--Datasets: this section is subject to change further to outcomes of Force11 Data citations working group. 
 Also, is undecided whether they will be added to eLife profiles. Also, the tagging of the collaborator name again within this section is required for PMC display
 Therefore, no change proposed to tagging currently.-->
             <sec sec-type="datasets" id="s7">
-                <title>Major datasets</title>
+<!--UPDATE: <title>Major datasets</title> removed. Is required for PDF representation only -->  
                 <p>The following dataset was generated:</p>
                 <p>
                     <related-object content-type="generated-dataset"
                         source-id="https://github.com/elifesciences/XML-mapping/blob/master/elife-00666.xml"
                         source-id-type="uri" id="dataro1">
+<!--UPDATE: add @collab-type="author" attribute. Change order of author name to first initial then surname-->  
                         <collab collab-type="author">M Harrison</collab>
+<!--UPDATE: remove all punctuation that was prevously surrounding the tags--> 
                         <year>2016</year>
                         <source>xml-mapping</source>
                         <ext-link ext-link-type="uri"
@@ -956,7 +970,10 @@ Therefore, no change proposed to tagging currently.-->
                     </related-object>
                 </p>
             </sec>
-    </sec>
+        <ack id="ack">
+<!--UPDATE: <title>Acknowledgements</title> removed. Is required for PDF representation only -->  
+            <p>We thank JATS4R, ExeterPremedia and PMC for their contributions.</p>
+        </ack>
 <ref-list>
 <!--Journal reference: page numbers and DOI -->
     <ref id="bib1">
@@ -2510,8 +2527,8 @@ Therefore, no change proposed to tagging currently.-->
             <app>
             <title>Appendix 1</title>
                 <sec sec-type="appendix" id="s8">
-                    <!--Appendix: Change: no longer contaiend within box text as this is a display feature only-->
-                    <title>Animal preparation</title>
+                    <!--Appendix: Change: no longer contained within box text as this is a display feature only-->
+                    <title>Preparation</title>
                     <p>Blah</p>
                 </sec>
         </app>
