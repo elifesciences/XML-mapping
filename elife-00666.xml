@@ -725,10 +725,194 @@ Impact statement:-->
             </sec>
                 </sec>
             </sec>
-                <sec id="s3-2">
-                    <title>Tables</title>
-                    <p></p>
-                </sec>
+            <sec id="s3-2">
+                <title>Tables</title>
+                <p>The following is a table containing coloured text and cells crossing multiple rows (<xref ref-type="table" rid="tbl1">Table 1</xref>). It is wide enough that it would appear in landscape orientation in the PDF file (Table 1)
+                    <table-wrap id="tbl1" position="float">
+                        <object-id pub-id-type="doi">10.7554/eLife.04490.029</object-id>
+                        <label>Table 1.</label>
+                        <caption><p>Volatiles (percent IS plant<sup>−1</sup>, mean ± SEM) trapped in the headspace around single plants in experimental season one (June 8th–9th).</p>
+                            <p><bold>DOI:</bold> <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.04490.029">http://dx.doi.org/10.7554/eLife.04490.029</ext-link></p>
+                        </caption>
+                        <table frame="hsides" rules="groups">
+                            <thead>
+                                <!-- Header row -->
+                                <tr>
+                                    <th colspan="3" rowspan="2"> </th>
+                                    <th align="center" colspan="8">GLVs (percent IS plant<sup>-1</sup>)</th>
+                                    <th align="center" colspan="17">TPS10 products (percent IS plant<sup>-1</sup>)</th>
+                                    <th align="center" colspan="10">Non-target volatiles (percent IS plant<sup>-1</sup>)</th>
+                                </tr>
+                                <tr>
+                                    <th align="center" colspan="8">(<italic>Z</italic>)-Hexen-3-ol</th>
+                                    <th align="center" colspan="10">TAB</th><th align="center" colspan="7">TBF</th>
+                                    <th align="center" colspan="6">α-Duprezianene</th>
+                                    <th align="center" colspan="4">Germacrene A</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Table body -->
+                                <tr>
+                                    <td><bold>Genotype</bold></td>
+                                    <td><bold>Day n</bold></td>
+                                    <td><bold>Night n</bold></td>
+                                    <td colspan="3"><bold>Day</bold></td>
+                                    <td colspan="5"><bold>Night</bold></td>
+                                    <td colspan="4"><bold>Day</bold></td>
+                                    <td colspan="6"><bold>Night</bold></td>
+                                    <td colspan="4"><bold>Day</bold></td>
+                                    <td colspan="3"><bold>Night</bold></td>
+                                    <td colspan="3"><bold>Day</bold></td>
+                                    <td colspan="3"><bold>Night</bold></td>
+                                    <td colspan="3"><bold>Day</bold></td>
+                                    <td><bold>Night</bold></td>
+                                </tr>
+                                <tr>
+                                    <td><bold>WT</bold></td>
+                                    <td>8</td><td>8</td>
+                                    <td>0.99%</td>
+                                    <td>±</td>
+                                    <td>0.99%</td>
+                                    <td>7.96%</td>
+                                    <td>±</td>
+                                    <td>4.25%</td>
+                                    <!-- The next cell contains coloured text using author-callout-style1 (Red). It is also centrally aligned -->
+                                    <td rowspan="2" valign="middle"><named-content content-type="author-callout-style1">}</named-content></td>
+                                    <td rowspan="2" valign="middle"><bold><named-content content-type="author-callout-style1">a</named-content></bold><sub><bold><named-content content-type="author-callout-style1">lox</named-content></bold></sub></td>
+                                    <td>0.37%</td>
+                                    <td>±</td>
+                                    <td>0.29%</td>
+                                    <td><bold><named-content content-type="author-callout-style1">a</named-content></bold></td>
+                                    <td colspan="3">—</td>
+                                    <td> </td>
+                                    <td rowspan="3" valign="middle"><named-content content-type="author-callout-style1">}</named-content></td>
+                                    <td rowspan="2" valign="bottom"><bold><named-content content-type="author-callout-style1">a</named-content></bold><sub><bold><named-content content-type="author-callout-style1">TPS</named-content></bold></sub></td>
+                                    <td colspan="3">—</td>
+                                    <td><bold><named-content content-type="author-callout-style1">a</named-content></bold></td>
+                                    <td colspan="3">—</td>
+                                    <td>2.13%</td>
+                                    <td>±</td>
+                                    <td>0.85%</td>
+                                    <td>0.96%</td>
+                                    <td>±</td>
+                                    <td>0.42%</td>
+                                    <td>1.68%</td>
+                                    <td>±</td>
+                                    <td>0.98%</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr>
+                                    <td><bold><italic>TPS10</italic></bold></td>
+                                    <td>7</td>
+                                    <td>7</td>
+                                    <td>2.37%</td>
+                                    <td>±</td>
+                                    <td>1.55%</td>
+                                    <td>2.84%</td>
+                                    <td>±</td>
+                                    <td>0.63%</td>
+                                    <td>18.97%</td>
+                                    <td>±</td>
+                                    <td>6.03%</td>
+                                    <td><bold><named-content content-type="author-callout-style2">b</named-content></bold></td>
+                                    <td>0.94%</td>
+                                    <td>±</td>
+                                    <td>0.53%</td>
+                                    <td rowspan="3" valign="middle"><named-content content-type="author-callout-style2">}</named-content></td>
+                                    <td>9.34%</td>
+                                    <td>±</td>
+                                    <td>3.44%</td>
+                                    <td><bold><named-content content-type="author-callout-style2">b</named-content></bold></td>
+                                    <td>0.20%</td>
+                                    <td>±</td>
+                                    <td>0.20%</td>
+                                    <td>9.47%</td>
+                                    <td>±</td>
+                                    <td>5.26%</td>
+                                    <td>0.94%</td>
+                                    <td>±</td>
+                                    <td>0.26%</td>
+                                    <td>2.78%</td>
+                                    <td>±</td>
+                                    <td>1.52%</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr>
+                                    <td><bold><italic>lox2/3</italic></bold></td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>0.13%</td>
+                                    <td>±</td>
+                                    <td>0.13%</td>
+                                    <td>1.06%</td>
+                                    <td>±</td>
+                                    <td>0.64%</td>
+                                    <td rowspan="2" valign="middle"><named-content content-type="author-callout-style2">}</named-content></td>
+                                    <td rowspan="2" valign="middle"><bold><named-content content-type="author-callout-style2">b</named-content></bold><sub><bold><named-content content-type="author-callout-style2">lox</named-content></bold></sub></td>
+                                    <td colspan="3">—</td>
+                                    <td><bold><named-content content-type="author-callout-style1">a</named-content></bold></td>
+                                    <td>0.15%</td>
+                                    <td>±</td>
+                                    <td>0.15%</td>
+                                    <td rowspan="2"><bold><named-content content-type="author-callout-style2">b</named-content></bold><sub><bold><named-content content-type="author-callout-style2">TPS</named-content></bold></sub></td>
+                                    <td colspan="3">—</td>
+                                    <td><bold><named-content content-type="author-callout-style1">a</named-content></bold></td>
+                                    <td colspan="3">—</td>
+                                    <td>2.75%</td>
+                                    <td>±</td>
+                                    <td>1.12%</td>
+                                    <td>0.60%</td>
+                                    <td>±</td>
+                                    <td>0.19%</td>
+                                    <td>1.68%</td>
+                                    <td>±</td>
+                                    <td>1.49%</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr>
+                                    <td><bold><italic>lox2/3</italic>x<italic>TPS10</italic></bold></td>
+                                    <td>7</td>
+                                    <td>7</td>
+                                    <td>0.07%</td>
+                                    <td>±</td>
+                                    <td>0.07%</td>
+                                    <td>1.24%</td>
+                                    <td>±</td>
+                                    <td>0.84%</td>
+                                    <td>7.39%</td>
+                                    <td>±</td>
+                                    <td>2.56%</td>
+                                    <td><bold><named-content content-type="author-callout-style2">b</named-content></bold></td>
+                                    <td>2.08%</td>
+                                    <td>±</td>
+                                    <td>0.84%</td>
+                                    <td> </td>
+                                    <td>4.47%</td>
+                                    <td>±</td>
+                                    <td>1.70%</td>
+                                    <td><bold><named-content content-type="author-callout-style2">b</named-content></bold></td>
+                                    <td>0.40%</td>
+                                    <td>±</td>
+                                    <td>0.40%</td>
+                                    <td>3.02%</td>
+                                    <td>±</td>
+                                    <td>1.42%</td>
+                                    <td>0.73%</td>
+                                    <td>±</td>
+                                    <td>0.31%</td>
+                                    <td>0.66%</td>
+                                    <td>±</td>
+                                    <td>0.37%</td>
+                                    <td>—</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </table-wrap>
+                </p>
+                <p>This is an example of a standard table that will be the width of the text column in the PDF. It does not contain any unusual styling. It does have footnotes linked to content in the table using the prescribed symbols.</p>
+                <p>This is an example of a narrow table that will appear at half the text column width in the PDF.</p>
+                <p>This is an example of an inline table that has no heading.</p>
+            </sec>
                 <sec id="s3-3">
                     <title>Math</title>
                     <p></p>
