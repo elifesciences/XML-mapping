@@ -2228,7 +2228,9 @@ Therefore, no change proposed to tagging currently.-->
                     <surname>Pallai</surname><given-names>PV</given-names>
                 </name>
             </person-group>
-            <collab collab-type="assignee">Mankind Corp</collab>
+            <person-group person-group-type="assignee">
+                <collab>Mankind Corp</collab>
+            </person-group>
             <year iso-8601-date="2011">2011</year>
             <article-title>IRE-1alpha inhibitors</article-title>
             <source>United States patent</source>
