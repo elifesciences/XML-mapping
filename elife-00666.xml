@@ -663,6 +663,81 @@ Impact statement:-->
                             <list-item><p>editorial</p></list-item>
                             <list-item><p>research-article (all reseasrch content)</p></list-item>
                         </list>
+                        <p>Nested lists are allowed and these are very common in Registered Peports. Below is an example of a nested list to 3 levels.</p>
+                        <list list-type="roman-upper">
+                            <list-item>
+                                <p>Genus: Plasmodium; following species are known to infect humans</p>
+                                 <list list-type="roman-lower">
+                                     <list-item>
+                                         <p><italic>P. falciparum</italic></p>
+                                     </list-item> 
+                                     <list-item>
+                                         <p><italic>P. vivax</italic></p>
+                                     </list-item>
+                                     <list-item>
+                                         <p><italic>P. ovale</italic></p>
+                                     </list-item>
+                                     <list-item>
+                                         <p><italic>P. malariae</italic></p>
+                                     </list-item>
+                                     <list-item>
+                                         <p><italic>P. knowlesi</italic></p>
+                                     </list-item>
+                                </list>
+                            </list-item>
+                            <list-item>
+                                <p>Genus: Leishmania. There are 3 subgenus of Leishmania:</p>
+                                    <list list-type="roman-lower">
+                                            <list-item>
+                                                <p>Leishmania</p>
+                                            </list-item>
+                                            <list-item>
+                                                <p>Sauroleishmania</p>
+                                            </list-item>
+                                            <list-item>
+                                                <p>Viannia</p>
+                                            </list-item>
+                                            <list-item>
+                                                <p>Within Viannia subgenus, there are 11 species:</p>
+                                            <list list-type="bullet">
+                                                <list-item>
+                                                    <p><italic>L. braziliensis</italic></p>
+                                                </list-item>
+                                                <list-item>
+                                                    <p><italic>L. colombiensis</italic></p>
+                                                </list-item>
+                                                <list-item>
+                                                    <p><italic>L. equatorensis</italic></p>
+                                                </list-item>
+                                                <list-item>
+                                                    <p><italic>L. guyanensis</italic></p>
+                                                </list-item>
+                                                <list-item>
+                                                    <p><italic>L. lainsoni</italic></p>
+                                                </list-item>
+                                                <list-item>
+                                                    <p><italic>L. naiffi</italic></p>
+                                                </list-item>
+                                                <list-item>
+                                                    <p><italic>L. panamensis</italic></p>
+                                                </list-item>
+                                                <list-item>
+                                                    <p><italic>L. peruviana</italic></p>
+                                                </list-item>
+                                                <list-item>
+                                                    <p><italic>L. pifanoi</italic></p>
+                                                </list-item>
+                                                <list-item>
+                                                    <p><italic>L. shawi</italic></p>
+                                                </list-item>
+                                                <list-item>
+                                                    <p><italic>L. utingensis</italic></p>
+                                                </list-item>
+                                            </list>
+                                            </list-item>
+                                    </list>
+                            </list-item>
+                        </list>
                     </sec>
                 </sec>
                 <sec id="s3-1-2">
