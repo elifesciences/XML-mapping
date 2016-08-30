@@ -455,7 +455,7 @@ NOTE: id="ra1" is required for PMC, not for eLife publication -->
                 </p>
                 <p>eLife does not structure abstracts into sub headings, but the abstract can have
                     multiple paragarahs. The sub DOI is always .001 as it is the first asset in any
-                    paper</p>
+                    paper. I have added an unmatched > bracket as this has been an issue for PubMed deposits.</p>
             </abstract>
             <!--Digest: this has changed: The following is no longer required for the XML file:
                    <bold>DOI:</bold>
