@@ -913,7 +913,6 @@ Impact statement:-->
                     <p>This is an example of a narrow table that will appear at half the text column width in the PDF.</p>
                     <p>This is an example of an inline table that has no heading.</p>
                 </sec>
->>>>>>> 7e54501539e4b80aedf486f0ced3e3be3b331cd3
                 <sec id="s3-3">
                     <title>Math</title>
                     <p></p>
@@ -2133,7 +2132,7 @@ Therefore, no change proposed to tagging currently.-->
 <!-- Reference to a United States Patent -->
     <ref id="bib32">
         <element-citation publication-type="patent">
-            <person-group person-group-type="author">
+            <person-group person-group-type="inventor">
                 <name>
                     <surname>Patterson</surname><given-names>JB</given-names>
                 </name>
@@ -2149,8 +2148,8 @@ Therefore, no change proposed to tagging currently.-->
                 <name>
                     <surname>Pallai</surname><given-names>PV</given-names>
                 </name>
-                <collab>Mankind Corp</collab>
             </person-group>
+            <collab collab-type="assignee">Mankind Corp</collab>
             <year iso-8601-date="2011">2011</year>
             <article-title>IRE-1alpha inhibitors</article-title>
             <source>United States patent</source>
