@@ -989,7 +989,143 @@ Impact statement:-->
                 </sec>
                 <sec id="s3-3">
                     <title>Math</title>
-                    <p></p>
+                    <p>Content can contain inline formulae or display formulae. Below is an example of a mixture of inline and display formula. MathMl is used in all instances.</p>
+                    <p>
+                        We propose a Bayesian scheme for BCV that accommodates the influence of context on incentive value. BCV focuses on scenarios (i) where incentive value depends 
+                        on contextual information (either represented by cues or by previous rewards) provided before options or rewards are presented, and (ii) where reward is defined 
+                        by a single attribute (e.g., reward amount). To describe the basic principles of BCV, we adopt the formalism of Bayesian graphs (
+                        <xref ref-type="bibr" rid="bib4">Bishop, 2006</xref>
+                        ) where a generative model is described by nodes or circles, representing random variables (shaded and white circles refer to observed and non-observed variables respectively), 
+                        and arrows, representing causal relationships among variables. A simple generative model hypothesized by BCV is shown in
+                        Figure 1A of another paper (not linked here), where C represents prior beliefs about the average reward expected in a given context. 
+                        Formally, this corresponds to a (Gaussian) prior belief (with mean
+                        <inline-formula>
+                            <!--no id required for inline formulae-->
+                            <mml:math>
+                                <mml:mstyle displaystyle="true" scriptlevel="0">
+                                    <mml:mrow>
+                                        <mml:msub>
+                                            <mml:mi>μ</mml:mi>
+                                            <mml:mrow>
+                                                <mml:mi>c</mml:mi>
+                                            </mml:mrow>
+                                        </mml:msub>
+                                    </mml:mrow>
+                                </mml:mstyle>
+                            </mml:math>
+                        </inline-formula>
+                        and variance
+                        <inline-formula>
+                            <mml:math>
+                                <mml:mstyle displaystyle="true" scriptlevel="0">
+                                    <mml:mrow>
+                                        <mml:msubsup>
+                                            <mml:mi>σ</mml:mi>
+                                            <mml:mrow>
+                                                <mml:mi>c</mml:mi>
+                                            </mml:mrow>
+                                            <mml:mrow>
+                                                <mml:mn>2</mml:mn>
+                                            </mml:mrow>
+                                        </mml:msubsup>
+                                    </mml:mrow>
+                                </mml:mstyle>
+                            </mml:math>
+                        </inline-formula>
+                        over the mean of a (Gaussian) distribution of reward options R (with variance
+                        <inline-formula>
+                            <mml:math>
+                                <mml:mstyle displaystyle="true" scriptlevel="0">
+                                    <mml:mrow>
+                                        <mml:msubsup>
+                                            <mml:mi>σ</mml:mi>
+                                            <mml:mrow>
+                                                <mml:mi>R</mml:mi>
+                                            </mml:mrow>
+                                            <mml:mrow>
+                                                <mml:mn>2</mml:mn>
+                                            </mml:mrow>
+                                        </mml:msubsup>
+                                    </mml:mrow>
+                                </mml:mstyle>
+                            </mml:math>
+                        </inline-formula>
+                        ). When R is observed, a posterior expectation about the context is obtained by application of Bayes rule (
+                        <xref ref-type="bibr" rid="bib4">Bishop, 2006</xref>
+                        ):
+                        <!-- id required for display formulae and require a label-->
+                        <disp-formula id="equ1">
+                            <label>(1)</label>
+                            <mml:math id="m1">
+                                <mml:mstyle displaystyle="true" scriptlevel="0">
+                                    <mml:mrow>
+                                        <mml:msub>
+                                            <mml:mi>μ</mml:mi>
+                                            <mml:mrow>
+                                                <mml:mi>C</mml:mi>
+                                                <mml:mrow>
+                                                    <mml:mo stretchy="false">|</mml:mo>
+                                                </mml:mrow>
+                                                <mml:mi>R</mml:mi>
+                                            </mml:mrow>
+                                        </mml:msub>
+                                        <mml:mo>=</mml:mo>
+                                        <mml:msub>
+                                            <mml:mi>μ</mml:mi>
+                                            <mml:mrow>
+                                                <mml:mi>C</mml:mi>
+                                            </mml:mrow>
+                                        </mml:msub>
+                                        <mml:mo>+</mml:mo>
+                                        <mml:mfrac>
+                                            <mml:msubsup>
+                                                <mml:mi>σ</mml:mi>
+                                                <mml:mrow>
+                                                    <mml:mi>C</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                    <mml:mn>2</mml:mn>
+                                                </mml:mrow>
+                                            </mml:msubsup>
+                                            <mml:mrow>
+                                                <mml:msubsup>
+                                                    <mml:mi>σ</mml:mi>
+                                                    <mml:mrow>
+                                                        <mml:mi>C</mml:mi>
+                                                    </mml:mrow>
+                                                    <mml:mrow>
+                                                        <mml:mn>2</mml:mn>
+                                                    </mml:mrow>
+                                                </mml:msubsup>
+                                                <mml:mo>+</mml:mo>
+                                                <mml:msubsup>
+                                                    <mml:mi>σ</mml:mi>
+                                                    <mml:mrow>
+                                                        <mml:mi>R</mml:mi>
+                                                    </mml:mrow>
+                                                    <mml:mrow>
+                                                        <mml:mn>2</mml:mn>
+                                                    </mml:mrow>
+                                                </mml:msubsup>
+                                            </mml:mrow>
+                                        </mml:mfrac>
+                                        <mml:mrow>
+                                            <mml:mo>(</mml:mo>
+                                            <mml:mi>R</mml:mi>
+                                            <mml:mo>−</mml:mo>
+                                            <mml:msub>
+                                                <mml:mi>μ</mml:mi>
+                                                <mml:mrow>
+                                                    <mml:mi>C</mml:mi>
+                                                </mml:mrow>
+                                            </mml:msub>
+                                            <mml:mo>)</mml:mo>
+                                        </mml:mrow>
+                                    </mml:mrow>
+                                </mml:mstyle>
+                            </mml:math>
+                        </disp-formula>
+                    </p>
                 </sec>
                 <sec id="s3-4">
                     <title>Figures</title>
@@ -1008,6 +1144,17 @@ Impact statement:-->
                                 <title>Single figure: The header of an eLife article example on the HTML page.</title>
                             </caption>
                             <graphic xlink:href="elife-00666-fig1-v1"/>
+                            <!-- Assets within eLife might not always be published under a CCBY license although we endevour to do so. This is an exmaple of how to add a 
+                                seperate permission statement so it is clear to the human and machine reader that this asset cannot be reused.-->
+                            <permissions>
+                                <copyright-statement>© 2016 eLife. All rights reserved</copyright-statement>
+                                <copyright-year>2016</copyright-year>
+                                <copyright-holder>eLife</copyright-holder>
+                                <license>
+                                    <license-p>For the purpose having a example of how to tag a separate license for an item, we have indicated in the XML and display this is a copyrighted figure; 
+                                        however it is not.</license-p>
+                                </license>
+                            </permissions>
                         </fig>
                     <p>Here is an example of making text display in different colours:
                         <named-content content-type="author-callout-style1">red</named-content> and 
@@ -1042,33 +1189,6 @@ Impact statement:-->
                             <graphic xlink:href="elife-00666-fig2-figsupp2-v1"/>
                         </fig>
                     </fig-group>
-                    <p>Here is an example of inline formula
-                        <!--no id required for inline formulae-->
-                        <inline-formula>
-                        <mml:math>
-                            <mml:mrow>
-                                <mml:mi>P</mml:mi>
-                                <mml:mrow>
-                                    <mml:mo>(</mml:mo>
-                                    <mml:mrow><mml:mi
-                                        mathvariant="bold"
-                                        >x</mml:mi>
-                                        <mml:mo>|</mml:mo>
-                                        <mml:mi>T</mml:mi>
-                                    </mml:mrow>
-                                    <mml:mo>)</mml:mo>
-                                </mml:mrow>
-                            </mml:mrow>
-                        </mml:math>
-                    </inline-formula> and here is an example of dipslay formula:</p>
-                    <disp-formula id="equ1">
-                        <label>(1)</label>
-                        <mml:math id="m1"><mml:mrow><mml:mi>S</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi>
-                        </mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo>
-                            <mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>n</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo>
-                        </mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub>
-                            <mml:mo>+</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>n</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub>
-                            <mml:msub><mml:mi>β</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:math></disp-formula>
                     <!--See below (figure 4) for preferred method of modelling supplementary material for a figure. TBC-->
                     <fig-group>
                         <fig id="fig3" position="float">
