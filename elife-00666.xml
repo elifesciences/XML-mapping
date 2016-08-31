@@ -2849,8 +2849,54 @@ Therefore, no change proposed to tagging currently.-->
             <publisher-name>World Health Organization</publisher-name>
         </element-citation>
     </ref>
+    <ref id="bib52">
+        <element-citation publication-type="data">
+            <person-group person-group-type="author">
+                <name>
+                    <surname>Zhang</surname>
+                    <given-names>YA</given-names>
+                </name>
+                <name>
+                    <surname>Salinas</surname>
+                    <given-names>I</given-names>
+                </name>
+                <name>
+                    <surname>Li</surname>
+                <given-names>J</given-names>
+                </name>
+                <name>
+                    <surname>Parra</surname>
+                    <given-names>D</given-names>
+                </name>
+                <name>
+                    <surname>Bjork</surname>
+                    <given-names>S</given-names>
+                </name>
+                <name>
+                    <surname>Xu</surname>
+                    <given-names>Z</given-names>
+                </name>
+                <name>
+                    <surname>LaPatra</surname>
+                    <given-names>SE</given-names>
+                </name>
+                <name>
+                    <surname>Bartholomew</surname>
+                    <given-names>J</given-names>
+                </name>
+                <name>
+                    <surname>Sunyer</surname>
+                    <given-names>JO</given-names>
+                </name>
+            </person-group>
+            <year iso-8601-date="2010">2010</year>
+            <data-title>Polymeric immunoglobulin receptor [Oncorhynchus mykiss]</data-title>
+            <source>NCBI</source>
+            <pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="http://www.ncbi.nlm.nih.gov/protein/ADB81776.1">GenBank: ADB81776.1</pub-id>
+        </element-citation>
+    </ref>
 <!--Data reference: modMine pub-id-type="archive"-->
-            <ref id="bib52">
+            <ref id="bib53">
                 <element-citation publication-type="data">
                     <person-group person-group-type="author">
                         <name>
