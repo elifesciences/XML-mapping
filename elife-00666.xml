@@ -1244,7 +1244,15 @@ Impact statement:-->
                     <title>Boxes</title>
                     <p></p>
                 </sec>
+            <sec id="s3-6">
+                <title>Other stuff</title>
+                <sec id="s3-6-1">
+                    <title>RRIDs</title>
+                <p>If an author mentions an RRID in their content, it is required that we link it, for example, 
+                    <ext-link ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:IMSR_JAX:004435">RRID:IMSR_JAX:004435</ext-link></p>
+                </sec>
             </sec>
+        </sec>
         <sec sec-type="discussion" id="s4">
             <title>Discussion</title>
             <p>The function of the Discussion is to interpret your results in light of what was
