@@ -1156,10 +1156,6 @@ Impact statement:-->
                                 </license>
                             </permissions>
                         </fig>
-                    <p>Here is an example of making text display in different colours:
-                        <named-content content-type="author-callout-style1">red</named-content> and 
-                        <named-content content-type="author-callout-style2">blue</named-content>.</p>
-                    <p> Here is an example of pulling in an inline graphic <inline-graphic xlink:href="elife-00666-inf001-v1"/>.</p>
                     <!--If a figure has figure supplements it must be contained within fig-group and the supplemental figures must be given 
                         a @specific-use attribute of "child-fig"
                     There is no limit to the number of figure supplements-->
@@ -1250,6 +1246,16 @@ Impact statement:-->
                     <title>RRIDs</title>
                 <p>If an author mentions an RRID in their content, it is required that we link it, for example, 
                     <ext-link ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:IMSR_JAX:004435">RRID:IMSR_JAX:004435</ext-link></p>
+                </sec>
+                <sec id="s3-6-2">
+                    <title>Coloured text</title>
+                       <p>Here is an example of making text display in different colours:
+                    <named-content content-type="author-callout-style1">red</named-content> and 
+                    <named-content content-type="author-callout-style2">blue</named-content>.</p>
+                </sec>
+                <sec id="s3-6-3">
+                    <title>Inline graphics</title>
+                    <p> Here is an example of pulling in an inline graphic <inline-graphic xlink:href="elife-00666-inf001-v1"/>.</p>
                 </sec>
             </sec>
         </sec>
