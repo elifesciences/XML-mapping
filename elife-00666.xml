@@ -1219,16 +1219,6 @@ Impact statement:-->
                                     </supplementary-material>
                                 </p>
                             </caption>
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
                             <graphic xlink:href="elife-00666-fig3-figsupp1-v1.tiff"/>
                         </fig>
                     </fig-group>
@@ -1256,15 +1246,63 @@ Impact statement:-->
                 </sec>
                 <sec id="s3-5">
                     <title>Videos</title>
-                    <p></p>
+                    <p><xref ref-type="other" rid="media1">Video 1</xref> shows the editorial process.</p>
+                    <media content-type="glencoe play-in-place height-250 width-310" id="media1" mime-subtype="mov" mimetype="video" xlink:href="elife-00666-media1.mov">
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.016</object-id>
+                        <label>Video 1.</label>
+                        <caption>
+                            <title>
+                                A descirption of the eLife editorial process.
+                            </title>
+                        </caption>
+                    </media>
                 </sec>
             <sec id="s3-6">
                 <title>Other stuff</title>
                 <sec id="s3-6-1">
                     <title>Boxes</title>
-                    <p>If an author mentions an RRID in their content, it is required that we link it, for example, 
-                        <ext-link ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:IMSR_JAX:004435">RRID:IMSR_JAX:004435</ext-link></p>
-                </sec>
+                    <p>It is rare for eLife research articles to contain boxes; however they are common in Feature content. <xref ref-type="other" rid="box1">Box 1</xref> 
+                        is a simple box that contains very little text and <xref ref-type="other" rid="box2">Box 2</xref> is larger.</p>
+                    <boxed-text id="box1">
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.017</object-id>
+                        <label>Box 1.</label>
+                        <caption>
+                            <p>Example of a small box</p>
+                        </caption>
+                        <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
+                            turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
+                            Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. Vestibulum ultrices vehicula nibh, a ullamcorper dui semper suscipit. Etiam in sem augue.</p>
+                    </boxed-text>
+                    <boxed-text id="box2">
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.018</object-id>
+                        <label>Box 2.</label>
+                        <caption>
+                            <p>Example of a large box</p>
+                        </caption>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus lorem. Suspendisse posuere non enim vel tempor. Fusce quis sem sed nulla tincidunt faucibus. 
+                            Vivamus dictum magna in ante porttitor faucibus. Aenean lobortis, sem in viverra dignissim, odio purus vestibulum libero, in eleifend lacus metus id tortor. Phasellus tincidunt
+                            ipsum ut ornare hendrerit. Praesent lobortis consectetur egestas. Curabitur viverra lectus eu venenatis sagittis. Aliquam lobortis metus mauris, in tincidunt diam ullamcorper ac.
+                            Phasellus sagittis, leo eget lacinia commodo, eros justo mattis eros, quis dapibus ipsum ex sit amet sapien. Quisque consequat arcu ut efficitur tincidunt. Ut convallis, 
+                            ex maximus aliquam tempor, lorem elit fermentum ipsum, nec volutpat velit sem a lectus. Morbi sed mauris vel purus interdum consectetur dapibus vel velit. Nam pellentesque, 
+                            ipsum vel euismod mattis, turpis augue mattis nunc, ac aliquam dolor massa non mi. Vestibulum sit amet elit a augue semper facilisis interdum quis nibh. Mauris consectetur 
+                            nisi aliquam urna lobortis, eu efficitur nisl lobortis.</p>
+                        <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
+                            turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
+                            Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. Vestibulum ultrices vehicula nibh, a ullamcorper dui semper suscipit. Etiam in sem augue.</p>
+                        <p>Pellentesque non elit posuere massa efficitur viverra. Proin sollicitudin pulvinar hendrerit. Praesent lobortis nisi tellus, ac tincidunt lacus bibendum sit amet. 
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam non pretium sapien, id cursus ante. Duis a sodales lacus, vitae iaculis augue. Vivamus imperdiet, 
+                            sem in tempor porta, turpis leo mollis augue, id tincidunt nisi nisi non ligula. Vestibulum sollicitudin nisl sapien, pretium ullamcorper orci iaculis vel. Etiam 
+                            in turpis viverra, egestas ligula sed, vehicula nunc. Suspendisse luctus, leo ac varius iaculis, eros libero iaculis quam, ut vestibulum ipsum massa at diam. 
+                            Vivamus gravida massa nunc. Etiam nulla nibh, aliquam at mattis eget, auctor nec justo.</p>
+                            <p>Ut scelerisque suscipit nunc, vitae auctor odio rhoncus eu. Ut congue viverra ligula sed eleifend. Vestibulum a interdum ipsum. Nam sollicitudin erat justo, 
+                                ac consequat odio vestibulum vitae. Duis quis massa accumsan, tempus orci vel, consequat libero. Vestibulum dolor orci, varius at nunc ac, dapibus tincidunt risus. 
+                                Vestibulum elementum leo eget ornare porttitor. Cras nec ornare nisi, eget egestas orci. Donec rutrum tincidunt aliquet. In vel ligula nec tortor auctor consectetur 
+                                sit amet non diam. Etiam sit amet placerat eros. Donec molestie massa purus, eget hendrerit enim porttitor vitae. Ut finibus eleifend tortor at lacinia.</p>
+                            <p>Morbi a congue dolor, vitae feugiat ligula. Aenean aliquet mauris ac semper porttitor. Nullam ac enim et tortor malesuada interdum. Ut vitae ornare velit. 
+                                Duis et sem urna. Nulla blandit feugiat neque id congue. In tincidunt ullamcorper nisi sed fringilla. Nullam sodales orci tristique lorem scelerisque, vel mollis mi
+                                consequat. Ut in pharetra lectus, in luctus augue. Proin tempor venenatis luctus. Nam pretium ipsum non vestibulum posuere.</p>
+                    </boxed-text>
+                 </sec>
                 <sec id="s3-6-2">
                     <title>RRIDs</title>
                 <p>If an author mentions an RRID in their content, it is required that we link it, for example, 
@@ -1279,6 +1317,11 @@ Impact statement:-->
                 <sec id="s3-6-4">
                     <title>Inline graphics</title>
                     <p> Here is an example of pulling in an inline graphic <inline-graphic xlink:href="elife-00666-inf001-v1"/>.</p>
+                </sec>
+                <sec id="s3-6-5">
+                    <title>Additional files</title>
+                    <p>All files attached to an article must be cited in the main text as well. So, <xref ref-type="supplementary-material" rid="SD3-data">Supplementary file 1</xref> 
+                        and <xref ref-type="supplementary-material" rid="SD4-data">Source data 1</xref> have to be cited in the text.</p>
                 </sec>
             </sec>
         </sec>
