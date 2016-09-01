@@ -3144,7 +3144,7 @@ Appendices must have DOIs-->
                         <object-id pub-id-type="doi">10.7554/eLife.00666.021</object-id>
                     <p>In order to prepare for this Kitchen sink we reviewed our archive and found common errors or miscommunication from the archive, tagging of <xref ref-type="fig" rid="app1-fig1">Appendix 1—Figure 
                         1</xref> is a classic example and here the tagging is updated. Appendices figures can also have figure supplements, for example <xref ref-type="fig" rid="app1-fig1s1">Appendix 1—Figure 
-                            1—Figure Supplement 1</xref>.</p>
+                            1—Figure Supplement 1</xref> (<xref ref-type="bibr" rid="bib25">Koch, 1589</xref>).</p>
                     <fig-group>
                         <fig id="app1-fig1" position="float">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.022</object-id>
@@ -3152,7 +3152,7 @@ Appendices must have DOIs-->
                     <caption>
                         <title>Appendix figure title.
                         </title>
-                        <p>If there is a caption to accompany the title it would display here.</p>
+                        <p>If there is a caption to accompany the title it would display here (<xref ref-type="bibr" rid="bib25">Koch, 1589</xref>).</p>
                     </caption>
                         <graphic xlink:href="elife-00666-app1-fig1-v2.tiff"/>
                     </fig>
