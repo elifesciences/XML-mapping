@@ -1248,8 +1248,10 @@ Impact statement:-->
                 </sec>
                 <sec id="s3-5">
                     <title>Videos</title>
-                    <p><xref ref-type="other" rid="media1">Video 1</xref> shows the editorial process.</p>
-                    <media content-type="glencoe play-in-place height-250 width-310" id="media1" mime-subtype="mov" mimetype="video" xlink:href="elife-00666-media1.mov">
+                    <p><xref ref-type="other" rid="video1">Video 1</xref> shows the editorial process.</p>
+                    <!--UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
+                    UPDATE: changed id to videoX-->
+                    <media id="video1" xlink:href="elife-00666-media1.mov">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.016</object-id>
                         <label>Video 1.</label>
                         <caption>
@@ -1402,7 +1404,7 @@ UPDATE: The following is removed. Not required for HTML representation, is PDF o
 NOTE: if source data or source code are not attached to an individual figure, they are listed in this section.
 All supplementary files are listed here           -->             
             <supplementary-material id="SD3-data">   
-            <object-id pub-id-type="doi">10.7554/eLife.00666.XXX</object-id>
+            <object-id pub-id-type="doi">10.7554/eLife.00666.019</object-id>
                 <label>Supplementary file 1.</label>
                 <caption>
                     <title>This is the title of the supplementary file 1.</title>
@@ -1411,7 +1413,7 @@ All supplementary files are listed here           -->
                 <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
             </supplementary-material>
             <supplementary-material id="SD4-data">   
-                <object-id pub-id-type="doi">10.7554/eLife.00666.XXX</object-id>
+                <object-id pub-id-type="doi">10.7554/eLife.00666.020</object-id>
                 <label>Source data 1</label>
                 <caption>
                     <title>This is the title of the source data that is not attached to a specific figure, but to the article as a whole.</title>
