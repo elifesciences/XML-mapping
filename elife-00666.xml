@@ -805,6 +805,9 @@ Impact statement:-->
                 <sec id="s3-2">
                     <title>Tables</title>
                     <!--Table containing coloured text and cells crossing multiple rows. It is wide enough that it would appear in landscape orientation in the PDF file (Table 1)-->
+                    <!--UPDATE: Example of how to deal with spans in a citation. We cannot add the links to all the items and the html view will only link to the first one, so do not add all rids to the xref as it does not work. 
+                        Only add the first one-->
+                    <p>This section is an example of different tables, there are four in total(<xref ref-type="table" rid="tbl1">Tables 1</xref> to <xref ref-type="table" rid="tbl4">4</xref>.</p>
                         <table-wrap id="tbl1" position="float">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.003</object-id>
                             <label>Table 1.</label>
@@ -1460,6 +1463,7 @@ Therefore, no change proposed to tagging currently.-->
 <!--UPDATE: <title>Acknowledgements</title> removed. Is required for PDF representation only -->  
             <p>We thank JATS4R, ExeterPremedia and PMC for their contributions.</p>
         </ack>
+<!--All references shuld be cited in the text-->  
 <ref-list>
 <!--Journal reference: page numbers and DOI -->
     <ref id="bib1">
@@ -3070,7 +3074,24 @@ Therefore, no change proposed to tagging currently.-->
                 <sec sec-type="appendix" id="s8">
                     <!--Appendix: Change: no longer contained within box text as this is a display feature only-->
                     <title>Preparation</title>
-                    <p>Blah</p>
+                    <p>Blah</p><xref ref-type="fig" rid="fig12">Appendix 1—Figure 1A</xref>
+                    
+                    
+                    
+                    <fig id="app1-fig1" position="float">
+                    <object-id pub-id-type="doi">10.7554/eLife.04490.027</object-id>
+                    <label>Appendix 1—Figure 1.</label>
+                    <caption>
+                        <title>
+                            Transgene insertions and reduced jasmonate accumulation in lines of
+                            <italic>lox2/3.</italic>
+                        </title>
+                        <p></p>
+                    </caption>
+                        <graphic xlink:href="elife-00666-app1-fig1-v2"/>
+                    </fig>
+                    
+                    
                 </sec>
         </app>
             <app>
