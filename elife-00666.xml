@@ -1320,16 +1320,26 @@ Group author con - do the same (ie add group author name and colon) but note the
             </fn-group>
         </sec>
         <sec sec-type="supplementary-material" id="s6" >
-<!--UPDATE: <title>Additional files</title> removed. Is required for PDF representation only-->  
-            <supplementary-material id="SD3-data">
-<!--UPDATE: The following is removed. Not required for HTML representation, is PDF only: <bold>DOI:</bold> 
-<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.XXX">http://dx.doi.org/10.7554/eLife.00666.XXX"</ext-link> -->
-                <object-id pub-id-type="doi">10.7554/eLife.00666.024</object-id>
+<!--UPDATE: <title>Additional files</title> removed. Is required for PDF representation only  
+UPDATE: The following is removed. Not required for HTML representation, is PDF only: <bold>DOI:</bold> 
+<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.XXX">http://dx.doi.org/10.7554/eLife.00666.XXX"</ext-link>
+NOTE: if source data or source code are not attached to an individual figure, they are listed in this section.
+All supplementary files are listed here           -->             
+            <supplementary-material id="SD3-data">   
+            <object-id pub-id-type="doi">10.7554/eLife.00666.XXX</object-id>
                 <label>Supplementary file 1.</label>
                 <caption>
                     <title>This is the title of the supplementary file 1.</title>
                     <p>A file containing underlying data.</p>
                     </caption>
+                <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
+            </supplementary-material>
+            <supplementary-material id="SD4-data">   
+                <object-id pub-id-type="doi">10.7554/eLife.00666.XXX</object-id>
+                <label>Source code 1</label>
+                <caption>
+                    <title>This is the title of the Source code that is not attached to a specific figure, but to the article as a whole.</title>
+                </caption>
                 <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
             </supplementary-material>
         </sec>        
