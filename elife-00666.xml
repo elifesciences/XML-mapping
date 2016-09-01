@@ -804,7 +804,7 @@ Impact statement:-->
                     <title>Tables</title>
                     <!--Table containing coloured text and cells crossing multiple rows. It is wide enough that it would appear in landscape orientation in the PDF file (Table 1)-->
                         <table-wrap id="tbl1" position="float">
-                            <object-id pub-id-type="doi">10.7554/eLife.04490.029</object-id>
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.003</object-id>
                             <label>Table 1.</label>
                             <caption>
                                 <p>Volatiles (percent IS plant<sup>−1</sup>, mean ± SEM) trapped in the headspace around single plants in experimental season one (June 8th–9th).</p>
@@ -1136,15 +1136,16 @@ Impact statement:-->
                             Change: figures do not need to be contained within <p> and should not be
                             Change: The following has been removed from the XML as it is not necessary to repeat it, can be derived from the object-id DOI:
                         <p><bold>DOI:</bold>
-                                 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.003"
-                                                >http://dx.doi.org/10.7554/eLife.00666.003</ext-link></p>-->
+                                 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.007"
+                                                >http://dx.doi.org/10.7554/eLife.00666.007</ext-link></p>-->
                         <fig id="fig1" position="float">
-                            <object-id pub-id-type="doi">10.7554/eLife.13222.003</object-id>
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.007</object-id>
                             <label>Figure 1.</label>
                             <caption>
                                 <title>Single figure: The header of an eLife article example on the HTML page.</title>
                             </caption>
-                            <graphic xlink:href="elife-00666-fig1-v1"/>
+                            <!--  NOTE: file type must be included in the file description. -->
+                            <graphic xlink:href="elife-00666-fig1-v1.tiff"/>
                             <!-- Assets within eLife might not always be published under a CCBY license although we endevour to do so. This is an exmaple of how to add a 
                                 seperate permission statement so it is clear to the human and machine reader that this asset cannot be reused.-->
                             <permissions>
@@ -1164,50 +1165,51 @@ Impact statement:-->
                     There is no limit to the number of figure supplements-->
                     <fig-group>
                         <fig id="fig2" position="float">
-                        <object-id pub-id-type="doi">10.7554/eLife.00666.004</object-id>
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.008</object-id>
                         <label>Figure 2.</label>
                         <caption>
-                            <title>Figure with figure supplements: This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view</title>
+                            <title>Figure with figure supplements: This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view.</title>
                         </caption>
-                        <graphic xlink:href="elife-00666-fig2-v1"/>
+                            <graphic xlink:href="elife-00666-fig2-v1.tiff"/>
                     </fig>
                         <fig id="fig2s1" position="float" specific-use="child-fig">
-                            <object-id pub-id-type="doi">10.7554/eLife.00666.005</object-id>
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.009</object-id>
                             <label>Figure 2—figure supplement 1.</label>
                             <caption>
                                 <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page</title>
                             </caption>
-                            <graphic xlink:href="elife-00666-fig2-figsupp1-v1"/>
+                            <graphic xlink:href="elife-00666-fig2-figsupp1-v1.tiff"/>
                         </fig>
                         <fig id="fig2s2" position="float" specific-use="child-fig">
-                            <object-id pub-id-type="doi">10.7554/eLife.00666.006</object-id>
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.010</object-id>
                             <label>Figure 2—figure supplement 2.</label>
                             <caption>
                                 <title>Representation of figure with figure supplements on the HTML view.</title>
                             </caption>
-                            <graphic xlink:href="elife-00666-fig2-figsupp2-v1"/>
+                            <graphic xlink:href="elife-00666-fig2-figsupp2-v1.tiff"/>
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) with a sub-asset, 
                         <xref ref-type="supplementary-material" rid="SD1-data">Figure 3—figure supplement 1—Source data 1</xref>.</p>
-                    <!--See below (figure 4) for preferred method of modelling supplementary material for a figure. TBC-->
+                    <!--UPDATE: new method of modelling supplementary material for a figure
+                    A figure or a sub figure can have any assets - eg data, code, videos-->
                     <fig-group>
                         <fig id="fig3" position="float">
-                            <object-id pub-id-type="doi">10.7554/eLife.00666.007</object-id>
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.011</object-id>
                             <label>Figure 3.</label>
                             <caption>
-                                <title>Figure with figure supplements and figure supplement with source data: <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view</title>
+                                <title>Figure with figure supplements and figure supplement with source data and a video.</title>
                             </caption>
-                            <graphic xlink:href="elife-00666-fig3-v1"/>
+                            <graphic xlink:href="elife-00666-fig3-v1.tiff"/>
                         </fig>
                         <fig id="fig3s1" position="float" specific-use="child-fig">
-                            <object-id pub-id-type="doi">10.7554/eLife.00666.008</object-id>
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.012</object-id>
                             <label>Figure 3—figure supplement 1.</label>
                             <caption>
                                 <title>Title of the figure supplement</title>
                                 <p>
                                     <supplementary-material id="SD1-data">
-                                        <object-id pub-id-type="doi">10.7554/eLife.00666.009</object-id>
+                                        <object-id pub-id-type="doi">10.7554/eLife.00666.013</object-id>
                                         <label>Figure 3—figure supplement 1—Source data 1.</label>
                                         <caption>
                                             <title>Title of the figure supplement source data.</title>
@@ -1217,21 +1219,31 @@ Impact statement:-->
                                     </supplementary-material>
                                 </p>
                             </caption>
-                            <graphic xlink:href="elife-00666-fig3-figsupp1-v1"/>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <graphic xlink:href="elife-00666-fig3-figsupp1-v1.tiff"/>
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig4">Figure 4</xref> is an example of a figure with source code (<xref ref-type="supplementary-material" rid="SD2-data">Figure 4—Source code 1</xref>).</p>
-                    <!--UPDATE: this is chanegd tagging.-->
+                    <!--UPDATE: this is changed tagging.-->
                     <fig id="fig4" position="float">
-                        <object-id pub-id-type="doi">10.7554/eLife.13222.010</object-id>
+                        <object-id pub-id-type="doi">10.7554/eLife.13222.014</object-id>
                         <label>Figure 4.</label>
                         <caption>
                             <title>Single figure with source code.</title>
                         </caption>
-                        <graphic xlink:href="elife-00666-fig4-v1"/>
+                        <graphic xlink:href="elife-00666-fig4-v1.tiff"/>
                         <p>
                             <supplementary-material id="SD2-data">
-                                <object-id pub-id-type="doi">10.7554/eLife.00666.011</object-id>
+                                <object-id pub-id-type="doi">10.7554/eLife.00666.015</object-id>
                                 <label>Figure 4—Source code 1.</label>
                                 <caption>
                                     <title>Title of the source code.</title>
@@ -1243,23 +1255,28 @@ Impact statement:-->
                     </fig>
                 </sec>
                 <sec id="s3-5">
-                    <title>Boxes</title>
+                    <title>Videos</title>
                     <p></p>
                 </sec>
             <sec id="s3-6">
                 <title>Other stuff</title>
                 <sec id="s3-6-1">
+                    <title>Boxes</title>
+                    <p>If an author mentions an RRID in their content, it is required that we link it, for example, 
+                        <ext-link ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:IMSR_JAX:004435">RRID:IMSR_JAX:004435</ext-link></p>
+                </sec>
+                <sec id="s3-6-2">
                     <title>RRIDs</title>
                 <p>If an author mentions an RRID in their content, it is required that we link it, for example, 
                     <ext-link ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:IMSR_JAX:004435">RRID:IMSR_JAX:004435</ext-link></p>
                 </sec>
-                <sec id="s3-6-2">
+                <sec id="s3-6-3">
                     <title>Coloured text</title>
                        <p>Here is an example of making text display in different colours:
                     <named-content content-type="author-callout-style1">red</named-content> and 
                     <named-content content-type="author-callout-style2">blue</named-content>.</p>
                 </sec>
-                <sec id="s3-6-3">
+                <sec id="s3-6-4">
                     <title>Inline graphics</title>
                     <p> Here is an example of pulling in an inline graphic <inline-graphic xlink:href="elife-00666-inf001-v1"/>.</p>
                 </sec>
@@ -1336,9 +1353,9 @@ All supplementary files are listed here           -->
             </supplementary-material>
             <supplementary-material id="SD4-data">   
                 <object-id pub-id-type="doi">10.7554/eLife.00666.XXX</object-id>
-                <label>Source code 1</label>
+                <label>Source data 1</label>
                 <caption>
-                    <title>This is the title of the Source code that is not attached to a specific figure, but to the article as a whole.</title>
+                    <title>This is the title of the source data that is not attached to a specific figure, but to the article as a whole.</title>
                 </caption>
                 <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
             </supplementary-material>
