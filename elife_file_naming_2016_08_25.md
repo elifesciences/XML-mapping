@@ -1,9 +1,9 @@
-# eLife file naming requirements 2016
+# eLife file naming and IDs 
 
 ## File naming pattern (excluding parent zip file)
 
 >
-	`elife-<f-id>(-<asset><a-id>)(-<sub-asset><sa-id>)(-<data><d-id>)(-<code><c-id>)(-<media><m-id>)(-<reporting standard><repstand-id>)(-<supplementary file><supp-id>)|(-r<revision>).<ext>`
+	`elife-<f-id>(-<asset><a-id>)(-<sub-asset><sa-id>)(-<data><d-id>)(-<code><c-id>)(-<video><m-id>)(-<reporting standard><repstand-id>)(-<supplementary file><supp-id>)|(-r<revision>).<ext>`
 
 Brackets represent optional components. Pipe represents a choice on component, depending on state in the publishing system.
 
@@ -21,7 +21,7 @@ This refers to an asset file related to an article:
 - a figure (fig)
 - source code (code)
 - source data (data)
-- media, includes videos, audio and animation (media)
+- video (videos)
 - supplementary file (supp)
 - the figures pdf (figures) 
 - reporting standards (repstand)
@@ -123,7 +123,7 @@ For example, an article with a top level source code, two main figures, where on
 - figure -> fig
 - figuresupplement -> figsupp
 - supplementary file -> supp
-- media (includes videos, audio and animation) -> media
+- video -> video
 - inline-media -> inf
 - source code -> code
 - source data -> data
@@ -168,4 +168,60 @@ This is either `poa` (publish on accept) or `vor` (version of record).
 - elife-00012-fig3-figsupp3.tiff
 - elife-00012-fig3-figsupp3-data1.csv
 
+## XML Identifiers
+
+#####Figures
+X-ref ref-type+"fig"
+id="fig1"
+
+#####Figure supplements
+id="fig1s1"
+
+#####Source data
+ref-type="supplementary-material"
+id="SD1-data"
+
+#####Source code
+xref ref-type="supplementary-material"
+id="SD1-data"
+
+#####Videos
+xref ref-type="other"
+id="video1"
+
+#####Tables
+xref ref-type="table"
+id="tbl"
+
+#####Boxes
+xref ref-type="other"
+id="box1"
+
+#####Appendices
+Appendices are a section within an article, so their id is a reflection on tehir order in the sections of an article, eg id="s8" (indicates this appendix is the 8th <sec> of this article). However, the sec does have a sec-type of "appendix"
+
+figure ID: app1-fig1
+xref ref-type="fig"
+
+Table ID: app1-tbl1
+xref ref-type="table"
+
+
+#####Reporting standards
+
+#####Major datasets
+
+
+#####Equations
+
+Equations are not assets, but they do have ids that have a style.
+
+## DOIs
+All "assets" have sub-DOIs, with the exception of equations.
+
+
+
+## Additional information
+If a source code file or source data file is not attached to a specific figure, it is placed in the <sec sec-type="supplementary-material">.
+However, if it is attached to a specific figure it is listed as part of the figure tagging and not repeated in this section.
 
