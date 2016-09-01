@@ -3254,19 +3254,28 @@ UPDATE: punctuation between institution and contry removed.            -->
 <disp-quote content-type="editor-comment"><p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough 
     information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p></disp-quote>
             <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the 
-                PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="figX">Author response image 1.</xref></p>
-            <fig id="figX" position="float">
-                    <object-id pub-id-type="doi">10.7554/eLife.00666.023</object-id>
+                PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="resp-fig1">Author response image 1.</xref> and 
+                <xref ref-type="video" rid="resp-video1">Author response video 1.</xref></p>
+            <fig id="resp-fig1" position="float">
+                    <object-id pub-id-type="doi">10.7554/eLife.00666.031</object-id>
                 <label>Author response image 1.</label>
                     <caption>
                         <p>Single figure: The header of an eLife article example on the HTML page.</p>
                     </caption>
                     <graphic xlink:href="elife-00666-resp-fig-1.tiff"/>
                 </fig>
+            <media id="resp-video1" xlink:href="elife-04953-resp-media1.avi">
+                <object-id pub-id-type="doi">10.7554/eLife.00666.033</object-id>
+                <label>Author response video 1.</label>
+            </media>
                 <p>However, some decisions required some communication with PMC 
                 to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all 
                 formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} in order to produce rules for the 
                 production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.{Insert table}</p>
+            <p>If an author referes to a reference in the response letter it is cross linked to the reference in the reference list (<xref ref-type="bibr" rid="bib11">Coyne et al.,
+                1989</xref>), however, if it is a new reference only cited in the decision letter or author response it is not added to the main reference link and is just listed as free
+                text, for example, Butcher et al, 2006. If the author provides the reference it can be added as free text to the end of the letter, however, this is not a requirement
+                .</p>
         </body>
     </sub-article>
 </article>
