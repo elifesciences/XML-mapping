@@ -3101,8 +3101,11 @@ Therefore, no change proposed to tagging currently.-->
             <app>
             <title>Appendix 1</title>
                 <sec sec-type="appendix" id="s8">
-                    <!--Appendix: Change: no longer contained within box text as this is a display feature only-->
                     <title>Preparation</title>
+<!--UPDATE: Appendices must be contained within a box in order to include the DOI as an object-id
+Appendices must have DOIs-->                     
+                    <boxed-text>
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.021</object-id>
                     <p>In order to prepare for this Kitchen sink we reviewed our archive and found common errors or miscommunication from the archive, tagging of <xref ref-type="fig" rid="app1-fig1">Appendix 1—Figure 
                         1</xref> is a classic example and here the tagging is updated. Appendices figures can also have figure supplements, for example <xref ref-type="fig" rid="app1-fig1s1">Appendix 1—Figure 
                             1—Figure Supplement 1</xref>.</p>
@@ -3126,13 +3129,35 @@ Therefore, no change proposed to tagging currently.-->
                             <graphic xlink:href="elife-00666-app1-fig1-figsupp1-v2.tiff"/>
                         </fig>
                     </fig-group>
+<!--UPDATE: this is how sub sections in appendices should be tagged. Have been wrong up to now-->
+                        <sec sec-type="appendix" id="s8-1">
+                            <title>Sub heading 1</title>
+                            <p>This is the text of the content of subheading 1 within appendix 2.</p>
+                        </sec>
+                        <sec sec-type="appendix" id="s8-2">
+                            <title>Sub heading 2</title>
+                            <p>This is the text of the content of subheading 2 within appendix 2.</p>
+                        </sec>
+                </boxed-text>
                 </sec>
         </app>
             <app>
                 <title>Appendix 2</title>
                 <sec sec-type="appendix" id="s9">
               <title>Negotaition</title>
-                    <p>Blah</p>
+                    <boxed-text>
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.024</object-id>
+                    <p>Generating the new rules involved negotation with varous vendors and downsteam hosts to ensure display would work for all instances.</p>
+                        <media id="video2" xlink:href="elife-00666-app1-media1.mov">
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.024</object-id>
+                            <label>Appendix 2—Video 1.</label>
+                        <caption>
+                            <title>
+                                A descirption of the eLife editorial process.
+                            </title>
+                        </caption>
+                    </media>
+                    </boxed-text>
                 </sec>
             </app>
         </app-group>
