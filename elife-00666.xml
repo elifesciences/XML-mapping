@@ -1131,6 +1131,7 @@ Impact statement:-->
                     <title>Figures</title>
                     <p>This section of the paper shows how figures should be presented and will 
                         include examples of single figures and figures arranged with a variety of additional assets.</p>
+                    <p><xref ref-type="fig" rid="fig1">Figure 1</xref> is an example of a single figure.</p>
                         <!--NOTE: the version suffix (e.g. "-v1" is applied by the eLife platform and does not need to be supplied in the XML from the production vendor
                             Change: figures do not need to be contained within <p> and should not be
                             Change: The following has been removed from the XML as it is not necessary to repeat it, can be derived from the object-id DOI:
@@ -1156,6 +1157,8 @@ Impact statement:-->
                                 </license>
                             </permissions>
                         </fig>
+                    <p><xref ref-type="fig" rid="fig2">Figure 2</xref> is an example of a figure with figure supplements, <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref> and 
+                        <xref ref-type="fig" rid="fig2s2">Figure 2—figure supplement 2</xref>.</p>
                     <!--If a figure has figure supplements it must be contained within fig-group and the supplemental figures must be given 
                         a @specific-use attribute of "child-fig"
                     There is no limit to the number of figure supplements-->
@@ -1166,7 +1169,7 @@ Impact statement:-->
                         <caption>
                             <title>Figure with figure supplements: This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view</title>
                         </caption>
-                        <graphic xlink:href="elife-00666-fig1-v1"/>
+                        <graphic xlink:href="elife-00666-fig2-v1"/>
                     </fig>
                         <fig id="fig2s1" position="float" specific-use="child-fig">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.005</object-id>
@@ -1185,6 +1188,8 @@ Impact statement:-->
                             <graphic xlink:href="elife-00666-fig2-figsupp2-v1"/>
                         </fig>
                     </fig-group>
+                    <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) with a sub-asset, 
+                        <xref ref-type="supplementary-material" rid="SD1-data">Figure 3—figure supplement 1—Source data 1</xref>.</p>
                     <!--See below (figure 4) for preferred method of modelling supplementary material for a figure. TBC-->
                     <fig-group>
                         <fig id="fig3" position="float">
@@ -1215,7 +1220,8 @@ Impact statement:-->
                             <graphic xlink:href="elife-00666-fig3-figsupp1-v1"/>
                         </fig>
                     </fig-group>
-                    <!--This is the preferred model, but is TBC-->
+                    <p><xref ref-type="fig" rid="fig4">Figure 4</xref> is an example of a figure with source code (<xref ref-type="supplementary-material" rid="SD2-data">Figure 4—Source code 1</xref>).</p>
+                    <!--UPDATE: this is chanegd tagging.-->
                     <fig id="fig4" position="float">
                         <object-id pub-id-type="doi">10.7554/eLife.13222.010</object-id>
                         <label>Figure 4.</label>
