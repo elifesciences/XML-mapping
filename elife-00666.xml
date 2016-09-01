@@ -453,9 +453,11 @@ NOTE: id="ra1" is required for PMC, not for eLife publication -->
                         </mml:mrow>
                     </mml:math>
                 </p>
-                <p>eLife does not structure abstracts into sub headings, but the abstract can have
+                <p>eLife does not structure abstracts into sub headings unless it is a clinical trial, but the abstract can have
                     multiple paragarahs. The sub DOI is always .001 as it is the first asset in any
                     paper. I have added an unmatched > bracket as this has been an issue for PubMed deposits.</p>
+                <p>If this was a clinical trial the clinical trial details would be listed at the end of the abstract:</p>
+                <p>Clinical trial Registration: EudraCT2004-000446-20.</p>
             </abstract>
             <!--Digest: this has changed: The following is no longer required for the XML file:
                    <bold>DOI:</bold>
@@ -1376,6 +1378,20 @@ Group author con - do the same (ie add group author name and colon) but note the
                     <p>Chris Wilkinson,  performed the XML mapping exercise and generated the JSON Schema</p>
                     <p>Graham Nott, wrote the JATSscraper</p>
                     <p>Luke Skibinski, identified missing components from the JATSscraper</p>
+                </fn>
+            </fn-group>
+            <fn-group content-type="ethics-information">
+                <title>Ethics</title>
+                <fn fn-type="other">
+                    <p>If this paper was part of a clinical trial the Clinical trial registry and ID would be listed here, for example:</p>
+                    <p>Clinical trial Registry: EudraCT.</p>
+                    <p>Registration ID: EudraCT2004-000446-20.</p>
+                </fn>
+                <fn fn-type="other">
+                    <p>
+                        Human subjects: If Research Ethics Committee and Institutional Review Board approval was required for this paper the details would be listed here.
+                        Animal subjects: If there were animal subjects involved in the study the approval number for the research along with protocol approval would be listed here. 
+                    </p>
                 </fn>
             </fn-group>
         </sec>
