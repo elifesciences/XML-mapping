@@ -564,36 +564,41 @@ Impact statement:-->
                 Before you submit your work, please note that eLife is a very selective journal that aims to publish
                 work of the highest scientific standards and importance. Leading academic
                 researchers evaluate new submissions and approximately two-thirds are returned to
-                the authors without further peer review. Approximately half of the articles that are
-                selected for peer review go on to be published. If other researchers publish similar
+                the authors without further peer review. See  <xref ref-type="bibr" rid="bib12">DeLano, 2012</xref> and <xref ref-type="bibr" rid="bib13">
+                    Morgan, 2016</xref>. Approximately half of the articles that are
+                    selected for peer review go on to be published (<xref ref-type="bibr" rid="bib6">Brettar et al., 2014b</xref>. If other researchers publish similar
                 findings after submission, this will not be a reason for rejection. The eLife
-                editorial process broadly occurs in three phases. If you are interested in
+                editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings et al., 2004</xref>; <xref ref-type="bibr" rid="bib50">
+                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib49">Walker, 1995</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al, 2016</xref>). If you are interested in
                 submitting your work to eLife, please review the guidelines relating to initial
                 submissions. If you have received an encouraging response to your initial
                 submission, please review the guidelines relating to full submissions. If your full
                 submission has been peer reviewed and you have been asked to make revisions, please
-                review our guidelines for revised submissions.</p>
+                review our guidelines for revised submissions (<xref ref-type="bibr" rid="bib5">Brettar et al., 2014a</xref>).</p>
             <sec id="s1-1-1"> 
                 <title>Initial submission (level 3 heading)</title> 
-                <p>eLife publishes research of the very highest standard and significance, so many manuscripts are
-                returned to the authors without in-depth peer review. During the initial submission
+                <p>eLife publishes research of the very highest (<xref ref-type="bibr" rid="bib7">Bricogne et al., 2011</xref>) standard and significance, 
+                so many manuscripts are returned to the authors without in-depth peer review. During the initial submission
                 phase, members of eLife’s senior editorial team rapidly assess new submissions,
                 often in consultation with members of the Board of Reviewing Editors or with
                 external guest editors where necessary, to identify the ones that are appropriate
-                for in-depth peer review. To simplify the submission process, authors should submit
+                for in-depth peer review (<xref ref-type="bibr" rid="bib8">Cardé and  Millar, 2004</xref>; <xref ref-type="bibr" rid="bib9">Cartwright, 2016</xref>; 
+                <xref ref-type="bibr" rid="bib10">Chmeil, 2008</xref>). To simplify the submission process, authors should submit
                 their full manuscript as a single PDF. Limited additional information is collected
-                via the submission screen questions to complete the submission.</p>
+                via the submission screen questions to complete the submission (<xref ref-type="bibr" rid="bib6">Brettar et al., 2014b</xref>).</p>
             </sec>      
           <sec id="s1-1-2"> 
               <title>Full submission (level 3 heading)</title>
-                <p>For manuscripts that are invited for in-depth peer review, we request detailed
+              <p>For manuscripts that are invited for in-depth peer review, see <xref ref-type="bibr" rid="bib11">Coyne et al., 1989</xref> 
+                  and <xref ref-type="bibr" rid="bib14">Du, 2014</xref>, we request detailed
                 information about the work to support the peer review process, to ensure that the
                 work meets appropriate standards for the reporting of new findings, and, if
                 accepted, to assist in rapid publication and further dissemination of the work in
                 relevant indexes and repositories. Authors are asked to agree to publish their work
                 under the terms of the Creative Commons Attribution license (PDF of the agreement),
                 or the Creative Commons CC0 public domain dedication (PDF of the agreement) if one
-                or more authors are US-government employees.</p>
+                or more authors are US-government employees (<xref ref-type="bibr" rid="bib23">Hubbard and Thornton, 1993</xref>; 
+                  <xref ref-type="bibr" rid="bib19">GlaxoSmithKline UK, 2016</xref>; <xref ref-type="bibr" rid="bib24">Jain et al., 2010</xref>).</p>
           </sec>  
             <sec id="s1-1-3"> 
                 <title>Revised submission (level 3 heading)</title>
@@ -602,7 +607,9 @@ Impact statement:-->
                 revision requests and the authors’ response will be published, under the terms of
                 the Creative Commons Attribution license. In preparation for submission, authors
                 should ensure they have all the materials and information necessary to expedite the
-                submission and assessment of their work.</p>
+                submission and assessment of their work (<xref ref-type="bibr" rid="bib15">Eisen, 2016</xref>; 
+                <xref ref-type="bibr" rid="bib16">Ferry, 2014</xref>; <xref ref-type="bibr" rid="bib18">Gavrilov, 2014</xref>; 
+                    <xref ref-type="bibr" rid="bib20">Goodstadt, 2010</xref>; <xref ref-type="bibr" rid="bib21">Hoang, 2015</xref>).</p>
         </sec>
         </sec>
         <sec id="s1-2"> 
@@ -633,8 +640,10 @@ Impact statement:-->
             <p> eLife is tagged up as XML using the NISO standard JATS DTD. 
                 We conform to the JATS4R recommendations where possible and also deliver our content to PMC.
                 We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them.
-                eLife content is delivered to more repositories and it can be scraped from the eLife site.</p>
-        </sec>
+                eLife content is delivered to more repositories and it can be scraped from the eLife site (<xref ref-type="bibr" rid="bib17">
+                Gall et al., 2012</xref>; <xref ref-type="bibr" rid="bib22">Horne and Page, 2008</xref>; <xref ref-type="bibr" rid="bib27">
+                    McQuilton et al., 2012</xref>; <xref ref-type="bibr" rid="bib43">Staab et al., 2013</xref>).</p>
+    </sec>
         <sec sec-type="results" id="s3">
             <title>Results</title>
             <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. However, the Introduction section was used to demostrate heading levels.</p>
@@ -642,7 +651,8 @@ Impact statement:-->
                 <title>eLife controlled lists</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
                     See <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref> for the representation of the Major Subject Areas, Research
-                    Organisms and author keywords on the eLife HTML page.
+                    Organisms and author keywords on the eLife HTML page (<xref ref-type="bibr" rid="bib45">The <italic>Shigella</italic> Genome Sequencing Consortium,
+                    2015a</xref>).
                 </p>
                 <sec id="s3-1-1">
                     <title>Article types</title>
@@ -1028,7 +1038,7 @@ Impact statement:-->
                         We propose a Bayesian scheme for BCV that accommodates the influence of context on incentive value. BCV focuses on scenarios (i) where incentive value depends 
                         on contextual information (either represented by cues or by previous rewards) provided before options or rewards are presented, and (ii) where reward is defined 
                         by a single attribute (e.g., reward amount). To describe the basic principles of BCV, we adopt the formalism of Bayesian graphs (
-                        <xref ref-type="bibr" rid="bib4">Bishop, 2006</xref>
+                        <xref ref-type="bibr" rid="bib47">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015c</xref>
                         ) where a generative model is described by nodes or circles, representing random variables (shaded and white circles refer to observed and non-observed variables respectively), 
                         and arrows, representing causal relationships among variables. A simple generative model hypothesized by BCV is shown in
                         Figure 1A of another paper (not linked here), where C represents prior beliefs about the average reward expected in a given context. 
@@ -1085,7 +1095,7 @@ Impact statement:-->
                             </mml:math>
                         </inline-formula>
                         ). When R is observed, a posterior expectation about the context is obtained by application of Bayes rule (
-                        <xref ref-type="bibr" rid="bib4">Bishop, 2006</xref>
+                        <xref ref-type="bibr" rid="bib46">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015b</xref>
                         ):
                         <!-- id required for display formulae and require a label-->
                         <disp-formula id="equ1">
@@ -1202,7 +1212,10 @@ Impact statement:-->
                         <object-id pub-id-type="doi">10.7554/eLife.00666.008</object-id>
                         <label>Figure 2.</label>
                         <caption>
-                            <title>Figure with figure supplements: This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view.</title>
+                            <title>Figure with figure supplements: This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1
+                            </xref> shows an expanded view (<xref ref-type="bibr" rid="bib26">Kok, 2015</xref>; <xref ref-type="bibr" rid="bib28">National Institute of Mental 
+                            Health, 1990</xref>).
+                            </title>
                         </caption>
                             <graphic xlink:href="elife-00666-fig2-v1.tiff"/>
                     </fig>
@@ -1223,8 +1236,9 @@ Impact statement:-->
                             <graphic xlink:href="elife-00666-fig2-figsupp2-v1.tiff"/>
                         </fig>
                     </fig-group>
-                    <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) with a sub-asset, 
-                        <xref ref-type="supplementary-material" rid="SD1-data">Figure 3—figure supplement 1—Source data 1</xref>.</p>
+                    <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
+                        with a sub-asset, <xref ref-type="supplementary-material" rid="SD1-data">Figure 3—figure supplement 1—Source data 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhong, 
+                            2013</xref>; <xref ref-type="bibr" rid="bib51">World Health Organization, 2016</xref>  .</p>
                     <!--UPDATE: new method of modelling supplementary material for a figure
                     A figure or a sub figure can have any assets - eg data, code, videos-->
                     <fig-group>
@@ -1283,7 +1297,7 @@ Impact statement:-->
                     <p><xref ref-type="other" rid="video1">Video 1</xref> shows the editorial process.</p>
                     <!--UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
                     UPDATE: changed id to videoX-->
-                    <media id="video1" xlink:href="elife-00666-media1.mov">
+                    <media mimetype="mov" id="video1" xlink:href="elife-00666-media1.mov">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.016</object-id>
                         <label>Video 1.</label>
                         <caption>
@@ -1321,7 +1335,7 @@ Impact statement:-->
                             Phasellus sagittis, leo eget lacinia commodo, eros justo mattis eros, quis dapibus ipsum ex sit amet sapien. Quisque consequat arcu ut efficitur tincidunt. Ut convallis, 
                             ex maximus aliquam tempor, lorem elit fermentum ipsum, nec volutpat velit sem a lectus. Morbi sed mauris vel purus interdum consectetur dapibus vel velit. Nam pellentesque, 
                             ipsum vel euismod mattis, turpis augue mattis nunc, ac aliquam dolor massa non mi. Vestibulum sit amet elit a augue semper facilisis interdum quis nibh. Mauris consectetur 
-                            nisi aliquam urna lobortis, eu efficitur nisl lobortis.</p>
+                            nisi aliquam urna lobortis, eu efficitur nisl lobortis.<xref ref-type="bibr" rid="bib2">Bates et al., 2016</xref></p>
                         <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
                             turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
                             Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. Vestibulum ultrices vehicula nibh, a ullamcorper dui semper suscipit. Etiam in sem augue.</p>
@@ -1358,6 +1372,13 @@ Impact statement:-->
                     <title>Additional files</title>
                     <p>All files attached to an article must be cited in the main text as well. So, <xref ref-type="supplementary-material" rid="SD3-data">Supplementary file 1</xref> 
                         and <xref ref-type="supplementary-material" rid="SD4-data">Source data 1</xref> have to be cited in the text.</p>
+                </sec>
+                <sec id="s3-6-6">
+                    <title>References</title>
+                    <p>All references have to be cited in the main text. They are listed in the reference list in alphabetical order, 
+                        however, in the text the citations do not have to be in the same order as they are listed according to when the author of the paper cites them. 
+                        This article is littered with citations to ensure all the references are cited at some point. They have no relevance to the content 
+                        <xref ref-type="bibr" rid="bib1">Aivazian et al., 2006</xref>.</p>
                 </sec>
             </sec>
         </sec>
@@ -1451,6 +1472,14 @@ All supplementary files are listed here           -->
                     <title>This is the title of the source data that is not attached to a specific figure, but to the article as a whole.</title>
                 </caption>
                 <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
+            </supplementary-material>
+            <supplementary-material id="SD5-data">
+                <object-id pub-id-type="doi">10.7554/eLife.00666.021</object-id>
+                <label>Reporting Standard 1.</label>
+                <caption>
+                    <title>CONSORT flor diagram.</title>
+                   </caption>
+                <media mime-subtype="jpeg" mimetype="image" xlink:href="elife-00666-repstand1-v1.jpg"/>
             </supplementary-material>
         </sec>        
 <!--Datasets: this section is subject to change further to outcomes of Force11 Data citations working group. 
@@ -1568,7 +1597,7 @@ Therefore, no change proposed to tagging currently.-->
                     <given-names>B</given-names>
                 </name>
             </person-group>
-            <year iso-8601-date="2014">2016</year>
+            <year iso-8601-date="2016">2016</year>
             <data-title>Lme4: Linear Mixed-Effects Models Using Eigen and S4</data-title>
             <source>CRAN</source>
             <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/lme4/index.html">
