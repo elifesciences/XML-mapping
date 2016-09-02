@@ -464,7 +464,7 @@ NOTE: id="ra1" is required for PMC, not for eLife publication -->
 				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.002">http://dx.doi.org/10.7554/eLife.00666.002</ext-link>
                Also, is no longer required for all research content-->
             <abstract abstract-type="executive-summary">
-                <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
+                <object-id pub-id-type="doi">10.7554/eLife.00666.002</object-id>
                 <title>eLife digest</title>
                 <p>eLife digest are now optional and not every research paper will contain one.
                     These are layman abstracts, designed for non-specialists in this field to be
@@ -1021,8 +1021,8 @@ Impact statement:-->
                         </table>
                     </table-wrap>
                     <p><xref ref-type="table" rid="tbl4">Table 4</xref> is an example of an inline table that has no heading.</p>
-                    <table-wrap id="tbl4" position="float">
-                        <object-id pub-id-type="doi">10.7554/eLife.00666.006</object-id>
+                    <!-- Anchored tables are "inline" tables and do not have a DOI -->
+                    <table-wrap id="tbl4" position="anchor">
                         <label>Table 4.</label>
                         <caption>
                             <p></p>
@@ -1480,8 +1480,16 @@ All supplementary files are listed here           -->
                 </caption>
                 <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
             </supplementary-material>
-            <supplementary-material id="SD5-data">
+            <supplementary-material id="SD5-data">   
                 <object-id pub-id-type="doi">10.7554/eLife.00666.021</object-id>
+                <label>Source code 1</label>
+                <caption>
+                    <title>This is the title of the source code that is not attached to a specific figure, but to the article as a whole.</title>
+                </caption>
+                <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
+            </supplementary-material>
+            <supplementary-material id="SD6-data">
+                <object-id pub-id-type="doi">10.7554/eLife.00666.022</object-id>
                 <label>Reporting Standard 1.</label>
                 <caption>
                     <title>CONSORT flor diagram.</title>
@@ -3141,13 +3149,13 @@ Therefore, no change proposed to tagging currently.-->
 <!--UPDATE: Appendices must be contained within a box in order to include the DOI as an object-id
 Appendices must have DOIs-->                     
                     <boxed-text>
-                        <object-id pub-id-type="doi">10.7554/eLife.00666.021</object-id>
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.023</object-id>
                     <p>In order to prepare for this Kitchen sink we reviewed our archive and found common errors or miscommunication from the archive, tagging of <xref ref-type="fig" rid="app1-fig1">Appendix 1—Figure 
                         1</xref> is a classic example and here the tagging is updated. Appendices figures can also have figure supplements, for example <xref ref-type="fig" rid="app1-fig1s1">Appendix 1—Figure 
                             1—Figure Supplement 1</xref> (<xref ref-type="bibr" rid="bib25">Koch, 1589</xref>).</p>
                     <fig-group>
                         <fig id="app1-fig1" position="float">
-                        <object-id pub-id-type="doi">10.7554/eLife.00666.022</object-id>
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.024</object-id>
                     <label>Appendix 1—Figure 1.</label>
                     <caption>
                         <title>Appendix figure title.
@@ -3156,7 +3164,7 @@ Appendices must have DOIs-->
                     </caption>
                         <graphic xlink:href="elife-00666-app1-fig1-v2.tiff"/>
                     </fig>
-                        <fig id="app1-fig1s1" position="float" specific-use="child-fig"><object-id pub-id-type="doi">10.7554/eLife.00666.023</object-id>
+                        <fig id="app1-fig1s1" position="float" specific-use="child-fig"><object-id pub-id-type="doi">10.7554/eLife.00666.025</object-id>
                             <label>Appendix 1—Figure 1—Figure Supplement 1.</label>
                             <caption>
                                 <title>Appendix figure figure supplement title.</title>
@@ -3169,7 +3177,7 @@ Appendices must have DOIs-->
                         <sec sec-type="appendix" id="s8-1">
                             <title>Sub heading 1</title>
                             <p>This is the text of the content of subheading 1 within appendix 2.</p>
-                        </sec>
+                            </sec>
                         <sec sec-type="appendix" id="s8-2">
                             <title>Sub heading 2</title>
                             <p>This is the text of the content of subheading 2 within appendix 2.</p>
@@ -3182,10 +3190,10 @@ Appendices must have DOIs-->
                 <sec sec-type="appendix" id="s9">
               <title>Negotaition</title>
                     <boxed-text>
-                        <object-id pub-id-type="doi">10.7554/eLife.00666.024</object-id>
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.026</object-id>
                     <p>Generating the new rules involved negotation with varous vendors and downsteam hosts to ensure display would work for all instances.</p>
                         <media id="video2" xlink:href="elife-00666-app1-media1.mov">
-                        <object-id pub-id-type="doi">10.7554/eLife.00666.024</object-id>
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.027</object-id>
                             <label>Appendix 2—Video 1.</label>
                         <caption>
                             <title>
@@ -3193,6 +3201,15 @@ Appendices must have DOIs-->
                             </title>
                         </caption>
                     </media>
+                        <table-wrap id="app-tbl1" position="float">
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.028</object-id>
+                            <label>Apendix 2. Table 1.</label>
+                            <caption>
+                                <p>Appendix table</p>
+                            </caption>
+                            <table frame="hsides" rules="groups">
+                            </table>
+                        </table-wrap>
                     </boxed-text>
                 </sec>
             </app>
@@ -3202,7 +3219,7 @@ Appendices must have DOIs-->
 UPDATE: article-type has been changed from article-commentary to decision-letter-->    
     <sub-article article-type="decision-letter" id="SA1">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.00666.020</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.029</article-id>
             <title-group>
                 <article-title>Decision letter</article-title>
             </title-group>
@@ -3243,7 +3260,7 @@ UPDATE: punctuation between institution and contry removed.            -->
     </sub-article>
     <sub-article article-type="reply" id="SA2">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.00666.021</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.030</article-id>
             <title-group>
                 <article-title>Author response</article-title>
             </title-group>
@@ -3264,6 +3281,15 @@ UPDATE: punctuation between institution and contry removed.            -->
                     </caption>
                     <graphic xlink:href="elife-00666-resp-fig-1.tiff"/>
                 </fig>
+            <table-wrap id="resp-tbl1" position="float">
+                <object-id pub-id-type="doi">10.7554/eLife.00666.032</object-id>
+                <label>Author response Table 1.</label>
+                <caption>
+                    <p>Author response table</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                </table>
+            </table-wrap>
             <media id="resp-video1" xlink:href="elife-04953-resp-media1.avi">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.033</object-id>
                 <label>Author response video 1.</label>
