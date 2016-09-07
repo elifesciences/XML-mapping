@@ -1098,7 +1098,8 @@ Impact statement:-->
                             </tbody>
                         </table>
                         <table-wrap-foot>
-                            <!-- table-wrap-foot should contain any footnotes for the table. It should NOT be used for the table caption. Each footnote should have an identifying lable (exception: inline tables, see below) -->
+                            <!-- table-wrap-foot should contain any footnotes for the table. It should NOT be used for the table caption. Each footnote should 
+                                have an identifying lable (exception: inline tables, see below) -->
                             <fn id="tblfn1"><label>*</label>
                                 <p>Footnotes can be used to highlight properties of data reported in a table such as statistical significance. They are separate from
                                     the table caption and appear afterwards. They are hyperlinked to allow easy navigation. Footnotes in tables use the same standard
@@ -1324,7 +1325,7 @@ Impact statement:-->
                         Figure 1A of another paper (not linked here), where C represents prior beliefs about the average reward expected in a given context. 
                         Formally, this corresponds to a (Gaussian) prior belief (with mean
                         <inline-formula>
-                            <!--no id required for inline formulae-->
+                            <!-- no id required for inline formulae -->
                             <mml:math>
                                 <mml:mstyle displaystyle="true" scriptlevel="0">
                                     <mml:mrow>
@@ -1377,7 +1378,7 @@ Impact statement:-->
                         ). When R is observed, a posterior expectation about the context is obtained by application of Bayes rule (
                         <xref ref-type="bibr" rid="bib46">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015b</xref>
                         ):
-                        <!-- id required for display formulae and require a label-->
+                        <!-- id and a label required for display formulae -->
                         <disp-formula id="equ1">
                             <label>(1)</label>
                             <mml:math id="m1">
@@ -1456,12 +1457,10 @@ Impact statement:-->
                     <p>This section of the paper shows how figures should be presented and will 
                         include examples of single figures and figures arranged with a variety of additional assets.</p>
                     <p><xref ref-type="fig" rid="fig1">Figure 1</xref> is an example of a single figure.</p>
-                        <!--NOTE: the version suffix (e.g. "-v1" is applied by the eLife platform and does not need to be supplied in the XML from the production vendor
+                        <!-- NOTE: the version suffix (e.g. "-v1" is applied by the eLife platform and does not need to be supplied in the XML from the production vendor
                             Change: figures do not need to be contained within <p> and should not be
                             Change: The following has been removed from the XML as it is not necessary to repeat it, can be derived from the object-id DOI:
-                        <p><bold>DOI:</bold>
-                                 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.007"
-                                                >http://dx.doi.org/10.7554/eLife.00666.007</ext-link></p>-->
+                        <p><bold>DOI:</bold><ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.007">http://dx.doi.org/10.7554/eLife.00666.007</ext-link></p> -->
                         <fig id="fig1" position="float">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.007</object-id>
                             <label>Figure 1.</label>
@@ -1470,32 +1469,30 @@ Impact statement:-->
                             </caption>
                             <!--  NOTE: file type must be included in the file description. -->
                             <graphic xlink:href="elife-00666-fig1-v1.tiff"/>
-                            <!-- Assets within eLife might not always be published under a CCBY license although we endevour to do so. This is an exmaple of how to add a 
-                                seperate permission statement so it is clear to the human and machine reader that this asset cannot be reused.-->
+                            <!-- Assets within eLife might not always be published under a CC BY license although we endevour to do so. This is an example of how to add a
+                                separate permission statement so it is clear to the human and machine reader that this asset cannot be reused. -->
                             <permissions>
                                 <copyright-statement>© 2016 eLife. All rights reserved</copyright-statement>
                                 <copyright-year>2016</copyright-year>
                                 <copyright-holder>eLife</copyright-holder>
                                 <license>
-                                    <license-p>For the purpose having a example of how to tag a separate license for an item, we have indicated in the XML and display this is a copyrighted figure; 
-                                        however it is not.</license-p>
+                                    <license-p>For the purpose having a example of how to tag a separate license for an item, we have indicated in the XML and display this is a
+                                        copyrighted figure; however it is not.</license-p>
                                 </license>
                             </permissions>
                         </fig>
                     <p><xref ref-type="fig" rid="fig2">Figure 2</xref> is an example of a figure with figure supplements, <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref> and 
                         <xref ref-type="fig" rid="fig2s2">Figure 2—figure supplement 2</xref>.</p>
-                    <!--If a figure has figure supplements it must be contained within fig-group and the supplemental figures must be given 
-                        a @specific-use attribute of "child-fig"
-                    There is no limit to the number of figure supplements-->
+                    <!-- If a figure has figure supplements it must be contained within fig-group and the supplemental figures must be given a @specific-use attribute of "child-fig"
+                    There is no limit to the number of figure supplements a main figure can have. -->
                     <fig-group>
                         <fig id="fig2" position="float">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.008</object-id>
                         <label>Figure 2.</label>
                         <caption>
-                            <title>Figure with figure supplements: This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1
+                            <title>Figure with figure supplements.</title> This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1
                             </xref> shows an expanded view (<xref ref-type="bibr" rid="bib26">Kok et al., 2015</xref>; <xref ref-type="bibr" rid="bib28">National Institute of Mental 
                             Health, 1990</xref>).
-                            </title>
                         </caption>
                             <graphic xlink:href="elife-00666-fig2-v1.tiff"/>
                     </fig>
@@ -1519,8 +1516,8 @@ Impact statement:-->
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
                         with a sub-asset, <xref ref-type="supplementary-material" rid="SD1-data">Figure 3—figure supplement 1—Source data 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhong et al., 
                             2013</xref>; <xref ref-type="bibr" rid="bib51">World Health Organization, 2016</xref>  .</p>
-                    <!--UPDATE: new method of modelling supplementary material for a figure
-                    A figure or a sub figure can have any assets - eg data, code, videos-->
+                    <!-- UPDATE: new method of modelling supplementary material for a figure
+                    A figure or a sub figure can have any assets - e.g. data, code, videos -->
                     <fig-group>
                         <fig id="fig3" position="float">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.011</object-id>
@@ -1551,7 +1548,7 @@ Impact statement:-->
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig4">Figure 4</xref> is an example of a figure with source code (<xref ref-type="supplementary-material" rid="SD2-data">Figure 4—Source code 1</xref>).</p>
-                    <!--UPDATE: this is changed tagging.-->
+                    <!-- UPDATE: this is changed tagging. -->
                     <fig id="fig4" position="float">
                         <object-id pub-id-type="doi">10.7554/eLife.13222.014</object-id>
                         <label>Figure 4.</label>
@@ -1575,8 +1572,8 @@ Impact statement:-->
                 <sec id="s3-5">
                     <title>Videos</title>
                     <p><xref ref-type="other" rid="video1">Video 1</xref> shows the editorial process.</p>
-                    <!--UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
-                    UPDATE: changed id to videoX-->
+                    <!-- UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
+                    UPDATE: changed id to videoX -->
                     <media mimetype="mov" id="video1" xlink:href="elife-00666-media1.mov">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.016</object-id>
                         <label>Video 1.</label>
@@ -1680,20 +1677,21 @@ Impact statement:-->
                 Schwartz, 1993</xref>).</p>
             
         </sec>
-        <!--html allows for 6 levels of heading. No more can be allowed -->
+        <!-- HTML allows for 6 levels of heading. No more can be allowed -->
     </body>
     <back>
         <sec sec-type="additional-information" id="s5">
-<!--UPDATE: XML comtains no names of authors in competing interest footnote, but PDF must add full name of author where they decclare an interest, 
-eg below "Chair of JATS4R" would be come: Melissa Harrison: Chair of JATS4R" Generic "No competing interests declared" is linked to 
-all authors who do not declare a competing interest. For the PDF rules are as follows:
-All authors declare no competing interests: statement reads "The authors declare that no competing interests exist."
-One or more authors declare competing interests and rest do not: "The other authors declare that no competing interests exist."
-Only one author out of two or more declares no competing interests exist: "The other author declares that no competing interests exist."
-One author only and there declare no competing interests: "The author declares that no competing interests exist."
-Order in XML is based on author order, but on PDF competing interests come first, followed by the No competing interest statement            -->
+<!-- UPDATE: XML contains no names of authors in competing interest footnote, but PDF must add full name of author where they declare an interest,
+e.g. below "Chair of JATS4R" would become: Melissa Harrison: Chair of JATS4R"
+Generic text "No competing interests declared" is linked to all authors who do not declare a competing interest.
+For the PDF rules are as follows:
+1) All authors declare no competing interests: statement reads "The authors declare that no competing interests exist."
+2) One or more authors declare competing interests and rest do not: "The other authors declare that no competing interests exist."
+3) Only one author out of two or more declares no competing interests exist: "The other author declares that no competing interests exist."
+4) One author only and there declare no competing interests: "The author declares that no competing interests exist."
+5) Order in XML is based on author order, but on PDF competing interests come first, followed by the No competing interest statement -->
             <fn-group content-type="competing-interest">
-<!--UPDATE: <title>Additional information</title> removed. Is required for PDF representation only -->
+<!-- UPDATE: <title>Additional information</title> removed. Is required for PDF representation only -->
                 <fn fn-type="conflict" id="conf1">
                     <p>Chair of JATS4R</p>
                 </fn>
@@ -1704,12 +1702,12 @@ Order in XML is based on author order, but on PDF competing interests come first
                     <p>Not an eLife employee</p>
                 </fn>
             </fn-group>
-<!--UPDATE: Contributions: There is one contribution per author and they are listed sequentially (ie author 1 must have con1, etc).
+<!-- UPDATE: Contributions: There is one contribution per author and they are listed sequentially (ie author 1 must have con1, etc).
 Text string, no name is prefaced. No full stop at end.
-UPDATE: PDF add full author name followed by colon then insert contribution. In author order, one line per author. 
-Group author con - do the same (ie add group author name and colon) but note the text string may contain individual names and correction further punctuation-->
+UPDATE: PDF add full author name followed by colon then insert contribution. List contributions in author order, one line per author. 
+Group author contribution - do the same (i.e. add group author name and colon) but note that the text string may contain individual names and further punctuation-->
             <fn-group content-type="author-contribution">
-<!--UPDATE: <title>Author contributions</title> removed. Is required for PDF representation only -->
+<!-- UPDATE: <title>Author contributions</title> removed. Is required for PDF representation only -->
                 <fn fn-type="con" id="con1">
                     <p>Completed the XML mapping exercise and wrote this XML example</p>
                 </fn>
@@ -1717,7 +1715,7 @@ Group author con - do the same (ie add group author name and colon) but note the
                     <p>Contributed to the XML mapping exercise and quality checked all the tagging and content</p>
                 </fn>
                 <fn fn-type="con" id="con3">
-                    <p>Chris Wilkinson,  performed the XML mapping exercise and generated the JSON Schema</p>
+                    <p>Chris Wilkinson, performed the XML mapping exercise and generated the JSON Schema</p>
                     <p>Graham Nott, wrote the JATSscraper</p>
                     <p>Luke Skibinski, identified missing components from the JATSscraper</p>
                 </fn>
@@ -1738,11 +1736,11 @@ Group author con - do the same (ie add group author name and colon) but note the
             </fn-group>
         </sec>
         <sec sec-type="supplementary-material" id="s6" >
-<!--UPDATE: <title>Additional files</title> removed. Is required for PDF representation only  
-UPDATE: The following is removed. Not required for HTML representation, is PDF only: <bold>DOI:</bold> 
-<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.XXX">http://dx.doi.org/10.7554/eLife.00666.XXX"</ext-link>
+<!-- UPDATE: <title>Additional files</title> removed. Is required for PDF representation only  
+UPDATE: The following is removed. Not required for HTML representation, is required for PDF representation only:
+<bold>DOI:</bold><ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.XXX">http://dx.doi.org/10.7554/eLife.00666.XXX"</ext-link>
 NOTE: if source data or source code are not attached to an individual figure, they are listed in this section.
-All supplementary files are listed here           -->             
+All supplementary files are listed here -->             
             <supplementary-material id="SD3-data">   
             <object-id pub-id-type="doi">10.7554/eLife.00666.019</object-id>
                 <label>Supplementary file 1.</label>
@@ -1772,14 +1770,14 @@ All supplementary files are listed here           -->
                 <object-id pub-id-type="doi">10.7554/eLife.00666.022</object-id>
                 <label>Reporting Standard 1.</label>
                 <caption>
-                    <title>CONSORT flor diagram.</title>
+                    <title>CONSORT flow diagram.</title>
                    </caption>
                 <media mime-subtype="jpeg" mimetype="image" xlink:href="elife-00666-repstand1-v1.jpg"/>
             </supplementary-material>
         </sec>        
-<!--Datasets: this section is subject to change further to outcomes of Force11 Data citations working group. 
-Also, is undecided whether they will be added to eLife profiles. Also, the tagging of the collaborator name again within this section is required for PMC display
-Therefore, no change proposed to tagging currently.-->
+<!-- Datasets: this section is subject to change further to outcomes of FORCE11 Data citations working group. 
+Additionally, it is currently undecided whether they will be added to eLife profiles.
+The tagging of the collaborator name again within this section is required for PMC display, therefore no change proposed to tagging currently. -->
             <sec sec-type="datasets" id="s7">
 <!--UPDATE: <title>Major datasets</title> removed. Is required for PDF representation only -->  
                 <p>The following dataset was generated:</p>
@@ -1787,9 +1785,9 @@ Therefore, no change proposed to tagging currently.-->
                     <related-object content-type="generated-dataset"
                         source-id="https://github.com/elifesciences/XML-mapping/blob/master/elife-00666.xml"
                         source-id-type="uri" id="dataro1">
-<!--UPDATE: add @collab-type="author" attribute. Change order of author name to first initial then surname-->  
+<!--UPDATE: Add @collab-type="author" attribute. Change order of author name to first initial then surname-->  
                         <collab collab-type="author">M Harrison</collab>
-<!--UPDATE: remove all punctuation that was prevously surrounding the tags--> 
+<!--UPDATE: Remove all punctuation that was prevously surrounding the tags--> 
                         <year>2016</year>
                         <source>xml-mapping</source>
                         <ext-link ext-link-type="uri"
@@ -1813,12 +1811,12 @@ Therefore, no change proposed to tagging currently.-->
                 </p>
             </sec>
         <ack id="ack">
-<!--UPDATE: <title>Acknowledgements</title> removed. Is required for PDF representation only -->  
+<!-- UPDATE: <title>Acknowledgements</title> removed. Is required for PDF representation only -->  
             <p>We thank JATS4R, ExeterPremedia and PMC for their contributions.</p>
         </ack>
-<!--All references shuld be cited in the text-->  
+<!-- All references shuld be cited in the text -->  
 <ref-list>
-<!--Journal reference: page numbers and DOI -->
+<!-- Journal reference: page numbers and DOI -->
     <ref id="bib1">
         <element-citation publication-type="journal">
             <person-group person-group-type="author">
@@ -1845,7 +1843,7 @@ Therefore, no change proposed to tagging currently.-->
             <pub-id pub-id-type="pmid">16769818</pub-id>
         </element-citation>
     </ref>
-<!--Software reference: Has authors, curator, title and source but no publisher-->
+<!-- Software reference: Has authors, curator, title and source but no publisher -->
     <ref id="bib2">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
@@ -1953,7 +1951,7 @@ Therefore, no change proposed to tagging currently.-->
             <pub-id pub-id-type="doi">10.1101/029983</pub-id>
         </element-citation>
     </ref> 
-<!--Data reference: NCBI Gene Expression Omnibus: pub-id-type="accession" assigning-authority="NCBI"-->
+<!-- Data reference: NCBI Gene Expression Omnibus: pub-id-type="accession" assigning-authority="NCBI" -->
     <ref id="bib4">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -2039,7 +2037,7 @@ Therefore, no change proposed to tagging currently.-->
                 >GSE44902</pub-id>
         </element-citation>
     </ref>
-<!--Journal reference: year a -->
+<!-- Journal reference: year a -->
     <ref id="bib5">
         <element-citation publication-type="journal">
             <person-group person-group-type="author">
@@ -2069,7 +2067,7 @@ Therefore, no change proposed to tagging currently.-->
             <pub-id pub-id-type="pmid">15545480</pub-id>
         </element-citation>
     </ref>
-<!--Journal reference: year b -->
+<!-- Journal reference: year b -->
     <ref id="bib6">
         <element-citation publication-type="journal">
             <person-group person-group-type="author">
@@ -2098,7 +2096,7 @@ Therefore, no change proposed to tagging currently.-->
             <pub-id pub-id-type="pmid">14742460</pub-id>
         </element-citation>
     </ref>
-<!--Software reference: no title-->
+<!-- Software reference: no title -->
     <ref id="bib7">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
@@ -2155,7 +2153,7 @@ Therefore, no change proposed to tagging currently.-->
             <uri xlink:href="https://www.globalphasing.com/buster/">https://www.globalphasing.com/buster/</uri>
         </element-citation>
     </ref>
-<!--Book reference: Editors, no chapter details-->
+<!-- Book reference: Editors, no chapter details -->
     <ref id="bib8">
         <element-citation publication-type="book">
             <person-group person-group-type="editor">
@@ -2189,7 +2187,7 @@ Therefore, no change proposed to tagging currently.-->
             <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1608.03074">arXiv:1608.03074</ext-link>
         </element-citation>
     </ref> 
-<!--Book reference: Has edition, editor is author-->
+<!-- Book reference: Has edition, editor is author -->
     <ref id="bib10">
         <element-citation publication-type="book">
             <person-group person-group-type="editor">
@@ -2205,7 +2203,7 @@ Therefore, no change proposed to tagging currently.-->
             <publisher-name>Wiley-Blackwell</publisher-name>
         </element-citation>
     </ref>
-<!--Book reference: publisher location - US: city followed by state code-->
+<!-- Book reference: publisher location - US: city followed by state code -->
     <ref id="bib11">
         <element-citation publication-type="book">
             <person-group person-group-type="author">
@@ -2235,7 +2233,7 @@ Therefore, no change proposed to tagging currently.-->
             <publisher-name>Sinauer Associates</publisher-name>
         </element-citation>
     </ref>
-<!--Software reference: Question to Software citation group. Author correct??? Details correct?? See also bib35-->
+<!-- Software reference: Question to Software citation group. Author correct??? Details correct?? See also bib35 -->
     <ref id="bib12">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
@@ -2269,7 +2267,7 @@ Therefore, no change proposed to tagging currently.-->
             <pub-id pub-id-type="isbn">9781474130158</pub-id>
         </element-citation>
     </ref>
-    <!--Data reference: RCSB Protein Data Bank -->
+    <!-- Data reference: RCSB Protein Data Bank -->
 <ref id="bib14">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -2382,7 +2380,7 @@ Therefore, no change proposed to tagging currently.-->
             </ext-link>
         </element-citation>
     </ref>
-    <!--Journal reference: author with suffix -->
+    <!-- Journal reference: author with suffix -->
     <ref id="bib17">
         <element-citation publication-type="journal">
             <person-group person-group-type="author">
@@ -2424,7 +2422,7 @@ Therefore, no change proposed to tagging currently.-->
             <pub-id pub-id-type="pmid">22284419</pub-id> 
         </element-citation>
     </ref>
-<!--Data reference: NCBI Nucleotide: pub-id-type="accession" assigning-authority="NCBI" contains version details-->
+<!-- Data reference: NCBI Nucleotide: pub-id-type="accession" assigning-authority="NCBI" contains version details -->
     <ref id="bib18">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -2484,7 +2482,7 @@ Therefore, no change proposed to tagging currently.-->
             <pub-id pub-id-type="pmid">20847218</pub-id>
         </element-citation>
     </ref>
- <!--Data reference: NCBI Gene Expression Omnibus (GEO): pub-id-type="accession" assigning-authority="NCBI"-->
+ <!-- Data reference: NCBI Gene Expression Omnibus (GEO): pub-id-type="accession" assigning-authority="NCBI" -->
      <ref id="bib21">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -2514,7 +2512,7 @@ Therefore, no change proposed to tagging currently.-->
                 >GSE70542</pub-id>
         </element-citation>
     </ref>
-<!--Book reference: simple book reference, with ISBN-->
+<!-- Book reference: simple book reference, with ISBN -->
     <ref id="bib22">
         <element-citation publication-type="book">
             <person-group person-group-type="author">
@@ -2534,7 +2532,7 @@ Therefore, no change proposed to tagging currently.-->
             <pub-id pub-id-type="isbn">9780643092570</pub-id>
         </element-citation>
     </ref>  
-<!--Software reference: Has authors, source and publisher but no title-->
+<!-- Software reference: Has authors, source and publisher but no title -->
     <ref id="bib23">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
@@ -2554,7 +2552,7 @@ Therefore, no change proposed to tagging currently.-->
             <ext-link ext-link-type="uri" xlink:href="http://www.bioinf.manchester.ac.uk/naccess">www.bioinf.manchester.ac.uk/naccess</ext-link>
         </element-citation>
     </ref>
-<!-- Reference to a conference: minimal info-->
+<!-- Reference to a conference: minimal info -->
     <ref id="bib24">
         <element-citation publication-type="confproc">
             <person-group person-group-type="author">
@@ -2633,7 +2631,7 @@ Therefore, no change proposed to tagging currently.-->
             <conf-name>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2010</conf-name>
         </element-citation>
     </ref>
-<!--Book reference: Has volume, no publisher location-->
+<!-- Book reference: Has volume, no publisher location -->
     <ref id="bib25">
         <element-citation publication-type="book">
             <person-group person-group-type="author">
@@ -2648,7 +2646,7 @@ Therefore, no change proposed to tagging currently.-->
             <publisher-name>Mcgraw-Hill Book Company</publisher-name>
         </element-citation>
     </ref>
-<!--Data reference: Dryad dataset -->
+<!-- Data reference: Dryad dataset -->
     <ref id="bib26">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -2677,7 +2675,7 @@ Therefore, no change proposed to tagging currently.-->
                 >10.5061/dryad.cv323</pub-id>
         </element-citation>
     </ref>
-<!--Journal reference: collab author -->
+<!-- Journal reference: collab author -->
     <ref id="bib27">
         <element-citation publication-type="journal">
             <person-group person-group-type="author">
@@ -2717,7 +2715,7 @@ Therefore, no change proposed to tagging currently.-->
             <publisher-loc>Washington, DC, United States</publisher-loc>
         </element-citation>
     </ref>
-<!--Software reference: Has author, title and source but no publisher-->
+<!-- Software reference: Has author, title and source but no publisher -->
     <ref id="bib29">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
@@ -2735,7 +2733,7 @@ Therefore, no change proposed to tagging currently.-->
             </ext-link>
         </element-citation>
     </ref>
-<!--Software reference: Has authors, title, source -->
+<!-- Software reference: Has authors, title, source -->
     <ref id="bib30">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
@@ -2764,7 +2762,7 @@ Therefore, no change proposed to tagging currently.-->
                 https://bioconductor.org/packages/release/bioc/html/Biostrings.html</ext-link>
         </element-citation>
     </ref>
-<!-- Reference to a conference: Has title of proceedings and has page numbers-->
+<!-- Reference to a conference: Has title of proceedings and has page numbers -->
     <ref id="bib31">
         <element-citation publication-type="confproc">
             <person-group person-group-type="author">
@@ -2793,7 +2791,7 @@ Therefore, no change proposed to tagging currently.-->
             <lpage>97</lpage>
         </element-citation>
     </ref>
-<!-- Reference to a United States Patent -->
+<!-- Reference to a United States patent -->
     <ref id="bib32">
         <element-citation publication-type="patent">
             <person-group person-group-type="inventor">
@@ -2823,7 +2821,7 @@ Therefore, no change proposed to tagging currently.-->
             <ext-link ext-link-type="http://europepmc.org/patents/PAT/US2011065162" xlink:href='[URL of website]'>http://europepmc.org/patents/PAT/US2011065162</ext-link>
         </element-citation>
     </ref>
-<!--Software reference: R-->
+<!-- Software reference: R -->
     <ref id="bib33"><element-citation publication-type="software">
         <person-group person-group-type="author">
             <collab>R Development Core Team</collab>
@@ -2836,7 +2834,7 @@ Therefore, no change proposed to tagging currently.-->
         <uri xlink:href="http://www.r-project.org/">http://www.r-project.org/</uri>
     </element-citation>
     </ref>
-<!--Data reference: ProteomeXchange: pub-id-type="archive" - not clear what this number is, so default option -->
+<!-- Data reference: ProteomeXchange: pub-id-type="archive" - not clear what this number is, so default option -->
     <ref id="bib34">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -2894,7 +2892,7 @@ Therefore, no change proposed to tagging currently.-->
                 >PXD001805</pub-id>
         </element-citation>
     </ref>
-<!--Data reference: ArrayExpress: pub-id-type="accession"-->
+<!-- Data reference: ArrayExpress: pub-id-type="accession" -->
     <ref id="bib35">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -2953,7 +2951,7 @@ Therefore, no change proposed to tagging currently.-->
                 >E-MTAB-3649</pub-id>
         </element-citation>
     </ref>
-<!--Software reference: no source-->
+<!-- Software reference: no source -->
     <ref id="bib36">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
@@ -2969,7 +2967,7 @@ Therefore, no change proposed to tagging currently.-->
             <uri xlink:href="http://imagej.nih.gov/ij/">http://imagej.nih.gov/ij/</uri>
         </element-citation>
     </ref>
-<!--Journal reference: in press -->
+<!-- Journal reference: in press -->
     <ref id="bib37">
         <element-citation publication-type="journal">
             <person-group person-group-type="author">
@@ -3022,7 +3020,7 @@ Therefore, no change proposed to tagging currently.-->
             <publisher-loc>Nijmegen, The Netherlands</publisher-loc>
         </element-citation>
     </ref>
-<!--Software reference: should source be article title?-->
+<!-- Software reference: should source be article title? -->
     <ref id="bib39">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
@@ -3053,7 +3051,7 @@ Therefore, no change proposed to tagging currently.-->
             <lpage>A4</lpage>
         </element-citation>
     </ref>
-<!-- Reference to a Clinical Trial - subject to revision-->
+<!-- Reference to a Clinical Trial - subject to revision -->
     <ref id="bib41">
         <element-citation publication-type="clinicaltrial">
             <person-group person-group-type="sponsor">
@@ -3064,7 +3062,7 @@ Therefore, no change proposed to tagging currently.-->
             <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/home">NCT01975428</ext-link>
         </element-citation>
     </ref> 
-  <!--Software reference: No title-->
+  <!-- Software reference: No title -->
     <ref id="bib42">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
@@ -3085,7 +3083,7 @@ Therefore, no change proposed to tagging currently.-->
             <uri xlink:href="http://www.repeatmasker.org/RepeatModeler.html">http://www.repeatmasker.org/RepeatModeler.html</uri>
         </element-citation>
     </ref>
-<!--Data reference: JASPAR-->
+<!-- Data reference: JASPAR -->
     <ref id="bib43">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -3166,7 +3164,7 @@ Therefore, no change proposed to tagging currently.-->
             <pub-id pub-id-type="doi">10.20944/preprints201608.0124.v1</pub-id>
         </element-citation>
     </ref>
-<!--Data reference: NCBI BioProject: author is a collab pub-id-type="accession" assigning-authority="NCBI" example of 3 references with same author/year-->
+<!-- Data reference: NCBI BioProject: author is a collab pub-id-type="accession" assigning-authority="NCBI" example of 3 references with same author/year -->
     <ref id="bib45">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -3206,7 +3204,7 @@ Therefore, no change proposed to tagging currently.-->
                 >PRJEB2542</pub-id>
         </element-citation>
     </ref>
-<!--Book reference: chapter in book with editors-->
+<!-- Book reference: chapter in book with editors -->
     <ref id="bib48">
         <element-citation publication-type="book">
             <person-group person-group-type="author">
@@ -3253,7 +3251,7 @@ Therefore, no change proposed to tagging currently.-->
             <ext-link ext-link-type="uri" xlink:href='https://www.fourmilab.ch/solar/'>https://www.fourmilab.ch/solar/</ext-link>
         </element-citation>
     </ref>
-    <!--Journal reference: elocation-id and DOI and PMID -->
+    <!-- Journal reference: elocation-id and DOI and PMID -->
         <ref id="bib50">
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
@@ -3293,7 +3291,7 @@ Therefore, no change proposed to tagging currently.-->
                     <pub-id pub-id-type="pmid">18578568</pub-id>
                 </element-citation>
             </ref>
-<!--Book reference: Has edition, editor is author-->
+<!-- Book reference: Has edition, editor is author -->
     <ref id="bib51">
         <element-citation publication-type="book">
             <person-group person-group-type="author">
@@ -3353,7 +3351,7 @@ Therefore, no change proposed to tagging currently.-->
             <pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="http://www.ncbi.nlm.nih.gov/protein/ADB81776.1">GenBank: ADB81776.1</pub-id>
         </element-citation>
     </ref>
-<!--Data reference: modMine pub-id-type="archive"-->
+<!-- Data reference: modMine pub-id-type="archive" -->
             <ref id="bib53">
                 <element-citation publication-type="data">
                     <person-group person-group-type="author">
@@ -3426,8 +3424,8 @@ Therefore, no change proposed to tagging currently.-->
             <title>Appendix 1</title>
                 <sec sec-type="appendix" id="s8">
                     <title>Preparation</title>
-<!--UPDATE: Appendices must be contained within a box in order to include the DOI as an object-id
-Appendices must have DOIs-->                     
+<!-- UPDATE: Appendices must be contained within a box in order to include the DOI as an object-id
+Appendices must have DOIs -->                     
                     <boxed-text>
                         <object-id pub-id-type="doi">10.7554/eLife.00666.023</object-id>
                     <p>In order to prepare for this Kitchen sink we reviewed our archive and found common errors or miscommunication from the archive, tagging of <xref ref-type="fig" rid="app1-fig1">Appendix 1—Figure 
@@ -3453,7 +3451,7 @@ Appendices must have DOIs-->
                             <graphic xlink:href="elife-00666-app1-fig1-figsupp1-v2.tiff"/>
                         </fig>
                     </fig-group>
-<!--UPDATE: this is how sub sections in appendices should be tagged. Have been wrong up to now-->
+<!-- UPDATE: this is how sub sections in appendices should be tagged. Have been wrong up to now -->
                         <sec sec-type="appendix" id="s8-1">
                             <title>Sub heading 1</title>
                             <p>This is the text of the content of subheading 1 within appendix 2.</p>
@@ -3524,16 +3522,16 @@ Appendices must have DOIs-->
             </app>
         </app-group>
     </back>
-<!--UPDATE: Links to the DOIs of the decision letter and author response need to be added to the PDF template.
-UPDATE: article-type has been changed from article-commentary to decision-letter-->    
+<!-- UPDATE: Links to the DOIs of the decision letter and author response need to be added to the PDF template.
+UPDATE: article-type has been changed from article-commentary to decision-letter -->    
     <sub-article article-type="decision-letter" id="SA1">
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.00666.029</article-id>
             <title-group>
                 <article-title>Decision letter</article-title>
             </title-group>
-<!--NOTE: repetition of the reviewing editor in this section is required as it indicates that person is the author of this sub-article.
-UPDATE: punctuation between institution and contry removed.            -->     
+<!-- NOTE: repetition of the reviewing editor in this section is required as it indicates that person is the author of this sub-article.
+UPDATE: punctuation between institution and country removed. -->     
             <contrib-group>
                 <contrib contrib-type="editor">
                     <name>
@@ -3549,7 +3547,7 @@ UPDATE: punctuation between institution and contry removed.            -->
             </contrib-group>
         </front-stub>
             <body>
-                <!--NOTE: the boxed text is occassionally updated by editorial so although it remains the same for all articles, it cannot be boiler plate text--> 
+                <!-- NOTE: the boxed text is occasionally updated by editorial so although it remains the same for all articles, it cannot be boiler plate text --> 
                 <boxed-text>
                     <p>In the interests of transparency, eLife includes the editorial decision letter and accompanying author responses. 
                         A lightly edited version of the letter sent to the authors after peer review is shown, indicating the most substantive concerns;
@@ -3575,8 +3573,8 @@ UPDATE: punctuation between institution and contry removed.            -->
             </title-group>
         </front-stub>
         <body>
-<!--UPDATE: Italics formatting ws used to indicate the editor comments previously, but now we want to semanticly differentiate it. The website and Kriya needs to 
- display any disp-quote within the  sub-article article-type="reply" as italics and not the nonrmal display quote style used for main body of content-->  
+            <!-- UPDATE: Italics formatting was used to indicate the editor comments previously, but now we want to semantically differentiate it. The website and Kriya needs to
+ display any disp-quote within the  sub-article article-type="reply" as italics and not the normal display quote style used for main body of content -->  
 <disp-quote content-type="editor-comment"><p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough 
     information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p></disp-quote>
             <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the 
