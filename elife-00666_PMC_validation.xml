@@ -1584,7 +1584,7 @@ Impact statement:-->
                             Phasellus sagittis, leo eget lacinia commodo, eros justo mattis eros, quis dapibus ipsum ex sit amet sapien. Quisque consequat arcu ut efficitur tincidunt. Ut convallis, 
                             ex maximus aliquam tempor, lorem elit fermentum ipsum, nec volutpat velit sem a lectus. Morbi sed mauris vel purus interdum consectetur dapibus vel velit. Nam pellentesque, 
                             ipsum vel euismod mattis, turpis augue mattis nunc, ac aliquam dolor massa non mi. Vestibulum sit amet elit a augue semper facilisis interdum quis nibh. Mauris consectetur 
-                            nisi aliquam urna lobortis, eu efficitur nisl lobortis; <xref ref-type="bibr" rid="bib2">Bates et al., 2016</xref> and <xref ref-type="bibr" rid="bib32">Patterson et al., 2011</xref></p>
+                            nisi aliquam urna lobortis, eu efficitur nisl lobortis; <xref ref-type="bibr" rid="bib2">Bates et al., 2016</xref> and <xref ref-type="bibr"</xref></p>
                         <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
                             turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
                             Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. Vestibulum ultrices vehicula nibh, a ullamcorper dui semper suscipit. Etiam in sem augue.</p>
@@ -2711,36 +2711,6 @@ Therefore, no change proposed to tagging currently.-->
             <conf-name> 8th International Conference, ICA 2009, Paraty, Brazil, March 15-18, 2009</conf-name>
             <fpage>90</fpage>
             <lpage>97</lpage>
-        </element-citation>
-    </ref>
-<!-- Reference to a United States Patent -->
-    <ref id="bib32">
-        <element-citation publication-type="patent">
-            <person-group person-group-type="inventor">
-                <name>
-                    <surname>Patterson</surname><given-names>JB</given-names>
-                </name>
-                <name>
-                    <surname>Lonergan</surname><given-names>DG</given-names>
-                </name>
-                <name>
-                    <surname>Flynn</surname><given-names>GA</given-names>
-                </name>
-                <name>
-                    <surname>Qingpeng</surname><given-names>Z</given-names>
-                </name>
-                <name>
-                    <surname>Pallai</surname><given-names>PV</given-names>
-                </name>
-            </person-group>
-            <person-group person-group-type="assignee">
-                <collab>Mankind Corp</collab>
-            </person-group>
-            <year iso-8601-date="2011">2011</year>
-            <article-title>IRE-1alpha inhibitors</article-title>
-            <source>United States patent</source>
-            <patent country="United States">US20100941530</patent>
-            <ext-link ext-link-type="http://europepmc.org/patents/PAT/US2011065162" xlink:href='[URL of website]'>http://europepmc.org/patents/PAT/US2011065162</ext-link>
         </element-citation>
     </ref>
 <!--Software reference: R-->
