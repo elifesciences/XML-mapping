@@ -65,7 +65,7 @@ Plant Biology -->
                 </subj-group>
             </article-categories>
             <title-group>
-                <article-title>The eLife research paper</article-title>
+                <article-title>The eLife research article</article-title>
             </title-group>
             <contrib-group>
                 <!-- Each contrib MUST have following attributes:
@@ -108,7 +108,7 @@ brackets after each email address. See Kitchen sink PDF for example.-->
 Authors can have one or multiple affiliations. There should be one aff per unique affiliation and these are shared between authors, not repeated.
 xref link requires display number (e.g. see below "1"). This is required for PMC-->
                     <xref ref-type="aff" rid="aff1"/>
-<!-- Authors who have funding declared on the paper are linked to the relevant <award-group> via an xref link using the"fund" id. Each <award-group> id
+<!-- Authors who have funding declared on the article are linked to the relevant <award-group> via an xref link using the"fund" id. Each <award-group> id
 should have a unique number e.g. fund1, fund2 etc. Authors can have one or multiple award-groups and multiple authors can be associated with one
 award-group. There is no display text associated with this link
 UPDATE: ID value changed from par to fund and hyphen removed to be consistent with other IDs. All ids have a number value only if 1 exist in the article. -->
@@ -301,7 +301,7 @@ need to be boilerplate for the PDF display <label> is required for display on PM
                     </addr-line>
                     <country>United Kingdom</country>
                 </aff>             
-<!-- eLife papers are shepherded through the review process by a reviewing editor, who is listed in the XML and called out in the online and PDF displays.
+<!-- eLife articles are shepherded through the review process by a reviewing editor, who is listed in the XML and called out in the online and PDF displays.
 UPDATE: As above, punctuation outside XML tags has been removed -->
             </contrib-group>
             <contrib-group content-type="section">
@@ -441,7 +441,7 @@ NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related 
 				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">http://dx.doi.org/10.7554/eLife.00666.001</ext-link> -->
             <abstract>
                 <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
-                <p>This is the abstract. This paper will describe the eLife paper and the process.
+                <p>This is the abstract. This article will describe the eLife article and the process.
                     An abstract can contain any formatting, such as <italic>italics</italic>,
                         <bold>bold</bold>, <sup>superscript</sup> or <sub>subscript</sub>.MathML is
                     also allowed: <mml:math>
@@ -466,7 +466,7 @@ NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related 
                 </p>
                 <p>eLife does not structure abstracts into sub headings expect in a clinical trial article, but the abstract can have
                     multiple paragarahs. The sub DOI is always .001 as it is the first asset in any
-                    paper. I have added an unmatched > bracket as this has been an issue for PubMed deposits in the past.</p>
+                    article. I have added an unmatched > bracket as this has been an issue for PubMed deposits in the past.</p>
                 <p>If this was a clinical trial the clinical trial details would be listed at the end of the abstract:</p>
                 <p>Clinical trial Registration: EudraCT2004-000446-20.</p>
             </abstract>
@@ -477,7 +477,7 @@ NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related 
             <abstract abstract-type="executive-summary">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.002</object-id>
                 <title>eLife digest</title>
-                <p>eLife digest are now optional and not every research paper will contain one.
+                <p>eLife digest are now optional and not every research article will contain one.
                     These are layman abstracts, designed for non-specialists in this field to be
                     able to understand this article, as well as the general public.</p>
             </abstract>
@@ -510,7 +510,7 @@ leave the name in the XML as we feel it is better for TDM. We can add Schematron
 There is no limit to the number of award groups or on the number of authors assigned to each award group.
 Rules:
 One award-group per each unique award-id, although award-id is not required for each award-group.
-Minimum of one author per funding source. Maximum is the number of authors on the paper.
+Minimum of one author per funding source. Maximum is the number of authors on the article.
 Individual members of a group authorship should not be named in the funding section, only the group author itself as it appears in the main author list -->
             <funding-group>
                 <award-group id="fund1">
@@ -533,7 +533,7 @@ Impact statement:-->
             <custom-meta-group>
                 <custom-meta specific-use="meta-only">
                     <meta-name>Author impact statement</meta-name>
-                    <meta-value>How to tag an eLife paper using JATS XML.</meta-value>
+                    <meta-value>How to tag an eLife article using JATS XML.</meta-value>
                 </custom-meta>
             </custom-meta-group>
         </article-meta>
@@ -635,11 +635,11 @@ Impact statement:-->
                 author files to deliver to the online platform, Continuum.</p>
         <sec id="s1-2-2"> 
             <title>Publication of the full version (Version of record) (level 3 heading)</title>
-            <p>The production process includes an author proofing cycle, the output of which is the final full text version of the paper online, as well as a typeset PDF.</p>
+            <p>The production process includes an author proofing cycle, the output of which is the final full text version of the article online, as well as a typeset PDF.</p>
         </sec>
             <sec id="s1-2-3"> 
                 <title>Publication of versions (level 3 heading)</title>
-                <p>eLife allows the publication of updates to a paper after the full version has been produced. These are treated as new versions of the article. All previous
+                <p>eLife allows the publication of updates to an article after the full version has been produced. These are treated as new versions of the article. All previous
                 versions of the article will continue to exist online and will be accessible from the latest live version.</p>
             </sec>
             <sec id="s1-2-3-1"> 
@@ -1313,7 +1313,7 @@ Impact statement:-->
                         <xref ref-type="bibr" rid="bib47">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015c</xref>
                         ) where a generative model is described by nodes or circles, representing random variables (shaded and white circles refer to observed and non-observed variables respectively), 
                         and arrows, representing causal relationships among variables. A simple generative model hypothesized by BCV is shown in
-                        Figure 1A of another paper (not linked here), where C represents prior beliefs about the average reward expected in a given context. 
+                        Figure 1A of another article (not linked here), where C represents prior beliefs about the average reward expected in a given context. 
                         Formally, this corresponds to a (Gaussian) prior belief (with mean
                         <inline-formula>
                             <!-- no id required for inline formulae -->
@@ -1445,7 +1445,7 @@ Impact statement:-->
                 </sec>
                 <sec id="s2-4">
                     <title>Figures</title>
-                    <p>This section of the paper shows how figures should be presented and will 
+                    <p>This section of the article shows how figures should be presented and will 
                         include examples of single figures and figures arranged with a variety of additional assets.</p>
                     <p><xref ref-type="fig" rid="fig1">Figure 1</xref> is an example of a single figure.</p>
                         <!-- NOTE: the version suffix (e.g. "-v1" is applied by the eLife platform and does not need to be supplied in the XML from the production vendor
@@ -1650,7 +1650,7 @@ Impact statement:-->
                 <sec id="s2-6-6">
                     <title>References</title>
                     <p>All references have to be cited in the main text. They are listed in the reference list in alphabetical order, 
-                        however, in the text the citations do not have to be in the same order as they are listed according to when the author of the paper cites them. 
+                        however, in the text the citations do not have to be in the same order as they are listed according to when the author of the article cites them. 
                         This article is littered with citations to ensure all the references are cited at some point. They have no relevance to the content 
                         <xref ref-type="bibr" rid="bib1">Aivazian et al., 2006</xref>.</p>
                 </sec>
@@ -1723,13 +1723,13 @@ Group author contribution - do the same (i.e. add group author name and colon) b
             <fn-group content-type="ethics-information">
                 <title>Ethics</title>
                 <fn fn-type="other">
-                    <p>If this paper was part of a clinical trial the Clinical trial registry and ID would be listed here, for example:</p>
+                    <p>If this article was part of a clinical trial the Clinical trial registry and ID would be listed here, for example:</p>
                     <p>Clinical trial Registry: EudraCT.</p>
                     <p>Registration ID: EudraCT2004-000446-20.</p>
                 </fn>
                 <fn fn-type="other">
                     <p>
-                        Human subjects: If Research Ethics Committee and Institutional Review Board approval was required for this paper the details would be listed here.
+                        Human subjects: If Research Ethics Committee and Institutional Review Board approval was required for this article the details would be listed here.
                         Animal subjects: If there were animal subjects involved in the study the approval number for the research along with protocol approval would be listed here. 
                     </p>
                 </fn>
@@ -3553,7 +3553,7 @@ UPDATE: punctuation between institution and country removed. -->
                         A lightly edited version of the letter sent to the authors after peer review is shown, indicating the most substantive concerns;
                         minor comments are not usually included.</p>
                 </boxed-text>
-                <p>Thank you for submitting your article "The eLife research paper" for consideration by <italic>eLife</italic>. 
+                <p>Thank you for submitting your article "The eLife research article" for consideration by <italic>eLife</italic>. 
                     Your article has been reviewed by three peer reviewers, one of whom, Joe Bloggs, 
                     is a member of our editorial board and also oversaw the process as Senior editor. 
                     John Doe (peer reviewer) has agreed to reveal his identity.
