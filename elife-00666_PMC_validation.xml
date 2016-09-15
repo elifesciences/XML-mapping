@@ -321,7 +321,7 @@ Punctuation outside XML tags has been removed -->
 <!--UPDATE: Other footnotes - removed label (is a PDF display issue only)
 Other footnotes are rare (they have only been used 3 times in the history of eLife. The text of the footnote is transitioned directly to the website, so the content must work 
 as a discrete item on each author's roll over and on the display at the end of the article-->
-                <fn fn-type="other" id="fn1">
+                <fn fn-type="fn" id="fn1">
                     <p>This footnote text must work in isolation and nothing is processed on the html view to make it "work"</p>
                 </fn>
             </author-notes>
