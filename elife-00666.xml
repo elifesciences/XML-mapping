@@ -649,26 +649,17 @@ Impact statement:-->
         </sec>
         </sec>
         </sec>
-        <sec sec-type="materials|methods" id="s2">
-            <title>Materials and methods</title>
-            <p> eLife is tagged up as XML using the NISO standard JATS DTD. 
-                We conform to the JATS4R recommendations where possible and also deliver our content to PMC.
-                We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them.
-                eLife content is delivered to more repositories and it can be scraped from the eLife site (<xref ref-type="bibr" rid="bib17">
-                Gall et al., 2012</xref>; <xref ref-type="bibr" rid="bib22">Horne and Page, 2008</xref>; <xref ref-type="bibr" rid="bib27">
-                    McQuilton et al., 2012</xref>; <xref ref-type="bibr" rid="bib43">Staab et al., 2013</xref>).</p>
-        </sec>
-        <sec sec-type="results" id="s3">
+        <sec sec-type="results" id="s2">
             <title>Results</title>
             <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. However, the Introduction section was used to demostrate heading levels.</p>
-            <sec id="s3-1">
+            <sec id="s2-1">
                 <title>eLife controlled lists</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
                     See <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref> for the representation of the Major Subject Areas, Research
                     Organisms and author keywords on the eLife HTML page (<xref ref-type="bibr" rid="bib45">The <italic>Shigella</italic> Genome Sequencing Consortium,
                     2015a</xref>).
                 </p>
-                <sec id="s3-1-1">
+                <sec id="s2-1-1">
                     <title>Article types</title>
                     <p>This is an example of a list where the prefix character is a lowercase roman numeral. eLife Article Types are taken from a controlled list:</p>
                     <list list-type="roman-lower">
@@ -679,7 +670,7 @@ Impact statement:-->
                         <list-item><p>Registered Report</p></list-item>
                         <list-item><p>Replication Study</p></list-item>
                     </list>
-                    <sec id="s3-1-1-1">
+                    <sec id="s2-1-1-1">
                         <title>Article types (XML only, not display) (level 4 heading)</title>
                         <p>This is an example of a list where the prefix character is a uppercase roman numeral. This is a controlled list from the JATS DTD</p>
                         <list list-type="roman-upper">
@@ -766,7 +757,7 @@ Impact statement:-->
                         </list>
                     </sec>
                 </sec>
-                <sec id="s3-1-2">
+                <sec id="s2-1-2">
                     <title>Major Subject Areas</title>
                     <p>This is an example of a bulleted list. eLife Major subject areas are taken from a controlled list:</p>
                 <list list-type="bullet">
@@ -785,7 +776,7 @@ Impact statement:-->
                     <list-item><p>Neuroscience</p></list-item>
                     <list-item><p>Plant Biology</p></list-item>
                 </list>
-            <sec id="s3-1-4">
+            <sec id="s2-1-4">
                     <title>Research Organism</title>
                     <p>This is an example of an ordered list, the "system" will default to numbers. eLife Research organsims are taken from a controlled list from the submission system:</p>
                     <list list-type="order">
@@ -826,7 +817,7 @@ Impact statement:-->
             </sec>
                 </sec>
             </sec>
-                <sec id="s3-2">
+                <sec id="s2-2">
                     <title>Tables</title>
                     <!-- Table containing coloured text and cells crossing multiple rows. It is wide enough that it would appear in landscape orientation in the PDF file (Table 1)
                         UPDATE: Example of how to deal with spans in a citation. We cannot add the links to all the items and the HTML view will only link to the first one, so do 
@@ -1312,7 +1303,7 @@ Impact statement:-->
                         </table-wrap-foot>
                     </table-wrap>
                 </sec>
-                <sec id="s3-3">
+                <sec id="s2-3">
                     <title>Math</title>
                     <p>Content can contain inline formulae or display formulae. Below is an example of a mixture of inline and display formula. MathMl is used in all instances.</p>
                     <p>
@@ -1452,7 +1443,7 @@ Impact statement:-->
                         </disp-formula>
                     </p>
                 </sec>
-                <sec id="s3-4">
+                <sec id="s2-4">
                     <title>Figures</title>
                     <p>This section of the paper shows how figures should be presented and will 
                         include examples of single figures and figures arranged with a variety of additional assets.</p>
@@ -1569,7 +1560,7 @@ Impact statement:-->
                         </p>
                     </fig>
                 </sec>
-                <sec id="s3-5">
+                <sec id="s2-5">
                     <title>Videos</title>
                     <p><xref ref-type="other" rid="video1">Video 1</xref> shows the editorial process.</p>
                     <!-- UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
@@ -1584,9 +1575,9 @@ Impact statement:-->
                         </caption>
                     </media>
                 </sec>
-            <sec id="s3-6">
+            <sec id="s2-6">
                 <title>Other stuff</title>
-                <sec id="s3-6-1">
+                <sec id="s2-6-1">
                     <title>Boxes</title>
                     <p>It is rare for eLife research articles to contain boxes; however they are common in Feature content. <xref ref-type="other" rid="box1">Box 1</xref> 
                         is a simple box that contains very little text and <xref ref-type="other" rid="box2">Box 2</xref> is larger.</p>
@@ -1636,27 +1627,27 @@ Impact statement:-->
                                     2013</xref>; <xref ref-type="bibr" rid="bib39">Schrödinger, 2011</xref>; and <xref ref-type="bibr" rid="bib41">Scripps Translational Science Institute, 2015</xref>).</p>
                     </boxed-text>
                  </sec>
-                <sec id="s3-6-2">
+                <sec id="s2-6-2">
                     <title>RRIDs</title>
                 <p>If an author mentions an RRID in their content, it is required that we link it, for example, 
                     <ext-link ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:IMSR_JAX:004435">RRID:IMSR_JAX:004435</ext-link></p>
                 </sec>
-                <sec id="s3-6-3">
+                <sec id="s2-6-3">
                     <title>Coloured text</title>
                        <p>Here is an example of making text display in different colours:
                     <named-content content-type="author-callout-style1">red</named-content> and 
                     <named-content content-type="author-callout-style2">blue</named-content>.</p>
                 </sec>
-                <sec id="s3-6-4">
+                <sec id="s2-6-4">
                     <title>Inline graphics</title>
                     <p> Here is an example of pulling in an inline graphic <inline-graphic xlink:href="elife-00666-inf001-v1"/>.</p>
                 </sec>
-                <sec id="s3-6-5">
+                <sec id="s2-6-5">
                     <title>Additional files</title>
                     <p>All files attached to an article must be cited in the main text as well. So, <xref ref-type="supplementary-material" rid="SD3-data">Supplementary file 1</xref> 
                         and <xref ref-type="supplementary-material" rid="SD4-data">Source data 1</xref> have to be cited in the text.</p>
                 </sec>
-                <sec id="s3-6-6">
+                <sec id="s2-6-6">
                     <title>References</title>
                     <p>All references have to be cited in the main text. They are listed in the reference list in alphabetical order, 
                         however, in the text the citations do not have to be in the same order as they are listed according to when the author of the paper cites them. 
@@ -1665,7 +1656,7 @@ Impact statement:-->
                 </sec>
             </sec>
         </sec>
-        <sec sec-type="discussion" id="s4">
+        <sec sec-type="discussion" id="s3">
             <title>Discussion</title>
             <p>The function of the Discussion is to interpret your results in light of what was
                 already known about the subject of the investigation, and to explain our new
@@ -1676,6 +1667,15 @@ Impact statement:-->
                 from the place you left us at the end of the Introduction (<xref ref-type="bibr" rid="bib38">Schneider, 2006</xref>; <xref ref-type="bibr" rid="bib40">
                 Schwartz, 1993</xref>).</p>
             
+        </sec>
+        <sec sec-type="materials|methods" id="s4">
+            <title>Materials and methods</title>
+            <p> eLife is tagged up as XML using the NISO standard JATS DTD. 
+                We conform to the JATS4R recommendations where possible and also deliver our content to PMC.
+                We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them.
+                eLife content is delivered to more repositories and it can be scraped from the eLife site (<xref ref-type="bibr" rid="bib17">
+                    Gall et al., 2012</xref>; <xref ref-type="bibr" rid="bib22">Horne and Page, 2008</xref>; <xref ref-type="bibr" rid="bib27">
+                        McQuilton et al., 2012</xref>; <xref ref-type="bibr" rid="bib43">Staab et al., 2013</xref>).</p>
         </sec>
         <!-- HTML allows for 6 levels of heading. No more can be allowed -->
     </body>
