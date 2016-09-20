@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- eLife is updating to the most recent version of JATS, 1.1 -->
+<!-- UPDATE: eLife is updating to the most recent version of JATS, 1.1 -->
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd">
 <!-- eLife uses the JATS suggested @article-types from the given attribute list. This is the location where we match our content names to known terms, 
-we use subj-groups to indicate eLife-specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits
+we use subj-groups to indicate eLife-specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits.
 The @article-types currently used are:
 article-commentary - Insight
 correction - Correction
 discussion - Feature 1/Feature 2
 editorial - Editorial
-research-article - all research content (ie non-feature content) -->
+research-article - all research content (ie non-feature content) 
+UPDATE: xmlns:ali="http://www.niso.org/schemas/ali/1.0/" this name space is added in order to add the new license information (see permissions section)
+-->
 <article article-type="research-article" dtd-version="1.1" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
@@ -35,7 +37,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
 Research Article
 Short Report
 Tools and Resources
-Research Advance
+Research Advance - this article type MUST have related article tagging with an @related-article-type of "article-reference" and an xlink:href to the doi of the related article (e.g."10.7554/eLife.00109")
 Registered Report
 Replication Study -->
                 <subj-group subj-group-type="display-channel">
@@ -71,24 +73,20 @@ Plant Biology -->
                 <!-- Each contrib MUST have following attributes:
                     
 1) @contrib-type - "author".
-2) id="author-XXXXX" - this is the unique number assigned to an author via the submission system
-
+2) id="author-XXXXX" - this is the unique number assigned to an author via the submission system (this is output in the XML from the submission system.
 The contrib MAY have following attributes:
-
 1) equal-contrib="yes" - can only be used if an author contributed equally with another author and this attribute must be present on both their contribs.
 There is no limit on the number authors who can have equal contributions and there can be separate groups of equal contribution.
 This is linked to a footnote via an xref.
 UPDATE: The rid should be equal-contrib1, equal-contrib2 etc to indicate which equal contrib group each author is part of. Even if there is only one
-group, the number suffix is still required
+group, the number suffix is still required.
 2) deceased="yes" - only used if author is now dead.
 UPDATE: footnote in XML no longer exists for deceased tag. PDF requirement - generate footnote.
 3) corresp="yes" - only used if the author is a corresponding author. There can be more than one corresponding author and there is no limit to the number
 of corresponding authors. A corresponding author must have an email address.
-UPDATE: no footnote xref to footnote required
-
-PDF display: Corresponding author footnote on PDF always takes symbol *. Footnotes to affiliations follow the superscript numbering system (1,2,3 etc).
-All succeeding footnotes use the following symbols in order: †, ‡, §,#, ¶,**,††, ‡‡,§§,##,¶¶ -->
-                <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="author-00001">
+PDF display: Corresponding author footnote on PDF always takes symbol *(&#x2a;). Footnotes to affiliations follow the superscript numbering system (1,2,3 etc).
+All succeeding footnotes use the following symbols in order: † (&#x2020;), ‡ (&#x2021;), § (&#167;), # (&#035;), ¶ (&#182;),**,††, ‡‡,§§,## ,¶¶ -->
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="author-00001" deceased="yes">
                     <name>
                         <surname>Harrison</surname>
                         <given-names>Melissa</given-names>
@@ -106,8 +104,8 @@ brackets after each email address. See Kitchen sink PDF for example.-->
                     <email>m.harrison@elifesciences.org</email>
 <!-- Author affiliation(s) are linked to a contrib via the xref link to their "aff". Each affiliation has a unique id, aff1, aff2, aff3 etc.
 Authors can have one or multiple affiliations. There should be one aff per unique affiliation and these are shared between authors, not repeated.
-xref link requires display number (e.g. see below "1"). This is required for PMC-->
-                    <xref ref-type="aff" rid="aff1"/>
+xref link requires display number (e.g. see below "1"). This is required for PMC and PDF build-->
+                    <xref ref-type="aff" rid="aff1">1</xref>
 <!-- Authors who have funding declared on the article are linked to the relevant <award-group> via an xref link using the"fund" id. Each <award-group> id
 should have a unique number e.g. fund1, fund2 etc. Authors can have one or multiple award-groups and multiple authors can be associated with one
 award-group. There is no display text associated with this link
@@ -130,6 +128,7 @@ There is no display text associated with this link-->
 per author and multiple authors can share the same footnote. There is no display text associated with this link.
 Other footnotes are rare (they have only been used 3 times in the history of eLife) -->                   
                     <xref ref-type="fn" rid="fn1"/>
+                    <xref ref-type="fn" rid="fn2"/>
 <!-- Datasets are linked to a contrib using an xref with type "other" and the unique id for the dataset (dataro1, dataro2 etc). -->                        
                     <xref ref-type="other" rid="dataro1"/>
                     <xref ref-type="other" rid="dataro2"/>
@@ -139,7 +138,7 @@ Other footnotes are rare (they have only been used 3 times in the history of eLi
                         <surname>Gilbert</surname>
                         <given-names>James F</given-names>
                     </name>
-                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="other" rid="fund1"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="con2"/>
@@ -239,7 +238,7 @@ list is retained as per the XML order-->
                 </collab>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
-                    <xref ref-type="aff" rid="aff2"/>
+                    <xref ref-type="aff" rid="aff2">2</xref>
                     <xref ref-type="fn" rid="conf3"/>
                     <xref ref-type="fn" rid="con3"/>
                     <xref ref-type="fn" rid="equal-contrib2"/>
@@ -335,6 +334,10 @@ Other footnotes are rare (they have only been used 3 times in the history of eLi
 content must work as a discrete item on each author's roll over and on the display at the end of the article -->
                 <fn fn-type="fn" id="fn1">
                     <p>This footnote text must work in isolation as nothing is processed on the html view to make it "work"</p>
+                </fn>
+                <fn fn-type="fn" id="fn2">
+                    <label></label>
+                    <p>Deceased. (not really!!)</p>
                 </fn>
             </author-notes>
 <!-- CHANGE: pub-date will still continue to keep the PoA pub date in the XML but it will also include the updated date that the VoR is published. The first time 
@@ -1481,9 +1484,10 @@ Impact statement:-->
                         <object-id pub-id-type="doi">10.7554/eLife.00666.008</object-id>
                         <label>Figure 2.</label>
                         <caption>
-                            <title>Figure with figure supplements.</title> This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1
+                            <title>Figure with figure supplements.</title> 
+                            <p>This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1
                             </xref> shows an expanded view (<xref ref-type="bibr" rid="bib26">Kok et al., 2015</xref>; <xref ref-type="bibr" rid="bib28">National Institute of Mental 
-                            Health, 1990</xref>).
+                                Health, 1990</xref>).</p>
                         </caption>
                             <graphic xlink:href="elife-00666-fig2-v1.tiff"/>
                     </fig>
