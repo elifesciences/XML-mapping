@@ -43,6 +43,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
 <title-group>
 <article-title>Selecting against accidental RNA interactions</article-title>
 </title-group>
+    <!-- contrib group tagging now to mirror research content exactly, with the exception of new bio section-->
 <contrib-group>
 <contrib contrib-type="author" corresp="yes" id="author-65580">
 <name>
@@ -52,7 +53,9 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4485-5663</contrib-id>
 <xref ref-type="aff" rid="aff1"/>
 <xref ref-type="fn" rid="conf1"/>
-    <bio><p>Meredith Corley is in the Department of Biology, University of North Carolina, Chapel Hill, United States</p></bio>
+    <!-- bio has been added so the features team have a location to place the textual description of the author, role, affiliation and any thing else. 
+        This will require a new filed in Kriya for them to edit-->
+    <bio><p>Meredith Corley is in the Department of Biology, University of North Carolina, Chapel Hill, United States. She also likes knitting and has a dog.</p></bio>
 </contrib>
 <contrib contrib-type="author" corresp="yes" id="author-54862">
 <name>
@@ -62,7 +65,9 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
 <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5088-9907</contrib-id>
 <xref ref-type="aff" rid="aff2"/>
 <xref ref-type="fn" rid="conf1"/>
-    <bio><p>Alain Laderach is in the Department of Biology, University of North Carolina, Chapel Hill, United States</p></bio>
+    <!-- bio has been added so the features team have a location to place the textual description of the author, role, affiliation and any thing else. 
+        This will require a new filed in Kriya for them to edit-->
+    <bio><p>Alain Laderach is in the Department of Biology, University of North Carolina, Chapel Hill, United States. He's chair of something very important</p></bio>
 </contrib>
 <aff id="aff1">
 <institution content-type="dept">Department of Biology</institution>
@@ -142,14 +147,17 @@ Random base-pairing interactions between messenger RNAs and noncoding RNAs can r
 </article-meta>
 </front>
 <body>
+    <!-- The key info box at the top of the article is contained within a boxed-text. There is no longer an image placed within the box. 
+        This is an "unstructured" link to the research article this insight is linked to. It must contain the text: <bold>Related research article</bold> followed by author names, year and title
+        in format shown below.
+        <italic>eLife</italic>
+<bold>Volume number</bold>:elocation ID. doi:<ext-link ext-link-type="uri" xlink:href="Full DOI including https">DOI string from 10.7554</ext-link> -->    
 <boxed-text>
 <p>
 <bold>Related research article</bold>
 Umu SU, Poole AM, Dobson RCJ, Gardner PP. 2016. Avoidance of stochastic RNA interactions can be harnessed to control protein expression levels in bacteria and archaea.
 <italic>eLife</italic>
-<bold>5</bold>
-:e13479. doi:
-<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.7554/eLife.13479">10.7554/eLife.13479</ext-link>
+<bold>5</bold>:e13479. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.7554/eLife.13479">10.7554/eLife.13479</ext-link>
 </p>
 </boxed-text>
 <p>
