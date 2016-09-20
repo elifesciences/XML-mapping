@@ -66,7 +66,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
 <xref ref-type="aff" rid="aff2"/>
 <xref ref-type="fn" rid="conf1"/>
     <!-- bio has been added so the features team have a location to place the textual description of the author, role, affiliation and any thing else. 
-        This will require a new filed in Kriya for them to edit-->
+        This will require a new filed in Kriya for them to edit. All <x> tags and punctiation outside the tags has been removed-->
     <bio><p>Alain Laderach is in the Department of Biology, University of North Carolina, Chapel Hill, United States. He's chair of something very important</p></bio>
 </contrib>
 <aff id="aff1">
