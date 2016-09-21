@@ -127,7 +127,7 @@ Other footnotes are rare (they have only been used 3 times in the history of eLi
 <!-- Authors who have funding declared on the article are linked to the relevant <award-group> via an xref link using the"fund" id. Each <award-group> id
 should have a unique number e.g. fund1, fund2 etc. Authors can have one or multiple award-groups and multiple authors can be associated with one
 award-group. There is no display text associated with this link
-UPDATE: ID value changed from par to fund and hyphen removed to be consistent with other IDs. All ids have a number value only if 1 exist in the article. -->
+UPDATE: ID value changed from par to fund and hyphen removed to be consistent with other IDs. All ids have a number value even if only 1 exist in the article. -->
                     <xref ref-type="other" rid="fund1"/>
 <!-- Author competing interests statement is linked to a contrib via the footnote with attribute fn-type="conflict" and the corresponding id (conf1, conf2 etc).
 Only one is allowed per author. If the author has no competing interest, this footnote can be shared with other authors.
@@ -136,7 +136,8 @@ Where a competing interest is listed, this must be unique to the author. There i
 <!-- Author contributions are linked to a contrib via the footnote with attribute fn-type="con" and the corresponding id (con1, con2 etc). Only one is allowed per 
 author. There is no display text associated with this link-->
                     <xref ref-type="fn" rid="con1"/>
-<!-- Datasets are linked to a contrib using an xref with type "other" and the unique id for the dataset (dataro1, dataro2 etc). -->                        
+<!-- Datasets are linked to a contrib using an xref with type "other" and the unique id for the dataset (dataset1, dataset2 etc).
+ UPDATE: ID value changed from dataro to dataset. All ids have a number value even if only 1 exist in the article.                   -->                        
                     <xref ref-type="other" rid="dataset1"/>
                     <xref ref-type="other" rid="dataset2"/>
                 </contrib>
@@ -150,8 +151,7 @@ author. There is no display text associated with this link-->
                     <xref ref-type="other" rid="fund1"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="con2"/>
-                    
-                </contrib>
+                 </contrib>
 <!-- UPDATE: group authors. If the individuals of the group are listed, they now will be listed as a contrib-group and contributors within collab.
 They are no longer separated from their group name in tagging and linked by author key. Multiple group authors are allowed and their position in the author
 list is retained as per the XML order-->
@@ -286,11 +286,14 @@ affiliations are truncated compared to normal author affiliations (usually just 
             </collab>
             </contrib>
 <!-- 'on behalf of' can be used in any position of the author list. It must be retained in the correct position in the author list. 
-Most of the time it is the last entry, but this is not a requirement -->
+Most of the time it is the last entry, but this is not a requirement.
+Note: if the display requires on behalf of, this is required in the textaul entry. This is because it might be "for" instead of "on-behalf of" and the html display 
+cannot make that distinction by reading the textual entry-->
                 <on-behalf-of>for the eLife Staff Team</on-behalf-of>
 <!-- Affiliations are granular and a department field must contain only one department. For example, two departments at one institution (see below) generate two 
-separate affiliations UPDATE: Punctuation outside of XML tags has been removed as it is not necessary. Commas between department, institution, city and country will
-need to be boilerplate for the PDF display <label> is required for display on PMC-->
+separate affiliations 
+UPDATE: Punctuation outside of XML tags has been removed as it is not necessary. Commas between department, institution, city and country will
+need to be boilerplate for the PDF display-->
                 <aff id="aff1">
                     <label>1</label>
                     <institution content-type="dept">Department of Production</institution>
@@ -325,7 +328,13 @@ UPDATE: As above, punctuation outside XML tags has been removed -->
                 </contrib>
             </contrib-group>
             <author-notes>
-<!-- UPDATE: Correspondence - removed "For correspondence" from author-notes -->
+<!-- UPDATE: Correspondence - removed from author-notes
+For PDF display footnote "*For correspondence: " must be added as boilerplate followed by the email address pulled in from the XML.If there are multiple 
+corresponding authors, the email addresses must be added in order of the author list, separated with semicolons. Author initials should to be added in 
+brackets after each email address. See Kitchen sink PDF for example.
+UPDATE: email for corresponding author is contained within contrib and no longer in author notes.
+-->
+<!--Equal contributions footnote-->               
                  <fn fn-type="con" id="equal-contrib1">
                      <label>&#x2020;</label>
                     <p>These authors contributed equally to this work</p>
@@ -334,21 +343,21 @@ UPDATE: As above, punctuation outside XML tags has been removed -->
                     <label>&#x2021;</label>
                     <p>These authors also contributed equally to this work</p>
                 </fn>
-<!--UPDATE: Present address - removed label (this is a PDF display issue only)-->
+<!--Present address s footnote-->
                 <fn fn-type="present-address" id="pa1">
                     <label>&#167;</label>
                     <p>Department of Wellcome Trust, Sanger Institute, London, United Kingdom</p>
                 </fn>
-<!-- UPDATE: Other footnotes - removed label (is a PDF display issue only)
+<!-- Other footnotes Deceased
 Other footnotes are rare (they have only been used 3 times in the history of eLife. The text of the footnote is transitioned directly to the website, so the 
 content must work as a discrete item on each author's roll over and on the display at the end of the article -->
                 <fn fn-type="fn" id="fn1">
                     <label>&#035;</label>
-                    <p>This footnote text must work in isolation as nothing is processed on the html view to make it "work"</p>
+                    <p>Deceased. (not really!!)</p>
                 </fn>
                 <fn fn-type="fn" id="fn2">
                     <label>&#182;</label>
-                    <p>Deceased. (not really!!)</p>
+                    <p>This footnote text must work in isolation as nothing is processed on the html view to make it "work"</p>
                 </fn>
             </author-notes>
 <!-- CHANGE: pub-date will still continue to keep the PoA pub date in the XML but it will also include the updated date that the VoR is published. The first time 
@@ -364,25 +373,23 @@ into pub-date with a @date-type attribute of "Update" -->
                 <month>04</month>
                 <year>2016</year>
              </pub-date>
-<!-- UPDATE: Added pub-type collection in order for Continuum to process as VoR, but plan to remove before eLife 2.0 -->
+<!-- TO NOTE: pub-type collection required for Continuum to process content as VoR-->
             <pub-date pub-type="collection">
                 <year>2016</year>
             </pub-date>
             <volume>5</volume>
             <elocation-id>e00666</elocation-id>
-<!-- CHANGE: All the historical publication information related to an article will be added to the history, with iso-8601-date attributes. Additionally, the links to the
-previous published versions will be added, as well as a comment to indicate the changes. This will not be necessary between PoA and VoR, but will be necessary between
-versions of PoA and versions of VoRs. The date will have an iso-8601-date= attribute added.
-
+<!-- CHANGE: All the historical publication information related to an article will be added to the history, with iso-8601-date attributes. 
+Additionally, the links to the previous published versions will be added, as well as a comment to indicate the changes. This comment will not be 
+necessary between PoA and VoR, but will be necessary between versions PoA and versions of VoR. The date will have an iso-8601-date= attribute added.
 @date-type values:
 preprint - The date a preprint was disseminated (electronic or print)
-AM-pub -  The date a manuscript, was published
-EAM-pub - The date a manuscript, was enhanced and re-published
-VoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was published
-CVoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was corrected (an official correction notice has been published to accompany this article)
-EVoR-pub - The date a version of record, typically a full text XML, HTML and typeset PDF, was enhanced and re-published (this article has been updated and republished, with no official correction notice)
+AM -  The date a manuscript, was published
+EAM - The date a manuscript, was enhanced and re-published
+VoR - The date a version of record, typically a full text XML, HTML and typeset PDF, was published
+CVoR - The date a version of record, typically a full text XML, HTML and typeset PDF, was corrected (an official correction notice has been published to accompany this article)
+EVoR - The date a version of record, typically a full text XML, HTML and typeset PDF, was enhanced and re-published (this article has been updated and republished, with no official correction notice)
 retracted - The date an article was retracted
-
 If an article goes through one of these processes more than once, the value should contain a suffix of “-r1”, i.e. an additional VoR enhancement would be EVor-pub-r1
 NOT IN PMC YET, will need to discuss with them when we want to implement
 -->
@@ -398,14 +405,14 @@ NOT IN PMC YET, will need to discuss with them when we want to implement
                     <year>2016</year>
                 </date>
                 <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v1">
-                    <date date-type="AM-pub" iso-8601-date="2016-04-25">
+                    <date date-type="AM" iso-8601-date="2016-04-25">
                     <day>25</day>
                     <month>04</month>
                     <year>2016</year>
                 </date>
                 </related-object>
                 <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v2">
-                    <date date-type="EAM-pub" iso-8601-date="2016-06-12">
+                    <date date-type="EAM" iso-8601-date="2016-06-12">
                     <day>12</day>
                     <month>06</month>
                     <year>2016</year>
@@ -414,7 +421,7 @@ NOT IN PMC YET, will need to discuss with them when we want to implement
                              These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.</comment>
                 </related-object>
                 <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v3">
-                <date date-type="VoR-pub" iso-8601-date="2016-06-12">
+                <date date-type="VoR" iso-8601-date="2016-06-12">
                     <day>27</day>
                     <month>07</month>
                     <year>2016</year>
@@ -441,14 +448,13 @@ NOT IN PMC YET, will need to discuss with them when we want to implement
             </permissions>
             <self-uri content-type="pdf" xlink:href="elife00666.pdf"/>
 <!-- Related article linking: Optional.
-                
 Set of accepted @related-article-type values:
 Research to Research (or Feature to Feature): <related-article related-article-type="article-reference" ext-link-type="doi" xlink:href="10.7554/eLife.01295" id="ra1"/>
 Research to Insight: <related-article related-article-type="commentary" ext-link-type="doi" xlink:href="10.7554/eLife.01738" id="ra1"/>
 Insight to Research: <related-article related-article-type="commentary-article" ext-link-type="doi" xlink:href="10.7554/eLife.01236" id="ra1"/>
 Correction to Research: <related-article related-article-type="corrected-article" ext-link-type="doi" xlink:href="10.7554/eLife.00712" id="ra1"/>
-
-NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related article links are allowed; each should have a different id e.g. ra1, ra1, ra3 etc. -->
+NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related article links are allowed; each should have a different id e.g. ra1, ra1, ra3 etc. 
+In discussion with PMC re this -->
             <related-article ext-link-type="doi" related-article-type="commentary" xlink:href="10.7554/eLife.00013"/>
             <!-- UPDATE: Abstract: The following is no longer required for the XML file:
                    <bold>DOI:</bold>
@@ -636,7 +642,7 @@ Impact statement:-->
                 should ensure they have all the materials and information necessary to expedite the
                 submission and assessment of their work (<xref ref-type="bibr" rid="bib15">Eisen, 2016</xref>; 
                 <xref ref-type="bibr" rid="bib16">Ferry et al., 2014</xref>; <xref ref-type="bibr" rid="bib18">Gavrilov et al., 2014</xref>; 
-                    <xref ref-type="bibr" rid="bib20">Goodstadt, 2010</xref>; <xref ref-type="bibr" rid="bib21">Hoang et al., 2015</xref>).</p>
+                <xref ref-type="bibr" rid="bib20">Goodstadt, 2010</xref>; <xref ref-type="bibr" rid="bib21">Hoang et al., 2015</xref>).</p>
         </sec>
         </sec>
         <sec id="s1-2"> 
@@ -836,8 +842,8 @@ Impact statement:-->
                     <!-- Table containing coloured text and cells crossing multiple rows. It is wide enough that it would appear in landscape orientation in the PDF file (Table 1)
                         UPDATE: Example of how to deal with spans in a citation. We cannot add the links to all the items and the HTML view will only link to the first one, so do 
                         not add all rids to the xref as it does not work. Only add the first one -->
-                    <p>This section is an example of different tables, there are four in total(<xref ref-type="table" rid="tbl1">Tables 1 to 3</xref> and an unnamed inline table.</p>
-                        <table-wrap id="tbl1" position="float">
+                    <p>This section is an example of different tables, there are four in total(<xref ref-type="table" rid="table1">Tables 1 to 3</xref> and an unnamed inline table.</p>
+                        <table-wrap id="table1" position="float">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.003</object-id>
                             <label>Table 1.</label>
                             <caption>
@@ -1020,11 +1026,11 @@ Impact statement:-->
                             </table>
                         </table-wrap>
                     <!-- -->
-                    <p><xref ref-type="table" rid="tbl2">Table 2</xref> is an example of a standard table that will be the width of the text column in the PDF. It does not contain
+                    <p><xref ref-type="table" rid="table2">Table 2</xref> is an example of a standard table that will be the width of the text column in the PDF. It does not contain
                         any unusual styling. It does have footnotes linked to content in the table using the prescribed symbols.</p>
                     <!-- Table 2 contains footnotes that have been connected to the main body of the table with hyperlinked symbols. This hyperlinking using xref tags is not currently 
                         being added but should be added going forward -->
-                    <table-wrap id="tbl2" position="float">
+                    <table-wrap id="table2" position="float">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.004</object-id>
                         <label>Table 2.</label>
                         <caption>
@@ -1034,9 +1040,9 @@ Impact statement:-->
                             <thead>
                                 <tr>
                                     <th rowspan="2">Protein</th>
-                                    <th rowspan="2">Molar ratio of lipid:protein in RPL reactions<xref ref-type="table-fn" rid="tblfn1">*</xref></th>
+                                    <th rowspan="2">Molar ratio of lipid:protein in RPL reactions<xref ref-type="table-fn" rid="tablefn1">*</xref></th>
                                     <th colspan="2">Molar ratio of lipid:protein on vacuoles</th>
-                                    <th rowspan="2">References<xref ref-type="table-fn" rid="tblfn2">†</xref></th>
+                                    <th rowspan="2">References<xref ref-type="table-fn" rid="tablefn2">†</xref></th>
                                 </tr>
                                 <tr>
                                     <th>BJ3505</th>
@@ -1105,18 +1111,18 @@ Impact statement:-->
                         <table-wrap-foot>
                             <!-- table-wrap-foot should contain any footnotes for the table. It should NOT be used for the table caption. Each footnote should 
                                 have an identifying lable (exception: inline tables, see below) -->
-                            <fn id="tblfn1"><label>*</label>
+                            <fn id="tablefn1"><label>*</label>
                                 <p>Footnotes can be used to highlight properties of data reported in a table such as statistical significance. They are separate from
                                     the table caption and appear afterwards. They are hyperlinked to allow easy navigation. Footnotes in tables use the same standard
                                     set of symbols used for authors footnotes.</p>
                             </fn>
-                            <fn id="tblfn2"><label>†</label>
+                            <fn id="tablefn2"><label>†</label>
                                 <p>Authors are fully allowed to cite references and figures in tables. There is no difference in citation style between the main text and tables.</p>
                             </fn>
                         </table-wrap-foot>
                     </table-wrap>
-                    <p><xref ref-type="table" rid="tbl3">Table 3</xref> is an example of a narrow table that will appear at half the text column width in the PDF. It also has source data.</p>
-                    <table-wrap id="tbl3" position="float">
+                    <p><xref ref-type="table" rid="table3">Table 3</xref> is an example of a narrow table that will appear at half the text column width in the PDF. It also has source data.</p>
+                    <table-wrap id="table3" position="float">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.005</object-id>
                         <label>Table 3.</label>
                         <caption><p></p>
@@ -1217,8 +1223,8 @@ Impact statement:-->
                         </table>
                     </table-wrap>
                     <p>The following unnamed table is an example of an inline table that has no heading.</p>
-                    <!-- Anchored tables are "inline" tables and do not have a DOI. Their IDs have the prefix 'tblu' rather than 'tbl' -->
-                    <table-wrap id="tblu1" position="anchor">
+                    <!-- Anchored tables are "inline" tables and do not have a DOI. Their IDs have the prefix 'inline-' rather than just 'table' -->
+                    <table-wrap id="inline-table1" position="anchor">
                         <table frame="hsides" rules="groups">
                             <thead>
                                 <tr>
@@ -3495,7 +3501,7 @@ Appendices must have DOIs -->
                             </title>
                         </caption>
                     </media>
-                        <table-wrap id="app-tbl1" position="float">
+                        <table-wrap id="app-table1" position="float">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.028</object-id>
                             <label>Apendix 2—Table 1.</label>
                             <caption>
@@ -3604,7 +3610,7 @@ UPDATE: punctuation between institution and country removed. -->
                     </caption>
                     <graphic xlink:href="elife-00666-resp-fig-1.tiff"/>
                 </fig>
-            <table-wrap id="resp-tbl1" position="float">
+            <table-wrap id="resp-table1" position="float">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.032</object-id>
                 <label>Author response Table 1.</label>
                 <caption>
