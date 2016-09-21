@@ -127,7 +127,7 @@ Other footnotes are rare (they have only been used 3 times in the history of eLi
 <!-- Authors who have funding declared on the article are linked to the relevant <award-group> via an xref link using the"fund" id. Each <award-group> id
 should have a unique number e.g. fund1, fund2 etc. Authors can have one or multiple award-groups and multiple authors can be associated with one
 award-group. There is no display text associated with this link
-UPDATE: ID value changed from par to fund and hyphen removed to be consistent with other IDs. All ids have a number value even if only 1 exist in the article. -->
+UPDATE: ID value changed from par to fund and hyphen removed to be consistent with other IDs. All ids have a number value suffix even if only 1 exist in the article, e.g. fund1, fund2. -->
                     <xref ref-type="other" rid="fund1"/>
 <!-- Author competing interests statement is linked to a contrib via the footnote with attribute fn-type="conflict" and the corresponding id (conf1, conf2 etc).
 Only one is allowed per author. If the author has no competing interest, this footnote can be shared with other authors.
@@ -154,7 +154,7 @@ author. There is no display text associated with this link-->
                  </contrib>
 <!-- UPDATE: group authors. If the individuals of the group are listed, they now will be listed as a contrib-group and contributors within collab.
 They are no longer separated from their group name in tagging and linked by author key. Multiple group authors are allowed and their position in the author
-list is retained as per the XML order-->
+list displayed in the PDF is retained as per the XML order-->
                 <contrib contrib-type="author">
                     <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
                     <collab>eLife Editorial Production Group
@@ -839,9 +839,10 @@ Impact statement:-->
             </sec>
                 <sec id="s2-2">
                     <title>Tables</title>
-                    <!-- Table containing coloured text and cells crossing multiple rows. It is wide enough that it would appear in landscape orientation in the PDF file (Table 1)
-                        UPDATE: Example of how to deal with spans in a citation. We cannot add the links to all the items and the HTML view will only link to the first one, so do 
-                        not add all rids to the xref as it does not work. Only add the first one -->
+<!-- Update: Table ids have been changed from tbl to table
+Table containing coloured text and cells crossing multiple rows. It is wide enough that it would appear in landscape orientation in the PDF file (Table 1)
+UPDATE: Example of how to deal with spans in a citation. We cannot add the links to all the items and the HTML view will only link to the first one, so do 
+not add all rids to the xref as it does not work. Only add the first one -->
                     <p>This section is an example of different tables, there are four in total(<xref ref-type="table" rid="table1">Tables 1 to 3</xref> and an unnamed inline table.</p>
                         <table-wrap id="table1" position="float">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.003</object-id>
