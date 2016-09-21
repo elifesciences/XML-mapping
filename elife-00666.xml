@@ -38,8 +38,8 @@ Research Article
 Short Report
 Tools and Resources
 Research Advance - this article type MUST have related article tagging with an @related-article-type of "article-reference" and an xlink:href to the doi of the related article (e.g."10.7554/eLife.00109")
-Registered Report
-Replication Study -->
+Registered Report - there will be a different kitchen sink for this article type to indicate how to link to the paper it is being built upon
+Replication Study - there will be a different kitchen sink for this article type to indicate how to link to the paper it is being built upon -->
                 <subj-group subj-group-type="display-channel">
                     <subject>Research Article</subject>
                 </subj-group>
@@ -70,8 +70,7 @@ Plant Biology -->
                 <article-title>The eLife research article</article-title>
             </title-group>
             <contrib-group>
-                <!-- Each contrib MUST have following attributes:
-                    
+<!-- Each contrib MUST have following attributes:
 1) @contrib-type - "author".
 2) id="author-XXXXX" - this is the unique number assigned to an author via the submission system (this is output in the XML from the submission system.
 The contrib MAY have following attributes:
@@ -81,10 +80,10 @@ This is linked to a footnote via an xref.
 UPDATE: The rid should be equal-contrib1, equal-contrib2 etc to indicate which equal contrib group each author is part of. Even if there is only one
 group, the number suffix is still required.
 2) deceased="yes" - only used if author is now dead.
-UPDATE: footnote in XML no longer exists for deceased tag. PDF requirement - generate footnote.
 3) corresp="yes" - only used if the author is a corresponding author. There can be more than one corresponding author and there is no limit to the number
-of corresponding authors. A corresponding author must have an email address.
-PDF display: Corresponding author footnote on PDF always takes symbol *(&#x2a;). Footnotes to affiliations follow the superscript numbering system (1,2,3 etc).
+of corresponding authors. A corresponding author must have an email address contained within their contrib.
+PDF display: Corresponding author footnote on PDF always takes symbol *(&#x2a;). 
+Footnotes to affiliations follow the superscript numbering system (1,2,3 etc).
 All succeeding footnotes use the following symbols in order: † (&#x2020;), ‡ (&#x2021;), § (&#167;), # (&#035;), ¶ (&#182;),**,††, ‡‡,§§,## ,¶¶ -->
                 <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="author-00001" deceased="yes">
                     <name>
@@ -95,17 +94,36 @@ All succeeding footnotes use the following symbols in order: † (&#x2020;), ‡
 <!-- Corresponding author (correspondent for peer review process) must have an ORCID; all other authors are encouraged but not required to have one. 
 NOTE: There can be multiple corresponding authors and they may not all have an ORCID as only one will be the primary correspondent for peer review. The
 primary corresponding author will be indicated as the corresponding author for the proofing process in the output XML from the submission system, but 
-this distinction will not retained in the final XML. -->
+this distinction will not be retained in the final XML. -->
                     <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3523-4408</contrib-id>
 <!-- UPDATE: email for corresponding author is contained within contrib and no longer in author notes.
 For PDF display footnote "*For correspondence: " must be added as boilerplate followed by the email address pulled in from the XML.If there are multiple 
 corresponding authors, the email addresses must be added in order of the author list, separated with semicolons. Author initials should to be added in 
 brackets after each email address. See Kitchen sink PDF for example.-->                    
                     <email>m.harrison@elifesciences.org</email>
-<!-- Author affiliation(s) are linked to a contrib via the xref link to their "aff". Each affiliation has a unique id, aff1, aff2, aff3 etc.
+<!-- xref links within contrib should be in the following order, which also reflects the order of the footnote symbols:
+presence of an email address indicates for correspondence *
+Affiliations - take numbered footnotes
+Following are optional but in this order:
+Equal contributions - first set, second set etc
+Present address - 1st, 2nd, etc
+Deceased
+Other footnotes-->                    
+<!-- Author affiliation(s) are linked to a contrib via the xref link to their "aff". Each affiliation has a unique id, aff1, aff2, aff3 etc, which corresponds
+to the number used in the label
 Authors can have one or multiple affiliations. There should be one aff per unique affiliation and these are shared between authors, not repeated.
 xref link requires display number (e.g. see below "1"). This is required for PMC and PDF build-->
                     <xref ref-type="aff" rid="aff1">1</xref>
+<!-- Equal contributions are linked to a contrib via the footnote with attribute fn-type="fn" and the corresponding id (equal-contrib1, equal-contrib2 etc).-->                   
+                    <xref ref-type="fn" rid="equal-contrib1">&#x2020;</xref>
+                    <!-- Present addresses are linked to a contrib via the footnote with attribute fn-type="present-address" and the corresponding id (pa1, pa2 etc). There is no limit
+on the number of present addresses allowed per author and multiple authors can share a single present address.-->
+                    <xref ref-type="fn" rid="pa1">&#167;</xref>
+                    <!-- Other footnotes are linked to a contrib via the footnote with attribute fn-type="fn" and the corresponding id (fn1, fn2 etc). No limit on the number allowed 
+per author and multiple authors can share the same footnote. There is no display text associated with this link.
+Other footnotes are rare (they have only been used 3 times in the history of eLife) -->                   
+                    <xref ref-type="fn" rid="fn1">&#035;</xref>
+                    <xref ref-type="fn" rid="fn2">&#182;</xref>
 <!-- Authors who have funding declared on the article are linked to the relevant <award-group> via an xref link using the"fund" id. Each <award-group> id
 should have a unique number e.g. fund1, fund2 etc. Authors can have one or multiple award-groups and multiple authors can be associated with one
 award-group. There is no display text associated with this link
@@ -113,25 +131,14 @@ UPDATE: ID value changed from par to fund and hyphen removed to be consistent wi
                     <xref ref-type="other" rid="fund1"/>
 <!-- Author competing interests statement is linked to a contrib via the footnote with attribute fn-type="conflict" and the corresponding id (conf1, conf2 etc).
 Only one is allowed per author. If the author has no competing interest, this footnote can be shared with other authors.
-Where a competing interest is listed, this must be unique to the author. There is no display text associated with this link -->
+Where a competing interest is listed, this must be unique to the author. There is no display text associated with this link within contrib -->
                     <xref ref-type="fn" rid="conf1"/>
 <!-- Author contributions are linked to a contrib via the footnote with attribute fn-type="con" and the corresponding id (con1, con2 etc). Only one is allowed per 
 author. There is no display text associated with this link-->
                     <xref ref-type="fn" rid="con1"/>
-<!-- Present addresses are linked to a contrib via the footnote with attribute fn-type="present-address" and the corresponding id (pa1, pa2 etc). There is no limit
-on the number of present addresses allowed per author and multiple authors can share a single present address. There is no display text associated with this link-->
-                    <xref ref-type="fn" rid="pa1"/>
-<!-- Equal contributions are linked to a contrib via the footnote with attribute fn-type="fn" and the corresponding id (equal-contrib1, equal-contrib2 etc).
-There is no display text associated with this link-->                   
-                    <xref ref-type="fn" rid="equal-contrib1"/>
-<!-- Other footnotes are linked to a contrib via the footnote with attribute fn-type="fn" and the corresponding id (fn1, fn2 etc). No limit on the number allowed 
-per author and multiple authors can share the same footnote. There is no display text associated with this link.
-Other footnotes are rare (they have only been used 3 times in the history of eLife) -->                   
-                    <xref ref-type="fn" rid="fn1"/>
-                    <xref ref-type="fn" rid="fn2"/>
 <!-- Datasets are linked to a contrib using an xref with type "other" and the unique id for the dataset (dataro1, dataro2 etc). -->                        
-                    <xref ref-type="other" rid="dataro1"/>
-                    <xref ref-type="other" rid="dataro2"/>
+                    <xref ref-type="other" rid="dataset1"/>
+                    <xref ref-type="other" rid="dataset2"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" id="author-00002">
                     <name>
@@ -139,16 +146,17 @@ Other footnotes are rare (they have only been used 3 times in the history of eLi
                         <given-names>James F</given-names>
                     </name>
                     <xref ref-type="aff" rid="aff1">1</xref>
+                    <xref ref-type="fn" rid="equal-contrib1">&#x2020;</xref>
                     <xref ref-type="other" rid="fund1"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="con2"/>
-                    <xref ref-type="fn" rid="equal-contrib1"/>
+                    
                 </contrib>
 <!-- UPDATE: group authors. If the individuals of the group are listed, they now will be listed as a contrib-group and contributors within collab.
 They are no longer separated from their group name in tagging and linked by author key. Multiple group authors are allowed and their position in the author
 list is retained as per the XML order-->
                 <contrib contrib-type="author">
-                    <xref ref-type="fn" rid="equal-contrib2"/>
+                    <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
                     <collab>eLife Editorial Production Group
                         <contrib-group>
 <!-- UPDATE: use of role in group authors. If a group author is subdivided into sections or sub-groups, this is indicated using the role tag-->                           
@@ -239,9 +247,9 @@ list is retained as per the XML order-->
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
                     <xref ref-type="aff" rid="aff2">2</xref>
+                    <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
                     <xref ref-type="fn" rid="conf3"/>
                     <xref ref-type="fn" rid="con3"/>
-                    <xref ref-type="fn" rid="equal-contrib2"/>
                     <collab>eLife Technology Group
                     <contrib-group>
                         <contrib>
@@ -318,25 +326,28 @@ UPDATE: As above, punctuation outside XML tags has been removed -->
             </contrib-group>
             <author-notes>
 <!-- UPDATE: Correspondence - removed "For correspondence" from author-notes -->
-<!-- UPDATE: Equal contributions - removed labels (symbols) -->                
-               <fn fn-type="con" id="equal-contrib1">
+                 <fn fn-type="con" id="equal-contrib1">
+                     <label>&#x2020;</label>
                     <p>These authors contributed equally to this work</p>
                 </fn>
                 <fn fn-type="con" id="equal-contrib2">
+                    <label>&#x2021;</label>
                     <p>These authors also contributed equally to this work</p>
                 </fn>
 <!--UPDATE: Present address - removed label (this is a PDF display issue only)-->
                 <fn fn-type="present-address" id="pa1">
+                    <label>&#167;</label>
                     <p>Department of Wellcome Trust, Sanger Institute, London, United Kingdom</p>
                 </fn>
 <!-- UPDATE: Other footnotes - removed label (is a PDF display issue only)
 Other footnotes are rare (they have only been used 3 times in the history of eLife. The text of the footnote is transitioned directly to the website, so the 
 content must work as a discrete item on each author's roll over and on the display at the end of the article -->
                 <fn fn-type="fn" id="fn1">
+                    <label>&#035;</label>
                     <p>This footnote text must work in isolation as nothing is processed on the html view to make it "work"</p>
                 </fn>
                 <fn fn-type="fn" id="fn2">
-                    <label></label>
+                    <label>&#182;</label>
                     <p>Deceased. (not really!!)</p>
                 </fn>
             </author-notes>
@@ -1709,9 +1720,10 @@ For the PDF rules are as follows:
 <!-- UPDATE: Contributions: There is one contribution per author and they are listed sequentially (ie author 1 must have con1, etc).
 Text string, no name is prefaced. No full stop at end.
 UPDATE: PDF add full author name followed by colon then insert contribution. List contributions in author order, one line per author. 
-Group author contribution - do the same (i.e. add group author name and colon) but note that the text string may contain individual names and further punctuation-->
+Group author contribution - do the same (i.e. add group author name and colon) but note that the text string may contain individual names and further punctuation,
+but these should be present in the textual entry (see below)-->
             <fn-group content-type="author-contribution">
-<!-- UPDATE: <title>Author contributions</title> removed. Is required for PDF representation only -->
+                <title>Author contributions</title>
                 <fn fn-type="con" id="con1">
                     <p>Completed the XML mapping exercise and wrote this XML example</p>
                 </fn>
@@ -1788,7 +1800,7 @@ The tagging of the collaborator name again within this section is required for P
                 <p>
                     <related-object content-type="generated-dataset"
                         source-id="https://github.com/elifesciences/XML-mapping/blob/master/elife-00666.xml"
-                        source-id-type="uri" id="dataro1">
+                        source-id-type="uri" id="dataset1">
 <!--UPDATE: Add @collab-type="author" attribute. Change order of author name to first initial then surname-->  
                         <collab collab-type="author">M Harrison</collab>
 <!--UPDATE: Remove all punctuation that was prevously surrounding the tags--> 
@@ -1803,7 +1815,7 @@ The tagging of the collaborator name again within this section is required for P
                 <p>The following previously published dataset was used:</p>
                 <p>
                     <related-object content-type="existing-dataset" source-id="https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml" 
-                        source-id-type="uri" id="dataro2"> 
+                        source-id-type="uri" id="dataset2"> 
                         <collab collab-type="author">M Harrison</collab> 
                         <year>2012</year>
                         <source>elife-vendor-workflow-config</source>
