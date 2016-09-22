@@ -7,7 +7,7 @@
 
 Brackets represent optional components. Pipe represents a choice on component, depending on state in the publishing system.
 
-Every file type must have the file type suffix (e.g. .tiff), for exmaple:
+Every file type must have the file type suffix (e.g. .tiff), for example:
 
 elife-00666-fig1.tiff
 
@@ -33,16 +33,16 @@ This refers to an asset file related to an article:
 - inline graphics (inf)
 
 
-Decision letter and author response are at the level of assets but do not require a number and are not seperate files.
+Decision letter and author response are at the level of assets but are not seperate files and do not require a number suffix in the name and are not seperate files.
 - decision letter (dec)
 - author response (resp)
 
-Appendices, Tables and boxes are at the level of assets but are not seperate files.
+Appendices, tables and boxes are at the level of assets but are not seperate files.
 - appendix (app)
 - table (table)
 - Box (box)
 
-All assets could have any sub assets.
+All assets could have any sub assets and some sub assets can have further assets (see examples below).
 
 
 ###### `<a-id>`
