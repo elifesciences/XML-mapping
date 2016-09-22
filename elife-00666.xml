@@ -1465,6 +1465,10 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     </p>
                 </sec>
                 <sec id="s2-4">
+                    <!-- UPDATE:mime-types
+                        Please use the mime-types acording to this list going forward: http://www.iana.org/assignments/media-types/media-types.xhtml
+                    There should be a validation process during production and if the file does not match one of these it should be zipped up for final delivery.
+                    If this list and terminology is not used it will fail Crossref submission-->
                     <title>Figures</title>
                     <p>This section of the article shows how figures should be presented and will 
                         include examples of single figures and figures arranged with a variety of additional assets.</p>
@@ -1480,7 +1484,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                 <title>Single figure: The header of an eLife article example on the HTML page.</title>
                             </caption>
                             <!--  NOTE: file type must be included in the file description. -->
-                            <graphic xlink:href="elife-00666-fig1-v1.tiff"/>
+                            <graphic mime-type="image/tiff" xlink:href="elife-00666-fig1-v1.tiff"/>
                             <!-- Assets within eLife might not always be published under a CC BY license although we endevour to do so. This is an example of how to add a
                                 separate permission statement so it is clear to the human and machine reader that this asset cannot be reused. -->
                             <permissions>
@@ -1507,7 +1511,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             </xref> shows an expanded view (<xref ref-type="bibr" rid="bib26">Kok et al., 2015</xref>; <xref ref-type="bibr" rid="bib28">National Institute of Mental 
                                 Health, 1990</xref>).</p>
                         </caption>
-                            <graphic xlink:href="elife-00666-fig2-v1.tiff"/>
+                            <graphic mime-type="image/tiff" xlink:href="elife-00666-fig2-v1.tiff"/>
                     </fig>
                         <fig id="fig2s1" position="float" specific-use="child-fig">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.009</object-id>
@@ -1515,7 +1519,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <caption>
                                 <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page</title>
                             </caption>
-                            <graphic xlink:href="elife-00666-fig2-figsupp1-v1.tiff"/>
+                            <graphic mime-type="image/tiff" xlink:href="elife-00666-fig2-figsupp1-v1.tiff"/>
                         </fig>
                         <fig id="fig2s2" position="float" specific-use="child-fig">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.010</object-id>
@@ -1523,7 +1527,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <caption>
                                 <title>Representation of figure with figure supplements on the HTML view.</title>
                             </caption>
-                            <graphic xlink:href="elife-00666-fig2-figsupp2-v1.tiff"/>
+                            <graphic mime-type="image/tiff" xlink:href="elife-00666-fig2-figsupp2-v1.tiff"/>
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
@@ -1538,7 +1542,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <caption>
                                 <title>Figure with figure supplements and figure supplement with source data and a video (see <xref ref-type="bibr" rid="bib25">Koch, 1959</xref>) .</title>
                             </caption>
-                            <graphic xlink:href="elife-00666-fig3-v1.tiff"/>
+                            <graphic mime-type="image/tiff" xlink:href="elife-00666-fig3-v1.tiff"/>
                         </fig>
                         <fig id="fig3s1" position="float" specific-use="child-fig">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.012</object-id>
