@@ -79,6 +79,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <xref ref-type="fn" rid="conf1"/>
                     <!-- bio has been added so the features team have a location to place the textual description of the author, role, affiliation and any thing else. 
         This will require a new filed in Kriya for them to edit. All <x> tags and punctiation outside the tags has been removed-->
+<<<<<<< HEAD
                     <bio>
                         <p>Alain Laderach is in the Departments of Biology and Chemistry, University
                             of North Carolina, Chapel Hill, United States. He's chair of something
@@ -167,6 +168,91 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
         <!-- The key info box at the top of the article is contained within a boxed-text. There is no longer an image placed within the box. 
         This is an "unstructured" link to the research article this insight is linked to. It must contain the text: <bold>Related research article</bold> followed by author names,
         year and title in format shown below.
+=======
+    <bio><p>Alain Laderach is in the Department of Biology, University of North Carolina, Chapel Hill, United States. He is chair of something very important</p></bio>
+</contrib>
+<aff id="aff1">
+<institution content-type="dept">Department of Biology</institution>
+<institution>University of North Carolina</institution>
+<addr-line>
+<named-content content-type="city">Chapel Hill</named-content>
+</addr-line>
+<country>United States</country>
+<email>mcorley@email.unc.edu</email>
+</aff>
+<aff id="aff2">
+<institution content-type="dept">Department of Biology</institution>
+<institution>University of North Carolina</institution>
+<addr-line>
+<named-content content-type="city">Chapel Hill</named-content>
+</addr-line>
+<country>United States</country>
+<email>alain@unc.edu</email>
+</aff>
+</contrib-group>
+<pub-date date-type="pub" publication-format="electronic">
+<day>20</day>
+<month>09</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>5</volume>
+<elocation-id>e20686</elocation-id>
+<history>
+<date date-type="received">
+<day>07</day>
+<month>09</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>07</day>
+<month>09</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>© 2016, Corley et al</copyright-statement>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Corley et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>
+This article is distributed under the terms of the
+<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>
+, which permits unrestricted use and redistribution provided that the original author and source are credited.
+</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="elife-20686-v1.pdf"/>
+<related-article ext-link-type="doi" id="ra1" related-article-type="commentary-article" xlink:href="10.7554/eLife.13479"/>
+<abstract>
+<p>
+Random base-pairing interactions between messenger RNAs and noncoding RNAs can reduce translation efficiency.
+</p>
+</abstract>
+<kwd-group kwd-group-type="author-keywords">
+<title>Author Keywords</title>
+<kwd>ncRNA</kwd>
+<kwd>Archaea</kwd>
+<kwd>Bacteria</kwd>
+<kwd>gene expression</kwd>
+<kwd>bioinformatics</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="research-organism">
+<title>Research Organism</title>
+<kwd>
+<italic>E. coli</italic>
+</kwd>
+<kwd>Other</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+    <!-- The key info box at the top of the article is contained within a boxed-text. There is no longer an image placed within the box. 
+        This is an "unstructured" link to the research article this insight is linked to. It must contain the text: <bold>Related research article</bold> followed by author names, year and title
+        in format shown below.
+>>>>>>> Editorial
         <italic>eLife</italic>
 <bold>Volume number</bold>:elocation ID. doi:<ext-link ext-link-type="uri" xlink:href="Full DOI including https">DOI string from 10.7554</ext-link> -->
         <boxed-text>
