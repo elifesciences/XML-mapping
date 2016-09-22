@@ -430,7 +430,7 @@ NOT IN PMC YET, will need to discuss with them when we want to implement
                              These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.</comment>
                 </related-object>
                 </history>
-            <!-- UPDATE: Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
+<!-- UPDATE: Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
             <permissions>
                 <copyright-statement>&#x00A9; 2016, Harrison et al</copyright-statement>
                 <copyright-year>2016</copyright-year>
@@ -457,9 +457,9 @@ NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related 
 In discussion with PMC re this 
 NOTE: research advance MUST contain <related-article related-article-type="article-reference" link to the original article it is building upon-->
             <related-article ext-link-type="doi" related-article-type="commentary" xlink:href="10.7554/eLife.00013"/>
-            <!-- UPDATE: Abstract: The following is no longer required for the XML file:
-                   <bold>DOI:</bold>
-				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">http://dx.doi.org/10.7554/eLife.00666.001</ext-link> -->
+<!-- UPDATE: Abstract: The following is no longer required for the XML file:
+<bold>DOI:</bold>
+<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">http://dx.doi.org/10.7554/eLife.00666.001</ext-link> -->
             <abstract>
                 <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
                 <p>This is the abstract. This article will describe the eLife article and the process.
@@ -491,10 +491,10 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
                 <p>If this was a clinical trial the clinical trial details would be listed at the end of the abstract:</p>
                 <p>Clinical trial Registration: EudraCT2004-000446-20.</p>
             </abstract>
-            <!-- UPDATE: Digest: The following is no longer required for the XML file:
-                   <bold>DOI:</bold>
-				   <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.002">http://dx.doi.org/10.7554/eLife.00666.002</ext-link>
-               Additionally, digest are no longer a required component of all Research Articles and Short Reports. All research content can now be published with no digest -->
+<!-- UPDATE: Digest: The following is no longer required for the XML file:
+<bold>DOI:</bold>
+<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.002">http://dx.doi.org/10.7554/eLife.00666.002</ext-link>
+Additionally, digest are no longer a required component of all Research Articles and Short Reports. All research content can now be published with no digest -->
             <abstract abstract-type="executive-summary">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.002</object-id>
                 <title>eLife digest</title>
@@ -502,8 +502,8 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
                     These are layman abstracts, designed for non-specialists in this field to be
                     able to understand this article, as well as the general public.</p>
             </abstract>
-            <!-- UDPATE: Author keywords: removed title from XML - is implicit in the @kwd-group-type
-               Can contain italics, but no bold or other formatting-->
+<!-- UDPATE: Author keywords: removed title from XML - is implicit in the @kwd-group-type
+Can contain italics, but no bold or other formatting-->
             <kwd-group kwd-group-type="author-keywords">
                 <kwd>XML</kwd>
                 <kwd>Housestyle</kwd>
@@ -512,16 +512,16 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
                     <italic>formatting</italic>
                 </kwd>
             </kwd-group>
-            <!-- UPDATE: Research organism: removed title from XML - is implicit in the @kwd-group-type
-               Can contain italics, but no bold or other formatting
-            When a species and genus appears, abbreviate the genus followed by full stop, space species, eg: D. melanogaster (all italics)
-            Genus on it's own should also be italicised
-            Capitalise names (now proper nouns), eg Frog, Mouse, Maize
-            Specifics
-            Replace fruit fly with D. melanogaster
-            Volux is a genus – therefore it should be italic
-            S. enterica serovar Typhi (ie capital T)
-            yellow baboon (Papio cynocephalus) should be replaced with P. cynocephalus -->
+<!-- UPDATE: Research organism: removed title from XML - is implicit in the @kwd-group-type
+Can contain italics, but no bold or other formatting
+When a species and genus appears, abbreviate the genus followed by full stop, space species, eg: D. melanogaster (all italics)
+Genus on it's own should also be italicised
+Capitalise names (now proper nouns), eg Frog, Mouse, Maize
+Specifics
+Replace fruit fly with D. melanogaster
+Volux is a genus – therefore it should be italic
+S. enterica serovar Typhi (ie capital T)
+yellow baboon (Papio cynocephalus) should be replaced with P. cynocephalus -->
             <kwd-group kwd-group-type="research-organism">
                 <kwd>Human</kwd>
                 <kwd>Machine</kwd>
@@ -560,7 +560,7 @@ Impact statement:-->
         </article-meta>
     </front>
     <body>
-        <!--
+<!--
             The headings used by eLife are standardised at the top level and sec is used, with a sec-type. 
             An A heading can be identified by the ID not having a further subdivision, for example S1 is the first section heading. 
             If there are B headings in this section they will have a sec id of S1-1 etc
@@ -586,7 +586,7 @@ Impact statement:-->
             For research advances: Authors have more flexibility with structure and sections can be combined, although the Materials and methods section
             is mandatory.
             To allow for the flexibility, a title is also appeneded to each section
-        -->
+-->
         <sec sec-type="intro" id="s1">
             <title>Introduction (Level 1 heading)</title>
             <p>This article is a guide to the tagging and display of eLife articles and will
