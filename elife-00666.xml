@@ -454,7 +454,8 @@ Research to Insight: <related-article related-article-type="commentary" ext-link
 Insight to Research: <related-article related-article-type="commentary-article" ext-link-type="doi" xlink:href="10.7554/eLife.01236" id="ra1"/>
 Correction to Research: <related-article related-article-type="corrected-article" ext-link-type="doi" xlink:href="10.7554/eLife.00712" id="ra1"/>
 NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related article links are allowed; each should have a different id e.g. ra1, ra1, ra3 etc. 
-In discussion with PMC re this -->
+In discussion with PMC re this 
+NOTE: research advance MUST contain <related-article related-article-type="article-reference" link to the original article it is building upon-->
             <related-article ext-link-type="doi" related-article-type="commentary" xlink:href="10.7554/eLife.00013"/>
             <!-- UPDATE: Abstract: The following is no longer required for the XML file:
                    <bold>DOI:</bold>
@@ -1561,7 +1562,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     </supplementary-material>
                                 </p>
                             </caption>
-                            <graphic xlink:href="elife-00666-fig3-figsupp1-v1.tiff"/>
+                            <graphic mime-type="image/tiff" xlink:href="elife-00666-fig3-figsupp1-v1.tiff"/>
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig4">Figure 4</xref> is an example of a figure with source code (<xref ref-type="supplementary-material" rid="SD2-data">Figure 4—Source code 1</xref>).</p>
@@ -1572,7 +1573,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <caption>
                             <title>Single figure with source code.</title>
                         </caption>
-                        <graphic xlink:href="elife-00666-fig4-v1.tiff"/>
+                        <graphic mime-type="image/tiff" xlink:href="elife-00666-fig4-v1.tiff"/>
                         <p>
                             <supplementary-material id="SD2-data">
                                 <object-id pub-id-type="doi">10.7554/eLife.00666.015</object-id>
@@ -1660,13 +1661,15 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 </sec>
                 <sec id="s2-6-3">
                     <title>Coloured text</title>
+                    <!-- UPDATE: 3 coloured text options now allowed and these are the specific requirements -->
                        <p>Here is an example of making text display in different colours:
-                    <named-content content-type="author-callout-style1">red</named-content> and 
-                    <named-content content-type="author-callout-style2">blue</named-content>.</p>
+                           <named-content content-type="author-callout-style-a1">Blue text: #366BFB</named-content>; 
+                           <named-content content-type="author-callout-style-a2">Purple text: #9C27B0</named-content>; and 
+                           <named-content content-type="author-callout-style-a3">Red text: #D50000</named-content>.</p>
                 </sec>
                 <sec id="s2-6-4">
                     <title>Inline graphics</title>
-                    <p> Here is an example of pulling in an inline graphic <inline-graphic xlink:href="elife-00666-inf001-v1"/>.</p>
+                    <p> Here is an example of pulling in an inline graphic <inline-graphic mime-type="image/tiff" xlink:href="elife-00666-inf001-v1"/>.</p>
                 </sec>
                 <sec id="s2-6-5">
                     <title>Additional files</title>
