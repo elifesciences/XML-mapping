@@ -59,20 +59,16 @@ article with three figures will have the following asset files:
 Some assets will have sub-assets, eg figure supplements (figsupp), source data (data), or source code (code). These are indicated by the sub-asset component. For example:
 
 - elife-00666-fig1-figsupp1.tiff
+- elife-00666-fig1-code1.xml
+- elife-00666-app1-fig1.tiff
 
 ###### `<sa-id>`
 
-Some assets have sub-asset ids, for example, an article with three main figures, where one
-figure has three figure supplements, and one figure has two figure supplements will have the following:
+Some sub-assets have further sub-asset ids, For example:
 
-- elife-00666-fig1.tiff
-- elife-00666-fig1-figsupp1.tiff
-- elife-00666-fig1-figsupp2.tiff
-- elife-00666-fig1-figsupp3.tiff
-- elife-00666-fig2.tiff
-- elife-00666-fig3.tiff
-- elife-00666-fig3-figsupp1.tiff
-- elife-00666-fig3-figsupp2.tiff
+- elife-00666-fig1-figsupp1-code1.xml
+- elife-00666-fig3-figsupp1-video1
+- elife-00666-app1-fig1-figsupp1-code1.xml
 
 ###### data
 
@@ -103,7 +99,6 @@ elife-00666-fig2-code1-v1.rtf
 For example source code to figure 2-Figure Supplement 3 will be called:
 
 elife-00666-fig3-figsupp1-code1.rtf
-
 
 ###### inline graphics
 Inline graphics are used to represent symbols that cannot come from the font palet but are required to represent something, for example in a figure.
