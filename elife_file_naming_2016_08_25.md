@@ -212,6 +212,10 @@ id="video1"
 xref ref-type="table"
 id="table"
 
+#####Inline tables
+xref ref-type="inlinetable"
+id="inlinetable"
+
 #####Boxes
 xref ref-type="box"
 id="box1"
@@ -235,6 +239,24 @@ id="sd1"
 
 #####Equations
 Equations are not assets, but they do have ids that have a style.
+
+#####Other Xref link ids
+aff1 - aff followed by seqential number. Designates the affiliation address
+equal-contrib1 - equal-contrib followed by seqential number. Designates any equal contributions, if there is more than 1 set of equal contributions then the second set take the number 2 etc
+
+pa1 - if there is a present address for an author it takes this id
+fn1 - if there are any other footnotes for authors, they take this id. This can be used for deceased but also for random other comments
+fund1 - link to funding
+conf1 - link to conflict (cometing interests) statement
+con1 - link to authors contribution
+dataset1 - link to a datasert listed in the dataset section, which the author was author of
+bib1 - link to reference in reference list
+
+#####Section IDs
+Every level 1 section has a sec-type attribute and and id s1 etc
+
+Sub sections cary IDs only and follow a numerical ordering, using is dashnumber suffix, eg section 1 has a lavel 2 section: s1-1
+section 2, level 3 heading number 1: s2-1-1
 
 ## DOIs
 All "assets" have sub-DOIs, with the exception of equations.
