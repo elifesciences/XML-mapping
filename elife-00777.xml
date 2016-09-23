@@ -155,7 +155,6 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 <kwd>bioinformatics</kwd>
             </kwd-group>
             <kwd-group kwd-group-type="research-organism">
-                <title>Research Organism</title>
                 <kwd>
                     <italic>E. coli</italic>
                 </kwd>
