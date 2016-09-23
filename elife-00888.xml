@@ -230,7 +230,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 <p>The editors and reviewers at eLife work with authors to publish papers that make
                     other researchers think differently about their subject.</p>
             </caption>
-            <graphic mimetype="tiff" xlink:href="elife-00888-fig1-v1"/>
+            <graphic mimetype="image" mim-subtype="tiff" xlink:href="elife-00888-fig1.tiff"/>
             <!-- Attribution for image containing URL to author's website -->
             <attrib>Illustration <ext-link ext-link-type="uri"
                     xlink:href="http://www.claudiastocker.com/"
