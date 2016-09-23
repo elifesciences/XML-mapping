@@ -1574,7 +1574,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                         </caption>
 <!-- this is an example of an asset asked later on, so the DOI is the last DOI to prevent renumbering the others -->
                                         <media mimetype="media" mime-subtype="mp4" id="fig3sdata1video1" xlink:href="elife-00666-media1.mp4">
-                                            <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
+                                            <object-id pub-id-type="doi">10.7554/eLife.00666.035</object-id>
                                             <label>Figure 3—figure supplement 1—Video 1.</label>
                                             <caption>
                                                 <title>
