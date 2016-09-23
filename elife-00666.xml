@@ -455,9 +455,9 @@ Insight to Research: <related-article related-article-type="commentary-article" 
 Correction to Research: <related-article related-article-type="corrected-article" ext-link-type="doi" xlink:href="10.7554/eLife.00712" id="ra1"/>
 NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related article links are allowed; each should have a different id e.g. ra1, ra1, ra3 etc. 
 In discussion with PMC re this 
-NOTE: research advance MUST contain <related-article related-article-type="article-reference" link to the original article it is building upon-->
-            <related-article ext-link-type="doi" related-article-type="commentary" xlink:href="10.7554/eLife.00013"/>
-<!-- UPDATE: Abstract: The following is no longer required for the XML file:
+NOTE: research advance MUST contain <related-article related-article-type="article-reference" link to the original article it is building upon
+-->
+<!-- UPDATE: Abstract: The following is no longer required for the XML file: 
 <bold>DOI:</bold>
 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">http://dx.doi.org/10.7554/eLife.00666.001</ext-link> -->
             <abstract>
@@ -672,7 +672,9 @@ Impact statement:-->
         </sec>
         <sec sec-type="results" id="s2">
             <title>Results</title>
-            <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. However, the Introduction section was used to demostrate heading levels.</p>
+<!-- UPDATE: where appendices are cited in the main text they must be cross linked -->
+            <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. However, the Introduction section was used to demostrate heading levels. 
+                See <xref ref-type="appendix" rid="s8">Appendix 1</xref> and <xref ref-type="appendix" rid="s9">2</xref>.</p>
             <sec id="s2-1">
                 <title>eLife controlled lists</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
@@ -1129,13 +1131,13 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <label>Table 3.</label>
                         <caption><p></p>
                             <!-- The following paragraph contains the caption and file call-out for this table's source data file -->
-                            <p><supplementary-material id="SD7-data">
+                            <p><supplementary-material id="table3sdata1">
                                 <object-id pub-id-type="doi">10.7554/eLife.00666.005</object-id>
                                 <label>Table 3—source data 1.</label>
                                 <caption><title>Representative curves of steady-state kinetic analyses for each IGF1R protein characterized.</title>
                                     <p>Each data point was performed in duplicate and is shown separately.</p>
                                 </caption>
-                                <media mime-subtype="" mimetype="application" xlink:href=""/>
+                                <media mime-subtype="" mimetype="application" xlink:href="elife-00666-table3-data1-v1.xlsx"/>
                             </supplementary-material>
                             </p>
                         </caption>
@@ -1226,7 +1228,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     </table-wrap>
                     <p>The following unnamed table is an example of an inline table that has no heading.</p>
                     <!-- Anchored tables are "inline" tables and do not have a DOI. Their IDs have the prefix 'inline-' rather than just 'table' -->
-                    <table-wrap id="inline-table1" position="anchor">
+                    <table-wrap id="inlinetable1" position="anchor">
                         <table frame="hsides" rules="groups">
                             <thead>
                                 <tr>
@@ -1329,7 +1331,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     <title>Math</title>
                     <p>Content can contain inline formulae or display formulae. Below is an example of a mixture of inline and display formula. MathMl is used in all instances.</p>
                     <p>
-                        We propose a Bayesian scheme for BCV that accommodates the influence of context on incentive value. BCV focuses on scenarios (i) where incentive value depends 
+                        We propose a Bayesian scheme for BCV (see <xref ref-type="disp-formula" rid="equ1">equation 1</xref>)that accommodates the influence of context on incentive value. BCV focuses on scenarios (i) where incentive value depends 
                         on contextual information (either represented by cues or by previous rewards) provided before options or rewards are presented, and (ii) where reward is defined 
                         by a single attribute (e.g., reward amount). To describe the basic principles of BCV, we adopt the formalism of Bayesian graphs (
                         <xref ref-type="bibr" rid="bib47">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015c</xref>
@@ -1532,7 +1534,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
-                        with a sub-asset, <xref ref-type="supplementary-material" rid="SD1-data">Figure 3—figure supplement 1—Source data 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhong et al., 
+                        with a sub-asset, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—Source data 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhong et al., 
                             2013</xref>; <xref ref-type="bibr" rid="bib51">World Health Organization, 2016</xref>  .</p>
                     <!-- UPDATE: new method of modelling supplementary material for a figure
                     A figure or a sub figure can have any assets - e.g. data, code, videos -->
@@ -1551,7 +1553,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <caption>
                                 <title>Title of the figure supplement</title>
                                 <p>
-                                    <supplementary-material id="SD1-data">
+                                    <supplementary-material id="fig3sdata1">
                                         <object-id pub-id-type="doi">10.7554/eLife.00666.013</object-id>
                                         <label>Figure 3—figure supplement 1—Source data 1.</label>
                                         <caption>
@@ -1565,7 +1567,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <graphic mime-type="image/tiff" xlink:href="elife-00666-fig3-figsupp1-v1.tiff"/>
                         </fig>
                     </fig-group>
-                    <p><xref ref-type="fig" rid="fig4">Figure 4</xref> is an example of a figure with source code (<xref ref-type="supplementary-material" rid="SD2-data">Figure 4—Source code 1</xref>).</p>
+                    <p><xref ref-type="fig" rid="fig4">Figure 4</xref> is an example of a figure with source code (<xref ref-type="supplementary-material" rid="fig4scode1">Figure 4—Source code 1</xref>).</p>
                     <!-- UPDATE: this is changed tagging. -->
                     <fig id="fig4" position="float">
                         <object-id pub-id-type="doi">10.7554/eLife.13222.014</object-id>
@@ -1575,7 +1577,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         </caption>
                         <graphic mime-type="image/tiff" xlink:href="elife-00666-fig4-v1.tiff"/>
                         <p>
-                            <supplementary-material id="SD2-data">
+                            <supplementary-material id="fig4scode1">
                                 <object-id pub-id-type="doi">10.7554/eLife.00666.015</object-id>
                                 <label>Figure 4—Source code 1.</label>
                                 <caption>
@@ -1626,13 +1628,22 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <caption>
                             <p>Example of a large box</p>
                         </caption>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus lorem. Suspendisse posuere non enim vel tempor. Fusce quis sem sed nulla tincidunt faucibus. 
+                        <p>This box containbs a <xref ref-type="fig" rid="box1fig1">figure</xref>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus lorem. Suspendisse posuere non enim vel tempor. Fusce quis sem sed nulla tincidunt faucibus. 
                             Vivamus dictum magna in ante porttitor faucibus. Aenean lobortis, sem in viverra dignissim, odio purus vestibulum libero, in eleifend lacus metus id tortor. Phasellus tincidunt
                             ipsum ut ornare hendrerit. Praesent lobortis consectetur egestas. Curabitur viverra lectus eu venenatis sagittis. Aliquam lobortis metus mauris, in tincidunt diam ullamcorper ac.
                             Phasellus sagittis, leo eget lacinia commodo, eros justo mattis eros, quis dapibus ipsum ex sit amet sapien. Quisque consequat arcu ut efficitur tincidunt. Ut convallis, 
                             ex maximus aliquam tempor, lorem elit fermentum ipsum, nec volutpat velit sem a lectus. Morbi sed mauris vel purus interdum consectetur dapibus vel velit. Nam pellentesque, 
                             ipsum vel euismod mattis, turpis augue mattis nunc, ac aliquam dolor massa non mi. Vestibulum sit amet elit a augue semper facilisis interdum quis nibh. Mauris consectetur 
-                            nisi aliquam urna lobortis, eu efficitur nisl lobortis; <xref ref-type="bibr" rid="bib2">Bates et al., 2016</xref> and <xref ref-type="bibr" rid="bib32">Patterson et al., 2011</xref></p>
+                            nisi aliquam urna lobortis, eu efficitur nisl lobortis; <xref ref-type="bibr" rid="bib2">Bates et al., 2016</xref> and <xref ref-type="bibr" rid="bib32">Patterson et al., 2011</xref>.</p>
+                        <fig id="box1fig1" position="float">
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
+                            <label>Box 2—Figure 1.</label>
+                            <caption>
+                                <title>Box figure</title>
+                            </caption>
+                            <!--  NOTE: file type must be included in the file description. -->
+                            <graphic mime-type="image/tiff" xlink:href="elife-00666-box1-fig1.tiff"/>
+                            </fig>
                         <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
                             turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
                             Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. Vestibulum ultrices vehicula nibh, a ullamcorper dui semper suscipit. Etiam in sem augue.</p>
@@ -1673,8 +1684,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 </sec>
                 <sec id="s2-6-5">
                     <title>Additional files</title>
-                    <p>All files attached to an article must be cited in the main text as well. So, <xref ref-type="supplementary-material" rid="SD3-data">Supplementary file 1</xref> 
-                        and <xref ref-type="supplementary-material" rid="SD4-data">Source data 1</xref> have to be cited in the text.</p>
+                    <p>All files attached to an article must be cited in the main text as well. So, <xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref> 
+                        and <xref ref-type="supplementary-material" rid="sdata1">Source data 1</xref> have to be cited in the text.</p>
                 </sec>
                 <sec id="s2-6-6">
                     <title>References</title>
@@ -1771,7 +1782,7 @@ UPDATE: The following is removed. Not required for HTML representation, is requi
 <bold>DOI:</bold><ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.XXX">http://dx.doi.org/10.7554/eLife.00666.XXX"</ext-link>
 NOTE: if source data or source code are not attached to an individual figure, they are listed in this section.
 All supplementary files are listed here -->             
-            <supplementary-material id="SD3-data">   
+            <supplementary-material id="supp1">   
             <object-id pub-id-type="doi">10.7554/eLife.00666.019</object-id>
                 <label>Supplementary file 1.</label>
                 <caption>
@@ -1780,7 +1791,7 @@ All supplementary files are listed here -->
                     </caption>
                 <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
             </supplementary-material>
-            <supplementary-material id="SD4-data">   
+            <supplementary-material id="sdata1">   
                 <object-id pub-id-type="doi">10.7554/eLife.00666.020</object-id>
                 <label>Source data 1</label>
                 <caption>
@@ -1788,7 +1799,7 @@ All supplementary files are listed here -->
                 </caption>
                 <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
             </supplementary-material>
-            <supplementary-material id="SD5-data">   
+            <supplementary-material id="scode1">   
                 <object-id pub-id-type="doi">10.7554/eLife.00666.021</object-id>
                 <label>Source code 1</label>
                 <caption>
@@ -1796,7 +1807,7 @@ All supplementary files are listed here -->
                 </caption>
                 <media mime-subtype="xlsx" mimetype="application" xlink:href="elife00666sXXX.xlsx"/>
             </supplementary-material>
-            <supplementary-material id="SD6-data">
+            <supplementary-material id="repstand1">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.022</object-id>
                 <label>Reporting Standard 1.</label>
                 <caption>
@@ -3458,11 +3469,11 @@ The tagging of the collaborator name again within this section is required for P
 Appendices must have DOIs -->                     
                     <boxed-text>
                         <object-id pub-id-type="doi">10.7554/eLife.00666.023</object-id>
-                    <p>In order to prepare for this Kitchen sink we reviewed our archive and found common errors or miscommunication from the archive, tagging of <xref ref-type="fig" rid="app1-fig1">Appendix 1—Figure 
-                        1</xref> is a classic example and here the tagging is updated. Appendices figures can also have figure supplements, for example <xref ref-type="fig" rid="app1-fig1s1">Appendix 1—Figure 
+                    <p>In order to prepare for this Kitchen sink we reviewed our archive and found common errors or miscommunication from the archive, tagging of <xref ref-type="fig" rid="app1fig1">Appendix 1—Figure 
+                        1</xref> is a classic example and here the tagging is updated. Appendices figures can also have figure supplements, for example <xref ref-type="fig" rid="app1fig1s1">Appendix 1—Figure 
                             1—Figure Supplement 1</xref> (<xref ref-type="bibr" rid="bib25">Koch, 1589</xref>).</p>
                     <fig-group>
-                        <fig id="app1-fig1" position="float">
+                        <fig id="app1fig1" position="float">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.024</object-id>
                     <label>Appendix 1—Figure 1.</label>
                     <caption>
@@ -3472,7 +3483,7 @@ Appendices must have DOIs -->
                     </caption>
                         <graphic xlink:href="elife-00666-app1-fig1-v2.tiff"/>
                     </fig>
-                        <fig id="app1-fig1s1" position="float" specific-use="child-fig"><object-id pub-id-type="doi">10.7554/eLife.00666.025</object-id>
+                        <fig id="app1fig1s1" position="float" specific-use="child-fig"><object-id pub-id-type="doi">10.7554/eLife.00666.025</object-id>
                             <label>Appendix 1—Figure 1—Figure Supplement 1.</label>
                             <caption>
                                 <title>Appendix figure figure supplement title.</title>
@@ -3499,8 +3510,9 @@ Appendices must have DOIs -->
               <title>Negotaition</title>
                     <boxed-text>
                         <object-id pub-id-type="doi">10.7554/eLife.00666.026</object-id>
-                    <p>Generating the new rules involved negotation with varous vendors and downsteam hosts to ensure display would work for all instances.</p>
-                        <media id="video2" xlink:href="elife-00666-app1-media1.mov">
+                        <p>Generating the new rules involved negotation with varous vendors and downsteam hosts to ensure display would work for all instances. See <xref ref-type="video" rid="app2video1">Appendix 2—Video 1</xref> 
+                            and <xref ref-type="table" rid="app2table1">Apendix 2—Table 1</xref>.</p>
+                        <media id="app2video1" xlink:href="elife-00666-app1-media1.mp4">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.027</object-id>
                             <label>Appendix 2—Video 1.</label>
                         <caption>
@@ -3509,7 +3521,7 @@ Appendices must have DOIs -->
                             </title>
                         </caption>
                     </media>
-                        <table-wrap id="app-table1" position="float">
+                        <table-wrap id="app2table1" position="float">
                             <object-id pub-id-type="doi">10.7554/eLife.00666.028</object-id>
                             <label>Apendix 2—Table 1.</label>
                             <caption>
@@ -3608,9 +3620,9 @@ UPDATE: punctuation between institution and country removed. -->
 <disp-quote content-type="editor-comment"><p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough 
     information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p></disp-quote>
             <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the 
-                PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="resp-fig1">Author response image 1.</xref> and 
-                <xref ref-type="video" rid="resp-video1">Author response video 1.</xref></p>
-            <fig id="resp-fig1" position="float">
+                PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="respfig1">Author response image 1.</xref>, 
+                <xref ref-type="video" rid="respvideo1">Author response video 1</xref> and <xref ref-type="table" rid="resptable1">Author response table 1</xref>.</p>
+            <fig id="respfig1" position="float">
                     <object-id pub-id-type="doi">10.7554/eLife.00666.031</object-id>
                 <label>Author response image 1.</label>
                     <caption>
@@ -3618,7 +3630,7 @@ UPDATE: punctuation between institution and country removed. -->
                     </caption>
                     <graphic xlink:href="elife-00666-resp-fig-1.tiff"/>
                 </fig>
-            <table-wrap id="resp-table1" position="float">
+            <table-wrap id="resptable1" position="float">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.032</object-id>
                 <label>Author response Table 1.</label>
                 <caption>
@@ -3676,7 +3688,7 @@ UPDATE: punctuation between institution and country removed. -->
                     </tbody>
                 </table>
             </table-wrap>
-            <media id="resp-video1" xlink:href="elife-04953-resp-media1.avi">
+            <media id="respvideo1" xlink:href="elife-04953-resp-media1.avi">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.033</object-id>
                 <label>Author response video 1.</label>
             </media>
