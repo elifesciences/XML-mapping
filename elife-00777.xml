@@ -230,7 +230,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     all of a start codon in an mRNA, the ribosome will not be able to translate the
                     mRNA.</p>
             </caption>
-            <graphic mimetype="tiff" xlink:href="elife-00777-fig1-v1"/>
+            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig1.tiff"/>
             <!-- Where a credit is required for an image used in an Insight, this will be added using the <attrib> tag at the end of the figure block -->
             <attrib>Image credit: Meredith Corley</attrib>
         </fig>
@@ -258,7 +258,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
         <!-- Insights may have Videos, although this is rare - only one Insight with a video published between 2012 and 2016. Like figures, they do not have DOIs.
         UPDATE: This no longer required for videos: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
         UPDATE: changed id to videoX -->
-        <media mimetype="mov" id="video1" xlink:href="elife-00777-media1.mov">
+        <media mimetype="media" mime-subtype="mov" id="video1" xlink:href="elife-00777-media1.mov">
             <label>Video 1.</label>
             <caption>
                 <title>A descirption of the eLife editorial process.</title>
