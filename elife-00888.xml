@@ -224,7 +224,8 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
             sizes (which should include details of the methods used to estimate them and the
             assumptions made) can be found in their manuscript, or to explain why this information
             does not apply to their submission.</p>
-        <fig id="fig1" position="float">
+        <!-- Editorials may have illustrations. These do not have DOIs -->
+        <fig id="fig1" position="anchor">
             <caption>
                 <p>The editors and reviewers at eLife work with authors to publish papers that make
                     other researchers think differently about their subject.</p>

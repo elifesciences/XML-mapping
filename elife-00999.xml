@@ -267,7 +267,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 responsible for the regulation of gain-of-function research. Such a layered approach
                 at the country level will spread good practice, increase accountability, and help to
                 improve public trust in research.</p>
-            <!-- Feature 1 articles can have illustrations (Figures without 'Figure' labels or citations); these never have DOIs -->
+            <!-- Feature 1 articles can have illustrations (Figures without 'Figure' labels or citations); these do not have DOIs -->
             <fig id="fig1" position="anchor">
                 <caption>
                     <title>There are many parallels between science and sports, including the need
