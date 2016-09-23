@@ -1545,7 +1545,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
-                        with a sub-asset, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—Source data 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhong et al., 
+                        with ttwo sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—Source data 1</xref> and <xref ref-type="supplementary-material"
+                            rid="fig3sdata1video1">Figure 3—figure supplement 1—Video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhong et al., 
                             2013</xref>; <xref ref-type="bibr" rid="bib51">World Health Organization, 2016</xref>  .</p>
                     <!-- UPDATE: new method of modelling supplementary material for a figure
                     A figure or a sub figure can have any assets - e.g. data, code, videos -->
@@ -1571,6 +1572,16 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                             <title>Title of the figure supplement source data.</title>
                                             <p>Legend of the figure supplement source data.</p>
                                         </caption>
+<!-- this is an example of an asset asked later on, so the DOI is the last DOI to prevent renumbering the others -->
+                                        <media mimetype="mov" id="fig3sdata1video1" xlink:href="elife-00666-media1.mov">
+                                            <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
+                                            <label>Figure 3—figure supplement 1—Video 1.</label>
+                                            <caption>
+                                                <title>
+                                                    A description of the eLife editorial process.
+                                                </title>
+                                            </caption>
+                                        </media>
                                         <media mimetype="xlsx" xlink:href="elife-00666-fig3-figsupp1-data1-v1.xlsx"/>
                                     </supplementary-material>
                                 </p>
