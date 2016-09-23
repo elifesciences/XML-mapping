@@ -56,13 +56,22 @@ article with three figures will have the following asset files:
 
 ###### `<sub-asset>`
 
-Some assets will have sub-assets, eg figure supplements (figsupp), source data (data), or source code (code). These are indicated by the sub-asset component. For example:
+The following asset is actually a sub-asset:
+- a figure supplement (figsupp)
+
+The following assets could be assets at the parent or child level:
+
+- source code (code)
+- source data (data)
+- video (video)
+
+###### `<sa-id>`
+
+The `sa-id` is the asset id. Some assets will have sub-assets, eg figure supplements (figsupp), source data (data), or source code (code). These are indicated by the sub-asset component. For example:
 
 - elife-00666-fig1-figsupp1.tiff
 - elife-00666-fig1-code1.xml
 - elife-00666-app1-fig1.tiff
-
-###### `<sa-id>`
 
 Some sub-assets have further sub-asset ids, For example:
 
@@ -119,17 +128,17 @@ All assets in an appendix require the asset of "appX" (where X is the appendix n
 
 elife-00666-app1-fig-1.tiff
 
-a Appendix figure 1 figure supplement 1 will be named:
+An Appendix figure 1 figure supplement 1 will be named:
 
 elife-00666-app1-fig-1-figsupp1.tiff
 
-Or a  Appendix video 1 as:
+Or an  Appendix video 1 as:
 
 elife-00666-app1-media1.mp4
 
 
 ###### Tables 
-Tables do not contain figures unless they are inline graphics. However, they can contain source data for example, so would be named:
+Tables do not contain figures unless they are inline graphics. However, they can contain source data, for example, so this would be named:
 
 elife-00666-table1-data1.tiff
 
@@ -138,7 +147,7 @@ All assets in a box require the asset of "boxX" (where X is the box number - eve
 
 elife-00666-box1-fig-1.tiff
 
-a Box figure 1 figure supplement 1 will be named:
+A Box figure 1 figure supplement 1 will be named:
 
 elife-00666-box1-fig-1-figsupp1.tiff
 
@@ -151,89 +160,127 @@ elife-00666-box1-media1.mp4
 ###### `<status>`
 
 This is either `poa` (publish on accept) or `vor` (version of record).
+The content processor only produced vor content.
 
 ##### r`<revision>`
 
-#####Example
-- elife-00666-vor-r4.zip contains
-- elife-00666.xml
-- elife-00666.pdf
-- elife-00666-figures.pdf
-- elife-00666-fig1.tiff
-- elife-00666-fig1-data1.csv
-- elife-00666-fig1-data2.csv
-- elife-00666-fig1-figsupp1.tiff
-- elife-00666-fig1-figsupp1-data1.csv
-- elife-00666-fig1-figsupp2.tiff
-- elife-00666-fig1-figsupp2-data1.csv
-- elife-00666-fig1-figsupp3.tiff
-- elife-00666-fig1-figsupp3-data1.mol
-- elife-00666-fig2.tiff
-- elife-00666-fig2-data1.txt
-- elife-00666-fig3.tiff
-- elife-00666-fig3-data.csv
-- elife-00666-fig3-figsupp1.tiff
-- elife-00666-fig3-figsupp1-data1.csv
-- elife-00666-fig3-figsupp1-data2.csv
-- elife-00666-fig3-figsupp1-data3.csv
-- elife-00666-fig3-figsupp2.tiff
-- elife-00666-fig3-figsupp2-data1.csv
-- elife-00666-fig3-figsupp3.tiff
-- elife-00666-fig3-figsupp3-data1.csv
+When supplying content at each stage, the zip file package is delivered to the eLife AWS and requires a -rX suffix (where the X is a sequential number depending on the number of times it is required to be resupplied)
+
+At each stage of the production process an output of the content is delivered to the subfolders of this AWS bucket: elife-production-processes
+
+- elife-production-preedited - after pre-editing is complete the output is delivered here
+- elife-production-initial-qc - after eLife has checked the pre-editing the complete the output is delivered here
+- elife-production-copyedited - after copyediting the complete the output is delivered here
+- Features ONLY: elife-production-featurechecked - after features have signed off on an article the complete the output is delivered here
+- elife-production-authorcorrected  - after author has signed off on an article the complete the output is delivered here
+- elife-production-productionchecked - after production has signed off on an article post-author the complete the output is delivered here
+
+
+??????? elife-production-revised 
+
+When content is delivered to the continuum website it is delivered to this AWS bucket: elife-production-final
+
+Example file name:
+elife-00666-vor-r1
+
 
 ## XML Identifiers and xref links
 
 #####Figures
-x-ref ref-type="fig"
-id="fig1"
+- x-ref ref-type="fig"
+- id="fig1"
 
 #####Figure supplements
-x-ref ref-type="fig"
-id="fig1s1"
+- x-ref ref-type="fig"
+- id="fig1s1"
 
-#####Source data
-xref ref-type="supplementary-material"
-id="sd1"
+#####Figures within author response
+- x-ref ref-type="fig"
+- id="resp-fig1"
 
-#####Source code
-xref ref-type="supplementary-material"
-id="sd1"
+#####Figure supplements within author response
+- x-ref ref-type="fig"
+- id="resp-fig1s1"
 
-#####Videos
-xref ref-type="other"
-id="video1"
+#####Figures within appendices
+- x-ref ref-type="fig"
+- id="app1-fig1"
+
+#####Figure supplements within appendices
+- x-ref ref-type="fig"
+- id="app1-fig1s1"
+
+
+#####Source data as primary asset
+- xref ref-type="supplementary-material"
+- id="sourcedata1"
+
+
+#####Source data as sub asset
+- xref ref-type="supplementary-material"
+- id="sdata1"
+
+
+#####Source code as primary asset
+- xref ref-type="supplementary-material"
+- id="scode1"
+
+
+#####Source code as sub asset
+- xref ref-type="supplementary-material"
+- id=""
+
+#####Videos as primary asset
+- xref ref-type="other"
+- id="video1"
+- 
+#####Videos as sub asset
+- xref ref-type="other"
+- id="fig1-video1"
 
 #####Tables
-xref ref-type="table"
-id="table"
+- xref ref-type="table"
+- id="table1"
 
 #####Inline tables
-xref ref-type="inlinetable"
-id="inlinetable"
+- xref ref-type="inlinetable1"
+- id="inlinetable"
 
 #####Boxes
-xref ref-type="box"
-id="box1"
+- xref ref-type="box"
+- id="box1"
 
 #####Appendices
-Appendices are a section within an article, so their id is a reflection on their order in the sections of an article, eg id="s8" (indicates this appendix is the 8th <sec> of this article). However, the sec does have a sec-type of "appendix"
+Appendices are a section within an article, so their id is a reflection on their order in the sections of an article, eg id="s8" (indicates this appendix is the 8th <sec> of this article). However, the sec does have a sec-type of "appendix1"
 
-figure ID: app1-fig1
-xref ref-type="fig"
+- xref ref-type="fig"
+- id="app1-fig1'
 
-Table ID: app1-table1
-xref ref-type="table"
+- xref ref-type="table"
+- id=""app1-table1""
 
 
 #####Reporting standards
-xref ref-type="supplementary-material"
-id="sd1"
+- xref ref-type="supplementary-material"
+- id="reportingstandard1"
+
+#####Decision letter
+Decision letters are a sub-article of the main article, the article-type attribuite is "decision-letter" and their ID is "SA1"
 
 #####Author response
+Author responses are a sub-article of the main article, the article-type attribuite is "reply" and their ID is "SA2"
 
+- xref ref-type="fig"
+- id="resp-fig1'
+
+- xref ref-type="table"
+- id="resp-table1"
 
 #####Equations
 Equations are not assets, but they do have ids that have a style.
+
+- xref ref-type="equation"
+- - id="equ1""
 
 #####Other Xref link ids
 aff1 - aff followed by seqential number. Designates the affiliation address
@@ -255,9 +302,6 @@ section 2, level 3 heading number 1: s2-1-1
 
 ## DOIs
 All "assets" have sub-DOIs, with the exception of equations.
-Equation ID: equ1
-xref ref-type="equation"
-
 
 
 ## Additional information
