@@ -897,29 +897,30 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                         <td>7.96%</td>
                                         <td>±</td>
                                         <td>4.25%</td>
-                                        <!-- The next cell contains coloured text using author-callout-style1 (Red). It is also centrally aligned -->
-                                        <td rowspan="2" valign="middle"><named-content content-type="author-callout-style1">}</named-content></td>
-                                        <td rowspan="2" valign="middle"><bold><named-content content-type="author-callout-style1">a</named-content></bold><sub><bold><named-content content-type="author-callout-style1">lox</named-content></bold></sub></td>
+                                        <!-- The next cell contains coloured text using author-callout-style-a1 (Blue). It is also centrally aligned -->
+                                        <td rowspan="2" valign="middle"><named-content content-type="author-callout-style-a1">}</named-content></td>
+                                        <td rowspan="2" valign="middle"><bold><named-content content-type="author-callout-style-a1">a</named-content></bold><sub><bold><named-content content-type="author-callout-style-a1">lox</named-content></bold></sub></td>
                                         <td>0.37%</td>
                                         <td>±</td>
                                         <td>0.29%</td>
-                                        <td><bold><named-content content-type="author-callout-style1">a</named-content></bold></td>
+                                        <td><bold><named-content content-type="author-callout-style-a1">a</named-content></bold></td>
                                         <td colspan="3">—</td>
                                         <td> </td>
-                                        <td rowspan="3" valign="middle"><named-content content-type="author-callout-style1">}</named-content></td>
-                                        <td rowspan="2" valign="bottom"><bold><named-content content-type="author-callout-style1">a</named-content></bold><sub><bold><named-content content-type="author-callout-style1">TPS</named-content></bold></sub></td>
+                                        <td rowspan="3" valign="middle"><named-content content-type="author-callout-style-a1">}</named-content></td>
+                                        <td rowspan="2" valign="bottom"><bold><named-content content-type="author-callout-style-a1">a</named-content></bold><sub><bold><named-content content-type="author-callout-style-a1">TPS</named-content></bold></sub></td>
                                         <td colspan="3">—</td>
-                                        <td><bold><named-content content-type="author-callout-style1">a</named-content></bold></td>
+                                        <td><bold><named-content content-type="author-callout-style-a1">a</named-content></bold></td>
                                         <td colspan="3">—</td>
-                                        <td>2.13%</td>
-                                        <td>±</td>
-                                        <td>0.85%</td>
-                                        <td>0.96%</td>
-                                        <td>±</td>
-                                        <td>0.42%</td>
-                                        <td>1.68%</td>
-                                        <td>±</td>
-                                        <td>0.98%</td>
+                                        <!-- The next cell contains coloured text using author-callout-style-a2 (Purple). It is also centrally aligned -->
+                                        <td><named-content content-type="author-callout-style-a2">2.13%</named-content></td>
+                                        <td><named-content content-type="author-callout-style-a2">±</named-content></td>
+                                        <td><named-content content-type="author-callout-style-a2">0.85%</named-content></td>
+                                        <td><named-content content-type="author-callout-style-a2">0.96%</named-content></td>
+                                        <td><named-content content-type="author-callout-style-a2">±</named-content></td>
+                                        <td><named-content content-type="author-callout-style-a2">0.42%</named-content></td>
+                                        <td><named-content content-type="author-callout-style-a2">1.68%</named-content></td>
+                                        <td><named-content content-type="author-callout-style-a2">±</named-content></td>
+                                        <td><named-content content-type="author-callout-style-a2">0.98%</named-content></td>
                                         <td>—</td>
                                     </tr>
                                     <tr>
@@ -935,16 +936,16 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                         <td>18.97%</td>
                                         <td>±</td>
                                         <td>6.03%</td>
-                                        <!-- The next cell contains coloured text using author-callout-style2 (Blue). It is also centrally aligned -->
-                                        <td><bold><named-content content-type="author-callout-style2">b</named-content></bold></td>
+                                        <!-- The next cell contains coloured text using author-callout-style-a3 (Red). It is also centrally aligned -->
+                                        <td><bold><named-content content-type="author-callout-style-a3">b</named-content></bold></td>
                                         <td>0.94%</td>
                                         <td>±</td>
                                         <td>0.53%</td>
-                                        <td rowspan="3" valign="middle"><named-content content-type="author-callout-style2">}</named-content></td>
+                                        <td rowspan="3" valign="middle"><named-content content-type="author-callout-style-a3">}</named-content></td>
                                         <td>9.34%</td>
                                         <td>±</td>
                                         <td>3.44%</td>
-                                        <td><bold><named-content content-type="author-callout-style2">b</named-content></bold></td>
+                                        <td><bold><named-content content-type="author-callout-style-a3">b</named-content></bold></td>
                                         <td>0.20%</td>
                                         <td>±</td>
                                         <td>0.20%</td>
@@ -969,16 +970,16 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                         <td>1.06%</td>
                                         <td>±</td>
                                         <td>0.64%</td>
-                                        <td rowspan="2" valign="middle"><named-content content-type="author-callout-style2">}</named-content></td>
-                                        <td rowspan="2" valign="middle"><bold><named-content content-type="author-callout-style2">b</named-content></bold><sub><bold><named-content content-type="author-callout-style2">lox</named-content></bold></sub></td>
+                                        <td rowspan="2" valign="middle"><named-content content-type="author-callout-style-a3">}</named-content></td>
+                                        <td rowspan="2" valign="middle"><bold><named-content content-type="author-callout-style-a3">b</named-content></bold><sub><bold><named-content content-type="author-callout-style-a3">lox</named-content></bold></sub></td>
                                         <td colspan="3">—</td>
-                                        <td><bold><named-content content-type="author-callout-style1">a</named-content></bold></td>
+                                        <td><bold><named-content content-type="author-callout-style-a1">a</named-content></bold></td>
                                         <td>0.15%</td>
                                         <td>±</td>
                                         <td>0.15%</td>
-                                        <td rowspan="2"><bold><named-content content-type="author-callout-style2">b</named-content></bold><sub><bold><named-content content-type="author-callout-style2">TPS</named-content></bold></sub></td>
+                                        <td rowspan="2"><bold><named-content content-type="author-callout-style-a3">b</named-content></bold><sub><bold><named-content content-type="author-callout-style-a3">TPS</named-content></bold></sub></td>
                                         <td colspan="3">—</td>
-                                        <td><bold><named-content content-type="author-callout-style1">a</named-content></bold></td>
+                                        <td><bold><named-content content-type="author-callout-style-a1">a</named-content></bold></td>
                                         <td colspan="3">—</td>
                                         <td>2.75%</td>
                                         <td>±</td>
@@ -1004,7 +1005,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                         <td>7.39%</td>
                                         <td>±</td>
                                         <td>2.56%</td>
-                                        <td><bold><named-content content-type="author-callout-style2">b</named-content></bold></td>
+                                        <td><bold><named-content content-type="author-callout-style-a3">b</named-content></bold></td>
                                         <td>2.08%</td>
                                         <td>±</td>
                                         <td>0.84%</td>
@@ -1012,7 +1013,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                         <td>4.47%</td>
                                         <td>±</td>
                                         <td>1.70%</td>
-                                        <td><bold><named-content content-type="author-callout-style2">b</named-content></bold></td>
+                                        <td><bold><named-content content-type="author-callout-style-a3">b</named-content></bold></td>
                                         <td>0.40%</td>
                                         <td>±</td>
                                         <td>0.40%</td>
@@ -1034,7 +1035,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     <p><xref ref-type="table" rid="table2">Table 2</xref> is an example of a standard table that will be the width of the text column in the PDF. It does not contain
                         any unusual styling. It does have footnotes linked to content in the table using the prescribed symbols.</p>
                     <!-- Table 2 contains footnotes that have been connected to the main body of the table with hyperlinked symbols. This hyperlinking using xref tags is not currently 
-                        being added but should be added going forward -->
+                        being added but should be added going forward.
+                    Table 2 also contains coloured cells using the eight permitted colours -->
                     <table-wrap id="table2" position="float">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.004</object-id>
                         <label>Table 2.</label>
@@ -1056,18 +1058,26 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Vam7p</td>
-                                    <td>2 × 10<sup>3</sup></td>
-                                    <td>30 × 10<sup>4</sup></td>
-                                    <td>6.5 × 10<sup>4</sup></td>
+                                    <!-- The next cell contains a coloured background using author-callout-style-b1 (Blue) -->
+                                    <td style="author-callout-style-b1">Vam7p</td>
+                                    <!-- The next cell contains a coloured background using author-callout-style-b2 (Green) -->
+                                    <td style="author-callout-style-b2">2 × 10<sup>3</sup></td>
+                                    <!-- The next cell contains a coloured background using author-callout-style-b3 (Orange) -->
+                                    <td style="author-callout-style-b3">30 × 10<sup>4</sup></td>
+                                    <!-- The next cell contains a coloured background using author-callout-style-b4 (Yellow) -->
+                                    <td style="author-callout-style-b4">6.5 × 10<sup>4</sup></td>
                                     <!-- The next cell contains a reference -->
                                     <td><xref ref-type="bibr" rid="bib12">DeLano, 2012</xref></td>
                                 </tr>
                                 <tr>
-                                    <td>Vam3p</td>
-                                    <td>2 × 10<sup>3</sup></td>
-                                    <td>11 × 10<sup>4</sup></td>
-                                    <td>22 × 10<sup>4</sup></td>
+                                    <!-- The next cell contains a coloured background using author-callout-style-b5 (Purple) -->
+                                    <td style="author-callout-style-b5">Vam3p</td>
+                                    <!-- The next cell contains a coloured background using author-callout-style-b6 (Red) -->
+                                    <td style="author-callout-style-b6">2 × 10<sup>3</sup></td>
+                                    <!-- The next cell contains a coloured background using author-callout-style-b7 (Pink) -->
+                                    <td style="author-callout-style-b7">11 × 10<sup>4</sup></td>
+                                    <!-- The next cell contains a coloured background using author-callout-style-b8 (Grey) -->
+                                    <td style="author-callout-style-b8">22 × 10<sup>4</sup></td>
                                     <td><xref ref-type="bibr" rid="bib13">Morgan, 2016</xref></td>
                                 </tr>
                                 <tr>
