@@ -115,7 +115,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                         credited.</license-p>
                 </license>
             </permissions>
-            <self-uri content-type="pdf" xlink:href="elife-00888-v1.pdf"/>
+            <self-uri content-type="pdf" xlink:href="elife-00888.pdf"/>
             <abstract>
                 <p>Manuscripts should include all the experimental and statistical details that are
                     needed to replicate the experiments and analyses reported in them.</p>
@@ -230,7 +230,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 <p>The editors and reviewers at eLife work with authors to publish papers that make
                     other researchers think differently about their subject.</p>
             </caption>
-            <graphic mimetype="image" mim-subtype="tiff" xlink:href="elife-00888-fig1.tiff"/>
+            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00888-fig1.tiff"/>
             <!-- Attribution for image containing URL to author's website -->
             <attrib>Illustration <ext-link ext-link-type="uri"
                     xlink:href="http://www.claudiastocker.com/"

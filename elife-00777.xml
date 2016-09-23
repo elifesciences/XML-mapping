@@ -139,7 +139,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                         credited.</license-p>
                 </license>
             </permissions>
-            <self-uri content-type="pdf" xlink:href="elife-00777-v1.pdf"/>
+            <self-uri content-type="pdf" xlink:href="elife-00777.pdf"/>
             <related-article ext-link-type="doi" id="ra1" related-article-type="commentary-article"
                 xlink:href="10.7554/eLife.00666"/>
             <abstract>

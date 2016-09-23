@@ -131,7 +131,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                         credited.</license-p>
                 </license>
             </permissions>
-            <self-uri content-type="pdf" xlink:href="elife-00888-v1.pdf"/>
+            <self-uri content-type="pdf" xlink:href="elife-00888.pdf"/>
             <abstract>
                 <p>A working group on gain-of-function research set up by the European Academies
                     Science Advisory Council (EASAC) has emphasised the importance of ensuring that
@@ -201,7 +201,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 <title>Overview of the main tasks that contribute to a successful science
                     hackathon.</title>
             </caption>
-            <graphic mimetype="tiff" xlink:href="elife-00999-fig1-v1"/>
+            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00999-fig1"/>
         </fig>
         <sec id="s1">
             <title>Scientific responsibility and benefit-risk assessment</title>
@@ -268,12 +268,12 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 at the country level will spread good practice, increase accountability, and help to
                 improve public trust in research.</p>
             <!-- Feature 1 articles can have illustrations (Figures without 'Figure' labels or citations); these do not have DOIs -->
-            <fig id="fig1" position="anchor">
+            <fig id="fig2" position="anchor">
                 <caption>
                     <title>There are many parallels between science and sports, including the need
                         to acknowledge mistakes.</title>
                 </caption>
-                <graphic mimetype="tiff" xlink:href="elife-00999-fig2-v1"/>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00999-fig2"/>
                 <attrib>Illustration: Ben Marder</attrib>
             </fig>
             <p>Researchers and institutions also have to recognise their responsibility to make
@@ -319,10 +319,10 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 scientific community has to ensure that the public health benefits that arise from
                 innovation based on gain-of-function research are made available to everyone.
                 Second, on the national level, scientists need to convince the public that taxpayer
-                funds are being spent wisely  (see <xref ref-type="table" rid="tbl1">Table 1</xref>). Third, on a local level, scientists must engage with
+                funds are being spent wisely  (see <xref ref-type="table" rid="table1">Table 1</xref>). Third, on a local level, scientists must engage with
                 those who live near research facilities to reassure them about safety.</p>
             <!-- Feature 1 content can contain Tables; no assets in Feature 1 content are assigned DOIs -->
-            <table-wrap id="tbl1" position="float">
+            <table-wrap id="table1" position="float">
                 <label>Table 1.</label>
                 <caption>
                     <title>A “snapshot” of the biomedical workforce from 2009</title>
