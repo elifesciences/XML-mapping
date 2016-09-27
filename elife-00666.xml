@@ -1761,13 +1761,13 @@ For the PDF rules are as follows:
 5) Order in XML is based on author order, but on PDF competing interests come first, followed by the No competing interest statement -->
             <fn-group content-type="competing-interest">
             <title>Additional information</title>
-                <fn fn-type="conflict" id="conf1">
+                <fn fn-type="COI-statement" id="conf1">
                     <p>Chair of JATS4R</p>
                 </fn>
-                <fn fn-type="conflict" id="conf2">
+                <fn fn-type="COI-statement" id="conf2">
                     <p>No competing interests declared</p>
                 </fn>
-                <fn fn-type="conflict" id="conf3">
+                <fn fn-type="COI-statement" id="conf3">
                     <p>Not an eLife employee</p>
                 </fn>
             </fn-group>
