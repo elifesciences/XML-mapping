@@ -186,6 +186,13 @@ list displayed in the PDF is retained as per the XML order-->
                                     </addr-line>
                                     <country>United Kingdom</country>
                                 </aff>
+                                <aff>
+                                    <institution>eLife Institute</institution>,
+                                    <addr-line>
+                                        <named-content content-type="city">Cambridge</named-content>
+                                    </addr-line>
+                                    <country>United Kingdom</country>
+                                </aff>
                             </contrib>
                         </contrib-group>
                         <contrib-group>
