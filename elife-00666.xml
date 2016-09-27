@@ -1760,7 +1760,7 @@ For the PDF rules are as follows:
 4) One author only and there declare no competing interests: "The author declares that no competing interests exist."
 5) Order in XML is based on author order, but on PDF competing interests come first, followed by the No competing interest statement -->
             <fn-group content-type="competing-interest">
-<!-- UPDATE: <title>Additional information</title> removed. Is required for PDF representation only -->
+            <title>Additional information</title>
                 <fn fn-type="conflict" id="conf1">
                     <p>Chair of JATS4R</p>
                 </fn>
