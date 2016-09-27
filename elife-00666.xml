@@ -512,17 +512,9 @@ Can contain italics, but no bold or other formatting-->
                     <italic>formatting</italic>
                 </kwd>
             </kwd-group>
-<!-- UPDATE: Research organism: removed title from XML - is implicit in the @kwd-group-type
-Can contain italics, but no bold or other formatting
-When a species and genus appears, abbreviate the genus followed by full stop, space species, eg: D. melanogaster (all italics)
-Genus on it's own should also be italicised
-Capitalise names (now proper nouns), eg Frog, Mouse, Maize
-Specifics
-Replace fruit fly with D. melanogaster
-Volux is a genus – therefore it should be italic
-S. enterica serovar Typhi (ie capital T)
-yellow baboon (Papio cynocephalus) should be replaced with P. cynocephalus -->
+<!-- Output what is provided during the production process-->
             <kwd-group kwd-group-type="research-organism">
+                <title>Research organsim</title>
                 <kwd>Human</kwd>
                 <kwd>Machine</kwd>
             </kwd-group>
