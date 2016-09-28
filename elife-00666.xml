@@ -31,6 +31,10 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
 <!-- @pub-id-type publisher-id - this is always a 5 digit number -->
             <article-id pub-id-type="publisher-id">00666</article-id>
 <!-- @pub-id-type doi - always has eLife prefix (10.7554/eLife.) followed by same 5 digit number as publisher id -->
+<!--UPDATE: PDF links to DOIs: from CrossRef: The updated Crossref DOI Display guidelines recommend that https://doi.org/ be used and not http://dx.doi.org/ in DOI links.
+Originally the “dx” separated the DOI resolver from the International DOI Foundation (IDF) website but this has changed and the IDF has already updated its recommendations 
+so we are bringing ours in line with theirs. We are also recommending the use of HTTPS because it makes for more secure browsing.
+-->       
             <article-id pub-id-type="doi">10.7554/eLife.00666</article-id>
             <article-categories>
 <!-- @subj-group-type "display-channel" - eLife-defined article type, controlled list for Research Content (case sensitive):
