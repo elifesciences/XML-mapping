@@ -1573,7 +1573,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                             <p>Legend of the figure supplement source data.</p>
                                         </caption>
 <!-- this is an example of an asset asked later on, so the DOI is the last DOI to prevent renumbering the others -->
-                                        <media mimetype="media" mime-subtype="mp4" id="fig3sdata1video1" xlink:href="elife-00666-media1.mp4">
+                                        <media mimetype="video" mime-subtype="mp4" id="fig3sdata1video1" xlink:href="elife-00666-media1.mp4">
                                             <object-id pub-id-type="doi">10.7554/eLife.00666.035</object-id>
                                             <label>Figure 3—figure supplement 1—Video 1.</label>
                                             <caption>
@@ -1616,7 +1616,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     <p><xref ref-type="other" rid="video1">Video 1</xref> shows the editorial process.</p>
                     <!-- UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
                     UPDATE: changed id to videoX -->
-                    <media mimetype="media" mime-subtype="mp4" id="video1" xlink:href="elife-00666-media1.mp4">
+                    <media mimetype="video" mime-subtype="mp4" id="video1" xlink:href="elife-00666-media1.mp4">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.016</object-id>
                         <label>Video 1.</label>
                         <caption>
@@ -3541,7 +3541,7 @@ Appendices must have DOIs -->
                         <object-id pub-id-type="doi">10.7554/eLife.00666.026</object-id>
                         <p>Generating the new rules involved negotation with varous vendors and downsteam hosts to ensure display would work for all instances. See <xref ref-type="video" rid="app2video1">Appendix 2—Video 1</xref> 
                             and <xref ref-type="table" rid="app2table1">Apendix 2—Table 1</xref>.</p>
-                        <media mimetype="media" mime-subtype="mp4" id="app2video1" xlink:href="elife-00666-app1-media1.mp4">
+                        <media mimetype="video" mime-subtype="mp4" id="app2video1" xlink:href="elife-00666-app1-media1.mp4">
                         <object-id pub-id-type="doi">10.7554/eLife.00666.027</object-id>
                             <label>Appendix 2—Video 1.</label>
                         <caption>
@@ -3717,7 +3717,7 @@ UPDATE: punctuation between institution and country removed. -->
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="media" mime-subtype="avi" id="respvideo1" xlink:href="elife-04953-resp-media1.avi">
+            <media mimetype="video" mime-subtype="avi" id="respvideo1" xlink:href="elife-04953-resp-media1.avi">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.033</object-id>
                 <label>Author response video 1.</label>
             </media>
