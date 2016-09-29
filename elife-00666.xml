@@ -3150,7 +3150,7 @@ The tagging of the collaborator name again within this section is required for P
                 </name>
             </person-group>
             <year iso-8601-date="2010">2010</year>
-            <source>RepeatModeler</source>
+            <data-title>RepeatModeler</data-title>
             <publisher-name>Institute for Systems Biology</publisher-name>
             <publisher-loc>Seattle, USA</publisher-loc>
             <version>open-1.0</version>
