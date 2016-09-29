@@ -2318,7 +2318,7 @@ The tagging of the collaborator name again within this section is required for P
             </person-group>
             <year iso-8601-date="2002">2002</year>
             <source>PyMol</source>
-            <article-title>The PyMol Molecular Graphics System</article-title>
+            <data-title>The PyMol Molecular Graphics System</data-title>
             <version> Version 1.7.4</version>
             <publisher-name>Schrödinger LLC</publisher-name>
             <ext-link ext-link-type="uri" xlink:href='https://www.pymol.org/'>https://www.pymol.org/</ext-link>  
