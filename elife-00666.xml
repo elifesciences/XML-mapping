@@ -2170,7 +2170,7 @@ The tagging of the collaborator name again within this section is required for P
             <pub-id pub-id-type="pmid">14742460</pub-id>
         </element-citation>
     </ref>
-<!-- Software reference: no title -->
+<!-- Software reference-->
     <ref id="bib7">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
@@ -2219,7 +2219,7 @@ The tagging of the collaborator name again within this section is required for P
                     <given-names>TO</given-names>
                 </name>
             </person-group>
-            <source>BUSTER</source>
+            <data-title>BUSTER</data-title>
             <version>2.10.0</version>
             <publisher-loc>Cambridge, UK</publisher-loc>
             <publisher-name>Global Phasing Ltd</publisher-name>
