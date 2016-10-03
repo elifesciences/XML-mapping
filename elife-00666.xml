@@ -3118,7 +3118,10 @@ The tagging of the collaborator name again within this section is required for P
                     <surname>Schwartz</surname><given-names>J</given-names>
                 </name>
             </person-group>
-            <year iso-8601-date="1993-09-30">September 9, 1993</year>
+            <date iso-8601-date="1993-09-30"/>
+            <year>1993</year>
+            <month>September</month>
+            <day>9</day>
             <article-title>Obesity affects economic, social status</article-title>
             <source>The Washington Post</source>
             <fpage>A1</fpage>
