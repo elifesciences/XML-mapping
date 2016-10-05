@@ -3140,13 +3140,11 @@ The tagging of the collaborator name again within this section is required for P
         <element-citation publication-type="periodical">
             <person-group person-group-type="author">
                 <name>
-                    <surname>Schwartz</surname><given-names>J</given-names>
+                    <surname>Schwartz</surname>
+                    <given-names>J</given-names>
                 </name>
             </person-group>
-            <date iso-8601-date="1993-09-30"/>
-            <year>1993</year>
-            <month>September</month>
-            <day>9</day>
+            <string-date><month>September</month> <day>9</day>, <year iso-8601-date="1993-09-30">1993</year></string-date>
             <article-title>Obesity affects economic, social status</article-title>
             <source>The Washington Post</source>
             <fpage>A1</fpage>
