@@ -3144,7 +3144,7 @@ The tagging of the collaborator name again within this section is required for P
                     <given-names>J</given-names>
                 </name>
             </person-group>
-            <string-date><month>September</month> <day>9</day>, <year iso-8601-date="1993-09-30">1993</year></string-date>
+            <string-date><month>September</month> <day>9</day>, <year iso-8601-date="1993-09-09">1993</year></string-date>
             <article-title>Obesity affects economic, social status</article-title>
             <source>The Washington Post</source>
             <fpage>A1</fpage>
