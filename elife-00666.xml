@@ -515,6 +515,7 @@ Additionally, digest are no longer a required component of all Research Articles
                 <p>eLife digest are now optional and not every research article will contain one.
                     These are layman abstracts, designed for non-specialists in this field to be
                     able to understand this article, as well as the general public.</p>
+                <p>Here is paragraph 2 of the digest.</p>
             </abstract>
 <!-- UDPATE: Author keywords: removed title from XML - is implicit in the @kwd-group-type
 Can contain italics, but no bold or other formatting-->
