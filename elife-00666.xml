@@ -1529,7 +1529,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     There is no limit to the number of figure supplements a main figure can have. -->
                     <fig-group>
                         <fig id="fig2" position="float">
-                        <object-id pub-id-type="doi">10.7554/eLife.00666.008</object-id>
+                            <object-id pub-id-type="doi"> https://doi.org/10.7554/eLife.00666.008</object-id>
                         <label>Figure 2.</label>
                         <caption>
                             <title>Figure with figure supplements.</title> 
@@ -1541,7 +1541,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     </fig>
                         <fig id="fig2s1" position="float" specific-use="child-fig">
                             <!-- UPDATE: DOI prefix added to display--> 
-                            <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.009</object-id>
+                            <object-id pub-id-type="doi"> https://doi.org/eLife.00666.009</object-id>
                             <label>Figure 2—figure supplement 1.</label>
                             <caption>
                                 <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page</title>
@@ -1568,7 +1568,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <fig id="fig3" position="float">
                             <!-- UPDATE: DOI prefix added to display--> 
                             <!-- UPDATE: DOI prefix added to display--> 
-                            <object-id pub-id-type="doi">https://doi.org/https://doi.org/10.7554/eLife.00666.011</object-id>
+                            <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.011</object-id>
                             <label>Figure 3.</label>
                             <caption>
                                 <title>Figure with figure supplements and figure supplement with source data and a video (see <xref ref-type="bibr" rid="bib25">Koch, 1959</xref>) .</title>
