@@ -266,18 +266,6 @@ list displayed in the PDF is retained as per the XML order-->
                     <contrib-group>
                         <contrib>
 <!-- A group author member can have an ORCID, although this is not required -->
-                    <name>
-                        <surname>Wilkinson</surname>
-                        <given-names>Chris</given-names>
-                    </name>
-                    <email>c.wilkinson@elifesciences.org</email>
-                    <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4921-6155</contrib-id>
-                    </contrib>
-                        <contrib>
-                        <name>
-                        <surname>Skibinski</surname>
-                        <given-names>Luke</given-names>
-                    </name>
                         </contrib>
 <!-- UPDATE: A group author member can have an affiliation, but it is contained within the contrib after their name rather than listed separately. Group author
 affiliations are truncated compared to normal author affiliations (usually just institution, city and country) -->
@@ -555,6 +543,9 @@ Individual members of a group authorship should not be named in the funding sect
                         </name>
                     </principal-award-recipient>
                 </award-group>
+              <funding-statement>The funders had no role in study design; collection, analysis,
+                and interpretation of data; writing the article; and or the decision to submit
+                to the journal.</funding-statement>
             </funding-group>
 <!-- UPDATE: Custom-meta: no longer using eLife version as was never used properly.
 Impact statement:-->
