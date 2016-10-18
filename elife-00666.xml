@@ -652,6 +652,7 @@ Impact statement:-->
                 The mean time from acceptance to publication at this stage is 1 day. Using SQl, basic metadata is exported from the submission system to an 
                 AWS bucket as CSV files. The author files are exported to another AWS bucket and an eLife process generates a package of this information and the 
                 author files to deliver to the online platform, Continuum.</p>
+        </sec>
         <sec id="s1-2-2"> 
             <title>Publication of the full version (Version of record) (level 3 heading)</title>
             <p>The production process includes an author proofing cycle, the output of which is the final full text version of the article online, as well as a typeset PDF.</p>
@@ -660,7 +661,7 @@ Impact statement:-->
                 <title>Publication of versions (level 3 heading)</title>
                 <p>eLife allows the publication of updates to an article after the full version has been produced. These are treated as new versions of the article. All previous
                 versions of the article will continue to exist online and will be accessible from the latest live version.</p>
-            </sec>
+
             <sec id="s1-2-3-1"> 
                 <title>level 4 heading</title>
                 <p>eLife allows up to four levels of headings and no more. This is a demonstration of a level 4 heading.</p>
@@ -797,6 +798,7 @@ Impact statement:-->
                     <list-item><p>Neuroscience</p></list-item>
                     <list-item><p>Plant Biology</p></list-item>
                 </list>
+            </sec>
             <sec id="s2-1-4">
                     <title>Research Organism</title>
                     <p>This is an example of an ordered list, the "system" will default to numbers. eLife Research organsims are taken from a controlled list from the submission system:</p>
@@ -835,7 +837,7 @@ Impact statement:-->
                     </list>
   <p>However, additional research organisms can be added during the production process so this is not a controlled list once it is output from the editorial system. 
       The research organism "Other" is hidden from display on the eLife website.</p>
-            </sec>
+
                 </sec>
             </sec>
 <!-- Update: Most asset IDs have changed. Please see elife-00666-supp1 and elife_file_naming_2016_08_25.md for complete list and explanation  -->           
