@@ -1637,6 +1637,17 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <title>
                                 A descirption of the eLife editorial process.
                             </title>
+                            <p><supplementary-material id="video1sdata1">
+                                <!-- UPDATE: DOI prefix added to display--> 
+                                <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.015</object-id>
+                                <label>Video 1—Source data 1.</label>
+                                <caption>
+                                    <title>Title of the source code.</title>
+                                    <p>Legend of the source code.</p>
+                                </caption>
+                                <media mimetype="application" mime-subtype="xml" xlink:href="elife-00666-video4-data1.xlsx"/>
+                            </supplementary-material>
+                            </p>
                         </caption>
                     </media>
                 </sec>
