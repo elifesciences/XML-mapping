@@ -1390,8 +1390,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         We propose a Bayesian scheme for BCV (see <xref ref-type="disp-formula" rid="equ1">equation 1</xref>)that accommodates the influence of context on incentive value. BCV focuses on scenarios (i) where incentive value depends 
                         on contextual information (either represented by cues or by previous rewards) provided before options or rewards are presented, and (ii) where reward is defined 
                         by a single attribute (e.g., reward amount). To describe the basic principles of BCV, we adopt the formalism of Bayesian graphs (
-                        <xref ref-type="bibr" rid="bib47">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015c</xref>
-                        ) where a generative model is described by nodes or circles, representing random variables (shaded and white circles refer to observed and non-observed variables respectively), 
+                        <xref ref-type="bibr" rid="bib47">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015c</xref>) where a generative model is described by nodes or circles, representing random variables (shaded and white circles refer to observed and non-observed variables respectively), 
                         and arrows, representing causal relationships among variables. A simple generative model hypothesized by BCV is shown in
                         Figure 1A of another article (not linked here), where C represents prior beliefs about the average reward expected in a given context. 
                         Formally, this corresponds to a (Gaussian) prior belief (with mean
