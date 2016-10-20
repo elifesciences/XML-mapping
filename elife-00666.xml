@@ -1738,22 +1738,6 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
                             turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
                             Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. Vestibulum ultrices vehicula nibh, a ullamcorper dui semper suscipit. Etiam in sem augue.</p>
-                        <p>Pellentesque non elit posuere massa efficitur viverra. Proin sollicitudin pulvinar hendrerit. Praesent lobortis nisi tellus, ac tincidunt lacus bibendum sit amet. 
-                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam non pretium sapien, id cursus ante. Duis a sodales lacus, vitae iaculis augue. Vivamus imperdiet, 
-                            sem in tempor porta, turpis leo mollis augue, id tincidunt nisi nisi non ligula (<xref ref-type="bibr" rid="bib33">R Development Core Team, 2015</xref>; <xref ref-type="bibr" 
-                                rid="bib34">Radoshevich et al., 2015a</xref>,<xref ref-type="bibr" rid="bib35">b</xref>; and <xref ref-type="bibr" rid="bib36">Rasband, 1997</xref>). Vestibulum sollicitudin 
-                            nisl sapien, pretium ullamcorper orci iaculis vel. Etiam 
-                            in turpis viverra, egestas ligula sed, vehicula nunc. Suspendisse luctus, leo ac varius iaculis, eros libero iaculis quam, ut vestibulum ipsum massa at diam. 
-                            Vivamus gravida massa nunc. Etiam nulla nibh, aliquam at mattis eget, auctor nec justo.</p>
-                            <p>Ut scelerisque suscipit nunc, vitae auctor odio rhoncus eu. Ut congue viverra ligula sed eleifend. Vestibulum a interdum ipsum. Nam sollicitudin erat justo, 
-                                ac consequat odio vestibulum vitae. Duis quis massa accumsan, tempus orci vel, consequat libero. Vestibulum dolor orci, varius at nunc ac, dapibus tincidunt risus. 
-                                Vestibulum elementum leo eget ornare porttitor. Cras nec ornare nisi, eget egestas orci. Donec rutrum tincidunt aliquet. In vel ligula nec tortor auctor consectetur 
-                                sit amet non diam. Etiam sit amet placerat eros (<xref ref-type="bibr" rid="bib52">Zhang et al., 2010</xref>; <xref ref-type="bibr" rid="bib42">Smit and Hubley, 2010</xref>). 
-                                Donec molestie massa purus, eget hendrerit enim porttitor vitae. Ut finibus eleifend tortor at lacinia.</p>
-                            <p>Morbi a congue dolor, vitae feugiat ligula. Aenean aliquet mauris ac semper porttitor. Nullam ac enim et tortor malesuada interdum. Ut vitae ornare velit. 
-                                Duis et sem urna. Nulla blandit feugiat neque id congue. In tincidunt ullamcorper nisi sed fringilla. Nullam sodales orci tristique lorem scelerisque, vel mollis mi
-                                consequat. Ut in pharetra lectus, in luctus augue. Proin tempor venenatis luctus. Nam pretium ipsum non vestibulum posuere (<xref ref-type="bibr" rid="bib37">Roy et al., 
-                                    2013</xref>; <xref ref-type="bibr" rid="bib39">Schrödinger, 2011</xref>; and <xref ref-type="bibr" rid="bib41">Scripps Translational Science Institute, 2015</xref>).</p>
                     </boxed-text>
                  </sec>
                 <sec id="s2-6-2">
