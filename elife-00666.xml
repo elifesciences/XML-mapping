@@ -1880,7 +1880,7 @@ All supplementary files are listed here -->
             <supplementary-material id="sdata1">   
                 <!-- UPDATE: DOI prefix added to display--> 
                 <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.020</object-id>
-                <label>Source data 1</label>
+                <label>Source data 1.</label>
                 <caption>
                     <title>This is the title of the source data that is not attached to a specific figure, but to the article as a whole.</title>
                 </caption>
@@ -1889,7 +1889,7 @@ All supplementary files are listed here -->
             <supplementary-material id="scode1">   
                 <!-- UPDATE: DOI prefix added to display--> 
                 <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.021</object-id>
-                <label>Source code 1</label>
+                <label>Source code 1.</label>
                 <caption>
                     <title>This is the title of the source code that is not attached to a specific figure, but to the article as a whole.</title>
                 </caption>
