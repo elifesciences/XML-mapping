@@ -278,6 +278,32 @@ affiliations are truncated compared to normal author affiliations (usually just 
                         <country>Canada</country>
                     </aff>
                 </contrib>
+                        <contrib>
+                            <name>
+                                <surname>Wilkinson</surname>
+                                <given-names>Chris</given-names>
+                            </name>
+                            <aff>
+                                <institution>eLife</institution>,
+                                <addr-line>
+                                    <named-content content-type="city">Cambridge</named-content>
+                                </addr-line>
+                                <country>United Kingdom</country>
+                            </aff>
+                        </contrib>
+                        <contrib>
+                            <name>
+                                <surname>Skibinski</surname>
+                                <given-names>Luke</given-names>
+                            </name>
+                            <aff>
+                                <institution>eLife</institution>,
+                                <addr-line>
+                                    <named-content content-type="city">Cambridge</named-content>
+                                </addr-line>
+                                <country>United Kingdom</country>
+                            </aff>
+                        </contrib>
             </contrib-group>
             </collab>
                     <xref ref-type="aff" rid="aff2">2</xref>
