@@ -513,7 +513,7 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
                             </mml:mrow>
                         </mml:mrow>
                     </mml:math>
-                </p>
+                .</p>
                 <p>eLife does not structure abstracts into sub headings expect in a clinical trial article, but the abstract can have
                     multiple paragarahs. The sub DOI is always .001 as it is the first asset in any
                     article. I have added an unmatched > bracket as this has been an issue for PubMed deposits in the past.</p>
