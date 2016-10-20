@@ -161,8 +161,7 @@ author. There is no display text associated with this link-->
 They are no longer separated from their group name in tagging and linked by author key. Multiple group authors are allowed and their position in the author
 list displayed in the PDF is retained as per the XML order-->
                 <contrib contrib-type="author">
-                    <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
-                    <collab>eLife Editorial Production Group
+                   <collab>eLife Editorial Production Group
                         <contrib-group>
 <!-- UPDATE: use of role in group authors. If a group author is subdivided into sections or sub-groups, this is indicated using the role tag-->                           
                             <role>Writing group</role>
@@ -256,12 +255,9 @@ list displayed in the PDF is retained as per the XML order-->
                             </contrib>
                         </contrib-group>
                 </collab>
+                    <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
-                    <xref ref-type="aff" rid="aff2">2</xref>
-                    <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
-                    <xref ref-type="fn" rid="conf3"/>
-                    <xref ref-type="fn" rid="con3"/>
                     <collab>eLife Technology Group
                     <contrib-group>
                         <contrib>
@@ -284,6 +280,10 @@ affiliations are truncated compared to normal author affiliations (usually just 
                 </contrib>
             </contrib-group>
             </collab>
+                    <xref ref-type="aff" rid="aff2">2</xref>
+                    <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
+                    <xref ref-type="fn" rid="conf3"/>
+                    <xref ref-type="fn" rid="con3"/>
             </contrib>
 <!-- 'on behalf of' can be used in any position of the author list. It must be retained in the correct position in the author list. 
 Most of the time it is the last entry, but this is not a requirement.
