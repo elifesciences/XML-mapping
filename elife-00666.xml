@@ -1592,7 +1592,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
-                        with ttwo sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—Source data 1</xref> and <xref ref-type="supplementary-material"
+                        with two sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—Source data 1</xref> and <xref ref-type="supplementary-material"
                             rid="fig3sdata1video1">Figure 3—figure supplement 1—Video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhong et al., 
                             2013</xref>; <xref ref-type="bibr" rid="bib51">World Health Organization, 2016</xref>).</p>
                     <!-- UPDATE: new method of modelling supplementary material for a figure
