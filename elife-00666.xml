@@ -1059,6 +1059,15 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     </tr>
                                 </tbody>
                             </table>
+                            <table-wrap-foot>
+                                <!-- table-wrap-foot should contain any footnotes for the table. It should NOT be used for the table caption. 
+                                    Each footnote with a cross link to text within the table should contain an id and a <label> (see table 2). 
+                                    However, some footnotes do not have crosslinking and so are allowed but cannot have an id or label-->
+                                <fn>
+                                    <p>Footnotes not linked to content within the table text are usually to define abbreviations. For example:</p>
+                                    <p>WT, wild type.</p>
+                                </fn>
+                            </table-wrap-foot>
                         </table-wrap>
                     <!-- -->
                     <p><xref ref-type="table" rid="table2">Table 2</xref> is an example of a standard table that will be the width of the text column in the PDF. It does not contain
@@ -1155,7 +1164,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         </table>
                         <table-wrap-foot>
                             <!-- table-wrap-foot should contain any footnotes for the table. It should NOT be used for the table caption. Each footnote should 
-                                have an identifying lable (exception: inline tables, see below) -->
+                                have an identifying lable (exception: inline tables, undesignated footnotes and abbreviations. These typese of footnotes should not contain an id or a label) -->
                             <fn id="tablefn1"><label>*</label>
                                 <p>Footnotes can be used to highlight properties of data reported in a table such as statistical significance. They are separate from
                                     the table caption and appear afterwards. They are hyperlinked to allow easy navigation. Footnotes in tables use the same standard
@@ -1163,6 +1172,9 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             </fn>
                             <fn id="tablefn2"><label>†</label>
                                 <p>Authors are fully allowed to cite references and figures in tables. There is no difference in citation style between the main text and tables.</p>
+                            </fn>
+                            <fn><p>Order: Designated footnotes (e.g. &#x2a;, &#x2020;, &#x2021;, &#167;, &#035;, &#182;, &#x2a;&#x2a;, and so on), 
+                                p value footnotes (&#x2a;p, &#x2a;&#x2a;p, &#x2a;&#x2a;&#x2a;p), undesignated footnotes and abbreviations.</p>
                             </fn>
                         </table-wrap-foot>
                     </table-wrap>
