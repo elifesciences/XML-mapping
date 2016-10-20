@@ -1759,7 +1759,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 <sec id="s2-6-2">
                     <title>RRIDs</title>
                 <p>If an author mentions an RRID in their content, it is required that we link it, for example, 
-                    <ext-link ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:IMSR_JAX:004435">RRID:IMSR_JAX:004435</ext-link></p>
+                    <ext-link ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:IMSR_JAX:004435">RRID:IMSR_JAX:004435</ext-link>.</p>
                 </sec>
                 <sec id="s2-6-3">
                     <title>Coloured text</title>
