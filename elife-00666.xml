@@ -256,6 +256,7 @@ list displayed in the PDF is retained as per the XML order-->
                         </contrib-group>
                 </collab>
                     <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
+                    <xref ref-type="fn" rid="con3"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
                     <collab>eLife Technology Group
@@ -309,7 +310,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                     <xref ref-type="aff" rid="aff2">2</xref>
                     <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
                     <xref ref-type="fn" rid="conf3"/>
-                    <xref ref-type="fn" rid="con3"/>
+                    <xref ref-type="fn" rid="con4"/>
             </contrib>
 <!-- 'on behalf of' can be used in any position of the author list. It must be retained in the correct position in the author list. 
 Most of the time it is the last entry, but this is not a requirement.
@@ -1841,6 +1842,9 @@ but these should be present in the textual entry (see below)-->
                     <p>Contributed to the XML mapping exercise and quality checked all the tagging and content</p>
                 </fn>
                 <fn fn-type="con" id="con3">
+                    <p>Reviewed the PDF product</p>
+                </fn>
+                <fn fn-type="con" id="con4">
                     <p>Chris Wilkinson, performed the XML mapping exercise and generated the JSON Schema</p>
                     <p>Graham Nott, wrote the JATSscraper</p>
                     <p>Luke Skibinski, identified missing components from the JATSscraper</p>
