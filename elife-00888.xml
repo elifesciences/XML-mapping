@@ -107,10 +107,11 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 <copyright-year>2016</copyright-year>
                 <copyright-holder>Schekman et al</copyright-holder>
                 <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref>
                     <license-p>This article is distributed under the terms of the <ext-link
-                            ext-link-type="uri"
-                            xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
-                            Commons Attribution License</ext-link> , which permits unrestricted use
+                        ext-link-type="uri"
+                        xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
+                        Commons Attribution License</ext-link>, which permits unrestricted use
                         and redistribution provided that the original author and source are
                         credited.</license-p>
                 </license>
@@ -155,7 +156,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 rid="bib9">van Noorden, 2014 </xref>). These journal-specific reporting forms are to
             be used in conjunction with established reporting guidelines that cover specific types
             of studies (such as randomised trials, observational studies, systematic reviews and so
-            on: see <xref ref-type="bibr" rid="bib2">Equator Network, 2016</xref> ). This editorial
+            on: see <xref ref-type="bibr" rid="bib2">Equator Network, 2016</xref>). This editorial
             describes the four elements in the transparent reporting form that was introduced by
                 <italic>eLife</italic> last August; authors are required to complete this form
             before their manuscript is sent for peer review.</p>
