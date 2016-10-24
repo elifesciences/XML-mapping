@@ -54,7 +54,6 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                         <given-names>Robin</given-names>
                     </name>
                     <email>robin.fears@easac.eu</email>
-                    <role>Director of the Biosciences Programme</role>
                     <xref ref-type="aff" rid="aff1"/>
                     <xref ref-type="fn" rid="conf1"/>
                     <!-- bio has been added so the features team have a location to place the textual description of the author, role, affiliation and any thing else. 
