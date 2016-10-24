@@ -26,7 +26,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
         </journal-meta>
         <article-meta>
             <article-id pub-id-type="publisher-id">00999</article-id>
-            <article-id pub-id-type="doi">10.7554/eLife.00999</article-id>
+            <article-id pub-id-type="doi">https://doi.org/10.7554/eLife.00999</article-id>
             <article-categories>
                 <subj-group subj-group-type="heading">
                     <subject>Microbiology and infectious disease</subject>
@@ -494,7 +494,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <volume>6</volume>
                     <elocation-id>e01236-15</elocation-id>
                     <lpage>15</lpage>
-                    <pub-id pub-id-type="doi">10.1128/mBio.01236-15</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1128/mBio.01236-15</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib2">
@@ -535,7 +535,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <source>Science</source>
                     <volume>349</volume>
                     <fpage>1153</fpage>
-                    <pub-id pub-id-type="doi">10.1126/science.349.6253.1153</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1126/science.349.6253.1153</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib4">
@@ -592,7 +592,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <volume>343</volume>
                     <fpage>368</fpage>
                     <lpage>369</lpage>
-                    <pub-id pub-id-type="doi">10.1126/science.343.6169.368-b</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1126/science.343.6169.368-b</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib8">
@@ -644,7 +644,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                         viruses</article-title>
                     <source>Nature Communications</source>
                     <fpage>8148</fpage>
-                    <pub-id pub-id-type="doi">10.1038/ncomms9148</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1038/ncomms9148</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib9">
@@ -768,7 +768,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <source>eLife</source>
                     <volume>3</volume>
                     <elocation-id>e03883</elocation-id>
-                    <pub-id pub-id-type="doi">10.7554/eLife.03883</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.7554/eLife.03883</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib10">
@@ -874,7 +874,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <volume>5</volume>
                     <elocation-id>e02430-14</elocation-id>
                     <lpage>14</lpage>
-                    <pub-id pub-id-type="doi">10.1128/mBio.02430-14</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1128/mBio.02430-14</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib11">
@@ -914,7 +914,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <source>Journal of the Royal Society Interface</source>
                     <volume>11</volume>
                     <fpage>20140950</fpage>
-                    <pub-id pub-id-type="doi">10.1098/rsif.2014.0950</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1098/rsif.2014.0950</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib12">
@@ -930,7 +930,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                         research</article-title>
                     <source>Frontiers in Public Health</source>
                     <volume>2</volume>
-                    <pub-id pub-id-type="doi">10.3389/fpubh.2014.00077</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.3389/fpubh.2014.00077</pub-id>
                 </element-citation>
             </ref>
         </ref-list>
@@ -938,7 +938,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
     <!-- Feature 1 content does not usually contain a Decision and Response section. However, the author may request that this be included -->
     <sub-article article-type="decision-letter" id="SA1">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.00999.001</article-id>
+            <article-id pub-id-type="doi">https://doi.org/10.7554/eLife.00999.001</article-id>
             <title-group>
                 <article-title>Decision letter</article-title>
             </title-group>
@@ -978,7 +978,7 @@ UPDATE: punctuation between institution and country removed. -->
     </sub-article>
     <sub-article article-type="reply" id="SA2">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.00999.002</article-id>
+            <article-id pub-id-type="doi">https://doi.org/10.7554/eLife.00999.002</article-id>
             <title-group>
                 <article-title>Author response</article-title>
             </title-group>
