@@ -1547,7 +1547,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <!-- Assets within eLife might not always be published under a CC BY license although we endevour to do so. This is an example of how to add a
                                 separate permission statement so it is clear to the human and machine reader that this asset cannot be reused. -->
                             <permissions>
-                                <copyright-statement>© 2016 eLife. All rights reserved</copyright-statement>
+                                <copyright-statement>&#x00A9; 2016 eLife. All rights reserved</copyright-statement>
                                 <copyright-year>2016</copyright-year>
                                 <copyright-holder>eLife</copyright-holder>
                                 <license>
