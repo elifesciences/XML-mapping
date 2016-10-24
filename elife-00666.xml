@@ -3579,7 +3579,7 @@ Appendices must have DOIs -->
                             <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.025</object-id>
                             <label>Appendix 1—Figure 1—Figure Supplement 1.</label>
                             <caption>
-                                <title>Appendix figure figure supplement title.</title>
+                                <title>Appendix figure supplement title.</title>
                                 <p>If there is a caption to accompany the title it would display here.</p>
                             </caption>
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app1-fig1-figsupp1.tiff"/>
