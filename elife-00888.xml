@@ -24,7 +24,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
         </journal-meta>
         <article-meta>
             <article-id pub-id-type="publisher-id">00888</article-id>
-            <article-id pub-id-type="doi">10.7554/eLife.00888</article-id>
+            <article-id pub-id-type="doi">https://doi.org/10.7554/eLife.00888</article-id>
             <article-categories>
                 <!-- @subj-group-type "sub-display-channel" - This is the editorially defined header for this article and it is not from a predefined list. 
         It is displayed in all caps on the PDF above the title. On the website it prefixes the article title, followed by a colon.-->
@@ -392,7 +392,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <source>eLife</source>
                     <volume>4</volume>
                     <elocation-id>e08351</elocation-id>
-                    <pub-id pub-id-type="doi">10.7554/eLife.08351</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.7554/eLife.08351</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib4">
@@ -408,7 +408,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <source>PLoS Medicine</source>
                     <volume>11</volume>
                     <elocation-id>e1001747</elocation-id>
-                    <pub-id pub-id-type="doi">10.1371/journal.pmed.1001747</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1371/journal.pmed.1001747</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib5">
@@ -517,7 +517,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <source>eLife</source>
                     <volume>4</volume>
                     <elocation-id>e05519</elocation-id>
-                    <pub-id pub-id-type="doi">10.7554/eLife.05519</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.7554/eLife.05519</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib6">
@@ -533,7 +533,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <source>Science</source>
                     <volume>345</volume>
                     <fpage>9</fpage>
-                    <pub-id pub-id-type="doi">10.1126/science.1257891</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1126/science.1257891</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib7">
@@ -546,7 +546,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <source>Nature</source>
                     <volume>496</volume>
                     <fpage>398</fpage>
-                    <pub-id pub-id-type="doi">10.1038/496398a</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1038/496398a</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib8">
@@ -715,7 +715,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <volume>348</volume>
                     <fpage>1422</fpage>
                     <lpage>1425</lpage>
-                    <pub-id pub-id-type="doi">10.1126/science.aab2374</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1126/science.aab2374</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib9">
@@ -729,7 +729,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <year iso-8601-date="2014">2014</year>
                     <article-title>Science joins push to screen statistics in papers</article-title>
                     <source>Nature</source>
-                    <pub-id pub-id-type="doi">10.1038/nature.2014.15509</pub-id>
+                    <pub-id pub-id-type="doi">https://doi.org/10.1038/nature.2014.15509</pub-id>
                 </element-citation>
             </ref>
         </ref-list>
