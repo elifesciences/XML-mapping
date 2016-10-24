@@ -119,19 +119,21 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 </date>
             </history>
             <permissions>
-                <copyright-statement>&#x00A9; 2016, Fears et al</copyright-statement>
+                <copyright-statement>&#x00A9; 2016, Fears and Volker</copyright-statement>
                 <copyright-year>2016</copyright-year>
-                <copyright-holder>Fears et al</copyright-holder>
+                <copyright-holder>Fears and Volker</copyright-holder>
+                <ali:free_to_read/>
                 <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref>
                     <license-p>This article is distributed under the terms of the <ext-link
-                            ext-link-type="uri"
-                            xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
-                            Commons Attribution License</ext-link> , which permits unrestricted use
+                        ext-link-type="uri"
+                        xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
+                        Commons Attribution License</ext-link>, which permits unrestricted use
                         and redistribution provided that the original author and source are
                         credited.</license-p>
                 </license>
             </permissions>
-            <self-uri content-type="pdf" xlink:href="elife-00888.pdf"/>
+           <self-uri content-type="pdf" xlink:href="elife-00888.pdf"/>
             <abstract>
                 <p>A working group on gain-of-function research set up by the European Academies
                     Science Advisory Council (EASAC) has emphasised the importance of ensuring that
