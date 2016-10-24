@@ -1680,7 +1680,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             </title>
                             <p><supplementary-material id="video1sdata1">
                                 <!-- UPDATE: DOI prefix added to display--> 
-                                <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.015</object-id>
+                                <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.036</object-id>
                                 <label>Video 1—Source data 1.</label>
                                 <caption>
                                     <title>Title of the source code.</title>
