@@ -213,7 +213,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 work by the World Health Organisation and the OECD in this area).</p>
             <!-- Feature 1 content can contain Boxes; no assets in Feature 1 content are assigned DOIs -->
             <boxed-text id="box1">
-                <label>Box1.</label>
+                <label>Box 1.</label>
                 <caption>
                     <title>Making PhD programmes better and shorter</title>
                 </caption>
