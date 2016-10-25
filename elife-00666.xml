@@ -1851,15 +1851,15 @@ but these should be present in the textual entry (see below)-->
             <fn-group content-type="ethics-information">
                 <title>Ethics</title>
                 <fn fn-type="other">
-                    <p>If this article was part of a clinical trial the Clinical trial registry and ID would be listed here, for example:</p>
-                    <p>Clinical trial Registry: EudraCT.</p>
-                    <p>Registration ID: EudraCT2004-000446-20.</p>
-                </fn>
-                <fn fn-type="other">
                     <p>
                         Human subjects: If Research Ethics Committee and Institutional Review Board approval was required for this article the details would be listed here.
                         Animal subjects: If there were animal subjects involved in the study the approval number for the research along with protocol approval would be listed here. 
                     </p>
+                </fn>
+                <fn fn-type="other">
+                    <p>If this article was part of a clinical trial the Clinical trial registry and ID would be listed here, for example:</p>
+                    <p>Clinical trial Registry: EudraCT.</p>
+                    <p>Registration ID: EudraCT2004-000446-20.</p>
                 </fn>
             </fn-group>
         </sec>
