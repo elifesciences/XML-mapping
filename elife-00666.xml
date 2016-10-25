@@ -1843,9 +1843,9 @@ but these should be present in the textual entry (see below)-->
                     <p>Reviewed the PDF product</p>
                 </fn>
                 <fn fn-type="con" id="con4">
-                    <p>Chris Wilkinson, performed the XML mapping exercise and generated the JSON Schema</p>
-                    <p>Graham Nott, wrote the JATSscraper</p>
-                    <p>Luke Skibinski, identified missing components from the JATSscraper</p>
+                    <p>Chris Wilkinson, Performed the XML mapping exercise and generated the JSON Schema</p>
+                    <p>Graham Nott, Wrote the JATSscraper</p>
+                    <p>Luke Skibinski, Identified missing components from the JATSscraper</p>
                 </fn>
             </fn-group>
             <fn-group content-type="ethics-information">
