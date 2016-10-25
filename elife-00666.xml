@@ -285,6 +285,8 @@ affiliations are truncated compared to normal author affiliations (usually just 
                                 <surname>Wilkinson</surname>
                                 <given-names>Chris</given-names>
                             </name>
+                            <email>c.wilkinson@elifesciences.org</email>
+                            <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4921-6155</contrib-id>
                             <aff>
                                 <institution>eLife</institution>,
                                 <addr-line>
