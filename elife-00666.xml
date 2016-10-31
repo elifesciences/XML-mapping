@@ -2468,7 +2468,7 @@ The tagging of the collaborator name again within this section is required for P
             <article-title>The Imprinter of All Maladies</article-title>
             <source>it is NOT junk</source>
             <ext-link ext-link-type="uri" xlink:href='http://www.michaeleisen.org/blog/?p=1894'>http://www.michaeleisen.org/blog/?p=1894</ext-link>
-            <date-in-citation iso-8601-date="2016-08-19">August 8, 2016</date-in-citation>
+            <date-in-citation iso-8601-date="2016-08-19">August 19, 2016</date-in-citation>
         </element-citation>
     </ref>
 <!-- Data citation -->
@@ -2601,7 +2601,7 @@ The tagging of the collaborator name again within this section is required for P
                     <given-names>L</given-names>
                 </name>
             </person-group>
-            <year>2010</year>
+            <year iso-8601-date="2010">2010</year>
             <article-title>
                 Ruffus: a lightweight Python library for computational pipelines
             </article-title>
@@ -2802,7 +2802,7 @@ The tagging of the collaborator name again within this section is required for P
             <data-title>Data from: Genome-wide errant targeting by Hairy</data-title>
             <source>Dryad Digital Repository</source>
             <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository"
-                xlink:href="http://datadryad.org/resource/doi:10.5061/dryad.cv323"
+                xlink:href="https://doi.org/10.5061/dryad.cv323"
                 >https://doi.org/10.5061/dryad.cv323</pub-id>
         </element-citation>
     </ref>
@@ -3073,9 +3073,9 @@ The tagging of the collaborator name again within this section is required for P
                 </name>
             </person-group>
             <year iso-8601-date="2015">2015b</year>
-            <article-title>Transcription profiling by high throughput sequencing of LoVo
+            <data-title>Transcription profiling by high throughput sequencing of LoVo
                 cells infected with Listeria for 24 hr compared to uninfected
-                cells</article-title>
+                cells</data-title>
             <source>ArrayExpress</source>
             <pub-id pub-id-type="accession"
                 xlink:href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3649/"
@@ -3189,7 +3189,7 @@ The tagging of the collaborator name again within this section is required for P
             <person-group person-group-type="sponsor">
                 <collab>Scripps Translational Science Institute</collab>
             </person-group>
-            <year iso-8601-date="2006">2015</year>
+            <year iso-8601-date="2015">2015</year>
             <article-title>Scripps Wired for Health Study</article-title>
             <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01975428">NCT01975428</ext-link>
         </element-citation>
@@ -3378,9 +3378,10 @@ The tagging of the collaborator name again within this section is required for P
                     <given-names>J</given-names>
                 </name>
             </person-group>
-            <year iso-8601-date="1995">1995</year>
-            <article-title>Solar System Live</article-title>
+
+            <source>Solar System Live</source>
             <ext-link ext-link-type="uri" xlink:href='https://www.fourmilab.ch/solar/'>https://www.fourmilab.ch/solar/</ext-link>
+            <date-in-citation iso-8601-date="1995-09-10">September 10, 1995</date-in-citation>
         </element-citation>
     </ref>
     <!-- Journal reference: elocation-id and DOI and PMID -->
