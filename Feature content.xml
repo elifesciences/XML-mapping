@@ -208,22 +208,18 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
     <body>
         <!-- The key info box only exists for Insights, template 1-->
         <boxed-text>
-            <p>
-                <bold>Related research article</bold> Umu SU, Poole AM, Dobson RCJ, Gardner PP.
+            <p><bold>Related research article</bold> Umu SU, Poole AM, Dobson RCJ, Gardner PP.
                 2016. Avoidance of stochastic RNA interactions can be harnessed to control protein
                 expression levels in bacteria and archaea. <italic>eLife</italic>
                 <bold>5</bold>:e13479. doi:<ext-link ext-link-type="uri"
                     xlink:href="http://dx.doi.org/10.7554/eLife.13479"
-                    >https://doi.org/10.7554/eLife.13479</ext-link>
-            </p>
-            <p>
-                <bold>Related research article</bold>PM,  Mike Boots.
+                    >https://doi.org/10.7554/eLife.13479</ext-link></p>
+            <p><bold>Related research article</bold>PM,  Mike Boots.
                 2016. Avoidance of stochastic RNA interactions can be harnessed to control protein
                 expression levels in bacteria and archaea. <italic>eLife</italic>
                 <bold>5</bold>:e13479. doi:<ext-link ext-link-type="uri"
                     xlink:href="http://dx.doi.org/10.7554/eLife.13479"
-                    >https://doi.org/10.7554/eLife.13479</ext-link>
-            </p>
+                    >https://doi.org/10.7554/eLife.13479</ext-link></p>
         </boxed-text>
         <!-- end of key info box. Only present for template 1 -->
         <p>Feature content is different to the research content because it is "magazine"-style and is commissioned. 
@@ -253,17 +249,17 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
             <title>Level 2 heading</title>
         <list list-type="order">
             <list-item>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor venenatis
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor venenatis
                     eros ut pharetra. Suspendisse id urna lacus. Aliquam a interdum sem. Nulla at
                     scelerisque tellus. Maecenas semper ipsum ut tortor interdum lacinia. Nam
                     commodo nibh rhoncus justo facilisis, nec finibus justo ultrices. Nam
                     ullamcorper gravida felis, eu consectetur arcu fringilla nec. Morbi et lorem
                     erat. Nullam suscipit tellus ac nibh accumsan tincidunt. Praesent ullamcorper,
                     magna vitae ornare viverra, turpis arcu suscipit odio, at commodo nisi felis non
-                    mi. Cras accumsan justo eget urna maximus egestas. </p>
+                    mi. Cras accumsan justo eget urna maximus egestas.</p>
             </list-item>
             <list-item>
-                <p> Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in
+                <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in
                     pulvinar leo. Integer nisi erat, blandit et erat ut, auctor pharetra massa.
                     Vestibulum enim risus, vehicula at fermentum et, accumsan ut lorem. Ut egestas
                     pretium aliquet. Vestibulum tortor ex, ultrices id eleifend eu, ullamcorper eu
@@ -271,10 +267,12 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     ullamcorper tincidunt velit. Curabitur sed eros eget ante feugiat auctor. Duis
                     nec pharetra eros. Maecenas eget dignissim odio. Curabitur tincidunt et massa ut
                     dignissim. Mauris euismod dui arcu, vel venenatis augue elementum at. Nam
-                    posuere consectetur dignissim. Aliquam erat volutpat.</p>
+                    posuere consectetur dignissim. Aliquam erat volutpat. Here is an example of a url reference:
+                    <ext-link ext-link-type="uri" xlink:href="http://imaging.mrc-cbu.cam.ac.uk/statswiki/FAQ/effectSize"
+                        >Link to website</ext-link>.</p>
             </list-item>
             <list-item>
-                <p> Morbi volutpat porttitor purus in convallis. In arcu eros, aliquet vel sodales
+                <p>Morbi volutpat porttitor purus in convallis. In arcu eros, aliquet vel sodales
                     quis, pellentesque ut dolor. Vivamus efficitur velit in pellentesque pharetra.
                     Mauris semper dignissim tellus sit amet tempor. Sed sapien nulla, vehicula a
                     auctor sed, consectetur non nisi. Vestibulum ullamcorper semper diam, ac
@@ -285,7 +283,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     eget feugiat leo. Maecenas ut aliquet dui. Mauris quis tellus risus.</p>
             </list-item>
             <list-item>
-                <p> Etiam arcu ex, porta eget sem vel, varius lobortis sapien. Integer dapibus sed
+                <p>Etiam arcu ex, porta eget sem vel, varius lobortis sapien. Integer dapibus sed
                     elit sit amet blandit. Donec tincidunt ante nec posuere vehicula. In purus
                     tortor, egestas a nibh eu, sollicitudin tincidunt ex. Praesent sodales tempor
                     purus a imperdiet. Nunc quis ipsum in tortor tristique faucibus ut vel urna.
@@ -438,9 +436,9 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
             the mRNA will be 65000/1024 ≈ 63. Given the number of mRNAs and noncoding RNAs that are
             found in cells, random interactions between the two are inevitable. However, if we find
             that a given mRNA has base-pairing interactions with fewer noncoding RNAs than expected,
-            then this is avoidance (<xref ref-type="fig" rid="fig1">Figure 1A</xref>).</p>
-        <boxed-text id="box2">
-            <label>Box 2.</label>
+            then this is avoidance (<xref ref-type="fig" rid="fig1">Figure 1</xref>).</p>
+        <boxed-text id="box1">
+            <label>Box 1.</label>
             <caption>
                 <title>Making PhD programmes better and shorter</title>
             </caption>
@@ -459,21 +457,8 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
         <fig id="fig1" position="float">
             <label>Figure 1.</label>
             <caption>
-                <title>Random interactions between mRNAs and noncoding RNAs. </title>
-                <p> ( <bold>A</bold> ) A given region of mRNA (pink) should undergo random
-                    base-pairing interactions with a certain number of noncoding RNAs (orange).
-                    However, a phenomenon called "avoidance" results in the number of observed
-                    pairings (right) being fewer than the number expected by chance (left). This
-                    simplified picture does not allow for the influence of binding energies and
-                    other effects. ( <bold>B</bold> ) The ability of RNA molecules to fold into
-                    complex structures means that mRNA-noncoding RNA interactions can have a range
-                    of binding energies (see color bar). "Avoidance" results in the observed binding
-                    energies (right) being, on average, weaker than the binding energies expected by
-                    chance (left). Umu et al. report a significant difference in binding energy
-                    distributions in 73% of bacterial and archeal species. ( <bold>C</bold> ) If a
-                    random base-pairing interaction results in a noncoding RNA pairing with part or
-                    all of a start codon in an mRNA, the ribosome will not be able to translate the
-                    mRNA.</p>
+                <title>One column wide</title>
+                <p>This figure should be typeset at the width of one text column.</p>
             </caption>
             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig1.tiff"/>
             <!-- Where a credit is required for an image, this will be added using the <attrib> tag at the end of the figure block -->
@@ -490,8 +475,8 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
             RNAs. The RNAs include a core set of 114 mRNAs that are well conserved across bacteria
             (including 40 that are also conserved across archaea) and 325 noncoding RNAs from six
             families of RNA that are also well conserved across bacterial and archaeal species. </p>
-        <boxed-text id="box1">
-            <label>Box 1.</label>
+        <boxed-text id="box2">
+            <label>Box 2.</label>
             <caption>
                 <title>Further resources</title>
             </caption>
@@ -545,6 +530,30 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
             the goal was to observe selection against <italic>accidental</italic> interactions
             between mRNAs and the large and diverse set of noncoding RNAs that are resident in the
             cell. </p>
+                    <fig id="fig2" position="float">
+                        <label>Figure 2.</label>
+                        <caption>
+                            <title>One column wide and the margin</title>
+                            <p>This figure should be typeset at the width of one text column and the margin.</p>
+                        </caption>
+                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig2.tiff"/>
+                    </fig>
+                    <fig id="fig3" position="float">
+                        <label>Figure 3.</label>
+                        <caption>
+                            <title>Two column wide</title>
+                            <p>This figure should be typeset at the width of both text columns.</p>
+                        </caption>
+                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig3.tiff"/>
+                    </fig>
+                    <fig id="fig4" position="float">
+                        <label>Figure 4.</label>
+                        <caption>
+                            <title>Two column wide and the margin</title>
+                            <p>This figure should be typeset at the width of both text columns and the margin.</p>
+                        </caption>
+                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig4.tiff"/>
+                    </fig>
         <!-- Videos: Like figures, they do not have DOIs.
         UPDATE: This no longer required for videos: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
         UPDATE: changed id to videoX -->
