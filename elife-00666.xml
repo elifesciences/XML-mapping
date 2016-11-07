@@ -626,17 +626,17 @@ Impact statement:-->
                 Before you submit your work, please note that eLife is a very selective journal that aims to publish
                 work of the highest scientific standards and importance. Leading academic
                 researchers evaluate new submissions and approximately two-thirds are returned to
-                the authors without further peer review. See  <xref ref-type="bibr" rid="bib12">DeLano, 2012</xref> and <xref ref-type="bibr" rid="bib13">
+                the authors without further peer review. See  <xref ref-type="bibr" rid="bib12">DeLano, 2002</xref> and <xref ref-type="bibr" rid="bib13">
                     Morgan, 2016</xref>. Approximately half of the articles that are
-                    selected for peer review go on to be published (<xref ref-type="bibr" rid="bib6">Brettar et al., 2014b</xref>). If other researchers publish similar
+                    selected for peer review go on to be published (<xref ref-type="bibr" rid="bib5">Brettar et al., 2004a</xref>). If other researchers publish similar
                 findings after submission, this will not be a reason for rejection. The eLife
-                editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings et al., 2004</xref>; <xref ref-type="bibr" rid="bib50">
-                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib49">Walker, 1995</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al, 2016</xref>). If you are interested in
+                editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings and Wäckers, 2004</xref>; <xref ref-type="bibr" rid="bib50">
+                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib49">Walker, 1995</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al., 2016</xref>). If you are interested in
                 submitting your work to eLife, please review the guidelines relating to initial
                 submissions. If you have received an encouraging response to your initial
                 submission, please review the guidelines relating to full submissions. If your full
                 submission has been peer reviewed and you have been asked to make revisions, please
-                review our guidelines for revised submissions (<xref ref-type="bibr" rid="bib5">Brettar et al., 2014a</xref>).</p>
+                review our guidelines for revised submissions (<xref ref-type="bibr" rid="bib6">Brettar et al., 2004b</xref>).</p>
             <sec id="s1-1-1"> 
                 <title>Initial submission (level 3 heading)</title> 
                 <p>eLife publishes research of the very highest (<xref ref-type="bibr" rid="bib7">Bricogne et al., 2011</xref>) standard and significance, 
@@ -647,7 +647,7 @@ Impact statement:-->
                 for in-depth peer review (<xref ref-type="bibr" rid="bib8">Cardé and  Millar, 2004</xref>; <xref ref-type="bibr" rid="bib9">Cartwright, 2016</xref>; 
                 <xref ref-type="bibr" rid="bib10">Chmeil, 2008</xref>). To simplify the submission process, authors should submit
                 their full manuscript as a single PDF. Limited additional information is collected
-                via the submission screen questions to complete the submission (<xref ref-type="bibr" rid="bib6">Brettar et al., 2014b</xref>).</p>
+                via the submission screen questions to complete the submission (<xref ref-type="bibr" rid="bib6">Brettar et al., 2004b</xref>).</p>
             </sec>      
           <sec id="s1-1-2"> 
               <title>Full submission (level 3 heading)</title>
@@ -1108,7 +1108,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <!-- The next cell contains a coloured background using author-callout-style-b4 (Yellow) -->
                                     <td style="author-callout-style-b4">6.5 × 10<sup>4</sup></td>
                                     <!-- The next cell contains a reference -->
-                                    <td><xref ref-type="bibr" rid="bib12">DeLano, 2012</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib12">DeLano, 2002</xref></td>
                                 </tr>
                                 <tr>
                                     <!-- The next cell contains a coloured background using author-callout-style-b5 (Purple) -->
@@ -2283,7 +2283,7 @@ The tagging of the collaborator name again within this section is required for P
             <publisher-loc>Cambridge, UK</publisher-loc>
             <publisher-name>Global Phasing Ltd</publisher-name>
             <year iso-8601-date="2011">2011</year>
-            <uri xlink:href="https://www.globalphasing.com/buster/">https://www.globalphasing.com/buster/</uri>
+            <ext-link ext-link-type="uri" xlink:href="https://www.globalphasing.com/buster/">https://www.globalphasing.com/buster/</ext-link>
         </element-citation>
     </ref>
 <!-- Book reference: Editors, no chapter details -->
@@ -2317,7 +2317,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2016">2016</year>
             <article-title>The Venus Hypothesis</article-title>
             <source>arXiv.org</source>
-            <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1608.03074">arXiv:1608.03074</ext-link>
+            <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1608.03074">https://arxiv.org/abs/1608.03074</ext-link>
         </element-citation>
     </ref> 
 <!-- Book reference: Has edition, editor is author -->
@@ -2680,7 +2680,7 @@ The tagging of the collaborator name again within this section is required for P
             <source>Naccess</source>
             <publisher-name>Department of Biochemistry Molecular Biology, University College London</publisher-name>
             <version>V2.1.1</version>
-            <ext-link ext-link-type="uri" xlink:href="http://www.bioinf.manchester.ac.uk/naccess">www.bioinf.manchester.ac.uk/naccess</ext-link>
+            <ext-link ext-link-type="uri" xlink:href="http://www.bioinf.manchester.ac.uk/naccess">http://www.bioinf.manchester.ac.uk/naccess</ext-link>
         </element-citation>
     </ref>
 <!-- Reference to a conference: minimal info -->
@@ -2962,7 +2962,7 @@ The tagging of the collaborator name again within this section is required for P
         <year iso-8601-date="2015">2015</year>
         <publisher-loc>Vienna, Austria</publisher-loc>
         <publisher-name>R Foundation for Statistical Computing</publisher-name>
-        <uri xlink:href="http://www.r-project.org/">http://www.r-project.org/</uri>
+        <ext-link ext-link-type="uri" xlink:href="http://www.r-project.org/">http://www.r-project.org/</ext-link>
     </element-citation>
     </ref>
 <!-- Data reference: ProteomeXchange: pub-id-type="archive" - not clear what this number is, so default option -->
@@ -3095,7 +3095,7 @@ The tagging of the collaborator name again within this section is required for P
             <data-title>Image J</data-title>
             <publisher-loc>Bethesda, MA</publisher-loc>
             <publisher-name>US National Institutes of Health</publisher-name>
-            <uri xlink:href="http://imagej.nih.gov/ij/">http://imagej.nih.gov/ij/</uri>
+            <ext-link ext-link-type="uri" xlink:href="http://imagej.nih.gov/ij/">http://imagej.nih.gov/ij/</ext-link>
         </element-citation>
     </ref>
 <!-- Journal reference: in press -->
@@ -3191,7 +3191,7 @@ The tagging of the collaborator name again within this section is required for P
             </person-group>
             <year iso-8601-date="2015">2015</year>
             <article-title>Scripps Wired for Health Study</article-title>
-            <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01975428">NCT01975428</ext-link>
+            <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01975428">https://clinicaltrials.gov/ct2/show/NCT01975428</ext-link>
         </element-citation>
     </ref> 
   <!-- Software reference: No title -->
@@ -3212,7 +3212,7 @@ The tagging of the collaborator name again within this section is required for P
             <publisher-name>Institute for Systems Biology</publisher-name>
             <publisher-loc>Seattle, USA</publisher-loc>
             <version>open-1.0</version>
-            <uri xlink:href="http://www.repeatmasker.org/RepeatModeler.html">http://www.repeatmasker.org/RepeatModeler.html</uri>
+            <ext-link ext-link-type="uri" xlink:href="http://www.repeatmasker.org/RepeatModeler.html">http://www.repeatmasker.org/RepeatModeler.html</ext-link>
         </element-citation>
     </ref>
 <!-- Data reference: JASPAR -->
@@ -3379,7 +3379,7 @@ The tagging of the collaborator name again within this section is required for P
                 </name>
             </person-group>
 
-            <source>Solar System Live</source>
+            <article-title>Solar System Live</article-title>
             <ext-link ext-link-type="uri" xlink:href='https://www.fourmilab.ch/solar/'>https://www.fourmilab.ch/solar/</ext-link>
             <date-in-citation iso-8601-date="1995-09-10">September 10, 1995</date-in-citation>
         </element-citation>
@@ -3562,7 +3562,7 @@ Appendices must have DOIs -->
                         <object-id pub-id-type="doi">10.7554/eLife.00666.023</object-id>
                     <p>In order to prepare for this Kitchen sink we reviewed our archive and found common errors or miscommunication from the archive, tagging of <xref ref-type="fig" rid="app1fig1">Appendix 1—Figure 
                         1</xref> is a classic example and here the tagging is updated. Appendices figures can also have figure supplements, for example <xref ref-type="fig" rid="app1fig1s1">Appendix 1—Figure 
-                            1—Figure Supplement 1</xref> (<xref ref-type="bibr" rid="bib25">Koch, 1589</xref>).</p>
+                            1—Figure Supplement 1</xref> (<xref ref-type="bibr" rid="bib25">Koch, 1959</xref>).</p>
                     <fig-group>
                         <fig id="app1fig1" position="float">
                             <!-- UPDATE: DOI prefix added to display--> 
@@ -3571,7 +3571,7 @@ Appendices must have DOIs -->
                     <caption>
                         <title>Appendix figure title.
                         </title>
-                        <p>If there is a caption to accompany the title it would display here (<xref ref-type="bibr" rid="bib25">Koch, 1589</xref>).</p>
+                        <p>If there is a caption to accompany the title it would display here (<xref ref-type="bibr" rid="bib25">Koch, 1959</xref>).</p>
                     </caption>
                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app1-fig1.tiff"/>
                     </fig>
