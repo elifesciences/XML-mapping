@@ -495,7 +495,7 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
                 <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.001</object-id>
                 <p>This is the abstract. This article will describe the eLife article and the process.
                     An abstract can contain any formatting, such as <italic>italics</italic>,
-                        <bold>bold</bold>, <sup>superscript</sup> or <sub>subscript</sub>. MathML is
+                        <bold>bold</bold>, <sup>superscript</sup>, <sub>subscript</sub> or <sc>small caps</sc>. MathML is
                     also allowed: <mml:math>
                         <mml:mrow>
                             <mml:munder>
