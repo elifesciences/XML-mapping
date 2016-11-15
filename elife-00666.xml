@@ -1627,23 +1627,23 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                             <title>Title of the figure supplement source data.</title>
                                             <p>Legend of the figure supplement source data.</p>
                                         </caption>
-<!-- this is an example of an asset asked later on, so the DOI is the last DOI to prevent renumbering the others -->
-                                        <media mimetype="video" mime-subtype="mp4" id="fig3sdata1video1" xlink:href="elife-00666-media1.mp4">
-                                            <!-- UPDATE: DOI prefix added to display--> 
-                                            <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.035</object-id>
-                                            <label>Figure 3—figure supplement 1—Video 1.</label>
-                                            <caption>
-                                                <title>
-                                                    A description of the eLife editorial process.
-                                                </title>
-                                            </caption>
-                                        </media>
                                         <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-00666-fig3-figsupp1-data1.xlsx"/>
                                     </supplementary-material>
                                 </p>
                             </caption>
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig3-figsupp1.tiff"/>
                         </fig>
+                        <!-- this is an example of an asset asked later on, so the DOI is the last DOI to prevent renumbering the others -->
+                        <media mimetype="video" mime-subtype="mp4" id="fig3sdata1video1" xlink:href="elife-00666-media1.mp4">
+                            <!-- UPDATE: DOI prefix added to display--> 
+                            <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.035</object-id>
+                            <label>Figure 3—figure supplement 1—Video 1.</label>
+                            <caption>
+                                <title>
+                                    A description of the eLife editorial process.
+                                </title>
+                            </caption>
+                        </media>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig4">Figure 4</xref> is an example of a figure with source code (<xref ref-type="supplementary-material" rid="fig4scode1">Figure 4—Source code 1</xref>).</p>
                     <!-- UPDATE: this is changed tagging. -->
