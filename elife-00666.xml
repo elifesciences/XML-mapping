@@ -1634,10 +1634,10 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig3-figsupp1.tiff"/>
                         </fig>
                         <!-- this is an example of an asset asked later on, so the DOI is the last DOI to prevent renumbering the others -->
-                        <media mimetype="video" mime-subtype="mp4" id="fig3sdata1video1" xlink:href="elife-00666-media1.mp4">
+                        <media mimetype="video" mime-subtype="mp4" id="fig3video1" xlink:href="elife-00666-media1.mp4">
                             <!-- UPDATE: DOI prefix added to display--> 
                             <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.035</object-id>
-                            <label>Figure 3—figure supplement 1—Video 1.</label>
+                            <label>Figure 3—Video 1.</label>
                             <caption>
                                 <title>
                                     A description of the eLife editorial process.
