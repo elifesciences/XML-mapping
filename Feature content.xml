@@ -604,6 +604,10 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
             researchers and the wider world in the robustness and reliability of their published
             work.</p>
                 </sec>
+        <sec id="s5">
+            <title>Note</title>
+            <p>Any footnotes for Feature content are treated as plain text and are not crosslinked anywhere with a sympol.</p>
+        </sec>
     </body>
     <back>
         <!-- An Acknowledgements section is only occasionally present for Feature 1 content -->
