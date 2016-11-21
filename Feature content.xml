@@ -318,7 +318,8 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 <table-wrap id="table1" position="float">
             <label>Table 1.</label>
             <caption>
-                <title>A “snapshot” of the biomedical workforce from 2009</title>
+                    <title>This is the title.</title>
+                <p>This is the caption: A “snapshot” of the biomedical workforce from 2009.</p>
             </caption>
             <table frame="hsides" rules="groups">
                 <thead>
@@ -418,6 +419,11 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     </tr>
                 </tbody>
             </table>
+                    <table-wrap-foot>
+                        <fn>
+                            <p>PhD, doctor of philosophy</p>
+                        </fn>
+                    </table-wrap-foot>
         </table-wrap>
         <disp-quote>
             <p>Ultimately, we ask ourselves: does this manuscript constitute a substantial step

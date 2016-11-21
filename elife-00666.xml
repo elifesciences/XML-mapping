@@ -885,7 +885,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.003</object-id>
                             <label>Table 1.</label>
                             <caption>
-                                <p>A table containing interesting formating that is large enough to require landscape orientation in the PDF.</p>
+                                <title>This is the title.</title>
+                                <p>This is the caption: A table containing interesting formating that is large enough to require landscape orientation in the PDF.</p>
                             </caption>
                             <table frame="hsides" rules="groups">
                                 <thead>
