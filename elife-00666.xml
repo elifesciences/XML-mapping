@@ -1924,7 +1924,11 @@ The tagging of the collaborator name again within this section is required for P
                         source-id="https://github.com/elifesciences/XML-mapping/blob/master/elife-00666.xml"
                         source-id-type="uri" id="dataset1">
 <!--UPDATE: Add @collab-type="author" attribute. Change order of author name to first initial then surname-->  
-                        <collab collab-type="author">M Harrison</collab>
+                        <name>
+                            <surname>Harrison</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <collab collab-type="author">York University</collab>
 <!--UPDATE: Remove all punctuation that was prevously surrounding the tags--> 
                         <year iso-8601-date="2016">2016</year>
                         <source>xml-mapping</source>
