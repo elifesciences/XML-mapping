@@ -559,7 +559,8 @@ There is no limit to the number of award groups or on the number of authors assi
 Rules:
 One award-group per each unique award-id, although award-id is not required for each award-group.
 Minimum of one author per funding source. Maximum is the number of authors on the article.
-Individual members of a group authorship should not be named in the funding section, only the group author itself as it appears in the main author list -->
+Individual members of a group authorship should not be named in the funding section, only the group author itself as it appears in the main author list
+            UPDATE: if there is no Fundref ID then the @institution-id-type="FundRef" should not be present-->
             <funding-group>
                 <award-group id="fund1">
                     <funding-source>
