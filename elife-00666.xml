@@ -1925,7 +1925,7 @@ The tagging of the collaborator name again within this section is required for P
 <!--UPDATE: Add @collab-type="author" attribute. Change order of author name to first initial then surname-->  
                         <collab collab-type="author">M Harrison</collab>
 <!--UPDATE: Remove all punctuation that was prevously surrounding the tags--> 
-                        <year>2016</year>
+                        <year iso-8601-date="2016">2016</year>
                         <source>xml-mapping</source>
                         <ext-link ext-link-type="uri"
                             xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/elife-00666.xml"
@@ -1933,17 +1933,30 @@ The tagging of the collaborator name again within this section is required for P
                         <comment>Publicly available on GitHub</comment>
                     </related-object>
                 </p>
-                <p>The following previously published dataset was used:</p>
+                <p>The following previously published datasets were used:</p>
                 <p>
                     <related-object content-type="existing-dataset" source-id="https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml" 
                         source-id-type="uri" id="dataset2"> 
                         <collab collab-type="author">M Harrison</collab> 
-                        <year>2012</year>
+                        <year iso-8601-date="2012">2012</year>
                         <source>elife-vendor-workflow-config</source>
                         <ext-link ext-link-type="uri"
-                            xlink:href="https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml"
-                            >https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml</ext-link>
-                        <comment>Publicly available on GitHub</comment>
+                            xlink:href="https://github.com/elifesciences/elife-vendor-workflow-config">https://github.com/elifesciences/elife-vendor-workflow-config</ext-link>
+                        <comment>Publicly available on GitHub.</comment>
+                    </related-object>
+                </p>
+                <p>
+                    <related-object content-type="existing-dataset" source-id="https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml" 
+                        source-id-type="uri" id="dataset3"> 
+                        <collab collab-type="author">Kok K</collab>
+                        <collab collab-type="author">Ay A</collab>
+                        <collab collab-type="author">Li L</collab>
+                        <collab collab-type="author">Arnosti DN</collab>
+                        <year iso-8601-date="2015">2015</year>
+                    <data-title>Data from: Genome-wide errant targeting by Hairy</data-title>
+                    <source>Dryad Digital Repository</source>
+                    <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository"
+                        xlink:href="https://doi.org/10.5061/dryad.cv323">https://doi.org/10.5061/dryad.cv323</pub-id>
                     </related-object>
                 </p>
             </sec>
