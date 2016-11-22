@@ -29,14 +29,14 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
         </journal-meta>
         <article-meta>
 <!-- @pub-id-type publisher-id - this is always a 5 digit number -->
-            <article-id pub-id-type="publisher-id">00001</article-id>
+            <article-id pub-id-type="publisher-id">00666</article-id>
 <!-- @pub-id-type doi - always has eLife prefix (10.7554/eLife.) followed by same 5 digit number as publisher id -->
 <!--UPDATE: PDF links to DOIs: from CrossRef: The updated Crossref DOI Display guidelines recommend that https://doi.org/ be used and not http://dx.doi.org/ in DOI links.
 Originally the “dx” separated the DOI resolver from the International DOI Foundation (IDF) website but this has changed and the IDF has already updated its recommendations 
 so we are bringing ours in line with theirs. We are also recommending the use of HTTPS because it makes for more secure browsing.
 -->       
  <!-- UPDATE: DOI prefix added to display--> 
-            <article-id pub-id-type="doi">https://doi.org/10.7554/eLife.00001</article-id>
+            <article-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666</article-id>
             <article-categories>
 <!-- @subj-group-type "display-channel" - eLife-defined article type, controlled list for Research Content (case sensitive):
 Research Article
@@ -171,7 +171,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <given-names>Alistair</given-names>
                                 </name>
                                 <aff>
-                                    <institution>eLife</institution>,
+                                    <institution>eLife</institution>
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
@@ -184,14 +184,14 @@ list displayed in the PDF is retained as per the XML order-->
                                     <given-names>Hannah</given-names>
                                 </name>
                                 <aff>
-                                    <institution>eLife</institution>,
+                                    <institution>eLife</institution>
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
                                     <country>United Kingdom</country>
                                 </aff>
                                 <aff>
-                                    <institution>eLife Institute</institution>,
+                                    <institution>eLife Institute</institution>
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
@@ -220,7 +220,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <given-names>Hannah</given-names>
                                 </name>
                                 <aff>
-                                    <institution>eLife</institution>,
+                                    <institution>eLife</institution>
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
@@ -233,7 +233,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <given-names>Maria</given-names>
                                 </name>
                                 <aff>
-                                    <institution>eLife</institution>,
+                                    <institution>eLife</institution>
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
@@ -246,7 +246,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <given-names>Susanna</given-names>
                                 </name>
                                 <aff>
-                                    <institution>eLife</institution>,
+                                    <institution>eLife</institution>
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
@@ -288,7 +288,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                             <email>c.wilkinson@elifesciences.org</email>
                             <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4921-6155</contrib-id>
                             <aff>
-                                <institution>eLife</institution>,
+                                <institution>eLife</institution>
                                 <addr-line>
                                     <named-content content-type="city">Cambridge</named-content>
                                 </addr-line>
@@ -301,7 +301,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                                 <given-names>Luke</given-names>
                             </name>
                             <aff>
-                                <institution>eLife</institution>,
+                                <institution>eLife</institution>
                                 <addr-line>
                                     <named-content content-type="city">Cambridge</named-content>
                                 </addr-line>
@@ -477,16 +477,10 @@ NOT IN PMC YET, will need to discuss with them when we want to implement
                 </license>
             </permissions>
             <self-uri content-type="pdf" xlink:href="elife00666.pdf"/>
-<!-- Related article linking: Optional.
-Set of accepted @related-article-type values:
-Research to Research (or Feature to Feature): <related-article related-article-type="article-reference" ext-link-type="doi" xlink:href="10.7554/eLife.01295" id="ra1"/>
-Research to Insight: <related-article related-article-type="commentary" ext-link-type="doi" xlink:href="10.7554/eLife.01738" id="ra1"/>
-Insight to Research: <related-article related-article-type="commentary-article" ext-link-type="doi" xlink:href="10.7554/eLife.01236" id="ra1"/>
-Correction to Research: <related-article related-article-type="corrected-article" ext-link-type="doi" xlink:href="10.7554/eLife.00712" id="ra1"/>
-NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related article links are allowed; each should have a different id e.g. ra1, ra1, ra3 etc. 
-In discussion with PMC re this 
-NOTE: research advance MUST contain <related-article related-article-type="article-reference" link to the original article it is building upon
--->
+            
+            
+            <!-- NOTE: registered report MUST contain <related-article related-article-type="companion" link to the 
+                original article it is about, and the additional information added-->
             <related-article related-article-type="companion">
                 <person-group
                     person-group-type="author"
@@ -498,7 +492,17 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
                 <fpage>1033</fpage>
                 <lpage>1038</lpage>.
                 <pub-id pub-id-type="doi">10.1038/nature09144</pub-id>
-            </related-article>         
+            </related-article>    
+<!-- Related article linking: Optional.
+Set of accepted @related-article-type values:
+Research to Research (or Feature to Feature): <related-article related-article-type="article-reference" ext-link-type="doi" xlink:href="10.7554/eLife.01295" id="ra1"/>
+Research to Insight: <related-article related-article-type="commentary" ext-link-type="doi" xlink:href="10.7554/eLife.01738" id="ra1"/>
+Insight to Research: <related-article related-article-type="commentary-article" ext-link-type="doi" xlink:href="10.7554/eLife.01236" id="ra1"/>
+Correction to Research: <related-article related-article-type="corrected-article" ext-link-type="doi" xlink:href="10.7554/eLife.00712" id="ra1"/>
+NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related article links are allowed; each should have a different id e.g. ra1, ra1, ra3 etc. 
+In discussion with PMC re this 
+NOTE: research advance MUST contain <related-article related-article-type="article-reference" link to the original article it is building upon
+-->
 <!-- UPDATE: Abstract: The following is no longer required for the XML file. However, it must be displayed in the PDF and the display must include prefix  https://doi.org/ 
 <bold>DOI:</bold>
 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">https://doi.org/10.7554/eLife.00666.001</ext-link> -->
@@ -507,8 +511,9 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
                 <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.001</object-id>
                 <p>This is the abstract. This article will describe the eLife article and the process.
                     An abstract can contain any formatting, such as <italic>italics</italic>,
-                        <bold>bold</bold>, <sup>superscript</sup> or <sub>subscript</sub>. MathML is
-                    also allowed: <mml:math>
+                        <bold>bold</bold>, <sup>superscript</sup>, <sub>subscript</sub> or <sc>small caps</sc>. MathML is
+                    also allowed: 
+                    <inline-formula><mml:math>
                         <mml:mrow>
                             <mml:munder>
                                 <mml:mo/>
@@ -527,6 +532,7 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
                             </mml:mrow>
                         </mml:mrow>
                     </mml:math>
+                        </inline-formula>
                 .</p>
                 <p>eLife does not structure abstracts into sub headings expect in a clinical trial article, but the abstract can have
                     multiple paragarahs. The sub DOI is always .001 as it is the first asset in any
@@ -638,17 +644,17 @@ Impact statement:-->
                 Before you submit your work, please note that eLife is a very selective journal that aims to publish
                 work of the highest scientific standards and importance. Leading academic
                 researchers evaluate new submissions and approximately two-thirds are returned to
-                the authors without further peer review. See  <xref ref-type="bibr" rid="bib12">DeLano, 2012</xref> and <xref ref-type="bibr" rid="bib13">
+                the authors without further peer review. See  <xref ref-type="bibr" rid="bib12">DeLano, 2002</xref> and <xref ref-type="bibr" rid="bib13">
                     Morgan, 2016</xref>. Approximately half of the articles that are
-                    selected for peer review go on to be published (<xref ref-type="bibr" rid="bib6">Brettar et al., 2014b</xref>). If other researchers publish similar
+                    selected for peer review go on to be published (<xref ref-type="bibr" rid="bib5">Brettar et al., 2004a</xref>). If other researchers publish similar
                 findings after submission, this will not be a reason for rejection. The eLife
-                editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings et al., 2004</xref>; <xref ref-type="bibr" rid="bib50">
-                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib49">Walker, 1995</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al, 2016</xref>). If you are interested in
+                editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings and Wäckers, 2004</xref>; <xref ref-type="bibr" rid="bib50">
+                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib49">Walker, 1995</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al., 2016</xref>). If you are interested in
                 submitting your work to eLife, please review the guidelines relating to initial
                 submissions. If you have received an encouraging response to your initial
                 submission, please review the guidelines relating to full submissions. If your full
                 submission has been peer reviewed and you have been asked to make revisions, please
-                review our guidelines for revised submissions (<xref ref-type="bibr" rid="bib5">Brettar et al., 2014a</xref>).</p>
+                review our guidelines for revised submissions (<xref ref-type="bibr" rid="bib6">Brettar et al., 2004b</xref>).</p>
             <sec id="s1-1-1"> 
                 <title>Initial submission (level 3 heading)</title> 
                 <p>eLife publishes research of the very highest (<xref ref-type="bibr" rid="bib7">Bricogne et al., 2011</xref>) standard and significance, 
@@ -659,7 +665,7 @@ Impact statement:-->
                 for in-depth peer review (<xref ref-type="bibr" rid="bib8">Cardé and  Millar, 2004</xref>; <xref ref-type="bibr" rid="bib9">Cartwright, 2016</xref>; 
                 <xref ref-type="bibr" rid="bib10">Chmeil, 2008</xref>). To simplify the submission process, authors should submit
                 their full manuscript as a single PDF. Limited additional information is collected
-                via the submission screen questions to complete the submission (<xref ref-type="bibr" rid="bib6">Brettar et al., 2014b</xref>).</p>
+                via the submission screen questions to complete the submission (<xref ref-type="bibr" rid="bib6">Brettar et al., 2004b</xref>).</p>
             </sec>      
           <sec id="s1-1-2"> 
               <title>Full submission (level 3 heading)</title>
@@ -714,8 +720,8 @@ Impact statement:-->
         <sec sec-type="results" id="s2">
             <title>Results</title>
 <!-- UPDATE: where appendices are cited in the main text they must be cross linked -->
-            <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. 
-                However, the Introduction section was used to demostrate heading levels.</p>
+            <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. However, the Introduction section was used to demostrate heading levels. 
+                See <xref ref-type="appendix" rid="s8">Appendix 1</xref> and <xref ref-type="appendix" rid="s9">2</xref>.</p>
             <sec id="s2-1">
                 <title>eLife controlled lists</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
@@ -895,7 +901,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.003</object-id>
                             <label>Table 1.</label>
                             <caption>
-                                <p>A table containing interesting formating that is large enough to require landscape orientation in the PDF.</p>
+                                <title>This is the title.</title>
+                                <p>This is the caption: A table containing interesting formating that is large enough to require landscape orientation in the PDF.</p>
                             </caption>
                             <table frame="hsides" rules="groups">
                                 <thead>
@@ -1120,7 +1127,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <!-- The next cell contains a coloured background using author-callout-style-b4 (Yellow) -->
                                     <td style="author-callout-style-b4">6.5 × 10<sup>4</sup></td>
                                     <!-- The next cell contains a reference -->
-                                    <td><xref ref-type="bibr" rid="bib12">DeLano, 2012</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib12">DeLano, 2002</xref></td>
                                 </tr>
                                 <tr>
                                     <!-- The next cell contains a coloured background using author-callout-style-b5 (Purple) -->
@@ -1607,7 +1614,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
                         with two sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—Source data 1</xref> and <xref ref-type="supplementary-material"
-                            rid="fig3sdata1video1">Figure 3—figure supplement 1—Video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhong et al., 
+                            rid="fig3video1">Figure 3—figure supplement 1—Video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhong et al., 
                             2013</xref>; <xref ref-type="bibr" rid="bib51">World Health Organization, 2016</xref>).</p>
                     <!-- UPDATE: new method of modelling supplementary material for a figure
                     A figure or a sub figure can have any assets - e.g. data, code, videos -->
@@ -1637,23 +1644,23 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                             <title>Title of the figure supplement source data.</title>
                                             <p>Legend of the figure supplement source data.</p>
                                         </caption>
-<!-- this is an example of an asset asked later on, so the DOI is the last DOI to prevent renumbering the others -->
-                                        <media mimetype="video" mime-subtype="mp4" id="fig3sdata1video1" xlink:href="elife-00666-media1.mp4">
-                                            <!-- UPDATE: DOI prefix added to display--> 
-                                            <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.035</object-id>
-                                            <label>Figure 3—figure supplement 1—Video 1.</label>
-                                            <caption>
-                                                <title>
-                                                    A description of the eLife editorial process.
-                                                </title>
-                                            </caption>
-                                        </media>
                                         <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-00666-fig3-figsupp1-data1.xlsx"/>
                                     </supplementary-material>
                                 </p>
                             </caption>
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig3-figsupp1.tiff"/>
                         </fig>
+                        <!-- this is an example of an asset asked later on, so the DOI is the last DOI to prevent renumbering the others -->
+                        <media mimetype="video" mime-subtype="mp4" id="fig3video1" xlink:href="elife-00666-media1.mp4">
+                            <!-- UPDATE: DOI prefix added to display--> 
+                            <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.035</object-id>
+                            <label>Figure 3—Video 1.</label>
+                            <caption>
+                                <title>
+                                    A description of the eLife editorial process.
+                                </title>
+                            </caption>
+                        </media>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig4">Figure 4</xref> is an example of a figure with source code (<xref ref-type="supplementary-material" rid="fig4scode1">Figure 4—Source code 1</xref>).</p>
                     <!-- UPDATE: this is changed tagging. -->
@@ -1863,10 +1870,12 @@ but these should be present in the textual entry (see below)-->
             <fn-group content-type="ethics-information">
                 <title>Ethics</title>
                 <fn fn-type="other">
-                    <p>
-                        Human subjects: If Research Ethics Committee and Institutional Review Board approval was required for this article the details would be listed here.
-                        Animal subjects: If there were animal subjects involved in the study the approval number for the research along with protocol approval would be listed here. 
-                    </p>
+                    <p>Human subjects: If Research Ethics Committee and Institutional Review Board approval was 
+                        required for this article the details would be listed here.</p>
+                </fn>
+                <fn fn-type="other">
+                    <p>Animal subjects: If there were animal subjects involved in the study the approval number for the research 
+                        along with protocol approval would be listed here.</p>
                 </fn>
                 <fn fn-type="other">
                     <p>If this article was part of a clinical trial the Clinical trial registry and ID would be listed here, for example:</p>
@@ -1932,7 +1941,7 @@ The tagging of the collaborator name again within this section is required for P
 <!--UPDATE: Add @collab-type="author" attribute. Change order of author name to first initial then surname-->  
                         <collab collab-type="author">M Harrison</collab>
 <!--UPDATE: Remove all punctuation that was prevously surrounding the tags--> 
-                        <year>2016</year>
+                        <year iso-8601-date="2016">2016</year>
                         <source>xml-mapping</source>
                         <ext-link ext-link-type="uri"
                             xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/elife-00666.xml"
@@ -1940,17 +1949,30 @@ The tagging of the collaborator name again within this section is required for P
                         <comment>Publicly available on GitHub</comment>
                     </related-object>
                 </p>
-                <p>The following previously published dataset was used:</p>
+                <p>The following previously published datasets were used:</p>
                 <p>
                     <related-object content-type="existing-dataset" source-id="https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml" 
                         source-id-type="uri" id="dataset2"> 
                         <collab collab-type="author">M Harrison</collab> 
-                        <year>2012</year>
+                        <year iso-8601-date="2012">2012</year>
                         <source>elife-vendor-workflow-config</source>
                         <ext-link ext-link-type="uri"
-                            xlink:href="https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml"
-                            >https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml</ext-link>
-                        <comment>Publicly available on GitHub</comment>
+                            xlink:href="https://github.com/elifesciences/elife-vendor-workflow-config">https://github.com/elifesciences/elife-vendor-workflow-config</ext-link>
+                        <comment>Publicly available on GitHub.</comment>
+                    </related-object>
+                </p>
+                <p>
+                    <related-object content-type="existing-dataset" source-id="https://github.com/elifesciences/elife-vendor-workflow-config/blob/master/elife-kitchen-sink.xml" 
+                        source-id-type="uri" id="dataset3"> 
+                        <collab collab-type="author">Kok K</collab>
+                        <collab collab-type="author">Ay A</collab>
+                        <collab collab-type="author">Li L</collab>
+                        <collab collab-type="author">Arnosti DN</collab>
+                        <year iso-8601-date="2015">2015</year>
+                    <data-title>Data from: Genome-wide errant targeting by Hairy</data-title>
+                    <source>Dryad Digital Repository</source>
+                    <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository"
+                        xlink:href="https://doi.org/10.5061/dryad.cv323">https://doi.org/10.5061/dryad.cv323</pub-id>
                     </related-object>
                 </p>
             </sec>
@@ -2295,7 +2317,7 @@ The tagging of the collaborator name again within this section is required for P
             <publisher-loc>Cambridge, UK</publisher-loc>
             <publisher-name>Global Phasing Ltd</publisher-name>
             <year iso-8601-date="2011">2011</year>
-            <uri xlink:href="https://www.globalphasing.com/buster/">https://www.globalphasing.com/buster/</uri>
+            <ext-link ext-link-type="uri" xlink:href="https://www.globalphasing.com/buster/">https://www.globalphasing.com/buster/</ext-link>
         </element-citation>
     </ref>
 <!-- Book reference: Editors, no chapter details -->
@@ -2329,7 +2351,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2016">2016</year>
             <article-title>The Venus Hypothesis</article-title>
             <source>arXiv.org</source>
-            <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1608.03074">arXiv:1608.03074</ext-link>
+            <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1608.03074">https://arxiv.org/abs/1608.03074</ext-link>
         </element-citation>
     </ref> 
 <!-- Book reference: Has edition, editor is author -->
@@ -2480,7 +2502,7 @@ The tagging of the collaborator name again within this section is required for P
             <article-title>The Imprinter of All Maladies</article-title>
             <source>it is NOT junk</source>
             <ext-link ext-link-type="uri" xlink:href='http://www.michaeleisen.org/blog/?p=1894'>http://www.michaeleisen.org/blog/?p=1894</ext-link>
-            <date-in-citation iso-8601-date="2016-08-19">August 8, 2016</date-in-citation>
+            <date-in-citation iso-8601-date="2016-08-19">August 19, 2016</date-in-citation>
         </element-citation>
     </ref>
 <!-- Data citation -->
@@ -2553,7 +2575,6 @@ The tagging of the collaborator name again within this section is required for P
                     <surname>Barber</surname>
                     <given-names>GN</given-names>
                 </name>
-                <etal/>
             </person-group>
             <year iso-8601-date="2012">2012</year>
             <article-title>Autoimmunity initiates in nonhematopoietic cells and progresses
@@ -2614,7 +2635,7 @@ The tagging of the collaborator name again within this section is required for P
                     <given-names>L</given-names>
                 </name>
             </person-group>
-            <year>2010</year>
+            <year iso-8601-date="2010">2010</year>
             <article-title>
                 Ruffus: a lightweight Python library for computational pipelines
             </article-title>
@@ -2693,7 +2714,7 @@ The tagging of the collaborator name again within this section is required for P
             <source>Naccess</source>
             <publisher-name>Department of Biochemistry Molecular Biology, University College London</publisher-name>
             <version>V2.1.1</version>
-            <ext-link ext-link-type="uri" xlink:href="http://www.bioinf.manchester.ac.uk/naccess">www.bioinf.manchester.ac.uk/naccess</ext-link>
+            <ext-link ext-link-type="uri" xlink:href="http://www.bioinf.manchester.ac.uk/naccess">http://www.bioinf.manchester.ac.uk/naccess</ext-link>
         </element-citation>
     </ref>
 <!-- Reference to a conference: minimal info -->
@@ -2815,7 +2836,7 @@ The tagging of the collaborator name again within this section is required for P
             <data-title>Data from: Genome-wide errant targeting by Hairy</data-title>
             <source>Dryad Digital Repository</source>
             <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository"
-                xlink:href="http://datadryad.org/resource/doi:10.5061/dryad.cv323"
+                xlink:href="https://doi.org/10.5061/dryad.cv323"
                 >https://doi.org/10.5061/dryad.cv323</pub-id>
         </element-citation>
     </ref>
@@ -2975,7 +2996,7 @@ The tagging of the collaborator name again within this section is required for P
         <year iso-8601-date="2015">2015</year>
         <publisher-loc>Vienna, Austria</publisher-loc>
         <publisher-name>R Foundation for Statistical Computing</publisher-name>
-        <uri xlink:href="http://www.r-project.org/">http://www.r-project.org/</uri>
+        <ext-link ext-link-type="uri" xlink:href="http://www.r-project.org/">http://www.r-project.org/</ext-link>
     </element-citation>
     </ref>
 <!-- Data reference: ProteomeXchange: pub-id-type="archive" - not clear what this number is, so default option -->
@@ -3086,9 +3107,9 @@ The tagging of the collaborator name again within this section is required for P
                 </name>
             </person-group>
             <year iso-8601-date="2015">2015b</year>
-            <article-title>Transcription profiling by high throughput sequencing of LoVo
+            <data-title>Transcription profiling by high throughput sequencing of LoVo
                 cells infected with Listeria for 24 hr compared to uninfected
-                cells</article-title>
+                cells</data-title>
             <source>ArrayExpress</source>
             <pub-id pub-id-type="accession"
                 xlink:href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3649/"
@@ -3108,7 +3129,7 @@ The tagging of the collaborator name again within this section is required for P
             <data-title>Image J</data-title>
             <publisher-loc>Bethesda, MA</publisher-loc>
             <publisher-name>US National Institutes of Health</publisher-name>
-            <uri xlink:href="http://imagej.nih.gov/ij/">http://imagej.nih.gov/ij/</uri>
+            <ext-link ext-link-type="uri" xlink:href="http://imagej.nih.gov/ij/">http://imagej.nih.gov/ij/</ext-link>
         </element-citation>
     </ref>
 <!-- Journal reference: in press -->
@@ -3202,9 +3223,9 @@ The tagging of the collaborator name again within this section is required for P
             <person-group person-group-type="sponsor">
                 <collab>Scripps Translational Science Institute</collab>
             </person-group>
-            <year iso-8601-date="2006">2015</year>
+            <year iso-8601-date="2015">2015</year>
             <article-title>Scripps Wired for Health Study</article-title>
-            <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01975428">NCT01975428</ext-link>
+            <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01975428">https://clinicaltrials.gov/ct2/show/NCT01975428</ext-link>
         </element-citation>
     </ref> 
   <!-- Software reference: No title -->
@@ -3225,7 +3246,7 @@ The tagging of the collaborator name again within this section is required for P
             <publisher-name>Institute for Systems Biology</publisher-name>
             <publisher-loc>Seattle, USA</publisher-loc>
             <version>open-1.0</version>
-            <uri xlink:href="http://www.repeatmasker.org/RepeatModeler.html">http://www.repeatmasker.org/RepeatModeler.html</uri>
+            <ext-link ext-link-type="uri" xlink:href="http://www.repeatmasker.org/RepeatModeler.html">http://www.repeatmasker.org/RepeatModeler.html</ext-link>
         </element-citation>
     </ref>
 <!-- Data reference: JASPAR -->
@@ -3391,9 +3412,10 @@ The tagging of the collaborator name again within this section is required for P
                     <given-names>J</given-names>
                 </name>
             </person-group>
-            <year iso-8601-date="1995">1995</year>
+
             <article-title>Solar System Live</article-title>
             <ext-link ext-link-type="uri" xlink:href='https://www.fourmilab.ch/solar/'>https://www.fourmilab.ch/solar/</ext-link>
+            <date-in-citation iso-8601-date="1995-09-10">September 10, 1995</date-in-citation>
         </element-citation>
     </ref>
     <!-- Journal reference: elocation-id and DOI and PMID -->
@@ -3424,7 +3446,6 @@ The tagging of the collaborator name again within this section is required for P
                             <surname>Van Houten</surname>
                             <given-names>B</given-names>
                         </name>
-                        <etal/>
                     </person-group>
                     <year iso-8601-date="2008">2008</year>
                     <article-title>Crystal structure of the FeS cluster-containing nucleotide
@@ -3564,5 +3585,259 @@ The tagging of the collaborator name again within this section is required for P
                 </element-citation>
             </ref>
  </ref-list>
+        <app-group>
+            <app>
+            <title>Appendix 1</title>
+                <sec sec-type="appendix" id="s8">
+                    <title>Preparation</title>
+<!-- UPDATE: Appendices must be contained within a box in order to include the DOI as an object-id
+Appendices must have DOIs -->                     
+                    <boxed-text>
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.023</object-id>
+                    <p>In order to prepare for this Kitchen sink we reviewed our archive and found common errors or miscommunication from the archive, tagging of <xref ref-type="fig" rid="app1fig1">Appendix 1—Figure 
+                        1</xref> is a classic example and here the tagging is updated. Appendices figures can also have figure supplements, for example <xref ref-type="fig" rid="app1fig1s1">Appendix 1—Figure 
+                            1—Figure Supplement 1</xref> (<xref ref-type="bibr" rid="bib25">Koch, 1959</xref>).</p>
+                    <fig-group>
+                        <fig id="app1fig1" position="float">
+                            <!-- UPDATE: DOI prefix added to display--> 
+                            <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.024</object-id>
+                    <label>Appendix 1—Figure 1.</label>
+                    <caption>
+                        <title>Appendix figure title.
+                        </title>
+                        <p>If there is a caption to accompany the title it would display here (<xref ref-type="bibr" rid="bib25">Koch, 1959</xref>).</p>
+                    </caption>
+                           <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app1-fig1.tiff"/>
+                    </fig>
+                        <fig id="app1fig1s1" position="float" specific-use="child-fig">
+                            <!-- UPDATE: DOI prefix added to display--> 
+                            <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.025</object-id>
+                            <label>Appendix 1—Figure 1—Figure Supplement 1.</label>
+                            <caption>
+                                <title>Appendix figure supplement title.</title>
+                                <p>If there is a caption to accompany the title it would display here.</p>
+                            </caption>
+                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app1-fig1-figsupp1.tiff"/>
+                        </fig>
+                    </fig-group>
+<!-- UPDATE: this is how sub sections in appendices should be tagged. Have been wrong up to now -->
+                        <sec sec-type="appendix" id="s8-1">
+                            <title>Sub heading 1</title>
+                            <p>This is the text of the content of subheading 1 within appendix 2.</p>
+                            </sec>
+                        <sec sec-type="appendix" id="s8-2">
+                            <title>Sub heading 2</title>
+                            <p>This is the text of the content of subheading 2 within appendix 2.</p>
+                        </sec>
+                </boxed-text>
+                </sec>
+        </app>
+            <app>
+                <title>Appendix 2</title>
+                <sec sec-type="appendix" id="s9">
+              <title>Negotaition</title>
+                    <boxed-text>
+                        <!-- UPDATE: DOI prefix added to display--> 
+                        <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.026</object-id>
+                        <p>Generating the new rules involved negotation with varous vendors and downsteam hosts to ensure display would work for all instances. See <xref ref-type="video" rid="app2video1">Appendix 2—Video 1</xref> 
+                            and <xref ref-type="table" rid="app2table1">Apendix 2—Table 1</xref>.</p>
+                        <media mimetype="video" mime-subtype="mp4" id="app2video1" xlink:href="elife-00666-app1-media1.mp4">
+                            <!-- UPDATE: DOI prefix added to display--> 
+                            <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.027</object-id>
+                            <label>Appendix 2—Video 1.</label>
+                        <caption>
+                            <title>
+                                A descirption of the eLife editorial process.
+                            </title>
+                        </caption>
+                    </media>
+                        <table-wrap id="app2table1" position="float">
+                            <!-- UPDATE: DOI prefix added to display--> 
+                            <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.028</object-id>
+                            <label>Apendix 2—Table 1.</label>
+                            <caption>
+                                <p>Appendix table.</p>
+                            </caption>
+                            <table frame="hsides" rules="groups">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Units</th>
+                                        <th>Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><italic>E</italic><sub>AMPA</sub></td>
+                                        <td>mV</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td><italic>τ</italic><sub>AMPA</sub></td>
+                                        <td>ms</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td><italic>E</italic><sub>NMDA</sub></td>
+                                        <td>mV</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td><italic>τ</italic><sub>NMDA</sub></td>
+                                        <td>ms</td>
+                                        <td>100</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </table-wrap>
+                    </boxed-text>
+                </sec>
+            </app>
+        </app-group>
     </back>
- </article>
+<!-- UPDATE: Links to the DOIs of the decision letter and author response need to be added to the PDF template.
+UPDATE: article-type has been changed from article-commentary to decision-letter -->    
+    <sub-article article-type="decision-letter" id="SA1">
+        <front-stub>
+            <!-- UPDATE: DOI prefix added to display--> 
+            <article-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.029</article-id>
+            <title-group>
+                <article-title>Decision letter</article-title>
+            </title-group>
+<!-- NOTE: repetition of the reviewing editor in this section is required as it indicates that person is the author of this sub-article.
+UPDATE: punctuation between institution and country removed. -->     
+            <contrib-group>
+                <contrib contrib-type="editor">
+                    <name>
+                        <surname>Collings</surname>
+                        <given-names>Andy</given-names>
+                    </name>
+                    <role>Reviewing editor</role>
+                    <aff>
+                        <institution>eLife</institution>
+                        <country>United Kingdom</country>
+                    </aff>
+                </contrib>
+            </contrib-group>
+        </front-stub>
+            <body>
+                <!-- NOTE: the boxed text is occasionally updated by editorial so although it remains the same for all articles, it cannot be boiler plate text --> 
+                <boxed-text>
+                    <p>In the interests of transparency, eLife includes the editorial decision letter and accompanying author responses. 
+                        A lightly edited version of the letter sent to the authors after peer review is shown, indicating the most substantive concerns;
+                        minor comments are not usually included.</p>
+                </boxed-text>
+                <p>Thank you for submitting your article "The eLife research article" for consideration by <italic>eLife</italic>. 
+                    Your article has been reviewed by three peer reviewers, one of whom, Joe Bloggs, 
+                    is a member of our editorial board and also oversaw the process as Senior editor. 
+                    John Doe (peer reviewer) has agreed to reveal his identity.
+                </p>
+                <p>
+                    The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.
+                </p>
+                <p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough information contained within the 
+                    tagging to generate a typeset PDF from the XML with no additional information provided.</p>
+            </body>
+    </sub-article>
+    <sub-article article-type="reply" id="SA2">
+        <front-stub>
+            <!-- UPDATE: DOI prefix added to display--> 
+            <article-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.030</article-id>
+            <title-group>
+                <article-title>Author response</article-title>
+            </title-group>
+        </front-stub>
+        <body>
+            <!-- UPDATE: Italics formatting was used to indicate the editor comments previously, but now we want to semantically differentiate it. The website and Kriya needs to
+ display any disp-quote within the  sub-article article-type="reply" as italics and not the normal display quote style used for main body of content -->  
+<disp-quote content-type="editor-comment"><p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough 
+    information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p></disp-quote>
+            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the 
+                PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="respfig1">Author response image 1.</xref>, 
+                <xref ref-type="video" rid="respvideo1">Author response video 1</xref> and <xref ref-type="table" rid="resptable1">Author response table 1</xref>.</p>
+            <fig id="respfig1" position="float">
+                <!-- UPDATE: DOI prefix added to display--> 
+                <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.031</object-id>
+                <label>Author response image 1.</label>
+                    <caption>
+                        <p>Single figure: The header of an eLife article example on the HTML page.</p>
+                    </caption>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-resp-fig-1.tiff"/>
+                </fig>
+            <table-wrap id="resptable1" position="float">
+                <!-- UPDATE: added to author response assets 
+                    DOI prefix added to display--> 
+                <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.032</object-id>
+                <label>Author response Table 1.</label>
+                <caption>
+                    <p>Author response table</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                    <thead>
+                        <tr>
+                            <th>Sample</th>
+                            <th>Same</th>
+                            <th>Difference more than 10%</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>DKO1.cell.1</td>
+                            <td>77.00%</td>
+                            <td>6.90%</td>
+                        </tr>
+                        <tr>
+                            <td>DKO1.cell.2</td>
+                            <td>78.80%</td>
+                            <td>7.20%</td>
+                        </tr>
+                        <tr>
+                            <td>DKO1.cell.3</td>
+                            <td>79.10%</td>
+                            <td>6.70%</td>
+                        </tr>
+                        <tr>
+                            <td>DKO1.exo.1</td>
+                            <td>78.90%</td>
+                            <td>6.50%</td>
+                        </tr>
+                        <tr>
+                            <td>DKO1.exo.2</td>
+                            <td>80.00%</td>
+                            <td>5.80%</td>
+                        </tr>
+                        <tr>
+                            <td>DKO1.exo.3</td>
+                            <td>86.80%</td>
+                            <td>2.30%</td>
+                        </tr>
+                        <tr>
+                            <td>DKS8.cell.1</td>
+                            <td>77.30%</td>
+                            <td>7.80%</td>
+                        </tr>
+                        <tr>
+                            <td>DKS8.cell.2</td>
+                            <td>79.70%</td>
+                            <td>6.70%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+            <media mimetype="video" mime-subtype="avi" id="respvideo1" xlink:href="elife-04953-resp-media1.avi">
+                <!-- UPDATE: added to author response assets 
+                    DOI prefix added to display--> 
+                <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.033</object-id>
+                <label>Author response video 1.</label>
+            </media>
+                <p>However, some decisions required some communication with PMC 
+                to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all 
+                formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} in order to produce rules for the 
+                production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.{Insert table}</p>
+            <p>If an author referes to a reference in the response letter it is cross linked to the reference in the reference list (<xref ref-type="bibr" rid="bib11">Coyne et al.,
+                1989</xref>), however, if it is a new reference only cited in the decision letter or author response it is not added to the main reference link and is just listed as free
+                text, for example, Butcher et al, 2006. If the author provides the reference it can be added as free text to the end of the letter, however, this is not a requirement
+                .</p>
+        </body>
+    </sub-article>
+</article>
