@@ -154,6 +154,7 @@ author. There is no display text associated with this link-->
                     <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="fn" rid="equal-contrib1">&#x2020;</xref>
                     <xref ref-type="other" rid="fund1"/>
+                    <xref ref-type="other" rid="fund2"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="con2"/>
                  </contrib>
@@ -574,6 +575,16 @@ Individual members of a group authorship should not be named in the funding sect
                             <surname>Harrison</surname>
                             <given-names>Melissa</given-names>
                         </name>
+                    </principal-award-recipient>
+                </award-group>
+                <award-group id="fund2">
+                    <funding-source>
+                        <institution-wrap>
+                            <institution>Laura and John Arnold Foundation</institution>
+                        </institution-wrap>
+                    </funding-source>
+                    <principal-award-recipient>
+                        <institution>Reproducibility Project: Cancer Biology</institution>
                     </principal-award-recipient>
                 </award-group>
               <funding-statement>The funders had no role in study design; collection, analysis,
