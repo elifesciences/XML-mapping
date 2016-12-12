@@ -56,6 +56,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4485-5663</contrib-id>
                     <email>mcorley@email.unc.edu</email>
                     <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="fn" rid="fn1">&#x2a;</xref>
                     <xref ref-type="fn" rid="conf1"/>
                     <!-- bio has been added so the features team have a location to place the textual description of the author, role, affiliation and any thing else. 
         This will require a new filed in Kriya for them to edit-->
@@ -144,6 +145,10 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 <label>&#x2020;</label>
                 <p>These authors contributed equally to this work</p>
             </fn>
+                <fn fn-type="fn" id="fn1">
+                    <label>&#x2a;</label>
+                    <p>A free text footnote for this author</p>
+                </fn>
             </author-notes>
             <pub-date date-type="pub" publication-format="electronic">
                 <day>20</day>
