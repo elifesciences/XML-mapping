@@ -1978,7 +1978,14 @@ The tagging of the collaborator name again within this section is required for P
             </sec>
         <ack id="ack">
             <title>Acknowledgements</title>
+            <sec sec-type="ack" id="ack-1">
+                <title>Main thanks</title>
             <p>We thank JATS4R, ExeterPremedia and PMC for their contributions.</p>
+            </sec>
+                <sec sec-type="ack" id="ack-2">
+                    <title>Sub-thanks</title>
+                    <p>We need to allow authors to have sections in their acknowledgements</p>
+                </sec>
         </ack>
 <!-- All references shuld be cited in the text -->  
         <!-- UPDATE: DOI prefix added to display of all DOIs: https://doi.org/-->
