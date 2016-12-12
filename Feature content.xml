@@ -473,7 +473,8 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
             </caption>
             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig1.tiff"/>
             <!-- Where a credit is required for an image, this will be added using the <attrib> tag at the end of the figure block -->
-            <attrib>Image credit: Meredith Corley</attrib>
+            <attrib>Image credit: <ext-link ext-link-type="uri" xlink:href="http://orcid.org/0000-0002-4485-5663">
+                Meredith Corley</ext-link></attrib>
         </fig>
         <p>Realistically, RNA binding interactions are governed by thermodynamics and do not always
             follow strict pairing rules. Furthermore, RNA molecules can pair with themselves in
