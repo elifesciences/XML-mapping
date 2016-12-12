@@ -3628,6 +3628,200 @@ Appendices must have DOIs -->
                         <sec sec-type="appendix" id="s8-2">
                             <title>Sub heading 2</title>
                             <p>This is the text of the content of subheading 2 within appendix 2.</p>
+                                <table-wrap id="app1table1" position="float">
+                                <!-- UPDATE: DOI prefix added to display--> 
+                                <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.030</object-id>
+                                    <label>Apendix 1—Table 1.</label>
+                                <caption>
+                                    <title>This is the title.</title>
+                                    <p>This is the caption: A table containing interesting formating that is large enough to require landscape orientation in the PDF.</p>
+                                </caption>
+                                <table frame="hsides" rules="groups">
+                                    <thead>
+                                        <!-- Header row -->
+                                        <tr>
+                                            <!-- This header row contains several headings that span multiple columns -->
+                                            <th colspan="3" rowspan="2"> </th>
+                                            <th align="center" colspan="8">GLVs (percent IS plant<sup>-1</sup>)</th>
+                                            <th align="center" colspan="17">TPS10 products (percent IS plant<sup>-1</sup>)</th>
+                                            <th align="center" colspan="10">Non-target volatiles (percent IS plant<sup>-1</sup>)</th>
+                                        </tr>
+                                        <tr>
+                                            <th align="center" colspan="8">(<italic>Z</italic>)-Hexen-3-ol</th>
+                                            <th align="center" colspan="10">TAB</th><th align="center" colspan="7">TBF</th>
+                                            <th align="center" colspan="6">α-Duprezianene</th>
+                                            <th align="center" colspan="4">Germacrene A</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Table body -->
+                                        <tr>
+                                            <td><bold>Genotype</bold></td>
+                                            <td><bold>Day n</bold></td>
+                                            <td><bold>Night n</bold></td>
+                                            <td colspan="3"><bold>Day</bold></td>
+                                            <td colspan="5"><bold>Night</bold></td>
+                                            <td colspan="4"><bold>Day</bold></td>
+                                            <td colspan="6"><bold>Night</bold></td>
+                                            <td colspan="4"><bold>Day</bold></td>
+                                            <td colspan="3"><bold>Night</bold></td>
+                                            <td colspan="3"><bold>Day</bold></td>
+                                            <td colspan="3"><bold>Night</bold></td>
+                                            <td colspan="3"><bold>Day</bold></td>
+                                            <td><bold>Night</bold></td>
+                                        </tr>
+                                        <tr>
+                                            <td><bold>WT</bold></td>
+                                            <td>8</td><td>8</td>
+                                            <td>0.99%</td>
+                                            <td>±</td>
+                                            <td>0.99%</td>
+                                            <td>7.96%</td>
+                                            <td>±</td>
+                                            <td>4.25%</td>
+                                            <!-- The next cell contains coloured text using author-callout-style-a1 (Blue). It is also centrally aligned -->
+                                            <td rowspan="2" valign="middle"><named-content content-type="author-callout-style-a1">}</named-content></td>
+                                            <td rowspan="2" valign="middle"><bold><named-content content-type="author-callout-style-a1">a</named-content></bold><sub><bold><named-content content-type="author-callout-style-a1">lox</named-content></bold></sub></td>
+                                            <td>0.37%</td>
+                                            <td>±</td>
+                                            <td>0.29%</td>
+                                            <td><bold><named-content content-type="author-callout-style-a1">a</named-content></bold></td>
+                                            <td colspan="3">—</td>
+                                            <td> </td>
+                                            <td rowspan="3" valign="middle"><named-content content-type="author-callout-style-a1">}</named-content></td>
+                                            <td rowspan="2" valign="bottom"><bold><named-content content-type="author-callout-style-a1">a</named-content></bold><sub><bold><named-content content-type="author-callout-style-a1">TPS</named-content></bold></sub></td>
+                                            <td colspan="3">—</td>
+                                            <td><bold><named-content content-type="author-callout-style-a1">a</named-content></bold></td>
+                                            <td colspan="3">—</td>
+                                            <!-- The next cell contains coloured text using author-callout-style-a2 (Purple). It is also centrally aligned -->
+                                            <td><named-content content-type="author-callout-style-a2">2.13%</named-content></td>
+                                            <td><named-content content-type="author-callout-style-a2">±</named-content></td>
+                                            <td><named-content content-type="author-callout-style-a2">0.85%</named-content></td>
+                                            <td><named-content content-type="author-callout-style-a2">0.96%</named-content></td>
+                                            <td><named-content content-type="author-callout-style-a2">±</named-content></td>
+                                            <td><named-content content-type="author-callout-style-a2">0.42%</named-content></td>
+                                            <td><named-content content-type="author-callout-style-a2">1.68%</named-content></td>
+                                            <td><named-content content-type="author-callout-style-a2">±</named-content></td>
+                                            <td><named-content content-type="author-callout-style-a2">0.98%</named-content></td>
+                                            <td>—</td>
+                                        </tr>
+                                        <tr>
+                                            <td><bold><italic>TPS10</italic></bold></td>
+                                            <td>7</td>
+                                            <td>7</td>
+                                            <td>2.37%</td>
+                                            <td>±</td>
+                                            <td>1.55%</td>
+                                            <td>2.84%</td>
+                                            <td>±</td>
+                                            <td>0.63%</td>
+                                            <td>18.97%</td>
+                                            <td>±</td>
+                                            <td>6.03%</td>
+                                            <!-- The next cell contains coloured text using author-callout-style-a3 (Red). It is also centrally aligned -->
+                                            <td><bold><named-content content-type="author-callout-style-a3">b</named-content></bold></td>
+                                            <td>0.94%</td>
+                                            <td>±</td>
+                                            <td>0.53%</td>
+                                            <td rowspan="3" valign="middle"><named-content content-type="author-callout-style-a3">}</named-content></td>
+                                            <td>9.34%</td>
+                                            <td>±</td>
+                                            <td>3.44%</td>
+                                            <td><bold><named-content content-type="author-callout-style-a3">b</named-content></bold></td>
+                                            <td>0.20%</td>
+                                            <td>±</td>
+                                            <td>0.20%</td>
+                                            <td>9.47%</td>
+                                            <td>±</td>
+                                            <td>5.26%</td>
+                                            <td>0.94%</td>
+                                            <td>±</td>
+                                            <td>0.26%</td>
+                                            <td>2.78%</td>
+                                            <td>±</td>
+                                            <td>1.52%</td>
+                                            <td>—</td>
+                                        </tr>
+                                        <tr>
+                                            <td><bold><italic>lox2/3</italic></bold></td>
+                                            <td>7</td>
+                                            <td>8</td>
+                                            <td>0.13%</td>
+                                            <td>±</td>
+                                            <td>0.13%</td>
+                                            <td>1.06%</td>
+                                            <td>±</td>
+                                            <td>0.64%</td>
+                                            <td rowspan="2" valign="middle"><named-content content-type="author-callout-style-a3">}</named-content></td>
+                                            <td rowspan="2" valign="middle"><bold><named-content content-type="author-callout-style-a3">b</named-content></bold><sub><bold><named-content content-type="author-callout-style-a3">lox</named-content></bold></sub></td>
+                                            <td colspan="3">—</td>
+                                            <td><bold><named-content content-type="author-callout-style-a1">a</named-content></bold></td>
+                                            <td>0.15%</td>
+                                            <td>±</td>
+                                            <td>0.15%</td>
+                                            <td rowspan="2"><bold><named-content content-type="author-callout-style-a3">b</named-content></bold><sub><bold><named-content content-type="author-callout-style-a3">TPS</named-content></bold></sub></td>
+                                            <td colspan="3">—</td>
+                                            <td><bold><named-content content-type="author-callout-style-a1">a</named-content></bold></td>
+                                            <td colspan="3">—</td>
+                                            <td>2.75%</td>
+                                            <td>±</td>
+                                            <td>1.12%</td>
+                                            <td>0.60%</td>
+                                            <td>±</td>
+                                            <td>0.19%</td>
+                                            <td>1.68%</td>
+                                            <td>±</td>
+                                            <td>1.49%</td>
+                                            <td>—</td>
+                                        </tr>
+                                        <tr>
+                                            <td><bold><italic>lox2/3</italic>x<italic>TPS10</italic></bold></td>
+                                            <td>7</td>
+                                            <td>7</td>
+                                            <td>0.07%</td>
+                                            <td>±</td>
+                                            <td>0.07%</td>
+                                            <td>1.24%</td>
+                                            <td>±</td>
+                                            <td>0.84%</td>
+                                            <td>7.39%</td>
+                                            <td>±</td>
+                                            <td>2.56%</td>
+                                            <td><bold><named-content content-type="author-callout-style-a3">b</named-content></bold></td>
+                                            <td>2.08%</td>
+                                            <td>±</td>
+                                            <td>0.84%</td>
+                                            <td> </td>
+                                            <td>4.47%</td>
+                                            <td>±</td>
+                                            <td>1.70%</td>
+                                            <td><bold><named-content content-type="author-callout-style-a3">b</named-content></bold></td>
+                                            <td>0.40%</td>
+                                            <td>±</td>
+                                            <td>0.40%</td>
+                                            <td>3.02%</td>
+                                            <td>±</td>
+                                            <td>1.42%</td>
+                                            <td>0.73%</td>
+                                            <td>±</td>
+                                            <td>0.31%</td>
+                                            <td>0.66%</td>
+                                            <td>±</td>
+                                            <td>0.37%</td>
+                                            <td>—</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table-wrap-foot>
+                                    <!-- table-wrap-foot should contain any footnotes for the table. It should NOT be used for the table caption. 
+                                    Each footnote with a cross link to text within the table should contain an id and a <label> (see table 2). 
+                                    However, some footnotes do not have crosslinking and so are allowed but cannot have an id or label-->
+                                    <fn>
+                                        <p>Footnotes not linked to content within the table text are usually to define abbreviations. For example:</p>
+                                        <p>WT, wild type.</p>
+                                    </fn>
+                                </table-wrap-foot>
+                            </table-wrap>
                         </sec>
                 </boxed-text>
                 </sec>
