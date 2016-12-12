@@ -468,7 +468,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
         <fig id="fig1" position="float">
             <label>Figure 1.</label>
             <caption>
-                <title>One column wide</title>
+                <title>One column wide. Class A.</title>
                 <p>This figure should be typeset at the width of one text column.</p>
             </caption>
             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig1.tiff"/>
@@ -546,7 +546,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <fig id="fig2" position="float">
                         <label>Figure 2.</label>
                         <caption>
-                            <title>One column wide and the margin</title>
+                            <title>One column wide and the margin. Class B.</title>
                             <p>This figure should be typeset at the width of one text column and the margin.</p>
                         </caption>
                         <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig2.tiff"/>
@@ -554,7 +554,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <fig id="fig3" position="float">
                         <label>Figure 3.</label>
                         <caption>
-                            <title>Two column wide</title>
+                            <title>Two column wide. Class C.</title>
                             <p>This figure should be typeset at the width of both text columns.</p>
                         </caption>
                         <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig3.tiff"/>
@@ -562,7 +562,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <fig id="fig4" position="float">
                         <label>Figure 4.</label>
                         <caption>
-                            <title>Two column wide and the margin</title>
+                            <title>Two column wide and the margin. Class D.</title>
                             <p>This figure should be typeset at the width of both text columns and the margin.</p>
                         </caption>
                         <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig4.tiff"/>
