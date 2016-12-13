@@ -3894,7 +3894,14 @@ Appendices must have DOIs -->
                     </boxed-text>
                 </sec>
             </app>
-        </app-group>
+            <app>
+                <title>Appendix 3</title>
+                     <boxed-text>
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
+                        <p>This is an example of an appendix with no sections.</p>
+                    </boxed-text>
+            </app>
+            </app-group>
     </back>
 <!-- UPDATE: Links to the DOIs of the decision letter and author response need to be added to the PDF template.
 UPDATE: article-type has been changed from article-commentary to decision-letter -->    
