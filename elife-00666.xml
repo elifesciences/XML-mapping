@@ -1647,7 +1647,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig3-figsupp1.tiff"/>
                         </fig>
                         <!-- this is an example of an asset asked later on, so the DOI is the last DOI to prevent renumbering the others -->
-                        <media mimetype="video" mime-subtype="mp4" id="fig3video1" xlink:href="elife-00666-media1.mp4">
+                        <media mimetype="video" mime-subtype="mp4" id="fig3video1" xlink:href="elife-00666-fig3-video1.mp4">
                             <!-- UPDATE: DOI prefix added to display--> 
                             <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.035</object-id>
                             <label>Figure 3—Video 1.</label>
@@ -1687,7 +1687,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     <p><xref ref-type="other" rid="video1">Video 1</xref> shows the editorial process.</p>
                     <!-- UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
                     UPDATE: changed id to videoX -->
-                    <media mimetype="video" mime-subtype="mp4" id="video1" xlink:href="elife-00666-media1.mp4">
+                    <media mimetype="video" mime-subtype="mp4" id="video1" xlink:href="elife-00666-video1.mp4">
                         <!-- UPDATE: DOI prefix added to display--> 
                         <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.016</object-id>
                         <label>Video 1.</label>
@@ -1703,7 +1703,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <title>Title of the source code.</title>
                                     <p>Legend of the source code.</p>
                                 </caption>
-                                <media mimetype="application" mime-subtype="xml" xlink:href="elife-00666-video4-data1.xlsx"/>
+                                <media mimetype="application" mime-subtype="xml" xlink:href="elife-00666-video1-data1.xlsx"/>
                             </supplementary-material>
                             </p>
                         </caption>
@@ -1735,14 +1735,14 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <caption>
                             <p>Example of a large box</p>
                         </caption>
-                        <p>This box containbs a <xref ref-type="fig" rid="box1fig1">figure</xref>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus lorem. Suspendisse posuere non enim vel tempor. Fusce quis sem sed nulla tincidunt faucibus. 
+                        <p>This box contains a <xref ref-type="fig" rid="box2fig1">figure</xref>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus lorem. Suspendisse posuere non enim vel tempor. Fusce quis sem sed nulla tincidunt faucibus. 
                             Vivamus dictum magna in ante porttitor faucibus. Aenean lobortis, sem in viverra dignissim, odio purus vestibulum libero, in eleifend lacus metus id tortor. Phasellus tincidunt
                             ipsum ut ornare hendrerit. Praesent lobortis consectetur egestas. Curabitur viverra lectus eu venenatis sagittis. Aliquam lobortis metus mauris, in tincidunt diam ullamcorper ac.
                             Phasellus sagittis, leo eget lacinia commodo, eros justo mattis eros, quis dapibus ipsum ex sit amet sapien. Quisque consequat arcu ut efficitur tincidunt. Ut convallis, 
                             ex maximus aliquam tempor, lorem elit fermentum ipsum, nec volutpat velit sem a lectus. Morbi sed mauris vel purus interdum consectetur dapibus vel velit. Nam pellentesque, 
                             ipsum vel euismod mattis, turpis augue mattis nunc, ac aliquam dolor massa non mi. Vestibulum sit amet elit a augue semper facilisis interdum quis nibh. Mauris consectetur 
                             nisi aliquam urna lobortis, eu efficitur nisl lobortis; <xref ref-type="bibr" rid="bib2">Bates et al., 2016</xref> and <xref ref-type="bibr" rid="bib32">Patterson et al., 2011</xref>.</p>
-                        <fig id="box1fig1" position="float">
+                        <fig id="box2fig1" position="float">
                             <!-- UPDATE: DOI prefix added to display--> 
                             <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.034</object-id>
                             <label>Box 2—Figure 1.</label>
@@ -1750,7 +1750,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                 <title>Box figure</title>
                             </caption>
                             <!--  NOTE: file type must be included in the file description. -->
-                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-box1-fig1.tiff"/>
+                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-box2-fig1.tiff"/>
                             </fig>
                         <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
                             turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
@@ -3842,7 +3842,7 @@ Appendices must have DOIs -->
                         <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.026</object-id>
                         <p>Generating the new rules involved negotation with varous vendors and downsteam hosts to ensure display would work for all instances. See <xref ref-type="video" rid="app2video1">Appendix 2—Video 1</xref> 
                             and <xref ref-type="table" rid="app2table1">Apendix 2—Table 1</xref>.</p>
-                        <media mimetype="video" mime-subtype="mp4" id="app2video1" xlink:href="elife-00666-app1-media1.mp4">
+                        <media mimetype="video" mime-subtype="mp4" id="app2video1" xlink:href="elife-00666-app2-video1.mp4">
                             <!-- UPDATE: DOI prefix added to display--> 
                             <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.027</object-id>
                             <label>Appendix 2—Video 1.</label>
@@ -4032,7 +4032,7 @@ UPDATE: punctuation between institution and country removed. -->
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="video" mime-subtype="avi" id="respvideo1" xlink:href="elife-04953-resp-media1.avi">
+            <media mimetype="video" mime-subtype="mp4" id="respvideo1" xlink:href="elife-00666-resp-video1.mp4">
                 <!-- UPDATE: added to author response assets 
                     DOI prefix added to display--> 
                 <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.033</object-id>
