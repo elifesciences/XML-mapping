@@ -843,6 +843,108 @@ Impact statement:-->
                     <list-item><p>Plant Biology</p></list-item>
                 </list>
             </sec>
+                <sec id="s2-1-3">
+                <list list-type="order">
+                    <list-item>
+                        <p>Here is an example of a list with multiple paragraphs and equations.</p>
+                            <p>A discrete three-dimensional model space was generated (represented as a
+                            three-dimensional matrix; <xref ref-type="fig" rid="fig2s1">Figure
+                                2&#x2014;figure supplement 1A</xref>, left), with dimensions
+                            corresponding to population &#x00B5;, population &#x03C3;, and f value.
+                            Any given value in the matrix indicates P(f|&#x03BC;,&#x03C3;),
+                            that&#x00A0;is, the probability of a given frequency given a particular
+                            &#x03BC; and &#x03C3;. The columns (all f values for a given &#x03BC;
+                            and &#x03C3; combination; <xref ref-type="fig" rid="fig2s1">Figure
+                                2&#x2014;figure supplement 1</xref>, upper-right) thus constitute
+                            the forward model (by which stimuli are generated), and the planes (all
+                            combinations of &#x03BC; and &#x03C3; for a given f value; <xref
+                                ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure supplement
+                                1</xref>, lower-middle) constitute the inverse model (by which
+                            hidden parameters can be estimated from observed f values).</p>
+                    </list-item>
+                    <list-item>
+                        <p>2) For each segment, the model was inverted for its particular f value,
+                            yielding a two-dimensional probability distribution for the hidden
+                            parameters (<xref ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure
+                                supplement 1</xref>, lower-middle). Steps 3-6 were then worked
+                            through for each stimulus segment in order, starting at the beginning of
+                            the stimulus.</p>
+                    </list-item>
+                    <list-item>
+                        <p>These probability distributions, for each segment subsequent to the most
+                            recent estimated population change (as defined later), were multiplied
+                            together, and scaled to a sum of 1. The resulting probability
+                            distribution (<xref ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure
+                                supplement 1</xref>, lower-right) thus reflects parameter
+                            probabilities taking into account all relevant f values</p>
+                    </list-item>
+                    <list-item>
+                        <p>This combined parameter probability distribution was then scalar
+                            multiplied with the full model space, in order to weight each of the
+                            forward model columns (each corresponding to a particular parameter
+                            combination) by the probability of that parameter combination being in
+                            effect. The resulting weighted model space was then averaged across
+                            parameter dimensions, to yield a one-dimensional (forward) probability
+                            distribution, constituting an optimal prediction about the f value of
+                            the next stimulus segment, provided a population change did not occur
+                            before then. A probability distribution applicable if a population
+                            change were to occur was calculated the same way, but without weighting
+                            the forward model columns (so as to encompass every possible parameter
+                            combination).</p>
+                    </list-item>
+                    <list-item>
+                        <p>It was assumed that a population change occurred immediately prior to the
+                            first stimulus segment. To infer subsequent population changes, for each
+                            segment the probability of observing the present f value was compared
+                            for the two probability distributions (the distribution assuming a
+                            population change, and the distribution assuming no change),
+                            that&#x00A0;is, P(f|c) and P(f|&#x007E;c), respectively, with c denoting
+                            a population change. The probabilities were compared, in conjunction
+                            with the known prior probability of a population change (1/8), using
+                            Bayes&#x2019; rule, as stated in Equation 2:<disp-formula id="equ2"
+                                ><label>(2)</label><mml:math id="m2"
+                                    ><mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>c</mml:mi><mml:mo>|</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>f</mml:mi><mml:mtext>|</mml:mtext><mml:mi>c</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>c</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula></p>
+                        <p>Here, P(c|f) is the chance that a population change occurred at that
+                            particular time. Given that P(c) is known to be 1/8, and P(f), the total
+                            probability of the observed f value, can be rewritten
+                            P(f|c)P(c)+P(f|&#x007E;c)(1-P(c)), the above equation can be rewritten
+                            as Equation 3:<disp-formula id="equ3"><label>(3)</label><mml:math
+                                id="m3"
+                                ><mml:mrow><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>c</mml:mi><mml:mtext>|</mml:mtext><mml:mi>f</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mn>7</mml:mn><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>|</mml:mo><mml:mo>&#x007E;</mml:mo><mml:mi>c</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>|</mml:mo><mml:mi>c</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula></p>
+                    </list-item>
+                    <list-item>
+                        <p>For each segment, the above calculation of P(c|f) was made not only with
+                            respect to the immediately preceding segment, but also a number of
+                            segments preceding that, up to a maximum of 4. Therefore, for segment t,
+                            it was possible to conclude that a population change had occurred
+                            immediately prior to t, t-1, t-2, t-3, or none of the above. A
+                            population change was judged to have occurred at the time point with the
+                            highest value of P(c|f), provided this value was greater than 0.5. Using
+                            more than 4 lags did not appreciably alter the estimates obtained by
+                            model inversion. Importantly, any retrospective inference of population
+                            changes did not retrospectively alter any prior predictions generated by
+                            the model (e.g. at time t, if a population change were inferred to have
+                            occurred at time t-3 then the priors for t-2, t-1 and t were not
+                            affected, but only the priors for t+1 onwards).</p>
+                    </list-item>
+                    <list-item>
+                        <p>Once the above steps were worked through for each stimulus segment in
+                            order, the optimal prior predictions were used to calculate the
+                            perceptual inference variables of interest. Predictions themselves were
+                            summarised by their mean (&#x03BC;) and precision (1/variance). Changes
+                            to predictions (&#x0394;&#x00B5;) were calculated as the absolute change
+                            (in octaves) in &#x03BC; from one prediction to the next. Surprise (S)
+                            was calculated as the negative log probability of the observed f value
+                            given the prior prediction, and prediction error (irrespective of
+                            prediction precision) was calculated as the absolute difference (in
+                            octaves) between the observed f value and the mean of the prior
+                            prediction. Mathematically, surprise is directly proportional to
+                            prediction precision multiplied by prediction error. Finally, &#x0394;f
+                            was calculated as the absolute difference between the current and
+                            preceding value of f.</p>
+                    </list-item>
+                </list>
+                </sec>
             <sec id="s2-1-4">
                     <title>Research Organisms</title>
                     <p>This is an example of an ordered list, the "system" will default to numbers. eLife Research organsims are taken from a controlled list from the submission system:</p>
