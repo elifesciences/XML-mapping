@@ -263,11 +263,9 @@ list displayed in the PDF is retained as per the XML order-->
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
                     <collab>eLife Technology Group
                     <contrib-group>
-                        <contrib>
-<!-- A group author member can have an ORCID, although this is not required -->
-                        </contrib>
 <!-- UPDATE: A group author member can have an affiliation, but it is contained within the contrib after their name rather than listed separately. Group author
 affiliations are truncated compared to normal author affiliations (usually just institution, city and country) -->
+<!-- A group author member can have an ORCID, although this is not required -->
                         <contrib>
                             <name>
                         <surname>Nott</surname>
