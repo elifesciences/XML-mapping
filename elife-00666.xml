@@ -3713,7 +3713,7 @@ The tagging of the collaborator name again within this section is required for P
             </ref>
  </ref-list>
         <app-group>
-            <app>
+            <app id="appendix-1">
             <title>Appendix 1</title>
                 <sec sec-type="appendix" id="s8">
                     <title>Preparation</title>
@@ -3953,7 +3953,7 @@ Appendices must have DOIs -->
                 </boxed-text>
                 </sec>
         </app>
-            <app>
+            <app id="appendix-2">
                 <title>Appendix 2</title>
                 <sec sec-type="appendix" id="s9">
               <title>Negotaition</title>
@@ -4014,7 +4014,7 @@ Appendices must have DOIs -->
                     </boxed-text>
                 </sec>
             </app>
-            <app>
+            <app id="appendix-3">
                 <title>Appendix 3</title>
                      <boxed-text>
                         <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.034</object-id>
