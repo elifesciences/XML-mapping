@@ -4157,7 +4157,9 @@ UPDATE: punctuation between institution and country removed. -->
                 <!-- UPDATE: added to author response assets 
                     DOI prefix added to display--> 
                 <object-id pub-id-type="doi">https://doi.org/10.7554/eLife.00666.033</object-id>
-                <label>Author response video 1.</label>
+                <label>Author response video 1.</label><caption>
+                    <p>Caption and/or a title is required for all author response assets</p>
+                </caption>
             </media>
                 <p>However, some decisions required some communication with PMC 
                 to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all 
