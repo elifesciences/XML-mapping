@@ -435,8 +435,6 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
             <p>Ultimately, we ask ourselves: does this manuscript constitute a substantial step
                 towards a clear answer to an important global health question?</p>
         </disp-quote>
-            </sec>
-                <sec id="s4">
         <p>To estimate the probability of random base-pairing interactions taking place between
             mRNAs and noncoding RNAs, consider a five-base region in a single mRNA. This region can
             have any one of a possible 4 <sup>∧</sup> 5=1024 sequences. If the total number of bases
@@ -612,7 +610,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
             researchers and the wider world in the robustness and reliability of their published
             work.</p>
                 </sec>
-        <sec id="s5">
+        <sec id="s4">
             <title>Note</title>
             <p>Any footnotes for Feature content are treated as plain text and are not crosslinked anywhere with a sympol.</p>
         </sec>
