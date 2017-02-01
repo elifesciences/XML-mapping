@@ -1805,7 +1805,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 </sec>
                 <sec id="s2-5">
                     <title>Videos</title>
-                    <p><xref ref-type="other" rid="video1">Video 1</xref> shows the editorial process.</p>
+                    <p><xref ref-type="video" rid="video1">Video 1</xref> shows the editorial process.</p>
                     <!-- UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
                     UPDATE: changed id to videoX -->
                     <media mimetype="video" mime-subtype="mp4" id="video1" xlink:href="elife-00666-video1.mp4">
