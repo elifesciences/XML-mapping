@@ -433,31 +433,6 @@ NOT IN PMC YET, will need to discuss with them when we want to implement
                     <month>04</month>
                     <year>2016</year>
                 </date>
-                <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v1">
-                    <date date-type="AM" iso-8601-date="2016-04-25">
-                    <day>25</day>
-                    <month>04</month>
-                    <year>2016</year>
-                </date>
-                </related-object>
-                <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v2">
-                    <date date-type="EAM" iso-8601-date="2016-06-12">
-                    <day>12</day>
-                    <month>06</month>
-                    <year>2016</year>
-                </date>
-                    <comment>The first version of this article was enhanced considerably between versions of the XML instance.
-                             These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.</comment>
-                </related-object>
-                <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v3">
-                <date date-type="VoR" iso-8601-date="2016-06-12">
-                    <day>27</day>
-                    <month>07</month>
-                    <year>2016</year>
-                </date>
-                    <comment>The first version of this article was enhanced considerably between versions of the XML instance. 
-                             These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.</comment>
-                </related-object>
                 </history>
 <!-- UPDATE: Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
             <permissions>
@@ -476,6 +451,31 @@ NOT IN PMC YET, will need to discuss with them when we want to implement
                 </license>
             </permissions>
             <self-uri content-type="pdf" xlink:href="elife00666.pdf"/>
+            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v1">
+                <date date-type="AM" iso-8601-date="2016-04-25">
+                    <day>25</day>
+                    <month>04</month>
+                    <year>2016</year>
+                </date>
+            </related-object>
+            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v2">
+                <date date-type="EAM" iso-8601-date="2016-06-12">
+                    <day>12</day>
+                    <month>06</month>
+                    <year>2016</year>
+                </date>
+                <comment>The first version of this article was enhanced considerably between versions of the XML instance.
+                    These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.</comment>
+            </related-object>
+            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v3">
+                <date date-type="VoR" iso-8601-date="2016-06-12">
+                    <day>27</day>
+                    <month>07</month>
+                    <year>2016</year>
+                </date>
+                <comment>The first version of this article was enhanced considerably between versions of the XML instance. 
+                    These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.</comment>
+            </related-object>
 <!-- Related article linking: Optional.
 Set of accepted @related-article-type values:
 Research to Research (or Feature to Feature): <related-article related-article-type="article-reference" ext-link-type="doi" xlink:href="10.7554/eLife.01295" id="ra1"/>
