@@ -4093,8 +4093,7 @@ UPDATE: punctuation between institution and country removed. -->
                 <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-resp-fig1.png"/>
                 </fig>
             <table-wrap id="resptable1" position="float">
-                <!-- UPDATE: added to author response assets 
-                    <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
+                <!-- UPDATE: added to author response assets UPDATE: DOI prefix removed from XML but must be added for display--> 
                 <object-id pub-id-type="doi">10.7554/eLife.00666.032</object-id>
                 <label>Author response Table 1.</label>
                 <caption>

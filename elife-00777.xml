@@ -25,7 +25,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
         </journal-meta>
         <article-meta>
             <article-id pub-id-type="publisher-id">00777</article-id>
-            <article-id pub-id-type="doi">https://doi.org/10.7554/eLife.00777</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.00777</article-id>
             <article-categories>
                 <subj-group subj-group-type="heading">
                     <subject>Computational and Systems Biology</subject>
