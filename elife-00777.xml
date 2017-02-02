@@ -218,14 +218,14 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 2016. Avoidance of stochastic RNA interactions can be harnessed to control protein
                 expression levels in bacteria and archaea. <italic>eLife</italic>
                 <bold>5</bold>:e13479. doi:<ext-link ext-link-type="uri"
-                    xlink:href="http://dx.doi.org/10.7554/eLife.13479"
-                    >https://doi.org/10.7554/eLife.13479</ext-link></p>
+                    xlink:href="https://dx.doi.org/10.7554/eLife.13479"
+                    >10.7554/eLife.13479</ext-link></p>
             <p><bold>Related research article</bold>PM,  Mike Boots.
                 2016. Avoidance of stochastic RNA interactions can be harnessed to control protein
                 expression levels in bacteria and archaea. <italic>eLife</italic>
                 <bold>5</bold>:e13479. doi:<ext-link ext-link-type="uri"
-                    xlink:href="http://dx.doi.org/10.7554/eLife.13479"
-                    >https://doi.org/10.7554/eLife.13479</ext-link></p>
+                    xlink:href="https://dx.doi.org/10.7554/eLife.13479"
+                    >10.7554/eLife.13479</ext-link></p>
         </boxed-text>
         <!-- end of key info box. Only present for template 1 -->
         <p>Feature content is different to the research content because it is "magazine"-style and is commissioned. 
@@ -659,7 +659,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <volume>110</volume>
                     <fpage>11284</fpage>
                     <lpage>11289</lpage>
-                    <pub-id pub-id-type="doi">https://doi.org/10.1073/pnas.1305590110</pub-id>
+                    <pub-id pub-id-type="doi">10.1073/pnas.1305590110</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib2">
@@ -680,7 +680,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <source>Molecular Systems Biology</source>
                     <volume>7</volume>
                     <elocation-id>481</elocation-id>
-                    <pub-id pub-id-type="doi">https://doi.org/10.1038/msb.2011.14</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/msb.2011.14</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib3">
@@ -758,7 +758,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <volume>40</volume>
                     <fpage>426</fpage>
                     <lpage>436</lpage>
-                    <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1745-7270.2008.00418.x</pub-id>
+                    <pub-id pub-id-type="doi">10.1111/j.1745-7270.2008.00418.x</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib4">
@@ -776,7 +776,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <volume>361</volume>
                     <fpage>13</fpage>
                     <lpage>37</lpage>
-                    <pub-id pub-id-type="doi">https://doi.org/10.1016/j.gene.2005.06.037</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.gene.2005.06.037</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib5">
@@ -806,7 +806,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <volume>324</volume>
                     <fpage>255</fpage>
                     <lpage>258</lpage>
-                    <pub-id pub-id-type="doi">https://doi.org/10.1126/science.1170160</pub-id>
+                    <pub-id pub-id-type="doi">10.1126/science.1170160</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib6">
@@ -832,7 +832,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <volume>583</volume>
                     <fpage>3966</fpage>
                     <lpage>3973</lpage>
-                    <pub-id pub-id-type="doi">https://doi.org/10.1016/j.febslet.2009.10.036</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.febslet.2009.10.036</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib7">
@@ -862,7 +862,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <volume>107</volume>
                     <fpage>3645</fpage>
                     <lpage>3650</lpage>
-                    <pub-id pub-id-type="doi">https://doi.org/10.1073/pnas.0909910107</pub-id>
+                    <pub-id pub-id-type="doi">10.1073/pnas.0909910107</pub-id>
                 </element-citation>
             </ref>
             <ref id="bib8">
@@ -891,7 +891,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                     <source>eLife</source>
                     <volume>5</volume>
                     <elocation-id>e13479</elocation-id>
-                    <pub-id pub-id-type="doi">https://doi.org/10.7554/eLife.13479</pub-id>
+                    <pub-id pub-id-type="doi">10.7554/eLife.13479</pub-id>
                 </element-citation>
             </ref>
         </ref-list>
