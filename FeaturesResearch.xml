@@ -531,14 +531,6 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">https://doi.org/10.7554/eLife.00666.002</ext-link>
 Additionally, digest are no longer a required component of all Research Articles and Short Reports. All research content can now be published with no digest -->
             <abstract abstract-type="executive-summary">
-<!-- UPDATE: DOI prefix removed from XML but must be displayed in outputs-->  
-                <object-id pub-id-type="doi">10.7554/eLife.00666.002</object-id>
-                <title>eLife digest</title>
-                <p>eLife digest are now optional and not every research article will contain one.
-                    These are layman abstracts, designed for non-specialists in this field to be
-                    able to understand this article, as well as the general public.</p>
-                <p>Here is paragraph 2 of the digest.</p>
-            </abstract>
 <!-- UDPATE: Author keywords: removed title from XML - is implicit in the @kwd-group-type
 Can contain italics, but no bold or other formatting-->
             <kwd-group kwd-group-type="author-keywords">
