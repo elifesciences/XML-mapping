@@ -470,7 +470,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 <title>One column wide. Class A.</title>
                 <p>This figure should be typeset at the width of one text column.</p>
             </caption>
-            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig1.tiff"/>
+            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig1.tif"/>
             <!-- Where a credit is required for an image, this will be added using the <attrib> tag at the end of the figure block. 
                 This may or may not need to be a clickable link -->
             <attrib>Image credit: <ext-link ext-link-type="uri" xlink:href="http://orcid.org/0000-0002-4485-5663">
@@ -548,7 +548,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                             <title>One column wide and the margin. Class B.</title>
                             <p>This figure should be typeset at the width of one text column and the margin.</p>
                         </caption>
-                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig2.tiff"/>
+                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig2.tif"/>
                     </fig>
                     <fig id="fig3" position="float">
                         <label>Figure 3.</label>
@@ -556,7 +556,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                             <title>Two column wide. Class C.</title>
                             <p>This figure should be typeset at the width of both text columns.</p>
                         </caption>
-                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig3.tiff"/>
+                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig3.tif"/>
                     </fig>
                     <fig id="fig4" position="float">
                         <label>Figure 4.</label>
@@ -564,7 +564,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                             <title>Two column wide and the margin. Class D.</title>
                             <p>This figure should be typeset at the width of both text columns and the margin.</p>
                         </caption>
-                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig4.tiff"/>
+                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00777-fig4.tif"/>
                     </fig>
         <!-- Videos: Like figures, they do not have DOIs.
         UPDATE: This no longer required for videos: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
