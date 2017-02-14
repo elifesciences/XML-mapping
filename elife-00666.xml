@@ -2525,6 +2525,8 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="1989">1989</year>
             <chapter-title>Two rules of speciation</chapter-title>
             <source>Speciation and its consequences</source>
+            <fpage>1</fpage>
+            <lpage>2</lpage>
             <publisher-loc>Sunderland, MA</publisher-loc>
             <publisher-name>Sinauer Associates</publisher-name>
         </element-citation>
