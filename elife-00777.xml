@@ -53,7 +53,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                         <surname>Corley</surname>
                         <given-names>Meredith</given-names>
                     </name>
-                    <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4485-5663</contrib-id>
+                    <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-4485-5663</contrib-id>
                     <email>mcorley@email.unc.edu</email>
                     <xref ref-type="aff" rid="aff1"/>
                     <xref ref-type="fn" rid="fn1">&#x2a;</xref>
@@ -72,7 +72,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                         <given-names>Alain</given-names>
                     </name>
                     <contrib-id contrib-id-type="orcid"
-                        >http://orcid.org/0000-0002-5088-9907</contrib-id>
+                        authenticated="true">http://orcid.org/0000-0002-5088-9907</contrib-id>
                     <email>alain@unc.edu</email>
                     <!-- The <role> tag is used to indicate authors who are eLife Deputy, Senior or Reviewing editors, or members of the eLife staff -->
                     <role>Reviewing Editor</role>
