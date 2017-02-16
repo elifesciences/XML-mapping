@@ -100,7 +100,7 @@ All succeeding footnotes use the following symbols in order: † (&#x2020;), ‡
 NOTE: There can be multiple corresponding authors and they may not all have an ORCID as only one will be the primary correspondent for peer review. The
 primary corresponding author will be indicated as the corresponding author for the proofing process in the output XML from the submission system, but 
 this distinction will not be retained in the final XML. -->
-                    <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3523-4408</contrib-id>
+                    <contrib-id contrib-id-type="orcid"  authenticated="true">http://orcid.org/0000-0003-3523-4408</contrib-id>
 <!-- UPDATE: email for corresponding author is contained within contrib and no longer in author notes.
 For PDF display footnote "*For correspondence: " must be added as boilerplate followed by the email address pulled in from the XML.If there are multiple 
 corresponding authors, the email addresses must be added in order of the author list, separated with semicolons. Author initials should to be added in 
@@ -285,7 +285,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                                 <given-names>Chris</given-names>
                             </name>
                             <email>c.wilkinson@elifesciences.org</email>
-                            <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4921-6155</contrib-id>
+                            <contrib-id contrib-id-type="orcid"  authenticated="true">http://orcid.org/0000-0003-4921-6155</contrib-id>
                             <aff>
                                 <institution>eLife</institution>
                                 <addr-line>
