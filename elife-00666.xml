@@ -642,8 +642,8 @@ Impact statement:-->
                     Morgan, 2016</xref>. Approximately half of the articles that are
                     selected for peer review go on to be published (<xref ref-type="bibr" rid="bib5">Brettar et al., 2004a</xref>). If other researchers publish similar
                 findings after submission, this will not be a reason for rejection. The eLife
-                editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings and Wäckers, 2004</xref>; <xref ref-type="bibr" rid="bib50">
-                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib49">Walker, 1995</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al., 2016</xref>). If you are interested in
+                editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings and Wäckers, 2004a</xref>; <xref ref-type="bibr" rid="bib49">Turlings and Wäckers, 2004b</xref>;  <xref ref-type="bibr" rid="bib51">
+                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib50">Walker, 1995</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al., 2016</xref>). If you are interested in
                 submitting your work to eLife, please review the guidelines relating to initial
                 submissions. If you have received an encouraging response to your initial
                 submission, please review the guidelines relating to full submissions. If your full
@@ -1242,7 +1242,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <td>2 × 10<sup>3</sup></td>
                                     <td>10 × 10<sup>4</sup></td>
                                     <td>13 × 10<sup>4</sup></td>
-                                    <td><xref ref-type="bibr" rid="bib53">Zhong et al., 2013</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib54">Zhong et al., 2013</xref></td>
                                 </tr>
                                 <tr>
                                     <td>Nyv1p</td>
@@ -1256,13 +1256,13 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <td>4 × 10<sup>3</sup></td>
                                     <td>1.9 × 10<sup>4</sup></td>
                                     <td>1.8 × 10<sup>4</sup></td>
-                                    <td><xref ref-type="bibr" rid="bib53">Zhong et al., 2013</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib54">Zhong et al., 2013</xref></td>
                                 </tr>
                                 <tr>
                                     <td>Sec17p</td><td>7 × 10<sup>3</sup></td>
                                     <td>41 × 10<sup>4</sup></td>
                                     <td>13 × 10<sup>4</sup></td>
-                                    <td><xref ref-type="bibr" rid="bib50">Wolski et al., 2008</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib51">Wolski et al., 2008</xref></td>
                                 </tr>
                                 <tr>
                                     <td>Sec18p</td>
@@ -1276,7 +1276,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <td>6 × 10<sup>3</sup></td>
                                     <td>17 × 10<sup>4</sup></td>
                                     <td>31 × 10<sup>4</sup></td>
-                                    <td><xref ref-type="bibr" rid="bib53">Zhong et al., 2013</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib54">Zhong et al., 2013</xref></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1731,8 +1731,9 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
                         with two sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—Source data 1</xref> and <xref ref-type="video"
-                            rid="fig3video1">Figure 3—figure supplement 1—Video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhong et al., 
-                            2013</xref>; <xref ref-type="bibr" rid="bib51">World Health Organization, 2016</xref>).</p>
+                            rid="fig3video1">Figure 3—figure supplement 1—Video 1</xref> (see <xref ref-type="bibr" rid="bib54">Zhong et al., 
+                                2010</xref>, <xref ref-type="bibr" rid="bib54">Zhang et al., 
+                            2013</xref>; <xref ref-type="bibr" rid="bib52">World Health Organization, 2016</xref>).</p>
                     <!-- UPDATE: new method of modelling supplementary material for a figure
                     A figure or a sub figure can have any assets - e.g. data, code, videos -->
                     <fig-group>
@@ -3531,7 +3532,7 @@ The tagging of the collaborator name again within this section is required for P
                     <given-names>JG</given-names>
                 </name>
             </person-group>
-            <year iso-8601-date="2004">2004</year>
+            <year iso-8601-date="2004">2004a</year>
             <source>Advances in insect chemical ecology</source>
             <chapter-title>Recruitment of predators and parasitoids by herbivore-injured
                 plants</chapter-title>
@@ -3541,8 +3542,35 @@ The tagging of the collaborator name again within this section is required for P
             <lpage>75</lpage>
         </element-citation>
     </ref>
+<!-- Book reference: book with editors and authors, no chapter, and example of  -->
+            <ref id="bib49">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Turlings</surname>
+                            <given-names>TCJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Wäckers</surname>
+                            <given-names>FL</given-names>
+                        </name>
+                    </person-group>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Cardé</surname>
+                            <given-names>RT</given-names>
+                        </name>
+                        <name>
+                            <surname>Millar</surname>
+                            <given-names>JG</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2004">2004b</year>
+                    <source>Advances in insect chemical ecology</source>
+                </element-citation>
+            </ref>
  <!-- Reference to a whole Website -->
-    <ref id="bib49">
+    <ref id="bib50">
         <element-citation publication-type="web">
             <person-group person-group-type="author">
                 <name>
@@ -3557,7 +3585,7 @@ The tagging of the collaborator name again within this section is required for P
         </element-citation>
     </ref>
     <!-- Journal reference: elocation-id and DOI and PMID -->
-        <ref id="bib50">
+        <ref id="bib51">
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -3596,7 +3624,7 @@ The tagging of the collaborator name again within this section is required for P
                 </element-citation>
             </ref>
 <!-- Book reference: Has edition, editor is author -->
-    <ref id="bib51">
+    <ref id="bib52">
         <element-citation publication-type="book">
             <person-group person-group-type="author">
                 <collab>World Health Organization</collab>
@@ -3609,7 +3637,7 @@ The tagging of the collaborator name again within this section is required for P
             <publisher-name>World Health Organization</publisher-name>
         </element-citation>
     </ref>
-    <ref id="bib52">
+    <ref id="bib53">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
                 <name>
@@ -3656,7 +3684,7 @@ The tagging of the collaborator name again within this section is required for P
         </element-citation>
     </ref>
 <!-- Data reference: modMine pub-id-type="archive" -->
-            <ref id="bib53">
+            <ref id="bib54">
                 <element-citation publication-type="data">
                     <person-group person-group-type="author">
                         <name>
