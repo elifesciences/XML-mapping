@@ -574,6 +574,7 @@ Individual members of a group authorship should not be named in the funding sect
                         </name>
                     </principal-award-recipient>
                 </award-group>
+                <!-- UPDATE: if an award recipient is a group, cannot use collab or name without subdivision, so added string-name-->
                 <award-group id="fund2">
                     <funding-source>
                         <institution-wrap>
