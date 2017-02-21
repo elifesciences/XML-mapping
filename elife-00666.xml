@@ -2095,6 +2095,7 @@ The tagging of the collaborator name again within this section is required for P
                     <source>Dryad Digital Repository</source>
                     <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository"
                         xlink:href="https://doi.org/10.5061/dryad.cv323">10.5061/dryad.cv323</pub-id>
+                        <comment>Publicly available at Dryad.</comment>
                     </related-object>
                 </p>
             </sec>
