@@ -153,8 +153,6 @@ author. There is no display text associated with this link-->
                     </name>
                     <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="fn" rid="equal-contrib1">&#x2020;</xref>
-                    <xref ref-type="other" rid="fund1"/>
-                    <xref ref-type="other" rid="fund2"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="con2"/>
                  </contrib>
@@ -311,6 +309,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
             </collab>
                     <xref ref-type="aff" rid="aff2">2</xref>
                     <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
+                    <xref ref-type="other" rid="fund2"/>
                     <xref ref-type="fn" rid="conf3"/>
                     <xref ref-type="fn" rid="con4"/>
             </contrib>
@@ -582,7 +581,7 @@ Individual members of a group authorship should not be named in the funding sect
                         </institution-wrap>
                     </funding-source>
                     <principal-award-recipient>
-                        <institution>Reproducibility Project: Cancer Biology</institution>
+                        <string-name>eLife Technology Group</string-name>
                     </principal-award-recipient>
                 </award-group>
               <funding-statement>The funders had no role in study design; collection, analysis,
