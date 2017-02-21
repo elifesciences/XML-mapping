@@ -1705,7 +1705,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <label>Figure 2.</label>
                         <caption>
                             <title>Figure with figure supplements. In the PDF this asset box will take full column width.</title> 
-                            <p>This is the basic infomration provided about an article. <xref ref-type="fig" rid="fig1">Figure 1
+                            <p>This is the basic information provided about an article. <xref ref-type="fig" rid="fig1">Figure 1
                             </xref> shows an expanded view (<xref ref-type="bibr" rid="bib26">Kok et al., 2015</xref>; <xref ref-type="bibr" rid="bib28">National Institute of Mental 
                                 Health, 1990</xref>).</p>
                         </caption>
