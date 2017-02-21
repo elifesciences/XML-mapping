@@ -257,6 +257,7 @@ list displayed in the PDF is retained as per the XML order-->
                     <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
                     <xref ref-type="fn" rid="con3"/>
                     <xref ref-type="fn" rid="conf2"/>
+                    <xref ref-type="aff" rid="aff1">1</xref>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
                     <collab>eLife Technology Group
