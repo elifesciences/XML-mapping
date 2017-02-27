@@ -1806,7 +1806,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 </sec>
                 <sec id="s2-5">
                     <title>Videos</title>
-                    <p><xref ref-type="video" rid="video1">Video 1</xref> shows the editorial process.</p>
+                    <p><xref ref-type="video" rid="video1">Video 1</xref> shows the editorial process and <xref ref-type="video" rid="video2">Animation 1</xref> 
+                        shows how we represent animated gif files.</p>
                     <!-- UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
                     UPDATE: changed id to videoX -->
                     <media mimetype="video" mime-subtype="mp4" id="video1" xlink:href="elife-00666-video1.mp4">
@@ -1815,7 +1816,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <label>Video 1.</label>
                         <caption>
                             <title>
-                                A descirption of the eLife editorial process.
+                                A description of the eLife editorial process.
                             </title>
                             <p><supplementary-material id="video1sdata1">
                                 <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
@@ -1828,6 +1829,16 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                 <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-00666-video1-data1.xlsx"/>
                             </supplementary-material>
                             </p>
+                        </caption>
+                    </media>
+                    <media mimetype="video" mime-subtype="gif" id="video2" xlink:href="elife-00666-video2.gif">
+                        <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
+                        <!-- UPDATE: animated gifs must process through the Glencoe video workflow but must retain the mime-subtype="gif" 
+                            in the XML to ensure the online system recognises this--> 
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
+                        <label>Animation 1.</label>
+                        <caption>
+                            <title>A demonstration of how to tag an animated gif file to ensure it is autolooped when on the eLife website.</title>
                         </caption>
                     </media>
                 </sec>
@@ -2045,7 +2056,7 @@ All supplementary files are listed here -->
                    </caption>
                 <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-repstand1.pdf"/>
             </supplementary-material>
-        </sec>        
+          </sec>        
 <!-- Datasets: this section is subject to change further to outcomes of FORCE11 Data citations working group. 
 Additionally, it is currently undecided whether they will be added to eLife profiles.
 The tagging of the collaborator name again within this section is required for PMC display, therefore no change proposed to tagging currently. -->
