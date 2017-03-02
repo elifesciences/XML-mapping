@@ -862,6 +862,9 @@ Impact statement:-->
                                 1</xref>, lower-middle) constitute the inverse model (by which
                             hidden parameters can be estimated from observed f values).</p>
                     </list-item>
+                    <!-- UPDATE: this 2) below is in error - it creates a repeat on the html view and a space 
+                        on the PDF view. Should not be there -->
+                    
                     <list-item>
                         <p>2) For each segment, the model was inverted for its particular f value,
                             yielding a two-dimensional probability distribution for the hidden
