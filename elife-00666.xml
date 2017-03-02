@@ -159,7 +159,7 @@ author. There is no display text associated with this link-->
 <!-- UPDATE: group authors. If the individuals of the group are listed, they now will be listed as a contrib-group and contributors within collab.
 They are no longer separated from their group name in tagging and linked by author key. Multiple group authors are allowed and their position in the author
 list displayed in the PDF is retained as per the XML order-->
-                <contrib contrib-type="author">
+                <contrib contrib-type="author" equal-contrib="yes">
                    <collab>eLife Editorial Production Group
                         <contrib-group>
 <!-- UPDATE: use of role in group authors. If a group author is subdivided into sections or sub-groups, this is indicated using the role tag-->                           
