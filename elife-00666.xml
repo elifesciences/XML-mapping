@@ -1572,7 +1572,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         ):
                         <!-- id and a label required for display formulae -->
                         <disp-formula id="equ3">
-                            <label>(1)</label>
+                            <label>(3)</label>
                             <mml:math id="m1">
                                 <mml:mstyle displaystyle="true" scriptlevel="0">
                                     <mml:mrow>
