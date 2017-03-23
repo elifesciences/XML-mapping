@@ -569,7 +569,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
         <!-- Videos: Like figures, they do not have DOIs.
         UPDATE: This no longer required for videos: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
         UPDATE: changed id to videoX -->
-        <media mimetype="media" mime-subtype="mp4" id="video1" xlink:href="elife-00777-video1.mp4">
+        <media mimetype="video" mime-subtype="mp4" id="video1" xlink:href="elife-00777-video1.mp4">
             <label>Video 1.</label>
             <caption>
                 <title>A description of the eLife editorial process.</title>
