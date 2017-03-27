@@ -746,10 +746,10 @@ Impact statement:-->
                             <list-item><p>research-article (all reseasrch content)</p></list-item>
                         </list>
                         <p>Nested lists are allowed and these are very common in Registered Peports. Below is an example of a nested list to 3 levels.</p>
+                        <p>Genus: Plasmodium; following species are known to infect humans</p>
                         <list list-type="roman-upper">
                             <list-item>
-                                <p>Genus: Plasmodium; following species are known to infect humans</p>
-                                 <list list-type="roman-lower">
+                                <list list-type="roman-lower">
                                      <list-item>
                                          <p><italic>P. falciparum</italic></p>
                                      </list-item> 
