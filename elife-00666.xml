@@ -866,7 +866,7 @@ Impact statement:-->
                         on the PDF view. Should not be there -->
                     
                     <list-item>
-                        <p>For each segment, the model was inverted for its particular f value,
+                        <p> 2) For each segment, the model was inverted for its particular f value,
                             yielding a two-dimensional probability distribution for the hidden
                             parameters (<xref ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure
                                 supplement 1</xref>, lower-middle). Steps 3-6 were then worked
