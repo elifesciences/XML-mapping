@@ -845,9 +845,9 @@ Impact statement:-->
                 <sec id="s2-1-3">
                     <title>Multi-lists</title>
                 <list list-type="order">
+                    <p>Here is an example of a list with multiple paragraphs and equations.</p>
                     <list-item>
-                        <p>Here is an example of a list with multiple paragraphs and equations.</p>
-                            <p>A discrete three-dimensional model space was generated (represented as a
+                       <p>A discrete three-dimensional model space was generated (represented as a
                             three-dimensional matrix; <xref ref-type="fig" rid="fig2s1">Figure
                                 2&#x2014;figure supplement 1A</xref>, left), with dimensions
                             corresponding to population &#x00B5;, population &#x03C3;, and f value.
