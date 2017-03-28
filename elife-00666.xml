@@ -767,9 +767,9 @@ Impact statement:-->
                                      </list-item>
                                 </list>
                             </list-item>
+                            <p>Genus: Leishmania. There are 3 subgenus of Leishmania:</p>
                             <list-item>
-                                <p>Genus: Leishmania. There are 3 subgenus of Leishmania:</p>
-                                    <list list-type="roman-lower">
+                                <list list-type="roman-lower">
                                             <list-item>
                                                 <p>Leishmania</p>
                                             </list-item>
@@ -3584,6 +3584,7 @@ The tagging of the collaborator name again within this section is required for P
                     </person-group>
                     <year iso-8601-date="2004">2004b</year>
                     <source>Advances in insect chemical ecology</source>
+                    <publisher-name>Cambridge University Press</publisher-name>
                 </element-citation>
             </ref>
  <!-- Reference to a whole Website - added date a year ealier than accessed date-->
