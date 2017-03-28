@@ -209,13 +209,12 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
                 </kwd>
                 <kwd>Other</kwd>
             </kwd-group>
-        </article-meta>
-        <custom-meta-group>
-            <custom-meta specific-use="meta-only">
-                <meta-name>Author impact statement</meta-name>
-                <meta-value>This is an Insight.</meta-value>
-            </custom-meta>
-        </custom-meta-group>
+            <custom-meta-group>
+                <custom-meta specific-use="meta-only">
+                    <meta-name>Author impact statement</meta-name>
+                    <meta-value>This is an Insight.</meta-value>
+                </custom-meta>
+            </custom-meta-group>
         </article-meta>
     </front>
     <body>
