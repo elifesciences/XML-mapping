@@ -445,14 +445,14 @@ and a link to itself with a  date-type of v2 and also a comment on this v2 (the 
 If an item is published three times the previous 2 related-object links will remain and a further 3rd one will be added to the end. This will be a  link to itself 
 with a  date-type of v3 and also a comment on this v3 (the comment will detail the differences between v2 and v3)-->
             <!--All v2s will contain 2 related-objects, see examples below-->
-            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v1">
+            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/articles/e00666v1">
                 <date date-type="v1" iso-8601-date="2016-04-25">
                     <day>25</day>
                     <month>04</month>
                     <year>2016</year>
                     </date>
             </related-object>
-            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v2">
+            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/articles/e00666v2">
                 <date date-type="v2" iso-8601-date="2016-06-12">
                     <day>12</day>
                     <month>06</month>
@@ -463,7 +463,7 @@ with a  date-type of v3 and also a comment on this v3 (the comment will detail t
                 </comment>
                 <!--If subsequent versions (v3 and onwards are published these will look like the below-->
             </related-object>
-            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v3">
+            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/articles/e00666v3">
                 <date date-type="v3" iso-8601-date="2016-06-27">
                     <day>27</day>
                     <month>06</month>
