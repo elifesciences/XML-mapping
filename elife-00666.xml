@@ -389,9 +389,10 @@ content must work as a discrete item on each author's roll over and on the displ
                     <p>This footnote text must work in isolation as nothing is processed on the html view to make it "work"</p>
                 </fn>
             </author-notes>
-<!-- CHANGE: pub-date will still continue to keep the PoA pub date in the XML but it will also include the updated date that the VoR is published. The first time 
-an article is published it will contain one date, which will contain the @date-type attribute of "publication". This new instance of the XML will also be added
-into pub-date with a @date-type attribute of "update" -->
+            <!-- CHANGE: pub-date will still continue to keep the first (whether PoA or VoR) pub date in the XML with a date-type="publication". 
+                This date will remain in all instances of the XML for an article. If a further version is published another date wil be added, with a
+                date-type="update". Each time a new instance of the XML is published, the pub date with the date-type="update" will be replaced with the new date of
+                the publication date of this instance. There will only ever be two pub dates in an XML file. -->
             <pub-date publication-format="electronic" date-type="update">
                 <day>11</day>
                 <month>08</month>
@@ -408,20 +409,6 @@ into pub-date with a @date-type attribute of "update" -->
             </pub-date>
             <volume>5</volume>
             <elocation-id>e00666</elocation-id>
-<!-- CHANGE: All the historical publication information related to an article will be added to the history, with iso-8601-date attributes. 
-Additionally, the links to the previous published versions will be added, as well as a comment to indicate the changes. This comment will not be 
-necessary between PoA and VoR, but will be necessary between versions PoA and versions of VoR. The date will have an iso-8601-date= attribute added.
-@date-type values:
-preprint - The date a preprint was disseminated (electronic or print)
-AM -  The date a manuscript, was published
-EAM - The date a manuscript, was enhanced and re-published
-VoR - The date a version of record, typically a full text XML, HTML and typeset PDF, was published
-CVoR - The date a version of record, typically a full text XML, HTML and typeset PDF, was corrected (an official correction notice has been published to accompany this article)
-EVoR - The date a version of record, typically a full text XML, HTML and typeset PDF, was enhanced and re-published (this article has been updated and republished, with no official correction notice)
-retracted - The date an article was retracted
-If an article goes through one of these processes more than once, the value should contain a suffix of “-r1”, i.e. an additional VoR enhancement would be EVor-pub-r1
-NOT IN PMC YET, will need to discuss with them when we want to implement
--->
             <history>
                 <date date-type="received" iso-8601-date="2016-03-01">
                     <day>01</day>
@@ -451,32 +438,40 @@ NOT IN PMC YET, will need to discuss with them when we want to implement
                 </license>
             </permissions>
             <self-uri content-type="pdf" xlink:href="elife-00666.pdf"/>
+<!-- UPDATE: historical events in the publication history will be entered using related-object. 
+If something is published once it will not have these related-objects.
+If an item is published twice the first related-object will be to the first publication and contain the related-object and date with date-type of v1 only
+and a link to itself with a  date-type of v2 and also a comment on this v2 (the comment will detail the differences between v1 and v2).
+If an item is published three times the previous 2 related-object links will remain and a further 3rd one will be added to the end. This will be a  link to itself 
+with a  date-type of v3 and also a comment on this v3 (the comment will detail the differences between v2 and v3)-->
+            <!--All v2s will contain 2 related-objects, see examples below-->
             <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v1">
-                <date date-type="AM" iso-8601-date="2016-04-25">
+                <date date-type="v1" iso-8601-date="2016-04-25">
                     <day>25</day>
                     <month>04</month>
                     <year>2016</year>
-                </date>
+                    </date>
             </related-object>
             <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v2">
-                <date date-type="EAM" iso-8601-date="2016-06-12">
+                <date date-type="v2" iso-8601-date="2016-06-12">
                     <day>12</day>
                     <month>06</month>
                     <year>2016</year>
                 </date>
                 <comment>The first version of this article was enhanced considerably between versions of the XML instance.
-                    These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.</comment>
+                    These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.
+                </comment>
+                <!--If subsequent versions (v3 and onwards are published these will look like the below-->
             </related-object>
             <related-object ext-link-type="url" xlink:href="https://elifesciences.org/content/5/e00666v3">
-                <date date-type="VoR" iso-8601-date="2016-06-12">
+                <date date-type="v3" iso-8601-date="2016-06-27">
                     <day>27</day>
-                    <month>07</month>
+                    <month>06</month>
                     <year>2016</year>
                 </date>
-                <comment>The first version of this article was enhanced considerably between versions of the XML instance. 
-                    These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.</comment>
+                <comment>The author Christoph Wuelfing requested has surname was converted to the German spelling of "Wülfing".</comment>
             </related-object>
-<!-- Related article linking: Optional.
+            <!-- Related article linking: Optional.
 Set of accepted @related-article-type values:
 Research to Research (or Feature to Feature): <related-article related-article-type="article-reference" ext-link-type="doi" xlink:href="10.7554/eLife.01295" id="ra1"/>
 Research to Insight: <related-article related-article-type="commentary" ext-link-type="doi" xlink:href="10.7554/eLife.01738" id="ra1"/>
@@ -486,7 +481,7 @@ NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related 
 In discussion with PMC re this 
 NOTE: research advance MUST contain <related-article related-article-type="article-reference" link to the original article it is building upon
 -->
-<!-- UPDATE: Abstract: The following is no longer required for the XML file. However, it must be displayed in the PDF: 
+            <!-- UPDATE: Abstract: The following is no longer required for the XML file. However, it must be displayed in the PDF: 
 <bold>DOI:</bold>
 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">https://doi.org/10.7554/eLife.00666.001</ext-link> -->
             <abstract>
