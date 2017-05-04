@@ -2980,9 +2980,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2015">2015</year>
             <data-title>Data from: Genome-wide errant targeting by Hairy</data-title>
             <source>Dryad Digital Repository</source>
-            <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository"
-                xlink:href="https://doi.org/10.5061/dryad.cv323"
-                >10.5061/dryad.cv323</pub-id>
+            <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository">10.5061/dryad.cv323</pub-id>
         </element-citation>
     </ref>
 <!-- Journal reference: collab author -->
