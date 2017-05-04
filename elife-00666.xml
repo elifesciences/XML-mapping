@@ -635,11 +635,11 @@ Impact statement:-->
                 work of the highest scientific standards and importance. Leading academic
                 researchers evaluate new submissions and approximately two-thirds are returned to
                 the authors without further peer review. See  <xref ref-type="bibr" rid="bib12">DeLano, 2002</xref> and <xref ref-type="bibr" rid="bib13">
-                    Morgan, 2016</xref>. Approximately half of the articles that are
+                    Department of Education and Morgan, 2016</xref>. Approximately half of the articles that are
                     selected for peer review go on to be published (<xref ref-type="bibr" rid="bib5">Brettar et al., 2004a</xref>). If other researchers publish similar
                 findings after submission, this will not be a reason for rejection. The eLife
                 editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings and Wäckers, 2004a</xref>; <xref ref-type="bibr" rid="bib49">Turlings and Wäckers, 2004b</xref>;  <xref ref-type="bibr" rid="bib51">
-                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib50">Walker, 1995</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al., 2016</xref>). If you are interested in
+                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib50">Walker, 1994</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al., 2016</xref>). If you are interested in
                 submitting your work to eLife, please review the guidelines relating to initial
                 submissions. If you have received an encouraging response to your initial
                 submission, please review the guidelines relating to full submissions. If your full
@@ -652,14 +652,14 @@ Impact statement:-->
                 phase, members of eLife’s senior editorial team rapidly assess new submissions,
                 often in consultation with members of the Board of Reviewing Editors or with
                 external guest editors where necessary, to identify the ones that are appropriate
-                for in-depth peer review (<xref ref-type="bibr" rid="bib8">Cardé and  Millar, 2004</xref>; <xref ref-type="bibr" rid="bib9">Cartwright, 2016</xref>; 
+                for in-depth peer review (<xref ref-type="bibr" rid="bib8">Cardé and Millar, 2004</xref>; <xref ref-type="bibr" rid="bib9">Cartwright, 2016</xref>; 
                 <xref ref-type="bibr" rid="bib10">Chmeil, 2008</xref>). To simplify the submission process, authors should submit
                 their full manuscript as a single PDF. Limited additional information is collected
                 via the submission screen questions to complete the submission (<xref ref-type="bibr" rid="bib6">Brettar et al., 2004b</xref>).</p>
             </sec>      
           <sec id="s1-1-2"> 
               <title>Full submission (level 3 heading)</title>
-              <p>For manuscripts that are invited for in-depth peer review, see <xref ref-type="bibr" rid="bib11">Coyne et al., 1989</xref> 
+              <p>For manuscripts that are invited for in-depth peer review, see <xref ref-type="bibr" rid="bib11">Coyne and Orr, 1989</xref> 
                   and <xref ref-type="bibr" rid="bib14">Du et al., 2014</xref>, we request detailed
                 information about the work to support the peer review process, to ensure that the
                 work meets appropriate standards for the reporting of new findings, and, if
@@ -1234,7 +1234,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <td style="author-callout-style-b7">11 × 10<sup>4</sup></td>
                                     <!-- The next cell contains a coloured background using author-callout-style-b8 (Grey) -->
                                     <td style="author-callout-style-b8">22 × 10<sup>4</sup></td>
-                                    <td><xref ref-type="bibr" rid="bib13">Morgan, 2016</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib13">Department of Education and Morgan, 2016</xref></td>
                                 </tr>
                                 <tr>
                                     <td>Vti1p</td>
@@ -1730,9 +1730,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
                         with two sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—Source data 1</xref> and <xref ref-type="video"
-                            rid="fig3video1">Figure 3—figure supplement 1—Video 1</xref> (see <xref ref-type="bibr" rid="bib54">Zhong et al., 
-                                2010</xref>, <xref ref-type="bibr" rid="bib54">Zhang et al., 
-                            2013</xref>; <xref ref-type="bibr" rid="bib52">World Health Organization, 2016</xref>).</p>
+                            rid="fig3video1">Figure 3—figure supplement 1—Video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhang et al., 
+                                2010</xref>, <xref ref-type="bibr" rid="bib54">Zhong et al.,  2013</xref>; <xref ref-type="bibr" rid="bib52">World Health Organization, 2016</xref>).</p>
                     <!-- UPDATE: new method of modelling supplementary material for a figure
                     A figure or a sub figure can have any assets - e.g. data, code, videos -->
                     <fig-group>
@@ -1856,7 +1855,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
                             turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
                             Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. (see <xref ref-type="bibr" rid="bib29">Nellåker, 2014</xref>; <xref ref-type="bibr" rid="bib30">
-                                Pages et al., 2014</xref>; and <xref ref-type="bibr" rid="bib31"> Palmer et al., 2007</xref>) Vestibulum ultrices vehicula nibh, 
+                                Pages et al., 2014</xref>; and <xref ref-type="bibr" rid="bib31">Palmer et al., 2007</xref>) Vestibulum ultrices vehicula nibh, 
                             a ullamcorper dui semper suscipit. Etiam in sem augue.</p>
                     </boxed-text>
                     <boxed-text id="box2">
@@ -4216,7 +4215,7 @@ UPDATE: DOI prefix removed from XML but must be added for display-->
                 to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all 
                 formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} in order to produce rules for the 
                 production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.{Insert table}</p>
-            <p>If an author referes to a reference in the response letter it is cross linked to the reference in the reference list (<xref ref-type="bibr" rid="bib11">Coyne et al.,
+            <p>If an author referes to a reference in the response letter it is cross linked to the reference in the reference list (<xref ref-type="bibr" rid="bib11">Coyne and Orr,
                 1989</xref>), however, if it is a new reference only cited in the decision letter or author response it is not added to the main reference link and is just listed as free
                 text, for example, Butcher et al, 2006. If the author provides the reference it can be added as free text to the end of the letter, however, this is not a requirement
                 .</p>
