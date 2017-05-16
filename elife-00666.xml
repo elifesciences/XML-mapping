@@ -1191,7 +1191,9 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         any unusual styling. It does have footnotes linked to content in the table using the prescribed symbols.</p>
                     <!-- Table 2 contains footnotes that have been connected to the main body of the table with hyperlinked symbols. This hyperlinking using xref tags is not currently 
                         being added but should be added going forward.
-                    Table 2 also contains coloured cells using the eight permitted colours -->
+                    Table 2 also contains coloured cells using the eight permitted colours.
+                    Table 2 is structured into two sub-tables. In the PDF, these should be set seperately, with a space equivalent to a row of empty cells between the final row of
+                    the first and the header row of the second.-->
                     <table-wrap id="table2" position="float">
 <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                         <object-id pub-id-type="doi">10.7554/eLife.00666.004</object-id>
@@ -1250,6 +1252,17 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <td>8.1 × 10<sup>4</sup></td>
                                     <td><xref ref-type="bibr" rid="bib16">Ferry et al., 2014</xref></td>
                                 </tr>
+                            </tbody>
+                        </table>
+                        <table frame="hsides" rules="groups">
+                             <thead>
+                                <tr>
+                                     <th rowspan="2">Protein</th>
+                                     <th rowspan="2">Molar ratio of lipid:protein in RPL reactions<xref ref-type="table-fn" rid="tablefn1">*</xref></th>
+                                     <th colspan="2">Molar ratio of lipid:protein on vacuoles</th>
+                                     <th rowspan="2">References<xref ref-type="table-fn" rid="tablefn2">†</xref></th>
+                                </tr>
+                            </thead>
                                 <tr>
                                     <td>Ypt7p</td>
                                     <td>4 × 10<sup>3</sup></td>
