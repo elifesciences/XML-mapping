@@ -1263,6 +1263,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                      <th rowspan="2">References<xref ref-type="table-fn" rid="tablefn2">†</xref></th>
                                 </tr>
                             </thead>
+                            <tbody>
                                 <tr>
                                     <td>Ypt7p</td>
                                     <td>4 × 10<sup>3</sup></td>
