@@ -4141,8 +4141,12 @@ UPDATE: punctuation between institution and country removed. -->
         <body>
             <!-- UPDATE: Italics formatting was used to indicate the editor comments previously, but now we want to semantically differentiate it. The website and Kriya needs to
  display any disp-quote within the  sub-article article-type="reply" as italics and not the normal display quote style used for main body of content -->  
-<disp-quote content-type="editor-comment"><p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough 
-    information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p></disp-quote>
+<disp-quote content-type="editor-comment">
+    <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you
+    prepare a revised submission.</p>
+    <p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough 
+    information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
+            </disp-quote>
             <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the 
                 PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="respfig1">Author response image 1.</xref>, 
                 <xref ref-type="video" rid="respvideo1">Author response video 1</xref> and <xref ref-type="table" rid="resptable1">Author response table 1</xref>.</p>
