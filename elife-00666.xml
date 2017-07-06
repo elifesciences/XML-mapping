@@ -2066,16 +2066,13 @@ All supplementary files are listed here -->
             <supplementary-material id="repstand1">
                 <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                 <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
-              <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-transrepform.pdf"/>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-repstand1.pdf"/>
             </supplementary-material>
             <!-- UPDATE July 2017: added transparent reporting form-->
             <supplementary-material id="transrepform">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.022</object-id>
                 <label>Reporting Standard 1.</label>
-                <caption>
-                    <title>CONSORT flow diagram.</title>
-                </caption>
-                <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-repstand1.pdf"/>
+                 <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-transrepform.pdf"/>
             </supplementary-material>
           </sec>        
 <!-- Datasets: this section is subject to change further to outcomes of FORCE11 Data citations working group. 
