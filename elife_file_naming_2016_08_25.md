@@ -3,7 +3,7 @@
 ## File naming pattern (excluding parent zip file)
 
 >
-	`elife-<f-id>(-<asset><a-id>)(-<sub-asset><sa-id>)(-<data><d-id>)(-<code><c-id>)(-<video><m-id>)(-<reporting standard><repstand-id>)(-<supplementary file><supp-id>)|(-r<revision>).<ext>`
+	`elife-<f-id>(-<asset><a-id>)(-<sub-asset><sa-id>)(-<data><d-id>)(-<code><c-id>)(-<video><m-id>)(-<reporting standard><repstand-id>)(-<transparent reporting form><transrepform-id>)(-<supplementary file><supp-id>)|(-r<revision>).<ext>`
 
 Brackets represent optional components. Pipe represents a choice on component, depending on state in the publishing system.
 
@@ -31,6 +31,7 @@ This refers to an asset file related to an article:
 - the figures pdf (figures) 
 - reporting standards (repstand)
 - inline graphics (inf)
+- transparent reporting form (transrepform)
 
 
 Decision letter and author response are at the level of assets but are not seperate files and do not require a number suffix in the name and are not seperate files.
@@ -263,6 +264,10 @@ Appendices are a section within an article, so their id is a reflection on their
 #####Reporting standards
 - xref ref-type="supplementary-material"
 - id="reportingstandard1"
+
+#####Transparent reporting form
+- xref ref-type="transrepform"
+- id="transrepform"
 
 #####Decision letter
 Decision letters are a sub-article of the main article, the article-type attribuite is "decision-letter" and their ID is "SA1"
