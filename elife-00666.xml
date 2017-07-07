@@ -2071,7 +2071,7 @@ All supplementary files are listed here -->
             <!-- UPDATE July 2017: added transparent reporting form-->
             <supplementary-material id="transrepform">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.022</object-id>
-                <label>Reporting Standard 1.</label>
+                <label>Transparent reporting form.</label>
                  <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-transrepform.pdf"/>
             </supplementary-material>
           </sec>        
