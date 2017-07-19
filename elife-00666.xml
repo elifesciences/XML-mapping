@@ -2066,6 +2066,8 @@ All supplementary files are listed here -->
             <supplementary-material id="repstand1">
                 <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                 <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
+                <!-- UPDATE: Must contain a label-->
+                <label>Consort checklist and flow diagram.</label>
                 <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-repstand1.pdf"/>
             </supplementary-material>
             <!-- UPDATE July 2017: added transparent reporting form-->
