@@ -1946,6 +1946,248 @@ not add all rids to the xref as it does not work. Only add the first one -->
         </sec>
         <sec sec-type="materials|methods" id="s4">
             <title>Materials and methods</title>
+            <table-wrap id="keyresource" position="anchor">
+                <label>Key resources table</label>
+                <table frame="hsides" rules="groups">
+                    <thead>
+                        <tr>
+                            <th>Reagent type <break/>(species) or resource</th>
+                            <th>Designation</th>
+                            <th>Source or reference</th>
+                            <th>Identifiers</th>
+                            <th>Additional <break/>information</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>gene (<italic>Drosophila melanogaster</italic>)</td>
+                            <td>nito</td>
+                            <td>NA</td>
+                            <td>FLYB:FBgn0027548</td>
+                            <td>&#x00A0;</td>
+                        </tr>
+                        <tr>
+                            <td>gene (<italic>D. melanogaste</italic>r)</td>
+                            <td>Sxl</td>
+                            <td>NA</td>
+                            <td>FLYB:FBgn0264270</td>
+                            <td>&#x00A0;</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (D. melanogaster)</td>
+                            <td>MTD-Gal4</td>
+                            <td>Bloomington Drosophila Stock Center</td>
+                            <td>BDSC:31777; FLYB:FBtp0001612; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/BDSC_31777"
+                                >BDSC_31777</ext-link></td>
+                            <td>FlyBase symbol: P{GAL4-nos.NGT}</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
+                            <td>ap-Gal4</td>
+                            <td>Bloomington Drosophila Stock Center</td>
+                            <td>BDSC:3041; FLYB:FBti0002785; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/BDSC_3041"
+                                >BDSC_3041</ext-link></td>
+                            <td>FlyBase symbol: P{GawB}ap[md544]</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
+                            <td>nub-Gal4</td>
+                            <td>PMID:20798049</td>
+                            <td>FLYB:FBti0016825</td>
+                            <td>FlyBase symbol: P{GawB}nubbin-AC-62</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (<italic>D. melanogaste</italic>r)</td>
+                            <td>dome-Gal4</td>
+                            <td>PMID:12403714</td>
+                            <td>FLYB:FBti0022298</td>
+                            <td>FlyBase symbol: P{GawB}dome[PG14]</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
+                            <td>UAS-2xEYFP</td>
+                            <td>PMID:12324968</td>
+                            <td>FLYB:FBtp0016537</td>
+                            <td>FlyBase symbol: P{UAS-2xEYFP}</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
+                            <td>nito[HP25329]</td>
+                            <td>Bloomington Drosophila Stock Center</td>
+                            <td>BDSC:22092; FLYB:FBal0238892; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/BDSC_22092"
+                                >BDSC_22092</ext-link></td>
+                            <td>Genotype: w[1118]; P{w[+mC]=EPg}nito[HP25329]/CyO</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
+                            <td>nito[1]</td>
+                            <td>this paper</td>
+                            <td>&#x00A0;</td>
+                            <td>Progenitor = nito[HP25329]; imprecise excision; lethal</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
+                            <td>nito shRNA (HMJ02081)</td>
+                            <td>Bloomington Drosophila Stock Center</td>
+                            <td>TRiP:HMJ02081; BDSC:56852; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/BDSC_56852"
+                                >BDSC_56852</ext-link></td>
+                            <td>FlyBase symbol: P{TRiP.HMJ02081}attP40</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
+                            <td>nito dsRNA (VDRC 20942)</td>
+                            <td>Vienna Drosophila RNAi Center</td>
+                            <td>VDRC:20942</td>
+                            <td>&#x00A0;</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
+                            <td>FRT[G13]</td>
+                            <td>Bloomington Drosophila Stock Center</td>
+                            <td>BDSC:1956; FLYB:FBti0001247</td>
+                            <td>FlyBase symbol: P{FRT(whs)}G13</td>
+                        </tr>
+                        <tr>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
+                            <td>"y w hsflp; ubiGFP FRT[G13]"</td>
+                            <td>PMID:18160348</td>
+                            <td>&#x00A0;</td>
+                            <td>&#x00A0;</td>
+                        </tr>
+                        <tr>
+                            <td>cell line (<italic>D. melanogaste</italic>r)</td>
+                            <td>S2</td>
+                            <td>other</td>
+                            <td>FLYB:FBtc0000181; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/CVCL_Z992"
+                                >CVCL_Z992</ext-link></td>
+                            <td>Cell line maintained in N. Perrimon lab; FlyBase symbol:
+                                S2-DRSC.</td>
+                        </tr>
+                        <tr>
+                            <td>antibody</td>
+                            <td>anti-Nito</td>
+                            <td>this paper</td>
+                            <td>&#x00A0;</td>
+                            <td>Rabbit polyclonal; against aa 479-500; used YZ3137 (1:500)</td>
+                        </tr>
+                        <tr>
+                            <td>antibody</td>
+                            <td>anti-alpha-Spectrin (mouse monoclonal)</td>
+                            <td>Developmental Studies Hybridoma Bank</td>
+                            <td>DSHB:3A9; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/AB_528473"
+                                >AB_528473</ext-link></td>
+                            <td>(1:10)</td>
+                        </tr>
+                        <tr>
+                            <td>antibody</td>
+                            <td>anti-Vasa (rabbit polyclonal)</td>
+                            <td>Santa Cruz Biotechnology</td>
+                            <td>Santa Cruz:sc-30210; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/AB_793874"
+                                >AB_793874</ext-link></td>
+                            <td>(1:250)</td>
+                        </tr>
+                        <tr>
+                            <td>antibody</td>
+                            <td>anti-Sxl (mouse monoclonal)</td>
+                            <td>Developmental Studies Hybridoma Bank</td>
+                            <td>DSHB:M18; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/AB_528464"
+                                >AB_528464</ext-link></td>
+                            <td>(1:10)</td>
+                        </tr>
+                        <tr>
+                            <td>antibody</td>
+                            <td>anti-GFP (rabbit polyclonal)</td>
+                            <td>Molecular Probes</td>
+                            <td>Molecular Probes:A-6455; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/AB_221570"
+                                >AB_221570</ext-link></td>
+                            <td>(1:1000)</td>
+                        </tr>
+                        <tr>
+                            <td>antibody</td>
+                            <td>anti-GFP (mouse monoclonal)</td>
+                            <td>Molecular Probes</td>
+                            <td>Molecular Probes:A-11120; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/AB_221568"
+                                >AB_221568</ext-link></td>
+                            <td>(1:200)</td>
+                        </tr>
+                        <tr>
+                            <td>antibody</td>
+                            <td>anti-HA (rat monoclonal)</td>
+                            <td>Roche</td>
+                            <td>Roche:3F10; RRID:<ext-link ext-link-type="uri"
+                                xlink:href="https://scicrunch.org/resolver/AB_2314622"
+                                >AB_2314622</ext-link></td>
+                            <td>&#x00A0;</td>
+                        </tr>
+                        <tr>
+                            <td>antibody</td>
+                            <td>Alexa 488- or 555- secondaries</td>
+                            <td>Molecular Probes</td>
+                            <td>&#x00A0;</td>
+                            <td>(1:1000)</td>
+                        </tr>
+                        <tr>
+                            <td>other</td>
+                            <td>DAPI stain</td>
+                            <td>Molecular Probes</td>
+                            <td>&#x00A0;</td>
+                            <td>(1:1000)</td>
+                        </tr>
+                        <tr>
+                            <td>recombinant DNA reagent</td>
+                            <td>pAGW (Gateway vector)</td>
+                            <td>Drosophila Genomics Resource Center</td>
+                            <td>DGRC:1071</td>
+                            <td>&#x00A0;</td>
+                        </tr>
+                        <tr>
+                            <td>recombinant DNA reagent</td>
+                            <td>pAHW (Gateway vector)</td>
+                            <td>Drosophila Genomics Resource Center</td>
+                            <td>DGRC:1095</td>
+                            <td>&#x00A0;</td>
+                        </tr>
+                        <tr>
+                            <td>recombinant DNA reagent</td>
+                            <td>GH11110 (cDNA)</td>
+                            <td>Drosophila Genomics Resource Center</td>
+                            <td>DGRC:5666</td>
+                            <td>&#x00A0;</td>
+                        </tr>
+                        <tr>
+                            <td>recombinant DNA reagent</td>
+                            <td>GFP-Nito (plasmid)</td>
+                            <td>this paper</td>
+                            <td>&#x00A0;</td>
+                            <td>Progenitors: GH11110 (cDNA); Gateway vector pAGW</td>
+                        </tr>
+                        <tr>
+                            <td>recombinant DNA reagent</td>
+                            <td>HA-Sxl (plasmid)</td>
+                            <td>PMID:16207758</td>
+                            <td>&#x00A0;</td>
+                            <td>Progentiors: PCR, UAS-Sxl flies; Gateway vector pAHW</td>
+                        </tr>
+                        <tr>
+                            <td>recombinant DNA reagent</td>
+                            <td>GFP-Sxl (plasmid)</td>
+                            <td>PMID:16207758</td>
+                            <td>&#x00A0;</td>
+                            <td>Progentiors: PCR, UAS-Sxl flies; Gateway vector pAGW</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
             <p> eLife is tagged up as XML using the NISO standard JATS DTD. 
                 We conform to the JATS4R recommendations where possible and also deliver our content to PMC.
                 We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them.
