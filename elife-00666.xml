@@ -1870,7 +1870,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
                             Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. (see <xref ref-type="bibr" rid="bib29">Nellåker, 2014</xref>; <xref ref-type="bibr" rid="bib30">
                                 Pages et al., 2014</xref>; and <xref ref-type="bibr" rid="bib31">Palmer et al., 2007</xref>) Vestibulum ultrices vehicula nibh, 
-                            a ullamcorper dui semper suscipit. Etiam in sem augue.</p>
+                            a ullamcorper dui semper suscipit. Boxes, like main text, can contain <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/about">hyperlinks</ext-link>
+                            at any point. Etiam in sem augue.</p>
                     </boxed-text>
                     <boxed-text id="box2">
                         <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
