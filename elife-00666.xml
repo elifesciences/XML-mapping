@@ -1743,8 +1743,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
-                        with two sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—Source data 1</xref> and <xref ref-type="video"
-                            rid="fig3video1">Figure 3—Video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhang et al., 
+                        with two sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—source data 1</xref> and <xref ref-type="video"
+                            rid="fig3video1">Figure 3—video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhang et al., 
                                 2010</xref>, <xref ref-type="bibr" rid="bib54">Zhong et al.,  2013</xref>; <xref ref-type="bibr" rid="bib52">World Health Organization, 2016</xref>).</p>
                     <!-- UPDATE: new method of modelling supplementary material for a figure
                     A figure or a sub figure can have any assets - e.g. data, code, videos -->
@@ -1768,7 +1768,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                         <supplementary-material id="fig3sdata1">
                                     <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                                             <object-id pub-id-type="doi">10.7554/eLife.00666.013</object-id>
-                                            <label>Figure 3—figure supplement 1—Source data 1.</label>
+                                            <label>Figure 3—figure supplement 1—source data 1.</label>
                                             <caption>
                                             <title>Title of the figure supplement source data.</title>
                                             <p>Legend of the figure supplement source data.</p>
@@ -1783,7 +1783,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <media mimetype="video" mime-subtype="mp4" id="fig3video1" xlink:href="elife-00666-fig3-video1.mp4">
                             <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                             <object-id pub-id-type="doi">10.7554/eLife.00666.035</object-id>
-                            <label>Figure 3—Video 1.</label>
+                            <label>Figure 3—video 1.</label>
                             <caption>
                                 <title>
                                     A description of the eLife editorial process.
@@ -1791,7 +1791,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             </caption>
                         </media>
                     </fig-group>
-                    <p><xref ref-type="fig" rid="fig4">Figure 4</xref> is an example of a figure with source code (<xref ref-type="supplementary-material" rid="fig4scode1">Figure 4—Source code 1</xref>).</p>
+                    <p><xref ref-type="fig" rid="fig4">Figure 4</xref> is an example of a figure with source code (<xref ref-type="supplementary-material" rid="fig4scode1">Figure 4—source code 1</xref>).</p>
                     <!-- UPDATE: this is changed tagging. -->
                     <fig id="fig4" position="float">
                         <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
@@ -1805,7 +1805,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <supplementary-material id="fig4scode1">
                                 <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                                 <object-id pub-id-type="doi">10.7554/eLife.00666.015</object-id>
-                                <label>Figure 4—Source code 1.</label>
+                                <label>Figure 4—source code 1.</label>
                                 <caption>
                                     <title>Title of the source code.</title>
                                     <p>Legend of the source code.</p>
@@ -1832,7 +1832,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <p><supplementary-material id="video1sdata1">
                                 <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                                 <object-id pub-id-type="doi">10.7554/eLife.00666.037</object-id>
-                                <label>Video 1—Source data 1.</label>
+                                <label>Video 1—source data 1.</label>
                                 <caption>
                                     <title>Title of the source code.</title>
                                     <p>Legend of the source code.</p>
@@ -1868,9 +1868,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         </caption>
                         <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
                             turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
-                            Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. (see <xref ref-type="bibr" rid="bib29">Nellåker, 2014</xref>; <xref ref-type="bibr" rid="bib30">
-                                Pages et al., 2014</xref>; and <xref ref-type="bibr" rid="bib31">Palmer et al., 2007</xref>) Vestibulum ultrices vehicula nibh, 
-                            a ullamcorper dui semper suscipit. Boxes, like main text, can contain <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/about">hyperlinks</ext-link>
+                            Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet (see <xref ref-type="bibr" rid="bib29">Nellåker, 2014</xref>; <xref ref-type="bibr" rid="bib30">
+                                Pages et al., 2014</xref>; and <xref ref-type="bibr" rid="bib31">Palmer et al., 2007</xref>). Boxes, like main text, can contain <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/about">hyperlinks</ext-link>
                             at any point. Etiam in sem augue.</p>
                     </boxed-text>
                     <boxed-text id="box2">
