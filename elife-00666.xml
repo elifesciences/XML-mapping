@@ -357,7 +357,7 @@ UPDATE: As above, punctuation outside XML tags has been removed -->
                 </contrib>
             </contrib-group>
             <author-notes>
-<!-- UPDATE: Correspondence - removed from author-notes
+                <!-- UPDATE: Correspondence - removed from author-notes
 For PDF display footnote "*For correspondence: " must be added as boilerplate followed by the email address pulled in from the XML.If there are multiple 
 corresponding authors, the email addresses must be added in order of the author list, separated with semicolons. Author initials should to be added in 
 brackets after each email address. See Kitchen sink PDF for example.
@@ -389,10 +389,15 @@ content must work as a discrete item on each author's roll over and on the displ
                     <p>This footnote text must work in isolation as nothing is processed on the html view to make it "work"</p>
                 </fn>
             </author-notes>
+            <pub-date publication-format="electronic" date-type="pub">
+                <day>25</day>
+                <month>04</month>
+                <year>2016</year>
+            </pub-date>
             <!-- CHANGE: pub-date will still continue to keep the first (whether PoA or VoR) pub date in the XML with a date-type="publication". 
                 This date will remain in all instances of the XML for an article. If a further version is published another date wil be added, with a
                 date-type="update". Each time a new instance of the XML is published, the pub date with the date-type="update" will be replaced with the new date of
-                the publication date of this instance. There will only ever be two pub dates in an XML file. -->
+                the publication date of this instance. There will only ever be two pub dates in an XML file. 
             <pub-date publication-format="electronic" date-type="update">
                 <day>11</day>
                 <month>08</month>
@@ -403,6 +408,7 @@ content must work as a discrete item on each author's roll over and on the displ
                 <month>04</month>
                 <year>2016</year>
              </pub-date>
+            -->
 <!-- TO NOTE: pub-type collection required for Continuum to process content as VoR-->
             <pub-date pub-type="collection">
                 <year>2016</year>
