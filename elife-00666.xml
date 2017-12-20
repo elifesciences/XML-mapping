@@ -2240,8 +2240,8 @@ For the PDF rules are as follows:
             </fn-group>
 <!-- UPDATE: Contributions: There is one contribution per author and they are listed sequentially (ie author 1 must have con1, etc).
 Text string, no name is prefaced. No full stop at end.
-UPDATE: PDF add full author name followed by colon then insert contribution. List contributions in author order, one line per author. 
-Group author contribution - do the same (i.e. add group author name and colon) but note that the text string may contain individual names and further punctuation,
+UPDATE: PDF add full author name followed by comma then insert contribution. List contributions in author order, one line per author. 
+Group author contribution - do the same (i.e. add group author name and comma) but note that the text string may contain individual names and further punctuation,
 but these should be present in the textual entry (see below)-->
             <fn-group content-type="author-contribution">
                 <title>Author contributions</title>
