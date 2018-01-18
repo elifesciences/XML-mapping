@@ -73,12 +73,13 @@ The `sa-id` is the asset id. Some assets will have sub-assets, eg figure supplem
 - elife-00666-fig1-figsupp1.tiff
 - elife-00666-fig1-code1.xml
 - elife-00666-app1-fig1.tiff
+- elife-00666-fig3-video1.mp4
 
 Some sub-assets have further sub-asset ids, For example:
 
 - elife-00666-fig1-figsupp1-code1.xml
-- elife-00666-fig3-figsupp1-video1
 - elife-00666-app1-fig1-figsupp1-code1.xml
+- elife-00666-fig3-figsupp1-data1.xls
 
 ###### data
 
@@ -88,11 +89,11 @@ elife-00666-data1.xlsx
 
 For example source data to figure 2 will be called:
 
-elife-00666-fig2-data1-v1.rtf
+elife-00666-fig2-data1.rtf
 
-For example source data to figure 2-Figure Supplement 3 will be called:
+For example source data to figure 3-figure supplement 1 will be called:
 
-elife-00666-fig3-figsupp1-data1.rtf
+elife-00666-fig3-figsupp1-data1.xls
 
 ###### code
 
@@ -100,15 +101,15 @@ Sometimes there is source code at a parent level, but sometimes assets will have
 
 For example source code at the top level will be called:
 
-elife-00666-code1.xlsx
+elife-00666-code1.xml
 
 For example source code to figure 2 will be called:
 
-elife-00666-fig2-code1-v1.rtf
+elife-00666-fig2-code1.rtf
 
-For example source code to figure 2-Figure Supplement 3 will be called:
+For example source code to figure 3-figure supplement a will be called:
 
-elife-00666-fig3-figsupp1-code1.rtf
+elife-00666-fig3-figsupp1-code1.r
 
 ###### inline graphics
 Inline graphics are used to represent symbols that cannot come from the font palet but are required to represent something, for example in a figure.
@@ -121,7 +122,7 @@ elife-00666-resp-fig-1.tiff
 
 Or a Author response video 1 as:
 
-elife-00666-resp-media1.mp4
+elife-00666-resp-video1.mp4
 
 
 ###### Appendices
@@ -135,7 +136,7 @@ elife-00666-app1-fig-1-figsupp1.tiff
 
 Or an  Appendix video 1 as:
 
-elife-00666-app1-media1.mp4
+elife-00666-app1-video1.mp4
 
 
 ###### Tables 
@@ -154,7 +155,7 @@ elife-00666-box1-fig-1-figsupp1.tiff
 
 Or a Box video 1 as:
 
-elife-00666-box1-media1.mp4
+elife-00666-box1-video1.mp4
 
 ## Zip file naming pattern
 
