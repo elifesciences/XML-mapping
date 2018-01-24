@@ -1879,6 +1879,14 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet (see <xref ref-type="bibr" rid="bib29">Nellåker, 2014</xref>; <xref ref-type="bibr" rid="bib30">
                                 Pages et al., 2014</xref>; and <xref ref-type="bibr" rid="bib31">Palmer et al., 2007</xref>). Boxes, like main text, can contain <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/about">hyperlinks</ext-link>
                             at any point. Etiam in sem augue.</p>
+                        <permissions>
+                            <copyright-statement>&#x00A9; Some author</copyright-statement>
+                            <copyright-year>1998</copyright-year>
+                            <copyright-holder>Some Author</copyright-holder>
+                            <license>
+                                <license-p>Boxes are also allowed license statements, as they can contain text that is repeated or adapted from previously published content.</license-p>
+                            </license>
+                        </permissions>
                     </boxed-text>
                     <boxed-text id="box2">
                         <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
