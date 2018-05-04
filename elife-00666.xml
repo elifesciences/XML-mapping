@@ -549,7 +549,7 @@ Can contain italics, but no bold or other formatting-->
             </kwd-group>
 <!-- Output what is provided during the production process-->
             <kwd-group kwd-group-type="research-organism">
-                <title>Research organsim</title>
+                <title>Research organism</title>
                 <kwd>Human</kwd>
                 <kwd>Machine</kwd>
             </kwd-group>
@@ -2227,6 +2227,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
     </body>
     <back>
         <sec sec-type="additional-information" id="s5">
+            <title>Additional information</title>
 <!-- UPDATE: XML contains no names of authors in competing interest footnote, but PDF must add full name of author where they declare an interest,
 e.g. below "Chair of JATS4R" would become: Melissa Harrison: Chair of JATS4R"
 Generic text "No competing interests declared" is linked to all authors who do not declare a competing interest.
@@ -2237,7 +2238,7 @@ For the PDF rules are as follows:
 4) One author only and there declare no competing interests: "The author declares that no competing interests exist."
 5) Order in XML is based on author order, but on PDF competing interests come first, followed by the No competing interest statement -->
             <fn-group content-type="competing-interest">
-            <title>Additional information</title>
+            <title>Competing interests</title>
                 <fn fn-type="COI-statement" id="conf1">
                     <p>Chair of JATS4R</p>
                 </fn>
