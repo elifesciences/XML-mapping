@@ -2336,11 +2336,16 @@ All supplementary files are listed here -->
                  <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-transrepform.pdf"/>
             </supplementary-material>
           </sec>        
-<!-- Datasets: this section is subject to change further to outcomes of FORCE11 Data citations working group. 
+        <!-- Datasets: this section is subject to change further to outcomes of FORCE11 Data citations working group.
+            As part of this, it has been renamed 'Data availability' and a paragraph 'data availability statement has been added.
 Additionally, it is currently undecided whether they will be added to eLife profiles.
 The tagging of the collaborator name again within this section is required for PMC display, therefore no change proposed to tagging currently. -->
-            <sec sec-type="datasets" id="s7">
-                <title>Major datasets</title>
+        <sec sec-type="data-availability" id="s7">
+            <title>Data availability</title>
+            <p>A data availability statement will generally describe how the authors have provided the source data for their work. This can list the source
+                data files accompanying their figures, supplementary files, and/or external dataasets. Hyperlinks can be included here, for example:
+                <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102999"
+                    >https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102999</ext-link></p>
                 <p>The following dataset was generated:</p>
                 <p>
                     <related-object content-type="generated-dataset"
