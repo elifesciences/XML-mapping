@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- UPDATE: eLife is updating to the most recent version of JATS, 1.1 -->
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd">
-<!-- eLife uses the JATS suggested @article-types from the given attribute list. This is the location where we match our content names to known terms, 
-we use subj-groups to indicate eLife-specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits.
+<!--we use subj-groups to indicate eLife-specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits.
 The @article-types currently used are:
 article-commentary - Insight
 correction - Correction
@@ -344,6 +343,17 @@ need to be boilerplate for the PDF display-->
 UPDATE: As above, punctuation outside XML tags has been removed -->
             </contrib-group>
             <contrib-group content-type="section">
+                <contrib contrib-type="senior_editor">
+                    <name>
+                        <surname>Harrison</surname>
+                        <given-names>Melissa</given-names>
+                    </name>
+                    <role>Senior Editor</role>
+                    <aff>
+                        <institution>eLife</institution>
+                        <country>United Kingdom</country>
+                    </aff>
+                </contrib>
                 <contrib contrib-type="editor" id="author-10">
                     <name>
                         <surname>Collings</surname>
@@ -4383,7 +4393,31 @@ UPDATE: punctuation between institution and country removed. -->
                     </aff>
                 </contrib>
             </contrib-group>
-        </front-stub>
+            <contrib-group>
+                <contrib contrib-type="reviewer">
+                    <name>
+                        <surname>Darian-Smith</surname>
+                        <given-names>Corinna </given-names>
+                    </name>
+                    <role>Reviewer</role>
+                    <aff>
+                        <institution>Stanford University</institution>
+                        <country>United States</country>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                    <name>
+                        <surname>Smith</surname>
+                        <given-names>Alison M.</given-names>
+                    </name>
+                    <role>Reviewer</role>
+                    <aff>
+                        <institution>John Innes Centre</institution>
+                        <country>United Kingdom</country>
+                    </aff>
+                </contrib>
+            </contrib-group>
+                    </front-stub>
             <body>
                 <!-- NOTE: the boxed text is occasionally updated by editorial so although it remains the same for all articles, it cannot be boiler plate text --> 
                 <boxed-text>
