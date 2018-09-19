@@ -662,8 +662,8 @@ Impact statement:-->
                 Before you submit your work, please note that eLife is a very selective journal that aims to publish
                 work of the highest scientific standards and importance. Leading academic
                 researchers evaluate new submissions and approximately two-thirds are returned to
-                the authors without further peer review. See  <xref ref-type="bibr" rid="bib12">DeLano, 2002</xref> and <xref ref-type="bibr" rid="bib13">
-                    Department of Education and Morgan, 2016</xref>. Approximately half of the articles that are
+                the authors without further peer review. See  <xref ref-type="bibr" rid="bib12">DeLano (2002)</xref> and <xref ref-type="bibr" rid="bib13">
+                    Department of Education and Morgan (2016)</xref>. Approximately half of the articles that are
                     selected for peer review go on to be published (<xref ref-type="bibr" rid="bib5">Brettar et al., 2004a</xref>). If other researchers publish similar
                 findings after submission, this will not be a reason for rejection. The eLife
                 editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings and Wäckers, 2004a</xref>; <xref ref-type="bibr" rid="bib49">Turlings and Wäckers, 2004b</xref>;  <xref ref-type="bibr" rid="bib51">
@@ -687,8 +687,8 @@ Impact statement:-->
             </sec>      
           <sec id="s1-1-2"> 
               <title>Full submission (level 3 heading)</title>
-              <p>For manuscripts that are invited for in-depth peer review, see <xref ref-type="bibr" rid="bib11">Coyne and Orr, 1989</xref> 
-                  and <xref ref-type="bibr" rid="bib14">Du et al., 2014</xref>, we request detailed
+              <p>For manuscripts that are invited for in-depth peer review, see <xref ref-type="bibr" rid="bib11">Coyne and Orr (1989)</xref> 
+                  and <xref ref-type="bibr" rid="bib14">Du et al. (2014)</xref>, we request detailed
                 information about the work to support the peer review process, to ensure that the
                 work meets appropriate standards for the reporting of new findings, and, if
                 accepted, to assist in rapid publication and further dissemination of the work in
@@ -739,7 +739,7 @@ Impact statement:-->
             <title>Results</title>
 <!-- UPDATE: where appendices are cited in the main text they must be cross linked -->
             <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. However, the Introduction section was used to demostrate heading levels. 
-                See <xref ref-type="appendix" rid="s8">Appendix 1</xref> and <xref ref-type="appendix" rid="s9">2</xref>.</p>
+                See <xref ref-type="appendix" rid="s8-1">Appendix 1.1</xref> and <xref ref-type="appendix" rid="s9">2</xref>.</p>
             <sec id="s2-1">
                 <title>eLife controlled lists</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
@@ -4107,11 +4107,11 @@ Appendices must have DOIs -->
                     </fig-group>
 <!-- UPDATE: this is how sub sections in appendices should be tagged. Have been wrong up to now -->
                         <sec sec-type="appendix" id="s8-1">
-                            <title>Sub heading 1</title>
-                            <p>This is the text of the content of subheading 1 within appendix 2.</p>
+                            <title>1.1 Sub heading</title>
+                            <p>This is the text of the content of subheading 1 within appendix 2. We allow authors to use 1.1, 1.2, 1.2.1, 1.2.2, 1.3 etc as prefixes to their headings in the appendix sections only.</p>
                             </sec>
                         <sec sec-type="appendix" id="s8-2">
-                            <title>Sub heading 2</title>
+                            <title>1.2 Sub heading</title>
                             <p>This is the text of the content of subheading 2 within appendix 2.</p>
                                 <table-wrap id="app1table1" position="float">
                                     <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
