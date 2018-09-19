@@ -4108,7 +4108,9 @@ Appendices must have DOIs -->
 <!-- UPDATE: this is how sub sections in appendices should be tagged. Have been wrong up to now -->
                         <sec sec-type="appendix" id="s8-1">
                             <title>1.1 Sub heading</title>
-                            <p>This is the text of the content of subheading 1 within appendix 2. We allow authors to use 1.1, 1.2, 1.2.1, 1.2.2, 1.3 etc as prefixes to their headings in the appendix sections only.</p>
+                            <p>This is the text of the content of subheading 1 within appendix 2. In some cases, authors will use 1.1, 1.2, 1.2.1, 1.2.2, 1.3 etc as prefixes to their headings. We retain this in
+                                the appendix sections only and allow them to cite these as Appendix 1.1, Appendix 1.2 etc in the main text. This is entirely optional on the part of the authors and articles may or
+                            may not include this style of heading/citation. This style of heading/citation is not allowed for main text headings.</p>
                             </sec>
                         <sec sec-type="appendix" id="s8-2">
                             <title>1.2 Sub heading</title>
