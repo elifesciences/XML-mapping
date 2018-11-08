@@ -264,7 +264,7 @@ Appendices are a section within an article, so their id is a reflection on their
 
 #####Reporting standards
 - xref ref-type="supplementary-material"
-- id="reportingstandard1"
+- id="repstand1"
 
 #####Transparent reporting form
 - xref ref-type="transrepform"
