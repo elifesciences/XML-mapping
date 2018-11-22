@@ -4360,16 +4360,28 @@ Appendices must have DOIs -->
         </app>
             <app id="appendix-2">
                 <title>Appendix 2</title>
-                <sec sec-type="appendix" id="s9">
-              <title>Negotaition</title>
-                    <boxed-text>
-                        <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
-                        <object-id pub-id-type="doi">10.7554/eLife.00666.026</object-id>
+                <boxed-text>
+                <!-- UPDATE: Appendix rearranged to account for appendices without top level secs -->
+                <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
+                    <object-id pub-id-type="doi">10.7554/eLife.00666.026</object-id>
+                    <p>This is an example of an appendix with an introductory paragraph of text preceding any section headers. There should be only one boxed-text element, which is a child of appendix. This boxed-text is the container of the sub-doi for the appendix. Aside from the appendix title, all content should be captured within the boxed-text.</p>
+                    <fig id="app2fig1" position="float">
+                        <!-- UPDATE: DOI prefix added to display--> 
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.027</object-id>
+                        <label>Appendix 2—Figure 1.</label>
+                        <caption>
+                            <title>Figure added to demonstrate that not only paragaphs but other forms of content may be included as a child of the boxed-text.</title>
+                            <p>If there is a caption to accompany the title it would display here.</p>
+                        </caption>
+                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app2-fig1.tif"/>
+                    </fig>
+                    <sec sec-type="appendix" id="s9">
+                    <title>Negotaition</title>
                         <p>Generating the new rules involved negotation with varous vendors and downsteam hosts to ensure display would work for all instances. See <xref ref-type="video" rid="app2video1">Appendix 2—Video 1</xref> 
                             and <xref ref-type="table" rid="app2table1">Apendix 2—Table 1</xref>.</p>
                         <media mimetype="video" mime-subtype="mp4" id="app2video1" xlink:href="elife-00666-app2-video1.mp4">
                             <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
-                            <object-id pub-id-type="doi">10.7554/eLife.00666.027</object-id>
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.028</object-id>
                             <label>Appendix 2—Video 1.</label>
                         <caption>
                             <title>
@@ -4379,7 +4391,7 @@ Appendices must have DOIs -->
                     </media>
                         <table-wrap id="app2table1" position="float">
                             <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
-                            <object-id pub-id-type="doi">10.7554/eLife.00666.028</object-id>
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.029</object-id>
                             <label>Apendix 2—Table 1.</label>
                             <caption>
                                 <p>Appendix table.</p>
@@ -4416,13 +4428,13 @@ Appendices must have DOIs -->
                                 </tbody>
                             </table>
                         </table-wrap>
-                    </boxed-text>
-                </sec>
+                   </sec>
+                </boxed-text>
             </app>
             <app id="appendix-3">
                 <title>Appendix 3</title>
                      <boxed-text>
-                        <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
+                        <object-id pub-id-type="doi">10.7554/eLife.00666.030</object-id>
                         <p>This is an example of an appendix with no sections.</p>
                     </boxed-text>
             </app>
@@ -4501,7 +4513,7 @@ UPDATE: punctuation between institution and country removed.
     <sub-article article-type="reply" id="SA2">
         <front-stub>
             <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
-            <article-id pub-id-type="doi">10.7554/eLife.00666.030</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.031</article-id>
             <title-group>
                 <article-title>Author response</article-title>
             </title-group>
