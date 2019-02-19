@@ -10,7 +10,7 @@ editorial - Editorial
 research-article - all research content (ie non-feature content) 
 UPDATE: xmlns:ali="http://www.niso.org/schemas/ali/1.0/" this name space is added in order to add the new license information (see permissions section)
 -->
-<article article-type="research-article" dtd-version="1.2d1" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+<article article-type="research-article" dtd-version="1.2d2" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
 <!-- journal-meta is standard for all articles published by eLife. Can be boilerplate text as this will not change from article to article.
