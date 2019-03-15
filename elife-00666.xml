@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- UPDATE: eLife is updating to the most recent version of JATS, 1.2d1 -->
+<!-- UPDATE: eLife is updating to the most recent version of JATS, 1.2 -->
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20151215//EN" "JATS-archivearticle1.dtd">
 <!--we use subj-groups to indicate eLife-specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits.
 The @article-types currently used are:
@@ -10,7 +10,7 @@ editorial - Editorial
 research-article - all research content (ie non-feature content) 
 UPDATE: xmlns:ali="http://www.niso.org/schemas/ali/1.0/" this name space is added in order to add the new license information (see permissions section)
 -->
-<article article-type="research-article" dtd-version="1.2d2" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+<article article-type="research-article" dtd-version="1.2" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
 <!-- journal-meta is standard for all articles published by eLife. Can be boilerplate text as this will not change from article to article.
