@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- UPDATE: eLife is updating to the most recent version of JATS, 1.2 -->
-<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20151215//EN" "JATS-archivearticle1.dtd">
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20190208//EN" "JATS-archivearticle1.dtd">
 <!--we use subj-groups to indicate eLife-specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits.
 The @article-types currently used are:
 article-commentary - Insight
