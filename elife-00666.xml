@@ -173,7 +173,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country>United Kingdom</country>
+                                    <country country="GB">United Kingdom</country>
                                 </aff>
                             </contrib>
                             <contrib>
@@ -186,14 +186,14 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country>United Kingdom</country>
+                                    <country country="GB">United Kingdom</country>
                                 </aff>
                                 <aff>
                                     <institution>eLife Institute</institution>
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country>United Kingdom</country>
+                                    <country country="GB">United Kingdom</country>
                                 </aff>
                             </contrib>
                         </contrib-group>
@@ -209,7 +209,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country>United Kingdom</country>
+                                    <country country="GB">United Kingdom</country>
                                 </aff>
                             </contrib>
                             <contrib>
@@ -222,7 +222,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country>United Kingdom</country>
+                                    <country country="GB">United Kingdom</country>
                                 </aff>
                             </contrib>
                             <contrib>
@@ -235,7 +235,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country>United Kingdom</country>
+                                    <country country="GB">United Kingdom</country>
                                 </aff>
                             </contrib>
                             <contrib>
@@ -248,7 +248,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country>United Kingdom</country>
+                                    <country country="GB">United Kingdom</country>
                                 </aff>
                             </contrib>
                         </contrib-group>
@@ -274,7 +274,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                         <addr-line>
                             <named-content content-type="city">Victoria</named-content>
                         </addr-line>
-                        <country>Canada</country>
+                        <country country="CA">Canada</country>
                     </aff>
                 </contrib>
                         <contrib>
@@ -289,7 +289,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                                 <addr-line>
                                     <named-content content-type="city">Cambridge</named-content>
                                 </addr-line>
-                                <country>United Kingdom</country>
+                                <country country="GB">United Kingdom</country>
                             </aff>
                         </contrib>
                         <contrib>
@@ -302,7 +302,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                                 <addr-line>
                                     <named-content content-type="city">Cambridge</named-content>
                                 </addr-line>
-                                <country>United Kingdom</country>
+                                <country country="GB">United Kingdom</country>
                             </aff>
                         </contrib>
             </contrib-group>
@@ -329,7 +329,7 @@ need to be boilerplate for the PDF display-->
                     <addr-line>
                         <named-content content-type="city">Cambridge</named-content>
                     </addr-line>
-                    <country>United Kingdom</country>
+                    <country country="GB">United Kingdom</country>
                 </aff>
                 <aff id="aff2">
                     <label>2</label>
@@ -337,7 +337,7 @@ need to be boilerplate for the PDF display-->
                     <institution>eLife</institution>
                     <addr-line><named-content content-type="city">Cambridge</named-content>
                     </addr-line>
-                    <country>United Kingdom</country>
+                    <country country="GB">United Kingdom</country>
                 </aff>             
 <!-- eLife articles are shepherded through the review process by a reviewing editor, who is listed in the XML and called out in the online and PDF displays.
 UPDATE: As above, punctuation outside XML tags has been removed -->
@@ -351,7 +351,7 @@ UPDATE: As above, punctuation outside XML tags has been removed -->
                     <role>Senior Editor</role>
                     <aff>
                         <institution>eLife</institution>
-                        <country>United Kingdom</country>
+                        <country country="GB">United Kingdom</country>
                     </aff>
                 </contrib>
                 <contrib contrib-type="editor" id="author-10">
@@ -362,7 +362,7 @@ UPDATE: As above, punctuation outside XML tags has been removed -->
                     <role>Reviewing Editor</role>
                     <aff>
                         <institution>eLife Sciences</institution>
-                        <country>United Kingdom</country>
+                        <country country="GB">United Kingdom</country>
                     </aff>
                 </contrib>
             </contrib-group>
@@ -439,11 +439,7 @@ content must work as a discrete item on each author's roll over and on the displ
                 </history>
             <pub-history>
                     <event event-type="preprint-publication">
-                        <event-desc> This article was originally published as a <ext-link
-                            
-                            ext-link-type="uri"  xlink:href="https://doi.org/10.1101/118356"
-                            
-                            xmlns:xlink="http://www.w3.org/1999/xlink">preprint</ext-link> on bioRxiv.</event-desc>
+                        <event-desc> This article was originally published as a <ext-link ext-link-type="uri"  xlink:href="https://doi.org/10.1101/118356">preprint</ext-link> on bioRxiv.</event-desc>
                         <article-id pub-id-type="doi" assigning-authority="crossref">10.1101/118356</article-id>
                         <date iso-8601-date="2017-03-24">
                             <day>24</day>
@@ -1761,7 +1757,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <object-id pub-id-type="doi">10.7554/eLife.00666.009</object-id>
                             <label>Figure 2—figure supplement 1.</label>
                             <caption>
-                                <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page</title>
+                                <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page.</title>
                             </caption>
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig2-figsupp1.tif"/>
                         </fig>
@@ -1796,7 +1792,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <object-id pub-id-type="doi">10.7554/eLife.00666.012</object-id>
                             <label>Figure 3—figure supplement 1.</label>
                             <caption>
-                                <title>Title of the figure supplement</title>
+                                <title>Title of the figure supplement.</title>
                                     <p>
                                         <supplementary-material id="fig3sdata1">
                                     <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
@@ -1818,9 +1814,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <object-id pub-id-type="doi">10.7554/eLife.00666.035</object-id>
                             <label>Figure 3—video 1.</label>
                             <caption>
-                                <title>
-                                    A description of the eLife editorial process.
-                                </title>
+                                <title>A description of the eLife editorial process.</title>
                             </caption>
                         </media>
                     </fig-group>
@@ -1859,9 +1853,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <object-id pub-id-type="doi">10.7554/eLife.00666.016</object-id>
                         <label>Video 1.</label>
                         <caption>
-                            <title>
-                                A description of the eLife editorial process.
-                            </title>
+                            <title>A description of the eLife editorial process.</title>
                             <p><supplementary-material id="video1sdata1">
                                 <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                                 <object-id pub-id-type="doi">10.7554/eLife.00666.037</object-id>
@@ -1930,9 +1922,9 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <fig id="box2fig1" position="float">
                             <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                             <object-id pub-id-type="doi">10.7554/eLife.00666.036</object-id>
-                            <label>Box 2—Figure 1.</label>
+                            <label>Box 2—figure 1.</label>
                             <caption>
-                                <title>Box figure</title>
+                                <title>Box figure.</title>
                             </caption>
                             <!--  NOTE: file type must be included in the file description. -->
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-box2-fig1.tif"/>
@@ -2355,14 +2347,14 @@ All supplementary files are listed here -->
                 <label>Consort checklist and flow diagram.</label>
                 <!-- UPDATE: Must contain a caption to indicate what it is specifically-->
                 <caption>
-                    <title>CONSORT checklist</title>
+                    <title>CONSORT checklist.</title>
                 </caption>
                 <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-repstand1.pdf"/>
             </supplementary-material>
             <!-- UPDATE July 2017: added transparent reporting form-->
             <supplementary-material id="transrepform">
                 <object-id pub-id-type="doi">10.7554/eLife.00666.022</object-id>
-                <label>Transparent reporting form.</label>
+                <label>Transparent reporting form</label>
                  <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-transrepform.pdf"/>
             </supplementary-material>
           </sec>        
@@ -4134,10 +4126,9 @@ Appendices must have DOIs -->
                         <fig id="app1fig1" position="float">
                             <!-- UPDATE: DOI prefix added to display--> 
                             <object-id pub-id-type="doi">10.7554/eLife.00666.024</object-id>
-                    <label>Appendix 1—Figure 1.</label>
+                    <label>Appendix 1—figure 1.</label>
                     <caption>
-                        <title>Appendix figure title.
-                        </title>
+                        <title>Appendix figure title.</title>
                         <p>If there is a caption to accompany the title it would display here (<xref ref-type="bibr" rid="bib25">Koch, 1959</xref>).</p>
                     </caption>
                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app1-fig1.tif"/>
@@ -4145,7 +4136,7 @@ Appendices must have DOIs -->
                         <fig id="app1fig1s1" position="float" specific-use="child-fig">
                             <!-- UPDATE: DOI prefix added to display--> 
                             <object-id pub-id-type="doi">10.7554/eLife.00666.025</object-id>
-                            <label>Appendix 1—Figure 1—Figure Supplement 1.</label>
+                            <label>Appendix 1—figure 1—figure supplement 1.</label>
                             <caption>
                                 <title>Appendix figure supplement title.</title>
                                 <p>If there is a caption to accompany the title it would display here.</p>
@@ -4166,7 +4157,7 @@ Appendices must have DOIs -->
                                 <table-wrap id="app1table1" position="float">
                                     <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                                     <object-id pub-id-type="doi">10.7554/eLife.00666.039</object-id>
-                                    <label>Apendix 1—Table 1.</label>
+                                    <label>Appendix 1—table 1.</label>
                                 <caption>
                                     <title>This is the title.</title>
                                     <p>This is the caption: A table containing interesting formating that is large enough to require landscape orientation in the PDF.</p>
@@ -4371,7 +4362,7 @@ Appendices must have DOIs -->
                     <fig id="app2fig1" position="float">
                         <!-- UPDATE: DOI prefix added to display--> 
                         <object-id pub-id-type="doi">10.7554/eLife.00666.027</object-id>
-                        <label>Appendix 2—Figure 1.</label>
+                        <label>Appendix 2—figure 1.</label>
                         <caption>
                             <title>Figure added to demonstrate that not only paragaphs but other forms of content may be included as a child of the boxed-text.</title>
                             <p>If there is a caption to accompany the title it would display here.</p>
@@ -4385,17 +4376,15 @@ Appendices must have DOIs -->
                         <media mimetype="video" mime-subtype="mp4" id="app2video1" xlink:href="elife-00666-app2-video1.mp4">
                             <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                             <object-id pub-id-type="doi">10.7554/eLife.00666.028</object-id>
-                            <label>Appendix 2—Video 1.</label>
+                            <label>Appendix 2—video 1.</label>
                         <caption>
-                            <title>
-                                A descirption of the eLife editorial process.
-                            </title>
+                            <title>A descirption of the eLife editorial process.</title>
                         </caption>
                     </media>
                         <table-wrap id="app2table1" position="float">
                             <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                             <object-id pub-id-type="doi">10.7554/eLife.00666.029</object-id>
-                            <label>Apendix 2—Table 1.</label>
+                            <label>Appendix 2—table 1.</label>
                             <caption>
                                 <p>Appendix table.</p>
                             </caption>
@@ -4465,7 +4454,7 @@ UPDATE: punctuation between institution and country removed.
                     <role>Reviewing Editor</role>
                     <aff>
                         <institution>eLife Sciences</institution>
-                        <country>United Kingdom</country>
+                        <country country="GB">United Kingdom</country>
                     </aff>
                 </contrib>
             </contrib-group>
@@ -4478,7 +4467,7 @@ UPDATE: punctuation between institution and country removed.
                     <role>Reviewer</role>
                     <aff>
                         <institution>Stanford University</institution>
-                        <country>United States</country>
+                        <country country="US">United States</country>
                     </aff>
                 </contrib>
                 <contrib contrib-type="reviewer">
@@ -4489,7 +4478,7 @@ UPDATE: punctuation between institution and country removed.
                     <role>Reviewer</role>
                     <aff>
                         <institution>John Innes Centre</institution>
-                        <country>United Kingdom</country>
+                        <country country="GB">United Kingdom</country>
                     </aff>
                 </contrib>
             </contrib-group>
