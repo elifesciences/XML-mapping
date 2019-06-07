@@ -2344,7 +2344,7 @@ All supplementary files are listed here -->
                 <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
                 <!-- UPDATE: Must contain a label, which is the generic label to indicate it
                     is a reporting standard-->
-                <label>Consort checklist and flow diagram.</label>
+                <label>Reporting standard 1</label>
                 <!-- UPDATE: Must contain a caption to indicate what it is specifically-->
                 <caption>
                     <title>CONSORT checklist.</title>
