@@ -24,14 +24,14 @@ This is the file id and is the numerical digit that is used to make up part of t
 This refers to an asset file related to an article:
 - a figure (fig)
 - a figure supplement (figsupp)
-- source code (code)
-- source data (data)
-- video (video)
-- supplementary file (supp)
+- a source code file (code)
+- a source data file (data)
+- a video (video)
+- a supplementary file (supp)
 - the figures pdf (figures) 
-- reporting standards (repstand)
+- a reporting standard (repstand)
 - inline graphics (inf)
-- transparent reporting form (transrepform)
+- a transparent reporting form (transrepform)
 
 
 Decision letter and author response are at the level of assets but are not seperate files and do not require a number suffix in the name and are not seperate files.
