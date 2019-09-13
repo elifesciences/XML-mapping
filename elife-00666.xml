@@ -4629,8 +4629,8 @@ UPDATE: DOI prefix removed from XML but must be added for display-->
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
-            <disp-formula>
-                <mml:math>
+            <disp-formula id="equ4">
+                <mml:math id="m4">
                     <mml:mrow>
                         <mml:mi>ϕ</mml:mi>
                         <mml:mo>=</mml:mo>
