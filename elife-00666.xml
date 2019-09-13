@@ -518,7 +518,7 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
                     An abstract can contain any formatting, such as <italic>italics</italic>,
                         <bold>bold</bold>, <sup>superscript</sup>, <sub>subscript</sub> or <sc>small caps</sc>. MathML is
                     also allowed: 
-                    <inline-formula><mml:math>
+                    <inline-formula><mml:math id="inf1">
                         <mml:mrow>
                             <mml:munder>
                                 <mml:mo/>
@@ -1554,7 +1554,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         Formally, this corresponds to a (Gaussian) prior belief (with mean
                         <inline-formula>
                             <!-- no id required for inline formulae -->
-                            <mml:math>
+                            <mml:math id="inf2">
                                 <mml:mstyle displaystyle="true" scriptlevel="0">
                                     <mml:mrow>
                                         <mml:msub>
@@ -1569,7 +1569,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         </inline-formula>
                         and variance
                         <inline-formula>
-                            <mml:math>
+                            <mml:math id="inf3">
                                 <mml:mstyle displaystyle="true" scriptlevel="0">
                                     <mml:mrow>
                                         <mml:msubsup>
@@ -1587,7 +1587,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         </inline-formula>
                         over the mean of a (Gaussian) distribution of reward options R (with variance
                         <inline-formula>
-                            <mml:math>
+                            <mml:math id="inf4">
                                 <mml:mstyle displaystyle="true" scriptlevel="0">
                                     <mml:mrow>
                                         <mml:msubsup>
@@ -4607,7 +4607,7 @@ UPDATE: DOI prefix removed from XML but must be added for display-->
                 1989</xref>), however, if it is a new reference only cited in the decision letter or author response it is not added to the main reference link and is just listed as free
                 text, for example, Butcher et al, 2006. If the author provides the reference it can be added as free text to the end of the letter, however, this is not a requirement
                 .</p>
-            <p>Adding some MathML to the sub-article.<inline-formula><mml:math>
+            <p>Adding some MathML to the sub-article.<inline-formula><mml:math id="inf5">
                 <mml:mrow>
                     <mml:munder>
                         <mml:mo/>
