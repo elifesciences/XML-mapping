@@ -514,34 +514,8 @@ NOTE: research advance MUST contain <related-article related-article-type="artic
             <abstract>
 <!-- UPDATE: DOI prefix removed from XML but must be added for display-->                
                 <object-id pub-id-type="doi">10.7554/eLife.00666.001</object-id>
-                <p>This is the abstract. This article will describe the eLife article and the process.
-                    An abstract can contain any formatting, such as <italic>italics</italic>,
-                        <bold>bold</bold>, <sup>superscript</sup>, <sub>subscript</sub> or <sc>small caps</sc>. MathML is
-                    also allowed: 
-                    <inline-formula><mml:math>
-                        <mml:mrow>
-                            <mml:munder>
-                                <mml:mo/>
-                                <mml:mi>m</mml:mi>
-                            </mml:munder>
-                            <mml:mrow>
-                                <mml:msub>
-                                    <mml:mover accent="true">
-                                        <mml:mi>p</mml:mi>
-                                        <mml:mo/>
-                                    </mml:mover>
-                                    <mml:mi>m</mml:mi>
-                                </mml:msub>
-                                <mml:mo>=</mml:mo>
-                                <mml:mn>0</mml:mn>
-                            </mml:mrow>
-                        </mml:mrow>
-                    </mml:math>
-                        </inline-formula>
-                .</p>
-                <p>eLife does not structure abstracts into sub headings expect in a clinical trial article, but the abstract can have
-                    multiple paragarahs. The sub DOI is always .001 as it is the first asset in any
-                    article. I have added an unmatched > bracket as this has been an issue for PubMed deposits in the past.</p>
+                <p>This is the abstract. This article will describe the eLife article and the process. An abstract can contain any formatting, such as <italic>italics</italic>, <bold>bold</bold>, <sup>superscript</sup>, <sub>subscript</sub> or <sc>small caps</sc>. MathML is also allowed: <inline-formula><mml:math id="inf1"><mml:mrow><mml:munder><mml:mo/><mml:mi>m</mml:mi></mml:munder><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>p</mml:mi><mml:mo/></mml:mover><mml:mi>m</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math></inline-formula>.</p>
+                <p>eLife does not structure abstracts into sub headings expect in a clinical trial article, but the abstract can have multiple paragarahs. The sub DOI is always .001 as it is the first asset in any article. I have added an unmatched > bracket as this has been an issue for PubMed deposits in the past.</p>
                 <p>If this was a clinical trial the clinical trial details would be listed at the end of the abstract:</p>
                 <p>Clinical trial Registration: EudraCT2004-000446-20.</p>
             </abstract>
@@ -553,9 +527,7 @@ Additionally, digest are no longer a required component of all Research Articles
 <!-- UPDATE: DOI prefix removed from XML but must be displayed in outputs-->  
                 <object-id pub-id-type="doi">10.7554/eLife.00666.002</object-id>
                 <title>eLife digest</title>
-                <p>eLife digest are now optional and not every research article will contain one.
-                    These are layman abstracts, designed for non-specialists in this field to be
-                    able to understand this article, as well as the general public.</p>
+                <p>eLife digest are now optional and not every research article will contain one. These are layman abstracts, designed for non-specialists in this field to be able to understand this article, as well as the general public.</p>
                 <p>Here is paragraph 2 of the digest.</p>
             </abstract>
 <!-- UDPATE: Author keywords: removed title from XML - is implicit in the @kwd-group-type
@@ -652,71 +624,28 @@ Impact statement:-->
 -->
         <sec sec-type="intro" id="s1">
             <title>Introduction (Level 1 heading)</title>
-            <p>This article is a guide to the tagging and display of eLife articles and will
-                encompass all the elements that can possibly be contained in an eLife article.
-                It will also include information from the author guide. For this reason, it is colloquially known as the eLife 'kitchen sink'.</p>   
+            <p>This article is a guide to the tagging and display of eLife articles and will encompass all the elements that can possibly be contained in an eLife article. It will also include information from the author guide. For this reason, it is colloquially known as the eLife 'kitchen sink'.</p>   
         <sec id="s1-1"> 
             <title>The eLife editorial process (level 2 heading)</title>
-                <p>eLife publishes the most highly influential research across the life sciences and biomedicine. 
-                Before you submit your work, please note that eLife is a very selective journal that aims to publish
-                work of the highest scientific standards and importance. Leading academic
-                researchers evaluate new submissions and approximately two-thirds are returned to
-                the authors without further peer review. See  <xref ref-type="bibr" rid="bib12">DeLano (2002)</xref> and <xref ref-type="bibr" rid="bib13">
-                    Department of Education and Morgan (2016)</xref>. Approximately half of the articles that are
-                    selected for peer review go on to be published (<xref ref-type="bibr" rid="bib5">Brettar et al., 2004a</xref>). If other researchers publish similar
-                findings after submission, this will not be a reason for rejection. The eLife
-                editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings and Wäckers, 2004a</xref>; <xref ref-type="bibr" rid="bib49">Turlings and Wäckers, 2004b</xref>;  <xref ref-type="bibr" rid="bib51">
-                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib50">Walker, 1994</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al., 2016</xref>). If you are interested in
-                submitting your work to eLife, please review the guidelines relating to initial
-                submissions. If you have received an encouraging response to your initial
-                submission, please review the guidelines relating to full submissions. If your full
-                submission has been peer reviewed and you have been asked to make revisions, please
-                review our guidelines for revised submissions (<xref ref-type="bibr" rid="bib6">Brettar et al., 2004b</xref>).</p>
+                <p>eLife publishes the most highly influential research across the life sciences and biomedicine. Before you submit your work, please note that eLife is a very selective journal that aims to publish work of the highest scientific standards and importance. Leading academic researchers evaluate new submissions and approximately two-thirds are returned to the authors without further peer review. See  <xref ref-type="bibr" rid="bib12">DeLano (2002)</xref> and <xref ref-type="bibr" rid="bib13">Department of Education and Morgan (2016)</xref>. Approximately half of the articles that are selected for peer review go on to be published (<xref ref-type="bibr" rid="bib5">Brettar et al., 2004a</xref>). If other researchers publish similar findings after submission, this will not be a reason for rejection. The eLife editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings and Wäckers, 2004a</xref>; <xref ref-type="bibr" rid="bib49">Turlings and Wäckers, 2004b</xref>;  <xref ref-type="bibr" rid="bib51">Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib50">Walker, 1994</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al., 2016</xref>). If you are interested in submitting your work to eLife, please review the guidelines relating to initial submissions. If you have received an encouraging response to your initial submission, please review the guidelines relating to full submissions. If your full submission has been peer reviewed and you have been asked to make revisions, please review our guidelines for revised submissions (<xref ref-type="bibr" rid="bib6">Brettar et al., 2004b</xref>).</p>
             <sec id="s1-1-1"> 
                 <title>Initial submission (level 3 heading)</title> 
-                <p>eLife publishes research of the very highest (<xref ref-type="bibr" rid="bib7">Bricogne et al., 2011</xref>) standard and significance, 
-                so many manuscripts are returned to the authors without in-depth peer review. During the initial submission
-                phase, members of eLife’s senior editorial team rapidly assess new submissions,
-                often in consultation with members of the Board of Reviewing Editors or with
-                external guest editors where necessary, to identify the ones that are appropriate
-                for in-depth peer review (<xref ref-type="bibr" rid="bib8">Cardé and Millar, 2004</xref>; <xref ref-type="bibr" rid="bib9">Cartwright, 2016</xref>; 
-                <xref ref-type="bibr" rid="bib10">Chmeil, 2008</xref>). To simplify the submission process, authors should submit
-                their full manuscript as a single PDF. Limited additional information is collected
-                via the submission screen questions to complete the submission (<xref ref-type="bibr" rid="bib6">Brettar et al., 2004b</xref>).</p>
+                <p>eLife publishes research of the very highest (<xref ref-type="bibr" rid="bib7">Bricogne et al., 2011</xref>) standard and significance, so many manuscripts are returned to the authors without in-depth peer review. During the initial submission phase, members of eLife’s senior editorial team rapidly assess new submissions, often in consultation with members of the Board of Reviewing Editors or with external guest editors where necessary, to identify the ones that are appropriate for in-depth peer review (<xref ref-type="bibr" rid="bib8">Cardé and Millar, 2004</xref>; <xref ref-type="bibr" rid="bib9">Cartwright, 2016</xref>; <xref ref-type="bibr" rid="bib10">Chmeil, 2008</xref>). To simplify the submission process, authors should submit their full manuscript as a single PDF. Limited additional information is collected via the submission screen questions to complete the submission (<xref ref-type="bibr" rid="bib6">Brettar et al., 2004b</xref>).</p>
             </sec>      
           <sec id="s1-1-2"> 
               <title>Full submission (level 3 heading)</title>
-              <p>For manuscripts that are invited for in-depth peer review, see <xref ref-type="bibr" rid="bib11">Coyne and Orr (1989)</xref> 
-                  and <xref ref-type="bibr" rid="bib14">Du et al. (2014)</xref>, we request detailed
-                information about the work to support the peer review process, to ensure that the
-                work meets appropriate standards for the reporting of new findings, and, if
-                accepted, to assist in rapid publication and further dissemination of the work in
-                relevant indexes and repositories. Authors are asked to agree to publish their work
-                under the terms of the Creative Commons Attribution license (PDF of the agreement),
-                or the Creative Commons CC0 public domain dedication (PDF of the agreement) if one
-                or more authors are US-government employees (<xref ref-type="bibr" rid="bib23">Hubbard and Thornton, 1993</xref>; 
-                  <xref ref-type="bibr" rid="bib19">GlaxoSmithKline UK, 2016</xref>; <xref ref-type="bibr" rid="bib24">Jain et al., 2010</xref>).</p>
+              <p>For manuscripts that are invited for in-depth peer review, see <xref ref-type="bibr" rid="bib11">Coyne and Orr (1989)</xref> and <xref ref-type="bibr" rid="bib14">Du et al. (2014)</xref>, we request detailed information about the work to support the peer review process, to ensure that the work meets appropriate standards for the reporting of new findings, and, if accepted, to assist in rapid publication and further dissemination of the work in relevant indexes and repositories. Authors are asked to agree to publish their work under the terms of the Creative Commons Attribution license (PDF of the agreement), or the Creative Commons CC0 public domain dedication (PDF of the agreement) if one or more authors are US-government employees (<xref ref-type="bibr" rid="bib23">Hubbard and Thornton, 1993</xref>; <xref ref-type="bibr" rid="bib19">GlaxoSmithKline UK, 2016</xref>; <xref ref-type="bibr" rid="bib24">Jain et al., 2010</xref>).</p>
           </sec>  
             <sec id="s1-1-3"> 
                 <title>Revised submission (level 3 heading)</title>
-                <p>We will require a response to the essential revision requirements outlined in the decision letter. A
-                response to minor comments is optional. In the event of acceptance, the substantive
-                revision requests and the authors’ response will be published, under the terms of
-                the Creative Commons Attribution license. In preparation for submission, authors
-                should ensure they have all the materials and information necessary to expedite the
-                submission and assessment of their work (<xref ref-type="bibr" rid="bib15">Eisen, 2016</xref>; 
-                <xref ref-type="bibr" rid="bib16">Ferry et al., 2014</xref>; <xref ref-type="bibr" rid="bib18">Gavrilov et al., 2014</xref>; 
-                <xref ref-type="bibr" rid="bib20">Goodstadt, 2010</xref>; <xref ref-type="bibr" rid="bib21">Hoang et al., 2015</xref>).</p>
+                <p>We will require a response to the essential revision requirements outlined in the decision letter. A response to minor comments is optional. In the event of acceptance, the substantive revision requests and the authors’ response will be published, under the terms of the Creative Commons Attribution license. In preparation for submission, authors should ensure they have all the materials and information necessary to expedite the submission and assessment of their work (<xref ref-type="bibr" rid="bib15">Eisen, 2016</xref>; <xref ref-type="bibr" rid="bib16">Ferry et al., 2014</xref>; <xref ref-type="bibr" rid="bib18">Gavrilov et al., 2014</xref>; <xref ref-type="bibr" rid="bib20">Goodstadt, 2010</xref>; <xref ref-type="bibr" rid="bib21">Hoang et al., 2015</xref>).</p>
         </sec>
         </sec>
         <sec id="s1-2"> 
             <title>The eLife production process (level 2 heading)</title>
             <sec id="s1-2-1"> 
                 <title>Immediate publication (accepted manuscript) (level 3 heading)</title>
-                <p>On acceptance an eLife article can be published in accepted manuscript form immediately. 
-                The mean time from acceptance to publication at this stage is 1 day. Using SQl, basic metadata is exported from the submission system to an 
-                AWS bucket as CSV files. The author files are exported to another AWS bucket and an eLife process generates a package of this information and the 
-                author files to deliver to the online platform, Continuum.</p>
+                <p>On acceptance an eLife article can be published in accepted manuscript form immediately. The mean time from acceptance to publication at this stage is 1 day. Using SQl, basic metadata is exported from the submission system to an AWS bucket as CSV files. The author files are exported to another AWS bucket and an eLife process generates a package of this information and the author files to deliver to the online platform, Continuum.</p>
         </sec>
         <sec id="s1-2-2"> 
             <title>Publication of the full version (version of record) (level 3 heading)</title>
@@ -724,9 +653,7 @@ Impact statement:-->
         </sec>
             <sec id="s1-2-3"> 
                 <title>Publication of versions (level 3 heading)</title>
-                <p>eLife allows the publication of updates to an article after the full version has been produced. These are treated as new versions of the article. All previous
-                versions of the article will continue to exist online and will be accessible from the latest live version.</p>
-
+                <p>eLife allows the publication of updates to an article after the full version has been produced. These are treated as new versions of the article. All previous versions of the article will continue to exist online and will be accessible from the latest live version.</p>
             <sec id="s1-2-3-1"> 
                 <title>level 4 heading</title>
                 <p>eLife allows up to four levels of headings and no more. This is a demonstration of a level 4 heading.</p>
@@ -737,14 +664,10 @@ Impact statement:-->
         <sec sec-type="results" id="s2">
             <title>Results</title>
 <!-- UPDATE: where appendices are cited in the main text they must be cross linked -->
-            <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. However, the Introduction section was used to demostrate heading levels. 
-                See <xref ref-type="appendix" rid="s8-1">Appendix 1.1</xref> and <xref ref-type="appendix" rid="s9">2</xref>.</p>
+            <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. However, the Introduction section was used to demostrate heading levels. See <xref ref-type="appendix" rid="s8-1">Appendix 1.1</xref> and <xref ref-type="appendix" rid="s9">2</xref>.</p>
             <sec id="s2-1">
                 <title>eLife controlled lists</title>
-                <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
-                    See <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref> for the representation of the Major Subject Areas, Research
-                    Organisms and author keywords on the eLife HTML page (<xref ref-type="bibr" rid="bib45">The <italic>Shigella</italic> Genome Sequencing Consortium,
-                    2015a</xref>).
+                <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists. See <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref> for the representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page (<xref ref-type="bibr" rid="bib45">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015a</xref>).
                 </p>
                 <sec id="s2-1-1">
                     <title>Article types</title>
@@ -869,104 +792,28 @@ Impact statement:-->
                 <list list-type="order">
                     <list-item>
                         <p>Here is an example of a list with multiple paragraphs and equations.</p>
-                       <p>A discrete three-dimensional model space was generated (represented as a
-                            three-dimensional matrix; <xref ref-type="fig" rid="fig2s1">Figure
-                                2&#x2014;figure supplement 1A</xref>, left), with dimensions
-                            corresponding to population &#x00B5;, population &#x03C3;, and f value.
-                            Any given value in the matrix indicates P(f|&#x03BC;,&#x03C3;),
-                            that&#x00A0;is, the probability of a given frequency given a particular
-                            &#x03BC; and &#x03C3;. The columns (all f values for a given &#x03BC;
-                            and &#x03C3; combination; <xref ref-type="fig" rid="fig2s1">Figure
-                                2&#x2014;figure supplement 1</xref>, upper-right) thus constitute
-                            the forward model (by which stimuli are generated), and the planes (all
-                            combinations of &#x03BC; and &#x03C3; for a given f value; <xref
-                                ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure supplement
-                                1</xref>, lower-middle) constitute the inverse model (by which
-                            hidden parameters can be estimated from observed f values).</p>
+                       <p>A discrete three-dimensional model space was generated (represented as a three-dimensional matrix; <xref ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure supplement 1A</xref>, left), with dimensions corresponding to population &#x00B5;, population &#x03C3;, and f value. Any given value in the matrix indicates P(f|&#x03BC;,&#x03C3;), that&#x00A0;is, the probability of a given frequency given a particular &#x03BC; and &#x03C3;. The columns (all f values for a given &#x03BC; and &#x03C3; combination; <xref ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure supplement 1</xref>, upper-right) thus constitute the forward model (by which stimuli are generated), and the planes (all combinations of &#x03BC; and &#x03C3; for a given f value; <xref ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure supplement 1</xref>, lower-middle) constitute the inverse model (by which hidden parameters can be estimated from observed f values).</p>
                     </list-item>
                     <!-- UPDATE: this 2) below is in error - it creates a repeat on the html view and a space 
                         on the PDF view. Should not be there -->
-                    
                     <list-item>
-                        <p> 2) For each segment, the model was inverted for its particular f value,
-                            yielding a two-dimensional probability distribution for the hidden
-                            parameters (<xref ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure
-                                supplement 1</xref>, lower-middle). Steps 3-6 were then worked
-                            through for each stimulus segment in order, starting at the beginning of
-                            the stimulus.</p>
+                        <p> 2) For each segment, the model was inverted for its particular f value, yielding a two-dimensional probability distribution for the hidden parameters (<xref ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure supplement 1</xref>, lower-middle). Steps 3-6 were then worked through for each stimulus segment in order, starting at the beginning of the stimulus.</p>
                     </list-item>
                     <list-item>
-                        <p>These probability distributions, for each segment subsequent to the most
-                            recent estimated population change (as defined later), were multiplied
-                            together, and scaled to a sum of 1. The resulting probability
-                            distribution (<xref ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure
-                                supplement 1</xref>, lower-right) thus reflects parameter
-                            probabilities taking into account all relevant f values</p>
+                        <p>These probability distributions, for each segment subsequent to the most recent estimated population change (as defined later), were multiplied together, and scaled to a sum of 1. The resulting probability distribution (<xref ref-type="fig" rid="fig2s1">Figure 2&#x2014;figure supplement 1</xref>, lower-right) thus reflects parameter probabilities taking into account all relevant f values</p>
                     </list-item>
                     <list-item>
-                        <p>This combined parameter probability distribution was then scalar
-                            multiplied with the full model space, in order to weight each of the
-                            forward model columns (each corresponding to a particular parameter
-                            combination) by the probability of that parameter combination being in
-                            effect. The resulting weighted model space was then averaged across
-                            parameter dimensions, to yield a one-dimensional (forward) probability
-                            distribution, constituting an optimal prediction about the f value of
-                            the next stimulus segment, provided a population change did not occur
-                            before then. A probability distribution applicable if a population
-                            change were to occur was calculated the same way, but without weighting
-                            the forward model columns (so as to encompass every possible parameter
-                            combination).</p>
+                        <p>This combined parameter probability distribution was then scalar multiplied with the full model space, in order to weight each of the forward model columns (each corresponding to a particular parameter combination) by the probability of that parameter combination being in effect. The resulting weighted model space was then averaged across parameter dimensions, to yield a one-dimensional (forward) probability distribution, constituting an optimal prediction about the f value of the next stimulus segment, provided a population change did not occur before then. A probability distribution applicable if a population change were to occur was calculated the same way, but without weighting the forward model columns (so as to encompass every possible parameter combination).</p>
                     </list-item>
                     <list-item>
-                        <p>It was assumed that a population change occurred immediately prior to the
-                            first stimulus segment. To infer subsequent population changes, for each
-                            segment the probability of observing the present f value was compared
-                            for the two probability distributions (the distribution assuming a
-                            population change, and the distribution assuming no change),
-                            that&#x00A0;is, P(f|c) and P(f|&#x007E;c), respectively, with c denoting
-                            a population change. The probabilities were compared, in conjunction
-                            with the known prior probability of a population change (1/8), using
-                            Bayes&#x2019; rule, as stated in Equation 2:<disp-formula id="equ1"
-                                ><label>(1)</label><mml:math id="m2"
-                                    ><mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>c</mml:mi><mml:mo>|</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>f</mml:mi><mml:mtext>|</mml:mtext><mml:mi>c</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>c</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula></p>
-                        <p>Here, P(c|f) is the chance that a population change occurred at that
-                            particular time. Given that P(c) is known to be 1/8, and P(f), the total
-                            probability of the observed f value, can be rewritten
-                            P(f|c)P(c)+P(f|&#x007E;c)(1-P(c)), the above equation can be rewritten
-                            as Equation 3:<disp-formula id="equ2"><label>(2)</label><mml:math
-                                id="m3"
-                                ><mml:mrow><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>c</mml:mi><mml:mtext>|</mml:mtext><mml:mi>f</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mn>7</mml:mn><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>|</mml:mo><mml:mo>&#x007E;</mml:mo><mml:mi>c</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>|</mml:mo><mml:mi>c</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula></p>
+                        <p>It was assumed that a population change occurred immediately prior to the first stimulus segment. To infer subsequent population changes, for each segment the probability of observing the present f value was compared for the two probability distributions (the distribution assuming a population change, and the distribution assuming no change), that&#x00A0;is, P(f|c) and P(f|&#x007E;c), respectively, with c denoting a population change. The probabilities were compared, in conjunction with the known prior probability of a population change (1/8), using Bayes&#x2019; rule, as stated in Equation 2:<disp-formula id="equ1"><label>(1)</label><mml:math id="m2"><mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>c</mml:mi><mml:mo>|</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>f</mml:mi><mml:mtext>|</mml:mtext><mml:mi>c</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>c</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula></p>
+                        <p>Here, P(c|f) is the chance that a population change occurred at that particular time. Given that P(c) is known to be 1/8, and P(f), the total probability of the observed f value, can be rewritten P(f|c)P(c)+P(f|&#x007E;c)(1-P(c)), the above equation can be rewritten as Equation 3:<disp-formula id="equ2"><label>(2)</label><mml:math id="m3"><mml:mrow><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>c</mml:mi><mml:mtext>|</mml:mtext><mml:mi>f</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mn>7</mml:mn><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>|</mml:mo><mml:mo>&#x007E;</mml:mo><mml:mi>c</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>|</mml:mo><mml:mi>c</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula></p>
                     </list-item>
                     <list-item>
-                        <p>For each segment, the above calculation of P(c|f) was made not only with
-                            respect to the immediately preceding segment, but also a number of
-                            segments preceding that, up to a maximum of 4. Therefore, for segment t,
-                            it was possible to conclude that a population change had occurred
-                            immediately prior to t, t-1, t-2, t-3, or none of the above. A
-                            population change was judged to have occurred at the time point with the
-                            highest value of P(c|f), provided this value was greater than 0.5. Using
-                            more than 4 lags did not appreciably alter the estimates obtained by
-                            model inversion. Importantly, any retrospective inference of population
-                            changes did not retrospectively alter any prior predictions generated by
-                            the model (e.g. at time t, if a population change were inferred to have
-                            occurred at time t-3 then the priors for t-2, t-1 and t were not
-                            affected, but only the priors for t+1 onwards).</p>
+                        <p>For each segment, the above calculation of P(c|f) was made not only with respect to the immediately preceding segment, but also a number of segments preceding that, up to a maximum of 4. Therefore, for segment t, it was possible to conclude that a population change had occurred immediately prior to t, t-1, t-2, t-3, or none of the above. A population change was judged to have occurred at the time point with the highest value of P(c|f), provided this value was greater than 0.5. Using more than 4 lags did not appreciably alter the estimates obtained by model inversion. Importantly, any retrospective inference of population changes did not retrospectively alter any prior predictions generated by the model (e.g. at time t, if a population change were inferred to have occurred at time t-3 then the priors for t-2, t-1 and t were not affected, but only the priors for t+1 onwards).</p>
                     </list-item>
                     <list-item>
-                        <p>Once the above steps were worked through for each stimulus segment in
-                            order, the optimal prior predictions were used to calculate the
-                            perceptual inference variables of interest. Predictions themselves were
-                            summarised by their mean (&#x03BC;) and precision (1/variance). Changes
-                            to predictions (&#x0394;&#x00B5;) were calculated as the absolute change
-                            (in octaves) in &#x03BC; from one prediction to the next. Surprise (S)
-                            was calculated as the negative log probability of the observed f value
-                            given the prior prediction, and prediction error (irrespective of
-                            prediction precision) was calculated as the absolute difference (in
-                            octaves) between the observed f value and the mean of the prior
-                            prediction. Mathematically, surprise is directly proportional to
-                            prediction precision multiplied by prediction error. Finally, &#x0394;f
-                            was calculated as the absolute difference between the current and
-                            preceding value of f.</p>
+                        <p>Once the above steps were worked through for each stimulus segment in order, the optimal prior predictions were used to calculate the perceptual inference variables of interest. Predictions themselves were summarised by their mean (&#x03BC;) and precision (1/variance). Changes to predictions (&#x0394;&#x00B5;) were calculated as the absolute change (in octaves) in &#x03BC; from one prediction to the next. Surprise (S) was calculated as the negative log probability of the observed f value given the prior prediction, and prediction error (irrespective of prediction precision) was calculated as the absolute difference (in octaves) between the observed f value and the mean of the prior prediction. Mathematically, surprise is directly proportional to prediction precision multiplied by prediction error. Finally, &#x0394;f was calculated as the absolute difference between the current and preceding value of f.</p>
                     </list-item>
                 </list>
                 </sec>
@@ -1006,8 +853,7 @@ Impact statement:-->
                         <list-item><p><italic>P</italic>. <italic>cynocephalus</italic></p></list-item>
                         <list-item><p>Zebrafish</p></list-item>
                     </list>
-  <p>However, additional research organisms can be added during the production process so this is not a controlled list once it is output from the editorial system. 
-      The research organism "Other" is hidden from display on the eLife website.</p>
+  <p>However, additional research organisms can be added during the production process so this is not a controlled list once it is output from the editorial system.  The research organism "Other" is hidden from display on the eLife website.</p>
 
                 </sec>
             </sec>
@@ -1214,8 +1060,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             </table-wrap-foot>
                         </table-wrap>
                     <!-- -->
-                    <p><xref ref-type="table" rid="table2">Table 2</xref> is an example of a standard table that will be the width of the text column in the PDF. It does not contain
-                        any unusual styling. It does have footnotes linked to content in the table using the prescribed symbols.</p>
+                    <p><xref ref-type="table" rid="table2">Table 2</xref> is an example of a standard table that will be the width of the text column in the PDF. It does not contain any unusual styling. It does have footnotes linked to content in the table using the prescribed symbols.</p>
                     <!-- Table 2 contains footnotes that have been connected to the main body of the table with hyperlinked symbols. This hyperlinking using xref tags is not currently 
                         being added but should be added going forward.
                     Table 2 also contains coloured cells using the eight permitted colours.
@@ -1324,15 +1169,12 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <!-- table-wrap-foot should contain any footnotes for the table. It should NOT be used for the table caption. Each footnote should 
                                 have an identifying lable (exception: inline tables, undesignated footnotes and abbreviations. These typese of footnotes should not contain an id or a label) -->
                             <fn id="tablefn1"><label>*</label>
-                                <p>Footnotes can be used to highlight properties of data reported in a table such as statistical significance. They are separate from
-                                    the table caption and appear afterwards. They are hyperlinked to allow easy navigation. Footnotes in tables use the same standard
-                                    set of symbols used for authors footnotes.</p>
+                                <p>Footnotes can be used to highlight properties of data reported in a table such as statistical significance. They are separate from the table caption and appear afterwards. They are hyperlinked to allow easy navigation. Footnotes in tables use the same standard set of symbols used for authors footnotes.</p>
                             </fn>
                             <fn id="tablefn2"><label>†</label>
                                 <p>Authors are fully allowed to cite references and figures in tables. There is no difference in citation style between the main text and tables.</p>
                             </fn>
-                            <fn><p>Order: Designated footnotes (e.g. &#x2a;, &#x2020;, &#x2021;, &#167;, &#035;, &#182;, &#x2a;&#x2a;, and so on), 
-                                p value footnotes (&#x2a;p, &#x2a;&#x2a;p, &#x2a;&#x2a;&#x2a;p), undesignated footnotes and abbreviations.</p>
+                            <fn><p>Order: Designated footnotes (e.g. &#x2a;, &#x2020;, &#x2021;, &#167;, &#035;, &#182;, &#x2a;&#x2a;, and so on), p value footnotes (&#x2a;p, &#x2a;&#x2a;p, &#x2a;&#x2a;&#x2a;p), undesignated footnotes and abbreviations.</p>
                             </fn>
                         </table-wrap-foot>
                     </table-wrap>
@@ -1544,68 +1386,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 <sec id="s2-3">
                     <title>Maths</title>
                     <p>Content can contain inline formulae or display formulae. Below is an example of a mixture of inline and display formula. MathMl is used in all instances.</p>
-                    <p>
-                        We propose a Bayesian scheme for BCV (see <xref ref-type="disp-formula" rid="equ1">equation 1</xref>) that accommodates the influence of context on incentive value. BCV focuses on scenarios (i) where incentive value depends 
-                        on contextual information (either represented by cues or by previous rewards) provided before options or rewards are presented, and (ii) where reward is defined 
-                        by a single attribute (e.g., reward amount). To describe the basic principles of BCV, we adopt the formalism of Bayesian graphs (
-                        <xref ref-type="bibr" rid="bib47">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015c</xref>) where a generative model is described by nodes or circles, representing random variables (shaded and white circles refer to observed and non-observed variables respectively), 
-                        and arrows, representing causal relationships among variables. A simple generative model hypothesized by BCV is shown in
-                        Figure 1A of another article (not linked here), where C represents prior beliefs about the average reward expected in a given context. 
-                        Formally, this corresponds to a (Gaussian) prior belief (with mean
-                        <inline-formula>
-                            <!-- no id required for inline formulae -->
-                            <mml:math>
-                                <mml:mstyle displaystyle="true" scriptlevel="0">
-                                    <mml:mrow>
-                                        <mml:msub>
-                                            <mml:mi>μ</mml:mi>
-                                            <mml:mrow>
-                                                <mml:mi>c</mml:mi>
-                                            </mml:mrow>
-                                        </mml:msub>
-                                    </mml:mrow>
-                                </mml:mstyle>
-                            </mml:math>
-                        </inline-formula>
-                        and variance
-                        <inline-formula>
-                            <mml:math>
-                                <mml:mstyle displaystyle="true" scriptlevel="0">
-                                    <mml:mrow>
-                                        <mml:msubsup>
-                                            <mml:mi>σ</mml:mi>
-                                            <mml:mrow>
-                                                <mml:mi>c</mml:mi>
-                                            </mml:mrow>
-                                            <mml:mrow>
-                                                <mml:mn>2</mml:mn>
-                                            </mml:mrow>
-                                        </mml:msubsup>
-                                    </mml:mrow>
-                                </mml:mstyle>
-                            </mml:math>
-                        </inline-formula>
-                        over the mean of a (Gaussian) distribution of reward options R (with variance
-                        <inline-formula>
-                            <mml:math>
-                                <mml:mstyle displaystyle="true" scriptlevel="0">
-                                    <mml:mrow>
-                                        <mml:msubsup>
-                                            <mml:mi>σ</mml:mi>
-                                            <mml:mrow>
-                                                <mml:mi>R</mml:mi>
-                                            </mml:mrow>
-                                            <mml:mrow>
-                                                <mml:mn>2</mml:mn>
-                                            </mml:mrow>
-                                        </mml:msubsup>
-                                    </mml:mrow>
-                                </mml:mstyle>
-                            </mml:math>
-                        </inline-formula>
-                        ). When R is observed, a posterior expectation about the context is obtained by application of Bayes rule (
-                        <xref ref-type="bibr" rid="bib46">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015b</xref>
-                        ):
+                    <p>We propose a Bayesian scheme for BCV (see <xref ref-type="disp-formula" rid="equ1">equation 1</xref>) that accommodates the influence of context on incentive value. BCV focuses on scenarios (i) where incentive value depends on contextual information (either represented by cues or by previous rewards) provided before options or rewards are presented, and (ii) where reward is defined by a single attribute (e.g., reward amount). To describe the basic principles of BCV, we adopt the formalism of Bayesian graphs (<xref ref-type="bibr" rid="bib47">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015c</xref>) where a generative model is described by nodes or circles, representing random variables (shaded and white circles refer to observed and non-observed variables respectively), and arrows, representing causal relationships among variables. A simple generative model hypothesized by BCV is shown in Figure 1A of another article (not linked here), where C represents prior beliefs about the average reward expected in a given context. Formally, this corresponds to a (Gaussian) prior belief (with mean <inline-formula><!-- no id required for inline formulae --><mml:math id="inf2"><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mrow><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:math></inline-formula> and variance <inline-formula><mml:math id="inf3"><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mstyle></mml:math></inline-formula> over the mean of a (Gaussian) distribution of reward options R (with variance <inline-formula><mml:math id="inf4"><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mstyle></mml:math></inline-formula>). When R is observed, a posterior expectation about the context is obtained by application of Bayes rule (<xref ref-type="bibr" rid="bib46">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015b</xref>):
                         <!-- id and a label required for display formulae -->
                         <disp-formula id="equ3">
                             <label>(3)</label>
@@ -1678,12 +1459,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                 </mml:mstyle>
                             </mml:math>
                         </disp-formula>
-                        where text following on from this equation but still within the same paragraph should not be indented in the PDF. This is usually used by authors wanting
-                        to explain the terms used in the maths.                     
-                    </p>
-                    <p>Additional to maths, eLife articles can also contain code blocks for the display
-                        of computer code snipets. For example:
-                        <code xml:space="preserve">&lt;MotifGraft name=&quot;motif_grafting&quot;
+                        where text following on from this equation but still within the same paragraph should not be indented in the PDF. This is usually used by authors wanting to explain the terms used in the maths.</p>
+                    <p>Additional to maths, eLife articles can also contain code blocks for the display of computer code snipets. For example: <code xml:space="preserve">&lt;MotifGraft name=&quot;motif_grafting&quot;
       context_structure=&quot;%%context%%&quot;
       motif_structure=&quot;truncatedBH3.pdb&quot;
       RMSD_tolerance=&quot;3.0&quot;
@@ -1699,8 +1476,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
       only_allow_if_N_point_match_aa_identity=&quot;0&quot;
       only_allow_if_C_point_match_aa_identity=&quot;0&quot;
       revert_graft_to_native_sequence=&quot;1&quot;
-      allow_repeat_same_graft_output=&quot;1&quot;/&gt;</code>
-                    </p>
+      allow_repeat_same_graft_output=&quot;1&quot;/&gt;</code></p>
                 </sec>
                 <sec id="s2-4">
                     <!-- UPDATE:mime-types
@@ -1708,8 +1484,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     There should be a validation process during production and if the file does not match one of these it should be zipped up for final delivery.
                     If this list and terminology is not used it will fail Crossref submission-->
                     <title>Figures</title>
-                    <p>This section of the article shows how figures should be presented and will 
-                        include examples of single figures and figures arranged with a variety of additional assets.</p>
+                    <p>This section of the article shows how figures should be presented and will include examples of single figures and figures arranged with a variety of additional assets.</p>
                     <p><xref ref-type="fig" rid="fig1">Figure 1</xref> is an example of a single figure.</p>
                         <!-- NOTE: the version suffix (e.g. "-v1" is applied by the eLife platform and does not need to be supplied in the XML from the production vendor
                             Change: figures do not need to be contained within <p> and should not be
@@ -1731,13 +1506,11 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                 <copyright-year>2016</copyright-year>
                                 <copyright-holder>eLife</copyright-holder>
                                 <license>
-                                    <license-p>For the purpose having a example of how to tag a separate license for an item, we have indicated in the XML and display this is a
-                                        copyrighted figure; however it is not.</license-p>
+                                    <license-p>For the purpose having a example of how to tag a separate license for an item, we have indicated in the XML and display this is a copyrighted figure; however it is not.</license-p>
                                 </license>
                             </permissions>
                         </fig>
-                    <p><xref ref-type="fig" rid="fig2">Figure 2</xref> is an example of a figure with figure supplements, <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref> and 
-                        <xref ref-type="fig" rid="fig2s2">Figure 2—figure supplement 2</xref>.</p>
+                    <p><xref ref-type="fig" rid="fig2">Figure 2</xref> is an example of a figure with figure supplements, <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref> and <xref ref-type="fig" rid="fig2s2">Figure 2—figure supplement 2</xref>.</p>
                     <!-- If a figure has figure supplements it must be contained within fig-group and the supplemental figures must be given a @specific-use attribute of "child-fig"
                     There is no limit to the number of figure supplements a main figure can have. -->
                     <fig-group>
@@ -1746,9 +1519,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <label>Figure 2.</label>
                         <caption>
                             <title>Figure with figure supplements. In the PDF this asset box will take full column width.</title> 
-                            <p>This is the basic information provided about an article. <xref ref-type="fig" rid="fig1">Figure 1
-                            </xref> shows an expanded view (<xref ref-type="bibr" rid="bib26">Kok et al., 2015</xref>; <xref ref-type="bibr" rid="bib28">National Institute of Mental 
-                                Health, 1990</xref>).</p>
+                            <p>This is the basic information provided about an article. <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view (<xref ref-type="bibr" rid="bib26">Kok et al., 2015</xref>; <xref ref-type="bibr" rid="bib28">National Institute of Mental Health, 1990</xref>).</p>
                         </caption>
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig2.tif"/>
                     </fig>
@@ -1771,10 +1542,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig2-figsupp2.tif"/>
                         </fig>
                     </fig-group>
-                    <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
-                        with two sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—source data 1</xref> and <xref ref-type="video"
-                            rid="fig3video1">Figure 3—video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhang et al., 
-                                2010</xref>, <xref ref-type="bibr" rid="bib54">Zhong et al.,  2013</xref>; <xref ref-type="bibr" rid="bib52">World Health Organization, 2016</xref>).</p>
+                    <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) with two sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—source data 1</xref> and <xref ref-type="video" rid="fig3video1">Figure 3—video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhang et al., 2010</xref>, <xref ref-type="bibr" rid="bib54">Zhong et al., 2013</xref>; <xref ref-type="bibr" rid="bib52">World Health Organization, 2016</xref>).</p>
                     <!-- UPDATE: new method of modelling supplementary material for a figure
                     A figure or a sub figure can have any assets - e.g. data, code, videos -->
                     <fig-group>
@@ -1844,8 +1612,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 </sec>
                 <sec id="s2-5">
                     <title>Videos</title>
-                    <p><xref ref-type="video" rid="video1">Video 1</xref> shows the editorial process and <xref ref-type="video" rid="video2">Animation 1</xref> 
-                        shows how we represent animated gif files.</p>
+                    <p><xref ref-type="video" rid="video1">Video 1</xref> shows the editorial process and <xref ref-type="video" rid="video2">Animation 1</xref> shows how we represent animated gif files.</p>
                     <!-- UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
                     UPDATE: changed id to videoX -->
                     <media mimetype="video" mime-subtype="mp4" id="video1" xlink:href="elife-00666-video1.mp4">
@@ -1882,8 +1649,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 <title>Other stuff</title>
                 <sec id="s2-6-1">
                     <title>Boxes</title>
-                    <p>It is rare for eLife research articles to contain boxes; however they are common in Feature content. <xref ref-type="other" rid="box1">Box 1</xref> 
-                        is a simple box that contains very little text and <xref ref-type="other" rid="box2">Box 2</xref> is larger.</p>
+                    <p>It is rare for eLife research articles to contain boxes; however they are common in Feature content. <xref ref-type="other" rid="box1">Box 1</xref> is a simple box that contains very little text and <xref ref-type="other" rid="box2">Box 2</xref> is larger.</p>
                     <boxed-text id="box1">
                         <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                         <object-id pub-id-type="doi">10.7554/eLife.00666.017</object-id>
@@ -1891,11 +1657,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <caption>
                             <p>Example of a small box</p>
                         </caption>
-                        <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
-                            turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
-                            Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet (see <xref ref-type="bibr" rid="bib29">Nellåker, 2014</xref>; <xref ref-type="bibr" rid="bib30">
-                                Pages et al., 2014</xref>; and <xref ref-type="bibr" rid="bib31">Palmer et al., 2007</xref>). Boxes, like main text, can contain <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/about">hyperlinks</ext-link>
-                            at any point. Etiam in sem augue.</p>
+                        <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet (see <xref ref-type="bibr" rid="bib29">Nellåker, 2014</xref>; <xref ref-type="bibr" rid="bib30">Pages et al., 2014</xref>; and <xref ref-type="bibr" rid="bib31">Palmer et al., 2007</xref>). Boxes, like main text, can contain <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/about">hyperlinks</ext-link> at any point. Etiam in sem augue.</p>
                         <permissions>
                             <copyright-statement>&#x00A9; Some author</copyright-statement>
                             <copyright-year>1998</copyright-year>
@@ -1912,13 +1674,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <caption>
                             <p>Example of a large box</p>
                         </caption>
-                        <p>This box contains a <xref ref-type="fig" rid="box2fig1">figure</xref>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus lorem. Suspendisse posuere non enim vel tempor. Fusce quis sem sed nulla tincidunt faucibus. 
-                            Vivamus dictum magna in ante porttitor faucibus. Aenean lobortis, sem in viverra dignissim, odio purus vestibulum libero, in eleifend lacus metus id tortor. Phasellus tincidunt
-                            ipsum ut ornare hendrerit. Praesent lobortis consectetur egestas. Curabitur viverra lectus eu venenatis sagittis. Aliquam lobortis metus mauris, in tincidunt diam ullamcorper ac.
-                            Phasellus sagittis, leo eget lacinia commodo, eros justo mattis eros, quis dapibus ipsum ex sit amet sapien. Quisque consequat arcu ut efficitur tincidunt. Ut convallis, 
-                            ex maximus aliquam tempor, lorem elit fermentum ipsum, nec volutpat velit sem a lectus. Morbi sed mauris vel purus interdum consectetur dapibus vel velit. Nam pellentesque, 
-                            ipsum vel euismod mattis, turpis augue mattis nunc, ac aliquam dolor massa non mi. Vestibulum sit amet elit a augue semper facilisis interdum quis nibh. Mauris consectetur 
-                            nisi aliquam urna lobortis, eu efficitur nisl lobortis; <xref ref-type="bibr" rid="bib2">Bates et al., 2016</xref> and <xref ref-type="bibr" rid="bib32">Patterson et al., 2011</xref>.</p>
+                        <p>This box contains a <xref ref-type="fig" rid="box2fig1">figure</xref>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus lorem. Suspendisse posuere non enim vel tempor. Fusce quis sem sed nulla tincidunt faucibus. Vivamus dictum magna in ante porttitor faucibus. Aenean lobortis, sem in viverra dignissim, odio purus vestibulum libero, in eleifend lacus metus id tortor. Phasellus tincidunt ipsum ut ornare hendrerit. Praesent lobortis consectetur egestas. Curabitur viverra lectus eu venenatis sagittis. Aliquam lobortis metus mauris, in tincidunt diam ullamcorper ac. Phasellus sagittis, leo eget lacinia commodo, eros justo mattis eros, quis dapibus ipsum ex sit amet sapien. Quisque consequat arcu ut efficitur tincidunt. Ut convallis, ex maximus aliquam tempor, lorem elit fermentum ipsum, nec volutpat velit sem a lectus. Morbi sed mauris vel purus interdum consectetur dapibus vel velit. Nam pellentesque, ipsum vel euismod mattis, turpis augue mattis nunc, ac aliquam dolor massa non mi. Vestibulum sit amet elit a augue semper facilisis interdum quis nibh. Mauris consectetur nisi aliquam urna lobortis, eu efficitur nisl lobortis; <xref ref-type="bibr" rid="bib2">Bates et al., 2016</xref> and <xref ref-type="bibr" rid="bib32">Patterson et al., 2011</xref>.</p>
                         <fig id="box2fig1" position="float">
                             <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                             <object-id pub-id-type="doi">10.7554/eLife.00666.036</object-id>
@@ -1929,23 +1685,17 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <!--  NOTE: file type must be included in the file description. -->
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-box2-fig1.tif"/>
                             </fig>
-                        <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
-                            turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
-                            Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. Vestibulum ultrices vehicula nibh, a ullamcorper dui semper suscipit. Etiam in sem augue.</p>
+                        <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet. Vestibulum ultrices vehicula nibh, a ullamcorper dui semper suscipit. Etiam in sem augue.</p>
                     </boxed-text>
                  </sec>
                 <sec id="s2-6-2">
                     <title>RRIDs</title>
-                <p>If an author mentions an RRID in their content, it is required that we link it, for example, 
-                    <ext-link ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:IMSR_JAX:004435">RRID:IMSR_JAX:004435</ext-link>.</p>
+                <p>If an author mentions an RRID in their content, it is required that we link it, for example, <ext-link ext-link-type="uri" xlink:href="https://scicrunch.org/resolver/RRID:IMSR_JAX:004435">RRID:IMSR_JAX:004435</ext-link>.</p>
                 </sec>
                 <sec id="s2-6-3">
                     <title>Coloured text</title>
                     <!-- UPDATE: 3 coloured text options now allowed and these are the specific requirements -->
-                       <p>Here is an example of making text display in different colours:
-                           <named-content content-type="author-callout-style-a1">Blue text: #366BFB</named-content>; 
-                           <named-content content-type="author-callout-style-a2">Purple text: #9C27B0</named-content>; and 
-                           <named-content content-type="author-callout-style-a3">Red text: #D50000</named-content>.</p>
+                       <p>Here is an example of making text display in different colours: <named-content content-type="author-callout-style-a1">Blue text: #366BFB</named-content>; <named-content content-type="author-callout-style-a2">Purple text: #9C27B0</named-content>; and <named-content content-type="author-callout-style-a3">Red text: #D50000</named-content>.</p>
                 </sec>
                 <sec id="s2-6-4">
                     <title>Inline graphics</title>
@@ -1953,29 +1703,17 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 </sec>
                 <sec id="s2-6-5">
                     <title>Additional files</title>
-                    <p>All files attached to an article must be cited in the main text as well. So, <xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref> 
-                        and <xref ref-type="supplementary-material" rid="sdata1">Source data 1</xref> have to be cited in the text.</p>
+                    <p>All files attached to an article must be cited in the main text as well. So, <xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref> and <xref ref-type="supplementary-material" rid="sdata1">Source data 1</xref> have to be cited in the text.</p>
                 </sec>
                 <sec id="s2-6-6">
                     <title>References</title>
-                    <p>All references have to be cited in the main text. They are listed in the reference list in alphabetical order, 
-                        however, in the text the citations do not have to be in the same order as they are listed according to when the author of the article cites them. 
-                        This article is littered with citations to ensure all the references are cited at some point. They have no relevance to the content 
-                        <xref ref-type="bibr" rid="bib1">Aivazian et al., 2006</xref>.</p>
+                    <p>All references have to be cited in the main text. They are listed in the reference list in alphabetical order, however, in the text the citations do not have to be in the same order as they are listed according to when the author of the article cites them. This article is littered with citations to ensure all the references are cited at some point. They have no relevance to the content <xref ref-type="bibr" rid="bib1">Aivazian et al., 2006</xref>.</p>
                 </sec>
             </sec>
         </sec>
         <sec sec-type="discussion" id="s3">
             <title>Discussion</title>
-            <p>The function of the Discussion is to interpret your results in light of what was
-                already known about the subject of the investigation, and to explain our new
-                understanding of the problem after taking your results into consideration. The
-                Discussion will always connect to the Introduction by way of the question(s) or
-                hypotheses you posed and the literature you cited, but it does not simply repeat or
-                rearrange the Introduction. Instead, it tells how your study has moved us forward
-                from the place you left us at the end of the Introduction (<xref ref-type="bibr" rid="bib38">Schneider, 2006</xref>; <xref ref-type="bibr" rid="bib40">
-                Schwartz, 1993</xref>).</p>
-            
+            <p>The function of the Discussion is to interpret your results in light of what was already known about the subject of the investigation, and to explain our new understanding of the problem after taking your results into consideration. The Discussion will always connect to the Introduction by way of the question(s) or hypotheses you posed and the literature you cited, but it does not simply repeat or rearrange the Introduction. Instead, it tells how your study has moved us forward from the place you left us at the end of the Introduction (<xref ref-type="bibr" rid="bib38">Schneider, 2006</xref>; <xref ref-type="bibr" rid="bib40">Schwartz, 1993</xref>).</p>
         </sec>
         <sec sec-type="materials|methods" id="s4">
             <title>Materials and methods</title>
@@ -2000,14 +1738,14 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <td>&#x00A0;</td>
                         </tr>
                         <tr>
-                            <td>gene (<italic>D. melanogaste</italic>r)</td>
+                            <td>gene (<italic>D. melanogaster</italic>)</td>
                             <td>Sxl</td>
                             <td>NA</td>
                             <td>FLYB:FBgn0264270</td>
                             <td>&#x00A0;</td>
                         </tr>
                         <tr>
-                            <td>genetic reagent (D. melanogaster)</td>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
                             <td>MTD-Gal4</td>
                             <td>Bloomington Drosophila Stock Center</td>
                             <td>BDSC:31777; FLYB:FBtp0001612; RRID:<ext-link ext-link-type="uri"
@@ -2221,12 +1959,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     </tbody>
                 </table>
             </table-wrap>
-            <p> eLife is tagged up as XML using the NISO standard JATS DTD. 
-                We conform to the JATS4R recommendations where possible and also deliver our content to PMC.
-                We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them.
-                eLife content is delivered to more repositories and it can be scraped from the eLife site (<xref ref-type="bibr" rid="bib17">
-                    Gall et al., 2012</xref>; <xref ref-type="bibr" rid="bib22">Horne and Page, 2008</xref>; <xref ref-type="bibr" rid="bib27">
-                        McQuilton et al., 2012</xref>; <xref ref-type="bibr" rid="bib43">Staab et al., 2013</xref>).</p>
+            <p>eLife is tagged up as XML using the NISO standard JATS DTD. We conform to the JATS4R recommendations where possible and also deliver our content to PMC. We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them. eLife content is delivered to more repositories and it can be scraped from the eLife site (<xref ref-type="bibr" rid="bib17">Gall et al., 2012</xref>; <xref ref-type="bibr" rid="bib22">Horne and Page, 2008</xref>; <xref ref-type="bibr" rid="bib27">McQuilton et al., 2012</xref>; <xref ref-type="bibr" rid="bib43">Staab et al., 2013</xref>).</p>
             <p>The following is an example of monotype text within the body of an eLife article.</p>
             <p><monospace>P<sub>NRE+AP-1</sub>: 5’– CTTCGTGACTAGTCTTGACTCAGA –3’</monospace></p>
             <p><monospace>P<sub>RAM</sub>: 5’– CTAGAAGTTTGTTCGTGACTCAGA –3’</monospace></p>
@@ -2234,11 +1967,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
             <p><monospace>E2: 5’– CTAGAAGTTTGTTGACTCATTAGA –3’</monospace></p>
             <p><monospace>E3: 5’– CTAGAAGTTTGTGTATGACTCAGA –3’</monospace></p>
             <p><monospace>CME: 5’– CTAGAAATTTGTACGTGCCACAGA –3’</monospace></p>
-            <p>In some cases, authors will include extremely long gene sequences or other letter strings that need to be enclosed withing a particular style tagging in order that
-            they can be wrapped on the final HTML display. If this tagging is not included, the strings will likely spill across the edge of the text column, which can look very
-            messy, not to mention rather silly: <named-content content-type="sequence">TAATAAGGAAGAACTGCTTATTCTTAATTATTTCTACCTACTAAACTAACTAATTATCAACAAATATCATCTATTTAATAGTATATCATCACATGCGGTGTAAGAGGATGACATAAAGATTGAGAAACAGTCATCCAGTCTAATGGAAGCTCAAATGCAAGGGCTGATAATGTAATAGGATAATGAATGACAACGTATAAAAGGAAAGAAGATAAAGCAATATTATTTTGTAGAATTATCGATTCCCTTTTGTGGATCCCTATATCCTCGAGGAGAA</named-content>.
-            Sequences like this should be tagged during pre-editing. This tagging will also increase discoverability of gene sequences in
-            eLife articles.</p>
+            <p>In some cases, authors will include extremely long gene sequences or other letter strings that need to be enclosed withing a particular style tagging in order that they can be wrapped on the final HTML display. If this tagging is not included, the strings will likely spill across the edge of the text column, which can look very messy, not to mention rather silly: <named-content content-type="sequence">TAATAAGGAAGAACTGCTTATTCTTAATTATTTCTACCTACTAAACTAACTAATTATCAACAAATATCATCTATTTAATAGTATATCATCACATGCGGTGTAAGAGGATGACATAAAGATTGAGAAACAGTCATCCAGTCTAATGGAAGCTCAAATGCAAGGGCTGATAATGTAATAGGATAATGAATGACAACGTATAAAAGGAAAGAAGATAAAGCAATATTATTTTGTAGAATTATCGATTCCCTTTTGTGGATCCCTATATCCTCGAGGAGAA</named-content>. Sequences like this should be tagged during pre-editing. This tagging will also increase discoverability of gene sequences in eLife articles.</p>
         </sec>
         <!-- HTML allows for 6 levels of heading. No more can be allowed -->
     </body>
@@ -2291,12 +2020,10 @@ but these should be present in the textual entry (see below)-->
             <fn-group content-type="ethics-information">
                 <title>Ethics</title>
                 <fn fn-type="other">
-                    <p>Human subjects: If Research Ethics Committee and Institutional Review Board approval was 
-                        required for this article the details would be listed here.</p>
+                    <p>Human subjects: If Research Ethics Committee and Institutional Review Board approval was required for this article the details would be listed here.</p>
                 </fn>
                 <fn fn-type="other">
-                    <p>Animal subjects: If there were animal subjects involved in the study the approval number for the research 
-                        along with protocol approval would be listed here.</p>
+                    <p>Animal subjects: If there were animal subjects involved in the study the approval number for the research along with protocol approval would be listed here.</p>
                 </fn>
                 <fn fn-type="other">
                     <p>If this article was part of a clinical trial the Clinical trial registry and ID would be listed here, for example:</p>
@@ -2364,10 +2091,7 @@ Additionally, it is currently undecided whether they will be added to eLife prof
 The tagging of the collaborator name again within this section is required for PMC display, therefore no change proposed to tagging currently. -->
         <sec sec-type="data-availability" id="s7">
             <title>Data availability</title>
-            <p>A data availability statement will generally describe how the authors have provided the source data for their work. This can list the source
-                data files accompanying their figures, supplementary files, and/or external dataasets. Hyperlinks can be included here, for example:
-                <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102999"
-                    >https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102999</ext-link></p>
+            <p>A data availability statement will generally describe how the authors have provided the source data for their work. This can list the source data files accompanying their figures, supplementary files, and/or external dataasets. Hyperlinks can be included here, for example: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102999">https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102999</ext-link>.</p>
                 <p>The following dataset was generated:</p>
                 <p>
                     <!--UPDATE: Change to use element citation for datasets-->  
@@ -2400,11 +2124,9 @@ The tagging of the collaborator name again within this section is required for P
                             </name>
                         </person-group>
                         <year iso-8601-date="2018">2018</year>
-                        <data-title>Data from: Biophysical models reveal the relative importance of transporter proteins
-                            and impermeant anions in chloride homeostasis</data-title>
+                        <data-title>Data from: Biophysical models reveal the relative importance of transporter proteins and impermeant anions in chloride homeostasis</data-title>
                         <source>Dryad Digital Repository</source>
-                        <pub-id assigning-authority="Dryad" pub-id-type="doi"
-                            >10.5061/dryad.kj1f3v4</pub-id>
+                        <pub-id assigning-authority="Dryad" pub-id-type="doi">10.5061/dryad.kj1f3v4</pub-id>
                     </element-citation>
                 </p>
                 <p>The following previously published datasets were used:</p>
@@ -2430,12 +2152,9 @@ The tagging of the collaborator name again within this section is required for P
                             </name>
                         </person-group>
                         <year iso-8601-date="2013">2013</year>
-                        <data-title>Transcriptomes of the hybrid mouse diversity panel subjected to
-                            Isoproterenol challenge</data-title>
+                        <data-title>Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge</data-title>
                         <source>NCBI Gene Expression Omnibus</source>
-                        <pub-id assigning-authority="NCBI" pub-id-type="accession"
-                            xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760"
-                            >GSE48760</pub-id>
+                        <pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760">GSE48760</pub-id>
                     </element-citation>
                 </p>
                 <p>
@@ -2547,9 +2266,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2016">2016</year>
             <data-title>Lme4: Linear Mixed-Effects Models Using Eigen and S4</data-title>
             <source>CRAN</source>
-            <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/lme4/index.html">
-                https://cran.r-project.org/web/packages/lme4/index.html
-            </ext-link>
+            <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/lme4/index.html">https://cran.r-project.org/web/packages/lme4/index.html</ext-link>
             <!-- designator attribute added for version - Feb 8 2017 -->
             <version designator="1.1-12">1.1-12</version>
         </element-citation>
@@ -2600,8 +2317,7 @@ The tagging of the collaborator name again within this section is required for P
                 </name>
             </person-group>
             <year iso-8601-date="2016">2016</year>
-            <article-title>A prospective randomized trial examining health care utilization in individuals using multiple 
-                smartphone-enabled biosensors</article-title>
+            <article-title>A prospective randomized trial examining health care utilization in individuals using multiple smartphone-enabled biosensors</article-title>
             <source>bioRxiv</source>
             <pub-id pub-id-type="doi">10.1101/029983</pub-id>
         </element-citation>
@@ -2684,8 +2400,7 @@ The tagging of the collaborator name again within this section is required for P
                 </name>
             </person-group>
             <year iso-8601-date="2015">2015</year>
-            <data-title>NKX2-5 mutations causative for congenital heart disease retain
-                functionality and are directed to hundreds of targets</data-title>
+            <data-title>NKX2-5 mutations causative for congenital heart disease retain functionality and are directed to hundreds of targets</data-title>
             <source>NCBI Gene Expression Omnibus</source>
             <pub-id pub-id-type="accession" assigning-authority="NCBI"
                 xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44902"
@@ -2710,11 +2425,8 @@ The tagging of the collaborator name again within this section is required for P
                 </name>
             </person-group>
             <year iso-8601-date="2004">2004a</year>
-            <article-title>Aquiflexum balticum gen. nov., sp nov., a novel marine bacterium
-                of the Cytophaga-Flavobacterium-Bacteroides group isolated from surface
-                water of the central Baltic Sea</article-title>
-            <source>International journal of systematic and evolutionary
-                microbiology</source>
+            <article-title>Aquiflexum balticum gen. nov., sp nov., a novel marine bacterium of the Cytophaga-Flavobacterium-Bacteroides group isolated from surface water of the central Baltic Sea</article-title>
+            <source>International journal of systematic and evolutionary microbiology</source>
             <volume>54</volume>
             <fpage>2335</fpage>
             <lpage>2341</lpage>
@@ -2740,11 +2452,8 @@ The tagging of the collaborator name again within this section is required for P
                 </name>
             </person-group>
             <year iso-8601-date="2004">2004b</year>
-            <article-title>Belliella baltica gen. nov., sp. nov., a novel marine bacterium
-                of the Cytophaga-Flavobacterium-Bacteroides group isolated from surface
-                water of the central Baltic Sea</article-title>
-            <source>International journal of systematic and evolutionary
-                microbiology</source>
+            <article-title>Belliella baltica gen. nov., sp. nov., a novel marine bacterium of the Cytophaga-Flavobacterium-Bacteroides group isolated from surface water of the central Baltic Sea</article-title>
+            <source>International journal of systematic and evolutionary microbiology</source>
             <volume>54</volume>
             <fpage>65</fpage>
             <pub-id pub-id-type="doi">10.1099/ijs.0.02752-0</pub-id>
@@ -2854,8 +2563,7 @@ The tagging of the collaborator name again within this section is required for P
             </person-group>
             <year iso-8601-date="2008">2008</year>
             <edition>2</edition>
-            <source>An Introduction to Work and Organizational Psychology: A European
-                Perspective</source>
+            <source>An Introduction to Work and Organizational Psychology: A European Perspective</source>
             <publisher-name>Wiley-Blackwell</publisher-name>
         </element-citation>
     </ref>
@@ -2976,8 +2684,7 @@ The tagging of the collaborator name again within this section is required for P
                 </name>
             </person-group>
             <year iso-8601-date="2014">2014</year>
-            <data-title>Crystal structure of KRYPTONITE in complex with mCHH DNA and
-                SAH</data-title>
+            <data-title>Crystal structure of KRYPTONITE in complex with mCHH DNA and SAH</data-title>
             <source>RCSB Protein Data Bank</source>
             <pub-id pub-id-type="doi" assigning-authority="RCSB Protein Data Bank">10.2210/pdb4qen/pdb</pub-id>
         </element-citation>
@@ -4486,20 +4193,11 @@ UPDATE: punctuation between institution and country removed.
             <body>
                 <!-- NOTE: the boxed text is occasionally updated by editorial so although it remains the same for all articles, it cannot be boiler plate text --> 
                 <boxed-text>
-                    <p>In the interests of transparency, eLife includes the editorial decision letter and accompanying author responses. 
-                        A lightly edited version of the letter sent to the authors after peer review is shown, indicating the most substantive concerns;
-                        minor comments are not usually included.</p>
+                    <p>In the interests of transparency, eLife includes the editorial decision letter and accompanying author responses. A lightly edited version of the letter sent to the authors after peer review is shown, indicating the most substantive concerns; minor comments are not usually included.</p>
                 </boxed-text>
-                <p>Thank you for submitting your article "The eLife research article" for consideration by <italic>eLife</italic>. 
-                    Your article has been reviewed by three peer reviewers, one of whom, Joe Bloggs, 
-                    is a member of our editorial board and also oversaw the process as Senior editor. 
-                    John Doe (peer reviewer) has agreed to reveal his identity.
-                </p>
-                <p>
-                    The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.
-                </p>
-                <p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough information contained within the 
-                    tagging to generate a typeset PDF from the XML with no additional information provided.</p>
+                <p>Thank you for submitting your article "The eLife research article" for consideration by <italic>eLife</italic>. Your article has been reviewed by three peer reviewers, one of whom, Joe Bloggs, is a member of our editorial board and also oversaw the process as Senior editor. John Doe (peer reviewer) has agreed to reveal his identity.</p>
+                <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
+                <p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
             </body>
     </sub-article>
     <sub-article article-type="reply" id="SA2">
@@ -4514,14 +4212,10 @@ UPDATE: punctuation between institution and country removed.
             <!-- UPDATE: Italics formatting was used to indicate the editor comments previously, but now we want to semantically differentiate it. The website and Kriya needs to
  display any disp-quote within the  sub-article article-type="reply" as italics and not the normal display quote style used for main body of content -->  
 <disp-quote content-type="editor-comment">
-    <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you
-    prepare a revised submission.</p>
-    <p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough 
-    information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
+    <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
+    <p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
             </disp-quote>
-            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the 
-                PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="respfig1">Author response image 1.</xref>, 
-                <xref ref-type="video" rid="respvideo1">Author response video 1</xref> and <xref ref-type="table" rid="resptable1">Author response table 1</xref>.</p>
+            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="respfig1">Author response image 1.</xref>, <xref ref-type="video" rid="respvideo1">Author response video 1</xref> and <xref ref-type="table" rid="resptable1">Author response table 1</xref>.</p>
             <fig id="respfig1" position="float">
                 <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                 <object-id pub-id-type="doi">10.7554/eLife.00666.031</object-id>
@@ -4599,35 +4293,23 @@ UPDATE: DOI prefix removed from XML but must be added for display-->
                     <p>Caption and/or a title is required for all author response assets</p>
                 </caption>
             </media>
-                <p>However, some decisions required some communication with PMC 
-                to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all 
-                formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} in order to produce rules for the 
-                production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.{Insert table}</p>
-            <p>If an author referes to a reference in the response letter it is cross linked to the reference in the reference list (<xref ref-type="bibr" rid="bib11">Coyne and Orr,
-                1989</xref>), however, if it is a new reference only cited in the decision letter or author response it is not added to the main reference link and is just listed as free
-                text, for example, Butcher et al, 2006. If the author provides the reference it can be added as free text to the end of the letter, however, this is not a requirement
-                .</p>
-            <p>Adding some MathML to the sub-article.<inline-formula><mml:math>
-                <mml:mrow>
-                    <mml:munder>
-                        <mml:mo/>
-                        <mml:mi>m</mml:mi>
-                    </mml:munder>
-                    <mml:mrow>
-                        <mml:msub>
-                            <mml:mover accent="true">
-                                <mml:mi>p</mml:mi>
-                                <mml:mo/>
-                            </mml:mover>
-                            <mml:mi>m</mml:mi>
-                        </mml:msub>
-                        <mml:mo>=</mml:mo>
-                        <mml:mn>0</mml:mn>
-                    </mml:mrow>
-                </mml:mrow>
-            </mml:math>
-            </inline-formula>
-            </p>
+                <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} in order to produce rules for the production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.{Insert table}</p>
+            <p>If an author referes to a reference in the response letter it is cross linked to the reference in the reference list (<xref ref-type="bibr" rid="bib11">Coyne and Orr, 1989</xref>), however, if it is a new reference only cited in the decision letter or author response it is not added to the main reference link and is just listed as free text, for example, Butcher et al, 2006. If the author provides the reference it can be added as free text to the end of the letter, however, this is not a requirement.</p>
+            <p>Adding some MathML to the sub-article.<inline-formula><mml:math id="inf5"><mml:mrow><mml:munder><mml:mo/><mml:mi>m</mml:mi></mml:munder><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>p</mml:mi><mml:mo/></mml:mover><mml:mi>m</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math></inline-formula></p>
+            <p>May also contain a formula as a block <disp-formula id="equ4"><mml:math id="m4"><mml:mrow><mml:mi>ϕ</mml:mi><mml:mo>=</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>z</mml:mi><mml:mi>F</mml:mi><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi><mml:mi>R</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:msup></mml:mrow></mml:math></disp-formula></p>
+            <list list-type="order">
+                <list-item>
+                    <p>'Contamination'</p>
+                    <list list-type="roman-lower">
+                        <list-item>
+                            <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
+                        </list-item>
+                        <list-item>
+                            <p><italic>C. elegans</italic></p>
+                        </list-item>
+                    </list>
+                </list-item>
+            </list>
         </body>
     </sub-article>
 </article>
