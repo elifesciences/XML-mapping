@@ -4607,7 +4607,7 @@ UPDATE: DOI prefix removed from XML but must be added for display-->
                 1989</xref>), however, if it is a new reference only cited in the decision letter or author response it is not added to the main reference link and is just listed as free
                 text, for example, Butcher et al, 2006. If the author provides the reference it can be added as free text to the end of the letter, however, this is not a requirement
                 .</p>
-            <p>Adding some MathML to the sub-article.<inline-formula><mml:math id="inf5">
+            <p>Adding some MathML to the sub-article.<inline-formula><mml:math id="repsm1">
                 <mml:mrow>
                     <mml:munder>
                         <mml:mo/>
@@ -4629,8 +4629,8 @@ UPDATE: DOI prefix removed from XML but must be added for display-->
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
-            <disp-formula id="equ4">
-                <mml:math id="m4">
+            <disp-formula id="respequ1">
+                <mml:math id="respm2">
                     <mml:mrow>
                         <mml:mi>ϕ</mml:mi>
                         <mml:mo>=</mml:mo>
