@@ -4500,6 +4500,15 @@ UPDATE: punctuation between institution and country removed.
                 </p>
                 <p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough information contained within the 
                     tagging to generate a typeset PDF from the XML with no additional information provided.</p>
+                <fig id="desfig1" position="float">
+                    <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
+                    <object-id pub-id-type="doi">10.7554/eLife.00666.031</object-id>
+                    <label>Decision letter image 1.</label>
+                    <caption>
+                        <p>Single figure: The header of an eLife article example on the HTML page.</p>
+                    </caption>
+                    <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-resp-fig1.tif"/>
+                </fig>
             </body>
     </sub-article>
     <sub-article article-type="reply" id="SA2">
@@ -4524,7 +4533,7 @@ UPDATE: punctuation between institution and country removed.
                 <xref ref-type="video" rid="respvideo1">Author response video 1</xref> and <xref ref-type="table" rid="resptable1">Author response table 1</xref>.</p>
             <fig id="respfig1" position="float">
                 <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
-                <object-id pub-id-type="doi">10.7554/eLife.00666.031</object-id>
+                <object-id pub-id-type="doi">10.7554/eLife.00666.032</object-id>
                 <label>Author response image 1.</label>
                     <caption>
                         <p>Single figure: The header of an eLife article example on the HTML page.</p>
@@ -4533,7 +4542,7 @@ UPDATE: punctuation between institution and country removed.
                 </fig>
             <table-wrap id="resptable1" position="float">
                 <!-- UPDATE: added to author response assets UPDATE: DOI prefix removed from XML but must be added for display--> 
-                <object-id pub-id-type="doi">10.7554/eLife.00666.032</object-id>
+                <object-id pub-id-type="doi">10.7554/eLife.00666.033</object-id>
                 <label>Author response Table 1.</label>
                 <caption>
                     <p>Author response table</p>
@@ -4593,7 +4602,7 @@ UPDATE: punctuation between institution and country removed.
             <media mimetype="video" mime-subtype="mp4" id="respvideo1" xlink:href="elife-00666-resp-video1.mp4">
                 <!-- UPDATE: added to author response assets 
 UPDATE: DOI prefix removed from XML but must be added for display--> 
-                <object-id pub-id-type="doi">10.7554/eLife.00666.033</object-id>
+                <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
                 <label>Author response video 1.</label>
                 <caption>
                     <p>Caption and/or a title is required for all author response assets</p>
