@@ -4434,7 +4434,7 @@ Appendices must have DOIs -->
     </back>
 <!-- UPDATE: Links to the DOIs of the decision letter and author response need to be added to the PDF template.
 UPDATE: article-type has been changed from article-commentary to decision-letter -->    
-    <sub-article article-type="decision-letter" id="SA1">
+    <sub-article article-type="decision-letter" id="sa1">
         <front-stub>
             <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
             <article-id pub-id-type="doi">10.7554/eLife.00666.029</article-id>
@@ -4500,18 +4500,18 @@ UPDATE: punctuation between institution and country removed.
                 </p>
                 <p>You need to make sure the XML structure you creates works on the display of the PMC platform and also that there is enough information contained within the 
                     tagging to generate a typeset PDF from the XML with no additional information provided.</p>
-                <fig id="desfig1" position="float">
+                <fig id="sa1fig1" position="float">
                     <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                     <object-id pub-id-type="doi">10.7554/eLife.00666.031</object-id>
                     <label>Decision letter image 1.</label>
                     <caption>
                         <p>Single figure: The header of an eLife article example on the HTML page.</p>
                     </caption>
-                    <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-des-fig1.tif"/>
+                    <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa1-fig1.tif"/>
                 </fig>
             </body>
     </sub-article>
-    <sub-article article-type="reply" id="SA2">
+    <sub-article article-type="reply" id="sa2">
         <front-stub>
             <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
             <article-id pub-id-type="doi">10.7554/eLife.00666.031</article-id>
@@ -4529,18 +4529,18 @@ UPDATE: punctuation between institution and country removed.
     information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
             </disp-quote>
             <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the 
-                PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="respfig1">Author response image 1.</xref>, 
-                <xref ref-type="video" rid="respvideo1">Author response video 1</xref> and <xref ref-type="table" rid="resptable1">Author response table 1</xref>.</p>
-            <fig id="respfig1" position="float">
+                PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa2fig1">Author response image 1.</xref>, 
+                <xref ref-type="video" rid="sa2video1">Author response video 1</xref> and <xref ref-type="table" rid="sa2table1">Author response table 1</xref>.</p>
+            <fig id="sa2fig1" position="float">
                 <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
                 <object-id pub-id-type="doi">10.7554/eLife.00666.032</object-id>
                 <label>Author response image 1.</label>
                     <caption>
                         <p>Single figure: The header of an eLife article example on the HTML page.</p>
                     </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-resp-fig1.tif"/>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa2-fig1.tif"/>
                 </fig>
-            <table-wrap id="resptable1" position="float">
+            <table-wrap id="sa2table1" position="float">
                 <!-- UPDATE: added to author response assets UPDATE: DOI prefix removed from XML but must be added for display--> 
                 <object-id pub-id-type="doi">10.7554/eLife.00666.033</object-id>
                 <label>Author response Table 1.</label>
@@ -4599,7 +4599,7 @@ UPDATE: punctuation between institution and country removed.
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="video" mime-subtype="mp4" id="respvideo1" xlink:href="elife-00666-resp-video1.mp4">
+            <media mimetype="video" mime-subtype="mp4" id="sa2video1" xlink:href="elife-00666-sa2-video1.mp4">
                 <!-- UPDATE: added to author response assets 
 UPDATE: DOI prefix removed from XML but must be added for display--> 
                 <object-id pub-id-type="doi">10.7554/eLife.00666.034</object-id>
@@ -4616,7 +4616,7 @@ UPDATE: DOI prefix removed from XML but must be added for display-->
                 1989</xref>), however, if it is a new reference only cited in the decision letter or author response it is not added to the main reference link and is just listed as free
                 text, for example, Butcher et al, 2006. If the author provides the reference it can be added as free text to the end of the letter, however, this is not a requirement
                 .</p>
-            <p>Adding some MathML to the sub-article.<inline-formula><mml:math id="repsm1">
+            <p>Adding some MathML to the sub-article.<inline-formula><mml:math id="sa2m1">
                 <mml:mrow>
                     <mml:munder>
                         <mml:mo/>
@@ -4638,8 +4638,8 @@ UPDATE: DOI prefix removed from XML but must be added for display-->
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
-            <disp-formula id="respequ1">
-                <mml:math id="respm2">
+            <disp-formula id="sa2equ1">
+                <mml:math id="sa2m2">
                     <mml:mrow>
                         <mml:mi>ϕ</mml:mi>
                         <mml:mo>=</mml:mo>
