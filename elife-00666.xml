@@ -3,11 +3,15 @@
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20190208//EN" "JATS-archivearticle1.dtd">
 <!--we use subj-groups to indicate eLife-specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits.
 The @article-types currently used are:
-article-commentary - Insight
+
+article-commentary - Insight (Feature template 1)
 correction - Correction
-discussion - Feature 1/Feature 2
-editorial - Editorial
-research-article - all research content (ie non-feature content) 
+retraction - Retraction
+discussion - Feature contribution (Feature template 3 or 4)
+editorial - Editorial (Feature template 2)
+research-article - all research content and feature research articles (Feature template 5)
+review-article - Review articles
+
 UPDATE: xmlns:ali="http://www.niso.org/schemas/ali/1.0/" this name space is added in order to add the new license information (see permissions section)
 -->
 <article article-type="research-article" dtd-version="1.2" xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
@@ -4143,6 +4147,14 @@ Appendices must have DOIs -->
                             </caption>
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app1-fig1-figsupp1.tif"/>
                         </fig>
+                        <media mimetype="video" mime-subtype="mp4" id="app1fig1video1" xlink:href="elife-00666-app1-fig1-video1.mp4">
+                            <!-- UPDATE: DOI prefix removed from XML but must be added for display--> 
+                            <object-id pub-id-type="doi">10.7554/eLife.00666.040</object-id>
+                            <label>Appendix 1—figure 1—video 1.</label>
+                            <caption>
+                                <title>A video supporting Appendix 1—figure 1</title>
+                            </caption>
+                        </media>
                     </fig-group>
 <!-- UPDATE: this is how sub sections in appendices should be tagged. Have been wrong up to now -->
                         <sec sec-type="appendix" id="s8-1">
