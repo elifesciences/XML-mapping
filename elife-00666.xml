@@ -1853,7 +1853,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     <boxed-text id="box1">
                         <label>Box 1.</label>
                         <caption>
-                            <p>Example of a small box</p>
+                            <title>Example of a small box</title>
                         </caption>
                         <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
                             turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
@@ -1872,7 +1872,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     <boxed-text id="box2">
                         <label>Box 2.</label>
                         <caption>
-                            <p>Example of a large box</p>
+                            <title>Example of a large box</title>
                         </caption>
                         <p>This box contains a <xref ref-type="fig" rid="box2fig1">figure</xref>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus lorem. Suspendisse posuere non enim vel tempor. Fusce quis sem sed nulla tincidunt faucibus. 
                             Vivamus dictum magna in ante porttitor faucibus. Aenean lobortis, sem in viverra dignissim, odio purus vestibulum libero, in eleifend lacus metus id tortor. Phasellus tincidunt
