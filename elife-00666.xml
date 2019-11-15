@@ -665,8 +665,8 @@ Impact statement:-->
                     Department of Education and Morgan (2016)</xref>. Approximately half of the articles that are
                     selected for peer review go on to be published (<xref ref-type="bibr" rid="bib5">Brettar et al., 2004a</xref>). If other researchers publish similar
                 findings after submission, this will not be a reason for rejection. The eLife
-                editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib48">Turlings and Wäckers, 2004a</xref>; <xref ref-type="bibr" rid="bib49">Turlings and Wäckers, 2004b</xref>;  <xref ref-type="bibr" rid="bib51">
-                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib50">Walker, 1994</xref>; <xref ref-type="bibr" rid="bib44">Tanaka et al., 2016</xref>). If you are interested in
+                editorial process broadly occurs in three phases (<xref ref-type="bibr" rid="bib47">Turlings and Wäckers, 2004a</xref>; <xref ref-type="bibr" rid="bib48">Turlings and Wäckers, 2004b</xref>;  <xref ref-type="bibr" rid="bib50">
+                    Wolski et al., 2008</xref>; <xref ref-type="bibr" rid="bib49">Walker, 1994</xref>; <xref ref-type="bibr" rid="bib43">Tanaka et al., 2016</xref>). If you are interested in
                 submitting your work to eLife, please review the guidelines relating to initial
                 submissions. If you have received an encouraging response to your initial
                 submission, please review the guidelines relating to full submissions. If your full
@@ -743,7 +743,7 @@ Impact statement:-->
                 <title>eLife controlled lists</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
                     See <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref> for the representation of the Major Subject Areas, Research
-                    Organisms and author keywords on the eLife HTML page (<xref ref-type="bibr" rid="bib45">The <italic>Shigella</italic> Genome Sequencing Consortium,
+                    Organisms and author keywords on the eLife HTML page (<xref ref-type="bibr" rid="bib44">The <italic>Shigella</italic> Genome Sequencing Consortium,
                     2015a</xref>).
                 </p>
                 <sec id="s2-1-1">
@@ -1266,7 +1266,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <td>2 × 10<sup>3</sup></td>
                                     <td>10 × 10<sup>4</sup></td>
                                     <td>13 × 10<sup>4</sup></td>
-                                    <td><xref ref-type="bibr" rid="bib54">Zhong et al., 2013</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib53">Zhong et al., 2013</xref></td>
                                 </tr>
                                 <tr>
                                     <td>Nyv1p</td>
@@ -1292,13 +1292,13 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <td>4 × 10<sup>3</sup></td>
                                     <td>1.9 × 10<sup>4</sup></td>
                                     <td>1.8 × 10<sup>4</sup></td>
-                                    <td><xref ref-type="bibr" rid="bib54">Zhong et al., 2013</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib53">Zhong et al., 2013</xref></td>
                                 </tr>
                                 <tr>
                                     <td>Sec17p</td><td>7 × 10<sup>3</sup></td>
                                     <td>41 × 10<sup>4</sup></td>
                                     <td>13 × 10<sup>4</sup></td>
-                                    <td><xref ref-type="bibr" rid="bib51">Wolski et al., 2008</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib50">Wolski et al., 2008</xref></td>
                                 </tr>
                                 <tr>
                                     <td>Sec18p</td>
@@ -1312,7 +1312,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <td>6 × 10<sup>3</sup></td>
                                     <td>17 × 10<sup>4</sup></td>
                                     <td>31 × 10<sup>4</sup></td>
-                                    <td><xref ref-type="bibr" rid="bib54">Zhong et al., 2013</xref></td>
+                                    <td><xref ref-type="bibr" rid="bib53">Zhong et al., 2013</xref></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1540,7 +1540,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         We propose a Bayesian scheme for BCV (see <xref ref-type="disp-formula" rid="equ1">equation 1</xref>) that accommodates the influence of context on incentive value. BCV focuses on scenarios (i) where incentive value depends 
                         on contextual information (either represented by cues or by previous rewards) provided before options or rewards are presented, and (ii) where reward is defined 
                         by a single attribute (e.g., reward amount). To describe the basic principles of BCV, we adopt the formalism of Bayesian graphs (
-                        <xref ref-type="bibr" rid="bib47">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015c</xref>) where a generative model is described by nodes or circles, representing random variables (shaded and white circles refer to observed and non-observed variables respectively), 
+                        <xref ref-type="bibr" rid="bib46">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015c</xref>) where a generative model is described by nodes or circles, representing random variables (shaded and white circles refer to observed and non-observed variables respectively), 
                         and arrows, representing causal relationships among variables. A simple generative model hypothesized by BCV is shown in
                         Figure 1A of another article (not linked here), where C represents prior beliefs about the average reward expected in a given context. 
                         Formally, this corresponds to a (Gaussian) prior belief (with mean
@@ -1596,7 +1596,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             </mml:math>
                         </inline-formula>
                         ). When R is observed, a posterior expectation about the context is obtained by application of Bayes rule (
-                        <xref ref-type="bibr" rid="bib46">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015b</xref>
+                        <xref ref-type="bibr" rid="bib45">The <italic>Shigella</italic> Genome Sequencing Consortium, 2015b</xref>
                         ):
                         <!-- id and a label required for display formulae -->
                         <disp-formula id="equ3">
@@ -1758,8 +1758,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>) 
                         with two sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3—figure supplement 1—source data 1</xref> and <xref ref-type="video"
-                            rid="fig3video1">Figure 3—video 1</xref> (see <xref ref-type="bibr" rid="bib53">Zhang et al., 
-                                2010</xref>, <xref ref-type="bibr" rid="bib54">Zhong et al.,  2013</xref>; <xref ref-type="bibr" rid="bib52">World Health Organization, 2016</xref>).</p>
+                            rid="fig3video1">Figure 3—video 1</xref> (see <xref ref-type="bibr" rid="bib52">Zhang et al., 
+                                2010</xref>, <xref ref-type="bibr" rid="bib53">Zhong et al.,  2013</xref>; <xref ref-type="bibr" rid="bib51">World Health Organization, 2016</xref>).</p>
                     <!-- UPDATE: new method of modelling supplementary material for a figure
                     A figure or a sub figure can have any assets - e.g. data, code, videos -->
                     <fig-group>
@@ -2211,7 +2211,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 We also convert our JATS XML to PubMed and CrossRef DTDs when we deposit our content with them.
                 eLife content is delivered to more repositories and it can be scraped from the eLife site (<xref ref-type="bibr" rid="bib17">
                     Gall et al., 2012</xref>; <xref ref-type="bibr" rid="bib22">Horne and Page, 2008</xref>; <xref ref-type="bibr" rid="bib27">
-                        McQuilton et al., 2012</xref>; <xref ref-type="bibr" rid="bib43">Staab et al., 2013</xref>).</p>
+                        McQuilton et al., 2012</xref>; <xref ref-type="bibr" rid="bib42">Staab et al., 2013</xref>).</p>
             <p>The following is an example of monotype text within the body of an eLife article.</p>
             <p><monospace>P<sub>NRE+AP-1</sub>: 5’– CTTCGTGACTAGTCTTGACTCAGA –3’</monospace></p>
             <p><monospace>P<sub>RAM</sub>: 5’– CTAGAAGTTTGTTCGTGACTCAGA –3’</monospace></p>
@@ -3688,19 +3688,8 @@ The tagging of the collaborator name again within this section is required for P
             <lpage>A4</lpage>
         </element-citation>
     </ref>
-<!-- Reference to a Clinical Trial - subject to revision -->
-    <ref id="bib41">
-        <element-citation publication-type="clinicaltrial">
-            <person-group person-group-type="sponsor">
-                <collab>Scripps Translational Science Institute</collab>
-            </person-group>
-            <year iso-8601-date="2015">2015</year>
-            <article-title>Scripps Wired for Health Study</article-title>
-            <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT01975428">https://clinicaltrials.gov/ct2/show/NCT01975428</ext-link>
-        </element-citation>
-    </ref> 
   <!-- Software reference: No title -->
-    <ref id="bib42">
+    <ref id="bib41">
         <element-citation publication-type="software">
             <person-group person-group-type="author">
                 <name>
@@ -3722,7 +3711,7 @@ The tagging of the collaborator name again within this section is required for P
         </element-citation>
     </ref>
 <!-- Data reference: JASPAR -->
-    <ref id="bib43">
+    <ref id="bib42">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
                 <name>
@@ -3759,7 +3748,7 @@ The tagging of the collaborator name again within this section is required for P
         </element-citation>
     </ref>
 <!-- Reference to a Preprint: preprints -->
-    <ref id="bib44">
+    <ref id="bib43">
         <element-citation publication-type="preprint">
             <person-group person-group-type="author">
                 <name>
@@ -3803,7 +3792,7 @@ The tagging of the collaborator name again within this section is required for P
         </element-citation>
     </ref>
 <!-- Data reference: NCBI BioProject: author is a collab pub-id-type="accession" assigning-authority="NCBI" example of 3 references with same author/year -->
-    <ref id="bib45">
+    <ref id="bib44">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
                 <collab>The <italic>Shigella</italic> Genome Sequencing Consortium</collab>
@@ -3816,7 +3805,7 @@ The tagging of the collaborator name again within this section is required for P
                 >PRJEB2846</pub-id>
         </element-citation>
     </ref>
-    <ref id="bib46">
+    <ref id="bib45">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
                 <collab>The <italic>Shigella</italic> Genome Sequencing Consortium</collab>
@@ -3829,7 +3818,7 @@ The tagging of the collaborator name again within this section is required for P
                 >PRJEB2460</pub-id>
         </element-citation>
     </ref>
-    <ref id="bib47">
+    <ref id="bib46">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
                 <collab>The <italic>Shigella</italic> Genome Sequencing Consortium</collab>
@@ -3843,7 +3832,7 @@ The tagging of the collaborator name again within this section is required for P
         </element-citation>
     </ref>
 <!-- Book reference: chapter in book with editors -->
-    <ref id="bib48">
+    <ref id="bib47">
         <element-citation publication-type="book">
             <person-group person-group-type="author">
                 <name>
@@ -3876,7 +3865,7 @@ The tagging of the collaborator name again within this section is required for P
         </element-citation>
     </ref>
 <!-- Book reference: book with editors and authors, no chapter, and example of  -->
-            <ref id="bib49">
+            <ref id="bib48">
                 <element-citation publication-type="book">
                     <person-group person-group-type="author">
                         <name>
@@ -3904,7 +3893,7 @@ The tagging of the collaborator name again within this section is required for P
                 </element-citation>
             </ref>
  <!-- Reference to a whole Website - added date a year ealier than accessed date-->
-    <ref id="bib50">
+    <ref id="bib49">
         <element-citation publication-type="web">
             <person-group person-group-type="author">
                 <name>
@@ -3919,7 +3908,7 @@ The tagging of the collaborator name again within this section is required for P
         </element-citation>
     </ref>
     <!-- Journal reference: elocation-id and DOI and PMID -->
-        <ref id="bib51">
+        <ref id="bib50">
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -3958,7 +3947,7 @@ The tagging of the collaborator name again within this section is required for P
                 </element-citation>
             </ref>
 <!-- Book reference: Has edition, editor is author -->
-    <ref id="bib52">
+    <ref id="bib51">
         <element-citation publication-type="book">
             <person-group person-group-type="author">
                 <collab>World Health Organization</collab>
@@ -3971,7 +3960,7 @@ The tagging of the collaborator name again within this section is required for P
             <publisher-name>World Health Organization</publisher-name>
         </element-citation>
     </ref>
-    <ref id="bib53">
+    <ref id="bib52">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
                 <name>
@@ -4018,7 +4007,7 @@ The tagging of the collaborator name again within this section is required for P
         </element-citation>
     </ref>
 <!-- Data reference: modMine pub-id-type="archive" -->
-            <ref id="bib54">
+            <ref id="bib53">
                 <element-citation publication-type="data">
                     <person-group person-group-type="author">
                         <name>
