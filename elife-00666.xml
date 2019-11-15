@@ -1874,7 +1874,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <caption>
                             <title>Example of a large box</title>
                         </caption>
-                        <p>This box contains a <xref ref-type="fig" rid="box2fig1">figure</xref>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus lorem. Suspendisse posuere non enim vel tempor. Fusce quis sem sed nulla tincidunt faucibus. 
+                        <p>This box contains a figure, <xref ref-type="fig" rid="box2fig1">Box 2—figure 1</xref>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus lorem. Suspendisse posuere non enim vel tempor. Fusce quis sem sed nulla tincidunt faucibus. 
                             Vivamus dictum magna in ante porttitor faucibus. Aenean lobortis, sem in viverra dignissim, odio purus vestibulum libero, in eleifend lacus metus id tortor. Phasellus tincidunt
                             ipsum ut ornare hendrerit. Praesent lobortis consectetur egestas. Curabitur viverra lectus eu venenatis sagittis. Aliquam lobortis metus mauris, in tincidunt diam ullamcorper ac.
                             Phasellus sagittis, leo eget lacinia commodo, eros justo mattis eros, quis dapibus ipsum ex sit amet sapien. Quisque consequat arcu ut efficitur tincidunt. Ut convallis, 
@@ -1922,6 +1922,31 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         however, in the text the citations do not have to be in the same order as they are listed according to when the author of the article cites them. 
                         This article is littered with citations to ensure all the references are cited at some point. They have no relevance to the content 
                         <xref ref-type="bibr" rid="bib1">Aivazian et al., 2006</xref>.</p>
+                </sec>
+                <sec>
+                    <title>Schema and structures</title>
+                    <p>Sometimes, authors need to include images to illustrate their text that are either not sutiable as main figures or that they would simply prefer were not treated as such.
+                    Usually, these images need to be anchored at set points in the text and fall into one of two categories: chemical structures and schema. Both are used to illustrate steps
+                    in a method. Chemical structures do not need to be cited in the text and often appear preceded or followed a written description of the compound being shown.</p>
+                    <fig id="C1" position="anchor">
+                        <label>Chemical structure 1.</label>
+                        <caption>
+                            <title>Base pairing of 8-oxoguanosine.</title>
+                        </caption>
+                        <graphic xlink:href="elife-00666-fig5.tif" mimetype="image" mime-subtype="tiff"/>
+                    </fig>
+                    <p>A scheme is usually an illustration of a workflow, but at a stretch they can be used to capture small graphs or other graphics that the author wants to include. Please note
+                    that files for both schema and chemical structures follow sequentially on from the main figures with no labelling differences.</p>
+                    <fig id="S1" position="anchor">
+                        <label>Scheme 1.</label>
+                        <caption>
+                            <title>Zdk dissociation from LOV2.</title>
+                        </caption>
+                        <graphic mime-subtype="tiff" mimetype="image"
+                            xlink:href="elife-00666-fig6.tif"/>
+                    </fig>
+                    <p>While they are anchored in place, both <xref ref-type="fig" rid="C1">Chemical structure 1</xref> and <xref ref-type="fig" rid="S1">Scheme 1</xref> may be cited elsewhere in
+                    the article; there is just no requirement that these items be placed after their first citaitons.</p>
                 </sec>
             </sec>
         </sec>
