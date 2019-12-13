@@ -212,6 +212,13 @@ elife-00666-vor-r1
 - x-ref ref-type="fig"
 - id="app1-fig1s1"
 
+#####Chemical structures
+- x-ref ref-type="fig"
+- id="chem1"
+
+#####Schemes
+- x-ref ref-type="fig"
+- id="scheme1"
 
 #####Source data as primary asset
 - xref ref-type="supplementary-material"
