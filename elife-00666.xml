@@ -462,6 +462,8 @@ content must work as a discrete item on each author's roll over and on the displ
                 </license>
             </permissions>
             <self-uri content-type="pdf" xlink:href="elife-00666.pdf"/>
+            <!-- Some content will not have a figures PDF -->
+            <self-uri content-type="figures-pdf" xlink:href="elife-00666-figures.pdf"/>
 <!-- UPDATE: historical events in the publication history will be entered using related-object. 
 If something is published once it will not have these related-objects.
 If an item is published twice the first related-object will be to the first publication and contain the related-object and date with date-type of v1 only
