@@ -1905,21 +1905,21 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     <p>Sometimes, authors need to include images to illustrate their text that are either not sutiable as main figures or that they would simply prefer were not treated as such.
                     Usually, these images need to be anchored at set points in the text and fall into one of two categories: chemical structures and schema. Both are used to illustrate steps
                     in a method. Chemical structures do not need to be cited in the text and often appear preceded or followed a written description of the compound being shown.</p>
-                    <fig id="chem1" position="anchor">
+                    <fig id="chem1fig1" position="anchor">
                         <label>Chemical structure 1.</label>
                         <caption>
                             <title>Base pairing of 8-oxoguanosine.</title>
                         </caption>
-                        <graphic xlink:href="elife-00666-chem1.tif" mimetype="image" mime-subtype="tiff"/>
+                        <graphic xlink:href="elife-00666-chem1-fig1.tif" mimetype="image" mime-subtype="tiff"/>
                     </fig>
                     <p>A scheme is usually an illustration of a workflow, but at a stretch they can be used to capture small graphs or other graphics that the author wants to include. Please note
                     that files for both schema and chemical structures follow sequentially on from the main figures with no labelling differences.</p>
-                    <fig id="scheme1" position="anchor">
+                    <fig id="scheme1fig1" position="anchor">
                         <label>Scheme 1.</label>
                         <caption>
                             <title>Zdk dissociation from LOV2.</title>
                         </caption>
-                        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-scheme1.tif"/>
+                        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-scheme1-fig1.tif"/>
                     </fig>
                     <p>While they are anchored in place, both <xref ref-type="fig" rid="C1">Chemical structure 1</xref> and <xref ref-type="fig" rid="S1">Scheme 1</xref> may be cited elsewhere in
                     the article; there is just no requirement that these items be placed after their first citaitons.</p>
