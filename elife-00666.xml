@@ -225,10 +225,7 @@
                 <year>2020</year>
             </pub-date>
             <!-- No pub-date[@pub-type="collection"]
-                 PoA/VoR could be determined in one of two ways:
-                 - If pub-date[@date-type="update"] is present, then it is a VoR, if not, then it is a PoA.
-                 - By the absence/presence of <body> as a child of <article> (this is a less robust approach, 
-                        as we may decide to add <body> in the future).
+                 PoA/VoR can be determined by specific-use attribute on root <article> as described above.
             -->
             <volume>9</volume>
             <elocation-id>e57322</elocation-id>
