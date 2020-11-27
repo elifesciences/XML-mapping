@@ -455,7 +455,7 @@
     <body>
         <sec id="s1" sec-type="intro">
             <title>Introduction</title>
-            <p>Lorem <bold>ipsum</bold> <italic>dolor</italic> <sup>sit</sup> <sub>amet</sub>, <sc>consectetur</sc> <monospace>adipiscing</monospace> <strike>elit</strike>. <underline>In</underline> <roman>maximus</roman>, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc. Mauris quis iaculis diam (see<!-- appendices can be cited --> <xref ref-type="appendix" rid="appendix-1">Appendix 1</xref>) Etiam nec blandit ipsum, venenatis ornare libero. Aliquam sed tincidunt nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vehicula varius placerat. Maecenas sed dictum eros, eu consequat eros (<xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>) nulla a sodales tellus (see<!-- sections can be cited --> <xref ref-type="sec" rid="s2">Results</xref>). Nunc id eros quis neque vehicula accumsan. Fusce a dolor non ligula euismod semper. Proin tempor dolor nec sapien ornare, sed volutpat libero cursus. Duis at tempus lacus. Vestibulum dapibus sem sit amet sapien pulvinar, nec vestibulum est pulvinar (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="fig" rid="fig1">Figure 1</xref>; <xref ref-type="fig" rid="fig1s1">Figure 1&#x2014;figure supplement 1</xref>; <xref ref-type="video" rid="fig1video1">Figure 2&#x2014;video 1</xref>).</p>
+            <p>Lorem <bold>ipsum</bold> <italic>dolor</italic> <sup>sit</sup> <sub>amet</sub>, <sc>consectetur</sc> <monospace>adipiscing</monospace> <strike>elit</strike>. <underline>In</underline> <roman>maximus</roman>, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc. Mauris quis iaculis diam (see<!-- appendices can be cited --> <xref ref-type="appendix" rid="appendix-1">Appendix 1</xref>) Etiam nec blandit ipsum, venenatis ornare libero. Aliquam sed tincidunt nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vehicula varius placerat. Maecenas sed dictum eros, eu consequat eros (<xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>) nulla a sodales tellus (see<!-- sections can be cited --> <xref ref-type="sec" rid="s2">Results</xref>). Nunc id eros quis neque vehicula accumsan. Fusce a dolor non ligula euismod semper. <!-- definitions can be linked to from the text --><xref ref-type="list" rid="def-1">Aoin</xref> tempor dolor nec <xref ref-type="list" rid="def-4">sapien</xref> ornare, sed volutpat libero cursus. Duis at tempus lacus. Vestibulum dapibus sem sit amet sapien pulvinar, nec vestibulum est pulvinar (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="fig" rid="fig1">Figure 1</xref>; <xref ref-type="fig" rid="fig1s1">Figure 1&#x2014;figure supplement 1</xref>; <xref ref-type="video" rid="fig1video1">Figure 2&#x2014;video 1</xref>).</p>
             <fig-group>
                 <!-- caption added here as it is a requirement for JATS4R.
                      Content is the boilerplate text which is added to the bottom of the pdf.
@@ -764,7 +764,7 @@
                                     <thead>
                                         <tr>
                                             <th colspan="3" rowspan="2"> </th>
-                                            <th align="center" colspan="8">GLVs (percent IS plant<sup>-1</sup>)</th>
+                                            <th align="center" colspan="8"><xref ref-type="list" rid="def-2">GLVs</xref> (percent IS plant<sup>-1</sup>)</th>
                                             <th align="center" colspan="17">TPS10 products (percent IS plant<sup>-1</sup>)</th>
                                             <th align="center" colspan="10">Non-target volatiles (percent IS plant<sup>-1</sup>)</th>
                                         </tr>
@@ -1296,6 +1296,36 @@ module load anaconda</code>
                 <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-transrepform.pdf"/>
             </supplementary-material>
         </sec>
+        <!-- Add glossary. This contains abbreviations that can be linked to throughout the article (main text, appendices, tables figure captions etc.). -->
+        <glossary>
+            <title>Abbreviations</title>
+            <def-list>
+                <def-item id="def-1">
+                    <term>Aoin</term>
+                    <def>
+                        <p>This definition can also contain minimal formatting such as <bold>bold</bold>, <italic>italic</italic> <sup>superscript</sup>, and <sub>subscript</sub></p>
+                    </def>
+                </def-item>
+                <def-item id="def-2">
+                    <term>GLVs</term>
+                    <def>
+                        <p>Green leaf volatiles</p>
+                    </def>
+                </def-item>
+                <def-item id="def-3">
+                    <term>Hip1R</term>
+                    <def>
+                        <p>Huntingtin-interacting protein 1-related protein</p>
+                    </def>
+                </def-item>
+                <def-item id="def-4">
+                    <term>sapien</term>
+                    <def>
+                        <p>This is the definition for the term</p>
+                    </def>
+                </def-item>
+            </def-list>
+        </glossary>
         <sec id="s7" sec-type="data-availability">
             <title>Data availability</title>
             <!-- data references are included in the ref list and can be cited, as in the main text -->
@@ -2000,7 +2030,7 @@ module load anaconda</code>
                             <caption>
                                 <title>Figure title.</title>
                                 <!-- specific-use="part-label" on bold used for semantics. Could be hooked from Libero Editor -->
-                                <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of Hip1R. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="fig" rid="app3fig1s1">Appendix 3&#x2014;figure 1&#x2014;figure supplement 1</xref>).</p>
+                                <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of <xref ref-type="list" rid="def-3">Hip1R</xref>. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="fig" rid="app3fig1s1">Appendix 3&#x2014;figure 1&#x2014;figure supplement 1</xref>).</p>
                                 <!-- Pending a suspected change in JATS 1.2 supplementary-material could be captured as a child of fig,
                         rather than inside a p in the caption. -->
                                 <p><supplementary-material id="app3fig1sdata1">
