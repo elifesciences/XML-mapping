@@ -25,7 +25,7 @@
             <article-categories>
                 <!-- Change disp-channel to heading (heading needed for PMC)  -->
                 <subj-group subj-group-type="heading">
-                    <subject>Research article</subject>
+                    <subject>Research Advance</subject>
                 </subj-group>
                 <!-- Change heading to major-subject (better semantics)
                      More than one subject allowed in the same subj-group -->
@@ -290,6 +290,12 @@
             <self-uri content-type="pdf" xlink:href="elife-00666.pdf"/>
             <!-- self-uri for (optional) figures pdf too -->
             <self-uri content-type="pdf" xlink:href="elife-00666-figures.pdf"/>
+            <!-- specific-use added to related-article which defines what kind of link it is for the benefit of lax/display on the journal
+            Research Advance -> Research Article can be builds-upon or related-to
+            Anything else to -> Anything else = related-to
+            -->
+            <related-article ext-link-type="doi" id="ra1" related-article-type="article-reference" specific-use="builds-upon" xlink:href="10.7554/eLife.16381"/>
+            <related-article ext-link-type="doi" id="ra2" related-article-type="article-reference" specific-use="related-to" xlink:href="10.7554/eLife.43788"/>
             <!-- abtsract is used for impact statements instead of custom-meta -->
             <abstract abstract-type="toc">
                 <p>This is an impact <sc>s</sc>tatement <italic>i</italic><sup>a</sup><sub>b</sub>.</p>
