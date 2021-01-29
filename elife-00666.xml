@@ -25,7 +25,7 @@
             <article-categories>
                 <!-- Change disp-channel to heading (heading needed for PMC)  -->
                 <subj-group subj-group-type="heading">
-                    <subject>Research Advance</subject>
+                    <subject>Research Article</subject>
                 </subj-group>
                 <!-- Change heading to major-subject (better semantics)
                      More than one subject allowed in the same subj-group -->
@@ -86,13 +86,12 @@
                 <contrib contrib-type="author" corresp="yes">
                     <collab>Example Group author
                         <contrib-group content-type="group-members">
-                            <contrib contrib-type="author" corresp="yes">
+                            <contrib contrib-type="author">
                                 <name>
                                     <surname>Gilbert</surname>
                                     <given-names>James</given-names>
                                 </name>
-                                <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4932-938X</contrib-id>
-                                <email>...@elifesciences.org</email>
+                                <contrib-id contrib-id-type="orcid">https://orcid.org/0000-1002-4932-938X</contrib-id>
                                 <!-- Group members link to affiliations in the overall authors contrib-group -->
                                 <xref ref-type="aff" rid="aff1">1</xref>
                                 <xref ref-type="author-notes" rid="con2"/>
@@ -104,10 +103,12 @@
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
                     <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Visualization" 
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+                    <email>...@elifesciences.org</email>
                 </contrib>
                 <!-- No footnote for deceased, just deceased="yes" attribute.
-                     Does not display on PMC. -->
-                <contrib contrib-type="author" equal-contrib="yes" deceased="yes" corresp="yes">
+                     Does not display on PMC.
+                     And not really deceased!! -->
+                <contrib contrib-type="author" equal-contrib="yes" deceased="yes">
                     <name>
                         <surname>Claus</surname>
                         <given-names>Santa</given-names>
@@ -186,26 +187,13 @@
             <author-notes>
                 <!-- Footnote labels follow this sequence:
                         †, ‡, §, ¶, ††, ‡‡, §§, ¶¶ etc. -->
-                <fn fn-type="con" id="equal-contrib1">
-                    <label>†</label>
-                    <p>These authors contributed equally to this work</p>
-                </fn>
-                <fn fn-type="con" id="equal-contrib2">
-                    <label>§</label>
-                    <p>These authors also contributed equally to this work</p>
-                </fn>
+                <fn fn-type="con" id="equal-contrib1"><label>†</label><p>These authors contributed equally to this work</p></fn>
+                <fn fn-type="con" id="equal-contrib2"><label>§</label><p>These authors also contributed equally to this work</p></fn>
                 <!-- General use footnotes used for vanity notes etc. -->
-                <fn fn-type="other" id="fn1">
-                    <label>‡</label>
-                    <p>Author order was decided on a coin toss.</p>
-                </fn>
+                <fn fn-type="other" id="fn1"><label>‡</label><p>Author order was decided on a coin toss.</p></fn>
                 <!-- coi statements moved from sec[@sec-type="additional-information"] in <back> to here -->
-                <fn fn-type="COI-statement" id="con1">
-                    <p>is a member of some group, and has shares in some company. No other competing interests to delcare.</p>
-                </fn>
-                <fn fn-type="COI-statement" id="con2">
-                    <p>No competing interests declared</p>
-                </fn>
+                <fn fn-type="COI-statement" id="con1"><p>is a member of some group, and has shares in some company. No other competing interests to delcare.</p></fn>
+                <fn fn-type="COI-statement" id="con2"><p>No competing interests declared</p></fn>
             </author-notes>
             <!-- Include iso-8601-date attribute  
                 First pub-date (date-type="pub") is the original publication date (PoA) -->
@@ -228,12 +216,12 @@
                  PoA/VoR can be determined by specific-use attribute on root <article> as described above.
             -->
             <volume>9</volume>
-            <elocation-id>e57322</elocation-id>
+            <elocation-id>e00666</elocation-id>
             <history>
                 <date date-type="received" iso-8601-date="2020-03-20">
                     <day>20</day>
-                    <month>09</month>
-                    <year>2019</year>
+                    <month>03</month>
+                    <year>2020</year>
                 </date>
                 <date date-type="accepted" iso-8601-date="2020-09-18">
                     <day>18</day>
@@ -407,7 +395,8 @@
                         <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-6048-1470</contrib-id>
                         <name>
                             <surname>Atherden</surname>
-                            <given-names>Frederick P</given-names>
+                            <given-names>Frederick Peter</given-names>
+                            <suffix>III</suffix>
                         </name>
                     </principal-award-recipient>
                     <!-- Each author has their own principal-award-recipient element -->
@@ -466,7 +455,7 @@
     <body>
         <sec id="s1" sec-type="intro">
             <title>Introduction</title>
-            <p>Lorem <bold>ipsum</bold> <italic>dolor</italic> <sup>sit</sup> <sub>amet</sub>, <sc>consectetur</sc> <monospace>adipiscing</monospace> <strike>elit</strike>. <underline>In</underline> <roman>maximus</roman>, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc. Mauris quis iaculis diam (see<!-- appendices can be cited --> <xref ref-type="appendix" rid="appendix-1">Appendix 1</xref>) Etiam nec blandit ipsum, venenatis ornare libero. Aliquam sed tincidunt nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vehicula varius placerat. Maecenas sed dictum eros, eu consequat eros (<xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>) nulla a sodales tellus (see<!-- sections can be cited --> <xref ref-type="sec" rid="s2">Results</xref>). Nunc id eros quis neque vehicula accumsan. Fusce a dolor non ligula euismod semper. <!-- definitions can be linked to from the text --><xref ref-type="list" rid="def-1">Aoin</xref> tempor dolor nec <xref ref-type="list" rid="def-4">sapien</xref> ornare, sed volutpat libero cursus. Duis at tempus lacus. Vestibulum dapibus sem sit amet sapien pulvinar, nec vestibulum est pulvinar (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="fig" rid="fig1">Figure 1</xref>; <xref ref-type="fig" rid="fig1s1">Figure 1&#x2014;figure supplement 1</xref>; <xref ref-type="video" rid="fig1video1">Figure 2&#x2014;video 1</xref>).</p>
+            <p>Lorem <bold>ipsum</bold> <italic>dolor</italic> <sup>sit</sup> <sub>amet</sub>, <sc>consectetur</sc> <monospace>adipiscing</monospace> <strike>elit</strike>. <underline>In</underline> <roman>maximus</roman>, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc. Mauris quis iaculis diam (see<!-- appendices can be cited --> <xref ref-type="app" rid="appendix-1">Appendix 1</xref>) Etiam nec blandit ipsum, venenatis ornare libero. Aliquam sed tincidunt nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vehicula varius placerat. Maecenas sed dictum eros, eu consequat eros (<xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>) nulla a sodales tellus (see<!-- sections can be cited --> <xref ref-type="sec" rid="s2">Results</xref>). Nunc id eros quis neque vehicula accumsan. Fusce a dolor non ligula euismod semper. <!-- definitions can be linked to from the text --><xref ref-type="list" rid="def-1">Aoin</xref> tempor dolor nec <xref ref-type="list" rid="def-4">sapien</xref> ornare, sed volutpat libero cursus. Duis at tempus lacus. Vestibulum dapibus sem sit amet sapien pulvinar, nec vestibulum est pulvinar (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="fig" rid="fig1">Figure 1</xref>; <xref ref-type="fig" rid="fig1s1">Figure 1&#x2014;figure supplement 1</xref>; <xref ref-type="video" rid="fig1video1">Figure 2&#x2014;video 1</xref>).</p>
             <fig-group>
                 <!-- caption added here as it is a requirement for JATS4R.
                      Content is the boilerplate text which is added to the bottom of the pdf.
@@ -684,7 +673,7 @@
                     </permissions>
                 </fig>
                 <media id="fig1video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-00666-fig1-video1.mp4">
-                    <label>Figure 2&#x2014;video 1.</label>
+                    <label>Figure 1&#x2014;video 1.</label>
                     <caption>
                         <title>TIRF force reconstitution assay of wild-type vinculin ABD.</title>
                         <p>First 100 s of representative ... Scale bar, 20 µm.</p>
@@ -1023,7 +1012,7 @@
                             </list>
                         </list-item>
                     </list>
-                    <p>... <disp-formula id="box1-equ1">
+                    <p>... <disp-formula id="box1equ1">
                         <alternatives>
                             <tex-math id="t2"><![CDATA[PPV = \frac{TP}{TP+FP}]]></tex-math>
                             <mml:math id="m2">
@@ -1098,7 +1087,7 @@
 echo ${i} 
 module load anaconda</code>
             </sec>
-            <sec>
+            <sec id="s4-2">
                 <title>Formula</title>
                 <p>... <disp-formula id="equ2">
                     <label>(2)</label>
@@ -1236,7 +1225,7 @@ module load anaconda</code>
                         </alternatives>
                 </inline-formula> ...</p>
             </sec>
-            <sec>
+            <sec id="s4-3">
                 <title>Gene sequences</title>
                 <p>... <named-content content-type="sequence"><bold>C</bold>TAGTCTCGAGATCTCCATGTTTACTTATACAGCTCATCCATGCC</named-content> ...</p>
                 <list id="list1" list-type="order">
@@ -1262,6 +1251,10 @@ module load anaconda</code>
         </sec>
     </body>
     <back>
+        <ack id="ack">
+            <title>Acknowledgements</title>
+            <p>The authors extend their sincere appreciation to ...</p>
+        </ack>
         <sec id="s5" sec-type="additional-information">
             <title>Additional information</title>
             <sec id="s5-1" sec-type="ethics-statement">
@@ -1269,6 +1262,13 @@ module load anaconda</code>
                 <!-- Add content-type to <p>s -->
                 <p content-type="ethics-approval-human">Human subjects: Fresh tissue samples were obtained upon informed consent from patients undergoing surgery at the Gynecology Division of the European Institute of Oncology (Milan). Sample collection was performed under the protocol number R789-IEO approved by the Ethics Committee of the European Institute of Oncology.</p>
                 <p content-type="ethics-approval-animal">Animal experimentation: All animal studies were performed following a  protocol approved by the fully authorized animal facility of European  Institute of Oncology and by the Italian Ministry of Health (as required by the Italian Law) (IACUCs number 1256/2015) and in accordance to EU directive 2010/63. Mouse tissues were obtained from Karolinska Institutet (Stockholm, Sweden) and IRCCS San Raffaele Scientific Institute (Milan, Italy), in  accordance with Institutional Animal Care and Use Committees.</p>
+                <p>Clinical trial registration <related-object document-id="NCT01967030" 
+                    document-id-type="clinical-trial-number" 
+                    id="RO1" 
+                    source-id="ClinicalTrials.gov" 
+                    source-id-type="registry-name" 
+                    source-type="clinical-trials-registry" xlink:href="https://clinicaltrials.gov/show/NCT01967030"
+                    >NCT01967030</related-object>. Protocols can be assessed at ...</p>
             </sec>
         </sec>
         <sec id="s6" sec-type="supplementary-material">
@@ -1293,7 +1293,7 @@ module load anaconda</code>
                 <caption>
                     <title>This is the title of the source code that is not attached to a specific figure, but to the article as a whole.</title>
                 </caption>
-                <media mimetype="application" mime-subtype="xml" xlink:href="elife-00666-code1.xml"/>
+                <media mimetype="application" mime-subtype="zip" xlink:href="elife-00666-code1.zip"/>
             </supplementary-material>
             <supplementary-material id="repstand1">
                 <label>Reporting standard 1.</label>
@@ -1340,9 +1340,10 @@ module load anaconda</code>
         <sec id="s7" sec-type="data-availability">
             <title>Data availability</title>
             <!-- data references are included in the ref list and can be cited, as in the main text -->
-            <p>Sequencing data have been deposited in GEO under accession code GSE143275 (<xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>). We also used some data from Dryad (<xref ref-type="bibr" rid="bib8">Kok et al., 2015</xref>). All other data generated or analysed during this study are included in the manuscript and supporting files.MATLAB scripts used to generate Figures 1-3 are available at <ext-link ext-link-type="uri" xlink:href="https://github.com/wyartlab/Cantaut-Belarif-et-al.-2020">GitHub</ext-link> (copy archived at <xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>)</p>
+            <p>Sequencing data have been deposited in GEO under accession code GSE143275 (<xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>). We also used some data from Dryad (<xref ref-type="bibr" rid="bib8">Kok et al., 2015</xref>). All other data generated or analysed during this study are included in the manuscript and supporting files.MATLAB scripts used to generate Figures 1-3 are available at <ext-link ext-link-type="uri" xlink:href="https://github.com/wyartlab/Cantaut-Belarif-et-al.-2020">GitHub</ext-link> (copy archived at <xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>).</p>
         </sec>
         <ref-list>
+            <title>References</title>
             <ref id="bib1">
               <element-citation publication-type="software">
                 <person-group person-group-type="author">
@@ -1374,7 +1375,7 @@ module load anaconda</code>
                 <year iso-8601-date="2020">2020</year>
                 <article-title>MATLAB scripts for Adrenergic activation modulates the signal from the Reissner fiber to cerebrospinal fluid-contacting neurons during development</article-title>
                 <source>Software Heritage</source>
-                <ext-link ext-link-type="uri" xlink:href="https://archive.softwareheritage.org/swh:1:rev:3396034de4726cb8c895a6e43bbc3d774b726fcb/">swh:1:rev:3396034de4726cb8c895a6e43bbc3d774b726fcb/</ext-link>
+                  <ext-link ext-link-type="uri" xlink:href="https://archive.softwareheritage.org/swh:1:rev:3396034de4726cb8c895a6e43bbc3d774b726fcb/">https://archive.softwareheritage.org/swh:1:rev:3396034de4726cb8c895a6e43bbc3d774b726fcb/</ext-link>
               </element-citation>
             </ref>
             <ref id="bib2">
@@ -1559,7 +1560,7 @@ module load anaconda</code>
                 </person-group>
                 <data-title>Genome-wide errant targeting by Hairy</data-title>
                 <source>Dryad Digital Repository</source>
-                <year>2015</year>
+                  <year iso-8601-date="2015">2015</year>
                 <pub-id pub-id-type="doi" xlink:href="https://doi.org/10.5061/dryad.cv323">https://doi.org/10.5061/dryad.cv323</pub-id>
               </element-citation>
             </ref>
@@ -1595,16 +1596,17 @@ module load anaconda</code>
               </element-citation>
             </ref>
             <ref id="bib11">
-              <element-citation publication-type="software">
-                <person-group person-group-type="author">
-                  <collab>R Development core team</collab>
-                </person-group>
-                <year iso-8601-date="2017">2017</year>
-                <article-title>R: a language and environment for statistical computing</article-title>
-                <version designator="3.3.2">3.3.2</version>
-                <publisher-loc>Vienna, Austria</publisher-loc>
-                <ext-link ext-link-type="uri" xlink:href="http://www.r-project.org/">http://www.r-project.org/</ext-link>
-              </element-citation>
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <collab>R Development core team</collab>
+                    </person-group>
+                    <year iso-8601-date="2017">2017</year>
+                    <article-title>R: a language and environment for statistical computing</article-title>
+                    <version designator="3.3.2">3.3.2</version>
+                    <publisher-loc>Vienna, Austria</publisher-loc>
+                    <publisher-name>R Foundation for Statistical Computing</publisher-name>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.r-project.org/">http://www.r-project.org/</ext-link>
+                </element-citation>
             </ref>
             <ref id="bib12">
               <element-citation publication-type="thesis">
@@ -1664,10 +1666,8 @@ module load anaconda</code>
                     <given-names>WP</given-names>
                   </name>
                 </person-group>
-                <string-date>
-                  <month>October</month>
-                  <day>3</day>, <year iso-8601-date="2016-10-03">2016</year>
-                </string-date>
+                  <!-- iso-8601-date moved from year to string-date -->
+                  <string-date iso-8601-date="2016-10-03"><month>October</month> <day>3</day>, <year>2016</year></string-date>
                 <article-title>Send my tax dollars to Mississippi</article-title>
                 <source>ASBMB Today</source>
                 <volume>15</volume>
@@ -1699,7 +1699,7 @@ module load anaconda</code>
                     </person-group>
                     <data-title>EpiCoV</data-title>
                     <source>GSAID's EpiFlu</source>
-                    <year>2020</year>
+                    <year iso-8601-date="2020">2020</year>
                     <ext-link ext-link-type="uri" xlink:href="https://www.gisaid.org/">https://www.gisaid.org/</ext-link>
                 </element-citation>
             </ref>
@@ -1723,7 +1723,7 @@ module load anaconda</code>
                 <title>Appendix 1</title>
                 <!-- <boxed-text> removed from appendices -->
                 <table-wrap id="app1keyresource" position="anchor">
-                    <label>Key resources table</label>
+                    <label>Appendix 1—key resources table</label>
                     <table frame="hsides" rules="groups">
                         <thead>
                             <tr>
@@ -1974,8 +1974,7 @@ module load anaconda</code>
                     </fig>
                     <sec id="app2s2">
                         <title>Appendix heading level 1</title>
-                        <p>... <xref ref-type="disp-formula" rid="app2equ1">Equation 1</xref></p>
-                        <disp-formula id="app2equ1">
+                        <p>... <xref ref-type="disp-formula" rid="app2equ1">Equation 1</xref> <disp-formula id="app2equ1">
                             <label>(1)</label>
                             <!-- math id includes app id prefix -->
                             <alternatives>
@@ -2005,7 +2004,7 @@ module load anaconda</code>
                                     </mml:mrow>
                                 </mml:math>
                             </alternatives>
-                        </disp-formula>
+                        </disp-formula></p>
                         <sec id="app2s2-1">
                             <title>Appendix heading level 2</title>
                             <p>...</p>
@@ -2172,7 +2171,7 @@ module load anaconda</code>
                     </name>
                     <!-- role element added with appropriate specific-use attribute value -->
                     <role specific-use="editor">Reviewing Editor</role>
-                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0000-0404-00X</contrib-id>
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0000-0404-000X</contrib-id>
                     <aff>
                         <institution>Imperial College London</institution>
                         <country country="GB">United Kingdom</country>
@@ -2185,7 +2184,7 @@ module load anaconda</code>
                     <name><surname>Taylor</surname><given-names>J Paul</given-names></name>
                     <!-- role element added with appropriate specific-use attribute value -->
                     <role specific-use="referee">Reviewing Editor</role>
-                    <contrib-id contrib-id-type="orcid">https://orcid.org/0070-0001-0404-00X</contrib-id>
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0070-0001-0404-000X</contrib-id>
                     <aff>
                         <institution>St Jude Children's Research Hospital</institution>
                         <country country="US">United States</country>
@@ -2509,10 +2508,10 @@ module load anaconda</code>
                                     <surname>Gilbert</surname>
                                     <given-names>James</given-names>
                                 </name>
-                                <role specific-use="author">Author</role>
                             </contrib>
                         </contrib-group>
                     </collab>
+                    <role specific-use="author">Author</role>
                 </contrib>
                 <contrib contrib-type="author">
                     <name>
