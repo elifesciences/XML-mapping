@@ -100,7 +100,7 @@
                     </collab>
                     <!-- group author roles added at the top level -->
                     <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Formal Analysis" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+                        vocab-term-identifier="http://credit.niso.org/contributor-roles/formal-analysis/">Formal Analysis</role>
                     <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Visualization" 
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/visualization/">Visualization</role>
                     <email>...@elifesciences.org</email>
@@ -292,11 +292,6 @@
                 <sec id="abs1">
                     <title>Background:</title>
                     <p>Since 2015, the World <italic>Health</italic> Organisation (WHO) <sup>a</sup><sub>b</sub>... <inline-formula>
-                        <!-- Formulae included as both TeX and mathML in alternatives 
-                             MathML included here because that is preferred at PMC, but we could just include TeX
-                                if that's too problematic -->
-                        <alternatives>
-                            <tex-math id="inft1"><![CDATA[PPV = \frac{TP}{TP+FP}]]></tex-math>
                             <mml:math id="infm1">
                                 <mml:mi>P</mml:mi>
                                 <mml:mi>P</mml:mi>
@@ -320,7 +315,7 @@
                                     </mml:mrow>
                                 </mml:mfrac>
                             </mml:math>
-                        </alternatives></inline-formula></p>
+                        </inline-formula></p>
                 </sec>
                 <sec id="abs2">
                     <title>Methods:</title>
@@ -336,7 +331,7 @@
                 </sec>
                 <sec id="abs5">
                     <title>Funding:</title>
-                    <p>Funded by the Dutch Postcode Lottery in the Netherlands ..</p>
+                    <p>Funded by the Dutch Postcode Lottery in the Netherlands ...</p>
                 </sec>
                 <sec id="abs6">
                     <title>Clinical trial number:</title>
@@ -455,7 +450,7 @@
     <body>
         <sec id="s1" sec-type="intro">
             <title>Introduction</title>
-            <p>Lorem <bold>ipsum</bold> <italic>dolor</italic> <sup>sit</sup> <sub>amet</sub>, <sc>consectetur</sc> <monospace>adipiscing</monospace> <strike>elit</strike>. <underline>In</underline> <roman>maximus</roman>, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc. Mauris quis iaculis diam (see<!-- appendices can be cited --> <xref ref-type="app" rid="appendix-1">Appendix 1</xref>) Etiam nec blandit ipsum, venenatis ornare libero. Aliquam sed tincidunt nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vehicula varius placerat. Maecenas sed dictum eros, eu consequat eros (<xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>) nulla a sodales tellus (see<!-- sections can be cited --> <xref ref-type="sec" rid="s2">Results</xref>). Nunc id eros quis neque vehicula accumsan. Fusce a dolor non ligula euismod semper. <!-- definitions can be linked to from the text --><xref ref-type="list" rid="def-1">Aoin</xref> tempor dolor nec <xref ref-type="list" rid="def-4">sapien</xref> ornare, sed volutpat libero cursus. Duis at tempus lacus. Vestibulum dapibus sem sit amet sapien pulvinar, nec vestibulum est pulvinar (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="fig" rid="fig1">Figure 1</xref>; <xref ref-type="fig" rid="fig1s1">Figure 1&#x2014;figure supplement 1</xref>; <xref ref-type="video" rid="fig1video1">Figure 2&#x2014;video 1</xref>).</p>
+            <p>Lorem <bold>ipsum</bold> <italic>dolor</italic> <sup>sit</sup> <sub>amet</sub>, <sc>consectetur</sc> <monospace>adipiscing</monospace> <strike>elit</strike>. <underline>In</underline> <roman>maximus</roman>, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc. Mauris quis iaculis diam (see<!-- appendices can be cited --> <xref ref-type="app" rid="appendix-1">Appendix 1</xref>) Etiam nec blandit ipsum, venenatis ornare libero. Aliquam sed tincidunt nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vehicula varius placerat. Maecenas sed dictum eros, eu consequat eros (<xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>) nulla a sodales tellus (see<!-- sections can be cited --> <xref ref-type="sec" rid="s2">Results</xref>). Nunc id eros quis neque vehicula accumsan. Fusce a dolor non ligula euismod semper. <!-- definitions can be linked to from the text --><xref ref-type="list" rid="def1">Aoin</xref> tempor dolor nec <xref ref-type="list" rid="def4">sapien</xref> ornare, sed volutpat libero cursus. Duis at tempus lacus. Vestibulum dapibus sem sit amet sapien pulvinar, nec vestibulum est pulvinar (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="fig" rid="fig1">Figure 1</xref>; <xref ref-type="fig" rid="fig1s1">Figure 1&#x2014;figure supplement 1</xref>; <xref ref-type="video" rid="fig1video1">Figure 2&#x2014;video 1</xref>).</p>
             <fig-group>
                 <!-- caption added here as it is a requirement for JATS4R.
                      Content is the boilerplate text which is added to the bottom of the pdf.
@@ -468,12 +463,10 @@
                     <caption>
                         <title>Figure title (<xref ref-type="bibr" rid="bib15">Wahls, 2016</xref>).</title>
                         <!-- specific-use="part-label" on bold used for semantics. Could be hooked from Libero Editor -->
-                        <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of Hip1R. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="supplementary-material" rid="fig1sdata1">Figure 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1sdata2">Figure 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1scode1">Figure 1&#x2014;source code 1</xref>).</p>
+                        <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of Hip1R. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells... (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="supplementary-material" rid="fig1sdata1">Figure 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1sdata2">Figure 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1scode1">Figure 1&#x2014;source code 1</xref>).</p>
                         <p>We use the following model (<xref ref-type="disp-formula" rid="equ1">Equation 1</xref>) to represent the dynamics of a population of cells in which the transcription factors NANOG and GATA6 mutually repress each other through extracellular growth factor signaling:
                             <disp-formula id="equ1">
                                 <label>(1)</label>
-                                <alternatives>
-                                    <tex-math id="t1"><![CDATA[d=\sqrt{\left(\frac{\text {Predicted count}_{i}-\text {Observed count}_{i}}{\text { Observed count}_{i}}\right)^{2}}]]></tex-math>
                                     <mml:math id="m1">
                                         <mml:mstyle displaystyle="true" scriptlevel="0">
                                             <mml:mrow>
@@ -562,7 +555,6 @@
                                             </mml:mrow>
                                         </mml:mstyle>
                                     </mml:math>
-                                </alternatives>
                                 </disp-formula></p>
                         <!-- Pending a suspected change in JATS 1.2 supplementary-material could be captured as a child of fig, 
                             or could be captured in the addition files section in <back> and linked to with an <xref> which is a 
@@ -572,7 +564,7 @@
                             <label>Figure 1&#x2014;source data 1.</label>
                             <caption>
                                 <title>Source data title.</title>
-                                <p>Source data caption</p>
+                                <p>Source data caption.</p>
                             </caption>
                             <media mime-subtype="docx" mimetype="application" xlink:href="elife-00666-fig1-data1.docx"/>
                         </supplementary-material></p>
@@ -581,7 +573,7 @@
                                 <label>Figure 1&#x2014;source data 2.</label>
                                 <caption>
                                     <title>Source data title (<xref ref-type="bibr" rid="bib15">Wahls, 2016</xref>).</title>
-                                    <p>Source data caption</p>
+                                    <p>Source data caption.</p>
                                 </caption>
                                 <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-fig1-data1.zip"/>
                             </supplementary-material></p>
@@ -624,12 +616,12 @@
                     <label>Figure 1&#x2014;figure supplement 1.</label>
                     <caption>
                         <title>Figure supplement title.</title>
-                        <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of Hip1R. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="supplementary-material" rid="fig1s1sdata1">Figure 1&#x2014;figure supplement 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1s1sdata2">Figure 1&#x2014;figure supplement 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1s1scode1">Figure 1&#x2014;figure supplement 1&#x2014;source code 1</xref>).</p>
+                        <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of Hip1R. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells... (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="supplementary-material" rid="fig1s1sdata1">Figure 1&#x2014;figure supplement 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1s1sdata2">Figure 1&#x2014;figure supplement 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1s1scode1">Figure 1&#x2014;figure supplement 1&#x2014;source code 1</xref>).</p>
                         <p><supplementary-material id="fig1s1sdata1">
                             <label>Figure 1&#x2014;figure supplement 1&#x2014;source data 1.</label>
                             <caption>
                                 <title>Source data title.</title>
-                                <p>Source data caption</p>
+                                <p>Source data caption.</p>
                             </caption>
                             <media mime-subtype="docx" mimetype="application" xlink:href="elife-00666-fig1-figsupp1-data1.docx"/>
                         </supplementary-material></p>
@@ -638,7 +630,7 @@
                                 <label>Figure 1&#x2014;figure supplement 1&#x2014;source data 2.</label>
                                 <caption>
                                     <title>Source data title.</title>
-                                    <p>Source data caption</p>
+                                    <p>Source data caption.</p>
                                 </caption>
                                 <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-fig1-figsupp1-data1.zip"/>
                             </supplementary-material></p>
@@ -647,7 +639,7 @@
                                 <label>Figure 1&#x2014;figure supplement 1&#x2014;source code 1.</label>
                                 <caption>
                                     <title>Source code title.</title>
-                                    <p>Source code caption</p>
+                                    <p>Source code caption.</p>
                                 </caption>
                                 <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-fig1-figsupp1-code1.zip"/>
                             </supplementary-material></p>
@@ -727,7 +719,7 @@
             <p>... (<xref ref-type="bibr" rid="bib3">Galkin et al., 2010a</xref>; <xref ref-type="bibr" rid="bib4">Galkin et al., 2010b</xref>) ... <xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>.</p>
             <sec id="s2-1">
                 <title>Section level 2</title>
-                <p><xref ref-type="bibr" rid="bib5">Hao et al. (2020)</xref> lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc.</p>
+                <p><xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>; <xref ref-type="bibr" rid="bib17">Zok, 2020</xref>; <xref ref-type="bibr" rid="bib18">Zurray, 2019</xref> lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc.</p>
             </sec>
             <sec id="s2-2">
                 <title>Section level 2</title>
@@ -764,7 +756,7 @@
                                     <thead>
                                         <tr>
                                             <th colspan="3" rowspan="2"> </th>
-                                            <th align="center" colspan="8"><xref ref-type="list" rid="def-2">GLVs</xref> (percent IS plant<sup>-1</sup>)</th>
+                                            <th align="center" colspan="8"><xref ref-type="list" rid="def2">GLVs</xref> (percent IS plant<sup>-1</sup>)</th>
                                             <th align="center" colspan="17">TPS10 products (percent IS plant<sup>-1</sup>)</th>
                                             <th align="center" colspan="10">Non-target volatiles (percent IS plant<sup>-1</sup>)</th>
                                         </tr>
@@ -823,12 +815,8 @@
                                                  Note that background-colour is not allowed for styled-content as it is not 
                                                     permitted for text, only table cells.
                                             -->
-                                            <td rowspan="2" valign="middle">
-                                                <styled-content style="color: #366BFB">}</styled-content>
-                                            </td>
-                                            <td rowspan="2" valign="middle">
-                                                <bold><styled-content style="color: #9C27B0">a</styled-content></bold>
-                                            </td>
+                                            <td rowspan="2" valign="middle"><styled-content style="color: #366BFB">}</styled-content></td>
+                                            <td rowspan="2" valign="middle"><bold><styled-content style="color: #9C27B0">a</styled-content></bold></td>
                                             <td>0.37%</td>
                                             <td>±</td>
                                             <td>0.29%</td>
@@ -995,7 +983,7 @@
                     <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-box1-fig1.tif"/>
                 </fig>
                 <!-- sections in boxes -->
-                <sec>
+                <sec id="box1s1">
                     <title>Box title level 1</title>
                     <p>...</p>
                     <!-- lists have ids -->
@@ -1013,8 +1001,6 @@
                         </list-item>
                     </list>
                     <p>... <disp-formula id="box1equ1">
-                        <alternatives>
-                            <tex-math id="t2"><![CDATA[PPV = \frac{TP}{TP+FP}]]></tex-math>
                             <mml:math id="m2">
                                 <mml:mi>P</mml:mi>
                                 <mml:mi>P</mml:mi>
@@ -1038,16 +1024,12 @@
                                     </mml:mrow>
                                 </mml:mfrac>
                             </mml:math>
-                        </alternatives>
                     </disp-formula>where each term above describes the rate of events that change the epidemic state: Births (<inline-formula>
-                        <alternatives>
-                            <tex-math id="inft2"><![CDATA[B]]></tex-math>
                             <mml:math id="infm2">
                                 <mml:mi>B</mml:mi>
                             </mml:math>
-                        </alternatives>
                     </inline-formula>), loss of maternally derived protection after MAB vaccination (<xref ref-type="bibr" rid="bib13">Spangler, 2014</xref>).</p>
-                    <sec>
+                    <sec id="box1s1-1">
                         <title>Box title level 2</title>
                         <p>...</p>
                         <list id="box1list3" list-type="simple">
@@ -1068,7 +1050,7 @@
                                 h2 = assume box is in a top-level section at least
                                 h3 = box title
                                 h4-6 = 3 levels of box sections -->
-                        <sec>
+                        <sec id="box1s1-1-1">
                             <title>Box title level 3</title>
                             <p>...</p>
                         </sec>
@@ -1080,19 +1062,19 @@
             <title>Materials and methods</title>
             <sec id="s4-1">
                 <title>Code example</title>
-                <!-- add language and executable attributes -->
-                <code xml:space="preserve"
+                <p>Here is some code:
+                    <!-- add language and executable attributes -->
+                    <code xml:space="preserve"
                     language="bash"
                     executable="no">for i in `ls | grep accepted_hits.bam`; do 
 echo ${i} 
 module load anaconda</code>
+                </p>
             </sec>
             <sec id="s4-2">
                 <title>Formula</title>
                 <p>... <disp-formula id="equ2">
                     <label>(2)</label>
-                    <alternatives>
-                        <tex-math id="t3"><![CDATA[K_{d}^{\mathrm{IgaA}-\mathrm{RcsF}}=\frac{[\operatorname{IgaA}][\mathrm{RcsF}]}{[\mathrm{IgaA}-\mathrm{RcsF}]}]]></tex-math>
                         <mml:math id="m3">
                             <mml:msubsup>
                                 <mml:mrow>
@@ -1148,11 +1130,8 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mfrac>
                         </mml:math>   
-                    </alternatives>
                 </disp-formula></p>
                 <p>... <inline-formula>
-                    <alternatives>
-                        <tex-math id="inft3"><![CDATA[[A] \sim \sqrt{\frac{F^{A A}}{k_{m D H F R} k_{f}^{A A}}}]]></tex-math>
                         <mml:math id="infm3">
                             <mml:mstyle displaystyle="true" scriptlevel="0">
                                 <mml:mrow>
@@ -1198,11 +1177,8 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
-                    </alternatives>
                 </inline-formula> ... 
                     <inline-formula>
-                        <alternatives>
-                            <tex-math id="inft4"><![CDATA[ν ≪ X]]></tex-math>
                             <mml:math id="infm4">
                                 <mml:mrow>
                                     <mml:mi>ν</mml:mi>
@@ -1210,11 +1186,8 @@ module load anaconda</code>
                                     <mml:mi>X</mml:mi>
                                 </mml:mrow>
                             </mml:math>
-                        </alternatives>
                 </inline-formula> ... 
                     <inline-formula>
-                        <alternatives>
-                            <tex-math id="inft5"><![CDATA[ν ≪ G]]></tex-math>
                             <mml:math id="infm5">
                                 <mml:mrow>
                                     <mml:mi>ν</mml:mi>
@@ -1222,7 +1195,6 @@ module load anaconda</code>
                                     <mml:mi>G</mml:mi>
                                 </mml:mrow>
                             </mml:math>
-                        </alternatives>
                 </inline-formula> ...</p>
             </sec>
             <sec id="s4-3">
@@ -1241,7 +1213,7 @@ module load anaconda</code>
                      Must have same list-type as list which is referenced. -->
                 <list id="list2" continued-from="list1" list-type="order">
                     <list-item>
-                        <p><sup>C</sup><sub>T</sub>TAGTCT<styled-content style="color: #D50000">CGAGATCTCCATGTTTACTTATA</styled-content>CAGCTCATCCATGCC</p>
+                        <p><named-content content-type="sequence"><sup>C</sup><sub>T</sub>TAGTCT<styled-content style="color: #D50000">CGAGATCTCCATGTTTACTTATA</styled-content>CAGCTCATCCATGCC</named-content></p>
                     </list-item>
                     <list-item>
                         <p><named-content content-type="sequence">CTAGTCTCGAGATCTCCATGTTTACTTATACAGCTCATCCATGCC</named-content></p>
@@ -1264,7 +1236,7 @@ module load anaconda</code>
                 <p content-type="ethics-approval-animal">Animal experimentation: All animal studies were performed following a  protocol approved by the fully authorized animal facility of European  Institute of Oncology and by the Italian Ministry of Health (as required by the Italian Law) (IACUCs number 1256/2015) and in accordance to EU directive 2010/63. Mouse tissues were obtained from Karolinska Institutet (Stockholm, Sweden) and IRCCS San Raffaele Scientific Institute (Milan, Italy), in  accordance with Institutional Animal Care and Use Committees.</p>
                 <p>Clinical trial registration <related-object document-id="NCT01967030" 
                     document-id-type="clinical-trial-number" 
-                    id="RO1" 
+                    id="RO3" 
                     source-id="ClinicalTrials.gov" 
                     source-id-type="registry-name" 
                     source-type="clinical-trials-registry" xlink:href="https://clinicaltrials.gov/show/NCT01967030"
@@ -1311,25 +1283,26 @@ module load anaconda</code>
         <glossary>
             <title>Abbreviations</title>
             <def-list>
-                <def-item id="def-1">
-                    <term>Aoin</term>
+                <def-item id="def1">
+                    <!-- italic, monospace, sup and sub permitted in term -->
+                    <term>Aoin<sup>2</sup></term>
                     <def>
                         <p>This definition can also contain minimal formatting such as <bold>bold</bold>, <italic>italic</italic> <sup>superscript</sup>, and <sub>subscript</sub></p>
                     </def>
                 </def-item>
-                <def-item id="def-2">
-                    <term>GLVs</term>
+                <def-item id="def2">
+                    <term>GLV<italic>s</italic></term>
                     <def>
                         <p>Green leaf volatiles</p>
                     </def>
                 </def-item>
-                <def-item id="def-3">
+                <def-item id="def3">
                     <term>Hip1R</term>
                     <def>
                         <p>Huntingtin-interacting protein 1-related protein</p>
                     </def>
                 </def-item>
-                <def-item id="def-4">
+                <def-item id="def4">
                     <term>sapien</term>
                     <def>
                         <p>This is the definition for the term</p>
@@ -1561,7 +1534,7 @@ module load anaconda</code>
                 <data-title>Genome-wide errant targeting by Hairy</data-title>
                 <source>Dryad Digital Repository</source>
                   <year iso-8601-date="2015">2015</year>
-                <pub-id pub-id-type="doi" xlink:href="https://doi.org/10.5061/dryad.cv323">https://doi.org/10.5061/dryad.cv323</pub-id>
+                <pub-id pub-id-type="doi">10.5061/dryad.cv323</pub-id>
               </element-citation>
             </ref>
             <ref id="bib9">
@@ -1673,7 +1646,6 @@ module load anaconda</code>
                 <volume>15</volume>
                 <fpage>24</fpage>
                 <lpage>25</lpage>
-                <ext-link ext-link-type="uri" xlink:href="https://www.asbmb.org/asbmbtoday/201610/Essay/">https://www.asbmb.org/asbmbtoday/201610/Essay/</ext-link>
               </element-citation>
             </ref>
             <ref id="bib16">
@@ -1772,7 +1744,7 @@ module load anaconda</code>
                                 <td>FlyBase symbol: P{GawB}nubbin-AC-62</td>
                             </tr>
                             <tr>
-                                <td>genetic reagent (<italic>D. melanogaste</italic>r)</td>
+                                <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
                                 <td>dome-Gal4</td>
                                 <td>PMID:12403714</td>
                                 <td>FLYB:FBti0022298</td>
@@ -1977,8 +1949,6 @@ module load anaconda</code>
                         <p>... <xref ref-type="disp-formula" rid="app2equ1">Equation 1</xref> <disp-formula id="app2equ1">
                             <label>(1)</label>
                             <!-- math id includes app id prefix -->
-                            <alternatives>
-                                <tex-math id="app2t1"><![CDATA[ϕ=^{e-\frac{zFV}{nRT}}]]></tex-math>
                                 <mml:math id="app2m1">
                                     <mml:mrow>
                                         <mml:mi>ϕ</mml:mi>
@@ -2003,7 +1973,6 @@ module load anaconda</code>
                                         </mml:msup>
                                     </mml:mrow>
                                 </mml:math>
-                            </alternatives>
                         </disp-formula></p>
                         <sec id="app2s2-1">
                             <title>Appendix heading level 2</title>
@@ -2040,14 +2009,14 @@ module load anaconda</code>
                             <caption>
                                 <title>Figure title.</title>
                                 <!-- specific-use="part-label" on bold used for semantics. Could be hooked from Libero Editor -->
-                                <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of <xref ref-type="list" rid="def-3">Hip1R</xref>. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="fig" rid="app3fig1s1">Appendix 3&#x2014;figure 1&#x2014;figure supplement 1</xref>).</p>
+                                <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of <xref ref-type="list" rid="def3">Hip1R</xref>. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="fig" rid="app3fig1s1">Appendix 3&#x2014;figure 1&#x2014;figure supplement 1</xref>).</p>
                                 <!-- Pending a suspected change in JATS 1.2 supplementary-material could be captured as a child of fig,
                         rather than inside a p in the caption. -->
                                 <p><supplementary-material id="app3fig1sdata1">
                                     <label>Appendix 3&#x2014;figure 1&#x2014;source data 1.</label>
                                     <caption>
                                         <title>Source data title.</title>
-                                        <p>Source data caption</p>
+                                        <p>Source data caption.</p>
                                     </caption>
                                     <media mime-subtype="docx" mimetype="application" xlink:href="elife-00666-app3-fig1-data1.docx"/>
                                 </supplementary-material></p>
@@ -2056,7 +2025,7 @@ module load anaconda</code>
                                         <label>Appendix 3&#x2014;figure 1&#x2014;source data 2.</label>
                                         <caption>
                                             <title>Source data title.</title>
-                                            <p>Source data caption</p>
+                                            <p>Source data caption.</p>
                                         </caption>
                                         <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-app3-fig1-data1.zip"/>
                                     </supplementary-material></p>
@@ -2065,7 +2034,7 @@ module load anaconda</code>
                                         <label>Appendix 3&#x2014;figure 1&#x2014;source code 1.</label>
                                         <caption>
                                             <title>Source code title.</title>
-                                            <p>Source code caption</p>
+                                            <p>Source code caption.</p>
                                         </caption>
                                         <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-app3-fig1-code1.zip"/>
                                     </supplementary-material></p>
@@ -2101,7 +2070,7 @@ module load anaconda</code>
                                     <label>Appendix 3&#x2014;figure 1&#x2014;figure supplement 1&#x2014;source data 1.</label>
                                     <caption>
                                         <title>Source data title.</title>
-                                        <p>Source data caption</p>
+                                        <p>Source data caption.</p>
                                     </caption>
                                     <media mime-subtype="docx" mimetype="application" xlink:href="elife-00666-app3-fig1-figsupp1-data1.docx"/>
                                 </supplementary-material></p>
@@ -2110,7 +2079,7 @@ module load anaconda</code>
                                         <label>Appendix 3&#x2014;figure 1&#x2014;figure supplement 1&#x2014;source data 2.</label>
                                         <caption>
                                             <title>Source data title.</title>
-                                            <p>Source data caption</p>
+                                            <p>Source data caption.</p>
                                         </caption>
                                         <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-app3-fig1-figsup1-data1.zip"/>
                                     </supplementary-material></p>
@@ -2119,7 +2088,7 @@ module load anaconda</code>
                                         <label>Appendix 3&#x2014;figure 1&#x2014;figure supplement 1&#x2014;source code 1.</label>
                                         <caption>
                                             <title>Source code title.</title>
-                                            <p>Source code caption</p>
+                                            <p>Source code caption.</p>
                                         </caption>
                                         <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-app3-fig1-figsup1-code1.zip"/>
                                     </supplementary-material></p>
@@ -2183,7 +2152,7 @@ module load anaconda</code>
                 <contrib contrib-type="author">
                     <name><surname>Taylor</surname><given-names>J Paul</given-names></name>
                     <!-- role element added with appropriate specific-use attribute value -->
-                    <role specific-use="referee">Reviewing Editor</role>
+                    <role specific-use="referee">Reviewer</role>
                     <contrib-id contrib-id-type="orcid">https://orcid.org/0070-0001-0404-000X</contrib-id>
                     <aff>
                         <institution>St Jude Children's Research Hospital</institution>
@@ -2294,11 +2263,10 @@ module load anaconda</code>
             <media mimetype="video" mime-subtype="mp4" id="sa1video1" xlink:href="elife-00666-sa1-video1.mp4">
                 <label>Decision letter video 1.</label>
                 <caption>
-                    <p>Caption and/or a title is required.</p>
+                    <title>Caption and/or a title is required.</title>
                 </caption>
             </media>
-            <p>Adding some MathML to the sub-article.<inline-formula><alternatives>
-                <tex-math id="sa1t1"><![CDATA[F^{A B} \sim \frac{k_{f}^{A B}}{\sqrt{k_{f}^{A A} k_{f}^{B B}}} \sqrt{F^{A A} F^{B B}}]]></tex-math>
+            <p>Adding some MathML to the sub-article.<inline-formula>
                 <mml:math id="sa1m1">
                     <mml:mstyle displaystyle="true" scriptlevel="0">
                         <mml:mrow>
@@ -2363,14 +2331,11 @@ module load anaconda</code>
                         </mml:mrow>
                     </mml:mstyle>
                 </mml:math>
-            </alternatives>
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
                 <disp-formula id="sa1equ1">
                     <label>(1)</label>
-                    <alternatives>
-                        <tex-math id="sa1t2"><![CDATA[d=\sqrt{\left(\frac{\text {Predicted count}_{i}-\text {Observed count}_{i}}{\text { Observed count}_{i}}\right)^{2}}]]></tex-math>
                         <mml:math id="sa1m2">
                             <mml:mstyle displaystyle="true" scriptlevel="0">
                                 <mml:mrow>
@@ -2459,7 +2424,6 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
-                    </alternatives>
                 </disp-formula>
             </p>
             <list id="sa1list1" list-type="order">
@@ -2610,12 +2574,11 @@ module load anaconda</code>
             <media mimetype="video" mime-subtype="mp4" id="sa2video1" xlink:href="elife-00666-sa2-video1.mp4">
                 <label>Author response video 1.</label>
                 <caption>
-                    <p>Caption and/or a title is required for all author response assets</p>
+                    <title>Caption and/or a title is required for all author response assets.</title>
                 </caption>
             </media>
             <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} order to produce rules for the  production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.</p>
-            <p>Adding some MathML to the sub-article.<inline-formula><alternatives>
-                <tex-math id="sa2t1"><![CDATA[F^{A B} \sim \frac{k_{f}^{A B}}{\sqrt{k_{f}^{A A} k_{f}^{B B}}} \sqrt{F^{A A} F^{B B}}]]></tex-math>
+            <p>Adding some MathML to the sub-article.<inline-formula>
                 <mml:math id="sa2m1">
                     <mml:mstyle displaystyle="true" scriptlevel="0">
                         <mml:mrow>
@@ -2680,14 +2643,11 @@ module load anaconda</code>
                         </mml:mrow>
                     </mml:mstyle>
                 </mml:math>
-            </alternatives>
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
                 <disp-formula id="sa2equ1">
                     <label>(1)</label>
-                    <alternatives>
-                        <tex-math id="sa2t2"><![CDATA[d=\sqrt{\left(\frac{\text {Predicted count}_{i}-\text {Observed count}_{i}}{\text { Observed count}_{i}}\right)^{2}}]]></tex-math>
                         <mml:math id="sa2m2">
                             <mml:mstyle displaystyle="true" scriptlevel="0">
                                 <mml:mrow>
@@ -2776,7 +2736,6 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
-                    </alternatives>
                 </disp-formula>
             </p>
             <list id="sa2list1" list-type="roman-upper">
@@ -2787,7 +2746,7 @@ module load anaconda</code>
                             <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
                         </list-item>
                         <list-item>
-                            <p><italic>C. elegans</italic></p>
+                            <p><italic>C. elegans</italic> is ...</p>
                         </list-item>
                     </list>
                 </list-item>
