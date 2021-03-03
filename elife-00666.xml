@@ -15,7 +15,7 @@ UPDATE: xmlns:ali="http://www.niso.org/schemas/ali/1.0/" this name space is adde
 <!-- journal-meta is standard for all articles published by eLife. Can be boilerplate text as this will not change from article to article.
 UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - we are no longer hosted by HighWirePress so this is not required -->
         <journal-meta>
-            <journal-id journal-id-type="nlm-ta">eLife</journal-id>
+            <journal-id journal-id-type="nlm-ta">elife</journal-id>
             <journal-id journal-id-type="publisher-id">eLife</journal-id>
             <journal-title-group>
                 <journal-title>eLife</journal-title>
@@ -141,8 +141,6 @@ author. There is no display text associated with this link-->
                     <xref ref-type="fn" rid="con1"/>
 <!-- Datasets are linked to a contrib using an xref with type "other" and the unique id for the dataset (dataset1, dataset2 etc).
  UPDATE: ID value changed from dataro to dataset. All ids have a number value even if only 1 exist in the article.                   -->                        
-                    <xref ref-type="other" rid="dataset1"/>
-                    <xref ref-type="other" rid="dataset2"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" id="author-00002">
                     <name>
@@ -252,10 +250,10 @@ list displayed in the PDF is retained as per the XML order-->
                             </contrib>
                         </contrib-group>
                 </collab>
+                    <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
                     <xref ref-type="fn" rid="con3"/>
                     <xref ref-type="fn" rid="conf2"/>
-                    <xref ref-type="aff" rid="aff1">1</xref>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
                     <collab>eLife Technology Group
@@ -306,6 +304,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                         </contrib>
             </contrib-group>
             </collab>
+                    <email>blah@blah.com</email>
                     <xref ref-type="aff" rid="aff2">2</xref>
                     <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
                     <xref ref-type="other" rid="fund2"/>
@@ -323,8 +322,7 @@ UPDATE: Punctuation outside of XML tags has been removed as it is not necessary.
 need to be boilerplate for the PDF display-->
                 <aff id="aff1">
                     <label>1</label>
-                    <institution content-type="dept">Department of Production</institution>
-                    <institution>eLife</institution>
+                    <institution>Department of Production, eLife</institution>
                     <addr-line>
                         <named-content content-type="city">Cambridge</named-content>
                     </addr-line>
@@ -332,8 +330,7 @@ need to be boilerplate for the PDF display-->
                 </aff>
                 <aff id="aff2">
                     <label>2</label>
-                    <institution content-type="dept">Department of Technology</institution>
-                    <institution>eLife</institution>
+                    <institution>Department of Technology, eLife</institution>
                     <addr-line><named-content content-type="city">Cambridge</named-content>
                     </addr-line>
                     <country country="GB">United Kingdom</country>
@@ -398,7 +395,7 @@ content must work as a discrete item on each author's roll over and on the displ
                     <p>This footnote text must work in isolation as nothing is processed on the html view to make it "work"</p>
                 </fn>
             </author-notes>
-            <pub-date publication-format="electronic" date-type="pub">
+            <pub-date publication-format="electronic" date-type="publication">
                 <day>25</day>
                 <month>04</month>
                 <year>2016</year>
@@ -436,17 +433,6 @@ content must work as a discrete item on each author's roll over and on the displ
                     <year>2016</year>
                 </date>
                 </history>
-            <pub-history>
-                    <event event-type="preprint-publication">
-                        <event-desc> This article was originally published as a <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/118356">preprint</ext-link> on bioRxiv.</event-desc>
-                        <article-id pub-id-type="doi" assigning-authority="crossref">10.1101/118356</article-id>
-                        <date iso-8601-date="2017-03-24">
-                            <day>24</day>
-                            <month>03</month>
-                            <year>2017</year>
-                        </date>
-                    </event>
-                </pub-history>
 <!-- UPDATE: Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
             <permissions>
                 <copyright-statement>&#x00A9; 2016, Harrison et al</copyright-statement>
@@ -464,49 +450,6 @@ content must work as a discrete item on each author's roll over and on the displ
             <self-uri content-type="pdf" xlink:href="elife-00666.pdf"/>
             <!-- Some content will not have a figures PDF -->
             <self-uri content-type="figures-pdf" xlink:href="elife-00666-figures.pdf"/>
-<!-- UPDATE: historical events in the publication history will be entered using related-object. 
-If something is published once it will not have these related-objects.
-If an item is published twice the first related-object will be to the first publication and contain the related-object and date with date-type of v1 only
-and a link to itself with a  date-type of v2 and also a comment on this v2 (the comment will detail the differences between v1 and v2).
-If an item is published three times the previous 2 related-object links will remain and a further 3rd one will be added to the end. This will be a  link to itself 
-with a  date-type of v3 and also a comment on this v3 (the comment will detail the differences between v2 and v3)-->
-            <!--All v2s will contain 2 related-objects, see examples below-->
-            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/articles/e00666v1">
-                <date date-type="v1" iso-8601-date="2016-04-25">
-                    <day>25</day>
-                    <month>04</month>
-                    <year>2016</year>
-                    </date>
-            </related-object>
-            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/articles/e00666v2">
-                <date date-type="v2" iso-8601-date="2016-06-12">
-                    <day>12</day>
-                    <month>06</month>
-                    <year>2016</year>
-                </date>
-                <comment>The first version of this article was enhanced considerably between versions of the XML instance.
-                    These changes can bee seen on <ext-link ext-link-type="uri" xlink:href="https://github.com/elifesciences/XML-mapping/blob/master/eLife00666.xml">Github</ext-link>.
-                </comment>
-                <!--If subsequent versions (v3 and onwards are published these will look like the below-->
-            </related-object>
-            <related-object ext-link-type="url" xlink:href="https://elifesciences.org/articles/e00666v3">
-                <date date-type="v3" iso-8601-date="2016-06-27">
-                    <day>27</day>
-                    <month>06</month>
-                    <year>2016</year>
-                </date>
-                <comment>The author Christoph Wuelfing requested has surname was converted to the German spelling of "Wülfing".</comment>
-            </related-object>
-            <!-- Related article linking: Optional.
-Set of accepted @related-article-type values:
-Research to Research (or Feature to Feature): <related-article related-article-type="article-reference" ext-link-type="doi" xlink:href="10.7554/eLife.01295" id="ra1"/>
-Research to Insight: <related-article related-article-type="commentary" ext-link-type="doi" xlink:href="10.7554/eLife.01738" id="ra1"/>
-Insight to Research: <related-article related-article-type="commentary-article" ext-link-type="doi" xlink:href="10.7554/eLife.01236" id="ra1"/>
-Correction to Research: <related-article related-article-type="corrected-article" ext-link-type="doi" xlink:href="10.7554/eLife.00712" id="ra1"/>
-NOTE: id="ra1" is required for PMC, not for eLife publication. Multiple related article links are allowed; each should have a different id e.g. ra1, ra1, ra3 etc. 
-In discussion with PMC re this 
-NOTE: research advance MUST contain <related-article related-article-type="article-reference" link to the original article it is building upon
--->
             <!-- UPDATE: Abstract: The following is no longer required for the XML file. However, it must be displayed in the PDF: 
 <bold>DOI:</bold>
 <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">https://doi.org/10.7554/eLife.00666.001</ext-link> -->
@@ -603,9 +546,7 @@ Individual members of a group authorship should not be named in the funding sect
                         <string-name>eLife Technology Group</string-name>
                     </principal-award-recipient>
                 </award-group>
-              <funding-statement>The funders had no role in study design; collection, analysis,
-                and interpretation of data; writing the article; and or the decision to submit
-                to the journal.</funding-statement>
+                <funding-statement>The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.</funding-statement>
             </funding-group>
 <!-- UPDATE: Custom-meta: no longer using eLife version as was never used properly.
 Impact statement:-->
@@ -731,7 +672,7 @@ Impact statement:-->
             <title>Results</title>
 <!-- UPDATE: where appendices are cited in the main text they must be cross linked -->
             <p>This section will be used to demostrate the majority of eLife XML tagging and editorial policies. However, the Introduction section was used to demostrate heading levels. 
-                See <xref ref-type="appendix" rid="s8-1">Appendix 1.1</xref> and <xref ref-type="appendix" rid="s9">2</xref>.</p>
+                See Appendix 1.1 and 2.</p>
             <sec id="s2-1">
                 <title>eLife controlled lists</title>
                 <p>eLife has no strict requirements for the display of lists. Below we will show examples of how to present lists.
@@ -1204,7 +1145,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     <table-wrap id="table2" position="float">
                         <label>Table 2.</label>
                         <caption>
-                            <p>This table contains references and footnotes and is sized to the text column width in the PDF.</p>
+                            <title>This table contains references and footnotes and is sized to the text column width in the PDF.</title>
                         </caption>
                         <table frame="hsides" rules="groups">
                             <thead>
@@ -1318,7 +1259,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     <!-- Table 3 is a narrow table containing monospace text and including source data -->
                     <table-wrap id="table3" position="float">
                         <label>Table 3.</label>
-                        <caption><p/>
+                        <caption><title>Title for table 3.</title>
                             <!-- The following paragraph contains the caption and file call-out for this table's source data file -->
                             <p><supplementary-material id="table3sdata1">
                                 <label>Table 3&#x2014;source data 1.</label>
@@ -1692,19 +1633,19 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <fig id="fig1" position="float">
                             <label>Figure 1.</label>
                             <caption>
-                                <title>Single figure: The header of an eLife article example on the HTML page. In the PDf this is represented as a single column.</title>
+                                <title>Single figure: The header of an eLife article example on the HTML page.</title>
+                                <p>In the PDf this is represented as a single column.</p>
                             </caption>
                             <!--  NOTE: file type must be included in the file description. -->
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig1.tif"/>
                             <!-- Assets within eLife might not always be published under a CC BY license although we endevour to do so. This is an example of how to add a
                                 separate permission statement so it is clear to the human and machine reader that this asset cannot be reused. -->
                             <permissions>
-                                <copyright-statement>&#x00A9; 2016 eLife. All rights reserved</copyright-statement>
+                                <copyright-statement>&#x00A9; 2016, eLife. All rights reserved</copyright-statement>
                                 <copyright-year>2016</copyright-year>
                                 <copyright-holder>eLife</copyright-holder>
                                 <license>
-                                    <license-p>For the purpose having a example of how to tag a separate license for an item, we have indicated in the XML and display this is a
-                                        copyrighted figure; however it is not.</license-p>
+                                    <license-p>For the purpose having a example of how to tag a separate license for an item, we have indicated in the XML and display this is a copyrighted figure; however it is not.</license-p>
                                 </license>
                             </permissions>
                         </fig>
@@ -1716,8 +1657,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <fig id="fig2" position="float">
                         <label>Figure 2.</label>
                         <caption>
-                            <title>Figure with figure supplements. In the PDF this asset box will take full column width.</title> 
-                            <p>This is the basic information provided about an article. <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view (<xref ref-type="bibr" rid="bib26">Kok et al., 2015</xref>; <xref ref-type="bibr" rid="bib28">National Institute of Mental Health, 1990</xref>).</p>
+                            <title>Figure with figure supplements.</title> 
+                            <p>In the PDF this asset box will take full column width. This is the basic information provided about an article. <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view (<xref ref-type="bibr" rid="bib26">Kok et al., 2015</xref>; <xref ref-type="bibr" rid="bib28">National Institute of Mental Health, 1990</xref>).</p>
                         </caption>
                             <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig2.tif"/>
                     </fig>
@@ -1737,7 +1678,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3&#x2014;figure supplement 1</xref>) 
-                        with two sub-assets, <xref ref-type="supplementary-material" rid="fig3sdata1">Figure 3&#x2014;figure supplement 1&#x2014;source data 1</xref> and <xref ref-type="video" rid="fig3video1">Figure 3&#x2014;video 1</xref> (see <xref ref-type="bibr" rid="bib52">Zhang et al., 2010</xref>, <xref ref-type="bibr" rid="bib53">Zhong et al., 2013</xref>; <xref ref-type="bibr" rid="bib51">World Health Organization, 2016</xref>).</p>
+                        with two sub-assets, <xref ref-type="supplementary-material" rid="fig3s1sdata1">Figure 3&#x2014;figure supplement 1&#x2014;source data 1</xref> and <xref ref-type="video" rid="fig3video1">Figure 3&#x2014;video 1</xref> (see <xref ref-type="bibr" rid="bib52">Zhang et al., 2010</xref>, <xref ref-type="bibr" rid="bib53">Zhong et al., 2013</xref>; <xref ref-type="bibr" rid="bib51">World Health Organization, 2016</xref>).</p>
                     <!-- UPDATE: new method of modelling supplementary material for a figure
                     A figure or a sub figure can have any assets - e.g. data, code, videos -->
                     <fig-group>
@@ -1753,7 +1694,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <caption>
                                 <title>Title of the figure supplement.</title>
                                     <p>
-                                        <supplementary-material id="fig3sdata1">
+                                        <supplementary-material id="fig3s1sdata1">
                                             <label>Figure 3&#x2014;figure supplement 1&#x2014;source data 1.</label>
                                             <caption>
                                             <title>Title of the figure supplement source data.</title>
@@ -1779,18 +1720,18 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <label>Figure 4.</label>
                         <caption>
                             <title>Single figure with source code.</title>
+                            <p>
+                                <supplementary-material id="fig4scode1">
+                                    <label>Figure 4&#x2014;source code 1.</label>
+                                    <caption>
+                                        <title>Title of the source code.</title>
+                                        <p>Legend of the source code.</p>
+                                    </caption>
+                                    <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-00666-fig4-code1.xlsx"/>
+                                </supplementary-material>
+                            </p>
                         </caption>
                         <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig4.tif"/>
-                        <p>
-                            <supplementary-material id="fig4scode1">
-                                <label>Figure 4&#x2014;source code 1.</label>
-                                <caption>
-                                    <title>Title of the source code.</title>
-                                    <p>Legend of the source code.</p>
-                                </caption>
-                                <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-00666-fig4-code1.xlsx"/>
-                            </supplementary-material>
-                        </p>
                     </fig>
                 </sec>
                 <sec id="s2-5">
@@ -1826,8 +1767,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 <title>Other stuff</title>
                 <sec id="s2-6-1">
                     <title>Boxes</title>
-                    <p>It is rare for eLife research articles to contain boxes; however they are common in Feature content. <xref ref-type="other" rid="box1">Box 1</xref> 
-                        is a simple box that contains very little text and <xref ref-type="other" rid="box2">Box 2</xref> is larger.</p>
+                    <p>It is rare for eLife research articles to contain boxes; however they are common in Feature content. Box 1 
+                        is a simple box that contains very little text and Box 2 is larger.</p>
                     <boxed-text id="box1">
                         <label>Box 1.</label>
                         <caption>
@@ -1838,7 +1779,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             Nulla facilisi. Suspendisse eu nisl vitae neque ullamcorper imperdiet (see <xref ref-type="bibr" rid="bib29">Nellåker, 2014</xref>; <xref ref-type="bibr" rid="bib30">Pages et al., 2014</xref>; and <xref ref-type="bibr" rid="bib31">Palmer et al., 2007</xref>). Boxes, like main text, can contain <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/about">hyperlinks</ext-link>
                             at any point. Etiam in sem augue.</p>
                         <permissions>
-                            <copyright-statement>&#x00A9; Some author</copyright-statement>
+                            <copyright-statement>&#x00A9; 1998, Some Author</copyright-statement>
                             <copyright-year>1998</copyright-year>
                             <copyright-holder>Some Author</copyright-holder>
                             <license>
@@ -1900,12 +1841,12 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         This article is littered with citations to ensure all the references are cited at some point. They have no relevance to the content 
                         <xref ref-type="bibr" rid="bib1">Aivazian et al., 2006</xref>.</p>
                 </sec>
-                <sec>
+                <sec id="s2-6-7">
                     <title>Schema and structures</title>
                     <p>Sometimes, authors need to include images to illustrate their text that are either not sutiable as main figures or that they would simply prefer were not treated as such.
                     Usually, these images need to be anchored at set points in the text and fall into one of two categories: chemical structures and schema. Both are used to illustrate steps
                     in a method. Chemical structures do not need to be cited in the text and often appear preceded or followed a written description of the compound being shown.</p>
-                    <fig id="chem1" position="anchor">
+                    <fig id="C1" position="anchor">
                         <label>Chemical structure 1.</label>
                         <caption>
                             <title>Base pairing of 8-oxoguanosine.</title>
@@ -1914,8 +1855,8 @@ not add all rids to the xref as it does not work. Only add the first one -->
                     </fig>
                     <p>A scheme is usually an illustration of a workflow, but at a stretch they can be used to capture small graphs or other graphics that the author wants to include. Please note
                     that files for both schema and chemical structures follow sequentially on from the main figures with no labelling differences.</p>
-                    <fig id="scheme1" position="anchor">
-                        <label>Scheme 1.</label>
+                    <fig id="S1" position="anchor">
+                        <label>Scheme 1.</label>
                         <caption>
                             <title>Zdk dissociation from LOV2.</title>
                         </caption>
@@ -1983,21 +1924,21 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <tr>
                             <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
                             <td>nub-Gal4</td>
-                            <td>PMID:20798049</td>
+                            <td>PMID:<ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/20798049/">20798049</ext-link></td>
                             <td>FLYB:FBti0016825</td>
                             <td>FlyBase symbol: P{GawB}nubbin-AC-62</td>
                         </tr>
                         <tr>
-                            <td>genetic reagent (<italic>D. melanogaste</italic>r)</td>
+                            <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
                             <td>dome-Gal4</td>
-                            <td>PMID:12403714</td>
+                            <td>PMID:<ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/12403714/">12403714</ext-link></td>
                             <td>FLYB:FBti0022298</td>
                             <td>FlyBase symbol: P{GawB}dome[PG14]</td>
                         </tr>
                         <tr>
                             <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
                             <td>UAS-2xEYFP</td>
-                            <td>PMID:12324968</td>
+                            <td>PMID:<ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/12324968/">12324968</ext-link></td>
                             <td>FLYB:FBtp0016537</td>
                             <td>FlyBase symbol: P{UAS-2xEYFP}</td>
                         </tr>
@@ -2039,7 +1980,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <tr>
                             <td>genetic reagent (<italic>D. melanogaster</italic>)</td>
                             <td>"y w hsflp; ubiGFP FRT[G13]"</td>
-                            <td>PMID:18160348</td>
+                            <td>PMID:<ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/18160348/">18160348</ext-link></td>
                             <td>&#x00A0;</td>
                             <td>&#x00A0;</td>
                         </tr>
@@ -2145,14 +2086,14 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <tr>
                             <td>recombinant DNA reagent</td>
                             <td>HA-Sxl (plasmid)</td>
-                            <td>PMID:16207758</td>
+                            <td>PMID:<ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/16207758/">16207758</ext-link></td>
                             <td>&#x00A0;</td>
                             <td>Progentiors: PCR, UAS-Sxl flies; Gateway vector pAHW</td>
                         </tr>
                         <tr>
                             <td>recombinant DNA reagent</td>
                             <td>GFP-Sxl (plasmid)</td>
-                            <td>PMID:16207758</td>
+                            <td>PMID:<ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/16207758/">16207758</ext-link></td>
                             <td>&#x00A0;</td>
                             <td>Progentiors: PCR, UAS-Sxl flies; Gateway vector pAGW</td>
                         </tr>
@@ -2267,12 +2208,12 @@ All supplementary files are listed here -->
                 <caption>
                     <title>This is the title of the source code that is not attached to a specific figure, but to the article as a whole.</title>
                 </caption>
-                <media mimetype="application" mime-subtype="xml" xlink:href="elife-00666-code1.xml"/>
+                <media mimetype="application" mime-subtype="zip" xlink:href="elife-00666-code1.zip"/>
             </supplementary-material>
             <supplementary-material id="repstand1">
                 <!-- UPDATE: Must contain a label, which is the generic label to indicate it
                     is a reporting standard-->
-                <label>Reporting standard 1</label>
+                <label>Reporting standard 1.</label>
                 <!-- UPDATE: Must contain a caption to indicate what it is specifically-->
                 <caption>
                     <title>CONSORT checklist.</title>
@@ -2293,7 +2234,7 @@ The tagging of the collaborator name again within this section is required for P
             <title>Data availability</title>
             <p>A data availability statement will generally describe how the authors have provided the source data for their work. This can list the source
                 data files accompanying their figures, supplementary files, and/or external dataasets. Hyperlinks can be included here, for example:
-                <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102999">https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102999</ext-link></p>
+                <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102999">https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102999</ext-link>.</p>
                 <p>The following dataset was generated:</p>
                 <p>
                     <!--UPDATE: Change to use element citation for datasets-->  
@@ -2328,7 +2269,7 @@ The tagging of the collaborator name again within this section is required for P
                         <data-title>Data from: Biophysical models reveal the relative importance of transporter proteins
                             and impermeant anions in chloride homeostasis</data-title>
                         <source>Dryad Digital Repository</source>
-                        <pub-id assigning-authority="Dryad" pub-id-type="doi">10.5061/dryad.kj1f3v4</pub-id>
+                        <pub-id pub-id-type="doi">10.5061/dryad.kj1f3v4</pub-id>
                     </element-citation>
                 </p>
                 <p>The following previously published datasets were used:</p>
@@ -2356,7 +2297,7 @@ The tagging of the collaborator name again within this section is required for P
                         <data-title>Transcriptomes of the hybrid mouse diversity panel subjected to
                             Isoproterenol challenge</data-title>
                         <source>NCBI Gene Expression Omnibus</source>
-                        <pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760">GSE48760</pub-id>
+                        <pub-id pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760">GSE48760</pub-id>
                     </element-citation>
                 </p>
                 <p>
@@ -2370,23 +2311,17 @@ The tagging of the collaborator name again within this section is required for P
                         <year iso-8601-date="2018">2018</year>
                         <data-title>Shear Manuscript</data-title>
                         <source>Open Science Framework</source>
-                        <pub-id assigning-authority="other" pub-id-type="archive" xlink:href="https://osf.io/kvu5j/">kvu5j</pub-id>
+                        <pub-id pub-id-type="accession" xlink:href="https://osf.io/kvu5j/">kvu5j</pub-id>
                     </element-citation>
                 </p>
             </sec>
         <ack id="ack">
             <title>Acknowledgements</title>
-            <sec sec-type="ack" id="ack-1">
-                <title>Main thanks</title>
             <p>We thank JATS4R, ExeterPremedia and PMC for their contributions.</p>
-            </sec>
-                <sec sec-type="ack" id="ack-2">
-                    <title>Sub-thanks</title>
-                    <p>We need to allow authors to have sections in their acknowledgements.</p>
-                </sec>
         </ack>
 <!-- All references shuld be cited in the text -->  
         <ref-list>
+            <title>References</title>
 <!-- Journal reference: page numbers and DOI -->
     <ref id="bib1">
         <element-citation publication-type="journal">
@@ -2464,9 +2399,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2016">2016</year>
             <data-title>Lme4: Linear Mixed-Effects Models Using Eigen and S4</data-title>
             <source>CRAN</source>
-            <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/lme4/index.html">
-                https://cran.r-project.org/web/packages/lme4/index.html
-            </ext-link>
+            <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/lme4/index.html">https://cran.r-project.org/web/packages/lme4/index.html</ext-link>
             <!-- designator attribute added for version - Feb 8 2017 -->
             <version designator="1.1-12">1.1-12</version>
         </element-citation>
@@ -2523,7 +2456,7 @@ The tagging of the collaborator name again within this section is required for P
             <pub-id pub-id-type="doi">10.1101/029983</pub-id>
         </element-citation>
     </ref> 
-<!-- Data reference: NCBI Gene Expression Omnibus: pub-id-type="accession" assigning-authority="NCBI" -->
+<!-- Data reference: NCBI Gene Expression Omnibus: pub-id-type="accession" -->
     <ref id="bib4">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -2604,7 +2537,7 @@ The tagging of the collaborator name again within this section is required for P
             <data-title>NKX2-5 mutations causative for congenital heart disease retain
                 functionality and are directed to hundreds of targets</data-title>
             <source>NCBI Gene Expression Omnibus</source>
-            <pub-id pub-id-type="accession" assigning-authority="NCBI" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44902">GSE44902</pub-id>
+            <pub-id pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44902">GSE44902</pub-id>
         </element-citation>
     </ref>
 <!-- Journal reference: year a -->
@@ -2816,7 +2749,6 @@ The tagging of the collaborator name again within this section is required for P
                 </name>
             </person-group>
             <year iso-8601-date="2002">2002</year>
-            <source>PyMol</source>
             <data-title>The PyMol Molecular Graphics System</data-title>
                <!-- designator attribute added for version - Feb 8 2017 -->
             <version designator="1.7.4">Version 1.7.4</version>
@@ -2894,7 +2826,7 @@ The tagging of the collaborator name again within this section is required for P
             <data-title>Crystal structure of KRYPTONITE in complex with mCHH DNA and
                 SAH</data-title>
             <source>RCSB Protein Data Bank</source>
-            <pub-id pub-id-type="doi" assigning-authority="RCSB Protein Data Bank">10.2210/pdb4qen/pdb</pub-id>
+            <pub-id pub-id-type="doi">10.2210/pdb4qen/pdb</pub-id>
         </element-citation>
     </ref>
 <!-- Reference to a post on a blog (page on a Website) -->
@@ -2948,9 +2880,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2014">2014</year>
             <data-title>Diagnostically relevant facial gestalt information from ordinary photos database</data-title>
             <source>Division of Clinical Neurology, University of Oxford</source>
-            <ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline">
-                https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline
-            </ext-link>
+            <ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline">https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline</ext-link>
         </element-citation>
     </ref>
     <!-- Journal reference: author with suffix -->
@@ -2995,7 +2925,7 @@ The tagging of the collaborator name again within this section is required for P
             <pub-id pub-id-type="pmid">22284419</pub-id> 
         </element-citation>
     </ref>
-<!-- Data reference: NCBI Nucleotide: pub-id-type="accession" assigning-authority="NCBI" contains version details -->
+<!-- Data reference: NCBI Nucleotide: pub-id-type="accession" contains version details -->
     <ref id="bib18">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -3015,8 +2945,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2014">2014</year>
             <data-title>Mus musculus T-box 2 (Tbx2), mRNA</data-title>
             <source>NCBI Nucleotide</source>
-            <pub-id pub-id-type="accession" assigning-authority="NCBI" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/120407038">NM_009324</pub-id>
-            <version designator="NM_009324.2">NM_009324.2</version>
+            <pub-id pub-id-type="accession" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/120407038">NM_009324</pub-id>
         </element-citation>
     </ref>
 <!-- Product information with web-page -->
@@ -3053,7 +2982,7 @@ The tagging of the collaborator name again within this section is required for P
             <pub-id pub-id-type="pmid">20847218</pub-id>
         </element-citation>
     </ref>
- <!-- Data reference: NCBI Gene Expression Omnibus (GEO): pub-id-type="accession" assigning-authority="NCBI" -->
+ <!-- Data reference: NCBI Gene Expression Omnibus (GEO): pub-id-type="accession" -->
      <ref id="bib21">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -3078,7 +3007,7 @@ The tagging of the collaborator name again within this section is required for P
             <data-title>Effects on the transcriptome of adult mouse pancreas (principally
                 acinar cells) by the inactivation of the Ptf1a gene in vivo</data-title>
             <source>NCBI Gene Expression Omnibus</source>
-            <pub-id pub-id-type="accession" assigning-authority="NCBI" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70542">GSE70542</pub-id>
+            <pub-id pub-id-type="accession" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70542">GSE70542</pub-id>
         </element-citation>
     </ref>
 <!-- Book reference: simple book reference, with ISBN -->
@@ -3114,8 +3043,8 @@ The tagging of the collaborator name again within this section is required for P
                     <given-names>J</given-names>
                 </name>
             </person-group>
+            <data-title>Naccess</data-title>
             <year iso-8601-date="1993">1993</year>
-            <source>Naccess</source>
             <publisher-name>Department of Biochemistry Molecular Biology, University College London</publisher-name>
              <!-- designator attribute added for version - Feb 8 2017 -->
             <version designator="2.1.1">V2.1.1</version>
@@ -3240,7 +3169,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2015">2015</year>
             <data-title>Data from: Genome-wide errant targeting by Hairy</data-title>
             <source>Dryad Digital Repository</source>
-            <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository">10.5061/dryad.cv323</pub-id>
+            <pub-id pub-id-type="doi">10.5061/dryad.cv323</pub-id>
         </element-citation>
     </ref>
 <!-- Journal reference: collab author -->
@@ -3297,9 +3226,7 @@ The tagging of the collaborator name again within this section is required for P
             <source>Github</source>
              <!-- designator attribute added for version - Feb 8 2017 -->
             <version designator="1.2">v1.2</version>
-            <ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline">
-                https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline
-            </ext-link>
+            <ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline">https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline</ext-link>
         </element-citation>
     </ref>
 <!-- Software reference: Has authors, title, source -->
@@ -3328,8 +3255,7 @@ The tagging of the collaborator name again within this section is required for P
             <source>Bioconductor</source>
              <!-- designator attribute added for version Feb 8 2017 -->
             <version designator="2.30.1">R Package Version 2.30.1</version>
-            <ext-link ext-link-type="uri" xlink:href="https://bioconductor.org/packages/release/bioc/html/Biostrings.html">
-                https://bioconductor.org/packages/release/bioc/html/Biostrings.html</ext-link>
+            <ext-link ext-link-type="uri" xlink:href="https://bioconductor.org/packages/release/bioc/html/Biostrings.html">https://bioconductor.org/packages/release/bioc/html/Biostrings.html</ext-link>
         </element-citation>
     </ref>
 <!-- Reference to a conference: Has title of proceedings and has page numbers -->
@@ -3355,8 +3281,7 @@ The tagging of the collaborator name again within this section is required for P
             </person-group>
             <year iso-8601-date="2007">2007</year>
             <article-title>Probabilistic Formulation of Independent Vector Analysis Using Complex Gaussian Scale Mixtures</article-title>
-            <source>Independent component analysis and signal separation</source>
-            <conf-name> 8th International Conference, ICA 2009, Paraty, Brazil, March 15-18, 2009</conf-name>
+            <conf-name>8th International Conference, ICA 2009, Paraty, Brazil, March 15-18, 2009</conf-name>
             <fpage>90</fpage>
             <lpage>97</lpage>
         </element-citation>
@@ -3458,7 +3383,7 @@ The tagging of the collaborator name again within this section is required for P
             <data-title>ISG15 counteracts <italic>Listeria monocytogenes</italic>
                 infection</data-title>
             <source>ProteomeXchange</source>
-            <pub-id pub-id-type="archive" xlink:href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001805">PXD001805</pub-id>
+            <pub-id pub-id-type="accession" xlink:href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001805">PXD001805</pub-id>
         </element-citation>
     </ref>
 <!-- Data reference: ArrayExpress: pub-id-type="accession" -->
@@ -3596,8 +3521,8 @@ The tagging of the collaborator name again within this section is required for P
                     <given-names>LLC</given-names>
                 </name>
             </person-group>
+            <data-title>The PyMOL Molecular Graphics System</data-title>
             <year iso-8601-date="2011">2011</year>
-            <source>The PyMOL Molecular Graphics System</source>
             <publisher-name>Schrödinger LLC</publisher-name>
              <!-- designator attribute added for version - Feb 8 2017 -->
             <version designator="1.2.3">1.2r3pre</version>
@@ -3613,7 +3538,7 @@ The tagging of the collaborator name again within this section is required for P
                     <given-names>J</given-names>
                 </name>
             </person-group>
-            <string-date><month>September</month> <day>9</day>, <year iso-8601-date="1993-09-09">1993</year></string-date>
+            <string-date iso-8601-date="1993-09-09"><month>September</month> <day>9</day>, <year iso-8601-date="1993">1993</year></string-date>
             <article-title>Obesity affects economic, social status</article-title>
             <source>The Washington Post</source>
             <fpage>A1</fpage>
@@ -3674,7 +3599,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2013">2013</year>
             <data-title>SKN-1 from the JASPAR CORE database</data-title>
             <source>JASPAR</source>
-            <pub-id pub-id-type="archive" xlink:href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl">MA0547.1</pub-id>
+            <pub-id pub-id-type="accession" xlink:href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl">MA0547.1</pub-id>
         </element-citation>
     </ref>
 <!-- Reference to a Preprint: preprints -->
@@ -3721,7 +3646,7 @@ The tagging of the collaborator name again within this section is required for P
             <pub-id pub-id-type="doi">10.20944/preprints201608.0124.v1</pub-id>
         </element-citation>
     </ref>
-<!-- Data reference: NCBI BioProject: author is a collab pub-id-type="accession" assigning-authority="NCBI" example of 3 references with same author/year -->
+<!-- Data reference: NCBI BioProject: author is a collab pub-id-type="accession" example of 3 references with same author/year -->
     <ref id="bib44">
         <element-citation publication-type="data">
             <person-group person-group-type="author">
@@ -3730,7 +3655,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2015">2015a</year>
             <data-title>Global Diversity of Shigella Species</data-title>
             <source>NCBI BioProject</source>
-            <pub-id pub-id-type="accession" assigning-authority="NCBI" xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB2846">PRJEB2846</pub-id>
+            <pub-id pub-id-type="accession" xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB2846">PRJEB2846</pub-id>
         </element-citation>
     </ref>
     <ref id="bib45">
@@ -3741,7 +3666,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2015">2015b</year>
             <data-title>Shigella sonnei and flexneri from around the world</data-title>
             <source>NCBI BioProject</source>
-            <pub-id pub-id-type="accession" assigning-authority="NCBI" xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/204320">PRJEB2460</pub-id>
+            <pub-id pub-id-type="accession" xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/204320">PRJEB2460</pub-id>
         </element-citation>
     </ref>
     <ref id="bib46">
@@ -3751,8 +3676,8 @@ The tagging of the collaborator name again within this section is required for P
             </person-group>
             <year iso-8601-date="2015">2015c</year>
             <data-title>Shigella flexneri from around the world</data-title>
-            <source>NCBI BioProject </source>
-            <pub-id pub-id-type="accession" assigning-authority="NCBI" xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB2542">PRJEB2542</pub-id>
+            <source>NCBI BioProject</source>
+            <pub-id pub-id-type="accession" xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB2542">PRJEB2542</pub-id>
         </element-citation>
     </ref>
 <!-- Book reference: chapter in book with editors -->
@@ -3863,7 +3788,7 @@ The tagging of the collaborator name again within this section is required for P
                     <year iso-8601-date="2008">2008</year>
                     <article-title>Crystal structure of the FeS cluster-containing nucleotide
                         excision repair helicase XPD</article-title>
-                    <source>PLoS Biol</source>
+                    <source>PLOS Biol</source>
                     <volume>6</volume>
                     <elocation-id>e149</elocation-id>
                     <pub-id pub-id-type="doi">10.1371/journal.pbio.0060149</pub-id>
@@ -3927,7 +3852,7 @@ The tagging of the collaborator name again within this section is required for P
             <year iso-8601-date="2010">2010</year>
             <data-title>Polymeric immunoglobulin receptor [Oncorhynchus mykiss]</data-title>
             <source>NCBI</source>
-            <pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="http://www.ncbi.nlm.nih.gov/protein/ADB81776.1">GenBank: ADB81776.1</pub-id>
+            <pub-id pub-id-type="accession" xlink:href="http://www.ncbi.nlm.nih.gov/protein/ADB81776.1">ADB81776.1</pub-id>
         </element-citation>
     </ref>
 <!-- Data reference: modMine pub-id-type="archive" -->
@@ -3994,7 +3919,7 @@ The tagging of the collaborator name again within this section is required for P
                     <year iso-8601-date="2013">2013</year>
                     <data-title>ChIP-Seq Identification of C. elegans TF Binding Sites</data-title>
                     <source>modMine</source>
-                    <pub-id pub-id-type="archive" xlink:href="http://intermine.modencode.org/release-33/report.do?id=77000379">modENCODE_3369</pub-id>
+                    <pub-id pub-id-type="accession" xlink:href="http://intermine.modencode.org/release-33/report.do?id=77000379">modENCODE_3369</pub-id>
                 </element-citation>
             </ref>
  </ref-list>
@@ -4027,7 +3952,7 @@ Appendices must have DOIs -->
                         <media mimetype="video" mime-subtype="mp4" id="app1fig1video1" xlink:href="elife-00666-app1-fig1-video1.mp4">
                             <label>Appendix 1&#x2014;figure 1&#x2014;video 1.</label>
                             <caption>
-                                <title>A video supporting Appendix 1&#x2014;figure 1</title>
+                                <title>A video supporting Appendix 1&#x2014;figure 1.</title>
                             </caption>
                         </media>
                     </fig-group>
@@ -4263,7 +4188,7 @@ Appendices must have DOIs -->
                         <table-wrap id="app2table1" position="float">
                             <label>Appendix 2&#x2014;table 1.</label>
                             <caption>
-                                <p>Appendix table.</p>
+                                <title>Appendix table.</title>
                             </caption>
                             <table frame="hsides" rules="groups">
                                 <thead>
@@ -4337,7 +4262,7 @@ UPDATE: punctuation between institution and country removed.
                 <contrib contrib-type="reviewer">
                     <name>
                         <surname>Darian-Smith</surname>
-                        <given-names>Corinna </given-names>
+                        <given-names>Corinna</given-names>
                     </name>
                     <role>Reviewer</role>
                     <aff>
@@ -4348,7 +4273,7 @@ UPDATE: punctuation between institution and country removed.
                 <contrib contrib-type="reviewer">
                     <name>
                         <surname>Smith</surname>
-                        <given-names>Alison M.</given-names>
+                        <given-names>Alison M</given-names>
                     </name>
                     <role>Reviewer</role>
                     <aff>
@@ -4470,7 +4395,7 @@ UPDATE: punctuation between institution and country removed.
             <media mimetype="video" mime-subtype="mp4" id="sa2video1" xlink:href="elife-00666-sa2-video1.mp4">
                 <label>Author response video 1.</label>
                 <caption>
-                    <p>Caption and/or a title is required for all author response assets</p>
+                    <title>Caption and/or a title is required for all author response assets.</title>
                 </caption>
             </media>
                 <p>However, some decisions required some communication with PMC 
