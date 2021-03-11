@@ -88,7 +88,7 @@ of corresponding authors. A corresponding author must have an email address cont
 PDF display: Corresponding author footnote on PDF always takes symbol *(&#x2a;). 
 Footnotes to affiliations follow the superscript numbering system (1,2,3 etc).
 All succeeding footnotes use the following symbols in order: † (&#x2020;), ‡ (&#x2021;), § (&#167;), # (&#035;), ¶ (&#182;),**,††, ‡‡,§§,## ,¶¶ -->
-                <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="author-00001" deceased="yes">
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes" deceased="yes">
                     <name>
                         <surname>Harrison</surname>
                         <given-names>Melissa</given-names>
@@ -142,7 +142,7 @@ author. There is no display text associated with this link-->
 <!-- Datasets are linked to a contrib using an xref with type "other" and the unique id for the dataset (dataset1, dataset2 etc).
  UPDATE: ID value changed from dataro to dataset. All ids have a number value even if only 1 exist in the article.                   -->                        
                 </contrib>
-                <contrib contrib-type="author" equal-contrib="yes" id="author-00002">
+                <contrib contrib-type="author" equal-contrib="yes">
                     <name>
                         <surname>Gilbert</surname>
                         <given-names>James F</given-names>
@@ -170,7 +170,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country country="GB">United Kingdom</country>
+                                    <country>United Kingdom</country>
                                 </aff>
                             </contrib>
                             <contrib>
@@ -183,14 +183,14 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country country="GB">United Kingdom</country>
+                                    <country>United Kingdom</country>
                                 </aff>
                                 <aff>
                                     <institution>eLife Institute</institution>
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country country="GB">United Kingdom</country>
+                                    <country>United Kingdom</country>
                                 </aff>
                             </contrib>
                         </contrib-group>
@@ -206,7 +206,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country country="GB">United Kingdom</country>
+                                    <country>United Kingdom</country>
                                 </aff>
                             </contrib>
                             <contrib>
@@ -219,7 +219,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country country="GB">United Kingdom</country>
+                                    <country>United Kingdom</country>
                                 </aff>
                             </contrib>
                             <contrib>
@@ -232,7 +232,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country country="GB">United Kingdom</country>
+                                    <country>United Kingdom</country>
                                 </aff>
                             </contrib>
                             <contrib>
@@ -245,7 +245,7 @@ list displayed in the PDF is retained as per the XML order-->
                                     <addr-line>
                                         <named-content content-type="city">Cambridge</named-content>
                                     </addr-line>
-                                    <country country="GB">United Kingdom</country>
+                                    <country>United Kingdom</country>
                                 </aff>
                             </contrib>
                         </contrib-group>
@@ -271,7 +271,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                         <addr-line>
                             <named-content content-type="city">Victoria</named-content>
                         </addr-line>
-                        <country country="CA">Canada</country>
+                        <country>Canada</country>
                     </aff>
                 </contrib>
                         <contrib>
@@ -286,7 +286,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                                 <addr-line>
                                     <named-content content-type="city">Cambridge</named-content>
                                 </addr-line>
-                                <country country="GB">United Kingdom</country>
+                                <country>United Kingdom</country>
                             </aff>
                         </contrib>
                         <contrib>
@@ -299,7 +299,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                                 <addr-line>
                                     <named-content content-type="city">Cambridge</named-content>
                                 </addr-line>
-                                <country country="GB">United Kingdom</country>
+                                <country>United Kingdom</country>
                             </aff>
                         </contrib>
             </contrib-group>
@@ -326,14 +326,14 @@ need to be boilerplate for the PDF display-->
                     <addr-line>
                         <named-content content-type="city">Cambridge</named-content>
                     </addr-line>
-                    <country country="GB">United Kingdom</country>
+                    <country>United Kingdom</country>
                 </aff>
                 <aff id="aff2">
                     <label>2</label>
                     <institution>Department of Technology, eLife</institution>
                     <addr-line><named-content content-type="city">Cambridge</named-content>
                     </addr-line>
-                    <country country="GB">United Kingdom</country>
+                    <country>United Kingdom</country>
                 </aff>             
 <!-- eLife articles are shepherded through the review process by a reviewing editor, who is listed in the XML and called out in the online and PDF displays.
 UPDATE: As above, punctuation outside XML tags has been removed -->
@@ -347,10 +347,10 @@ UPDATE: As above, punctuation outside XML tags has been removed -->
                     <role>Senior Editor</role>
                     <aff>
                         <institution>eLife</institution>
-                        <country country="GB">United Kingdom</country>
+                        <country>United Kingdom</country>
                     </aff>
                 </contrib>
-                <contrib contrib-type="editor" id="author-10">
+                <contrib contrib-type="editor">
                     <name>
                         <surname>Collings</surname>
                         <given-names>Andy</given-names>
@@ -358,7 +358,7 @@ UPDATE: As above, punctuation outside XML tags has been removed -->
                     <role>Reviewing Editor</role>
                     <aff>
                         <institution>eLife Sciences</institution>
-                        <country country="GB">United Kingdom</country>
+                        <country>United Kingdom</country>
                     </aff>
                 </contrib>
             </contrib-group>
@@ -4254,7 +4254,7 @@ UPDATE: punctuation between institution and country removed.
                     <role>Reviewing Editor</role>
                     <aff>
                         <institution>eLife Sciences</institution>
-                        <country country="GB">United Kingdom</country>
+                        <country>United Kingdom</country>
                     </aff>
                 </contrib>
             </contrib-group>
@@ -4267,7 +4267,7 @@ UPDATE: punctuation between institution and country removed.
                     <role>Reviewer</role>
                     <aff>
                         <institution>Stanford University</institution>
-                        <country country="US">United States</country>
+                        <country>United States</country>
                     </aff>
                 </contrib>
                 <contrib contrib-type="reviewer">
@@ -4278,7 +4278,7 @@ UPDATE: punctuation between institution and country removed.
                     <role>Reviewer</role>
                     <aff>
                         <institution>John Innes Centre</institution>
-                        <country country="GB">United Kingdom</country>
+                        <country>United Kingdom</country>
                     </aff>
                 </contrib>
             </contrib-group>
