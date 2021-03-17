@@ -3930,7 +3930,6 @@ The tagging of the collaborator name again within this section is required for P
                     <title>Preparation</title>
 <!-- UPDATE: Appendices must be contained within a box in order to include the DOI as an object-id
 Appendices must have DOIs -->                     
-                    <boxed-text>
                     <p>In order to prepare for this Kitchen sink we reviewed our archive and found common errors or miscommunication from the archive, tagging of <xref ref-type="fig" rid="app1fig1">Appendix 1&#x2014;Figure 1</xref> is a classic example and here the tagging is updated. Appendices figures can also have figure supplements, for example <xref ref-type="fig" rid="app1fig1s1">Appendix 1&#x2014;Figure 1&#x2014;Figure Supplement 1</xref> (<xref ref-type="bibr" rid="bib25">Koch, 1959</xref>).</p>
                     <fig-group>
                         <fig id="app1fig1" position="float">
@@ -4159,12 +4158,10 @@ Appendices must have DOIs -->
                                 </table-wrap-foot>
                             </table-wrap>
                         </sec>
-                </boxed-text>
                 </sec>
         </app>
             <app id="appendix-2">
                 <title>Appendix 2</title>
-                <boxed-text>
                 <!-- UPDATE: Appendix rearranged to account for appendices without top level secs -->
                     <p>This is an example of an appendix with an introductory paragraph of text preceding any section headers. There should be only one boxed-text element, which is a child of appendix. This boxed-text is the container of the sub-doi for the appendix. Aside from the appendix title, all content should be captured within the boxed-text.</p>
                     <fig id="app2fig1" position="float">
@@ -4223,13 +4220,10 @@ Appendices must have DOIs -->
                             </table>
                         </table-wrap>
                    </sec>
-                </boxed-text>
             </app>
             <app id="appendix-3">
                 <title>Appendix 3</title>
-                     <boxed-text>
-                        <p>This is an example of an appendix with no sections.</p>
-                    </boxed-text>
+                <p>This is an example of an appendix with no sections.</p>    
             </app>
             </app-group>
     </back>
