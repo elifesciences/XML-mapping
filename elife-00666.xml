@@ -241,13 +241,8 @@
                 <!-- events added in chronological order -->
                 <event>
                     <event-desc>This manuscript was published as a preprint at bioRxiv.</event-desc>
-                    <date date-type="submitted" iso-8601-date="2019-02-15">
+                    <date date-type="preprint" iso-8601-date="2019-02-15">
                         <day>15</day>
-                        <month>02</month>
-                        <year>2019</year>
-                    </date>
-                    <date date-type="accepted" iso-8601-date="2019-02-16">
-                        <day>16</day>
                         <month>02</month>
                         <year>2019</year>
                     </date>    
@@ -257,7 +252,7 @@
                 </event>
                 <event>
                     <event-desc>The first version of this article was published as an accepted manuscript.</event-desc>
-                    <date date-type="accepted" iso-8601-date="2020-09-22">
+                    <date date-type="accepted-manuscript" iso-8601-date="2020-09-22">
                         <day>22</day>
                         <month>09</month>
                         <year>2020</year>
@@ -385,29 +380,7 @@
                         </institution-wrap>
                     </funding-source>
                     <award-id>DA037327</award-id>
-                    <principal-award-recipient>
-                        <!-- contrib-ids can be added here -->
-                        <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-6048-1470</contrib-id>
-                        <name>
-                            <surname>Atherden</surname>
-                            <given-names>Frederick Peter</given-names>
-                            <suffix>III</suffix>
-                        </name>
-                    </principal-award-recipient>
-                    <!-- Each author has their own principal-award-recipient element -->
-                    <principal-award-recipient>
-                        <name>
-                            <surname>Claus</surname>
-                            <given-names>Santa</given-names>
-                        </name>
-                    </principal-award-recipient>
-                    <principal-award-recipient>
-                        <name>
-                            <surname>West</surname>
-                            <given-names>Cornel</given-names>
-                            <suffix>Jnr</suffix>
-                        </name>
-                    </principal-award-recipient>
+                    <!-- No longer any need to identify which authors were benefited by which funding -->
                 </award-group>
                 <award-group id="fund2">
                     <funding-source country="GB">
@@ -416,13 +389,6 @@
                         </institution-wrap>
                     </funding-source>
                     <award-id>00000000001</award-id>
-                    <principal-award-recipient>
-                        <name>
-                            <surname>West</surname>
-                            <given-names>Cornel</given-names>
-                            <suffix>Jnr</suffix>
-                        </name>
-                    </principal-award-recipient>
                 </award-group>
                 <funding-statement>The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.</funding-statement>
             </funding-group>
@@ -456,7 +422,7 @@
                      Content is the boilerplate text which is added to the bottom of the pdf.
                      specific-use="print" means that it is ignored for eLife/PMC website display. -->
                 <caption specific-use="print">
-                    <p>The online version of this article includes the following figure supplement(s) for Figure 1:</p>
+                    <p>The online version of this article includes the following video(s), source data, source code, and figure supplement(s) for Figure 1:</p>
                 </caption>
                 <fig id="fig1" position="float">
                     <label>Figure 1.</label>
@@ -1233,7 +1199,7 @@ module load anaconda</code>
                 <title>Ethics</title>
                 <!-- Add content-type to <p>s -->
                 <p content-type="ethics-approval-human">Human subjects: Fresh tissue samples were obtained upon informed consent from patients undergoing surgery at the Gynecology Division of the European Institute of Oncology (Milan). Sample collection was performed under the protocol number R789-IEO approved by the Ethics Committee of the European Institute of Oncology.</p>
-                <p content-type="ethics-approval-animal">Animal experimentation: All animal studies were performed following a  protocol approved by the fully authorized animal facility of European  Institute of Oncology and by the Italian Ministry of Health (as required by the Italian Law) (IACUCs number 1256/2015) and in accordance to EU directive 2010/63. Mouse tissues were obtained from Karolinska Institutet (Stockholm, Sweden) and IRCCS San Raffaele Scientific Institute (Milan, Italy), in  accordance with Institutional Animal Care and Use Committees.</p>
+                <p content-type="ethics-approval-animal">Animal experimentation: All animal studies were performed following a protocol approved by the fully authorized animal facility of European  Institute of Oncology and by the Italian Ministry of Health (as required by the Italian Law) (IACUCs number 1256/2015) and in accordance to EU directive 2010/63. Mouse tissues were obtained from Karolinska Institutet (Stockholm, Sweden) and IRCCS San Raffaele Scientific Institute (Milan, Italy), in  accordance with Institutional Animal Care and Use Committees.</p>
                 <p>Clinical trial registration <related-object document-id="NCT01967030" 
                     document-id-type="clinical-trial-number" 
                     id="RO3" 
@@ -1253,6 +1219,12 @@ module load anaconda</code>
                 </caption>
                 <media mimetype="application" mime-subtype="csv" xlink:href="elife-00666-supp1.csv"/>
             </supplementary-material>
+            <supplementary-material id="audio1">
+                <label>Audio file 1.</label>
+                <caption>
+                    <title>This is a title for an audio file.</title>
+                </caption>
+                <media mime-subtype="x-wav" mimetype="audio" xlink:href="elife-00666-audio1.wav"/></supplementary-material>
             <supplementary-material id="sdata1">   
                 <label>Source data 1.</label>
                 <caption>
@@ -2002,7 +1974,7 @@ module load anaconda</code>
                     <p>... <xref ref-type="fig" rid="app3fig1">Appendix 3&#x2014;figure 1</xref> (<xref ref-type="supplementary-material" rid="app3fig1sdata1">Appendix 3&#x2014;figure 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="app3fig1sdata2">Appendix 3&#x2014;figure 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="app3fig1scode1">Appendix 3&#x2014;figure 1&#x2014;source code 1</xref>).</p>
                     <fig-group>
                         <caption specific-use="print">
-                            <p>The online version of this article includes the following figure supplement(s) for Appendix 3&#x2014;figure 1:</p>
+                            <p>The online version of this article includes the following video(s), source data, source code, and figure supplement(s) for Appendix 3&#x2014;figure 1:</p>
                         </caption>
                         <fig id="app3fig1" position="float">
                             <label>Appendix 3&#x2014;figure 1.</label>
