@@ -2105,10 +2105,40 @@ module load anaconda</code>
             </app>
         </app-group>
     </back>
-    <!-- article-type changed from decision-letter to referee-report -->
-    <sub-article id="sa1" article-type="referee-report">
+    <sub-article id="sa1" article-type="editor-report">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.00666.sa1</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.62927.sa1</article-id>
+            <title-group>
+                <article-title>Editor's evaluation</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Helaine</surname>
+                        <given-names>Sophie</given-names>
+                    </name>
+                    <!-- role element added with appropriate specific-use attribute value -->
+                    <role specific-use="editor">Reviewing Editor</role>
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0000-0404-000X</contrib-id>
+                    <aff>
+                        <!-- ROR ids also permitted here -->
+                        <institution-wrap>
+                            <institution-id institution-id-type="ror">https://ror.org/041kmwe10</institution-id>
+                            <institution>Imperial College London</institution>
+                        </institution-wrap>
+                        <country country="GB">United Kingdom</country>
+                    </aff>
+                </contrib>
+            </contrib-group>
+        </front-stub>
+        <body>
+            <p>This is an Editor's evaluation, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos.</p>
+        </body>
+    </sub-article>
+    <!-- article-type changed from decision-letter to referee-report -->
+    <sub-article id="sa2" article-type="referee-report">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.sa2</article-id>
             <title-group>
                 <article-title>Decision letter</article-title>
             </title-group>
@@ -2180,15 +2210,15 @@ module load anaconda</code>
             <p><bold>Acceptance summary:</bold></p>
             <p>This paper combines two complementary approaches, translating ribosome affinity purification (TRAP) and ribosome profiling, to provide the first quantitative insight into the impact of PrP<sup>Sc</sup> on cell type-specific translation. Surprisingly few translational changes were detected in neurons. In contrast, substantial alterations to translation were evident in astrocytes and microglia prior to manifestation of prion disease features, suggesting that aberrant translation in these cell types may be a primary driver of neurodegeneration.</p>
             <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
-            <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough  information contained within the tagging to generate a typeset PDF from the XML with no additional information provided. See <xref ref-type="fig" rid="sa1fig1">Decision letter image 1.</xref>, <xref ref-type="table" rid="sa1table1">Decision letter table 1</xref> and <xref ref-type="video" rid="sa1video1">Decision letter video 1</xref>.</p>
-            <fig id="sa1fig1" position="float">
+            <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough  information contained within the tagging to generate a typeset PDF from the XML with no additional information provided. See <xref ref-type="fig" rid="sa2fig1">Decision letter image 1.</xref>, <xref ref-type="table" rid="sa2table1">Decision letter table 1</xref> and <xref ref-type="video" rid="sa2video1">Decision letter video 1</xref>.</p>
+            <fig id="sa2fig1" position="float">
                 <label>Decision letter image 1.</label>
                 <caption>
                     <p>Single figure: The header of an eLife article example on the HTML page.</p>
                 </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa1-fig1.tif"/>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa2-fig1.tif"/>
             </fig>
-            <table-wrap id="sa1table1" position="float">
+            <table-wrap id="sa2table1" position="float">
                 <label>Decision letter table 1.</label>
                 <caption>
                     <p>Decision letter table.</p>
@@ -2245,324 +2275,12 @@ module load anaconda</code>
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="video" mime-subtype="mp4" id="sa1video1" xlink:href="elife-00666-sa1-video1.mp4">
+            <media mimetype="video" mime-subtype="mp4" id="sa2video1" xlink:href="elife-00666-sa2-video1.mp4">
                 <label>Decision letter video 1.</label>
                 <caption>
                     <title>Caption and/or a title is required.</title>
                 </caption>
             </media>
-            <p>Adding some MathML to the sub-article.<inline-formula>
-                <mml:math id="sa1m1">
-                    <mml:mstyle displaystyle="true" scriptlevel="0">
-                        <mml:mrow>
-                            <mml:msup>
-                                <mml:mi>F</mml:mi>
-                                <mml:mrow>
-                                    <mml:mi>A</mml:mi>
-                                    <mml:mi>B</mml:mi>
-                                </mml:mrow>
-                            </mml:msup>
-                            <mml:mo>∼</mml:mo>
-                            <mml:mfrac>
-                                <mml:msubsup>
-                                    <mml:mi>k</mml:mi>
-                                    <mml:mrow>
-                                        <mml:mi>f</mml:mi>
-                                    </mml:mrow>
-                                    <mml:mrow>
-                                        <mml:mi>A</mml:mi>
-                                        <mml:mi>B</mml:mi>
-                                    </mml:mrow>
-                                </mml:msubsup>
-                                <mml:msqrt>
-                                    <mml:msubsup>
-                                        <mml:mi>k</mml:mi>
-                                        <mml:mrow>
-                                            <mml:mi>f</mml:mi>
-                                        </mml:mrow>
-                                        <mml:mrow>
-                                            <mml:mi>A</mml:mi>
-                                            <mml:mi>A</mml:mi>
-                                        </mml:mrow>
-                                    </mml:msubsup>
-                                    <mml:msubsup>
-                                        <mml:mi>k</mml:mi>
-                                        <mml:mrow>
-                                            <mml:mi>f</mml:mi>
-                                        </mml:mrow>
-                                        <mml:mrow>
-                                            <mml:mi>B</mml:mi>
-                                            <mml:mi>B</mml:mi>
-                                        </mml:mrow>
-                                    </mml:msubsup>
-                                </mml:msqrt>
-                            </mml:mfrac>
-                            <mml:msqrt>
-                                <mml:msup>
-                                    <mml:mi>F</mml:mi>
-                                    <mml:mrow>
-                                        <mml:mi>A</mml:mi>
-                                        <mml:mi>A</mml:mi>
-                                    </mml:mrow>
-                                </mml:msup>
-                                <mml:msup>
-                                    <mml:mi>F</mml:mi>
-                                    <mml:mrow>
-                                        <mml:mi>B</mml:mi>
-                                        <mml:mi>B</mml:mi>
-                                    </mml:mrow>
-                                </mml:msup>
-                            </mml:msqrt>
-                        </mml:mrow>
-                    </mml:mstyle>
-                </mml:math>
-            </inline-formula>
-            </p>
-            <p>May also contain a formula as a block
-                <disp-formula id="sa1equ1">
-                    <label>(1)</label>
-                        <mml:math id="sa1m2">
-                            <mml:mstyle displaystyle="true" scriptlevel="0">
-                                <mml:mrow>
-                                    <mml:mi>d</mml:mi>
-                                    <mml:mtext> </mml:mtext>
-                                    <mml:mo>=</mml:mo>
-                                    <mml:mtext> </mml:mtext>
-                                    <mml:msqrt>
-                                        <mml:msup>
-                                            <mml:mrow>
-                                                <mml:mo>(</mml:mo>
-                                                <mml:mfrac>
-                                                    <mml:mrow>
-                                                        <mml:mi>P</mml:mi>
-                                                        <mml:mi>r</mml:mi>
-                                                        <mml:mi>e</mml:mi>
-                                                        <mml:mi>d</mml:mi>
-                                                        <mml:mi>i</mml:mi>
-                                                        <mml:mi>c</mml:mi>
-                                                        <mml:mi>t</mml:mi>
-                                                        <mml:mi>e</mml:mi>
-                                                        <mml:mi>d</mml:mi>
-                                                        <mml:mtext> </mml:mtext>
-                                                        <mml:mi>c</mml:mi>
-                                                        <mml:mi>o</mml:mi>
-                                                        <mml:mi>u</mml:mi>
-                                                        <mml:mi>n</mml:mi>
-                                                        <mml:msub>
-                                                            <mml:mi>t</mml:mi>
-                                                            <mml:mrow>
-                                                                <mml:mi mathvariant="bold-italic">i</mml:mi>
-                                                                <mml:mtext> </mml:mtext>
-                                                            </mml:mrow>
-                                                        </mml:msub>
-                                                        <mml:mo>−</mml:mo>
-                                                        <mml:mtext> </mml:mtext>
-                                                        <mml:mi>O</mml:mi>
-                                                        <mml:mi>b</mml:mi>
-                                                        <mml:mi>s</mml:mi>
-                                                        <mml:mi>e</mml:mi>
-                                                        <mml:mi>r</mml:mi>
-                                                        <mml:mi>v</mml:mi>
-                                                        <mml:mi>e</mml:mi>
-                                                        <mml:mi>d</mml:mi>
-                                                        <mml:mtext> </mml:mtext>
-                                                        <mml:mi>c</mml:mi>
-                                                        <mml:mi>o</mml:mi>
-                                                        <mml:mi>u</mml:mi>
-                                                        <mml:mi>n</mml:mi>
-                                                        <mml:msub>
-                                                            <mml:mi>t</mml:mi>
-                                                            <mml:mrow>
-                                                                <mml:mi>i</mml:mi>
-                                                            </mml:mrow>
-                                                        </mml:msub>
-                                                    </mml:mrow>
-                                                    <mml:mrow>
-                                                        <mml:mi>O</mml:mi>
-                                                        <mml:mi>b</mml:mi>
-                                                        <mml:mi>s</mml:mi>
-                                                        <mml:mi>e</mml:mi>
-                                                        <mml:mi>r</mml:mi>
-                                                        <mml:mi>v</mml:mi>
-                                                        <mml:mi>e</mml:mi>
-                                                        <mml:mi>d</mml:mi>
-                                                        <mml:mtext> </mml:mtext>
-                                                        <mml:mi>c</mml:mi>
-                                                        <mml:mi>o</mml:mi>
-                                                        <mml:mi>u</mml:mi>
-                                                        <mml:mi>n</mml:mi>
-                                                        <mml:msub>
-                                                            <mml:mi>t</mml:mi>
-                                                            <mml:mrow>
-                                                                <mml:mi>i</mml:mi>
-                                                            </mml:mrow>
-                                                        </mml:msub>
-                                                    </mml:mrow>
-                                                </mml:mfrac>
-                                                <mml:mo>)</mml:mo>
-                                            </mml:mrow>
-                                            <mml:mrow>
-                                                <mml:mn>2</mml:mn>
-                                            </mml:mrow>
-                                        </mml:msup>
-                                    </mml:msqrt>
-                                </mml:mrow>
-                            </mml:mstyle>
-                        </mml:math>
-                </disp-formula>
-            </p>
-            <list id="sa1list1" list-type="order">
-                <list-item>
-                    <p>'Contamination'</p>
-                    <list id="sa1list2" list-type="roman-lower">
-                        <list-item>
-                            <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
-                        </list-item>
-                        <list-item>
-                            <p><italic>C. elegans</italic></p>
-                        </list-item>
-                    </list>
-                </list-item>
-            </list>
-        </body>
-    </sub-article>
-    <!-- article-type changed from reply to author-comment -->
-    <sub-article article-type="author-comment" id="sa2">
-        <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.00666.sa2</article-id>
-            <title-group>
-                <article-title>Author response</article-title>
-            </title-group>
-            <contrib-group>
-                <contrib contrib-type="author">
-                    <name>
-                        <surname>Atherden</surname>
-                        <given-names>Frederick Peter</given-names>
-                        <suffix>III</suffix>
-                    </name>
-                    <role specific-use="author">Author</role>
-                </contrib>
-                <contrib contrib-type="author">
-                    <name>
-                        <surname>Harrison</surname>
-                        <given-names>Melissa</given-names>
-                    </name>
-                    <role specific-use="author">Author</role>
-                </contrib>
-                <contrib contrib-type="author">
-                    <collab>Example Group author
-                        <contrib-group content-type="group-members">
-                            <contrib contrib-type="author">
-                                <name>
-                                    <surname>Gilbert</surname>
-                                    <given-names>James</given-names>
-                                </name>
-                            </contrib>
-                        </contrib-group>
-                    </collab>
-                    <role specific-use="author">Author</role>
-                </contrib>
-                <contrib contrib-type="author">
-                    <name>
-                        <surname>Claus</surname>
-                        <given-names>Santa</given-names>
-                    </name>
-                    <role specific-use="author">Author</role>
-                </contrib>
-                <contrib contrib-type="author">
-                    <name>
-                        <surname>West</surname>
-                        <given-names>Cornel</given-names>
-                        <suffix>Jnr</suffix>
-                    </name>
-                    <role specific-use="author">Author</role>
-                </contrib>
-                <on-behalf-of>on behalf of whoever finds this interesting</on-behalf-of>
-            </contrib-group>
-        </front-stub>
-        <body>
-            <p>We thank the reviewers for the positive assessment of our work and their insightful remarks. Please find below a point-by-point response to each comment.</p>
-            <disp-quote content-type="editor-comment">
-                <p>Reviewer #1 (Evidence, reproducibility and clarity):</p>
-                <p>Scheckel et al. report a large dataset on cell type-specific translational profiling of PrD-associated molecular alterations in a mouse model thorough RiboTRAP and ribosome profiling approaches. They report a more severe alteration in the translatome specifically in astrocyte and microglia as compared to neuronal populations. This highlights that changes in these two cell classes might have a predominant role in the pathology of PrD.</p>
-                <p>Data and the methods are presented such that they can be reproduced. The data analysis section of the manuscript could be further elaborated. In particular, it could be clarified which/how comparisons with existing dataset have been performed. Statistical analysis description is sometimes missing (e.g. Figure 6E, not clear what the stars on top of the bars stands for, which test was performed and the significance). Moreover, the section of the Materials and methods regarding the western blots presented in Figure 6 appear to be missing.</p></disp-quote>
-            <p>Figure 6E shows the output (log2 fold change) of DESeq2. Genes with a Benjamini-Hochberg adjusted p value &lt; 0.05 (also derived from DESeq2) are marked with an asterisk. We have added this information to the legend, as well as methods regarding western blots.</p>
-            <disp-quote content-type="editor-comment">
-                <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
-                <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
-            </disp-quote>
-            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa2fig1">Author response image 1.</xref>,  <xref ref-type="video" rid="sa2video1">Author response video 1</xref> and <xref ref-type="table" rid="sa2table1">Author response table 1</xref>.</p>
-            <fig id="sa2fig1" position="float">
-                <label>Author response image 1.</label>
-                <caption>
-                    <p>Single figure: The header of an eLife article example on the HTML page.</p>
-                </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa2-fig1.tif"/>
-            </fig>
-            <table-wrap id="sa2table1" position="float">
-                <label>Author response table 1.</label>
-                <caption>
-                    <p>Author response table</p>
-                </caption>
-                <table frame="hsides" rules="groups">
-                    <thead>
-                        <tr>
-                            <th>Sample</th>
-                            <th>Same</th>
-                            <th>Difference more than 10%</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>DKO1.cell.1</td>
-                            <td>77.00%</td>
-                            <td>6.90%</td>
-                        </tr>
-                        <tr>
-                            <td>DKO1.cell.2</td>
-                            <td>78.80%</td>
-                            <td>7.20%</td>
-                        </tr>
-                        <tr>
-                            <td>DKO1.cell.3</td>
-                            <td>79.10%</td>
-                            <td>6.70%</td>
-                        </tr>
-                        <tr>
-                            <td>DKO1.exo.1</td>
-                            <td>78.90%</td>
-                            <td>6.50%</td>
-                        </tr>
-                        <tr>
-                            <td>DKO1.exo.2</td>
-                            <td>80.00%</td>
-                            <td>5.80%</td>
-                        </tr>
-                        <tr>
-                            <td>DKO1.exo.3</td>
-                            <td>86.80%</td>
-                            <td>2.30%</td>
-                        </tr>
-                        <tr>
-                            <td>DKS8.cell.1</td>
-                            <td>77.30%</td>
-                            <td>7.80%</td>
-                        </tr>
-                        <tr>
-                            <td>DKS8.cell.2</td>
-                            <td>79.70%</td>
-                            <td>6.70%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </table-wrap>
-            <media mimetype="video" mime-subtype="mp4" id="sa2video1" xlink:href="elife-00666-sa2-video1.mp4">
-                <label>Author response video 1.</label>
-                <caption>
-                    <title>Caption and/or a title is required for all author response assets.</title>
-                </caption>
-            </media>
-            <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} order to produce rules for the  production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.</p>
             <p>Adding some MathML to the sub-article.<inline-formula>
                 <mml:math id="sa2m1">
                     <mml:mstyle displaystyle="true" scriptlevel="0">
@@ -2723,10 +2441,322 @@ module load anaconda</code>
                         </mml:math>
                 </disp-formula>
             </p>
-            <list id="sa2list1" list-type="roman-upper">
+            <list id="sa2list1" list-type="order">
                 <list-item>
                     <p>'Contamination'</p>
-                    <list id="sa2list2" list-type="order">
+                    <list id="sa2list2" list-type="roman-lower">
+                        <list-item>
+                            <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
+                        </list-item>
+                        <list-item>
+                            <p><italic>C. elegans</italic></p>
+                        </list-item>
+                    </list>
+                </list-item>
+            </list>
+        </body>
+    </sub-article>
+    <!-- article-type changed from reply to author-comment -->
+    <sub-article article-type="author-comment" id="sa3">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.sa3</article-id>
+            <title-group>
+                <article-title>Author response</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Atherden</surname>
+                        <given-names>Frederick Peter</given-names>
+                        <suffix>III</suffix>
+                    </name>
+                    <role specific-use="author">Author</role>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Harrison</surname>
+                        <given-names>Melissa</given-names>
+                    </name>
+                    <role specific-use="author">Author</role>
+                </contrib>
+                <contrib contrib-type="author">
+                    <collab>Example Group author
+                        <contrib-group content-type="group-members">
+                            <contrib contrib-type="author">
+                                <name>
+                                    <surname>Gilbert</surname>
+                                    <given-names>James</given-names>
+                                </name>
+                            </contrib>
+                        </contrib-group>
+                    </collab>
+                    <role specific-use="author">Author</role>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Claus</surname>
+                        <given-names>Santa</given-names>
+                    </name>
+                    <role specific-use="author">Author</role>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>West</surname>
+                        <given-names>Cornel</given-names>
+                        <suffix>Jnr</suffix>
+                    </name>
+                    <role specific-use="author">Author</role>
+                </contrib>
+                <on-behalf-of>on behalf of whoever finds this interesting</on-behalf-of>
+            </contrib-group>
+        </front-stub>
+        <body>
+            <p>We thank the reviewers for the positive assessment of our work and their insightful remarks. Please find below a point-by-point response to each comment.</p>
+            <disp-quote content-type="editor-comment">
+                <p>Reviewer #1 (Evidence, reproducibility and clarity):</p>
+                <p>Scheckel et al. report a large dataset on cell type-specific translational profiling of PrD-associated molecular alterations in a mouse model thorough RiboTRAP and ribosome profiling approaches. They report a more severe alteration in the translatome specifically in astrocyte and microglia as compared to neuronal populations. This highlights that changes in these two cell classes might have a predominant role in the pathology of PrD.</p>
+                <p>Data and the methods are presented such that they can be reproduced. The data analysis section of the manuscript could be further elaborated. In particular, it could be clarified which/how comparisons with existing dataset have been performed. Statistical analysis description is sometimes missing (e.g. Figure 6E, not clear what the stars on top of the bars stands for, which test was performed and the significance). Moreover, the section of the Materials and methods regarding the western blots presented in Figure 6 appear to be missing.</p></disp-quote>
+            <p>Figure 6E shows the output (log2 fold change) of DESeq2. Genes with a Benjamini-Hochberg adjusted p value &lt; 0.05 (also derived from DESeq2) are marked with an asterisk. We have added this information to the legend, as well as methods regarding western blots.</p>
+            <disp-quote content-type="editor-comment">
+                <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
+                <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
+            </disp-quote>
+            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa3fig1">Author response image 1.</xref>,  <xref ref-type="video" rid="sa3video1">Author response video 1</xref> and <xref ref-type="table" rid="sa3table1">Author response table 1</xref>.</p>
+            <fig id="sa3fig1" position="float">
+                <label>Author response image 1.</label>
+                <caption>
+                    <p>Single figure: The header of an eLife article example on the HTML page.</p>
+                </caption>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa3-fig1.tif"/>
+            </fig>
+            <table-wrap id="sa3table1" position="float">
+                <label>Author response table 1.</label>
+                <caption>
+                    <p>Author response table</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                    <thead>
+                        <tr>
+                            <th>Sample</th>
+                            <th>Same</th>
+                            <th>Difference more than 10%</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>DKO1.cell.1</td>
+                            <td>77.00%</td>
+                            <td>6.90%</td>
+                        </tr>
+                        <tr>
+                            <td>DKO1.cell.2</td>
+                            <td>78.80%</td>
+                            <td>7.20%</td>
+                        </tr>
+                        <tr>
+                            <td>DKO1.cell.3</td>
+                            <td>79.10%</td>
+                            <td>6.70%</td>
+                        </tr>
+                        <tr>
+                            <td>DKO1.exo.1</td>
+                            <td>78.90%</td>
+                            <td>6.50%</td>
+                        </tr>
+                        <tr>
+                            <td>DKO1.exo.2</td>
+                            <td>80.00%</td>
+                            <td>5.80%</td>
+                        </tr>
+                        <tr>
+                            <td>DKO1.exo.3</td>
+                            <td>86.80%</td>
+                            <td>2.30%</td>
+                        </tr>
+                        <tr>
+                            <td>DKS8.cell.1</td>
+                            <td>77.30%</td>
+                            <td>7.80%</td>
+                        </tr>
+                        <tr>
+                            <td>DKS8.cell.2</td>
+                            <td>79.70%</td>
+                            <td>6.70%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+            <media mimetype="video" mime-subtype="mp4" id="sa3video1" xlink:href="elife-00666-sa3-video1.mp4">
+                <label>Author response video 1.</label>
+                <caption>
+                    <title>Caption and/or a title is required for all author response assets.</title>
+                </caption>
+            </media>
+            <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} order to produce rules for the  production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.</p>
+            <p>Adding some MathML to the sub-article.<inline-formula>
+                <mml:math id="sa3m1">
+                    <mml:mstyle displaystyle="true" scriptlevel="0">
+                        <mml:mrow>
+                            <mml:msup>
+                                <mml:mi>F</mml:mi>
+                                <mml:mrow>
+                                    <mml:mi>A</mml:mi>
+                                    <mml:mi>B</mml:mi>
+                                </mml:mrow>
+                            </mml:msup>
+                            <mml:mo>∼</mml:mo>
+                            <mml:mfrac>
+                                <mml:msubsup>
+                                    <mml:mi>k</mml:mi>
+                                    <mml:mrow>
+                                        <mml:mi>f</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mi>A</mml:mi>
+                                        <mml:mi>B</mml:mi>
+                                    </mml:mrow>
+                                </mml:msubsup>
+                                <mml:msqrt>
+                                    <mml:msubsup>
+                                        <mml:mi>k</mml:mi>
+                                        <mml:mrow>
+                                            <mml:mi>f</mml:mi>
+                                        </mml:mrow>
+                                        <mml:mrow>
+                                            <mml:mi>A</mml:mi>
+                                            <mml:mi>A</mml:mi>
+                                        </mml:mrow>
+                                    </mml:msubsup>
+                                    <mml:msubsup>
+                                        <mml:mi>k</mml:mi>
+                                        <mml:mrow>
+                                            <mml:mi>f</mml:mi>
+                                        </mml:mrow>
+                                        <mml:mrow>
+                                            <mml:mi>B</mml:mi>
+                                            <mml:mi>B</mml:mi>
+                                        </mml:mrow>
+                                    </mml:msubsup>
+                                </mml:msqrt>
+                            </mml:mfrac>
+                            <mml:msqrt>
+                                <mml:msup>
+                                    <mml:mi>F</mml:mi>
+                                    <mml:mrow>
+                                        <mml:mi>A</mml:mi>
+                                        <mml:mi>A</mml:mi>
+                                    </mml:mrow>
+                                </mml:msup>
+                                <mml:msup>
+                                    <mml:mi>F</mml:mi>
+                                    <mml:mrow>
+                                        <mml:mi>B</mml:mi>
+                                        <mml:mi>B</mml:mi>
+                                    </mml:mrow>
+                                </mml:msup>
+                            </mml:msqrt>
+                        </mml:mrow>
+                    </mml:mstyle>
+                </mml:math>
+            </inline-formula>
+            </p>
+            <p>May also contain a formula as a block
+                <disp-formula id="sa3equ1">
+                    <label>(1)</label>
+                        <mml:math id="sa3m2">
+                            <mml:mstyle displaystyle="true" scriptlevel="0">
+                                <mml:mrow>
+                                    <mml:mi>d</mml:mi>
+                                    <mml:mtext> </mml:mtext>
+                                    <mml:mo>=</mml:mo>
+                                    <mml:mtext> </mml:mtext>
+                                    <mml:msqrt>
+                                        <mml:msup>
+                                            <mml:mrow>
+                                                <mml:mo>(</mml:mo>
+                                                <mml:mfrac>
+                                                    <mml:mrow>
+                                                        <mml:mi>P</mml:mi>
+                                                        <mml:mi>r</mml:mi>
+                                                        <mml:mi>e</mml:mi>
+                                                        <mml:mi>d</mml:mi>
+                                                        <mml:mi>i</mml:mi>
+                                                        <mml:mi>c</mml:mi>
+                                                        <mml:mi>t</mml:mi>
+                                                        <mml:mi>e</mml:mi>
+                                                        <mml:mi>d</mml:mi>
+                                                        <mml:mtext> </mml:mtext>
+                                                        <mml:mi>c</mml:mi>
+                                                        <mml:mi>o</mml:mi>
+                                                        <mml:mi>u</mml:mi>
+                                                        <mml:mi>n</mml:mi>
+                                                        <mml:msub>
+                                                            <mml:mi>t</mml:mi>
+                                                            <mml:mrow>
+                                                                <mml:mi mathvariant="bold-italic">i</mml:mi>
+                                                                <mml:mtext> </mml:mtext>
+                                                            </mml:mrow>
+                                                        </mml:msub>
+                                                        <mml:mo>−</mml:mo>
+                                                        <mml:mtext> </mml:mtext>
+                                                        <mml:mi>O</mml:mi>
+                                                        <mml:mi>b</mml:mi>
+                                                        <mml:mi>s</mml:mi>
+                                                        <mml:mi>e</mml:mi>
+                                                        <mml:mi>r</mml:mi>
+                                                        <mml:mi>v</mml:mi>
+                                                        <mml:mi>e</mml:mi>
+                                                        <mml:mi>d</mml:mi>
+                                                        <mml:mtext> </mml:mtext>
+                                                        <mml:mi>c</mml:mi>
+                                                        <mml:mi>o</mml:mi>
+                                                        <mml:mi>u</mml:mi>
+                                                        <mml:mi>n</mml:mi>
+                                                        <mml:msub>
+                                                            <mml:mi>t</mml:mi>
+                                                            <mml:mrow>
+                                                                <mml:mi>i</mml:mi>
+                                                            </mml:mrow>
+                                                        </mml:msub>
+                                                    </mml:mrow>
+                                                    <mml:mrow>
+                                                        <mml:mi>O</mml:mi>
+                                                        <mml:mi>b</mml:mi>
+                                                        <mml:mi>s</mml:mi>
+                                                        <mml:mi>e</mml:mi>
+                                                        <mml:mi>r</mml:mi>
+                                                        <mml:mi>v</mml:mi>
+                                                        <mml:mi>e</mml:mi>
+                                                        <mml:mi>d</mml:mi>
+                                                        <mml:mtext> </mml:mtext>
+                                                        <mml:mi>c</mml:mi>
+                                                        <mml:mi>o</mml:mi>
+                                                        <mml:mi>u</mml:mi>
+                                                        <mml:mi>n</mml:mi>
+                                                        <mml:msub>
+                                                            <mml:mi>t</mml:mi>
+                                                            <mml:mrow>
+                                                                <mml:mi>i</mml:mi>
+                                                            </mml:mrow>
+                                                        </mml:msub>
+                                                    </mml:mrow>
+                                                </mml:mfrac>
+                                                <mml:mo>)</mml:mo>
+                                            </mml:mrow>
+                                            <mml:mrow>
+                                                <mml:mn>2</mml:mn>
+                                            </mml:mrow>
+                                        </mml:msup>
+                                    </mml:msqrt>
+                                </mml:mrow>
+                            </mml:mstyle>
+                        </mml:math>
+                </disp-formula>
+            </p>
+            <list id="sa3list1" list-type="roman-upper">
+                <list-item>
+                    <p>'Contamination'</p>
+                    <list id="sa3list2" list-type="order">
                         <list-item>
                             <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
                         </list-item>
