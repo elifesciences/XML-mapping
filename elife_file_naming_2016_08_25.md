@@ -2,21 +2,19 @@
 
 ## File naming pattern (excluding parent zip file)
 
-    elife-<f-id>(-<asset><a-id>)(-<sub-asset><sa-id>)(-<data><d-id>)(-<code><c-id>)(-<video><m-id>)(-<reporting standard><repstand-id>)(-<transparent reporting form><transrepform-id>)(-<supplementary file><supp-id>)|(-r<revision>).<ext>`
+    elife-<f-id>(-<asset><a-id>)(-<sub-asset><sa-id>)(-<data><d-id>)(-<code><c-id>)(-<video><m-id>)(-<reporting standard><repstand-id>)(-<transparent reporting form><transrepform-id>)(-<supplementary file><supp-id>)|(-r<revision>).<ext>
 
 Brackets represent optional components. Pipe represents a choice on component, depending on state in the publishing system.
 
 Every file type must have the file type suffix (e.g. .tiff), for example:
 
-elife-00666-fig1.tiff
-
+    elife-00666-fig1.tiff
 
 ### Components
 
 #### `<f-id>`
 
 This is the file id and is the numerical digit that is used to make up part of the DOI for an article (`<article-id pub-id-type="doi">`). For example an eLife article with the following DOI `/10.7554/eLife.00666` will have an f-id of `00666`.
-
 
 #### `<asset>`
 
@@ -32,7 +30,6 @@ This refers to an asset file related to an article:
 - inline graphics (inf)
 - a transparent reporting form (transrepform)
 
-
 Decision letter and author response are at the level of assets but are not seperate files and do not require a number suffix in the name and are not seperate files.
 - decision letter (dec)
 - author response (resp)
@@ -43,7 +40,6 @@ Appendices, tables and boxes are at the level of assets but are not seperate fil
 - Box (box)
 
 All assets could have any sub assets and some sub assets can have further assets (see examples below).
-
 
 #### `<a-id>`
 
@@ -111,10 +107,12 @@ For example source code to figure 3-figure supplement a will be called:
     elife-00666-fig3-figsupp1-code1.r
 
 #### inline graphics
+
 Inline graphics are used to represent symbols that cannot come from the font palet but are required to represent something, for example in a figure.
 These are named sequentially throughout a file (irrespective of where they will be found) and will never have sub assets.
 
 #### Author response 
+
 All assets in this part of the article require the asset of "resp", followed by the asset or sub asset. For example, a Author response image 1 will be named:
 
     elife-00666-resp-fig-1.tiff
@@ -123,8 +121,8 @@ Or a Author response video 1 as:
 
     elife-00666-resp-video1.mp4
 
-
 #### Appendices
+
 All assets in an appendix require the asset of "appX" (where X is the appendix number - even if there is only one appendix it is numbered), followed by the asset or sub asset. For example, a Appendix figure 1 will be named:
 
     elife-00666-app1-fig-1.tiff
@@ -137,13 +135,14 @@ Or an  Appendix video 1 as:
 
     elife-00666-app1-video1.mp4
 
-
 #### Tables 
+
 Tables do not contain figures unless they are inline graphics. However, they can contain source data, for example, so this would be named:
 
     elife-00666-table1-data1.tiff
 
 #### Boxes 
+
 All assets in a box require the asset of "boxX" (where X is the box number - even if there is only one box it is numbered), followed by the asset or sub asset. For example, a Box figure 1 will be named:
 
     elife-00666-box1-fig-1.tiff
@@ -192,130 +191,155 @@ elife-00666-vor-r1
 ### Components
 
 #### Figures
-- x-ref ref-type="fig"
-- id="fig1"
+
+    x-ref ref-type="fig"
+    id="fig1"
 
 #### Figure supplements
-- x-ref ref-type="fig"
-- id="fig1s1"
+
+    x-ref ref-type="fig"
+    id="fig1s1"
 
 #### Figures within author response
-- x-ref ref-type="fig"
-- id="resp-fig1"
+
+    x-ref ref-type="fig"
+    id="resp-fig1"
 
 #### Figure supplements within author response
-- x-ref ref-type="fig"
-- id="resp-fig1s1"
+
+    x-ref ref-type="fig"
+    id="resp-fig1s1"
 
 #### Figures within appendices
-- x-ref ref-type="fig"
-- id="app1-fig1"
+
+    x-ref ref-type="fig"
+    id="app1-fig1"
 
 #### Figure supplements within appendices
-- x-ref ref-type="fig"
-- id="app1-fig1s1"
+
+    x-ref ref-type="fig"
+    id="app1-fig1s1"
 
 #### Chemical structures
-- x-ref ref-type="fig"
-- id="chem1"
+
+    x-ref ref-type="fig"
+    id="chem1"
 
 #### Schemes
-- x-ref ref-type="fig"
-- id="scheme1"
+
+    x-ref ref-type="fig"
+    id="scheme1"
 
 #### Source data as primary asset
-- xref ref-type="supplementary-material"
-- id="sourcedata1"
+
+    xref ref-type="supplementary-material"
+    id="sourcedata1"
 
 #### Source data as sub asset
-- xref ref-type="supplementary-material"
-- id="sdata1"
+
+    xref ref-type="supplementary-material"
+    id="sdata1"
 
 #### Source code as primary asset
-- xref ref-type="supplementary-material"
-- id="scode1"
+
+    xref ref-type="supplementary-material"
+    id="scode1"
 
 #### Source code as sub asset
-- xref ref-type="supplementary-material"
-- id=""
+
+    xref ref-type="supplementary-material"
+    id=""
 
 #### Videos as primary asset
-- xref ref-type="other"
-- id="video1"
-- 
+
+    xref ref-type="other"
+    id="video1"
+
 #### Videos as sub asset
-- xref ref-type="other"
-- id="fig1-video1"
+
+    xref ref-type="other"
+    id="fig1-video1"
 
 #### Tables
-- xref ref-type="table"
-- id="table1"
+
+    xref ref-type="table"
+    id="table1"
 
 #### Inline tables
-- xref ref-type="inlinetable1"
-- id="inlinetable"
+
+    xref ref-type="inlinetable1"
+    id="inlinetable"
 
 #### Boxes
-- xref ref-type="box"
-- id="box1"
+
+    xref ref-type="box"
+    id="box1"
 
 #### Appendices
+
 Appendices are a section within an article, so their id is a reflection on their order in the sections of an article, eg id="s8" (indicates this appendix is the 8th <sec> of this article). However, the sec does have a sec-type of "appendix1"
 
-- xref ref-type="fig"
-- id="app1-fig1'
+    xref ref-type="fig"
+    id="app1-fig1'
 
-- xref ref-type="table"
-- id=""app1-table1""
+    xref ref-type="table"
+    id=""app1-table1""
 
 #### Reporting standards
-- xref ref-type="supplementary-material"
-- id="repstand1"
+
+    xref ref-type="supplementary-material"
+    id="repstand1"
 
 #### Transparent reporting form
-- xref ref-type="transrepform"
-- id="transrepform"
+    xref ref-type="transrepform"
+    id="transrepform"
 
 #### Decision letter
+
 Decision letters are a sub-article of the main article, the article-type attribuite is "decision-letter" and their ID is "SA1"
 
 #### Author response
+
 Author responses are a sub-article of the main article, the article-type attribuite is "reply" and their ID is "SA2"
 
-- xref ref-type="fig"
-- id="resp-fig1'
+    xref ref-type="fig"
+    id="resp-fig1'
 
-- xref ref-type="table"
-- id="resp-table1"
+    xref ref-type="table"
+    id="resp-table1"
 
 #### Equations
+
 Equations are not assets, but they do have ids that have a style.
 
-- xref ref-type="equation"
-- - id="equ1""
+    xref ref-type="equation"
+    - id="equ1""
 
 #### Other Xref link ids
 
-- aff1 - aff followed by seqential number. Designates the affiliation address
-- equal-contrib1 - equal-contrib followed by seqential number. Designates any equal contributions, if there is more than 1 set of equal contributions then the second set take the number 2 etc
-- pa1 - if there is a present address for an author it takes this id
-- fn1 - if there are any other footnotes for authors, they take this id. This can be used for deceased but also for random other comments
-- fund1 - link to funding
-- conf1 - link to conflict (cometing interests) statement
-- con1 - link to authors contribution
-- dataset1 - link to a datasert listed in the dataset section, which the author was author of
-- bib1 - link to reference in reference list
+- `aff1` aff followed by seqential number. Designates the affiliation address
+- `equal-contrib1` equal-contrib followed by seqential number. Designates any equal contributions, if there is more than 1 set of equal contributions then the second set take the number 2 etc
+- `pa1` if there is a present address for an author it takes this id
+- `fn1` if there are any other footnotes for authors, they take this id. This can be used for deceased but also for random other comments
+- `fund1` link to funding
+- `conf1` link to conflict (cometing interests) statement
+- `con1` link to authors contribution
+- `dataset1` link to a datasert listed in the dataset section, which the author was author of
+- `bib1` link to reference in reference list
 
 #### Section IDs
+
 Every level 1 section has a sec-type attribute and and id s1 etc
 
 Sub sections cary IDs only and follow a numerical ordering, using is dashnumber suffix, eg section 1 has a lavel 2 section: s1-1
 section 2, level 3 heading number 1: s2-1-1
 
 ## DOIs
+
 All "assets" have sub-DOIs, with the exception of equations.
 
 ## Additional information
+
 - All assets shuld be cited in the mean text and crosslinked via an xref.
 - If a source code file or source data file is not attached to a specific figure, it is placed in the <sec sec-type="supplementary-material">.
 However, if it is attached to a specific figure it is listed as part of the figure tagging and not repeated in this section.
