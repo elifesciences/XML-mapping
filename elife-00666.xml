@@ -22,6 +22,15 @@
         <article-meta>
             <article-id pub-id-type="publisher-id">00666</article-id>
             <article-id pub-id-type="doi">10.7554/eLife.00666</article-id>
+            <!-- article-version needed for PubRouter
+                
+                article-version-type values: "VoR" | "CVoR"
+                vocab-term values: "Version of Record" | "Corrected Version of Record"
+                article-version values: "version-of-record" | "corrected-version-of-record" -->
+            <article-version vocab="JAV"
+                vocab-identifier="http://www.niso.org/publications/rp/RP-8-2008.pdf"
+                article-version-type="VoR"
+                vocab-term="Version of Record">version-of-record</article-version>
             <article-categories>
                 <!-- Change disp-channel to heading (heading needed for PMC)  -->
                 <subj-group subj-group-type="heading">
