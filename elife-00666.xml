@@ -432,7 +432,30 @@ content must work as a discrete item on each author's roll over and on the displ
                     <month>04</month>
                     <year>2016</year>
                 </date>
-                </history>
+            </history>
+            <!-- events added to pub-history.
+                 Pending JATS4R rec has this in <history> but that is not currently allowed in JATS 1.2.
+                 In the event of a new version, the first (or more) VoR publication dates would move down here as an event 
+                 and the new version publicaiton date would replace pub-date[@date-type="update"] above.
+                 VoR dates in the <event> would have a self-uri[@content-type="version-of-record"].
+                 Any new version pub dates moved to event (for example if there were 2+ new versions) would have a 
+                     self-uri[@content-type="corrected-version-of-record"].
+            -->
+            <pub-history>
+                <!-- events added in chronological order -->
+                <event>
+                    <event-desc>This manuscript was published as a preprint at bioRxiv.</event-desc>
+                    <date date-type="preprint" iso-8601-date="2016-02-01">
+                        <day>01</day>
+                        <month>02</month>
+                        <year>2016</year>
+                    </date>
+                    <!-- "preprint" or "pre-print"? Examples and text in JATS4R conflict:
+                         https://jats4r.org/article-publication-and-history-dates/#example-2
+                         https://jats4r.org/article-publication-and-history-dates/#comment-308 -->
+                    <self-uri content-type="preprint" xlink:href="http://doi.org/10.5555/12345678"/>
+                </event>
+            </pub-history>
 <!-- UPDATE: Permissions: this has changed/been updated to include the free_to_reed tag further to NISO recommendations -->
             <permissions>
                 <copyright-statement>&#x00A9; 2016, Harrison et al</copyright-statement>
