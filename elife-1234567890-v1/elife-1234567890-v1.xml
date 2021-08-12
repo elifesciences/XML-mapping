@@ -29,14 +29,14 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
         </journal-meta>
         <article-meta>
 <!-- @pub-id-type publisher-id - this is always a 5 digit number -->
-            <article-id pub-id-type="publisher-id">00666</article-id>
+            <article-id pub-id-type="publisher-id">1234567890</article-id>
 <!-- @pub-id-type doi - always has eLife prefix (10.7554/eLife.) followed by same 5 digit number as publisher id -->
 <!--UPDATE: PDF links to DOIs: from CrossRef: The updated Crossref DOI Display guidelines recommend that https://doi.org/ be used and not http://dx.doi.org/ in DOI links.
 Originally the “dx” separated the DOI resolver from the International DOI Foundation (IDF) website but this has changed and the IDF has already updated its recommendations 
 so we are bringing ours in line with theirs. We are also recommending the use of HTTPS because it makes for more secure browsing.
 -->       
  <!-- UPDATE: DOI prefix removed from XML but must be added to display in PDF and HTML--> 
-            <article-id pub-id-type="doi">10.7554/eLife.00666</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890</article-id>
             <article-categories>
 <!-- @subj-group-type "display-channel" - eLife-defined article type, controlled list for Research Content (case sensitive):
 Research Article
@@ -422,7 +422,7 @@ content must work as a discrete item on each author's roll over and on the displ
                 <year>2016</year>
             </pub-date>
             <volume>5</volume>
-            <elocation-id>e00666</elocation-id>
+            <elocation-id>e1234567890</elocation-id>
             <history>
                 <date date-type="received" iso-8601-date="2016-03-01">
                     <day>01</day>
@@ -472,12 +472,12 @@ content must work as a discrete item on each author's roll over and on the displ
                         credited.</license-p>
                 </license>
             </permissions>
-            <self-uri content-type="pdf" xlink:href="elife-00666.pdf"/>
+            <self-uri content-type="pdf" xlink:href="elife-1234567890.pdf"/>
             <!-- Some content will not have a figures PDF -->
-            <self-uri content-type="figures-pdf" xlink:href="elife-00666-figures.pdf"/>
+            <self-uri content-type="figures-pdf" xlink:href="elife-1234567890-figures.pdf"/>
             <!-- UPDATE: Abstract: The following is no longer required for the XML file. However, it must be displayed in the PDF: 
 <bold>DOI:</bold>
-<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">https://doi.org/10.7554/eLife.00666.001</ext-link> -->
+<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.1234567890.001">https://doi.org/10.7554/eLife.1234567890.001</ext-link> -->
             <abstract>       
                 <p>This is the abstract. This article will describe the eLife article and the process.
                     An abstract can contain any formatting, such as <italic>italics</italic>,
@@ -512,7 +512,7 @@ content must work as a discrete item on each author's roll over and on the displ
             </abstract>
             <!-- UPDATE: Abstract: The following is no longer required for the XML file. However, it must be displayed in the PDF and the display must include prefix  https://doi.org/ 
 <bold>DOI:</bold>
-<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.001">https://doi.org/10.7554/eLife.00666.002</ext-link>
+<ext-link ext-link-type="doi" xlink:href="10.7554/eLife.1234567890.001">https://doi.org/10.7554/eLife.1234567890.002</ext-link>
 Additionally, digest are no longer a required component of all Research Articles and Short Reports. All research content can now be published with no digest -->
             <abstract abstract-type="executive-summary">
                 <title>eLife digest</title>
@@ -959,7 +959,7 @@ Impact statement:-->
 
                 </sec>
             </sec>
-<!-- Update: Most asset IDs have changed. Please see elife-00666-supp1 and elife_file_naming_2016_08_25.md for complete list and explanation  -->           
+<!-- Update: Most asset IDs have changed. Please see elife-1234567890-supp1 and elife_file_naming_2016_08_25.md for complete list and explanation  -->           
                 <sec id="s2-2">
                     <title>Tables</title>
 <!-- Update: Table ids have been changed from tbl to table
@@ -1291,7 +1291,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                 <caption><title>Representative curves of steady-state kinetic analyses for each IGF1R protein characterized.</title>
                                     <p>Each data point was performed in duplicate and is shown separately.</p>
                                 </caption>
-                                <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-00666-table3-data1.xlsx"/>
+                                <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-1234567890-table3-data1.xlsx"/>
                             </supplementary-material>
                             </p>
                         </caption>
@@ -1654,7 +1654,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <!-- NOTE: the version suffix (e.g. "-v1" is applied by the eLife platform and does not need to be supplied in the XML from the production vendor
                             Change: figures do not need to be contained within <p> and should not be
                             Change: The following has been removed from the XML as it is not necessary to repeat it, can be derived from the object-id DOI:
-                        <p><bold>DOI:</bold><ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.007">http://dx.doi.org/10.7554/eLife.00666.007</ext-link></p> -->
+                        <p><bold>DOI:</bold><ext-link ext-link-type="doi" xlink:href="10.7554/eLife.1234567890.007">http://dx.doi.org/10.7554/eLife.1234567890.007</ext-link></p> -->
                         <fig id="fig1" position="float">
                             <label>Figure 1.</label>
                             <caption>
@@ -1662,7 +1662,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                 <p>In the PDf this is represented as a single column.</p>
                             </caption>
                             <!--  NOTE: file type must be included in the file description. -->
-                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig1.tif"/>
+                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-fig1.tif"/>
                             <!-- Assets within eLife might not always be published under a CC BY license although we endevour to do so. This is an example of how to add a
                                 separate permission statement so it is clear to the human and machine reader that this asset cannot be reused. -->
                             <permissions>
@@ -1685,21 +1685,21 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <title>Figure with figure supplements.</title> 
                             <p>In the PDF this asset box will take full column width. This is the basic information provided about an article. <xref ref-type="fig" rid="fig1">Figure 1</xref> shows an expanded view (<xref ref-type="bibr" rid="bib26">Kok et al., 2015</xref>; <xref ref-type="bibr" rid="bib28">National Institute of Mental Health, 1990</xref>).</p>
                         </caption>
-                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig2.tif"/>
+                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-fig2.tif"/>
                     </fig>
                         <fig id="fig2s1" position="float" specific-use="child-fig">
                             <label>Figure 2&#x2014;figure supplement 1.</label>
                             <caption>
                                 <title>The representation of the Major Subject Areas, Research Organisms and author keywords on the eLife HTML page.</title>
                             </caption>
-                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig2-figsupp1.tif"/>
+                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-fig2-figsupp1.tif"/>
                         </fig>
                         <fig id="fig2s2" position="float" specific-use="child-fig">
                             <label>Figure 2&#x2014;figure supplement 2.</label>
                             <caption>
                                 <title>Representation of figure with figure supplements on the HTML view.</title>
                             </caption>
-                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig2-figsupp2.tif"/>
+                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-fig2-figsupp2.tif"/>
                         </fig>
                     </fig-group>
                     <p><xref ref-type="fig" rid="fig3">Figure 3</xref> is an example of a figure with a figure supplement (<xref ref-type="fig" rid="fig3s1">Figure 3&#x2014;figure supplement 1</xref>) 
@@ -1712,7 +1712,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                             <caption>
                                 <title>Figure with figure supplements and figure supplement with source data and a video (see <xref ref-type="bibr" rid="bib25">Koch, 1959</xref>) .</title>
                             </caption>
-                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig3.tif"/>
+                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-fig3.tif"/>
                         </fig>
                         <fig id="fig3s1" position="float" specific-use="child-fig">
                             <label>Figure 3&#x2014;figure supplement 1.</label>
@@ -1725,14 +1725,14 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                             <title>Title of the figure supplement source data.</title>
                                             <p>Legend of the figure supplement source data.</p>
                                             </caption>
-                                            <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-00666-fig3-figsupp1-data1.xlsx"/>
+                                            <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-1234567890-fig3-figsupp1-data1.xlsx"/>
                                         </supplementary-material>
                                     </p>
                             </caption>
-                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig3-figsupp1.tif"/>
+                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-fig3-figsupp1.tif"/>
                         </fig>
                         <!-- this is an example of an asset asked later on, so the DOI is the last DOI to prevent renumbering the others -->
-                        <media mimetype="video" mime-subtype="mp4" id="fig3video1" xlink:href="elife-00666-fig3-video1.mp4">
+                        <media mimetype="video" mime-subtype="mp4" id="fig3video1" xlink:href="elife-1234567890-fig3-video1.mp4">
                             <label>Figure 3&#x2014;video 1.</label>
                             <caption>
                                 <title>A description of the eLife editorial process.</title>
@@ -1752,11 +1752,11 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                         <title>Title of the source code.</title>
                                         <p>Legend of the source code.</p>
                                     </caption>
-                                    <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-00666-fig4-code1.xlsx"/>
+                                    <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-1234567890-fig4-code1.xlsx"/>
                                 </supplementary-material>
                             </p>
                         </caption>
-                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-fig4.tif"/>
+                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-fig4.tif"/>
                     </fig>
                 </sec>
                 <sec id="s2-5">
@@ -1765,7 +1765,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         shows how we represent animated gif files.</p>
                     <!-- UPDATE: This no longer required: content-type="glencoe play-in-place height-250 width-310"  mime-subtype="wmv" mimetype="video"
                     UPDATE: changed id to videoX -->
-                    <media mimetype="video" mime-subtype="mp4" id="video1" xlink:href="elife-00666-video1.mp4">
+                    <media mimetype="video" mime-subtype="mp4" id="video1" xlink:href="elife-1234567890-video1.mp4">
                         <label>Video 1.</label>
                         <caption>
                             <title>A description of the eLife editorial process.</title>
@@ -1775,12 +1775,12 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                     <title>Title of the source code.</title>
                                     <p>Legend of the source code.</p>
                                 </caption>
-                                <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-00666-video1-data1.xlsx"/>
+                                <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-1234567890-video1-data1.xlsx"/>
                             </supplementary-material>
                             </p>
                         </caption>
                     </media>
-                    <media mimetype="video" mime-subtype="gif" id="video2" xlink:href="elife-00666-video2.gif">
+                    <media mimetype="video" mime-subtype="gif" id="video2" xlink:href="elife-1234567890-video2.gif">
                         <!-- UPDATE: animated gifs must process through the Glencoe video workflow but must retain the mime-subtype="gif" in the XML to ensure the online system recognises this--> 
                         <label>Animation 1.</label>
                         <caption>
@@ -1830,7 +1830,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                                 <title>Box figure.</title>
                             </caption>
                             <!--  NOTE: file type must be included in the file description. -->
-                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-box2-fig1.tif"/>
+                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-box2-fig1.tif"/>
                             </fig>
                         <p>Donec rhoncus in odio non vulputate. Donec vitae enim at erat tincidunt tincidunt in nec arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
                             turpis egestas. Aliquam id nunc id arcu maximus rutrum. Praesent bibendum nisl orci, ac sollicitudin purus aliquam in. Duis eu fermentum arcu. Fusce eget dolor augue. 
@@ -1852,7 +1852,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                 </sec>
                 <sec id="s2-6-4">
                     <title>Inline graphics</title>
-                    <p> Here is an example of pulling in an inline graphic <inline-graphic mimetype="image" mime-subtype="jpeg" xlink:href="elife-00666-inf001.jpeg"/>.</p>
+                    <p> Here is an example of pulling in an inline graphic <inline-graphic mimetype="image" mime-subtype="jpeg" xlink:href="elife-1234567890-inf001.jpeg"/>.</p>
                 </sec>
                 <sec id="s2-6-5">
                     <title>Additional files</title>
@@ -1876,7 +1876,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <caption>
                             <title>Base pairing of 8-oxoguanosine.</title>
                         </caption>
-                        <graphic xlink:href="elife-00666-chem1-fig1.tif" mimetype="image" mime-subtype="tiff"/>
+                        <graphic xlink:href="elife-1234567890-chem1-fig1.tif" mimetype="image" mime-subtype="tiff"/>
                     </fig>
                     <p>A scheme is usually an illustration of a workflow, but at a stretch they can be used to capture small graphs or other graphics that the author wants to include. Please note
                     that files for both schema and chemical structures follow sequentially on from the main figures with no labelling differences.</p>
@@ -1885,7 +1885,7 @@ not add all rids to the xref as it does not work. Only add the first one -->
                         <caption>
                             <title>Zdk dissociation from LOV2.</title>
                         </caption>
-                        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-scheme1-fig1.tif"/>
+                        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-1234567890-scheme1-fig1.tif"/>
                     </fig>
                     <p>While they are anchored in place, both <xref ref-type="fig" rid="C1">Chemical structure 1</xref> and <xref ref-type="fig" rid="S1">Scheme 1</xref> may be cited elsewhere in
                     the article; there is just no requirement that these items be placed after their first citaitons.</p>
@@ -2210,7 +2210,7 @@ but these should be present in the textual entry (see below)-->
         <sec sec-type="supplementary-material" id="s6">
             <title>Additional files</title>
 <!-- UPDATE: The following is removed. Not required for HTML representation, is required for PDF representation only:
-<bold>DOI:</bold><ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00666.XXX">http://dx.doi.org/10.7554/eLife.00666.XXX"</ext-link>
+<bold>DOI:</bold><ext-link ext-link-type="doi" xlink:href="10.7554/eLife.1234567890.XXX">http://dx.doi.org/10.7554/eLife.1234567890.XXX"</ext-link>
 NOTE: if source data or source code are not attached to an individual figure, they are listed in this section.
 All supplementary files are listed here -->             
             <supplementary-material id="supp1">   
@@ -2219,21 +2219,21 @@ All supplementary files are listed here -->
                     <title>This is the title of the supplementary file 1.</title>
                     <p>A file containing underlying data.</p>
                     </caption>
-                <media mimetype="application" mime-subtype="csv" xlink:href="elife-00666-supp1.csv"/>
+                <media mimetype="application" mime-subtype="csv" xlink:href="elife-1234567890-supp1.csv"/>
             </supplementary-material>
             <supplementary-material id="sdata1">   
                 <label>Source data 1.</label>
                 <caption>
                     <title>This is the title of the source data that is not attached to a specific figure, but to the article as a whole.</title>
                 </caption>
-                <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-00666-data1.xlsx"/>
+                <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-1234567890-data1.xlsx"/>
             </supplementary-material>
             <supplementary-material id="scode1">   
                 <label>Source code 1.</label>
                 <caption>
                     <title>This is the title of the source code that is not attached to a specific figure, but to the article as a whole.</title>
                 </caption>
-                <media mimetype="application" mime-subtype="zip" xlink:href="elife-00666-code1.zip"/>
+                <media mimetype="application" mime-subtype="zip" xlink:href="elife-1234567890-code1.zip"/>
             </supplementary-material>
             <supplementary-material id="repstand1">
                 <!-- UPDATE: Must contain a label, which is the generic label to indicate it
@@ -2243,12 +2243,12 @@ All supplementary files are listed here -->
                 <caption>
                     <title>CONSORT checklist.</title>
                 </caption>
-                <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-repstand1.pdf"/>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="elife-1234567890-repstand1.pdf"/>
             </supplementary-material>
             <!-- UPDATE July 2017: added transparent reporting form-->
             <supplementary-material id="transrepform">
                 <label>Transparent reporting form</label>
-                 <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-transrepform.pdf"/>
+                 <media mimetype="application" mime-subtype="pdf" xlink:href="elife-1234567890-transrepform.pdf"/>
             </supplementary-material>
           </sec>        
         <!-- Datasets: this section is subject to change further to outcomes of FORCE11 Data citations working group.
@@ -3963,7 +3963,7 @@ Appendices must have DOIs -->
                         <title>Appendix figure title.</title>
                         <p>If there is a caption to accompany the title it would display here (<xref ref-type="bibr" rid="bib25">Koch, 1959</xref>).</p>
                     </caption>
-                           <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app1-fig1.tif"/>
+                           <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-app1-fig1.tif"/>
                     </fig>
                         <fig id="app1fig1s1" position="float" specific-use="child-fig">
                             <label>Appendix 1&#x2014;figure 1&#x2014;figure supplement 1.</label>
@@ -3971,9 +3971,9 @@ Appendices must have DOIs -->
                                 <title>Appendix figure supplement title.</title>
                                 <p>If there is a caption to accompany the title it would display here.</p>
                             </caption>
-                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app1-fig1-figsupp1.tif"/>
+                            <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-app1-fig1-figsupp1.tif"/>
                         </fig>
-                        <media mimetype="video" mime-subtype="mp4" id="app1fig1video1" xlink:href="elife-00666-app1-fig1-video1.mp4">
+                        <media mimetype="video" mime-subtype="mp4" id="app1fig1video1" xlink:href="elife-1234567890-app1-fig1-video1.mp4">
                             <label>Appendix 1&#x2014;figure 1&#x2014;video 1.</label>
                             <caption>
                                 <title>A video supporting Appendix 1&#x2014;figure 1.</title>
@@ -4195,13 +4195,13 @@ Appendices must have DOIs -->
                             <title>Figure added to demonstrate that not only paragaphs but other forms of content may be included as a child of the boxed-text.</title>
                             <p>If there is a caption to accompany the title it would display here.</p>
                         </caption>
-                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app2-fig1.tif"/>
+                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-app2-fig1.tif"/>
                     </fig>
                     <sec sec-type="appendix" id="s9">
                     <title>Negotaition</title>
                         <p>Generating the new rules involved negotation with varous vendors and downsteam hosts to ensure display would work for all instances. See <xref ref-type="video" rid="app2video1">Appendix 2&#x2014;Video 1</xref> 
                             and <xref ref-type="table" rid="app2table1">Apendix 2&#x2014;table 1</xref>.</p>
-                        <media mimetype="video" mime-subtype="mp4" id="app2video1" xlink:href="elife-00666-app2-video1.mp4">
+                        <media mimetype="video" mime-subtype="mp4" id="app2video1" xlink:href="elife-1234567890-app2-video1.mp4">
                             <label>Appendix 2&#x2014;video 1.</label>
                         <caption>
                             <title>A descirption of the eLife editorial process.</title>
@@ -4256,7 +4256,7 @@ Appendices must have DOIs -->
 UPDATE: article-type has been changed from article-commentary to decision-letter -->    
     <sub-article article-type="decision-letter" id="sa1">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.00666.sa1</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.sa1</article-id>
             <title-group>
                 <article-title>Decision letter</article-title>
             </title-group>
@@ -4324,13 +4324,13 @@ UPDATE: punctuation between institution and country removed.
                     <caption>
                         <p>Single figure: The header of an eLife article example on the HTML page.</p>
                     </caption>
-                    <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa1-fig1.tif"/>
+                    <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-sa1-fig1.tif"/>
                 </fig>
             </body>
     </sub-article>
     <sub-article article-type="reply" id="sa2">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.00666.sa2</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.sa2</article-id>
             <title-group>
                 <article-title>Author response</article-title>
             </title-group>
@@ -4352,7 +4352,7 @@ UPDATE: punctuation between institution and country removed.
                     <caption>
                         <p>Single figure: The header of an eLife article example on the HTML page.</p>
                     </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa2-fig1.tif"/>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-sa2-fig1.tif"/>
                 </fig>
             <table-wrap id="sa2table1" position="float">
                 <label>Author response table 1.</label>
@@ -4411,7 +4411,7 @@ UPDATE: punctuation between institution and country removed.
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="video" mime-subtype="mp4" id="sa2video1" xlink:href="elife-00666-sa2-video1.mp4">
+            <media mimetype="video" mime-subtype="mp4" id="sa2video1" xlink:href="elife-1234567890-sa2-video1.mp4">
                 <label>Author response video 1.</label>
                 <caption>
                     <title>Caption and/or a title is required for all author response assets.</title>
