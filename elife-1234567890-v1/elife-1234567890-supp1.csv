@@ -1,0 +1,39 @@
+Item,Sub-DOI,File name,File extension,ID,ref-type,Cited?,Link to the asset in the XML,mimetype,mime-subtype
+Abstract,10.7554/eLife.1234567890.001,NA,NA,NA,NA,No,NA,NA,NA
+Digest,10.7554/eLife.1234567890.002,NA,NA,NA,NA,No,NA,NA,NA
+Table 1,10.7554/eLife.1234567890.003,NA,NA,table1,table,Yes,NA,NA,NA
+Table 2,10.7554/eLife.1234567890.004,NA,NA,table2,table,Yes,NA,NA,NA
+Table 3,10.7554/eLife.1234567890.005,NA,NA,table3,table,Yes,NA,NA,NA
+Table 3 - source data 1,10.7554/eLife.1234567890.006,elife-1234567890-table3-data1.xlsx,.xlsx,table3sdata1,media,No,"<media mimetype=""xlsx"" xlink:href=""elife-1234567890-table3-data1-v1.xlsx""/>",application,xlsx
+"Table 4 inline, no DOI",,NA,NA,inlinetable1,table,No,NA,NA,NA
+Figure 1,10.7554/eLife.1234567890.007,elife-1234567890-fig1.tiff,.tiff,fig1,fig,Yes,"<graphic xlink:href=""elife-1234567890-fig1-v1.tiff""/>",image,tiff
+Figure 2,10.7554/eLife.1234567890.008,elife-1234567890-fig2.tiff,.tiff,fig2,fig,Yes,"<graphic xlink:href=""elife-1234567890-fig2-v1.tiff""/>",image,tiff
+Figure 2—figure supplement 1,10.7554/eLife.1234567890.009,elife-1234567890-fig2-figsupp1.tiff,.tiff,fig2s1,fig,Yes,"<graphic xlink:href=""elife-1234567890-fig2-figsupp1-v1.tiff""/>",image,tiff
+Figure 2—figure supplement 2,10.7554/eLife.1234567890.010,elife-1234567890-fig2-figsupp2.tiff,.tiff,fig2s2,fig,No,"<graphic xlink:href=""elife-1234567890-fig2-figsupp2-v1.tiff""/>",image,tiff
+Figure 3,10.7554/eLife.1234567890.011,elife-1234567890-fig3.tiff,.tiff,fig3,fig,Yes,"<graphic xlink:href=""elife-1234567890-fig3-v1.tiff""/>",image,tiff
+Figure 3—figure supplement 1,10.7554/eLife.1234567890.012,elife-1234567890-fig3-figsupp1.tiff,.tiff,fig3s1,fig,Yes,"<graphic xlink:href=""elife-1234567890-fig3-figsupp1-v1.tiff""/>",image,tiff
+Figure 3—figure supplement 1—Source data 1,10.7554/eLife.1234567890.013,elife-1234567890-fig3-data1.rtf,.xlsx,fig3sdata1,supplementary-material,Yes," <media mimetype=""xlsx"" xlink:href=""elife-1234567890-fig3-figsupp1-data1-v1.xlsx""/>",application,xlsx
+Figure 3—figure supplement 1—Video 1,10.7554/eLife.1234567890.035,elife-1234567890-fig3-data1-media1.mp4,.mp4,fig3sdata1video1,media,Yes," <media mimetype=""xlsx"" xlink:href=""elife-1234567890-fig3-figsupp1-media1-v1.xlsx""/>",,
+Figure 4,10.7554/eLife.1234567890.014,elife-1234567890-fig4.tiff,.tiff,fig4,fig,Yes,"<graphic xlink:href=""elife-1234567890-fig4-v1.tiff""/>",image,tiff
+Figure 4—Source code 1,10.7554/eLife.1234567890.015,elife-1234567890-fig4-code1.xml,.xml,fig4scode1,supplementary-material,Yes,"<media mimetype=""xlsx"" xlink:href=""elife-1234567890-fig4-data1-v1.xlsx""/>",application,xml
+Video 1,10.7554/eLife.1234567890.016,elife-1234567890-media1.mp4,.mp4,video1,media,Yes,"<media id=""video1"" mimetype=""mov"" xlink:href=""elife-1234567890-media1.mov"">",media,mp4
+Box 1,10.7554/eLife.1234567890.017,NA,NA,box1,box,Yes,NA,NA,NA
+Box figure,10.7554/eLife.1234567890.034,elife-1234567890-box1-fig1.tiff,.tiff,box1fig1,fig,Yes,"<graphic xlink:href=""elife-1234567890-box1-fig1.tiff""/>",image,tiff
+Box 2,10.7554/eLife.1234567890.018,NA,NA,box2,box,Yes,NA,NA,NA
+Supplementary file 1,10.7554/eLife.1234567890.019,elife-1234567890-supp1.csv,.csv,supp1,supplementary-material,Yes,"<media mimetype=""csv"" xlink:href=""elife-1234567890-supp1.csv""/>",application,csv
+Source data 1,10.7554/eLife.1234567890.020,elife-1234567890-data1.xlsx,.xlsx,sdata1,supplementary-material,Yes,"<media mimetype=""xlsx"" xlink:href=""elife-1234567890-data1.xlsx""/>",application,xlsx
+Source code 1,10.7554/eLife.1234567890.021,elife-1234567890-code1.xml,.xml,scode1,supplementary-material,No,"<media mimetype=""xml"" xlink:href=""elife-1234567890-code1.xml""/>",application,xml
+Reporting standard,10.7554/eLife.1234567890.022,elife-1234567890-repstand1.pdf,.pdf,repstand1,supplementary-material,No,"<media mimetype=""jpeg"" xlink:href=""elife-1234567890-repstand1-v1.jpg""/>",application,pdf
+Appendix 1,10.7554/eLife.1234567890.023,NA,NA,s8,appendix,Yes,NA,NA,NA
+Appendix 1—Figure 1,10.7554/eLife.1234567890.024,elife-1234567890-app1-fig1.tiff,.tiff,app1fig1,fig,Yes,"<graphic xlink:href=""elife-1234567890-app1-fig1-v2.tiff""/>",image,tiff
+Appendix 1—Figure 1—Figure supplement 1,10.7554/eLife.1234567890.025,elife-1234567890-app1-fig1-figsupp1.tiff,.tiff,app1fig1s1,fig,Yes,"<graphic xlink:href=""elife-1234567890-app1-fig1-figsupp1-v2.tiff""/>",image,tiff
+Appendix 2,10.7554/eLife.1234567890.026,NA,NA,s9,appendix,Yes,NA,NA,NA
+Appendix 2—video 1,10.7554/eLife.1234567890.027,elife-1234567890-app1-media1.mp4,.mp4,app2video1,media,Yes,"<media id=""appvideo1"" xlink:href=""elife-1234567890-app1-media1.mov"">",media,mp4
+Appendix 2—table 1,10.7554/eLife.1234567890.028,NA,NA,app2table1,table,Yes,NA,NA,NA
+Decision letter,10.7554/eLife.1234567890.029,NA,NA,SA1,NA,No,NA,NA,NA
+Author response,10.7554/eLife.1234567890.030,NA,NA,SA2,NA,No,NA,NA,NA
+Author response—figure 1,10.7554/eLife.1234567890.031,elife-1234567890-resp-fig-1.tiff,.tiff,respfig1,fig,Yes,"<graphic xlink:href=""elife-1234567890-resp-fig-1.tiff""/>",image,tiff
+Author response—table 1,10.7554/eLife.1234567890.032,NA,NA,resptable1,table,Yes,NA,NA,NA
+Author response—video 1,10.7554/eLife.1234567890.033,elife-1234567890-resp-media1.mp4,.mp4,respvideo1,media,Yes,"<media id=""respvideo1"" xlink:href=""elife-04953-resp-media1.avi"">",media,avi
+Inline graphic,NA,elife-1234567890-inf001-v1.jpg,.jpg,NA,inline-graphic,No,"<inline-graphic xlink:href=""elife-1234567890-inf001-v1""/>",image,jpeg
+equation (display formulae),NA,NA,NA,equ1,equation,Yes,NA,NA,NA
