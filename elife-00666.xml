@@ -1,3 +1,29 @@
+<!--
+
+
+
+
+
+
+
+
+
+    to avoid conflict with article 00666,
+    kitchen sink has been copied to: ./elife-1234567890-v1/elife-1234567890-v1.xml
+    please use that.
+
+
+
+
+
+
+
+
+
+
+
+-->
+
 <!-- UPDATE: eLife is updating to the most recent version of JATS, 1.2 --><!--we use subj-groups to indicate eLife-specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits.
 The @article-types currently used are:
 
