@@ -2,7 +2,11 @@
 <!-- Use JATS 1.2 -->
 <!-- All XML would be on one line (with the exception of code snippets with new lines). 
      Only pretty-printed here for readability -->
-<article article-type="research-article" dtd-version="1.2" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/">
+<!-- @specific-use on <article> used to indicate whether the article is PoA, VoR, V2+ VoR
+      PoA = accepted-manuscript 
+      VoR = version-of-record
+      VoR V2 = corrected-version-of-record -->
+<article article-type="research-article" dtd-version="1.2" specific-use="version-of-record" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/">
     <front>
         <journal-meta>
             <journal-id journal-id-type="nlm-ta">elife</journal-id>
@@ -18,21 +22,32 @@
         <article-meta>
             <article-id pub-id-type="publisher-id">00666</article-id>
             <article-id pub-id-type="doi">10.7554/eLife.00666</article-id>
+            <!-- article-version needed for PubRouter
+                
+                article-version-type values: "VoR" | "CVoR"
+                vocab-term values: "Version of Record" | "Corrected Version of Record"
+                article-version values: "version-of-record" | "corrected-version-of-record" -->
+            <article-version vocab="JAV"
+                vocab-identifier="http://www.niso.org/publications/rp/RP-8-2008.pdf"
+                article-version-type="VoR"
+                vocab-term="Version of Record">version-of-record</article-version>
             <article-categories>
-                <subj-group subj-group-type="display-channel">
+                <!-- Change disp-channel to heading (heading needed for PMC)  -->
+                <subj-group subj-group-type="heading">
                     <subject>Research Article</subject>
                 </subj-group>
-                <subj-group subj-group-type="heading">
+                <!-- Change heading to major-subject (better semantics)
+                     More than one subject allowed in the same subj-group -->
+                <subj-group subj-group-type="major-subject">
                     <subject>Medicine</subject>
-                </subj-group>
-                <subj-group subj-group-type="heading">
                     <subject>Neuroscience</subject>
                 </subj-group>
             </article-categories>
             <title-group>
                 <article-title>eLife kitchen sink 2.0</article-title>
             </title-group>
-            <contrib-group>
+            <!-- Add content-type="authors" to contrib-group -->
+            <contrib-group content-type="authors">
                 <!-- Remove id attribute from authors -->
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
                     <name>
@@ -49,14 +64,17 @@
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
                     <!-- Non-credit taxonomy roles included here without the attributes -->
                     <role>I also added this thing which isn't part of the credit taxonomy</role>
-                    <contrib-id authenticated="true"
-                        contrib-id-type="orcid">https://orcid.org/0000-0002-6048-1470</contrib-id>
-                    <email>f.atherden@elifesciences.org</email>
+                    <!-- Remove authenticated attribute -->
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-6048-1470</contrib-id>
+                    <!-- Optional twitter handle
+                         Could be used instead of email for 'correspondence' if desired
+                         Note that this doesn't display on PMC -->
+                    <contrib-id contrib-id-type="twitter">@twitter-handle</contrib-id>
                     <xref ref-type="aff" rid="aff1">1</xref>
-                    <xref ref-type="fn" rid="equal-contrib1">†</xref>
-                    <xref ref-type="fn" rid="fn1">‡</xref>
+                    <xref ref-type="author-notes" rid="equal-contrib1">†</xref>
+                    <xref ref-type="author-notes" rid="fn1">‡</xref>
                     <!-- Without content, these do not show up well in PMC. Do we want to add indicators for these as well? -->
-                    <xref ref-type="fn" rid="conf1"/>
+                    <xref ref-type="author-notes" rid="con1"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
                     <name>
@@ -67,12 +85,12 @@
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
                     <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Writing – review &amp; editing" 
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
-                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-4932-938X</contrib-id>
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4932-938X</contrib-id>
                     <email>...@elifesciences.org</email>
                     <xref ref-type="aff" rid="aff1">1</xref>
-                    <xref ref-type="fn" rid="equal-contrib1">†</xref>
-                    <xref ref-type="fn" rid="fn1">‡</xref>
-                    <xref ref-type="fn" rid="conf2"/>
+                    <xref ref-type="author-notes" rid="equal-contrib1">†</xref>
+                    <xref ref-type="author-notes" rid="fn1">‡</xref>
+                    <xref ref-type="author-notes" rid="con2"/>
                 </contrib>
                 <contrib contrib-type="author" corresp="yes">
                     <collab>Example Group author
@@ -82,14 +100,10 @@
                                     <surname>Gilbert</surname>
                                     <given-names>James</given-names>
                                 </name>
-                                <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-1002-4932-938X</contrib-id>
-                                <aff>
-                                    <institution>eLife</institution>
-                                    <addr-line>
-                                        <named-content content-type="city">Cambridge</named-content>
-                                    </addr-line>
-                                    <country>United Kingdom</country>
-                                </aff>
+                                <contrib-id contrib-id-type="orcid">https://orcid.org/0000-1002-4932-938X</contrib-id>
+                                <!-- Group members link to affiliations in the overall authors contrib-group -->
+                                <xref ref-type="aff" rid="aff1">1</xref>
+                                <xref ref-type="author-notes" rid="con2"/>
                             </contrib>
                         </contrib-group>
                     </collab>
@@ -98,9 +112,11 @@
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/formal-analysis/">Formal Analysis</role>
                     <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Visualization" 
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/visualization/">Visualization</role>
-                    <xref ref-type="fn" rid="conf2"/>
                     <email>...@elifesciences.org</email>
                 </contrib>
+                <!-- No footnote for deceased, just deceased="yes" attribute.
+                     Does not display on PMC.
+                     And not really deceased!! -->
                 <contrib contrib-type="author" equal-contrib="yes" deceased="yes">
                     <name>
                         <surname>Claus</surname>
@@ -111,9 +127,8 @@
                     <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Supervision" 
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/supervision/">Supervision</role>
                     <xref ref-type="aff" rid="aff1">1</xref>
-                    <xref ref-type="fn" rid="equal-contrib2">§</xref>
-                    <xref ref-type="fn" rid="conf2"/>
-                    <xref ref-type="fn" rid="fn2"/>
+                    <xref ref-type="author-notes" rid="equal-contrib2">§</xref>
+                    <xref ref-type="author-notes" rid="con2"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes">
                     <name>
@@ -128,15 +143,20 @@
                     <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Validation" 
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/validation/">Validation</role>
                     <xref ref-type="aff" rid="aff2">2</xref>
-                    <xref ref-type="fn" rid="equal-contrib2">§</xref>
-                    <xref ref-type="fn" rid="conf2"/>
+                    <xref ref-type="author-notes" rid="equal-contrib2">§</xref>
+                    <xref ref-type="author-notes" rid="con2"/>
                 </contrib>
                 <on-behalf-of>on behalf of whoever finds this interesting</on-behalf-of>
                 <aff id="aff1">
                     <label>1</label>
                     <institution>The department of production, eLife Sciences</institution>
-                    <addr-line><named-content content-type="city">Cambridge</named-content></addr-line>
-                    <country>United Kingdom</country>
+                    <!-- city instead of named-content[@content-type='city']. 
+                         No need for addr-line -->
+                    <city>Cambridge</city>
+                    <!-- Add optional state field -->
+                    <state>Cambridgeshire</state>
+                    <!-- country attribute added. Value is 2-digit country code, as specified in ISO 3166-1 -->
+                    <country country="GB">United Kingdom</country>
                 </aff>
                 <aff id="aff2">
                     <label>2</label>
@@ -147,11 +167,13 @@
                         <institution-id institution-id-type="ror">https://ror.org/046rm7j60</institution-id>
                         <institution>JATS4R</institution>
                     </institution-wrap>
-                    <addr-line><named-content content-type="city">Bethesda</named-content></addr-line>
+                    <city>Bethesda</city>
+                    <state>Maryland</state>
                     <country country="US">United States</country>
                 </aff>
             </contrib-group>
-            <contrib-group content-type="section">
+            <!-- Change content-type to peer-review -->
+            <contrib-group content-type="peer-review">
                 <contrib contrib-type="senior_editor">
                     <name>
                         <surname>Eisen</surname>
@@ -163,7 +185,8 @@
                             <institution-id institution-id-type="ror">https://ror.org/01an7q238</institution-id>
                             <institution>University of California, Berkeley</institution>
                         </institution-wrap>
-                        <addr-line><named-content content-type="city">Berkeley</named-content></addr-line>
+                        <city>Berkeley</city>
+                        <state>California</state>
                         <country country="US">United States</country>
                     </aff>
                 </contrib>
@@ -186,17 +209,30 @@
                 <fn fn-type="con" id="equal-contrib2"><label>§</label><p>These authors also contributed equally to this work</p></fn>
                 <!-- General use footnotes used for vanity notes etc. -->
                 <fn fn-type="other" id="fn1"><label>‡</label><p>Author order was decided on a coin toss.</p></fn>
-                <fn fn-type="fn" id="fn2"><label>&#035;</label><p>Deceased (not really!!)</p>
-                </fn>
+                <!-- coi statements moved from sec[@sec-type="additional-information"] in <back> to here -->
+                <fn fn-type="COI-statement" id="con1"><p>is a member of some group, and has shares in some company. No other competing interests to declare.</p></fn>
+                <fn fn-type="COI-statement" id="con2"><p>No competing interests declared</p></fn>
             </author-notes>
-            <pub-date publication-format="electronic" date-type="publication">
+            <!-- Include iso-8601-date attribute  
+                First pub-date (date-type="pub") is the original publication date (PoA) -->
+            <pub-date publication-format="electronic" date-type="pub" iso-8601-date="2020-09-22">
+                <day>22</day>
+                <month>09</month>
+                <year>2020</year>
+            </pub-date>
+            <!-- Second pub date contains the latest publication. In this case the VoR.
+                 date-type="update" attribute for VoR.
+                 Any new version would replace this pub-date[@date-type="update"] and the old VoR pub-date 
+                        would be moved down as an <event> in <pub-history>.   
+            -->
+            <pub-date publication-format="electronic" date-type="update" iso-8601-date="2020-10-22">
                 <day>22</day>
                 <month>10</month>
                 <year>2020</year>
             </pub-date>
-            <pub-date pub-type="collection">
-                <year>2020</year>
-            </pub-date>
+            <!-- No pub-date[@pub-type="collection"]
+                 PoA/VoR can be determined by specific-use attribute on root <article> as described above.
+            -->
             <volume>9</volume>
             <elocation-id>e00666</elocation-id>
             <history>
@@ -211,7 +247,16 @@
                     <year>2020</year>
                 </date>
             </history>
+            <!-- events added to pub-history.
+                 Pending JATS4R rec has this in <history> but that is not currently allowed in JATS 1.2.
+                 In the event of a new version, the first (or more) VoR publication dates would move down here as an event 
+                        and the new version publicaiton date would replace pub-date[@date-type="update"] above.
+                 VoR dates in the <event> would have a self-uri[@content-type="version-of-record"].
+                 Any new version pub dates moved to event (for example if there were 2+ new versions) would have a 
+                        self-uri[@content-type="corrected-version-of-record"].
+            -->
             <pub-history>
+                <!-- events added in chronological order -->
                 <event>
                     <event-desc>This manuscript was published as a preprint at bioRxiv.</event-desc>
                     <date date-type="preprint" iso-8601-date="2019-02-15">
@@ -221,7 +266,16 @@
                     </date>    
                     <!-- Should this be content-type="preprint" or content-type="pre-print"? Examples and text in JATS4R conflict
                             https://jats4r.org/article-publication-and-history-dates/ -->
-                    <self-uri content-type="preprint" xlink:href="https://doi.org/10.1101/2021.11.09.467796"/>   
+                    <self-uri content-type="preprint" xlink:href="https://www.biorxiv.org/content/10.1101/2019.08.22.6666666v1"/>   
+                </event>
+                <event>
+                    <event-desc>The first version of this article was published as an accepted manuscript.</event-desc>
+                    <date date-type="accepted-manuscript" iso-8601-date="2020-09-22">
+                        <day>22</day>
+                        <month>09</month>
+                        <year>2020</year>
+                    </date>
+                    <self-uri content-type="accepted-manuscript" xlink:href="https://elifesciences.org/articles/00666v1"/>
                 </event>
             </pub-history>
             <permissions>
@@ -237,8 +291,16 @@
             <self-uri content-type="pdf" xlink:href="elife-00666.pdf"/>
             <!-- self-uri for (optional) figures pdf too -->
             <self-uri content-type="pdf" xlink:href="elife-00666-figures.pdf"/>
-            <related-article ext-link-type="doi" id="ra1" related-article-type="article-reference" xlink:href="10.7554/eLife.16381"/>
-            <related-article ext-link-type="doi" id="ra2" related-article-type="article-reference" xlink:href="10.7554/eLife.43788"/>
+            <!-- specific-use added to related-article which defines what kind of link it is for the benefit of lax/display on the journal
+            Research Advance -> Research Article can be builds-upon or related-to
+            Anything else to -> Anything else = related-to
+            -->
+            <related-article ext-link-type="doi" id="ra1" related-article-type="article-reference" specific-use="builds-upon" xlink:href="10.7554/eLife.16381"/>
+            <related-article ext-link-type="doi" id="ra2" related-article-type="article-reference" specific-use="related-to" xlink:href="10.7554/eLife.43788"/>
+            <!-- abstract is used for impact statements instead of custom-meta -->
+            <abstract abstract-type="toc">
+                <p>This is an impact <sc>s</sc>tatement <italic>i</italic><sup>a</sup><sub>b</sub>.</p>
+            </abstract>
             <abstract>
                 <sec id="abs1">
                     <title>Background:</title>
@@ -308,7 +370,8 @@
                 <title>eLife digest</title>
                 <p>This is a digest.</p>
             </abstract>
-            <kwd-group kwd-group-type="author-keywords">
+            <!-- kwd-group-type="author-keywords" changed to kwd-group-type="author-generated" -->
+            <kwd-group kwd-group-type="author-generated">
                 <kwd>flight</kwd>
                 <kwd>swimming</kwd>
                 <kwd>locomotion</kwd>
@@ -317,7 +380,7 @@
                 <kwd>wing</kwd>
             </kwd-group>
             <kwd-group kwd-group-type="research-organism">
-                <title>Research organism</title>
+                <!-- title (<title>Research organism</title>) is removed -->
                 <kwd>Human</kwd>
                 <kwd>Mouse</kwd>
             </kwd-group>
@@ -326,7 +389,8 @@
                  If the funder is in the open funder registry then there is an institution-id -->
             <funding-group>
                 <award-group id="fund1">
-                    <funding-source>
+                    <!-- country attribute added to funding-source -->
+                    <funding-source country="US">
                         <institution-wrap>
                             <!-- vocab and vocab-identifier attribute added. institution-id-type changed to doi -->
                             <institution-id institution-id-type="doi" vocab="open-funder-registry" vocab-identifier="10.13039/open-funder-registry">10.13039/100000002</institution-id>
@@ -337,7 +401,7 @@
                     <!-- No longer any need to identify which authors were benefited by which funding -->
                 </award-group>
                 <award-group id="fund2">
-                    <funding-source>
+                    <funding-source country="GB">
                         <institution-wrap>
                             <institution>eLife Sciences</institution>
                         </institution-wrap>
@@ -348,8 +412,16 @@
             </funding-group>
             <custom-meta-group>
                 <custom-meta specific-use="meta-only">
-                    <meta-name>Author impact statement</meta-name>
-                    <meta-value>This is an impact statement <italic>i</italic><sup>a</sup><sub>b</sub>.</meta-value>
+                    <!-- Change from Template to pdf-template -->
+                    <meta-name>pdf-template</meta-name>
+                    <!-- All articles given this value, even research articles. If we were not to simplify our current PDF templates, then it could be template 6 -->
+                    <meta-value>6</meta-value>
+                </custom-meta>
+                <custom-meta specific-use="meta-only">
+                    <!-- New custom meta-name -->
+                    <meta-name>source-file-type</meta-name>
+                    <!-- File type for original manuscript. latex or word (or others if needed) -->
+                    <meta-value>latex</meta-value>
                 </custom-meta>
                 <!-- Add flag for XML version. This specfies that the file is in the new format -->
                 <custom-meta specific-use="meta-only">
@@ -362,13 +434,20 @@
     <body>
         <sec id="s1" sec-type="intro">
             <title>Introduction</title>
-            <p>Lorem <bold>ipsum</bold> <italic>dolor</italic> <sup>sit</sup> <sub>amet</sub>, <sc>consectetur</sc> <monospace>adipiscing</monospace> <strike>elit</strike>. <underline>In</underline> <roman>maximus</roman>, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc. Mauris quis iaculis diam (see Appendix 1) Etiam nec blandit ipsum, venenatis ornare libero. Aliquam sed tincidunt nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vehicula varius placerat. Maecenas sed dictum eros, eu consequat eros (<xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>) nulla a sodales tellus (see Results). Nunc id eros quis neque vehicula accumsan. Fusce a dolor non ligula euismod semper. Aoin tempor dolor nec sapien ornare, sed volutpat libero cursus. Duis at tempus lacus. Vestibulum dapibus sem sit amet sapien pulvinar, nec vestibulum est pulvinar (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="fig" rid="fig1">Figure 1</xref>; <xref ref-type="fig" rid="fig1s1">Figure 1&#x2014;figure supplement 1</xref>; <xref ref-type="video" rid="fig1video1">Figure 2&#x2014;video 1</xref>).</p>
+            <p>Lorem <bold>ipsum</bold> <italic>dolor</italic> <sup>sit</sup> <sub>amet</sub>, <sc>consectetur</sc> <monospace>adipiscing</monospace> <strike>elit</strike>. <underline>In</underline> <roman>maximus</roman>, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc. Mauris quis iaculis diam (see<!-- appendices can be cited --> <xref ref-type="app" rid="appendix-1">Appendix 1</xref>) Etiam nec blandit ipsum, venenatis ornare libero. Aliquam sed tincidunt nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vehicula varius placerat. Maecenas sed dictum eros, eu consequat eros (<xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>) nulla a sodales tellus (see<!-- sections can be cited --> <xref ref-type="sec" rid="s2">Results</xref>). Nunc id eros quis neque vehicula accumsan. Fusce a dolor non ligula euismod semper. <!-- definitions can be linked to from the text --><xref ref-type="list" rid="def1">Aoin</xref> tempor dolor nec <xref ref-type="list" rid="def4">sapien</xref> ornare, sed volutpat libero cursus. Duis at tempus lacus. Vestibulum dapibus sem sit amet sapien pulvinar, nec vestibulum est pulvinar (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="fig" rid="fig1">Figure 1</xref>; <xref ref-type="fig" rid="fig1s1">Figure 1&#x2014;figure supplement 1</xref>; <xref ref-type="video" rid="fig1video1">Figure 2&#x2014;video 1</xref>).</p>
             <fig-group>
+                <!-- caption added here as it is a requirement for JATS4R.
+                     Content is the boilerplate text which is added to the bottom of the pdf.
+                     specific-use="print" means that it is ignored for eLife/PMC website display. -->
+                <caption specific-use="print">
+                    <p>The online version of this article includes the following video(s), source data, source code, and figure supplement(s) for Figure 1:</p>
+                </caption>
                 <fig id="fig1" position="float">
                     <label>Figure 1.</label>
                     <caption>
                         <title>Figure title (<xref ref-type="bibr" rid="bib15">Wahls, 2016</xref>).</title>
-                        <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells... (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="supplementary-material" rid="fig1sdata1">Figure 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1sdata2">Figure 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1scode1">Figure 1&#x2014;source code 1</xref>).</p>
+                        <!-- specific-use="part-label" on bold used for semantics. Could be hooked from Libero Editor -->
+                        <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of Hip1R. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells... (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="supplementary-material" rid="fig1sdata1">Figure 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1sdata2">Figure 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1scode1">Figure 1&#x2014;source code 1</xref>).</p>
                         <p>We use the following model (<xref ref-type="disp-formula" rid="equ1">Equation 1</xref>) to represent the dynamics of a population of cells in which the transcription factors NANOG and GATA6 mutually repress each other through extracellular growth factor signaling:
                             <disp-formula id="equ1">
                                 <label>(1)</label>
@@ -461,7 +540,10 @@
                                         </mml:mstyle>
                                     </mml:math>
                                 </disp-formula></p>
-                        <!-- Pending a suspected change in JATS 1.X or 2.0 supplementary-material could be captured as a child of fig, or could be captured in the addition files section in <back> and linked to with an <xref> which is a direct child of the object, rather than inside a p in the caption. For now kept as is, because this is not permitted in JATS. -->
+                        <!-- Pending a suspected change in JATS 1.2 supplementary-material could be captured as a child of fig, 
+                            or could be captured in the addition files section in <back> and linked to with an <xref> which is a 
+                            direct child of the object, rather than inside a p in the caption.
+                            For now kept as is, because this is not permitted in JATS. -->
                         <p><supplementary-material id="fig1sdata1">
                             <label>Figure 1&#x2014;source data 1.</label>
                             <caption>
@@ -489,7 +571,14 @@
                                 <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-fig1-code1.zip"/>
                             </supplementary-material></p>
                     </caption>
-                        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-fig1.tif"/><permissions>
+                    <!-- alternative used for various formats of the same image. 
+                    This could, for example, be a print and web version
+                    Versions for PDF are flagged using specific-use="print" -->
+                    <alternatives>
+                        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-fig1.tif"/>
+                        <graphic mime-subtype="postscript" mimetype="application" specific-use="print" xlink:href="elife-00666-fig1.ps"/>
+                    </alternatives>
+                    <permissions>
                         <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
                         <copyright-year>2004</copyright-year>
                         <copyright-holder>American Society for Cell Biology</copyright-holder>
@@ -503,7 +592,7 @@
                         <copyright-holder>copyright holder</copyright-holder>
                         <license>
                             <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
-                            <license-p>Panel D is reproduced from <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref> published under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution License (CC BY-NC-ND 4.0)</ext-link></license-p>
+                            <license-p>Panel D is reproduced from <xref ref-type="bibr" rid="bib16">World Health Organization, 2015</xref> published under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution License (CC BY-NC-ND 4.0)</ext-link></license-p>
                         </license>
                     </permissions>
                 </fig>
@@ -511,7 +600,7 @@
                     <label>Figure 1&#x2014;figure supplement 1.</label>
                     <caption>
                         <title>Figure supplement title.</title>
-                        <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells... (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="supplementary-material" rid="fig1s1sdata1">Figure 1&#x2014;figure supplement 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1s1sdata2">Figure 1&#x2014;figure supplement 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1s1scode1">Figure 1&#x2014;figure supplement 1&#x2014;source code 1</xref>).</p>
+                        <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of Hip1R. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells... (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="supplementary-material" rid="fig1s1sdata1">Figure 1&#x2014;figure supplement 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1s1sdata2">Figure 1&#x2014;figure supplement 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1s1scode1">Figure 1&#x2014;figure supplement 1&#x2014;source code 1</xref>).</p>
                         <p><supplementary-material id="fig1s1sdata1">
                             <label>Figure 1&#x2014;figure supplement 1&#x2014;source data 1.</label>
                             <caption>
@@ -539,6 +628,7 @@
                                 <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-fig1-figsupp1-code1.zip"/>
                             </supplementary-material></p>
                     </caption>
+                    <!-- alternatives is not required when there's only one version -->
                     <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-fig1-figsupp1.tif"/>
                     <permissions>
                         <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
@@ -554,7 +644,7 @@
                         <copyright-holder>copyright holder</copyright-holder>
                         <license>
                             <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
-                            <license-p>Panel D is reproduced from <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref> published under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution License (CC BY-NC-ND 4.0)</ext-link></license-p>
+                            <license-p>Panel D is reproduced from <xref ref-type="bibr" rid="bib16">World Health Organization, 2015</xref> published under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution License (CC BY-NC-ND 4.0)</ext-link></license-p>
                         </license>
                     </permissions>
                 </fig>
@@ -613,7 +703,7 @@
             <p>... (<xref ref-type="bibr" rid="bib3">Galkin et al., 2010a</xref>; <xref ref-type="bibr" rid="bib4">Galkin et al., 2010b</xref>) ... <xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>.</p>
             <sec id="s2-1">
                 <title>Section level 2</title>
-                <p><xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>; <xref ref-type="bibr" rid="bib16">Zok, 2020</xref>; <xref ref-type="bibr" rid="bib17">Zurray, 2019</xref> lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc.</p>
+                <p><xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>; <xref ref-type="bibr" rid="bib17">Zok, 2020</xref>; <xref ref-type="bibr" rid="bib18">Zurray, 2019</xref> lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc.</p>
             </sec>
             <sec id="s2-2">
                 <title>Section level 2</title>
@@ -636,7 +726,7 @@
                                     <title>This is the title.</title>
                                     <p>This is the caption: A table containing interesting formating that is large enough to require landscape orientation in the PDF.</p>
                                     <p>
-                                        <!-- Pending change in JATS 1.X-2.0, could be captured as a child of <table-wrap> instead -->
+                                        <!-- Pending change in JATS 1.2, could be captured as a child of <table-wrap> instead -->
                                         <supplementary-material id="table1sdata1">
                                             <label>Table 1&#x2014;source data 1.</label>
                                             <caption><title>Representative curves of steady-state kinetic analyses for each IGF1R protein characterized.</title>
@@ -650,7 +740,7 @@
                                     <thead>
                                         <tr>
                                             <th colspan="3" rowspan="2"> </th>
-                                            <th align="center" colspan="8">GLV<italic>s</italic> (percent IS plant<sup>-1</sup>)</th>
+                                            <th align="center" colspan="8"><xref ref-type="list" rid="def2">GLV<italic>s</italic></xref> (percent IS plant<sup>-1</sup>)</th>
                                             <th align="center" colspan="17">TPS10 products (percent IS plant<sup>-1</sup>)</th>
                                             <th align="center" colspan="10">Non-target volatiles (percent IS plant<sup>-1</sup>)</th>
                                         </tr>
@@ -678,7 +768,8 @@
                                             <td><bold>Night</bold></td>
                                         </tr>
                                         <tr>
-                                            <td><bold>WT</bold><sup>*</sup></td>
+                                            <!-- The following table cell contains a link to a footnote -->
+                                            <td><bold>WT</bold><xref ref-type="fn" rid="table1-fn1"><sup>*</sup></xref></td>
                                             <td>8</td><td>8 (<xref ref-type="bibr" rid="bib9">Onoda, 2015</xref>)</td>
                                             <td>0.99%</td>
                                             <td>±</td>
@@ -1102,7 +1193,9 @@ module load anaconda</code>
                     </list-item>
                 </list>
                 <p>Adding this paragraph here would split this list.</p>
-                <list id="list2" list-type="order">
+                <!-- continued-from attribute used to continue list which has been split by other content.
+                     Must have same list-type as list which is referenced. -->
+                <list id="list2" continued-from="list1" list-type="order">
                     <list-item>
                         <p><named-content content-type="sequence"><sup>C</sup><sub>T</sub>TAGTCT<styled-content style="color: #D50000">CGAGATCTCCATGTTTACTTATA</styled-content>CAGCTCATCCATGCC</named-content></p>
                     </list-item>
@@ -1120,25 +1213,19 @@ module load anaconda</code>
         </ack>
         <sec id="s5" sec-type="additional-information">
             <title>Additional information</title>
-            <fn-group content-type="competing-interest">
-                <title>Competing interests</title>
-                <fn fn-type="COI-statement" id="conf1"><p>is a member of some group, and has shares in some company. No other competing interests to declare.</p></fn>
-                <fn fn-type="COI-statement" id="conf2"><p>No competing interests declared</p></fn>
-            </fn-group>
-            <fn-group content-type="ethics-information">
+            <sec id="s5-1" sec-type="ethics-statement">
                 <title>Ethics</title>
-                <fn fn-type="other">
-                    <p>Human subjects: If Research Ethics Committee and Institutional Review Board approval was required for this article the details would be listed here.</p>
-                </fn>
-                <fn fn-type="other">
-                    <p>Animal subjects: If there were animal subjects involved in the study the approval number for the research along with protocol approval would be listed here.</p>
-                </fn>
-                <fn fn-type="other">
-                    <p>If this article was part of a clinical trial and the article didn't have a structured abstract, the Clinical trial registry and ID would be listed here, for example:</p>
-                    <p>Clinical trial Registry: EudraCT.</p>
-                    <p>Registration ID: EudraCT2004-000446-20.</p>
-                </fn>
-            </fn-group>
+                <!-- Add content-type to <p>s -->
+                <p content-type="ethics-approval-human">Human subjects: Fresh tissue samples were obtained upon informed consent from patients undergoing surgery at the Gynecology Division of the European Institute of Oncology (Milan). Sample collection was performed under the protocol number R789-IEO approved by the Ethics Committee of the European Institute of Oncology.</p>
+                <p content-type="ethics-approval-animal">Animal experimentation: All animal studies were performed following a protocol approved by the fully authorized animal facility of European  Institute of Oncology and by the Italian Ministry of Health (as required by the Italian Law) (IACUCs number 1256/2015) and in accordance to EU directive 2010/63. Mouse tissues were obtained from Karolinska Institutet (Stockholm, Sweden) and IRCCS San Raffaele Scientific Institute (Milan, Italy), in  accordance with Institutional Animal Care and Use Committees.</p>
+                <p>Clinical trial registration <related-object document-id="NCT01967030" 
+                    document-id-type="clinical-trial-number" 
+                    id="RO3" 
+                    source-id="ClinicalTrials.gov" 
+                    source-id-type="registry-name" 
+                    source-type="clinical-trials-registry" xlink:href="https://clinicaltrials.gov/show/NCT01967030"
+                    >NCT01967030</related-object>. Protocols can be assessed at ...</p>
+            </sec>
         </sec>
         <sec id="s6" sec-type="supplementary-material">
             <title>Additional files</title>         
@@ -1182,6 +1269,37 @@ module load anaconda</code>
                 <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-transrepform.pdf"/>
             </supplementary-material>
         </sec>
+        <!-- Add glossary. This contains abbreviations that can be linked to throughout the article (main text, appendices, tables figure captions etc.). -->
+        <glossary>
+            <title>Abbreviations</title>
+            <def-list>
+                <def-item id="def1">
+                    <!-- italic, monospace, sup and sub permitted in term -->
+                    <term>Aoin<sup>2</sup></term>
+                    <def>
+                        <p>This definition can also contain minimal formatting such as <bold>bold</bold>, <italic>italic</italic> <sup>superscript</sup>, and <sub>subscript</sub></p>
+                    </def>
+                </def-item>
+                <def-item id="def2">
+                    <term>GLV<italic>s</italic></term>
+                    <def>
+                        <p>Green leaf volatiles</p>
+                    </def>
+                </def-item>
+                <def-item id="def3">
+                    <term>Hip1R</term>
+                    <def>
+                        <p>Huntingtin-interacting protein 1-related protein</p>
+                    </def>
+                </def-item>
+                <def-item id="def4">
+                    <term>sapien</term>
+                    <def>
+                        <p>This is the definition for the term</p>
+                    </def>
+                </def-item>
+            </def-list>
+        </glossary>
         <sec id="s7" sec-type="data-availability">
             <title>Data availability</title>
             <!-- data references are included in the ref list and can be cited, as in the main text -->
@@ -1499,9 +1617,28 @@ module load anaconda</code>
                 <elocation-id>e42697</elocation-id>
                 <pub-id pub-id-type="doi">10.7554/eLife.42697</pub-id>
                 <pub-id pub-id-type="pmid">31038122</pub-id>
+                <!-- Add PMCID -->
+                <pub-id pub-id-type="pmcid">PMC6491038</pub-id>
               </element-citation>
             </ref>
             <ref id="bib15">
+              <element-citation publication-type="periodical">
+                <person-group person-group-type="author">
+                  <name>
+                    <surname>Wahls</surname>
+                    <given-names>WP</given-names>
+                  </name>
+                </person-group>
+                  <!-- iso-8601-date moved from year to string-date -->
+                  <string-date iso-8601-date="2016-10-03"><month>October</month> <day>3</day>, <year>2016</year></string-date>
+                <article-title>Send my tax dollars to Mississippi</article-title>
+                <source>ASBMB Today</source>
+                <volume>15</volume>
+                <fpage>24</fpage>
+                <lpage>25</lpage>
+              </element-citation>
+            </ref>
+            <ref id="bib16">
               <element-citation publication-type="report">
                 <person-group person-group-type="author">
                   <collab>World Health Organization</collab>
@@ -1513,7 +1650,7 @@ module load anaconda</code>
                 <ext-link ext-link-type="uri" xlink:href="http://www.who.int/malaria/publications/world-malaria-report-2015/en/">http://www.who.int/malaria/publications/world-malaria-report-2015/en/</ext-link>
               </element-citation>
             </ref>
-            <ref id="bib16">
+            <ref id="bib17">
                 <!-- General data repositories can be cited using <ext-link> -->
                 <element-citation publication-type="data" specific-use="analyzed">
                     <person-group person-group-type="author">
@@ -1528,7 +1665,7 @@ module load anaconda</code>
                     <ext-link ext-link-type="uri" xlink:href="https://www.gisaid.org/">https://www.gisaid.org/</ext-link>
                 </element-citation>
             </ref>
-            <ref id="bib17">
+            <ref id="bib18">
                 <element-citation publication-type="preprint">
                     <person-group person-group-type="author">
                         <name>
@@ -1854,11 +1991,17 @@ module load anaconda</code>
                     <title>Section title</title>
                     <p>... <xref ref-type="fig" rid="app3fig1">Appendix 3&#x2014;figure 1</xref> (<xref ref-type="supplementary-material" rid="app3fig1sdata1">Appendix 3&#x2014;figure 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="app3fig1sdata2">Appendix 3&#x2014;figure 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="app3fig1scode1">Appendix 3&#x2014;figure 1&#x2014;source code 1</xref>).</p>
                     <fig-group>
+                        <caption specific-use="print">
+                            <p>The online version of this article includes the following video(s), source data, source code, and figure supplement(s) for Appendix 3&#x2014;figure 1:</p>
+                        </caption>
                         <fig id="app3fig1" position="float">
                             <label>Appendix 3&#x2014;figure 1.</label>
                             <caption>
                                 <title>Figure title.</title>
-                                <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="fig" rid="app3fig1s1">Appendix 3&#x2014;figure 1&#x2014;figure supplement 1</xref>).</p>
+                                <!-- specific-use="part-label" on bold used for semantics. Could be hooked from Libero Editor -->
+                                <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of <xref ref-type="list" rid="def3">Hip1R</xref>. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="fig" rid="app3fig1s1">Appendix 3&#x2014;figure 1&#x2014;figure supplement 1</xref>).</p>
+                                <!-- Pending a suspected change in JATS 1.2 supplementary-material could be captured as a child of fig,
+                        rather than inside a p in the caption. -->
                                 <p><supplementary-material id="app3fig1sdata1">
                                     <label>Appendix 3&#x2014;figure 1&#x2014;source data 1.</label>
                                     <caption>
@@ -1909,7 +2052,10 @@ module load anaconda</code>
                             <label>Appendix 3&#x2014;figure 1&#x2014;figure supplement 1.</label>
                             <caption>
                                 <title>Figure supplement title.</title>
-                                <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666.</p>
+                                <!-- specific-use="part-label" on bold used for semantics. Could be hooked from Libero Editor -->
+                                <p>(<bold specific-use="part-label">A, B</bold>) Dependence of CME on Hip1R. (<bold specific-use="part-label">A</bold>) Simulation varying number of Hip1R. (<bold specific-use="part-label">B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold specific-use="part-label">C</bold>) Simulation. (<bold specific-use="part-label">D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold specific-use="part-label">E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold specific-use="part-label">G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666.</p>
+                                <!-- Pending a suspected change in JATS 1.2 supplementary-material could be captured as a child of fig,
+                        rather than inside a p in the caption. -->
                                 <p><supplementary-material id="app3fig1s1sdata1">
                                     <label>Appendix 3&#x2014;figure 1&#x2014;figure supplement 1&#x2014;source data 1.</label>
                                     <caption>
@@ -1982,7 +2128,7 @@ module load anaconda</code>
                     </name>
                     <!-- role element added with appropriate specific-use attribute value -->
                     <role specific-use="editor">Reviewing Editor</role>
-                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0000-0404-000X</contrib-id>
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0000-0404-000X</contrib-id>
                     <aff>
                         <!-- ROR ids also permitted here -->
                         <institution-wrap>
@@ -1993,7 +2139,7 @@ module load anaconda</code>
                     </aff>
                 </contrib>
             </contrib-group>
-            <related-object id="sa0ro1" object-id="10.1101/2021.11.09.467796" object-id-type="id" link-type="continued-by" xlink:href="https://sciety.org/articles/activity/10.1101/2021.11.09.467796"/>
+            <related-object id="sa0ro1" object-id="10.1101/2020.11.21.391326" object-id-type="id" link-type="continued-by" xlink:href="https://sciety.org/articles/activity/10.1101/2020.11.21.391326"/>
         </front-stub>
         <body>
             <p>This is an Editor's evaluation, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos.</p>
@@ -2015,7 +2161,7 @@ module load anaconda</code>
                     </name>
                     <!-- role element added with appropriate specific-use attribute value -->
                     <role specific-use="editor">Reviewing Editor</role>
-                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0000-0404-000X</contrib-id>
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0000-0404-000X</contrib-id>
                     <aff>
                         <!-- ROR ids also permitted here -->
                         <institution-wrap>
@@ -2032,7 +2178,7 @@ module load anaconda</code>
                     <name><surname>Taylor</surname><given-names>J Paul</given-names></name>
                     <!-- role element added with appropriate specific-use attribute value -->
                     <role specific-use="referee">Reviewer</role>
-                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0070-0001-0404-000X</contrib-id>
+                    <contrib-id contrib-id-type="orcid">https://orcid.org/0070-0001-0404-000X</contrib-id>
                     <aff>
                         <institution>St Jude Children's Research Hospital</institution>
                         <country country="US">United States</country>
