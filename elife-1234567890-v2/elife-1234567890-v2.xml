@@ -696,7 +696,7 @@
                                                     - Grey: #E6E6E6
                                                  Including it in this way means that the colours are rendered on PMC.
                                             -->
-                                            <td style="background-color: #90caf9">7.96%</td>
+                                            <td style="background-color: #90caf9;">7.96%</td>
                                             <td>±</td>
                                             <td>4.25%</td>
                                             <!-- Coloured text is styled using styled-content instead of named-content.
@@ -708,12 +708,12 @@
                                                  Note that background-colour is not allowed for styled-content as it is not 
                                                     permitted for text, only table cells.
                                             -->
-                                            <td rowspan="2" valign="middle"><styled-content style="color: #366BFB">}</styled-content></td>
-                                            <td rowspan="2" valign="middle"><bold><styled-content style="color: #9C27B0">a</styled-content></bold></td>
+                                            <td rowspan="2" valign="middle"><styled-content style="color: #366BFB;">}</styled-content></td>
+                                            <td rowspan="2" valign="middle"><bold><styled-content style="color: #9C27B0;">a</styled-content></bold></td>
                                             <td>0.37%</td>
                                             <td>±</td>
                                             <td>0.29%</td>
-                                            <td><styled-content style="color: #D50000">b</styled-content></td>
+                                            <td><styled-content style="color: #D50000;">b</styled-content></td>
                                             <td colspan="3">&#x2014;</td>
                                             <td> </td>
                                             <td rowspan="3" valign="middle">}</td>
@@ -857,7 +857,7 @@
         </sec>
         <sec sec-type="discussion" id="s3">
             <title>Discussion</title>
-            <p>... <styled-content style="color: #366BFB">Here is another example of coloured text</styled-content>.</p>
+            <p>... <styled-content style="color: #366BFB;">Here is another example of coloured text</styled-content>.</p>
             <p>The function of the Discussion is to interpret your results in light of what was already known about the subject of the investigation, and to explain our new understanding of the problem after taking your results into consideration (<xref ref-type="bibr" rid="bib11">R Development core team, 2017</xref>; <xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>; <xref ref-type="bibr" rid="bib4">Galkin et al., 2010b</xref>; <xref ref-type="box" rid="box1">Box 1</xref>). The Discussion will always connect to the Introduction by way of the question(s) or hypotheses you posed and the literature you cited, but it does not simply repeat or rearrange the Introduction (<xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref>). Instead, it tells how your study has moved us forward from the place you left us at the end of the Introduction as in <xref ref-type="bibr" rid="bib11">R Development core team, 2017</xref>; <xref ref-type="fig" rid="box1fig1">Box 1&#x2014;figure 1</xref>.</p>
             <!-- Add @position for PDF in case we want any boxes that can float -->
             <boxed-text id="box1" position="anchor">
@@ -1098,13 +1098,13 @@ module load anaconda</code>
                         <p><named-content content-type="sequence"><underline>C</underline>TAGTCTCGAGATCTCCATGTTTACTTATACAGCTCATCCATGCC</named-content></p>
                     </list-item>
                     <list-item>
-                        <p><named-content content-type="sequence"><italic>C</italic>TAGTCTCGAGATCTCCATGTTTACTTA<styled-content style="color: #9C27B0">CGAGATCTCCATGTTTACTTATA</styled-content>GCC</named-content></p>
+                        <p><named-content content-type="sequence"><italic>C</italic>TAGTCTCGAGATCTCCATGTTTACTTA<styled-content style="color: #9C27B0;">CGAGATCTCCATGTTTACTTATA</styled-content>GCC</named-content></p>
                     </list-item>
                 </list>
                 <p>Adding this paragraph here would split this list.</p>
                 <list id="list2" list-type="order">
                     <list-item>
-                        <p><named-content content-type="sequence"><sup>C</sup><sub>T</sub>TAGTCT<styled-content style="color: #D50000">CGAGATCTCCATGTTTACTTATA</styled-content>CAGCTCATCCATGCC</named-content></p>
+                        <p><named-content content-type="sequence"><sup>C</sup><sub>T</sub>TAGTCT<styled-content style="color: #D50000;">CGAGATCTCCATGTTTACTTATA</styled-content>CAGCTCATCCATGCC</named-content></p>
                     </list-item>
                     <list-item>
                         <p><named-content content-type="sequence">CTAGTCTCGAGATCTCCATGTTTACTTATACAGCTCATCCATGCC</named-content></p>
