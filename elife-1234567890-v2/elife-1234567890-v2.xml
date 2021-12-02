@@ -353,8 +353,8 @@
                 </custom-meta>
                 <!-- Add flag for XML version. This specfies that the file is in the new format -->
                 <custom-meta specific-use="meta-only">
-                    <meta-name>elife-xml-version</meta-name>
-                    <meta-value>2.0</meta-value>
+                    <meta-name>schema-version</meta-name>
+                    <meta-value>2.0.0</meta-value>
                 </custom-meta>
             </custom-meta-group>
         </article-meta>
