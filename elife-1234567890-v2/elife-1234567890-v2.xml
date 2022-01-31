@@ -94,8 +94,8 @@
                         </contrib-group>
                     </collab>
                     <!-- group author roles added at the top level -->
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Formal Analysis" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/formal-analysis/">Formal Analysis</role>
+                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Formal analysis" 
+                        vocab-term-identifier="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
                     <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Visualization" 
                         vocab-term-identifier="http://credit.niso.org/contributor-roles/visualization/">Visualization</role>
                     <xref ref-type="fn" rid="conf2"/>
@@ -362,12 +362,12 @@
     <body>
         <sec id="s1" sec-type="intro">
             <title>Introduction</title>
-            <p>Lorem <bold>ipsum</bold> <italic>dolor</italic> <sup>sit</sup> <sub>amet</sub>, <sc>consectetur</sc> <monospace>adipiscing</monospace> <strike>elit</strike>. <underline>In</underline> <roman>maximus</roman>, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc. Mauris quis iaculis diam (see Appendix 1) Etiam nec blandit ipsum, venenatis ornare libero. Aliquam sed tincidunt nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vehicula varius placerat. Maecenas sed dictum eros, eu consequat eros (<xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>) nulla a sodales tellus (see Results). Nunc id eros quis neque vehicula accumsan. Fusce a dolor non ligula euismod semper. Aoin tempor dolor nec sapien ornare, sed volutpat libero cursus. Duis at tempus lacus. Vestibulum dapibus sem sit amet sapien pulvinar, nec vestibulum est pulvinar (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="fig" rid="fig1">Figure 1</xref>; <xref ref-type="fig" rid="fig1s1">Figure 1&#x2014;figure supplement 1</xref>; <xref ref-type="video" rid="fig1video1">Figure 2&#x2014;video 1</xref>).</p>
+            <p>Lorem <bold>ipsum</bold> <italic>dolor</italic> <sup>sit</sup> <sub>amet</sub>, <sc>consectetur</sc> <monospace>adipiscing</monospace> elit. <underline>In</underline> maximus, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc. Mauris quis iaculis diam (see Appendix 1) Etiam nec blandit ipsum, venenatis ornare libero. Aliquam sed tincidunt nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vehicula varius placerat. Maecenas sed dictum eros, eu consequat eros (<xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>) nulla a sodales tellus (see Results). Nunc id eros quis neque vehicula accumsan. Fusce a dolor non ligula euismod semper. Aoin tempor dolor nec sapien ornare, sed volutpat libero cursus. Duis at tempus lacus. Vestibulum dapibus sem sit amet sapien pulvinar, nec vestibulum est pulvinar (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="fig" rid="fig1">Figure 1</xref>; <xref ref-type="fig" rid="fig1s1">Figure 1&#x2014;figure supplement 1</xref>; <xref ref-type="video" rid="fig1video1">Figure 2&#x2014;video 1</xref>).</p>
             <fig-group>
                 <fig id="fig1" position="float">
                     <label>Figure 1.</label>
                     <caption>
-                        <title>Figure title (<xref ref-type="bibr" rid="bib15">Wahls, 2016</xref>).</title>
+                        <title>Figure title (<xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>).</title>
                         <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells... (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="supplementary-material" rid="fig1sdata1">Figure 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1sdata2">Figure 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1scode1">Figure 1&#x2014;source code 1</xref>).</p>
                         <p>We use the following model (<xref ref-type="disp-formula" rid="equ1">Equation 1</xref>) to represent the dynamics of a population of cells in which the transcription factors NANOG and GATA6 mutually repress each other through extracellular growth factor signaling:
                             <disp-formula id="equ1">
@@ -474,7 +474,7 @@
                             <supplementary-material id="fig1sdata2">
                                 <label>Figure 1&#x2014;source data 2.</label>
                                 <caption>
-                                    <title>Source data title (<xref ref-type="bibr" rid="bib15">Wahls, 2016</xref>).</title>
+                                    <title>Source data title (<xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>).</title>
                                     <p>Source data caption.</p>
                                 </caption>
                                 <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-fig1-data1.zip"/>
@@ -484,7 +484,7 @@
                                 <label>Figure 1&#x2014;source code 1.</label>
                                 <caption>
                                     <title>Source code title.</title>
-                                    <p>Source code caption <xref ref-type="bibr" rid="bib15">Wahls, 2016</xref>.</p>
+                                    <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
                                 </caption>
                                 <media mime-subtype="zip" mimetype="application" xlink:href="elife-00666-fig1-code1.zip"/>
                             </supplementary-material></p>
@@ -494,7 +494,7 @@
                         <copyright-year>2004</copyright-year>
                         <copyright-holder>American Society for Cell Biology</copyright-holder>
                         <license>
-                            <license-p>Panel B is reproduced from <xref ref-type="bibr" rid="bib15">Wahls, 2016</xref> with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.</license-p>
+                            <license-p>Panel B is reproduced from <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref> with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.</license-p>
                         </license>
                     </permissions>
                     <permissions>
@@ -545,7 +545,7 @@
                         <copyright-year>2004</copyright-year>
                         <copyright-holder>American Society for Cell Biology</copyright-holder>
                         <license>
-                            <license-p>Panel B is reproduced from <xref ref-type="bibr" rid="bib15">Wahls, 2016</xref> with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.</license-p>
+                            <license-p>Panel B is reproduced from <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref> with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.</license-p>
                         </license>
                     </permissions>
                     <permissions>
@@ -576,17 +576,17 @@
             </fig-group>
             <sec id="s1-1">
                 <title>Section level 2</title>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc (<xref ref-type="fig" rid="chem1">Chemical structure 1</xref>; <xref ref-type="fig" rid="scheme1">Scheme 1</xref>).</p>
-                <fig id="chem1" position="anchor">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc (<xref ref-type="fig" rid="C1">Chemical structure 1</xref>; <xref ref-type="fig" rid="S1">Scheme 1</xref>).</p>
+                <fig id="C1" position="anchor">
                     <label>Chemical structure 1.</label>
                     <caption>
                         <title>Synthesis of N-(5-methylthiazol-2-yl)−3-oxobutanamide (3).</title>
                         <p>To a solution of 5-methylthiazol-2-amine (1) (0.5 g; 4.39 mmol) in xylene (10 ml) was added 2, 2-dimethyl-4H-1, 3-dioxin-4-one (2) (685 mg; 4.83 mmol). <xref ref-type="bibr" rid="bib3">Galkin et al., 2010a</xref>. The mixture was stirred for 12 hr at 135°C, then cooled to room temperature. The solution was filtered and washed with petroleum ether, after filtration, the solid was used directly without purification (3) (0.73 g; 3.69 mmol, 84%). <sup>1</sup>H NMR (400 MHz, DMSO-<italic>d</italic><sub>6</sub>) δ 11.95 (s, 1H), 7.13 (s, 1H), 3.66 (s, 2H), 2.34 (s, 3H), 2.19 (s, 3H); <sup>13</sup>C NMR (101 MHz, DMSO-<italic>d</italic><sub>6</sub>) δ 202.68, 165.26, 156.30, 135.18, 126.70, 51.22, 30.70, 11.53; HRMS (<italic>m/z</italic>): [M+H]<sup>+</sup> calculated for C<sub>8</sub>H<sub>11</sub>N<sub>2</sub>O<sub>2</sub>S, 199.0530; found, 199.0548.</p>
                     </caption>
                     <!-- Filename change - see https://github.com/elifesciences/issues/issues/6256 -->
-                    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-chem1-fig1.tif"/>
+                    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-C1-fig1.tif"/>
                 </fig>
-                <fig id="scheme1" position="anchor">
+                <fig id="S1" position="anchor">
                     <label>Scheme 1.</label>
                     <caption>
                         <title>General procedure A.</title>
@@ -858,13 +858,13 @@
         <sec sec-type="discussion" id="s3">
             <title>Discussion</title>
             <p>... <styled-content style="color: #366BFB;">Here is another example of coloured text</styled-content>.</p>
-            <p>The function of the Discussion is to interpret your results in light of what was already known about the subject of the investigation, and to explain our new understanding of the problem after taking your results into consideration (<xref ref-type="bibr" rid="bib11">R Development core team, 2017</xref>; <xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>; <xref ref-type="bibr" rid="bib4">Galkin et al., 2010b</xref>; <xref ref-type="box" rid="box1">Box 1</xref>). The Discussion will always connect to the Introduction by way of the question(s) or hypotheses you posed and the literature you cited, but it does not simply repeat or rearrange the Introduction (<xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref>). Instead, it tells how your study has moved us forward from the place you left us at the end of the Introduction as in <xref ref-type="bibr" rid="bib11">R Development core team, 2017</xref>; <xref ref-type="fig" rid="box1fig1">Box 1&#x2014;figure 1</xref>.</p>
+            <p>The function of the Discussion is to interpret your results in light of what was already known about the subject of the investigation, and to explain our new understanding of the problem after taking your results into consideration (<xref ref-type="bibr" rid="bib11">R Development Core Team, 2017</xref>; <xref ref-type="bibr" rid="bib1">Cantaut-Belarif et al., 2020</xref>; <xref ref-type="bibr" rid="bib4">Galkin et al., 2010b</xref>; <xref ref-type="box" rid="box1">Box 1</xref>). The Discussion will always connect to the Introduction by way of the question(s) or hypotheses you posed and the literature you cited, but it does not simply repeat or rearrange the Introduction (<xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref>). Instead, it tells how your study has moved us forward from the place you left us at the end of the Introduction as in <xref ref-type="bibr" rid="bib11">R Development Core Team, 2017</xref>; <xref ref-type="fig" rid="box1fig1">Box 1&#x2014;figure 1</xref>.</p>
             <!-- Add @position for PDF in case we want any boxes that can float -->
             <boxed-text id="box1" position="anchor">
                 <label>Box 1.</label>
                 <caption>
                     <!-- title instead of caption/p -->
-                    <title>What can you do now? (<xref ref-type="bibr" rid="bib15">Wahls, 2016</xref>)</title>
+                    <title>What can you do now? (<xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>)</title>
                 </caption>
                 <fig id="box1fig1" position="anchor">
                     <label>Box 1&#x2014;figure 1.</label>
@@ -875,57 +875,51 @@
                     </caption>
                     <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-box1-fig1.tif"/>
                 </fig>
-                <!-- sections in boxes -->
-                <sec id="box1s1">
-                    <title>Box title level 1</title>
-                    <p>...</p>
-                    <!-- lists have ids -->
-                    <list id="box1list1" list-type="order">
-                        <list-item>
-                            <p>'Contamination'</p>
-                            <list id="box1list2" list-type="roman-lower">
-                                <list-item>
-                                    <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
-                                </list-item>
-                                <list-item>
-                                    <p><italic>C. elegans</italic></p>
-                                </list-item>
-                            </list>
-                        </list-item>
-                    </list>
-                    <p>... <disp-formula id="box1equ1">
-                            <mml:math id="m2">
+                <p>...</p>
+                <list list-type="order">
+                    <list-item>
+                        <p>'Contamination'</p>
+                        <list list-type="roman-lower">
+                            <list-item>
+                                <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
+                            </list-item>
+                            <list-item>
+                                <p><italic>C. elegans</italic></p>
+                            </list-item>
+                        </list>
+                    </list-item>
+                </list>
+                <p>... <disp-formula id="equ100000000">
+                    <mml:math id="m2">
+                        <mml:mi>P</mml:mi>
+                        <mml:mi>P</mml:mi>
+                        <mml:mi>V</mml:mi>
+                        <mml:mi/>
+                        <mml:mo>=</mml:mo>
+                        <mml:mi/>
+                        <mml:mfrac>
+                            <mml:mrow>
+                                <mml:mi>T</mml:mi>
                                 <mml:mi>P</mml:mi>
-                                <mml:mi>P</mml:mi>
-                                <mml:mi>V</mml:mi>
-                                <mml:mi/>
-                                <mml:mo>=</mml:mo>
-                                <mml:mi/>
-                                <mml:mfrac>
-                                    <mml:mrow>
-                                        <mml:mi>T</mml:mi>
-                                        <mml:mi>P</mml:mi>
                                     </mml:mrow>
-                                    <mml:mrow>
-                                        <mml:mi>T</mml:mi>
-                                        <mml:mi>P</mml:mi>
-                                        <mml:mi/>
-                                        <mml:mo>+</mml:mo>
-                                        <mml:mi/>
-                                        <mml:mi>F</mml:mi>
-                                        <mml:mi>P</mml:mi>
+                            <mml:mrow>
+                                <mml:mi>T</mml:mi>
+                                <mml:mi>P</mml:mi>
+                                <mml:mi/>
+                                <mml:mo>+</mml:mo>
+                                <mml:mi/>
+                                <mml:mi>F</mml:mi>
+                                <mml:mi>P</mml:mi>
                                     </mml:mrow>
                                 </mml:mfrac>
                             </mml:math>
                     </disp-formula>where each term above describes the rate of events that change the epidemic state: Births (<inline-formula>
-                            <mml:math id="infm2">
-                                <mml:mi>B</mml:mi>
-                            </mml:math>
+                        <mml:math id="infm2">
+                            <mml:mi>B</mml:mi>
+                        </mml:math>
                     </inline-formula>), loss of maternally derived protection after MAB vaccination (<xref ref-type="bibr" rid="bib13">Spangler, 2014</xref>).</p>
-                    <sec id="box1s1-1">
-                        <title>Box title level 2</title>
-                        <p>...</p>
-                        <list id="box1list3" list-type="simple">
+                <p>...</p>
+                <list list-type="simple">
                             <list-item>
                                 <p>'Contamination'</p>
                                 <list id="box1list4" list-type="roman-upper">
@@ -938,17 +932,7 @@
                                 </list>
                             </list-item>
                         </list>
-                        <!-- Up to 3 box sections permitted (depending on where in the text it is captured):
-                                h1 = article-title
-                                h2 = assume box is in a top-level section at least
-                                h3 = box title
-                                h4-6 = 3 levels of box sections -->
-                        <sec id="box1s1-1-1">
-                            <title>Box title level 3</title>
-                            <p>...</p>
-                        </sec>
-                    </sec>
-                </sec>
+                <p>...</p>
             </boxed-text>
         </sec>
         <sec sec-type="materials|methods" id="s4">
@@ -1122,7 +1106,7 @@ module load anaconda</code>
             <title>Additional information</title>
             <fn-group content-type="competing-interest">
                 <title>Competing interests</title>
-                <fn fn-type="COI-statement" id="conf1"><p>is a member of some group, and has shares in some company. No other competing interests to declare.</p></fn>
+                <fn fn-type="COI-statement" id="conf1"><p>is a member of some group, and has shares in some company. No other competing interests to declare</p></fn>
                 <fn fn-type="COI-statement" id="conf2"><p>No competing interests declared</p></fn>
             </fn-group>
             <fn-group content-type="ethics-information">
@@ -1130,9 +1114,7 @@ module load anaconda</code>
                 <fn fn-type="other">
                     <p>Human subjects: If Research Ethics Committee and Institutional Review Board approval was required for this article the details would be listed here.</p>
                 </fn>
-                <fn fn-type="other">
-                    <p>Animal subjects: If there were animal subjects involved in the study the approval number for the research along with protocol approval would be listed here.</p>
-                </fn>
+                <fn fn-type="other"><p>Animal subjects: If there were animal subjects involved in the study the approval number for the research along with protocol approval would be listed here.</p></fn>
                 <fn fn-type="other">
                     <p>If this article was part of a clinical trial and the article didn't have a structured abstract, the Clinical trial registry and ID would be listed here, for example:</p>
                     <p>Clinical trial Registry: EudraCT.</p>
@@ -1218,9 +1200,9 @@ module load anaconda</code>
                   </name>
                 </person-group>
                 <year iso-8601-date="2020">2020</year>
-                <article-title>MATLAB scripts for Adrenergic activation modulates the signal from the Reissner fiber to cerebrospinal fluid-contacting neurons during development</article-title>
+                <data-title>MATLAB scripts for Adrenergic activation modulates the signal from the Reissner fiber to cerebrospinal fluid-contacting neurons during development</data-title>
                 <source>Software Heritage</source>
-                  <ext-link ext-link-type="uri" xlink:href="https://archive.softwareheritage.org/swh:1:rev:3396034de4726cb8c895a6e43bbc3d774b726fcb/">https://archive.softwareheritage.org/swh:1:rev:3396034de4726cb8c895a6e43bbc3d774b726fcb/</ext-link>
+                  <ext-link ext-link-type="uri" xlink:href="https://archive.softwareheritage.org/swh:1:dir:1f91fb94fed0c4a03fc9056163b442f9f9b9abd1;origin=https://github.com/wyartlab/Cantaut-Belarif-et-al.-2020;visit=swh:1:snp:2e499081fea02d16adea6449c5637a879ce0c7da;anchor=swh:1:rev:3396034de4726cb8c895a6e43bbc3d774b726fcb">https://archive.softwareheritage.org/swh:1:dir:1f91fb94fed0c4a03fc9056163b442f9f9b9abd1;origin=https://github.com/wyartlab/Cantaut-Belarif-et-al.-2020;visit=swh:1:snp:2e499081fea02d16adea6449c5637a879ce0c7da;anchor=swh:1:rev:3396034de4726cb8c895a6e43bbc3d774b726fcb</ext-link>
               </element-citation>
             </ref>
             <ref id="bib2">
@@ -1443,10 +1425,10 @@ module load anaconda</code>
             <ref id="bib11">
                 <element-citation publication-type="software">
                     <person-group person-group-type="author">
-                        <collab>R Development core team</collab>
+                        <collab>R Development Core Team</collab>
                     </person-group>
                     <year iso-8601-date="2017">2017</year>
-                    <article-title>R: a language and environment for statistical computing</article-title>
+                    <data-title>R: a language and environment for statistical computing</data-title>
                     <version designator="3.3.2">3.3.2</version>
                     <publisher-loc>Vienna, Austria</publisher-loc>
                     <publisher-name>R Foundation for Statistical Computing</publisher-name>
@@ -1657,8 +1639,7 @@ module load anaconda</code>
                                 <td>S2</td>
                                 <td>other</td>
                                 <td>FLYB:FBtc0000181; RRID:<ext-link ext-link-type="uri" xlink:href="https://identifiers.org/RRID/RRID:CVCL_Z992">CVCL_Z992</ext-link></td>
-                                <td>Cell line maintained in N. Perrimon lab; FlyBase symbol:
-                                    S2-DRSC.</td>
+                                <td>Cell line maintained in N. Perrimon lab; FlyBase symbol: S2-DRSC.</td>
                             </tr>
                             <tr>
                                 <td>antibody</td>
@@ -1734,7 +1715,7 @@ module load anaconda</code>
                                 <td>recombinant DNA reagent</td>
                                 <td>pAHW (Gateway vector)</td>
                                 <td>Drosophila Genomics Resource Center</td>
-                                <td>DGRC:1095 (<xref ref-type="bibr" rid="bib11">R Development core team, 2017</xref>)</td>
+                                <td>DGRC:1095 (<xref ref-type="bibr" rid="bib11">R Development Core Team, 2017</xref>)</td>
                                 <td>&#x00A0;</td>
                             </tr>
                             <tr>
@@ -1777,8 +1758,7 @@ module load anaconda</code>
                     <fig id="app2fig1" position="float">
                         <label>Appendix 2&#x2014;figure 1.</label>
                         <caption>
-                            <title>Figure added to demonstrate that not only paragaphs but other forms of
-                                content may be included as a child of the boxed-text.</title>
+                            <title>Figure added to demonstrate that not only paragaphs but other forms of content may be included as a child of the boxed-text.</title>
                             <p>If there is a caption to accompany the title it would display here (<xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>).</p>
                         </caption>
                         <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app2-fig1.tif"/>
@@ -1790,7 +1770,7 @@ module load anaconda</code>
                         </caption>
                         <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-app2-scheme1-fig1.tif"/>
                     </fig>
-                    <fig id="app2chem1" position="float">
+                    <fig id="app2C1" position="float">
                         <label>Appendix 2&#x2014;chemical structure 1.</label>
                         <caption>
                             <title>Chemical structure title.</title>
@@ -1799,10 +1779,10 @@ module load anaconda</code>
                     </fig>
                     <sec id="app2s2">
                         <title>Appendix heading level 1</title>
-                        <p>... <xref ref-type="disp-formula" rid="app2equ1">Equation 1</xref> <disp-formula id="app2equ1">
+                        <p>... <xref ref-type="disp-formula" rid="equ696">Equation 1</xref> <disp-formula id="equ696">
                             <label>(1)</label>
                             <!-- math id includes app id prefix -->
-                                <mml:math id="app2m1">
+                                <mml:math id="m696">
                                     <mml:mrow>
                                         <mml:mi>ϕ</mml:mi>
                                         <mml:mo>=</mml:mo>
@@ -1858,7 +1838,7 @@ module load anaconda</code>
                             <label>Appendix 3&#x2014;figure 1.</label>
                             <caption>
                                 <title>Figure title.</title>
-                                <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="fig" rid="app3fig1s1">Appendix 3&#x2014;figure 1&#x2014;figure supplement 1</xref>).</p>
+                                <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="fig" rid="app3fig1s1">Appendix 3&#x2014;figure 1&#x2014;figure supplement 1</xref>).</p>
                                 <p><supplementary-material id="app3fig1sdata1">
                                     <label>Appendix 3&#x2014;figure 1&#x2014;source data 1.</label>
                                     <caption>
@@ -1909,7 +1889,7 @@ module load anaconda</code>
                             <label>Appendix 3&#x2014;figure 1&#x2014;figure supplement 1.</label>
                             <caption>
                                 <title>Figure supplement title.</title>
-                                <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells.. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666.</p>
+                                <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells. (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666.</p>
                                 <p><supplementary-material id="app3fig1s1sdata1">
                                     <label>Appendix 3&#x2014;figure 1&#x2014;figure supplement 1&#x2014;source data 1.</label>
                                     <caption>
@@ -1982,7 +1962,7 @@ module load anaconda</code>
                     </name>
                     <!-- role element added with appropriate specific-use attribute value -->
                     <role specific-use="editor">Reviewing Editor</role>
-                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0000-0404-000X</contrib-id>
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0000-0404-001X</contrib-id>
                     <aff>
                         <!-- ROR ids also permitted here -->
                         <institution-wrap>
@@ -2074,7 +2054,7 @@ module load anaconda</code>
             <p><bold>Acceptance summary:</bold></p>
             <p>This paper combines two complementary approaches, translating ribosome affinity purification (TRAP) and ribosome profiling, to provide the first quantitative insight into the impact of PrP<sup>Sc</sup> on cell type-specific translation. Surprisingly few translational changes were detected in neurons. In contrast, substantial alterations to translation were evident in astrocytes and microglia prior to manifestation of prion disease features, suggesting that aberrant translation in these cell types may be a primary driver of neurodegeneration.</p>
             <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
-            <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough  information contained within the tagging to generate a typeset PDF from the XML with no additional information provided. See <xref ref-type="fig" rid="sa1fig1">Decision letter image 1.</xref>, <xref ref-type="table" rid="sa1table1">Decision letter table 1</xref> and <xref ref-type="video" rid="sa1video1">Decision letter video 1</xref>.</p>
+            <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided. See <xref ref-type="fig" rid="sa1fig1">Decision letter image 1.</xref>, <xref ref-type="table" rid="sa1table1">Decision letter table 1</xref> and <xref ref-type="video" rid="sa1video1">Decision letter video 1</xref>.</p>
             <fig id="sa1fig1" position="float">
                 <label>Decision letter image 1.</label>
                 <caption>
@@ -2385,7 +2365,7 @@ module load anaconda</code>
                 <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
                 <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
             </disp-quote>
-            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa2fig1">Author response image 1.</xref>,  <xref ref-type="video" rid="sa2video1">Author response video 1</xref> and <xref ref-type="table" rid="sa2table1">Author response table 1</xref>.</p>
+            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa2fig1">Author response image 1.</xref>, <xref ref-type="video" rid="sa2video1">Author response video 1</xref> and <xref ref-type="table" rid="sa2table1">Author response table 1</xref>.</p>
             <fig id="sa2fig1" position="float">
                 <label>Author response image 1.</label>
                 <caption>
@@ -2456,7 +2436,7 @@ module load anaconda</code>
                     <title>Caption and/or a title is required for all author response assets.</title>
                 </caption>
             </media>
-            <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} order to produce rules for the  production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.</p>
+            <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} order to produce rules for the production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.</p>
             <p>Adding some MathML to the sub-article.<inline-formula>
                 <mml:math id="sa2m1">
                     <mml:mstyle displaystyle="true" scriptlevel="0">
