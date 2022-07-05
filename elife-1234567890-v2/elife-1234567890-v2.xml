@@ -334,9 +334,9 @@
             <kwd-group kwd-group-type="badges">
                 <!-- Controlled vocabulary for badge values: Open Data, Open Materials, Prereigstered -->
                 <title>Badges</title>
-                <kwd>Open Data</kwd>
-                <kwd>Open Materials</kwd>
-                <kwd>Prereigstered</kwd>
+                <kwd><ext-link ext-link-type="uri" xlink:href="https://www.cos.io/initiatives/badges">Open Data</ext-link></kwd>
+                <kwd><ext-link ext-link-type="uri" xlink:href="https://www.cos.io/initiatives/badges">Open Materials</ext-link></kwd>
+                <kwd><ext-link ext-link-type="uri" xlink:href="https://www.cos.io/initiatives/badges">Prereigstered</ext-link></kwd>
             </kwd-group>
             <!-- Funding is no longer linked to from the authors (using xref), since this information is not displayed in the pop-up on the website anyway
                  If a funding source is not in the open funder registry then there is no institution-id
@@ -1993,14 +1993,14 @@ module load anaconda</code>
             </contrib-group>
             <kwd-group kwd-group-type="Importance-of-claim">
                 <!-- Controlled vocabulary of importance values: Landmark; Fundamental; Important; Noteworthy; Useful; Flawed -->
-                <kwd>Landmark</kwd>
+                <kwd><ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Landmark</ext-link></kwd>
             </kwd-group>
             <kwd-group kwd-group-type="Strength-of-evidence">
                 <!-- Controlled vocabulary of strength values: Tour-de-force; Compelling; Convincing; Solid; Incomplete; Inadequate -->
                 <kwd>Compelling</kwd>
             </kwd-group>
             <!-- remove sciety related object? Update? -->
-            <related-object id="sa0ro1" object-id="10.1101/2021.11.09.467796" object-id-type="id" link-type="continued-by" xlink:href="https://sciety.org/articles/activity/10.1101/2021.11.09.467796"/>
+            <!-- <related-object id="sa0ro1" object-id="10.1101/2021.11.09.467796" object-id-type="id" link-type="continued-by" xlink:href="https://sciety.org/articles/activity/10.1101/2021.11.09.467796"/> -->
         </front-stub>
         <body>
             <p>This is an Editor's summary, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos.</p>
@@ -2325,7 +2325,7 @@ module load anaconda</code>
             </custom-meta-group>
         </front-stub>
         <body>
-            <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted.</p>
+            <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted. Reviews may be published anonymously.</p>
         </body>
     </sub-article>
     <sub-article id="sa3" article-type="referee-report">
@@ -2360,7 +2360,7 @@ module load anaconda</code>
             </custom-meta-group>
         </front-stub>
         <body>
-            <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted.</p>
+            <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted. Reviews may be published anonymously.</p>
         </body>
     </sub-article>
     <!-- article-type changed from reply to author-comment -->
