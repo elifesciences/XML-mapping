@@ -192,36 +192,45 @@
             <pub-date publication-format="electronic" date-type="publication">
                 <day>22</day>
                 <month>10</month>
-                <year>2020</year>
+                <year>2023</year>
             </pub-date>
             <pub-date pub-type="collection">
-                <year>2020</year>
+                <year>2023</year>
             </pub-date>
-            <volume>9</volume>
+            <volume>12</volume>
             <elocation-id>e00666</elocation-id>
             <history>
-                <date date-type="received" iso-8601-date="2020-03-20">
+                <date date-type="received" iso-8601-date="2023-03-20">
                     <day>20</day>
                     <month>03</month>
-                    <year>2020</year>
+                    <year>2023</year>
                 </date>
-                <date date-type="accepted" iso-8601-date="2020-09-18">
-                    <day>18</day>
-                    <month>09</month>
-                    <year>2020</year>
+                <date date-type="reviewed" iso-8601-date="2023-03-20">
+                    <day>10</day>
+                    <month>04</month>
+                    <year>2023</year>
                 </date>
             </history>
             <pub-history>
                 <event>
                     <event-desc>This manuscript was published as a preprint at bioRxiv.</event-desc>
-                    <date date-type="preprint" iso-8601-date="2019-02-15">
+                    <date date-type="preprint" iso-8601-date="2023-02-15">
                         <day>15</day>
                         <month>02</month>
-                        <year>2019</year>
+                        <year>2023</year>
                     </date>    
                     <!-- Should this be content-type="preprint" or content-type="pre-print"? Examples and text in JATS4R conflict
                             https://jats4r.org/article-publication-and-history-dates/ -->
                     <self-uri content-type="preprint" xlink:href="https://doi.org/10.1101/2021.11.09.467796"/>   
+                </event>
+                <event>
+                    <event-desc>This manuscript was published as a reviewed preprint at ????.</event-desc>
+                    <date date-type="preprint" iso-8601-date="2023-04-10">
+                        <day>10</day>
+                        <month>04</month>
+                        <year>2023</year>
+                    </date>
+                    <self-uri content-type="preprint" xlink:href="https://doi.org/?????????"/>   
                 </event>
             </pub-history>
             <permissions>
@@ -240,6 +249,7 @@
             <related-article ext-link-type="doi" id="ra1" related-article-type="article-reference" xlink:href="10.7554/eLife.16381"/>
             <related-article ext-link-type="doi" id="ra2" related-article-type="article-reference" xlink:href="10.7554/eLife.43788"/>
             <abstract>
+                <!-- Example is a structured abstract; unstructured abstracts consist of a single paragraph of text -->
                 <sec id="abs1">
                     <title>Background:</title>
                     <p>Since 2015, the World <italic>Health</italic> Organisation (WHO) <sup>a</sup><sub>b</sub>... <inline-formula>
@@ -320,6 +330,13 @@
                 <title>Research organism</title>
                 <kwd>Human</kwd>
                 <kwd>Mouse</kwd>
+            </kwd-group>
+            <kwd-group kwd-group-type="badges">
+                <!-- Controlled vocabulary for badge values: Open Data, Open Materials, Prereigstered -->
+                <title>Badges</title>
+                <kwd>Open Data</kwd>
+                <kwd>Open Materials</kwd>
+                <kwd>Prereigstered</kwd>
             </kwd-group>
             <!-- Funding is no longer linked to from the authors (using xref), since this information is not displayed in the pop-up on the website anyway
                  If a funding source is not in the open funder registry then there is no institution-id
@@ -1952,7 +1969,8 @@ module load anaconda</code>
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.62927.sa0</article-id>
             <title-group>
-                <article-title>Editor's evaluation</article-title>
+                <!-- 'Editor's evaluation' changed to 'Editor's summary' -->
+                <article-title>Editor's summary</article-title>
             </title-group>
             <contrib-group>
                 <contrib contrib-type="author">
@@ -1973,10 +1991,19 @@ module load anaconda</code>
                     </aff>
                 </contrib>
             </contrib-group>
+            <kwd-group kwd-group-type="Importance-of-claim">
+                <!-- Controlled vocabulary of importance values: Landmark; Fundamental; Important; Noteworthy; Useful; Flawed -->
+                <kwd>Landmark</kwd>
+            </kwd-group>
+            <kwd-group kwd-group-type="Strength-of-evidence">
+                <!-- Controlled vocabulary of strength values: Tour-de-force; Compelling; Convincing; Solid; Incomplete; Inadequate -->
+                <kwd>Compelling</kwd>
+            </kwd-group>
+            <!-- remove sciety related object? Update? -->
             <related-object id="sa0ro1" object-id="10.1101/2021.11.09.467796" object-id-type="id" link-type="continued-by" xlink:href="https://sciety.org/articles/activity/10.1101/2021.11.09.467796"/>
         </front-stub>
         <body>
-            <p>This is an Editor's evaluation, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos.</p>
+            <p>This is an Editor's summary, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos.</p>
         </body>
     </sub-article>
     <!-- article-type changed from decision-letter to referee-report -->
@@ -1984,30 +2011,10 @@ module load anaconda</code>
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.00666.sa1</article-id>
             <title-group>
-                <article-title>Decision letter</article-title>
+                <article-title>Reviewer recommendations</article-title>
             </title-group>
             <contrib-group>
-                <!-- contrib-type changed to author -->
-                <contrib contrib-type="author">
-                    <name>
-                        <surname>Helaine</surname>
-                        <given-names>Sophie</given-names>
-                    </name>
-                    <!-- role element added with appropriate specific-use attribute value -->
-                    <role specific-use="editor">Reviewing Editor</role>
-                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0000-0404-000X</contrib-id>
-                    <aff>
-                        <!-- ROR ids also permitted here -->
-                        <institution-wrap>
-                            <institution-id institution-id-type="ror">https://ror.org/041kmwe10</institution-id>
-                            <institution>Imperial College London</institution>
-                        </institution-wrap>
-                        <country country="GB">United Kingdom</country>
-                    </aff>
-                </contrib>
-            </contrib-group>
-            <contrib-group>
-                <!-- contrib-type changed to author -->
+                <!-- contrib-type changed to author, only one reviewer per reviwer report -->
                 <contrib contrib-type="author">
                     <name><surname>Taylor</surname><given-names>J Paul</given-names></name>
                     <!-- role element added with appropriate specific-use attribute value -->
@@ -2017,15 +2024,6 @@ module load anaconda</code>
                         <institution>St Jude Children's Research Hospital</institution>
                         <country country="US">United States</country>
                     </aff>
-                </contrib>
-                <!-- Each anonymous reviewer is still added -->
-                <contrib contrib-type="author">
-                    <anonymous/>
-                    <role specific-use="referee">Reviewer</role>
-                </contrib>
-                <contrib contrib-type="author">
-                    <anonymous/>
-                    <role specific-use="referee">Reviewer</role>
                 </contrib>
             </contrib-group>
             <custom-meta-group>
@@ -2047,25 +2045,20 @@ module load anaconda</code>
             </custom-meta-group>
         </front-stub>
         <body>
-            <boxed-text>
-                <p>In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.</p>
-            </boxed-text>
-            <p>[Editors' note: this paper was reviewed by <ext-link ext-link-type="uri" xlink:href="https://www.reviewcommons.org/">Review Commons</ext-link>.]</p>
-            <p><bold>Acceptance summary:</bold></p>
             <p>This paper combines two complementary approaches, translating ribosome affinity purification (TRAP) and ribosome profiling, to provide the first quantitative insight into the impact of PrP<sup>Sc</sup> on cell type-specific translation. Surprisingly few translational changes were detected in neurons. In contrast, substantial alterations to translation were evident in astrocytes and microglia prior to manifestation of prion disease features, suggesting that aberrant translation in these cell types may be a primary driver of neurodegeneration.</p>
             <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
             <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided. See <xref ref-type="fig" rid="sa1fig1">Decision letter image 1.</xref>, <xref ref-type="table" rid="sa1table1">Decision letter table 1</xref> and <xref ref-type="video" rid="sa1video1">Decision letter video 1</xref>.</p>
             <fig id="sa1fig1" position="float">
-                <label>Decision letter image 1.</label>
+                <label>Review image 1.</label>
                 <caption>
                     <p>Single figure: The header of an eLife article example on the HTML page.</p>
                 </caption>
                 <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa1-fig1.tif"/>
             </fig>
             <table-wrap id="sa1table1" position="float">
-                <label>Decision letter table 1.</label>
+                <label>Review table 1.</label>
                 <caption>
-                    <p>Decision letter table.</p>
+                    <p>Review table.</p>
                 </caption>
                 <table frame="hsides" rules="groups">
                     <thead>
@@ -2300,10 +2293,80 @@ module load anaconda</code>
             </list>
         </body>
     </sub-article>
-    <!-- article-type changed from reply to author-comment -->
-    <sub-article article-type="author-comment" id="sa2">
+    <sub-article id="sa2" article-type="referee-report">
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.00666.sa2</article-id>
+            <title-group>
+                <article-title>Reviewer recommendations</article-title>
+            </title-group>
+            <contrib-group>
+                <!-- Anonymous reviewer -->
+                <contrib contrib-type="author">
+                    <anonymous/>
+                    <role specific-use="referee">Reviewer</role>
+                </contrib>
+            </contrib-group>
+            <custom-meta-group>
+                <!-- custom-meta to indicate that this decision letter was transferred from elsewhere -->
+                <custom-meta>
+                    <meta-name>transferred-from</meta-name>
+                    <meta-value>Review Commons</meta-value>
+                </custom-meta>
+                <!-- custom-meta to indicate decision -->
+                <custom-meta>
+                    <meta-name>peer-review-recommendation</meta-name>
+                    <meta-value>accept-in-principle</meta-value>
+                </custom-meta>
+                <!-- custom-meta to indicate peer review type -->
+                <custom-meta>
+                    <meta-name>PeerReviewType</meta-name>
+                    <meta-value>visible</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted.</p>
+        </body>
+    </sub-article>
+    <sub-article id="sa3" article-type="referee-report">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.sa3</article-id>
+            <title-group>
+                <article-title>Reviewer recommendations</article-title>
+            </title-group>
+            <contrib-group>
+                <!-- Anonymous reviewer -->
+                <contrib contrib-type="author">
+                    <anonymous/>
+                    <role specific-use="referee">Reviewer</role>
+                </contrib>
+            </contrib-group>
+            <custom-meta-group>
+                <!-- custom-meta to indicate that this decision letter was transferred from elsewhere -->
+                <custom-meta>
+                    <meta-name>transferred-from</meta-name>
+                    <meta-value>Review Commons</meta-value>
+                </custom-meta>
+                <!-- custom-meta to indicate decision -->
+                <custom-meta>
+                    <meta-name>peer-review-recommendation</meta-name>
+                    <meta-value>accept-in-principle</meta-value>
+                </custom-meta>
+                <!-- custom-meta to indicate peer review type -->
+                <custom-meta>
+                    <meta-name>PeerReviewType</meta-name>
+                    <meta-value>visible</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted.</p>
+        </body>
+    </sub-article>
+    <!-- article-type changed from reply to author-comment -->
+    <sub-article article-type="author-comment" id="sa4">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.sa4</article-id>
             <title-group>
                 <article-title>Author response</article-title>
             </title-group>
