@@ -1995,11 +1995,11 @@ module load anaconda</code>
                 </contrib>
             </contrib-group>
             <related-object id="sa0ro1" object-id="10.1101/2021.11.09.467796" object-id-type="id" link-type="continued-by" xlink:href="https://sciety.org/articles/activity/10.1101/2021.11.09.467796"/>
-            <kwd-group kwd-group-type="Importance-of-claim">
+            <kwd-group kwd-group-type="claim-importance">
                 <!-- Controlled vocabulary of importance values: Landmark; Fundamental; Important; Noteworthy; Useful; Flawed -->
                 <kwd><ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Landmark</ext-link></kwd>
             </kwd-group>
-            <kwd-group kwd-group-type="Strength-of-evidence">
+            <kwd-group kwd-group-type="evidence-strength">
                 <!-- Controlled vocabulary of strength values: Tour-de-force; Compelling; Convincing; Solid; Incomplete; Inadequate -->
                 <kwd>Compelling</kwd>
             </kwd-group>
@@ -2044,16 +2044,16 @@ module load anaconda</code>
         <body>
             <p>This paper combines two complementary approaches, translating ribosome affinity purification (TRAP) and ribosome profiling, to provide the first quantitative insight into the impact of PrP<sup>Sc</sup> on cell type-specific translation. Surprisingly few translational changes were detected in neurons. In contrast, substantial alterations to translation were evident in astrocytes and microglia prior to manifestation of prion disease features, suggesting that aberrant translation in these cell types may be a primary driver of neurodegeneration.</p>
             <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
-            <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided. See <xref ref-type="fig" rid="sa1fig1">Review 1 image 1.</xref>, <xref ref-type="table" rid="sa1table1">Review 1 table 1</xref> and <xref ref-type="video" rid="sa1video1">Review 1 video 1</xref>.</p>
+            <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided. See <xref ref-type="fig" rid="sa1fig1">Review image 1.</xref>, <xref ref-type="table" rid="sa1table1">Review table 1</xref> and <xref ref-type="video" rid="sa1video1">Review video 1</xref>.</p>
             <fig id="sa1fig1" position="float">
-                <label>Review 1 image 1.</label>
+                <label>Review image 1.</label>
                 <caption>
                     <p>Single figure: The header of an eLife article example on the HTML page.</p>
                 </caption>
                 <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa1-fig1.tif"/>
             </fig>
             <table-wrap id="sa1table1" position="float">
-                <label>Review 1 table 1.</label>
+                <label>Review table 1.</label>
                 <caption>
                     <p>Review table.</p>
                 </caption>
@@ -2110,7 +2110,7 @@ module load anaconda</code>
                 </table>
             </table-wrap>
             <media mimetype="video" mime-subtype="mp4" id="sa1video1" xlink:href="elife-00666-sa1-video1.mp4">
-                <label>Review 1 video 1.</label>
+                <label>Review video 1.</label>
                 <caption>
                     <title>Caption and/or a title is required.</title>
                 </caption>
@@ -2318,6 +2318,14 @@ module load anaconda</code>
         </front-stub>
         <body>
             <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted. Reviews may be published anonymously.</p>
+            <p>Review assets are ordered sequentially across all the separate reviews, so the second image will be called <xref ref-type="fig" rid="sa2fig1">Review image 2</xref> regardless of which reviews it appears in.</p>
+            <fig id="sa2fig1" position="float">
+                <label>Review image 2.</label>
+                <caption>
+                    <p>Another review illustrative image.</p>
+                </caption>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa2-fig1.tif"/>
+            </fig>
         </body>
     </sub-article>
     <sub-article id="sa3" article-type="referee-report">
@@ -2415,15 +2423,15 @@ module load anaconda</code>
                 <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
                 <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
             </disp-quote>
-            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa2fig1">Author response image 1.</xref>, <xref ref-type="video" rid="sa2video1">Author response video 1</xref> and <xref ref-type="table" rid="sa2table1">Author response table 1</xref>.</p>
-            <fig id="sa2fig1" position="float">
+            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa4fig1">Author response image 1.</xref>, <xref ref-type="video" rid="sa4video1">Author response video 1</xref> and <xref ref-type="table" rid="sa4table1">Author response table 1</xref>.</p>
+            <fig id="sa4fig1" position="float">
                 <label>Author response image 1.</label>
                 <caption>
                     <p>Single figure: The header of an eLife article example on the HTML page.</p>
                 </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa2-fig1.tif"/>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa4-fig1.tif"/>
             </fig>
-            <table-wrap id="sa2table1" position="float">
+            <table-wrap id="sa4table1" position="float">
                 <label>Author response table 1.</label>
                 <caption>
                     <p>Author response table</p>
@@ -2480,7 +2488,7 @@ module load anaconda</code>
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="video" mime-subtype="mp4" id="sa2video1" xlink:href="elife-00666-sa2-video1.mp4">
+            <media mimetype="video" mime-subtype="mp4" id="sa4video1" xlink:href="elife-00666-sa4-video1.mp4">
                 <label>Author response video 1.</label>
                 <caption>
                     <title>Caption and/or a title is required for all author response assets.</title>
@@ -2488,7 +2496,7 @@ module load anaconda</code>
             </media>
             <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} order to produce rules for the production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.</p>
             <p>Adding some MathML to the sub-article.<inline-formula>
-                <mml:math id="sa2m1">
+                <mml:math id="sa4m1">
                     <mml:mstyle displaystyle="true" scriptlevel="0">
                         <mml:mrow>
                             <mml:msup>
@@ -2555,9 +2563,9 @@ module load anaconda</code>
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
-                <disp-formula id="sa2equ1">
+                <disp-formula id="sa4equ1">
                     <label>(1)</label>
-                        <mml:math id="sa2m2">
+                        <mml:math id="sa4m2">
                             <mml:mstyle displaystyle="true" scriptlevel="0">
                                 <mml:mrow>
                                     <mml:mi>d</mml:mi>
@@ -2647,10 +2655,10 @@ module load anaconda</code>
                         </mml:math>
                 </disp-formula>
             </p>
-            <list id="sa2list1" list-type="roman-upper">
+            <list id="sa4list1" list-type="roman-upper">
                 <list-item>
                     <p>'Contamination'</p>
-                    <list id="sa2list2" list-type="order">
+                    <list id="sa4list2" list-type="order">
                         <list-item>
                             <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
                         </list-item>
