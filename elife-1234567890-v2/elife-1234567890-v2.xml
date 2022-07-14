@@ -200,20 +200,15 @@
             <volume>12</volume>
             <elocation-id>e00666</elocation-id>
             <history>
-                <date date-type="received" iso-8601-date="2023-03-20">
+                <date date-type="sent-for-review" iso-8601-date="2023-03-20">
                     <day>20</day>
                     <month>03</month>
                     <year>2023</year>
-                </date>
-                <date date-type="reviewed" iso-8601-date="2023-03-20">
-                    <day>10</day>
-                    <month>04</month>
-                    <year>2023</year>
-                </date>
+                </date>           
             </history>
             <pub-history>
                 <event>
-                    <event-desc>This manuscript was published as a preprint at bioRxiv.</event-desc>
+                    <event-desc>This manuscript was published as a preprint.</event-desc>
                     <date date-type="preprint" iso-8601-date="2023-02-15">
                         <day>15</day>
                         <month>02</month>
@@ -225,13 +220,23 @@
                 </event>
                 <event>
                     <event-desc>This manuscript was published as a reviewed preprint.</event-desc>
-                    <date date-type="preprint" iso-8601-date="2023-04-10">
-                        <day>10</day>
+                    <date date-type="preprint" iso-8601-date="2023-04-15">
+                        <day>15</day>
                         <month>04</month>
                         <year>2023</year>
                     </date>
                     <!-- Dummy URL, replace with finalised form when available -->
                     <self-uri content-type="preprint" xlink:href="https://elifesciences.org/preprints/1234567890v1"/>   
+                </event>
+                <event>
+                    <event-desc>The reviewed preprint was revised.</event-desc>
+                    <date date-type="preprint" iso-8601-date="2023-09-10">
+                        <day>10</day>
+                        <month>09</month>
+                        <year>2023</year>
+                    </date>
+                    <!-- Dummy URL, replace with finalised form when available -->
+                    <self-uri content-type="preprint" xlink:href="https://elifesciences.org/preprints/1234567890v2"/>   
                 </event>
             </pub-history>
             <permissions>
