@@ -1977,8 +1977,8 @@ module load anaconda</code>
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.62927.sa0</article-id>
             <title-group>
-                <!-- 'Editor's evaluation' changed to 'Editor's summary' -->
-                <article-title>Editor's summary</article-title>
+                <!-- 'Editor's evaluation' changed to 'Evaluation summary' -->
+                <article-title>Evaluation summary</article-title>
             </title-group>
             <contrib-group>
                 <contrib contrib-type="author">
@@ -2010,7 +2010,7 @@ module load anaconda</code>
             </kwd-group>
         </front-stub>
         <body>
-            <p>This is an Editor's summary, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos.</p>
+            <p>This is an Evaluation summary, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos.</p>
         </body>
     </sub-article>
     <!-- article-type changed from decision-letter to referee-report -->
@@ -2363,10 +2363,69 @@ module load anaconda</code>
             <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted. Reviews may be published anonymously.</p>
         </body>
     </sub-article>
-    <!-- article-type changed from reply to author-comment -->
-    <sub-article article-type="author-comment" id="sa4">
+    <sub-article id="sa4" article-type="referee-report">
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.00666.sa4</article-id>
+            <title-group>
+                <article-title>Recommendations for authors</article-title>
+            </title-group>
+            <contrib-group>
+                <!-- Reviewing editor -->
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Helaine</surname>
+                        <given-names>Sophie</given-names>
+                    </name>
+                    <!-- role element added with appropriate specific-use attribute value -->
+                    <role specific-use="editor">Reviewing Editor</role>
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0000-0404-001X</contrib-id>
+                    <aff>
+                        <!-- ROR ids also permitted here -->
+                        <institution-wrap>
+                            <institution-id institution-id-type="ror">https://ror.org/041kmwe10</institution-id>
+                            <institution>Imperial College London</institution>
+                        </institution-wrap>
+                        <country country="GB">United Kingdom</country>
+                    </aff>
+                </contrib>
+                <!-- Reviewer -->
+                <contrib contrib-type="author">
+                    <name><surname>Taylor</surname><given-names>J Paul</given-names></name>
+                    <!-- role element added with appropriate specific-use attribute value -->
+                    <role specific-use="referee">Reviewer</role>
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0070-0001-0404-000X</contrib-id>
+                    <aff>
+                        <institution>St Jude Children's Research Hospital</institution>
+                        <country country="US">United States</country>
+                    </aff>
+                </contrib>
+                <!-- Anonymous reviewer -->
+                <contrib contrib-type="author">
+                    <anonymous/>
+                    <role specific-use="referee">Reviewer</role>
+                </contrib>
+                <!-- Anonymous reviewer -->
+                <contrib contrib-type="author">
+                    <anonymous/>
+                    <role specific-use="referee">Reviewer</role>
+                </contrib>
+            </contrib-group>
+            <custom-meta-group>               
+                <!-- custom-meta to indicate peer review type -->
+                <custom-meta>
+                    <meta-name>PeerReviewType</meta-name>
+                    <meta-value>visible</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>Recommendations for edits to the initial preprint, based on the reviewers' comments.</p>
+        </body>
+    </sub-article>
+    <!-- article-type changed from reply to author-comment -->
+    <sub-article article-type="author-comment" id="sa5">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.sa5</article-id>
             <title-group>
                 <article-title>Author response</article-title>
             </title-group>
@@ -2428,15 +2487,15 @@ module load anaconda</code>
                 <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
                 <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
             </disp-quote>
-            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa4fig1">Author response image 1.</xref>, <xref ref-type="video" rid="sa4video1">Author response video 1</xref> and <xref ref-type="table" rid="sa4table1">Author response table 1</xref>.</p>
-            <fig id="sa4fig1" position="float">
+            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa5fig1">Author response image 1.</xref>, <xref ref-type="video" rid="sa5video1">Author response video 1</xref> and <xref ref-type="table" rid="sa5table1">Author response table 1</xref>.</p>
+            <fig id="sa5fig1" position="float">
                 <label>Author response image 1.</label>
                 <caption>
                     <p>Single figure: The header of an eLife article example on the HTML page.</p>
                 </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa4-fig1.tif"/>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa5-fig1.tif"/>
             </fig>
-            <table-wrap id="sa4table1" position="float">
+            <table-wrap id="sa5table1" position="float">
                 <label>Author response table 1.</label>
                 <caption>
                     <p>Author response table</p>
@@ -2493,7 +2552,7 @@ module load anaconda</code>
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="video" mime-subtype="mp4" id="sa4video1" xlink:href="elife-00666-sa4-video1.mp4">
+            <media mimetype="video" mime-subtype="mp4" id="sa5video1" xlink:href="elife-00666-sa5-video1.mp4">
                 <label>Author response video 1.</label>
                 <caption>
                     <title>Caption and/or a title is required for all author response assets.</title>
@@ -2501,7 +2560,7 @@ module load anaconda</code>
             </media>
             <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} order to produce rules for the production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.</p>
             <p>Adding some MathML to the sub-article.<inline-formula>
-                <mml:math id="sa4m1">
+                <mml:math id="sa5m1">
                     <mml:mstyle displaystyle="true" scriptlevel="0">
                         <mml:mrow>
                             <mml:msup>
@@ -2568,9 +2627,9 @@ module load anaconda</code>
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
-                <disp-formula id="sa4equ1">
+                <disp-formula id="sa5equ1">
                     <label>(1)</label>
-                        <mml:math id="sa4m2">
+                        <mml:math id="sa5m2">
                             <mml:mstyle displaystyle="true" scriptlevel="0">
                                 <mml:mrow>
                                     <mml:mi>d</mml:mi>
@@ -2660,10 +2719,10 @@ module load anaconda</code>
                         </mml:math>
                 </disp-formula>
             </p>
-            <list id="sa4list1" list-type="roman-upper">
+            <list id="sa5list1" list-type="roman-upper">
                 <list-item>
                     <p>'Contamination'</p>
-                    <list id="sa4list2" list-type="order">
+                    <list id="sa5list2" list-type="order">
                         <list-item>
                             <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
                         </list-item>
