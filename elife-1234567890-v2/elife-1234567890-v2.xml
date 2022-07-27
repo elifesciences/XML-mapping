@@ -390,7 +390,7 @@
                 <fig id="fig1" position="float">
                     <label>Figure 1.</label>
                     <caption>
-                        <title>Figure title (<xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>).</title>
+                        <title>Figure title (<xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>; <xref ref-type="bibr" rid="bib18">Himmelstein et al., 2016</xref>).</title>
                         <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells... (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="supplementary-material" rid="fig1sdata1">Figure 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1sdata2">Figure 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1scode1">Figure 1&#x2014;source code 1</xref>).</p>
                         <p>We use the following model (<xref ref-type="disp-formula" rid="equ1">Equation 1</xref>) to represent the dynamics of a population of cells in which the transcription factors NANOG and GATA6 mutually repress each other through extracellular growth factor signaling:
                             <disp-formula id="equ1">
@@ -1546,6 +1546,28 @@ module load anaconda</code>
                     <article-title>Gender and international diversity improves equity in peer review</article-title>
                     <source>bioRxiv</source>
                     <pub-id pub-id-type="doi">10.1101/400515</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib18">
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Himmelstein</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <name>
+                            <surname>Bastian</surname>
+                            <given-names>F</given-names>
+                        </name>
+                        <name>
+                            <surname>Baranzini</surname>
+                            <given-names>S</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2016">2016</year>
+                    <data-title>Dhimmel/Bgee V1.0: Anatomy-Specific Gene Expression In Humans From Bgee</data-title>
+                    <source>Zenodo</source>
+                    <pub-id pub-id-type="doi">10.5281/zenodo.47157</pub-id>
                 </element-citation>
             </ref>
         </ref-list>
