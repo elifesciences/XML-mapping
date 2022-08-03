@@ -192,41 +192,56 @@
             <pub-date publication-format="electronic" date-type="publication">
                 <day>22</day>
                 <month>10</month>
-                <year>2020</year>
+                <year>2023</year>
             </pub-date>
             <pub-date pub-type="collection">
-                <year>2020</year>
+                <year>2023</year>
             </pub-date>
-            <volume>9</volume>
+            <volume>12</volume>
             <elocation-id>e00666</elocation-id>
             <history>
-                <date date-type="received" iso-8601-date="2020-03-20">
+                <date date-type="sent-for-review" iso-8601-date="2023-03-20">
                     <day>20</day>
                     <month>03</month>
-                    <year>2020</year>
-                </date>
-                <date date-type="accepted" iso-8601-date="2020-09-18">
-                    <day>18</day>
-                    <month>09</month>
-                    <year>2020</year>
-                </date>
+                    <year>2023</year>
+                </date>           
             </history>
             <pub-history>
                 <event>
-                    <event-desc>This manuscript was published as a preprint at bioRxiv.</event-desc>
-                    <date date-type="preprint" iso-8601-date="2019-02-15">
+                    <event-desc>This manuscript was published as a preprint.</event-desc>
+                    <date date-type="preprint" iso-8601-date="2023-02-15">
                         <day>15</day>
                         <month>02</month>
-                        <year>2019</year>
+                        <year>2023</year>
                     </date>    
                     <!-- Should this be content-type="preprint" or content-type="pre-print"? Examples and text in JATS4R conflict
                             https://jats4r.org/article-publication-and-history-dates/ -->
                     <self-uri content-type="preprint" xlink:href="https://doi.org/10.1101/2021.11.09.467796"/>   
                 </event>
+                <event>
+                    <event-desc>This manuscript was published as a reviewed preprint.</event-desc>
+                    <date date-type="preprint" iso-8601-date="2023-04-15">
+                        <day>15</day>
+                        <month>04</month>
+                        <year>2023</year>
+                    </date>
+                    <!-- Dummy URL, replace with finalised form when available -->
+                    <self-uri content-type="preprint" xlink:href="https://elifesciences.org/preprints/1234567890v1"/>   
+                </event>
+                <event>
+                    <event-desc>The reviewed preprint was revised.</event-desc>
+                    <date date-type="preprint" iso-8601-date="2023-09-10">
+                        <day>10</day>
+                        <month>09</month>
+                        <year>2023</year>
+                    </date>
+                    <!-- Dummy URL, replace with finalised form when available -->
+                    <self-uri content-type="preprint" xlink:href="https://elifesciences.org/preprints/1234567890v2"/>   
+                </event>
             </pub-history>
             <permissions>
-                <copyright-statement>© 2020, Atherden et al</copyright-statement>
-                <copyright-year>2020</copyright-year>
+                <copyright-statement>© 2023, Atherden et al</copyright-statement>
+                <copyright-year>2023</copyright-year>
                 <copyright-holder>Atherden et al</copyright-holder>
                 <ali:free_to_read/>
                 <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
@@ -240,6 +255,7 @@
             <related-article ext-link-type="doi" id="ra1" related-article-type="article-reference" xlink:href="10.7554/eLife.16381"/>
             <related-article ext-link-type="doi" id="ra2" related-article-type="article-reference" xlink:href="10.7554/eLife.43788"/>
             <abstract>
+                <!-- Example is a structured abstract; unstructured abstracts consist of a single paragraph of text -->
                 <sec id="abs1">
                     <title>Background:</title>
                     <p>Since 2015, the World <italic>Health</italic> Organisation (WHO) <sup>a</sup><sub>b</sub>... <inline-formula>
@@ -321,6 +337,13 @@
                 <kwd>Human</kwd>
                 <kwd>Mouse</kwd>
             </kwd-group>
+            <kwd-group kwd-group-type="osf-badges" vocab-identifier="https://www.cos.io/initiatives/badges">
+                <!-- Controlled vocabulary for badge values: Open Data, Open Materials, Prereigstered -->
+                <title>Badges</title>
+                <kwd>Open Data</kwd>
+                <kwd>Open Materials</kwd>
+                <kwd>Prereigstered</kwd>
+            </kwd-group>
             <!-- Funding is no longer linked to from the authors (using xref), since this information is not displayed in the pop-up on the website anyway
                  If a funding source is not in the open funder registry then there is no institution-id
                  If the funder is in the open funder registry then there is an institution-id -->
@@ -367,7 +390,7 @@
                 <fig id="fig1" position="float">
                     <label>Figure 1.</label>
                     <caption>
-                        <title>Figure title (<xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>).</title>
+                        <title>Figure title (<xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>; <xref ref-type="bibr" rid="bib18">Himmelstein et al., 2016</xref>).</title>
                         <p>(<bold>A, B</bold>) Dependence of CME on Hip1R. (<bold>A</bold>) Simulation varying number of Hip1R. (<bold>B</bold>) Hip1R knockdown inhibits CME (transferrin uptake) in HeLa cells... (<bold>C, D</bold>) Capping actin filaments inhibits CME. (<bold>C</bold>) Simulation. (<bold>D</bold>) Slower assembly and disassembly of endogenous dynamin2-GFP at sites of endocytosis in SK-MEL-2 cells treated with different concentrations of Cytochalasin D. (<bold>E, F</bold>) Endocytic actin filaments bend at sites of mammalian endocytosis, tested by cryo-electron tomography of intact mammalian cells. (<bold>G, H</bold>) Mammalian CME is sensitive to Arp2/3 complex activity, revealed by treating SK-MEL-2 cells expressing endogenous clathrin and dynamin2 fluorescent tags with the Arp2/3 complex inhibitor CK-666 (<xref ref-type="bibr" rid="bib2">Feyerabend, 2010</xref>; <xref ref-type="supplementary-material" rid="fig1sdata1">Figure 1&#x2014;source data 1</xref>; <xref ref-type="supplementary-material" rid="fig1sdata2">Figure 1&#x2014;source data 2</xref>; <xref ref-type="supplementary-material" rid="fig1scode1">Figure 1&#x2014;source code 1</xref>).</p>
                         <p>We use the following model (<xref ref-type="disp-formula" rid="equ1">Equation 1</xref>) to represent the dynamics of a population of cells in which the transcription factors NANOG and GATA6 mutually repress each other through extracellular growth factor signaling:
                             <disp-formula id="equ1">
@@ -871,7 +894,7 @@
                     <caption>
                         <title>This is a title.</title>
                         <p>This is a caption (<xref ref-type="bibr" rid="bib12">Richter, 2013</xref>).</p>
-                        <p>This is a caption.</p>
+                        <p>This is a second paragraph in a caption.</p>
                     </caption>
                     <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-00666-box1-fig1.tif"/>
                 </fig>
@@ -1159,9 +1182,10 @@ module load anaconda</code>
                 </caption>
                 <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-repstand1.pdf"/>
             </supplementary-material>
-            <supplementary-material id="transrepform">
-                <label>Transparent reporting form</label>
-                <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-transrepform.pdf"/>
+            <!-- The MDAR checklist replaces the Transparent reporting form used previously -->
+            <supplementary-material id="mdar">
+                <label>MDAR checklist</label>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="elife-00666-mdarchecklist1.pdf"/>
             </supplementary-material>
         </sec>
         <sec id="s7" sec-type="data-availability">
@@ -1524,11 +1548,34 @@ module load anaconda</code>
                     <pub-id pub-id-type="doi">10.1101/400515</pub-id>
                 </element-citation>
             </ref>
+            <ref id="bib18">
+                <element-citation publication-type="software">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Himmelstein</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <name>
+                            <surname>Bastian</surname>
+                            <given-names>F</given-names>
+                        </name>
+                        <name>
+                            <surname>Baranzini</surname>
+                            <given-names>S</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2016">2016</year>
+                    <data-title>Dhimmel/Bgee V1.0: Anatomy-Specific Gene Expression In Humans From Bgee</data-title>
+                    <source>Zenodo</source>
+                    <pub-id pub-id-type="doi">10.5281/zenodo.47157</pub-id>
+                </element-citation>
+            </ref>
         </ref-list>
         <app-group>
             <app id="appendix-1">
                 <title>Appendix 1</title>
                 <!-- <boxed-text> removed from appendices -->
+                <!-- Key resources table may be present in an appendix or at the start of the materials and methods. -->
                 <table-wrap id="app1keyresource" position="anchor">
                     <label>Appendix 1—key resources table</label>
                     <table frame="hsides" rules="groups">
@@ -1952,7 +1999,8 @@ module load anaconda</code>
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.62927.sa0</article-id>
             <title-group>
-                <article-title>Editor's evaluation</article-title>
+                <!-- 'Editor's evaluation' changed to 'Evaluation summary' -->
+                <article-title>Evaluation summary</article-title>
             </title-group>
             <contrib-group>
                 <contrib contrib-type="author">
@@ -1974,9 +2022,17 @@ module load anaconda</code>
                 </contrib>
             </contrib-group>
             <related-object id="sa0ro1" object-id="10.1101/2021.11.09.467796" object-id-type="id" link-type="continued-by" xlink:href="https://sciety.org/articles/activity/10.1101/2021.11.09.467796"/>
+            <kwd-group kwd-group-type="claim-importance">
+                <!-- Controlled vocabulary of importance values: Landmark; Fundamental; Important; Noteworthy; Useful; Flawed -->
+                <kwd><ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Landmark</ext-link></kwd>
+            </kwd-group>
+            <kwd-group kwd-group-type="evidence-strength">
+                <!-- Controlled vocabulary of strength values: Tour-de-force; Compelling; Convincing; Solid; Incomplete; Inadequate -->
+                <kwd>Compelling</kwd>
+            </kwd-group>
         </front-stub>
         <body>
-            <p>This is an Editor's evaluation, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos.</p>
+            <p>This is an Evaluation summary, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos.</p>
         </body>
     </sub-article>
     <!-- article-type changed from decision-letter to referee-report -->
@@ -1984,30 +2040,10 @@ module load anaconda</code>
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.00666.sa1</article-id>
             <title-group>
-                <article-title>Decision letter</article-title>
+                <article-title>Reviewer #1 (public review)</article-title>
             </title-group>
             <contrib-group>
-                <!-- contrib-type changed to author -->
-                <contrib contrib-type="author">
-                    <name>
-                        <surname>Helaine</surname>
-                        <given-names>Sophie</given-names>
-                    </name>
-                    <!-- role element added with appropriate specific-use attribute value -->
-                    <role specific-use="editor">Reviewing Editor</role>
-                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0000-0404-000X</contrib-id>
-                    <aff>
-                        <!-- ROR ids also permitted here -->
-                        <institution-wrap>
-                            <institution-id institution-id-type="ror">https://ror.org/041kmwe10</institution-id>
-                            <institution>Imperial College London</institution>
-                        </institution-wrap>
-                        <country country="GB">United Kingdom</country>
-                    </aff>
-                </contrib>
-            </contrib-group>
-            <contrib-group>
-                <!-- contrib-type changed to author -->
+                <!-- contrib-type changed to author, only one reviewer per reviwer report -->
                 <contrib contrib-type="author">
                     <name><surname>Taylor</surname><given-names>J Paul</given-names></name>
                     <!-- role element added with appropriate specific-use attribute value -->
@@ -2018,26 +2054,12 @@ module load anaconda</code>
                         <country country="US">United States</country>
                     </aff>
                 </contrib>
-                <!-- Each anonymous reviewer is still added -->
-                <contrib contrib-type="author">
-                    <anonymous/>
-                    <role specific-use="referee">Reviewer</role>
-                </contrib>
-                <contrib contrib-type="author">
-                    <anonymous/>
-                    <role specific-use="referee">Reviewer</role>
-                </contrib>
             </contrib-group>
             <custom-meta-group>
-                <!-- custom-meta to indicate that this decision letter was transferred from elsewhere -->
+                <!-- custom-meta to indicate that this review was transferred from elsewhere -->
                 <custom-meta>
                     <meta-name>transferred-from</meta-name>
                     <meta-value>Review Commons</meta-value>
-                </custom-meta>
-                <!-- custom-meta to indicate decision -->
-                <custom-meta>
-                    <meta-name>peer-review-recommendation</meta-name>
-                    <meta-value>accept-in-principle</meta-value>
                 </custom-meta>
                 <!-- custom-meta to indicate peer review type -->
                 <custom-meta>
@@ -2047,25 +2069,20 @@ module load anaconda</code>
             </custom-meta-group>
         </front-stub>
         <body>
-            <boxed-text>
-                <p>In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.</p>
-            </boxed-text>
-            <p>[Editors' note: this paper was reviewed by <ext-link ext-link-type="uri" xlink:href="https://www.reviewcommons.org/">Review Commons</ext-link>.]</p>
-            <p><bold>Acceptance summary:</bold></p>
             <p>This paper combines two complementary approaches, translating ribosome affinity purification (TRAP) and ribosome profiling, to provide the first quantitative insight into the impact of PrP<sup>Sc</sup> on cell type-specific translation. Surprisingly few translational changes were detected in neurons. In contrast, substantial alterations to translation were evident in astrocytes and microglia prior to manifestation of prion disease features, suggesting that aberrant translation in these cell types may be a primary driver of neurodegeneration.</p>
             <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
-            <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided. See <xref ref-type="fig" rid="sa1fig1">Decision letter image 1.</xref>, <xref ref-type="table" rid="sa1table1">Decision letter table 1</xref> and <xref ref-type="video" rid="sa1video1">Decision letter video 1</xref>.</p>
+            <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided. See <xref ref-type="fig" rid="sa1fig1">Review image 1.</xref>, <xref ref-type="table" rid="sa1table1">Review table 1</xref> and <xref ref-type="video" rid="sa1video1">Review video 1</xref>.</p>
             <fig id="sa1fig1" position="float">
-                <label>Decision letter image 1.</label>
+                <label>Review image 1.</label>
                 <caption>
                     <p>Single figure: The header of an eLife article example on the HTML page.</p>
                 </caption>
                 <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa1-fig1.tif"/>
             </fig>
             <table-wrap id="sa1table1" position="float">
-                <label>Decision letter table 1.</label>
+                <label>Review table 1.</label>
                 <caption>
-                    <p>Decision letter table.</p>
+                    <p>Review table.</p>
                 </caption>
                 <table frame="hsides" rules="groups">
                     <thead>
@@ -2120,7 +2137,7 @@ module load anaconda</code>
                 </table>
             </table-wrap>
             <media mimetype="video" mime-subtype="mp4" id="sa1video1" xlink:href="elife-00666-sa1-video1.mp4">
-                <label>Decision letter video 1.</label>
+                <label>Review video 1.</label>
                 <caption>
                     <title>Caption and/or a title is required.</title>
                 </caption>
@@ -2300,10 +2317,137 @@ module load anaconda</code>
             </list>
         </body>
     </sub-article>
-    <!-- article-type changed from reply to author-comment -->
-    <sub-article article-type="author-comment" id="sa2">
+    <sub-article id="sa2" article-type="referee-report">
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.00666.sa2</article-id>
+            <title-group>
+                <article-title>Reviewer #2 (public review)</article-title>
+            </title-group>
+            <contrib-group>
+                <!-- Anonymous reviewer -->
+                <contrib contrib-type="author">
+                    <anonymous/>
+                    <role specific-use="referee">Reviewer</role>
+                </contrib>
+            </contrib-group>
+            <custom-meta-group>
+                <!-- custom-meta to indicate that this review was transferred from elsewhere -->
+                <custom-meta>
+                    <meta-name>transferred-from</meta-name>
+                    <meta-value>Review Commons</meta-value>
+                </custom-meta>
+                <!-- custom-meta to indicate peer review type -->
+                <custom-meta>
+                    <meta-name>PeerReviewType</meta-name>
+                    <meta-value>visible</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted. Reviews may be published anonymously.</p>
+            <p>Review assets are ordered sequentially across all the separate reviews, so the second image will be called <xref ref-type="fig" rid="sa2fig1">Review image 2</xref> regardless of which reviews it appears in.</p>
+            <fig id="sa2fig1" position="float">
+                <label>Review image 2.</label>
+                <caption>
+                    <p>Another review illustrative image.</p>
+                </caption>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa2-fig1.tif"/>
+            </fig>
+        </body>
+    </sub-article>
+    <sub-article id="sa3" article-type="referee-report">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.sa3</article-id>
+            <title-group>
+                <article-title>Reviewer #3 (public review)</article-title>
+            </title-group>
+            <contrib-group>
+                <!-- Anonymous reviewer -->
+                <contrib contrib-type="author">
+                    <anonymous/>
+                    <role specific-use="referee">Reviewer</role>
+                </contrib>
+            </contrib-group>
+            <custom-meta-group>
+                <!-- custom-meta to indicate that this review was transferred from elsewhere -->
+                <custom-meta>
+                    <meta-name>transferred-from</meta-name>
+                    <meta-value>Review Commons</meta-value>
+                </custom-meta>
+                <!-- custom-meta to indicate peer review type -->
+                <custom-meta>
+                    <meta-name>PeerReviewType</meta-name>
+                    <meta-value>visible</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted. Reviews may be published anonymously.</p>
+        </body>
+    </sub-article>
+    <sub-article id="sa4" article-type="referee-report">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.sa4</article-id>
+            <title-group>
+                <article-title>Recommendations for authors</article-title>
+            </title-group>
+            <contrib-group>
+                <!-- Reviewing editor -->
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Helaine</surname>
+                        <given-names>Sophie</given-names>
+                    </name>
+                    <!-- role element added with appropriate specific-use attribute value -->
+                    <role specific-use="editor">Reviewing Editor</role>
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0000-0404-001X</contrib-id>
+                    <aff>
+                        <!-- ROR ids also permitted here -->
+                        <institution-wrap>
+                            <institution-id institution-id-type="ror">https://ror.org/041kmwe10</institution-id>
+                            <institution>Imperial College London</institution>
+                        </institution-wrap>
+                        <country country="GB">United Kingdom</country>
+                    </aff>
+                </contrib>
+                <!-- Reviewer -->
+                <contrib contrib-type="author">
+                    <name><surname>Taylor</surname><given-names>J Paul</given-names></name>
+                    <!-- role element added with appropriate specific-use attribute value -->
+                    <role specific-use="referee">Reviewer</role>
+                    <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0070-0001-0404-000X</contrib-id>
+                    <aff>
+                        <institution>St Jude Children's Research Hospital</institution>
+                        <country country="US">United States</country>
+                    </aff>
+                </contrib>
+                <!-- Anonymous reviewer -->
+                <contrib contrib-type="author">
+                    <anonymous/>
+                    <role specific-use="referee">Reviewer</role>
+                </contrib>
+                <!-- Anonymous reviewer -->
+                <contrib contrib-type="author">
+                    <anonymous/>
+                    <role specific-use="referee">Reviewer</role>
+                </contrib>
+            </contrib-group>
+            <custom-meta-group>               
+                <!-- custom-meta to indicate peer review type -->
+                <custom-meta>
+                    <meta-name>PeerReviewType</meta-name>
+                    <meta-value>visible</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>Recommendations for edits to the initial preprint, based on the reviewers' comments.</p>
+        </body>
+    </sub-article>
+    <!-- article-type changed from reply to author-comment -->
+    <sub-article article-type="author-comment" id="sa5">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.00666.sa5</article-id>
             <title-group>
                 <article-title>Author response</article-title>
             </title-group>
@@ -2365,15 +2509,15 @@ module load anaconda</code>
                 <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
                 <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
             </disp-quote>
-            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa2fig1">Author response image 1.</xref>, <xref ref-type="video" rid="sa2video1">Author response video 1</xref> and <xref ref-type="table" rid="sa2table1">Author response table 1</xref>.</p>
-            <fig id="sa2fig1" position="float">
+            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa5fig1">Author response image 1.</xref>, <xref ref-type="video" rid="sa5video1">Author response video 1</xref> and <xref ref-type="table" rid="sa5table1">Author response table 1</xref>.</p>
+            <fig id="sa5fig1" position="float">
                 <label>Author response image 1.</label>
                 <caption>
                     <p>Single figure: The header of an eLife article example on the HTML page.</p>
                 </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa2-fig1.tif"/>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-sa5-fig1.tif"/>
             </fig>
-            <table-wrap id="sa2table1" position="float">
+            <table-wrap id="sa5table1" position="float">
                 <label>Author response table 1.</label>
                 <caption>
                     <p>Author response table</p>
@@ -2430,7 +2574,7 @@ module load anaconda</code>
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="video" mime-subtype="mp4" id="sa2video1" xlink:href="elife-00666-sa2-video1.mp4">
+            <media mimetype="video" mime-subtype="mp4" id="sa5video1" xlink:href="elife-00666-sa5-video1.mp4">
                 <label>Author response video 1.</label>
                 <caption>
                     <title>Caption and/or a title is required for all author response assets.</title>
@@ -2438,7 +2582,7 @@ module load anaconda</code>
             </media>
             <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} order to produce rules for the production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.</p>
             <p>Adding some MathML to the sub-article.<inline-formula>
-                <mml:math id="sa2m1">
+                <mml:math id="sa5m1">
                     <mml:mstyle displaystyle="true" scriptlevel="0">
                         <mml:mrow>
                             <mml:msup>
@@ -2505,9 +2649,9 @@ module load anaconda</code>
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
-                <disp-formula id="sa2equ1">
+                <disp-formula id="sa5equ1">
                     <label>(1)</label>
-                        <mml:math id="sa2m2">
+                        <mml:math id="sa5m2">
                             <mml:mstyle displaystyle="true" scriptlevel="0">
                                 <mml:mrow>
                                     <mml:mi>d</mml:mi>
@@ -2597,10 +2741,10 @@ module load anaconda</code>
                         </mml:math>
                 </disp-formula>
             </p>
-            <list id="sa2list1" list-type="roman-upper">
+            <list id="sa5list1" list-type="roman-upper">
                 <list-item>
                     <p>'Contamination'</p>
-                    <list id="sa2list2" list-type="order">
+                    <list id="sa5list2" list-type="order">
                         <list-item>
                             <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
                         </list-item>
