@@ -320,9 +320,11 @@
                             xlink:href="http://www.chictr.org.cn/showprojen.aspx?proj=9639">ChiCTR-IOR-14005319</related-object>.</p>
                 </sec>
             </abstract>
-            <abstract abstract-type="executive-summary">
+            <abstract abstract-type="plain-language-summary">
                 <title>eLife digest</title>
                 <p>This is a digest.</p>
+                <p>It will consist of multiple paragraphs.</p>
+                <p>No links, citations etc. will appear here.</p>
             </abstract>
             <kwd-group kwd-group-type="author-keywords">
                 <kwd>flight</kwd>
