@@ -2021,7 +2021,7 @@ module load anaconda</code>
         </front-stub>
         <body>
             <!-- The summary text will include hyperlinked words identical or similar to those used in the controlled vocabulary -->
-            <p>This is an Evaluation summary, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos. This work is a compelling, noteworthy study.</p>
+            <p>This is an Evaluation summary, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos. This work is a <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/">compelling</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/">noteworthy</ext-link> study.</p>
         </body>
     </sub-article>
     <!-- article-type changed from decision-letter to referee-report -->
