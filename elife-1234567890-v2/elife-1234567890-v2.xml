@@ -40,15 +40,6 @@
                         <given-names>Frederick Peter</given-names>
                         <suffix>III</suffix>
                     </name>
-                    <!-- Contributions included in role using credit taxonomy.
-                         Roles appear next to name in author list in PMC, which is not ideal. -->
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/"
-                        vocab-term="Conceptualization" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Writing – original draft" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
-                    <!-- Non-credit taxonomy roles included here without the attributes -->
-                    <role>I also added this thing which isn't part of the credit taxonomy</role>
                     <contrib-id authenticated="true"
                         contrib-id-type="orcid">https://orcid.org/0000-0002-6048-1470</contrib-id>
                     <email>f.atherden@elifesciences.org</email>
@@ -56,6 +47,7 @@
                     <xref ref-type="fn" rid="equal-contrib1">†</xref>
                     <xref ref-type="fn" rid="fn1">‡</xref>
                     <!-- Without content, these do not show up well in PMC. Do we want to add indicators for these as well? -->
+                    <xref ref-type="fn" rid="con1"/>
                     <xref ref-type="fn" rid="conf1"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
@@ -63,15 +55,12 @@
                         <surname>Harrison</surname>
                         <given-names>Melissa</given-names>
                     </name>
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Conceptualization" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Writing – review &amp; editing" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
                     <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-4932-938X</contrib-id>
                     <email>...@elifesciences.org</email>
                     <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="fn" rid="equal-contrib1">†</xref>
                     <xref ref-type="fn" rid="fn1">‡</xref>
+                    <xref ref-type="fn" rid="con2"/>
                     <xref ref-type="fn" rid="conf2"/>
                 </contrib>
                 <contrib contrib-type="author" corresp="yes">
@@ -94,10 +83,7 @@
                         </contrib-group>
                     </collab>
                     <!-- group author roles added at the top level -->
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Formal analysis" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Visualization" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+                    <xref ref-type="fn" rid="con3"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <email>...@elifesciences.org</email>
                 </contrib>
@@ -106,12 +92,9 @@
                         <surname>Claus</surname>
                         <given-names>Santa</given-names>
                     </name>
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Resources" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/resources/">Resources</role>
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Supervision" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/supervision/">Supervision</role>
                     <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="fn" rid="equal-contrib2">§</xref>
+                    <xref ref-type="fn" rid="con4"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="fn2"/>
                 </contrib>
@@ -121,14 +104,9 @@
                         <given-names>Cornel</given-names>
                         <suffix>Jnr</suffix>
                     </name>
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Investigation" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/investigation/">Investigation</role>
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Methodology" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
-                    <role vocab="credit" vocab-identifier="http://credit.niso.org/" vocab-term="Validation" 
-                        vocab-term-identifier="http://credit.niso.org/contributor-roles/validation/">Validation</role>
                     <xref ref-type="aff" rid="aff2">2</xref>
                     <xref ref-type="fn" rid="equal-contrib2">§</xref>
+                    <xref ref-type="fn" rid="con5"/>
                     <xref ref-type="fn" rid="conf2"/>
                 </contrib>
                 <on-behalf-of>on behalf of whoever finds this interesting</on-behalf-of>
@@ -379,7 +357,7 @@
                 <!-- Add flag for publishing route/model that the article followed - currently this will be PRC if this flag exists; this flag won't exist for non-PRC content. Could be expanded later -->
                 <custom-meta specific-use="meta-only">
                     <meta-name>publishing-route</meta-name>
-                    <meta-value>PRC</meta-value>
+                    <meta-value>prc</meta-value>
                 </custom-meta>
             </custom-meta-group>
         </article-meta>
@@ -1133,6 +1111,14 @@ module load anaconda</code>
                 <title>Competing interests</title>
                 <fn fn-type="COI-statement" id="conf1"><p>is a member of some group, and has shares in some company. No other competing interests to declare</p></fn>
                 <fn fn-type="COI-statement" id="conf2"><p>No competing interests declared</p></fn>
+            </fn-group>
+            <fn-group content-type="author-contribution">
+                <title>Author contributions</title>
+                <fn fn-type="con" id="con1"><p>Conceptualization, Data curation, Formal analysis, Validation, Investigation, Visualization, Methodology, Writing - original draft</p></fn>
+                <fn fn-type="con" id="con2"><p>Conceptualization, Resources, Supervision, Funding acquisition, Validation, Writing &#x2013; review and editing</p></fn>
+                <fn fn-type="con" id="con3"><p>Resources, Methodology, Group atuhor contributions may break-down contribution per author in some cases</p></fn>
+                <fn fn-type="con" id="con4"><p>Resources, Supervision, Writing &#x2013; review and editing, Free text contribution</p></fn>
+                <fn fn-type="con" id="con5"><p>Resources, Supervision, Writing &#x2013; review and editing, Free text contribution</p></fn>
             </fn-group>
             <fn-group content-type="ethics-information">
                 <title>Ethics</title>
@@ -2026,7 +2012,7 @@ module load anaconda</code>
             <related-object id="sa0ro1" object-id="10.1101/2021.11.09.467796" object-id-type="id" link-type="continued-by" xlink:href="https://sciety.org/articles/activity/10.1101/2021.11.09.467796"/>
             <kwd-group kwd-group-type="claim-importance">
                 <!-- Controlled vocabulary of importance values: Landmark; Fundamental; Important; Noteworthy; Useful; Flawed -->
-                <kwd><ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Landmark</ext-link></kwd>
+                <kwd>Noteworthy</kwd>
             </kwd-group>
             <kwd-group kwd-group-type="evidence-strength">
                 <!-- Controlled vocabulary of strength values: Tour-de-force; Compelling; Convincing; Solid; Incomplete; Inadequate -->
@@ -2034,7 +2020,8 @@ module load anaconda</code>
             </kwd-group>
         </front-stub>
         <body>
-            <p>This is an Evaluation summary, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos.</p>
+            <!-- The summary text will include hyperlinked words identical or similar to those used in the controlled vocabulary -->
+            <p>This is an Evaluation summary, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos. This work is a compelling, noteworthy study.</p>
         </body>
     </sub-article>
     <!-- article-type changed from decision-letter to referee-report -->
