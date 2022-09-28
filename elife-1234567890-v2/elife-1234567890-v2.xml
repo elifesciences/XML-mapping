@@ -23,10 +23,16 @@
                     <subject>Research Article</subject>
                 </subj-group>
                 <subj-group subj-group-type="heading">
-                    <subject>Medicine</subject>
+                    <subject>Biological Sciences</subject>
+                    <subj-group subj-group-type="heading">
+                        <subject>Biochemistry and Chemical Biology</subject>
+                    </subj-group>
                 </subj-group>
                 <subj-group subj-group-type="heading">
-                    <subject>Neuroscience</subject>
+                    <subject>Biological Sciences</subject>
+                    <subj-group subj-group-type="heading">
+                        <subject>Chromosomes and Gene Expression</subject>
+                    </subj-group>
                 </subj-group>
             </article-categories>
             <title-group>
@@ -1987,8 +1993,8 @@ module load anaconda</code>
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.62927.sa0</article-id>
             <title-group>
-                <!-- 'Editor's evaluation' changed to 'Evaluation summary' -->
-                <article-title>Evaluation summary</article-title>
+                <!-- 'Editor's evaluation' changed to 'eLife assessment' -->
+                <article-title>eLife assessment</article-title>
             </title-group>
             <contrib-group>
                 <contrib contrib-type="author">
