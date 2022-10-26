@@ -1981,7 +1981,7 @@ module load anaconda</code>
                             </permissions>
                         </fig>
                         <media id="app3fig1video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-app3-fig1-video1.mp4">
-                            <label>Appendix 3&#x2014;figure 2&#x2014;video 1.</label>
+                            <label>Appendix 3&#x2014;figure 1&#x2014;video 1.</label>
                             <caption>
                                 <title>TIRF force reconstitution assay of wild-type vinculin ABD.</title>
                                 <p>First 100 s of representative ... Scale bar, 20 µm.</p>
