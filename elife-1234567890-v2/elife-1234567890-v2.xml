@@ -489,7 +489,7 @@
                                     <title>Source data title (<xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>).</title>
                                     <p>Source data caption.</p>
                                 </caption>
-                                <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-fig1-data1.zip"/>
+                                <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-fig1-data2.zip"/>
                             </supplementary-material></p>
                         <p>
                             <supplementary-material id="fig1scode1">
@@ -539,7 +539,7 @@
                                     <title>Source data title.</title>
                                     <p>Source data caption.</p>
                                 </caption>
-                                <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-fig1-figsupp1-data1.zip"/>
+                                <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-fig1-figsupp1-data2.zip"/>
                             </supplementary-material></p>
                         <p>
                             <supplementary-material id="fig1s1scode1">
@@ -1898,7 +1898,7 @@ module load anaconda</code>
                                             <title>Source data title.</title>
                                             <p>Source data caption.</p>
                                         </caption>
-                                        <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app3-fig1-data1.zip"/>
+                                        <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app3-fig1-data2.zip"/>
                                     </supplementary-material></p>
                                 <p>
                                     <supplementary-material id="app3fig1scode1">
@@ -1949,7 +1949,7 @@ module load anaconda</code>
                                             <title>Source data title.</title>
                                             <p>Source data caption.</p>
                                         </caption>
-                                        <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app3-fig1-figsup1-data1.zip"/>
+                                        <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app3-fig1-figsup1-data2.zip"/>
                                     </supplementary-material></p>
                                 <p>
                                     <supplementary-material id="app3fig1s1scode1">
