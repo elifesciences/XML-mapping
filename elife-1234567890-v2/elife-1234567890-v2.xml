@@ -20,7 +20,7 @@
             <!-- Concept DOI -->
             <article-id pub-id-type="doi">10.7554/eLife.1234567890</article-id>
             <!-- Specific version DOI -->
-            <article-id pub-id-type="doi" secific-use="version">10.7554/eLife.1234567890.3</article-id>
+            <article-id pub-id-type="doi" specific-use="version">10.7554/eLife.1234567890.3</article-id>
             <article-categories>
                 <subj-group subj-group-type="display-channel">
                     <subject>Research Article</subject>
