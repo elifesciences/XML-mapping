@@ -182,7 +182,9 @@
                 <year>2023</year>
             </pub-date>
             <volume>12</volume>
-            <elocation-id>PR1234567890</elocation-id>
+            <!-- elocation-id is in the format RP{article number} for PRC content
+                                           and e{article number} for non-PRC content -->
+            <elocation-id>RP1234567890</elocation-id>
             <history>
                 <date date-type="sent-for-review" iso-8601-date="2023-03-20">
                     <day>20</day>
@@ -213,11 +215,21 @@
                     </date>
                     <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.1"/>   
                 </event>
+                <!-- This one can occurr numerous times -->
                 <event>
                     <event-desc>The reviewed preprint was revised.</event-desc>
                     <date date-type="reviewed-preprint" iso-8601-date="2023-09-10">
                         <day>10</day>
                         <month>09</month>
+                        <year>2023</year>
+                    </date>
+                    <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.2"/>   
+                </event>
+                <event>
+                    <event-desc>The reviewed preprint was revised.</event-desc>
+                    <date date-type="reviewed-preprint" iso-8601-date="2023-11-10">
+                        <day>10</day>
+                        <month>11</month>
                         <year>2023</year>
                     </date>
                     <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.2"/>   
