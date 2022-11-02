@@ -2003,7 +2003,7 @@ module load anaconda</code>
     </back>
     <sub-article id="sa0" article-type="editor-report">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.1234567890.sa0</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.3.sa0</article-id>
             <title-group>
                 <!-- 'Editor's evaluation' changed to 'eLife assessment' -->
                 <article-title>eLife assessment</article-title>
@@ -2045,7 +2045,7 @@ module load anaconda</code>
     <!-- article-type changed from decision-letter to referee-report -->
     <sub-article id="sa1" article-type="referee-report">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.1234567890.sa1</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.3.sa1</article-id>
             <title-group>
                 <article-title>Reviewer #1 (public review)</article-title>
             </title-group>
@@ -2326,7 +2326,7 @@ module load anaconda</code>
     </sub-article>
     <sub-article id="sa2" article-type="referee-report">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.1234567890.sa2</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.3.sa2</article-id>
             <title-group>
                 <article-title>Reviewer #2 (public review)</article-title>
             </title-group>
@@ -2364,7 +2364,7 @@ module load anaconda</code>
     </sub-article>
     <sub-article id="sa3" article-type="referee-report">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.1234567890.sa3</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.3.sa3</article-id>
             <title-group>
                 <article-title>Reviewer #3 (public review)</article-title>
             </title-group>
@@ -2394,7 +2394,7 @@ module load anaconda</code>
     </sub-article>
     <sub-article id="sa4" article-type="referee-report">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.1234567890.sa4</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.3.sa4</article-id>
             <title-group>
                 <article-title>Recommendations for authors</article-title>
             </title-group>
@@ -2454,7 +2454,7 @@ module load anaconda</code>
     <!-- article-type changed from reply to author-comment -->
     <sub-article article-type="author-comment" id="sa5">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.1234567890.sa5</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.3.sa5</article-id>
             <title-group>
                 <article-title>Author response</article-title>
             </title-group>
