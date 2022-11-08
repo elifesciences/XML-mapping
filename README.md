@@ -25,7 +25,7 @@ Forked from `elife-1234567890-v1.xml` to demonstrate several updates to handling
 XML for articles published under the Publish Review Curate (PRC) model.
 
 ### elife-1234567890-v3.xml
-
+Forked from `elife-1234567890-v1.xml`, this XML contains all JATS4R and other related updates for potential future inclusion. It is not indicative of current content.
 
 ### elife-00666.xml
 
