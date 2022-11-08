@@ -19,6 +19,14 @@ Forked from `elife-00666.xml` 2021-08-12, the manuscript ID `666` was conflictin
 
 The new MSID is hopefully very obviously fake.
 
+### elife-1234567890-v2.xml
+
+Forked from `elife-1234567890-v1.xml` to demonstrate several updates to handling of content, now adapted as
+XML for articles published under the Publish Review Curate (PRC) model.
+
+### elife-1234567890-v3.xml
+
+
 ### elife-00666.xml
 
 The original kitchen sink, kept until all organisation references are updated but otherwise archived.
