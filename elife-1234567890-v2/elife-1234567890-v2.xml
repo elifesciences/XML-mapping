@@ -2030,11 +2030,15 @@ module load anaconda</code>
             <related-object id="sa0ro1" object-id="10.1101/2021.11.09.467796" object-id-type="id" link-type="continued-by" xlink:href="https://sciety.org/articles/activity/10.1101/2021.11.09.467796"/>
             <kwd-group kwd-group-type="claim-importance">
                 <!-- Controlled vocabulary of importance values: Landmark; Fundamental; Important; Noteworthy; Useful; Flawed -->
+                <!-- Multiple terms may be selected -->
                 <kwd>Noteworthy</kwd>
+                <kwd>Flawed</kwd>
             </kwd-group>
             <kwd-group kwd-group-type="evidence-strength">
                 <!-- Controlled vocabulary of strength values: Tour-de-force; Compelling; Convincing; Solid; Incomplete; Inadequate -->
+                <!-- Multiple terms may be selected -->
                 <kwd>Compelling</kwd>
+                <kwd>Incomplete</kwd>
             </kwd-group>
         </front-stub>
         <body>
