@@ -2027,7 +2027,7 @@ module load anaconda</code>
                     </aff>
                 </contrib>
             </contrib-group>
-            <related-object id="sa0ro1" object-id="10.1101/2021.11.09.467796" object-id-type="id" link-type="continued-by" xlink:href="https://sciety.org/articles/activity/10.1101/2021.11.09.467796"/>
+            <!-- Working on assumption that Sciety related-object is not required in PRC content -->
             <kwd-group kwd-group-type="claim-importance">
                 <!-- Controlled vocabulary of importance values: Landmark; Fundamental; Important; Noteworthy; Useful; Flawed -->
                 <!-- Multiple terms may be selected -->
