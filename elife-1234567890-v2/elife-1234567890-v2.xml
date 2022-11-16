@@ -181,6 +181,7 @@
                 <month>10</month>
                 <year>2023</year>
             </pub-date>
+            <!-- volume needs to match the RP. This will mean it should be based on the pub date of the first reviewed preprint version -->
             <volume>12</volume>
             <!-- elocation-id is in the format RP{article number} for PRC content
                                            and e{article number} for non-PRC content -->
@@ -2043,7 +2044,7 @@ module load anaconda</code>
         </front-stub>
         <body>
             <!-- The summary text will include hyperlinked words identical or similar to those used in the controlled vocabulary -->
-            <p>This is an Evaluation summary, which is a summary of the article provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos. This work is a <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/">compelling</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://elifesciences.org/">noteworthy</ext-link> study.</p>
+            <p>This is an eLife assessment, which is a summary of the peer reviews provided by the BRE. It will only contain one or more paragraphs, no figures, tables or videos. It might say something like, "with respect to blah blah, this study is <bold>noteworthy</bold> backed up by data that is <bold>compelling</bold>, however the model design for blah is <bold>flawed</bold> and the evidence <bold>incomplete</bold>".</p>
         </body>
     </sub-article>
     <!-- article-type changed from decision-letter to referee-report -->
