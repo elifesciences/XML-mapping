@@ -1866,16 +1866,12 @@ module load anaconda</code>
                             <p>...</p>
                             <sec id="app2s3">
                                 <title>Appendix heading level 3</title>
-                                <p>...<xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>... <xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>...</p>
-                                <!-- Only 4 nested secs allowed in appendices due to h6 limit in HTML
+                                <!-- Only 3 nested secs allowed in appendices due to h6 limit in HTML
                                     h1 = article title
                                     h2 = appendix title
                                     h3-6 = appendix sections
                                 -->
-                                <sec id="app2s4">
-                                    <title>Appendix heading level 4</title>
-                                    <p>...</p>
-                                </sec>
+                                <p>...<xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>... <xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>...</p>
                             </sec>
                         </sec>
                     </sec>
