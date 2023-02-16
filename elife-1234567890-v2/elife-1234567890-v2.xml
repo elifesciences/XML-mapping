@@ -2044,6 +2044,8 @@ module load anaconda</code>
         </body>
     </sub-article>
     <!-- article-type changed from decision-letter to referee-report -->
+    <!-- either there will be one public review for each reviewer, or there will be a consensus or joint public review. 
+           They are mutually exlusive. This file contains them all which is not indicative of a 'real' file -->
     <sub-article id="sa1" article-type="referee-report">
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.1234567890.4.sa1</article-id>
@@ -2393,9 +2395,47 @@ module load anaconda</code>
             <p>Each reviewer's report is included as a separate sub-article. This will usually mean three reviews, though more or fewer are permitted. Reviews may be published anonymously.</p>
         </body>
     </sub-article>
+    <!-- would not be included in a file with individual or joint public reviews -->
     <sub-article id="sa4" article-type="referee-report">
         <front-stub>
             <article-id pub-id-type="doi">10.7554/eLife.1234567890.4.sa4</article-id>
+            <title-group>
+                <article-title>Consensus public review</article-title>
+            </title-group>
+            <contrib-group>
+                <!-- Anonymous reviewer -->
+                <contrib contrib-type="author">
+                    <anonymous/>
+                    <role specific-use="referee">Reviewer</role>
+                </contrib>
+            </contrib-group>
+        </front-stub>
+        <body>
+            <p>The public review reached by consensus.</p>
+        </body>
+    </sub-article>
+    <!-- would not be included in a file with individual or consensus public reviews -->
+    <sub-article id="sa5" article-type="referee-report">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.4.sa5</article-id>
+            <title-group>
+                <article-title>Joint public review</article-title>
+            </title-group>
+            <contrib-group>
+                <!-- Anonymous reviewer -->
+                <contrib contrib-type="author">
+                    <anonymous/>
+                    <role specific-use="referee">Reviewer</role>
+                </contrib>
+            </contrib-group>
+        </front-stub>
+        <body>
+            <p>The public review containing comments from all reviewers.</p>
+        </body>
+    </sub-article>
+    <sub-article id="sa6" article-type="referee-report">
+        <front-stub>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.4.sa6</article-id>
             <title-group>
                 <article-title>Recommendations for authors</article-title>
             </title-group>
@@ -2453,9 +2493,9 @@ module load anaconda</code>
         </body>
     </sub-article>
     <!-- article-type changed from reply to author-comment -->
-    <sub-article article-type="author-comment" id="sa5">
+    <sub-article article-type="author-comment" id="sa7">
         <front-stub>
-            <article-id pub-id-type="doi">10.7554/eLife.1234567890.4.sa5</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.1234567890.4.sa7</article-id>
             <title-group>
                 <article-title>Author response</article-title>
             </title-group>
@@ -2517,15 +2557,15 @@ module load anaconda</code>
                 <p>The reviewers have discussed the reviews with one another and the Reviewing Editor has drafted this decision to help you prepare a revised submission.</p>
                 <p>You need to make sure the XML structure you create works on the display of the PMC platform and also that there is enough information contained within the tagging to generate a typeset PDF from the XML with no additional information provided.</p>
             </disp-quote>
-            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa5fig1">Author response image 1.</xref>, <xref ref-type="video" rid="sa5video1">Author response video 1</xref> and <xref ref-type="table" rid="sa5table1">Author response table 1</xref>.</p>
-            <fig id="sa5fig1" position="float">
+            <p>In response to this comment, we validated the XML against the DTD (JATS 1) each time we made an update. We also regularly used the PMC validator to check our decisions against display on the PMC site, see <xref ref-type="fig" rid="sa7fig1">Author response image 1.</xref>, <xref ref-type="video" rid="sa7video1">Author response video 1</xref> and <xref ref-type="table" rid="sa7table1">Author response table 1</xref>.</p>
+            <fig id="sa7fig1" position="float">
                 <label>Author response image 1.</label>
                 <caption>
                     <p>Single figure: The header of an eLife article example on the HTML page.</p>
                 </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-sa5-fig1.tif"/>
+                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-sa7-fig1.tif"/>
             </fig>
-            <table-wrap id="sa5table1" position="float">
+            <table-wrap id="sa7table1" position="float">
                 <label>Author response table 1.</label>
                 <caption>
                     <p>Author response table</p>
@@ -2582,7 +2622,7 @@ module load anaconda</code>
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="video" mime-subtype="mp4" id="sa5video1" xlink:href="elife-1234567890-sa5-video1.mp4">
+            <media mimetype="video" mime-subtype="mp4" id="sa7video1" xlink:href="elife-1234567890-sa7-video1.mp4">
                 <label>Author response video 1.</label>
                 <caption>
                     <title>Caption and/or a title is required for all author response assets.</title>
@@ -2590,7 +2630,7 @@ module load anaconda</code>
             </media>
             <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} order to produce rules for the production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.</p>
             <p>Adding some MathML to the sub-article.<inline-formula>
-                <mml:math id="sa5m1">
+                <mml:math id="sa7m1">
                     <mml:mstyle displaystyle="true" scriptlevel="0">
                         <mml:mrow>
                             <mml:msup>
@@ -2657,9 +2697,9 @@ module load anaconda</code>
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
-                <disp-formula id="sa5equ1">
+                <disp-formula id="sa7equ1">
                     <label>(1)</label>
-                        <mml:math id="sa5m2">
+                        <mml:math id="sa7m2">
                             <mml:mstyle displaystyle="true" scriptlevel="0">
                                 <mml:mrow>
                                     <mml:mi>d</mml:mi>
@@ -2749,10 +2789,10 @@ module load anaconda</code>
                         </mml:math>
                 </disp-formula>
             </p>
-            <list id="sa5list1" list-type="roman-upper">
+            <list id="sa7list1" list-type="roman-upper">
                 <list-item>
                     <p>'Contamination'</p>
-                    <list id="sa5list2" list-type="order">
+                    <list id="sa7list2" list-type="order">
                         <list-item>
                             <p>Cell line <sup>superscript</sup><sub>subscript</sub> &amp; p&lt;0.001</p>
                         </list-item>
