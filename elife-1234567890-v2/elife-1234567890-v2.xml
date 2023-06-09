@@ -1194,6 +1194,11 @@ module load anaconda</code>
                 <label>MDAR checklist</label>
                 <media mimetype="application" mime-subtype="pdf" xlink:href="elife-1234567890-mdarchecklist1.pdf"/>
             </supplementary-material>
+            <!-- Inclusion in global research form with the eJP file-type="stub_table" -->
+            <supplementary-material id="igrf">
+                <label>Inclusion in global research form</label>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="elife-1234567890-inclusion_global_research.pdf"/>
+            </supplementary-material>
         </sec>
         <sec id="s7" sec-type="data-availability">
             <title>Data availability</title>
