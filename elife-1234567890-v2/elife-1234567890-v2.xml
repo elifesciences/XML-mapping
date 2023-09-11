@@ -347,6 +347,7 @@
                  If a funding source is not in the open funder registry then there is no institution-id
                  If the funder is in the open funder registry then there is an institution-id -->
             <funding-group>
+                <!-- Funding no longer needs to be cited via xref in author contrib elements -->
                 <award-group id="fund1">
                     <funding-source>
                         <institution-wrap>
@@ -356,7 +357,17 @@
                         </institution-wrap>
                     </funding-source>
                     <award-id>DA037327</award-id>
-                    <!-- No longer any need to identify which authors were benefited by which funding -->
+                    <principal-award-recipient>
+                        <name>
+                            <surname>Atherden</surname>
+                            <given-names>Frederick Peter</given-names>
+                            <suffix>III</suffix>
+                        </name>
+                        <name>
+                            <surname>Harrison</surname>
+                            <given-names>Melissa</given-names>
+                        </name>
+                    </principal-award-recipient>
                 </award-group>
                 <award-group id="fund2">
                     <funding-source>
@@ -365,6 +376,13 @@
                         </institution-wrap>
                     </funding-source>
                     <award-id>00000000001</award-id>
+                    <principal-award-recipient>
+                        <name>
+                            <surname>Atherden</surname>
+                            <given-names>Frederick Peter</given-names>
+                            <suffix>III</suffix>
+                        </name>
+                    </principal-award-recipient>
                 </award-group>
                 <funding-statement>The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.</funding-statement>
             </funding-group>
