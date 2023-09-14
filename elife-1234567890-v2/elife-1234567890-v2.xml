@@ -344,15 +344,14 @@
                 <kwd>Prereigstered</kwd>
             </kwd-group>
             <!-- Funding is no longer linked to from the authors (using xref), since this information is not displayed in the pop-up on the website anyway
-                 If a funding source is not in the open funder registry then there is no institution-id
-                 If the funder is in the open funder registry then there is an institution-id -->
+                 Funder IDs will now be derrived from the ROR database, not the CrossRef Funder Registry
+                 DOIs will now be supported as the award-id in a funding entry -->
             <funding-group>
-                <!-- Funding no longer needs to be cited via xref in author contrib elements -->
                 <award-group id="fund1">
                     <funding-source>
                         <institution-wrap>
-                            <!-- vocab and vocab-identifier attribute added. institution-id-type changed to doi -->
-                            <institution-id institution-id-type="doi" vocab="open-funder-registry" vocab-identifier="10.13039/open-funder-registry">10.13039/100000002</institution-id>
+                            <!-- institution-id-type changed to ror -->
+                            <institution-id institution-id-type="ror">https://ror.org/01cwqze88</institution-id>
                             <institution>National Institutes of Health</institution>
                         </institution-wrap>
                     </funding-source>
@@ -369,7 +368,25 @@
                         </name>
                     </principal-award-recipient>
                 </award-group>
+                <!-- institution-id-type changed to ror -->
                 <award-group id="fund2">
+                    <funding-source>
+                        <institution-wrap>
+                            <institution-id institution-id-type="ror">https://ror.org/01pv73b02</institution-id>
+                            <institution>Czech Science Foundation</institution>
+                        </institution-wrap>
+                    </funding-source>
+                    <!-- award-id-type should be applied for funding DOIs; use for grants where a DOI is available -->
+                    <award-id award-id-type="doi">10.13039/501100001824</award-id>
+                    <principal-award-recipient>
+                        <name>
+                            <surname>Atherden</surname>
+                            <given-names>Frederick Peter</given-names>
+                            <suffix>III</suffix>
+                        </name>
+                    </principal-award-recipient>
+                </award-group>
+                <award-group id="fund3">
                     <funding-source>
                         <institution-wrap>
                             <institution>eLife Sciences</institution>
