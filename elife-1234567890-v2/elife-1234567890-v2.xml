@@ -618,8 +618,38 @@
                 <media id="fig1video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-fig1-video1.mp4">
                     <label>Figure 1&#x2014;video 1.</label>
                     <caption>
-                        <title>TIRF force reconstitution assay of wild-type vinculin ABD.</title>
+                        <title>Video associated with a main figure.</title>
                         <p>First 100 s of representative ... Scale bar, 20 µm.</p>
+                    </caption>
+                    <permissions>
+                        <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
+                        <copyright-year>2004</copyright-year>
+                        <copyright-holder>American Society for Cell Biology</copyright-holder>
+                        <license>
+                            <license-p>Video is reproduced from  with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.</license-p>
+                        </license>
+                    </permissions>
+                </media>
+                <media id="fig1video2" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-fig1-video2.mp4">
+                    <label>Figure 1&#x2014;video 2.</label>
+                    <caption>
+                        <title>Another video associated with a main figure.</title>
+                        <p>First 100 s of representative ... Scale bar, 20 µm.</p>
+                    </caption>
+                    <permissions>
+                        <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
+                        <copyright-year>2004</copyright-year>
+                        <copyright-holder>American Society for Cell Biology</copyright-holder>
+                        <license>
+                            <license-p>Video is reproduced from  with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.</license-p>
+                        </license>
+                    </permissions>
+                </media>
+                <media id="fig1video3" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-fig1-video3.mp4">
+                    <label>Figure 1&#x2014;Animation 1.</label>
+                    <caption>
+                        <title>Animation associated with a main figure.</title>
+                        <p>Note that file naming and ID for videos and animations is sequential regardless of labelling (e.g. videos and animations are counted together).</p>
                     </caption>
                     <permissions>
                         <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
@@ -654,12 +684,59 @@
                 </fig>
                 <sec id="s1-1-1">
                     <title>Section level 3</title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit in <xref ref-type="video" rid="video1">Video 1</xref>. In maximus, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit in <xref ref-type="video" rid="video1">Video 1</xref>. In maximus, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc (<xref ref-type="video" rid="video2">Animation 1</xref>).</p>
                     <media id="video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-video1.mp4">
                         <label>Video 1.</label>
                         <caption>
                             <title>TIRF force reconstitution assay of wild-type vinculin ABD.</title>
                             <p>First 100 s of representative ... Scale bar, 20 µm.</p>
+                            <p>
+                                <supplementary-material id="video1scode1">
+                                    <label>Video 1&#x2014;source code 1.</label>
+                                    <caption>
+                                        <title>Source code title.</title>
+                                        <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
+                                    </caption>
+                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-video1-code1.zip"/>
+                                </supplementary-material>
+                            </p>
+                            <p>
+                                <supplementary-material id="video1sdata1">
+                                    <label>Video 1&#x2014;source data 1.</label>
+                                    <caption>
+                                        <title>Source code title.</title>
+                                        <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
+                                    </caption>
+                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-video1-data1.zip"/>
+                                </supplementary-material>
+                            </p>
+                        </caption>
+                    </media>
+                    <media id="video2" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-video2.mp4">
+                        <label>Animation 1.</label>
+                        <caption>
+                            <title>A demonstration of how to tag an animated gif file to ensure it is autolooped when on the eLife website.</title>
+                            <p>Note that file naming and ID for videos and animations is sequential regardless of labelling (e.g. videos and animations are counted together).</p>
+                            <p>
+                                <supplementary-material id="video2scode1">
+                                    <label>Animation 1&#x2014;source code 1.</label>
+                                    <caption>
+                                        <title>Source code title.</title>
+                                        <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
+                                    </caption>
+                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-video2-code1.zip"/>
+                                </supplementary-material>
+                            </p>
+                            <p>
+                                <supplementary-material id="video2sdata1">
+                                    <label>Animation 1&#x2014;source data 1.</label>
+                                    <caption>
+                                        <title>Source code title.</title>
+                                        <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
+                                    </caption>
+                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-video2-data1.zip"/>
+                                </supplementary-material>
+                            </p>
                         </caption>
                     </media>
                 </sec>
@@ -1871,6 +1948,60 @@ module load anaconda</code>
                         </caption>
                         <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-app2-chem1-fig1.tif"/>
                     </fig>
+                    <media id="app2video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-app2-video1.mp4">
+                        <label>Appendix 2&#x2014;video 1.</label>
+                        <caption>
+                            <title>TIRF force reconstitution assay of wild-type vinculin ABD.</title>
+                            <p>First 100 s of representative ... Scale bar, 20 µm.</p>
+                            <p>
+                                <supplementary-material id="app2video1scode1">
+                                    <label>Appendix 2&#x2014;video 1.&#x2014;source code 1.</label>
+                                    <caption>
+                                        <title>Source code title.</title>
+                                        <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
+                                    </caption>
+                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app2-video1-code1.zip"/>
+                                </supplementary-material>
+                            </p>
+                            <p>
+                                <supplementary-material id="app2video1sdata1">
+                                    <label>Appendix 2&#x2014;video 1.&#x2014;source data 1.</label>
+                                    <caption>
+                                        <title>Source code title.</title>
+                                        <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
+                                    </caption>
+                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app2-video1-data1.zip"/>
+                                </supplementary-material>
+                            </p>
+                        </caption>
+                    </media>
+                    <media id="app2video2" mimetype="video" mime-subtype="mp4" xlink:href="elife-1234567890-app2-video2.mp4">
+                        <label>Appendix 2&#x2014;animation 1.</label>
+                        <caption>
+                            <title>A demonstration of how to tag an animated gif file to ensure it is autolooped when on the eLife website.</title>
+                            <p>Note that file naming and ID for videos and animations is sequential regardless of labelling (e.g. videos and animations are counted together).</p>
+                            <p>
+                                <supplementary-material id="app2video2scode1">
+                                    <label>Appendix 2&#x2014;animation 1&#x2014;source code 1.</label>
+                                    <caption>
+                                        <title>Source code title.</title>
+                                        <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
+                                    </caption>
+                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app2-video2-code1.zip"/>
+                                </supplementary-material>
+                            </p>
+                            <p>
+                                <supplementary-material id="app2video2sdata1">
+                                    <label>Appendix 2&#x2014;animation 1&#x2014;source data 1.</label>
+                                    <caption>
+                                        <title>Source code title.</title>
+                                        <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
+                                    </caption>
+                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app2-video2-data1.zip"/>
+                                </supplementary-material>
+                            </p>
+                        </caption>
+                    </media>
                     <sec id="app2s2">
                         <title>Appendix heading level 1</title>
                         <p>... <xref ref-type="disp-formula" rid="equ696">Equation 1</xref> <disp-formula id="equ696">
@@ -2029,7 +2160,14 @@ module load anaconda</code>
                         <media id="app3fig1video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-app3-fig1-video1.mp4">
                             <label>Appendix 3&#x2014;figure 1&#x2014;video 1.</label>
                             <caption>
-                                <title>TIRF force reconstitution assay of wild-type vinculin ABD.</title>
+                                <title>Video assocaited with an appendix figure.</title>
+                                <p>First 100 s of representative ... Scale bar, 20 µm.</p>
+                            </caption>
+                        </media>
+                        <media id="app3fig1video2" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-app3-fig1-video2.mp4">
+                            <label>Appendix 3&#x2014;figure 1&#x2014;animation 1.</label>
+                            <caption>
+                                <title>Animation associated with an appendix figure.</title>
                                 <p>First 100 s of representative ... Scale bar, 20 µm.</p>
                             </caption>
                         </media>
