@@ -546,24 +546,28 @@
                                 <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-fig1-code1.zip"/>
                             </supplementary-material></p>
                     </caption>
-                        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-1234567890-fig1.tif"/><permissions>
-                        <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
-                        <copyright-year>2004</copyright-year>
-                        <copyright-holder>American Society for Cell Biology</copyright-holder>
-                        <license>
-                            <license-p>Panel B is reproduced from <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref> with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.</license-p>
-                        </license>
-                    </permissions>
-                    <permissions>
-                        <copyright-statement>© 2014, copyright holder</copyright-statement>
-                        <copyright-year>2014</copyright-year>
-                        <copyright-holder>copyright holder</copyright-holder>
-                        <license>
-                            <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
-                            <license-p>Panel D is reproduced from <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref> published under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution License (CC BY-NC-ND 4.0)</ext-link></license-p>
-                        </license>
-                    </permissions>
-                </fig>
+                        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-1234567890-fig1.tif">
+                            <alt-text>A screenshot of an article page on the eLife website as it used to look.</alt-text>
+                            <long-desc>A screenshot of an article page on the eLife site as it was previously designed. A white background is populated with content in grey and black. In the header, the eLife logo appears to the left in black with a menu to its right spanning the top of the page. After the header follows article content and metadata, which is black in colour. The article title is "Circuit mechanisms encoding odors and driving aging-associated behavioral declines in Caenorhabditis elegans". Underneath the title is the author list which is truncated and shows two authors: "James C MeGann, Phillip A Newmarket et al." The first author's name has been clicked by the user revealing a popup with a grey background in which more information about that author is displayed in white text, such as their affiliation, present address, contributions to the paper, email address, competing interest statement and ORCID. The popup obscures more content below, including much of the text in the abstract.</long-desc>
+                        </graphic>
+                        <permissions>
+                            <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
+                            <copyright-year>2004</copyright-year>
+                            <copyright-holder>American Society for Cell Biology</copyright-holder>
+                            <license>
+                                <license-p>Panel B is reproduced from <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref> with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.</license-p>
+                            </license>
+                        </permissions>
+                        <permissions>
+                            <copyright-statement>© 2014, copyright holder</copyright-statement>
+                            <copyright-year>2014</copyright-year>
+                            <copyright-holder>copyright holder</copyright-holder>
+                            <license>
+                                <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                                <license-p>Panel D is reproduced from <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref> published under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution License (CC BY-NC-ND 4.0)</ext-link></license-p>
+                            </license>
+                        </permissions>
+                    </fig>
                 <fig id="fig1s1" specific-use="child-fig" position="float">
                     <label>Figure 1&#x2014;figure supplement 1.</label>
                     <caption>
