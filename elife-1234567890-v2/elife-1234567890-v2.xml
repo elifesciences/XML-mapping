@@ -184,7 +184,8 @@
             <!-- volume needs to match the RP. This will mean it should be based on the pub date of the first reviewed preprint version -->
             <volume>12</volume>
             <!-- elocation-id is in the format RP{article number} for PRC content
-                                           and e{article number} for non-PRC content -->
+                                           and e{article number} for non-PRC content 
+                 PMC are relying on this convention - inform them of any change -->
             <elocation-id>RP1234567890</elocation-id>
             <history>
                 <date date-type="sent-for-review" iso-8601-date="2023-03-20">
