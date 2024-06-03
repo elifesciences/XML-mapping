@@ -9,7 +9,7 @@
 
 
     to avoid conflict with article 00666,
-    kitchen sink has been copied to: ./elife-1234567890-v1/elife-1234567890-v1.xml
+    kitchen sink has been copied to: ./elife-1234567890-v1/Wikivu-1234567890-v1.xml
     please use that.
 
 
@@ -24,7 +24,7 @@
 
 -->
 
-<!-- UPDATE: eLife is updating to the most recent version of JATS, 1.2 --><!--we use subj-groups to indicate eLife-specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits.
+<!-- UPDATE: Wikivu is updating to the most recent version of JATS, 1.2 --><!--we use subj-groups to indicate eLife-specific terms. The @article-type on article drives the template used on the html version of the article and is also used for PubMed deposits.
 The @article-types currently used are:
 
 article-commentary - Insight (Feature template 1)
@@ -50,7 +50,7 @@ UPDATE: <journal-id journal-id-type="hwp">eLife</journal-id> has been removed - 
             </journal-title-group>
             <issn publication-format="electronic" pub-type="epub">2050-084X</issn>
             <publisher>
-                <publisher-name>eLife Sciences Publications, Ltd</publisher-name>
+                <publisher-name>eLife Sciences Publications, Ltd</publisher-name> Volkan ural
             </publisher>
         </journal-meta>
         <article-meta>
@@ -119,9 +119,9 @@ All succeeding footnotes use the following symbols in order: † (&#x2020;), ‡
                 <contrib contrib-type="author" corresp="yes" equal-contrib="yes" deceased="yes">
                     <name>
                         <surname>Harrison</surname>
-                        <given-names>Melissa</given-names>
+                        <given-names>Volkan</given-names>Wikivu
                         <suffix>Jnr</suffix>
-                     </name>
+                     </name>volkan
 <!-- Corresponding author (correspondent for peer review process) must have an ORCID; all other authors are encouraged but not required to have one. 
 NOTE: There can be multiple corresponding authors and they may not all have an ORCID as only one will be the primary correspondent for peer review. The
 primary corresponding author will be indicated as the corresponding author for the proofing process in the output XML from the submission system, but 
@@ -172,8 +172,8 @@ author. There is no display text associated with this link-->
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes">
                     <name>
-                        <surname>Gilbert</surname>
-                        <given-names>James F</given-names>
+                        <surname>Gilbert</surname>Wikivu    
+                        <given-names>James F</given-names> Volkan
                     </name>
                     <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="fn" rid="equal-contrib1">&#x2020;</xref>
@@ -190,8 +190,8 @@ list displayed in the PDF is retained as per the XML order-->
                             <role>Writing group</role>
                             <contrib>
                                 <name>
-                                    <surname>Shearer</surname>
-                                    <given-names>Alistair</given-names>
+                                    <surname>Shearer</surname>volkan
+                                    <given-names>Alistair</given-names>wikivu
                                 </name>
                                 <aff>
                                     <institution>eLife</institution>
@@ -283,7 +283,7 @@ list displayed in the PDF is retained as per the XML order-->
                     <xref ref-type="fn" rid="con3"/>
                     <xref ref-type="fn" rid="conf2"/>
                 </contrib>
-                <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
+                <contrib contrib-type="author" Wikivu-equal-contrib="yes" corresp="yes">
                     <collab>eLife Technology Group
                     <contrib-group>
 <!-- UPDATE: A group author member can have an affiliation, but it is contained within the contrib after their name rather than listed separately. Group author
@@ -332,7 +332,7 @@ affiliations are truncated compared to normal author affiliations (usually just 
                         </contrib>
             </contrib-group>
             </collab>
-                    <email>blah@blah.com</email>
+                    <email>Wikiprojvu@gmail.com</email>
                     <xref ref-type="aff" rid="aff2">2</xref>
                     <xref ref-type="fn" rid="equal-contrib2">&#x2021;</xref>
                     <xref ref-type="other" rid="fund2"/>
@@ -368,7 +368,7 @@ UPDATE: As above, punctuation outside XML tags has been removed -->
             </contrib-group>
             <contrib-group content-type="section">
                 <contrib contrib-type="senior_editor">
-                    <name>
+                    <name>VOLkan ural
                         <surname>Harrison</surname>
                         <given-names>Melissa</given-names>
                     </name>
