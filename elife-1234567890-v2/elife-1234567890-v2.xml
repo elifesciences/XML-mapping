@@ -196,7 +196,7 @@
             </history>
             <pub-history>
                 <event>
-                    <event-desc>This manuscript was published as a preprint.</event-desc>
+                    <event-desc>Preprint posted</event-desc>
                     <date date-type="preprint" iso-8601-date="2023-02-15">
                         <day>15</day>
                         <month>02</month>
@@ -209,32 +209,42 @@
                 <event>
                     <!-- We are using a new date-type and content-type here, 'reviewed-preprint', as the output of the PRC process is distinct from a normal preprint. There will be discussions necessary
                     with groups like JATS4R to determine a recommendation to standardise the catpure of the PRC outputs once the process has been finalised and uptake becomes more widespread. -->
-                    <event-desc>This manuscript was published as a reviewed preprint.</event-desc>
+                    <event-desc>Reviewed preprint v1</event-desc>
                     <date date-type="reviewed-preprint" iso-8601-date="2023-04-15">
                         <day>15</day>
                         <month>04</month>
                         <year>2023</year>
                     </date>
-                    <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.1"/>   
+                    <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.1"/>
+                    <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.1.sa2">Reviewer #1 (Public Review)</self-uri>
+                    <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.1.sa3">Reviewer #2 (Public Review)</self-uri>
+                    <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.1.sa4">Reviewer #3 (Public Review)</self-uri>
+                    <self-uri content-type="author-comment" xlink:href="https://doi.org/10.7554/eLife.1234567890.1.sa1">Author response</self-uri>
                 </event>
                 <!-- This one can occurr numerous times -->
                 <event>
-                    <event-desc>The reviewed preprint was revised.</event-desc>
+                    <event-desc>Reviewed preprint v2</event-desc>
                     <date date-type="reviewed-preprint" iso-8601-date="2023-09-10">
                         <day>10</day>
                         <month>09</month>
                         <year>2023</year>
                     </date>
-                    <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.2"/>   
+                    <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.2"/>
+                    <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.2.sa2">Reviewer #1 (Public Review)</self-uri>
+                    <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.2.sa3">Reviewer #2 (Public Review)</self-uri>
+                    <self-uri content-type="author-comment" xlink:href="https://doi.org/10.7554/eLife.1234567890.2.sa1">Author response</self-uri>
                 </event>
                 <event>
-                    <event-desc>The reviewed preprint was revised.</event-desc>
+                    <event-desc>Reviewed preprint v3</event-desc>
                     <date date-type="reviewed-preprint" iso-8601-date="2023-11-10">
                         <day>10</day>
                         <month>11</month>
                         <year>2023</year>
                     </date>
-                    <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.3"/>   
+                    <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.3"/>
+                    <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.3.sa2">Reviewer #1 (Public Review)</self-uri>
+                    <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.3.sa3">Reviewer #2 (Public Review)</self-uri>
+                    <self-uri content-type="author-comment" xlink:href="https://doi.org/10.7554/eLife.1234567890.3.sa1">Author response</self-uri>   
                 </event>
             </pub-history>
             <permissions>
