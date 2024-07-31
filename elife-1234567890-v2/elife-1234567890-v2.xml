@@ -21,6 +21,8 @@
             <article-id pub-id-type="doi">10.7554/eLife.1234567890</article-id>
             <!-- Specific version DOI -->
             <article-id pub-id-type="doi" specific-use="version">10.7554/eLife.1234567890.4</article-id>
+            <!-- Article version used to distinguish reviewed preprints from versions of record. For RPs, value would be "reviewed preprint" -->
+            <article-version article-version-type="publication-state">version of record</article-version>
             <article-categories>
                 <subj-group subj-group-type="display-channel">
                     <subject>Research Article</subject>
