@@ -22,6 +22,8 @@
             <!-- Specific version DOI -->
             <article-id pub-id-type="doi" specific-use="version">10.7554/eLife.1234567890.4</article-id>
             <!-- Article version used to distinguish reviewed preprints from versions of record. For RPs, value would be "reviewed preprint" -->
+            <!-- For consistency, this element will be applied to both new model and legacy model content going forward-->
+            <!-- Please note that we are not using an external controlled vocabulary for this; 'publication-state' is an eLife-specific description -->
             <article-version article-version-type="publication-state">version of record</article-version>
             <article-categories>
                 <subj-group subj-group-type="display-channel">
