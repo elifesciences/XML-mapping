@@ -220,6 +220,13 @@
                         <month>04</month>
                         <year>2023</year>
                     </date>
+                    <notes notes-type="claim-importance">
+                    <p>Important</p>
+                    </notes>
+                    <notes notes-type="evidence-strength">
+                    <p>Incomplete</p>
+                    <p>Solid</p>
+                    </notes>
                     <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.1"/>
                     <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.1.sa2">Reviewer #1 (Public Review)</self-uri>
                     <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.1.sa3">Reviewer #2 (Public Review)</self-uri>
@@ -234,6 +241,13 @@
                         <month>09</month>
                         <year>2023</year>
                     </date>
+                    <notes notes-type="claim-importance">
+                    <p>Fundamental</p>
+                    </notes>
+                    <notes notes-type="evidence-strength">
+                    <p>Incomplete</p>
+                    <p>Convincing</p>
+                    </notes>
                     <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.2"/>
                     <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.2.sa2">Reviewer #1 (Public Review)</self-uri>
                     <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.2.sa3">Reviewer #2 (Public Review)</self-uri>
@@ -246,6 +260,12 @@
                         <month>11</month>
                         <year>2023</year>
                     </date>
+                    <notes notes-type="claim-importance">
+                    <p>Fundamental</p>
+                    </notes>
+                    <notes notes-type="evidence-strength">
+                    <p>Compelling</p>
+                    </notes>
                     <self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.1234567890.3"/>
                     <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.3.sa2">Reviewer #1 (Public Review)</self-uri>
                     <self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.1234567890.3.sa3">Reviewer #2 (Public Review)</self-uri>
