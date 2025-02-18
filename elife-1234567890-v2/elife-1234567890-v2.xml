@@ -292,6 +292,7 @@
                 <sec id="abs1">
                     <title>Background:</title>
                     <p>Since 2015, the World <italic>Health</italic> Organisation (WHO) <sup>a</sup><sub>b</sub>... <inline-formula>
+                        <alternatives>
                             <mml:math id="infm1">
                                 <mml:mi>P</mml:mi>
                                 <mml:mi>P</mml:mi>
@@ -315,6 +316,8 @@
                                     </mml:mrow>
                                 </mml:mfrac>
                             </mml:math>
+                            <tex-math><![CDATA[PPV=\frac{TP}{TP+FP}]]></tex-math>
+                        </alternatives>
                         </inline-formula></p>
                 </sec>
                 <sec id="abs2">
@@ -456,7 +459,8 @@
                         <p>We use the following model (<xref ref-type="disp-formula" rid="equ1">Equation 1</xref>) to represent the dynamics of a population of cells in which the transcription factors NANOG and GATA6 mutually repress each other through extracellular growth factor signaling:
                             <disp-formula id="equ1">
                                 <label>(1)</label>
-                                    <mml:math id="m1">
+                                    <alternatives>
+                                        <mml:math id="m1">
                                         <mml:mstyle displaystyle="true" scriptlevel="0">
                                             <mml:mrow>
                                                 <mml:mi>d</mml:mi>
@@ -544,6 +548,8 @@
                                             </mml:mrow>
                                         </mml:mstyle>
                                     </mml:math>
+                                        <tex-math><![CDATA[\displaystyle d=\sqrt{\left(\frac{\text{Predicted\, count\, }_i-\text{Observed\, count}_i}{\text{Observed\, count}_i}\right)^2}]]></tex-math>
+                                    </alternatives>
                                 </disp-formula></p>
                         <!-- Pending a suspected change in JATS 1.X or 2.0 supplementary-material could be captured as a child of fig, or could be captured in the addition files section in <back> and linked to with an <xref> which is a direct child of the object, rather than inside a p in the caption. For now kept as is, because this is not permitted in JATS. -->
                         <p><supplementary-material id="fig1sdata1">
@@ -1051,7 +1057,8 @@
                     </list-item>
                 </list>
                 <p>... <disp-formula id="equ100000000">
-                    <mml:math id="m2">
+                    <alternatives>
+                        <mml:math id="m2">
                         <mml:mi>P</mml:mi>
                         <mml:mi>P</mml:mi>
                         <mml:mi>V</mml:mi>
@@ -1074,11 +1081,9 @@
                                     </mml:mrow>
                                 </mml:mfrac>
                             </mml:math>
-                    </disp-formula>where each term above describes the rate of events that change the epidemic state: Births (<inline-formula>
-                        <mml:math id="infm2">
-                            <mml:mi>B</mml:mi>
-                        </mml:math>
-                    </inline-formula>), loss of maternally derived protection after MAB vaccination (<xref ref-type="bibr" rid="bib13">Spangler, 2014</xref>).</p>
+                        <tex-math><![CDATA[\displaystyle PPV=\frac{TP}{TP+FP}]]></tex-math>
+                    </alternatives>
+                    </disp-formula>where each term above describes the rate of events that change the epidemic state: Births (<inline-formula><alternatives><mml:math id="infm2"><mml:mi>B</mml:mi></mml:math><tex-math><![CDATA[B]]></tex-math></alternatives></inline-formula>), loss of maternally derived protection after MAB vaccination (<xref ref-type="bibr" rid="bib13">Spangler, 2014</xref>).</p>
                 <p>...</p>
                 <list list-type="simple">
                             <list-item>
@@ -1113,7 +1118,8 @@ module load anaconda</code>
                 <title>Formula</title>
                 <p>... <disp-formula id="equ2">
                     <label>(2)</label>
-                        <mml:math id="m3">
+                        <alternatives>
+                            <mml:math id="m3">
                             <mml:msubsup>
                                 <mml:mrow>
                                     <mml:mi>K</mml:mi>
@@ -1167,9 +1173,12 @@ module load anaconda</code>
                                     <mml:mo>]</mml:mo>
                                 </mml:mrow>
                             </mml:mfrac>
-                        </mml:math>   
+                        </mml:math>
+                        <tex-math><![CDATA[\displaystyle K_d^{\mathrm{IgaA}-\mathrm{RcsF}}=\frac{[\mathrm{IgaA}][\mathrm{RcsF}]}{[\mathrm{IgaA}-\mathrm{RcsF}]}]]></tex-math>    
+                        </alternatives>   
                 </disp-formula></p>
                 <p>... <inline-formula>
+                    <alternatives>
                         <mml:math id="infm3">
                             <mml:mstyle displaystyle="true" scriptlevel="0">
                                 <mml:mrow>
@@ -1215,8 +1224,11 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
+                    <tex-math><![CDATA[[A] \sim \sqrt{\frac{F^{AA}}{k_{mDHFR} k_f^{AA}}}]]></tex-math>
+                    </alternatives>
                 </inline-formula> ... 
                     <inline-formula>
+                        <alternatives>
                             <mml:math id="infm4">
                                 <mml:mrow>
                                     <mml:mi>ν</mml:mi>
@@ -1224,8 +1236,11 @@ module load anaconda</code>
                                     <mml:mi>X</mml:mi>
                                 </mml:mrow>
                             </mml:math>
+                            <tex-math><![CDATA[ν ≪ X]]></tex-math>
+                        </alternatives>
                 </inline-formula> ... 
                     <inline-formula>
+                        <alternatives>
                             <mml:math id="infm5">
                                 <mml:mrow>
                                     <mml:mi>ν</mml:mi>
@@ -1233,6 +1248,8 @@ module load anaconda</code>
                                     <mml:mi>G</mml:mi>
                                 </mml:mrow>
                             </mml:math>
+                            <tex-math><![CDATA[ν ≪ G]]></tex-math>
+                        </alternatives>
                 </inline-formula> ...</p>
             </sec>
             <sec id="s4-3">
@@ -2034,7 +2051,8 @@ module load anaconda</code>
                         <p>... <xref ref-type="disp-formula" rid="equ696">Equation 1</xref> <disp-formula id="equ696">
                             <label>(1)</label>
                             <!-- math id includes app id prefix -->
-                                <mml:math id="m696">
+                                <alternatives>
+                                    <mml:math id="m696">
                                     <mml:mrow>
                                         <mml:mi>ϕ</mml:mi>
                                         <mml:mo>=</mml:mo>
@@ -2058,6 +2076,8 @@ module load anaconda</code>
                                         </mml:msup>
                                     </mml:mrow>
                                 </mml:math>
+                                <tex-math><![CDATA[\displaystyle \phi=e^{-\frac{z F V}{n R T}}]]></tex-math>    
+                                </alternatives>
                         </disp-formula></p>
                         <sec id="app2s2-1">
                             <title>Appendix heading level 2</title>
@@ -2358,8 +2378,9 @@ module load anaconda</code>
                 </caption>
             </media>
             <p>Adding some MathML to the sub-article.<inline-formula>
-                <mml:math id="sa1m1">
-                    <mml:mstyle displaystyle="true" scriptlevel="0">
+                <alternatives>
+                    <mml:math id="sa1m1">
+                    <mml:mstyle scriptlevel="0">
                         <mml:mrow>
                             <mml:msup>
                                 <mml:mi>F</mml:mi>
@@ -2422,12 +2443,15 @@ module load anaconda</code>
                         </mml:mrow>
                     </mml:mstyle>
                 </mml:math>
+                <tex-math><![CDATA[F^{A B} \sim \frac{k_f^{A B}}{\sqrt{k_f^{A A} k_f^{B B}}} \sqrt{F^{A A} F^{B B}}]]></tex-math>
+                </alternatives>
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
                 <disp-formula id="sa1equ1">
                     <label>(1)</label>
-                        <mml:math id="sa1m2">
+                        <alternatives>
+                            <mml:math id="sa1m2">
                             <mml:mstyle displaystyle="true" scriptlevel="0">
                                 <mml:mrow>
                                     <mml:mi>d</mml:mi>
@@ -2515,6 +2539,8 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
+                        <tex-math><![CDATA[\displaystyle d=\sqrt{\left(\frac{\text { Predicted\, count }_i-\text { Observed\, count }_i}{\text { Observed\, count }_i}\right)^2}]]></tex-math>
+                        </alternatives>
                 </disp-formula>
             </p>
             <list id="sa1list1" list-type="order">
@@ -2835,7 +2861,8 @@ module load anaconda</code>
             </media>
             <p>However, some decisions required some communication with PMC to discuss whether any of our updates could be accomodated by them - during this review we aimed to reduce the complexity of the XML structure and remove all  formatting and bioler plate text required for a PDF display format. We also produced buisness rules {Insert table} order to produce rules for the production systems and the website to follow. These buisness rules also informed the basis for a set of Schematron rules for our references.</p>
             <p>Adding some MathML to the sub-article.<inline-formula>
-                <mml:math id="sa7m1">
+                <alternatives>
+                    <mml:math id="sa7m1">
                     <mml:mstyle displaystyle="true" scriptlevel="0">
                         <mml:mrow>
                             <mml:msup>
@@ -2899,12 +2926,15 @@ module load anaconda</code>
                         </mml:mrow>
                     </mml:mstyle>
                 </mml:math>
+                    <tex-math><![CDATA[F^{A B} \sim \frac{k_f^{A B}}{\sqrt{k_f^{A A} k_f^{B B}}} \sqrt{F^{A A} F^{B B}}]]></tex-math>
+                </alternatives>
             </inline-formula>
             </p>
             <p>May also contain a formula as a block
                 <disp-formula id="sa7equ1">
                     <label>(1)</label>
-                        <mml:math id="sa7m2">
+                        <alternatives>
+                            <mml:math id="sa7m2">
                             <mml:mstyle displaystyle="true" scriptlevel="0">
                                 <mml:mrow>
                                     <mml:mi>d</mml:mi>
@@ -2992,6 +3022,8 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
+                            <tex-math><![CDATA[\displaystyle d=\sqrt{\left(\frac{\text { Predicted\, count }_i-\text { Observed\, count }_i}{\text { Observed\, count }_i}\right)^2}]]></tex-math>
+                        </alternatives>
                 </disp-formula>
             </p>
             <list id="sa7list1" list-type="roman-upper">
