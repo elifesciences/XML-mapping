@@ -1236,7 +1236,7 @@ module load anaconda</code>
                                     <mml:mi>X</mml:mi>
                                 </mml:mrow>
                             </mml:math>
-                            <tex-math><![CDATA[ν ≪ X]]></tex-math>
+                            <tex-math><![CDATA[ν \ll X]]></tex-math>
                         </alternatives>
                 </inline-formula> ... 
                     <inline-formula>
@@ -1248,7 +1248,7 @@ module load anaconda</code>
                                     <mml:mi>G</mml:mi>
                                 </mml:mrow>
                             </mml:math>
-                            <tex-math><![CDATA[ν ≪ G]]></tex-math>
+                            <tex-math><![CDATA[ν \ll G]]></tex-math>
                         </alternatives>
                 </inline-formula> ...</p>
             </sec>
