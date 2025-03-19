@@ -316,7 +316,7 @@
                                     </mml:mrow>
                                 </mml:mfrac>
                             </mml:math>
-                            <tex-math><![CDATA[PPV=\frac{TP}{TP+FP}]]></tex-math>
+                            <tex-math id="inft1"><![CDATA[\begin{document}PPV=\frac{TP}{TP+FP}\end{document}]]></tex-math>
                         </alternatives>
                         </inline-formula></p>
                 </sec>
@@ -548,7 +548,7 @@
                                             </mml:mrow>
                                         </mml:mstyle>
                                     </mml:math>
-                                        <tex-math><![CDATA[\displaystyle d=\sqrt{\left(\frac{\text{Predicted\, count\, }_i-\text{Observed\, count}_i}{\text{Observed\, count}_i}\right)^2}]]></tex-math>
+                                        <tex-math id="t1"><![CDATA[\begin{document}\displaystyle d=\sqrt{\left(\frac{\text{Predicted\, count\, }_i-\text{Observed\, count}_i}{\text{Observed\, count}_i}\right)^2}\end{document}\end{document}]]></tex-math>
                                     </alternatives>
                                 </disp-formula></p>
                         <!-- Pending a suspected change in JATS 1.X or 2.0 supplementary-material could be captured as a child of fig, or could be captured in the addition files section in <back> and linked to with an <xref> which is a direct child of the object, rather than inside a p in the caption. For now kept as is, because this is not permitted in JATS. -->
@@ -1081,9 +1081,9 @@
                                     </mml:mrow>
                                 </mml:mfrac>
                             </mml:math>
-                        <tex-math><![CDATA[\displaystyle PPV=\frac{TP}{TP+FP}]]></tex-math>
+                        <tex-math id="t2"><![CDATA[\begin{document}\displaystyle PPV=\frac{TP}{TP+FP}\end{document}]]></tex-math>
                     </alternatives>
-                    </disp-formula>where each term above describes the rate of events that change the epidemic state: Births (<inline-formula><alternatives><mml:math id="infm2"><mml:mi>B</mml:mi></mml:math><tex-math><![CDATA[B]]></tex-math></alternatives></inline-formula>), loss of maternally derived protection after MAB vaccination (<xref ref-type="bibr" rid="bib13">Spangler, 2014</xref>).</p>
+                    </disp-formula>where each term above describes the rate of events that change the epidemic state: Births (<inline-formula><alternatives><mml:math id="infm2"><mml:mi>B</mml:mi></mml:math><tex-math id="inft2"><![CDATA[\begin{document}B\end{document}]]></tex-math></alternatives></inline-formula>), loss of maternally derived protection after MAB vaccination (<xref ref-type="bibr" rid="bib13">Spangler, 2014</xref>).</p>
                 <p>...</p>
                 <list list-type="simple">
                             <list-item>
@@ -1174,7 +1174,7 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mfrac>
                         </mml:math>
-                        <tex-math><![CDATA[\displaystyle K_d^{\mathrm{IgaA}-\mathrm{RcsF}}=\frac{[\mathrm{IgaA}][\mathrm{RcsF}]}{[\mathrm{IgaA}-\mathrm{RcsF}]}]]></tex-math>    
+                        <tex-math id="t3"><![CDATA[\begin{document}\displaystyle K_d^{\mathrm{IgaA}-\mathrm{RcsF}}=\frac{[\mathrm{IgaA}][\mathrm{RcsF}]}{[\mathrm{IgaA}-\mathrm{RcsF}]}\end{document}]]></tex-math>    
                         </alternatives>   
                 </disp-formula></p>
                 <p>... <inline-formula>
@@ -1224,7 +1224,7 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
-                    <tex-math><![CDATA[[A] \sim \sqrt{\frac{F^{AA}}{k_{mDHFR} k_f^{AA}}}]]></tex-math>
+                    <tex-math id="inft3"><![CDATA[\begin{document}[A] \sim \sqrt{\frac{F^{AA}}{k_{mDHFR} k_f^{AA}}}\end{document}]]></tex-math>
                     </alternatives>
                 </inline-formula> ... 
                     <inline-formula>
@@ -1236,7 +1236,7 @@ module load anaconda</code>
                                     <mml:mi>X</mml:mi>
                                 </mml:mrow>
                             </mml:math>
-                            <tex-math><![CDATA[ν \ll X]]></tex-math>
+                            <tex-math id="inft4"><![CDATA[\begin{document}ν \ll X\end{document}]]></tex-math>
                         </alternatives>
                 </inline-formula> ... 
                     <inline-formula>
@@ -1248,7 +1248,7 @@ module load anaconda</code>
                                     <mml:mi>G</mml:mi>
                                 </mml:mrow>
                             </mml:math>
-                            <tex-math><![CDATA[ν \ll G]]></tex-math>
+                            <tex-math id="inft5"><![CDATA[\begin{document}ν \ll G\end{document}]]></tex-math>
                         </alternatives>
                 </inline-formula> ...</p>
             </sec>
@@ -2076,7 +2076,7 @@ module load anaconda</code>
                                         </mml:msup>
                                     </mml:mrow>
                                 </mml:math>
-                                <tex-math><![CDATA[\displaystyle \phi=e^{-\frac{z F V}{n R T}}]]></tex-math>    
+                                <tex-math id="t696"><![CDATA[\begin{document}\displaystyle \phi=e^{-\frac{z F V}{n R T}}\end{document}]]></tex-math>    
                                 </alternatives>
                         </disp-formula></p>
                         <sec id="app2s2-1">
@@ -2443,7 +2443,7 @@ module load anaconda</code>
                         </mml:mrow>
                     </mml:mstyle>
                 </mml:math>
-                <tex-math><![CDATA[F^{A B} \sim \frac{k_f^{A B}}{\sqrt{k_f^{A A} k_f^{B B}}} \sqrt{F^{A A} F^{B B}}]]></tex-math>
+                <tex-math id="sa1t1"><![CDATA[\begin{document}F^{A B} \sim \frac{k_f^{A B}}{\sqrt{k_f^{A A} k_f^{B B}}} \sqrt{F^{A A} F^{B B}}\end{document}]]></tex-math>
                 </alternatives>
             </inline-formula>
             </p>
@@ -2539,7 +2539,7 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
-                        <tex-math><![CDATA[\displaystyle d=\sqrt{\left(\frac{\text { Predicted\, count }_i-\text { Observed\, count }_i}{\text { Observed\, count }_i}\right)^2}]]></tex-math>
+                        <tex-math id="sa1t2"><![CDATA[\begin{document}\displaystyle d=\sqrt{\left(\frac{\text { Predicted\, count }_i-\text { Observed\, count }_i}{\text { Observed\, count }_i}\right)^2}\end{document}]]></tex-math>
                         </alternatives>
                 </disp-formula>
             </p>
@@ -2926,7 +2926,7 @@ module load anaconda</code>
                         </mml:mrow>
                     </mml:mstyle>
                 </mml:math>
-                    <tex-math><![CDATA[F^{A B} \sim \frac{k_f^{A B}}{\sqrt{k_f^{A A} k_f^{B B}}} \sqrt{F^{A A} F^{B B}}]]></tex-math>
+                    <tex-math id="sa7t1"><![CDATA[\begin{document}F^{A B} \sim \frac{k_f^{A B}}{\sqrt{k_f^{A A} k_f^{B B}}} \sqrt{F^{A A} F^{B B}}\end{document}]]></tex-math>
                 </alternatives>
             </inline-formula>
             </p>
@@ -3022,7 +3022,7 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
-                            <tex-math><![CDATA[\displaystyle d=\sqrt{\left(\frac{\text { Predicted\, count }_i-\text { Observed\, count }_i}{\text { Observed\, count }_i}\right)^2}]]></tex-math>
+                            <tex-math id="sa7s2"><![CDATA[\begin{document}\displaystyle d=\sqrt{\left(\frac{\text { Predicted\, count }_i-\text { Observed\, count }_i}{\text { Observed\, count }_i}\right)^2}\end{document}]]></tex-math>
                         </alternatives>
                 </disp-formula>
             </p>
