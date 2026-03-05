@@ -57,11 +57,18 @@
                     <contrib-id authenticated="true"
                         contrib-id-type="orcid">https://orcid.org/0000-0002-6048-1470</contrib-id>
                     <email>f.atherden@elifesciences.org</email>
+                    <!-- Contributions now captured using role elements to enable JATS4R CRediT recommendations -->
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="	https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing - original draft</role>
                     <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="fn" rid="equal-contrib1">†</xref>
                     <xref ref-type="fn" rid="fn1">‡</xref>
                     <!-- Without content, these do not show up well in PMC. Do we want to add indicators for these as well? -->
-                    <xref ref-type="fn" rid="con1"/>
                     <xref ref-type="fn" rid="conf1"/>
                 </contrib>
                 <contrib contrib-type="author" equal-contrib="yes" corresp="yes">
@@ -71,10 +78,16 @@
                     </name>
                     <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-4932-938X</contrib-id>
                     <email>...@elifesciences.org</email>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review and editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; review and editing</role>
+                    
                     <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="fn" rid="equal-contrib1">†</xref>
                     <xref ref-type="fn" rid="fn1">‡</xref>
-                    <xref ref-type="fn" rid="con2"/>
                     <xref ref-type="fn" rid="conf2"/>
                 </contrib>
                 <contrib contrib-type="author" corresp="yes">
@@ -98,8 +111,10 @@
                             </contrib>
                         </contrib-group>
                     </collab-wrap>
-                    <!-- group author roles added at the top level -->
-                    <xref ref-type="fn" rid="con3"/>
+                    <!-- group author roles added at the top level -->                    
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+                    <role>Group author contributions may break-down contribution per author in some cases e.g. JG performed western blotting</role>
                     <xref ref-type="fn" rid="conf2"/>
                     <email>...@elifesciences.org</email>
                 </contrib>
@@ -108,9 +123,12 @@
                         <surname>Claus</surname>
                         <given-names>Santa</given-names>
                     </name>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review and editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; review and editing</role>
+                    <role>Free text contribution</role>
                     <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="fn" rid="equal-contrib2">§</xref>
-                    <xref ref-type="fn" rid="con4"/>
                     <xref ref-type="fn" rid="conf2"/>
                     <xref ref-type="fn" rid="fn2"/>
                 </contrib>
@@ -120,9 +138,12 @@
                         <given-names>Cornel</given-names>
                         <suffix>Jnr</suffix>
                     </name>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+                    <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review and editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; review and editing</role>
+                    <role>Free text contribution</role>
                     <xref ref-type="aff" rid="aff2">2</xref>
                     <xref ref-type="fn" rid="equal-contrib2">§</xref>
-                    <xref ref-type="fn" rid="con5"/>
                     <xref ref-type="fn" rid="conf2"/>
                 </contrib>
                 <on-behalf-of>on behalf of whoever finds this interesting</on-behalf-of>
@@ -1290,14 +1311,6 @@ module load anaconda</code>
                 <title>Competing interests</title>
                 <fn fn-type="COI-statement" id="conf1"><p>is a member of some group, and has shares in some company. No other competing interests to declare</p></fn>
                 <fn fn-type="COI-statement" id="conf2"><p>No competing interests declared</p></fn>
-            </fn-group>
-            <fn-group content-type="author-contribution">
-                <title>Author contributions</title>
-                <fn fn-type="con" id="con1"><p>Conceptualization, Data curation, Formal analysis, Validation, Investigation, Visualization, Methodology, Writing - original draft</p></fn>
-                <fn fn-type="con" id="con2"><p>Conceptualization, Resources, Supervision, Funding acquisition, Validation, Writing &#x2013; review and editing</p></fn>
-                <fn fn-type="con" id="con3"><p>Resources, Methodology, Group atuhor contributions may break-down contribution per author in some cases</p></fn>
-                <fn fn-type="con" id="con4"><p>Resources, Supervision, Writing &#x2013; review and editing, Free text contribution</p></fn>
-                <fn fn-type="con" id="con5"><p>Resources, Supervision, Writing &#x2013; review and editing, Free text contribution</p></fn>
             </fn-group>
             <fn-group content-type="ethics-information">
                 <title>Ethics</title>
