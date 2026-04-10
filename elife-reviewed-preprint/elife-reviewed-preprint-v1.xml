@@ -54,7 +54,7 @@
 <given-names>Rebecca</given-names>
 <suffix>I</suffix>
 </name>
-<xref ref-type="aff" rid="a1">1</xref>
+<xref ref-type="aff" rid="a2">2</xref>
 <xref ref-type="author-notes" rid="n2">†</xref>
 <xref ref-type="author-notes" rid="n3">‡</xref>
 <email>...@elifesciences.org</email>
@@ -64,6 +64,7 @@
 </contrib>
 <on-behalf-of>On behalf of the NIH BRAIN Initiative Integrative and Quantitative Neuroscience Team</on-behalf-of>
 <aff id="a1"><label>1</label><institution-wrap><institution-id institution-id-type="ror">https://ror.org/04rjz5883</institution-id><institution>eLife Sciences Publications</institution></institution-wrap>, <city>Cambridge</city>, <country country="GB">United Kingdom</country></aff>
+<aff id="a2"><label>2</label><institution>Institute of Studies</institution>, <city>Cambridge</city>, <country country="GB">United Kingdom</country></aff>
 </contrib-group>
 <contrib-group content-type="section">
 <contrib contrib-type="editor">
