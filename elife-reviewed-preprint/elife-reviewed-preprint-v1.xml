@@ -262,7 +262,8 @@
 <body>
 <sec id="s1">
 <title>Introduction</title>
-<p>This is the Introduction. Below is a list (ordered).
+<p>This is the Introduction.</p>
+<p>Below is a list (ordered).
 <list list-type="order">
 <list-item><p>Point 1.</p></list-item>
 <list-item><p>Point 2.</p></list-item>
@@ -346,7 +347,7 @@
 </table-wrap>
 <p>Below is an algorithm.</p>
 <statement id="alg1">
-<label>Algorithm 1</label>
+<label>Algorithm 1.</label>
 <p>Gibbs sampler</p>
 <p><fig id="alg1a" position="float" fig-type="figure">
 <graphic xlink:href="123456_alg1.tif" mimetype="image" mime-subtype="tiff"/>
@@ -355,11 +356,24 @@
 </sec>
 <sec id="s3">
 <title>Discussion</title>
-<p>This is the Discussion. This is an inline equation. <inline-formula id="inline-eqn-1"><inline-graphic xlink:href="123456v2_inline1.gif" mimetype="image" mime-subtype="gif"/></inline-formula>. Below is a display equation for <xref rid="eqn1" ref-type="disp-formula">Equation 1</xref>.</p>
+<p>This is the Discussion.</p>
+    <p>This is an inline equation <inline-formula id="inline-eqn-1"><inline-graphic xlink:href="123456v2_inline1.gif" mimetype="image" mime-subtype="gif"/></inline-formula>. Below is a display equation for <xref rid="eqn1" ref-type="disp-formula">Equation 1</xref>.</p>
 <?math-size 1?><disp-formula id="eqn1">
 <!-- ?math-size is for PDF display, only added if appearance needs adjusting -->
-<graphic xlink:href="123456v2_ueqn1.gif" mimetype="image" mime-subtype="gif"/>
+<graphic xlink:href="123456v2_eqn1.gif" mimetype="image" mime-subtype="gif"/>
 </disp-formula>
+    <p>This is an inline equation containing mathML <inline-formula id="ID1">
+        <alternatives>
+            <mml:math display="inline" id="I1"><mml:msubsup><mml:mi>τ</mml:mi><mml:mi>d</mml:mi><mml:mi>I</mml:mi></mml:msubsup></mml:math>
+            <inline-graphic xlink:href="123456v2_ieq1.tif" mime-subtype="tif" mimetype="image"/>
+        </alternatives>
+    </inline-formula>. Below is another dislay equation containing mathML.</p>
+    <disp-formula id="eqn2">
+        <alternatives>
+            <mml:math id="M1" display="block"><mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>B</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mi>A</mml:mi><mml:mi>m</mml:mi><mml:mi>p</mml:mi><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mi>u</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mo>+</mml:mo><mml:mi>P</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>k</mml:mi><mml:mi>A</mml:mi><mml:mi>m</mml:mi><mml:mi>p</mml:mi><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mi>u</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mo>.</mml:mo><mml:mi>exp</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mo>−</mml:mo><mml:mi>P</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>k</mml:mi><mml:mi>L</mml:mi><mml:mi>o</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>S</mml:mi><mml:mi>tan</mml:mi><mml:mi>d</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>d</mml:mi><mml:mi>D</mml:mi><mml:mi>e</mml:mi><mml:mi>v</mml:mi><mml:mi>i</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:msup><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math>
+            <graphic xlink:href="123456v2_eqn2.tif" mime-subtype="tif" mimetype="image"/>
+        </alternatives>
+    </disp-formula>
 <p>Here is a sequence (5’-<named-content content-type="sequence">CCTGGGAACTCTTCTGTCTAGAGT</named-content>-3’).</p>
 </sec>
 <?page-break?>
@@ -367,18 +381,20 @@
 <sec id="s4">
 <title>Materials and methods</title>
 <table-wrap id="utbl1" orientation="portrait" position="float">
-<label>Key resources table</label>
+<label>Key resources table.</label>
 <graphic xlink:href="123456v2_utbl1.tif" mimetype="image" mime-subtype="tiff"/>
 <graphic xlink:href="123456v2_utbl1a.tif" mimetype="image" mime-subtype="tiff"/>
 <graphic xlink:href="123456v2_utbl1b.tif" mimetype="image" mime-subtype="tiff"/>
 </table-wrap>
 <sec id="s4a">
 <title>Materials and methods sub-heading 1</title>
-    <p>This is the Materials and methods sub-heading 1. The following references are cited <xref ref-type="bibr" rid="c1"><sup>1</sup></xref><sup>-</sup><xref ref-type="bibr" rid="c10"><sup>10</sup></xref>.</p>
+    <p>This is the Materials and methods sub-heading 1.</p>
+        <p>The following references are cited <xref ref-type="bibr" rid="c1"><sup>1</sup></xref><sup>-</sup><xref ref-type="bibr" rid="c10"><sup>10</sup></xref>.</p>
 </sec>
 <sec id="s4b">
 <title>Materials and methods sub-heading 2</title>
 <p>This is the Materials and methods sub-heading 2.</p>
+    <p>Below is some code.</p>
 <code>
 fastFMM::fui(
 formula = photometry ∼ session + trial + lick + (1 + lick | id),
@@ -391,6 +407,8 @@ concurrent = TRUE
 </body>
 <back>
 <sec id="s5" sec-type="supplementary">
+<title>Supplementary information</title>
+    <!-- best practice to add a title to this section -->
 <fig id="figs1" position="float" orientation="portrait" fig-type="figure">
 <label>Fig S1.</label>
 <caption>
@@ -426,14 +444,15 @@ concurrent = TRUE
 <sec id="additional-files" sec-type="supplementary-material">
 <title>Additional files</title>
 <supplementary-material id="supp1">
-<label>Supplementary file 1</label>
+<label>Supplementary file 1.</label>
+    <!-- labels should ideally always have a fullstop at the end -->
 <caption>
 <title>Title.</title>
 <p>Caption.</p></caption>
 <media xlink:href="1234567890v2_file01.xlsx"/>
 </supplementary-material>
 <supplementary-material id="suppvid1">
-<label>Supplementary video 1</label>
+<label>Supplementary video 1.</label>
 <caption>
 <title>Title.</title>
 <p>Caption.</p></caption>
@@ -452,14 +471,11 @@ concurrent = TRUE
 <ref id="c1"><label>1.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>A</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Age-dependent aggregation of ribosomal RNA-binding proteins links deterioration in chromatin stability with challenges to proteostasis</article-title>. <source>eLife</source>. <year>2022</year> <volume>11</volume> <elocation-id>e75978</elocation-id>. <pub-id pub-id-type="doi">10.7554/elife.75978</pub-id> <pub-id pub-id-type="pmid">36194205</pub-id></mixed-citation></ref>
 <ref id="c2"><label>2.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>B</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Something Something</article-title> <source>Journal A</source> <year>2025</year> <volume>1</volume> <fpage>1</fpage>-<lpage>10</lpage></mixed-citation></ref>
 <ref id="c3"><label>3.</label><mixed-citation publication-type="preprint"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>C</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Molecular Mechanisms of Genotype-Dependent Lifespan Variation Mediated by Caloric Restriction: Insight from Wild Yeast Isolates</article-title>. <source>bioRxiv</source>. <year>2024</year> <pub-id pub-id-type="doi">10.1101/2024.03.17.585422</pub-id> <pub-id pub-id-type="pmid">38559208</pub-id></mixed-citation></ref>
-    <ref id="c4"><label>4.</label><mixed-citation publication-type="thesis"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>D</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>PhD thesis</article-title> <publisher-name>University of Cambridge</publisher-name> <year>2025</year> </mixed-citation></ref>
-    <!-- <article-title>PhD thesis</article-title> not showing in PDF for "thesis" -->
-    <ref id="c5"><label>5.</label><mixed-citation publication-type="software"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>E</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Source code</article-title><source>Zenodo</source> <version>v.1.0</version> <year>2025</year></mixed-citation></ref>
+    <ref id="c4"><label>4.</label><mixed-citation publication-type="thesis"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>D</given-names></string-name>, <etal>et al.</etal></person-group> <source>PhD thesis</source> <publisher-name>University of Cambridge</publisher-name> <year>2025</year> </mixed-citation></ref>
+    <ref id="c5"><label>5.</label><mixed-citation publication-type="software"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>E</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Source code</article-title><source>Zenodo</source> <version>1.0</version> <year>2025</year></mixed-citation></ref>
 <ref id="c6"><label>6.</label><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>F</given-names></string-name>, <etal>et al.</etal></person-group> <chapter-title>Chapter 1: Something Something</chapter-title> <source>Handbook for Science</source> <person-group person-group-type="editor"><string-name><surname>Editor</surname><given-names>A</given-names></string-name></person-group> <publisher-name>Springer</publisher-name> </mixed-citation></ref>
 <ref id="c7"><label>7.</label><mixed-citation publication-type="confproc"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>G</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Something Something again</article-title> <conf-name>Conference of Something</conf-name></mixed-citation></ref>
-    <!-- <conf-name>Conference of Something</conf-name> not showing in PDF for "confproc" -->
 <ref id="c8"><label>8.</label><mixed-citation publication-type="patent"><person-group person-group-type="author"><string-name><surname>Kothe</surname>, <given-names>C. A. E.</given-names></string-name>, &amp; <string-name><surname>Jung</surname>, <given-names>T.-P.</given-names></string-name></person-group> (<year>2015</year>). <article-title>Artifact removal techniques with signal reconstruction</article-title> (<source>World Intellectual Property Organization</source> Patent No. 2015/047462 A9). <ext-link ext-link-type="uri" xlink:href="https://patents.google.com/patent/WO2015047462A9/en">https://patents.google.com/patent/WO2015047462A9/en</ext-link></mixed-citation></ref>
-    <!-- brackets outside <tags> showing in PDF for "patent",  -->
     <ref id="c9"><label>9.</label><mixed-citation publication-type="report"><person-group person-group-type="author"><collab>WHO</collab></person-group> <source>WHO report 2025</source> <year>2025</year> <publisher-name>WHO</publisher-name></mixed-citation></ref>
 <ref id="c10"><label>10.</label><mixed-citation publication-type="web"><person-group person-group-type="author"><collab>FDA</collab></person-group>. <year>2017</year>. <article-title>Ribociclib (Kisqali)</article-title> <ext-link ext-link-type="uri" xlink:href="https://www.fda.gov/drugs/resources-information-approved-drugs/ribociclib-kisqali">https://www.fda.gov/drugs/resources-information-approved-drugs/ribociclib-kisqali</ext-link> <source>FDA</source></mixed-citation></ref>
 <ref id="dataref1"><mixed-citation publication-type="data" specific-use="generated"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>H</given-names></string-name>, <etal>et al</etal></person-group> (<year iso-8601-date="2025">2025</year>) <article-title>Single-cell multi-omic dataset mapping chromatin modifications and transcriptome during zebrafish development</article-title>. <source>NCBI Gene Expression Omnibus</source>. <pub-id pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE265874">GSE265874</pub-id></mixed-citation></ref>
@@ -602,28 +618,35 @@ concurrent = TRUE
 <contrib-group>
 <contrib contrib-type="author">
 <name>
-<surname>Cook</surname>
-<given-names>Rebecca</given-names>
+    <surname>Thomson</surname>
+    <given-names>Naushin</given-names>
 </name>
 <role specific-use="author">Author</role>
-<contrib-id contrib-id-type="orcid">https://orcid.org/0009-0003-4562-3711</contrib-id>
+</contrib>
+<contrib contrib-type="author">
+<name>
+    <surname>Gilbert</surname>
+    <given-names>James</given-names>
+</name>
+<role specific-use="author">Author</role>
 </contrib>
 <contrib contrib-type="author">
 <name>
 <surname>Cook</surname>
 <given-names>Rebecca</given-names>
+    <suffix>I</suffix>
 </name>
 <role specific-use="author">Author</role>
 <contrib-id contrib-id-type="orcid">https://orcid.org/0009-0003-4562-3711</contrib-id>
 </contrib>
-<contrib contrib-type="author">
-<name>
-<surname>Cook</surname>
-<given-names>Rebecca</given-names>
-</name>
-<role specific-use="author">Author</role>
-<contrib-id contrib-id-type="orcid">https://orcid.org/0009-0003-4562-3711</contrib-id>
-</contrib>
+    <contrib contrib-type="author">
+        <collab>Brain Interfacing Laboratory</collab>
+        <role specific-use="author">Author</role>
+    </contrib>
+    <contrib contrib-type="on-behalf-of">
+    <collab>On behalf of the NIH BRAIN Initiative Integrative and Quantitative Neuroscience Team</collab>
+    <role specific-use="author">Author</role>
+    </contrib>
 </contrib-group>
 </front-stub>
 <body>
@@ -667,7 +690,7 @@ concurrent = TRUE
 <label>Author response table 1.</label>
 <graphic mime-subtype="jpg" xlink:href="elife-123456v2-sa3-table1.jpg" mimetype="image"/>
 </table-wrap>
-<p>Here is a display equation in the Author response.</p>
+    <p>This is an inline equation in the Author response <inline-formula id="inline-eqn-2"><inline-graphic xlink:href="123456v2_inline2.gif" mimetype="image" mime-subtype="gif"/></inline-formula>. Below is a display equation in the Author response.</p>
 <disp-formula id="sa3equ1">
 <graphic mime-subtype="jpg" xlink:href="elife-123456v2-sa3-equ1.jpg" mimetype="image"/>
 </disp-formula>
