@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.3 20210610//EN"  "JATS-archivearticle1-mathml3.dtd"><article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="1.3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">elife</journal-id>
+<journal-id journal-id-type="publisher-id">eLife</journal-id>
+<journal-title-group>
+<journal-title>eLife</journal-title>
+</journal-title-group>
+<issn publication-format="electronic" pub-type="epub">2050-084X</issn>
+<publisher>
+<publisher-name>eLife Sciences Publications, Ltd</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">123456</article-id>
+<article-id pub-id-type="doi">10.7554/eLife.123456</article-id>
+<article-id pub-id-type="doi" specific-use="version">10.7554/eLife.123456.2</article-id>
+<article-version-alternatives>
+<article-version article-version-type="publication-state">reviewed preprint</article-version>
+<article-version article-version-type="preprint-version">1.2</article-version>
+</article-version-alternatives>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Biochemistry and Chemical Biology</subject>
+</subj-group>
+<subj-group subj-group-type="heading">
+<subject>Cancer Biology</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>eLife reviewed preprint kitchen sink</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes">
+<name>
+<surname>Thomson</surname>
+<given-names>Naushin</given-names>
+</name>
+<xref ref-type="aff" rid="a1">1</xref>
+<xref ref-type="author-notes" rid="n1">*</xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes">
+<name>
+<surname>Gilbert</surname>
+<given-names>James</given-names>
+</name>
+<xref ref-type="aff" rid="a1">1</xref>
+<xref ref-type="author-notes" rid="n1">*</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0009-0003-4562-3711</contrib-id>
+<name>
+<surname>Cook</surname>
+<given-names>Rebecca</given-names>
+<suffix>I</suffix>
+</name>
+<xref ref-type="aff" rid="a2">2</xref>
+<xref ref-type="author-notes" rid="n2">†</xref>
+<xref ref-type="author-notes" rid="n3">‡</xref>
+<email>...@elifesciences.org</email>
+</contrib>
+<contrib contrib-type="author">
+<collab>Brain Interfacing Laboratory</collab>
+</contrib>
+<on-behalf-of>On behalf of the NIH BRAIN Initiative Integrative and Quantitative Neuroscience Team</on-behalf-of>
+<aff id="a1"><label>1</label><institution-wrap><institution-id institution-id-type="ror">https://ror.org/04rjz5883</institution-id><institution>eLife Sciences Publications</institution></institution-wrap>, <city>Cambridge</city>, <country country="GB">United Kingdom</country></aff>
+<aff id="a2"><label>2</label><institution>Institute of Studies</institution>, <city>Cambridge</city>, <country country="GB">United Kingdom</country></aff>
+</contrib-group>
+<contrib-group content-type="section">
+<contrib contrib-type="editor">
+<name>
+<surname>Portman</surname>
+<given-names>Douglas</given-names>
+</name>
+<contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0003-2686-8839</contrib-id>
+<role>Reviewing Editor</role>
+<aff>
+<institution-wrap>
+<institution-id institution-id-type="ror">https://ror.org/022kthw22</institution-id>
+<institution>University of Rochester</institution>
+</institution-wrap>
+<city>Rochester</city>
+<country country="US">United States</country>
+</aff>
+</contrib>
+<contrib contrib-type="senior_editor">
+<name>
+<surname>Weigel</surname>
+<given-names>Detlef</given-names>
+</name>
+<contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-2114-7963</contrib-id>
+<role>Senior Editor</role>
+<aff>
+<institution-wrap>
+<institution>Max Planck Institute for Biology Tübingen</institution>
+</institution-wrap>
+<city>Tübingen</city>
+<country country="DE">Germany</country>
+</aff>
+</contrib>
+</contrib-group>
+<author-notes>
+<fn id="n1" fn-type="equal"><label>*</label><p>These authors contributed equally to this work</p></fn>
+<fn id="n2" fn-type="present-address"><label>†</label><p>Present address: University College London, London, United Kingdom</p></fn>
+<fn id="n3" fn-type="deceased"><label>‡</label><p>deceased</p></fn>
+<fn fn-type="coi-statement"><p>Competing interests: No competing interests declared</p></fn>
+<fn fn-type="supported-by"><p>Funding statement: This work is supported by Wellcome Trust and ABC University.</p></fn>
+</author-notes>
+<pub-date pub-type="epub">
+<year>2026</year>
+</pub-date>
+<volume>15</volume>
+<elocation-id>RP123456</elocation-id>
+<history>
+<date date-type="sent-for-review" iso-8601-date="2026-01-30">
+<day>30</day>
+<month>01</month>
+<year>2026</year>
+</date>
+</history>
+<pub-history>
+<event>
+<event-desc>Preprint posted</event-desc>
+<date date-type="preprint" iso-8601-date="2026-02-06">
+<day>06</day>
+<month>02</month>
+<year>2026</year>
+</date>
+<self-uri content-type="preprint" xlink:href="https://doi.org/10.64898/2026.02.06.123456"/>
+</event>
+<event>
+<event-desc>Reviewed preprint v1</event-desc>
+<date date-type="reviewed-preprint" iso-8601-date="2026-04-01">
+<day>01</day>
+<month>04</month>
+<year>2026</year>
+</date>
+<self-uri content-type="reviewed-preprint" xlink:href="https://doi.org/10.7554/eLife.123456.1"/>
+<self-uri content-type="editor-report" xlink:href="https://doi.org/10.7554/eLife.123456.1.sa2">eLife Assessment</self-uri>
+<self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.123456.1.sa1">Reviewer #1 (Public review):</self-uri>
+<self-uri content-type="referee-report" xlink:href="https://doi.org/10.7554/eLife.123456.1.sa0">Reviewer #2 (Public review):</self-uri>
+</event>
+</pub-history>
+<permissions>
+<copyright-statement>© 2026, Thomson et al</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder>Thomson et al</copyright-holder>
+<ali:free_to_read/>
+<license xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<ali:license_ref>https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+<license-p>This article is distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use and redistribution provided that the original author and source are credited.</license-p>
+</license>
+</permissions>
+<!-- for CC0
+<permissions>
+<ali:free_to_read/>
+<license xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">
+<ali:license_ref>https://creativecommons.org/publicdomain/zero/1.0/</ali:license_ref>
+<license-p>This is an open-access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 public domain dedication</ext-link>.</license-p>
+</license>
+</permissions>
+-->
+<self-uri content-type="pdf" xlink:href="elife-preprint-1234567890-v1.pdf"/>
+<abstract>
+<p>This is the Abstract.</p>
+</abstract>
+<abstract abstract-type="structured">
+<sec>
+<title>Background</title>
+<p>Major depressive disorder (MDD) is clinically heterogeneous, posing a persistent challenge for personalized treatment. While neuroimaging offers a promising path, existing symptom-based stratification schemes have proven inadequate in predicting antidepressant response. Crucially, studies focusing on white matter (WM) heterogeneity — a potential source of neurobiological subtypes— have failed to address this critical gap. Here, we bridge this divide by investigating WM-based MDD subtypes and their predictive value for treatment outcomes.</p>
+</sec>
+<sec>
+<title>Methods</title>
+<p>We used non-negative matrix factorization biclustering of diffusion MRI data from 311 MDD patients (discovery: n=209; validation: n=102) to identified neuroanatomical subgroups with distinct WM microstructural signatures. Subgroups were characterized via neuroanatomical profiling, clinical phenotyping (symptom domains/treatment responses), and WM-symptom associations. Baseline WM features predicted 4-week treatment outcomes (overall/dimension-specific symptom reduction) across five antidepressant therapies using support vector regression.</p>
+</sec>
+<sec>
+<title>Results</title>
+<p>Three robust MDD subgroups emerged: (1) frontoparietal-corticospinal alterations linked to anxiety/hopelessness; (2) cerebellar-visual circuit disruptions tied to cognitive-psychomotor deficits; (3) fornix-centered abnormalities associated with attenuated symptom severity. Subgroup-specific WM networks predicted treatment outcomes with high cross-cohort consistency (discovery: <italic>r</italic>=0.24–0.58; validation: <italic>r</italic>=0.27–0.67; all <italic>p</italic>&lt;0.05), notably for cognitive symptoms (max <italic>r</italic>=0.59). Importantly, baseline WM patterns—converging on limbic/default mode networks—reflected neuroplasticity reserve, enabling generalizable prediction across mechanistically distinct therapies.</p>
+</sec>
+<sec>
+<title>Conclusions</title>
+<p>Our findings establish WM-derived biotypes as robust, pathophysiologically distinct subtypes of MDD and validate baseline WM topology as a biomarker capable of predicting antidepressant treatment response, potentially by reflecting and individual’s neuroplasticity reserve.</p>
+</sec>
+</abstract>
+<!-- structured for clincial trial papers -->
+<abstract abstract-type="summary">
+<title>Significance Statement</title>
+<p>This study is signifcant because of reasons.</p>
+</abstract>
+<!-- optional -->
+<abstract abstract-type="graphical">
+<title>Graphical abstract</title>
+<fig id="ufig1" position="float" orientation="portrait" fig-type="figure">
+<graphic xlink:href="123456v2_ufig1.tif" mime-subtype="tiff" mimetype="image"/>
+</fig>
+</abstract>
+<!-- optional -->
+<kwd-group kwd-group-type="author">
+<title>Key words</title>
+<kwd>Major depressive disorder</kwd>
+<kwd>diffusion MRI</kwd>
+<kwd>NMF biclustering</kwd>
+<kwd>antidepressant treatment outcome</kwd>
+<kwd>subtype</kwd>
+</kwd-group>
+<!-- keywords pulled from preprint, not displayed anywhere on eLife -->
+<funding-group>
+<award-group id="par-1">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="ror">https://ror.org/029chgv08</institution-id>
+<institution>Wellcome Trust</institution>
+</institution-wrap>
+</funding-source>
+<award-id award-id-type="doi">10.35802/220780</award-id>
+<principal-award-recipient>
+<name>
+<surname>Thomson</surname>
+<given-names>Naushin</given-names>
+</name>
+</principal-award-recipient>
+<principal-award-recipient>
+<name>
+<surname>Gilbert</surname>
+<given-names>James</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="par-2">
+<funding-source>
+<institution-wrap><institution>ABC University</institution></institution-wrap>
+</funding-source>
+<award-id>ABC-123</award-id>
+<principal-award-recipient>
+<name>
+<surname>Cook</surname>
+<given-names>Rebecca</given-names>
+<suffix>I</suffix>
+</name>
+</principal-award-recipient>
+</award-group>
+</funding-group>
+<custom-meta-group>
+<custom-meta specific-use="meta-only">
+<meta-name>publishing-route</meta-name>
+<meta-value>prc</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+<notes>
+<notes notes-type="disclosures">
+<title>Author Declarations</title>
+<p>I confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.</p><p>Yes</p><p>The details of the IRB/oversight body that provided approval or exemption for the research described are given below:</p><p>The study protocol was approved by the Ethics Review Boards of both Nanjing Brain Hospital and Nanjing Drum Tower Hospital in accordance with the Declaration of Helsinki.</p><p>I confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.</p><p>Yes</p><p>I understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).</p><p>Yes</p><p>I have followed all appropriate research reporting guidelines, such as any relevant EQUATOR Network research reporting checklist(s) and other pertinent material, if applicable.</p><p>Yes</p>
+</notes>
+<!-- author declarations pulled from preprint, not displayed anywhere on eLife -->
+<fn-group content-type="summary-of-updates">
+<title>Summary of Updates:</title>
+<fn fn-type="update"><p>Revised version includes: revisions.</p></fn>
+</fn-group>
+</notes>
+<!-- summary of updates pulled from preprint, not displayed anywhere on eLife -->
+</front>
+<body>
+<sec id="s1">
+<title>Introduction</title>
+<p>This is the Introduction.</p>
+<p>Below is a list (ordered).
+<list list-type="order">
+<list-item><p>Point 1.</p></list-item>
+<list-item><p>Point 2.</p></list-item>
+<list-item><p>Point 3.</p></list-item>
+</list></p>
+<p>Below is Boxed text.</p>
+<boxed-text id="box1">
+<label>Box 1.</label>
+<p><bold>Procedure for fitting a concurrent FLMM.</bold></p>
+<p>We developed a procedure that fits a concurrent FLMM in three steps:</p>
+<list list-type="order">
+<list-item><p><bold>Fit univariate models</bold>. Separate linear mixed models are fit at every point along the <italic>functional domain</italic>. That is, if there are <italic>L</italic> longitudinal data points, <italic>L</italic> different linear mixed models will be produced.</p></list-item>
+<list-item><p><bold>Smooth coefficients</bold>. Aggregate and smooth the coefficient estimates for the linear models over the functional domain using penalized splines.</p></list-item>
+<list-item><p><bold>Build joint confidence intervals</bold>. Combine the within-timepoint variance and the between-timepoint covariance to create confidence bands around the smoothed estimates from Step 2.</p></list-item>
+</list>
+<p>Box text continues.</p>
+</boxed-text>
+</sec>
+<sec id="s2">
+<title>Results</title>
+<p>This is the Results, as displayed in <xref rid="fig1" ref-type="fig">Figure 1</xref> and <xref ref-type="table" rid="tbl1">Table 1</xref> and <xref ref-type="table" rid="tbl2">2</xref>.</p>
+<?fig-class half?>
+<fig id="fig1" position="float" orientation="portrait" fig-type="figure">
+<!-- ?fig-class is for PDF display, only added if appearance needs adjusting -->
+<label>Figure 1:</label>
+<caption>
+<title>Single-sentence title for this figure.</title>
+<p>Figure caption found here. Created with <ext-link ext-link-type="uri" xlink:href="https://biorender.com/XXXX">BioRender.com</ext-link>.</p>
+<!-- unique biorender figure citation URL should replace the URL link above -->
+</caption>
+<graphic xlink:href="123456v2_fig1.tif" mimetype="image" mime-subtype="tiff"/>
+</fig>
+<table-wrap id="tbl1" orientation="portrait" position="float">
+<label>Table 1:</label>
+<caption>
+<title>Single-sentence title for this table.</title>
+<p>Table caption found here.</p>
+</caption>
+<graphic xlink:href="123456v2_tbl1.tif" mimetype="image" mime-subtype="tiff"/>
+</table-wrap>
+<p>Below is a Table from a non-bioRxiv preprint, so has been rendered in the XML as well.</p>
+<?table-escape?>
+<table-wrap id="tbl2" position="float" orientation="portrait">
+<!-- ?table-escape? is for PDF display, only added if default image preferred over rendered table for display purposes -->
+<label>Table 2.</label>
+<caption><title>Clip function bounds for neural network training.</title></caption>
+<alternatives>
+<graphic xlink:href="123456v2_tbl2.tif" mime-subtype="tif" mimetype="image"/>
+<table frame="box" rules="cols">
+<thead>
+<tr>
+<th align="center" valign="top">parameter</th>
+<th align="center" valign="top">min value</th>
+<th align="center" valign="top">max value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="top"><monospace>xscale</monospace> (<italic>x<sub>c</sub></italic>)</td>
+<td align="center" valign="top">0.001</td>
+<td align="center" valign="top">3.5</td>
+</tr>
+<tr>
+<td align="center" valign="top"><monospace>xshift</monospace> (<italic>x<sub>h</sub></italic>)</td>
+<td align="center" valign="top">-1.5</td>
+<td align="center" valign="top">5</td>
+</tr>
+<tr>
+<td align="center" valign="top"><monospace>yscale</monospace> (<italic>y<sub>c</sub></italic>)</td>
+<td align="center" valign="top">0.1</td>
+<td align="center" valign="top">65</td>
+</tr>
+<tr>
+<td align="center" valign="top"><monospace>yshift</monospace> (<italic>y<sub>h</sub></italic>)</td>
+<td align="center" valign="top">0</td>
+<td align="center" valign="top">10</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Below is an algorithm.</p>
+<statement id="alg1">
+<label>Algorithm 1.</label>
+<p>Gibbs sampler</p>
+<p><fig id="alg1a" position="float" fig-type="figure">
+<graphic xlink:href="123456_alg1.tif" mimetype="image" mime-subtype="tiff"/>
+</fig></p>
+</statement>
+</sec>
+<sec id="s3">
+<title>Discussion</title>
+<p>This is the Discussion.</p>
+    <p>This is an inline equation <inline-formula id="inline-eqn-1"><inline-graphic xlink:href="123456v2_inline1.gif" mimetype="image" mime-subtype="gif"/></inline-formula>. Below is a display equation for <xref rid="eqn1" ref-type="disp-formula">Equation 1</xref>.</p>
+<?math-size 1?><disp-formula id="eqn1">
+<!-- ?math-size is for PDF display, only added if appearance needs adjusting -->
+<graphic xlink:href="123456v2_eqn1.gif" mimetype="image" mime-subtype="gif"/>
+</disp-formula>
+    <p>This is an inline equation containing mathML <inline-formula id="ID1">
+        <alternatives>
+            <mml:math display="inline" id="I1"><mml:msubsup><mml:mi>τ</mml:mi><mml:mi>d</mml:mi><mml:mi>I</mml:mi></mml:msubsup></mml:math>
+            <inline-graphic xlink:href="123456v2_ieq1.tif" mime-subtype="tif" mimetype="image"/>
+        </alternatives>
+    </inline-formula>. Below is another dislay equation containing mathML.</p>
+    <disp-formula id="eqn2">
+        <alternatives>
+            <mml:math id="M1" display="block"><mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>B</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mi>A</mml:mi><mml:mi>m</mml:mi><mml:mi>p</mml:mi><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mi>u</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mo>+</mml:mo><mml:mi>P</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>k</mml:mi><mml:mi>A</mml:mi><mml:mi>m</mml:mi><mml:mi>p</mml:mi><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mi>u</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mo>.</mml:mo><mml:mi>exp</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mo>−</mml:mo><mml:mi>P</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>k</mml:mi><mml:mi>L</mml:mi><mml:mi>o</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>S</mml:mi><mml:mi>tan</mml:mi><mml:mi>d</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>d</mml:mi><mml:mi>D</mml:mi><mml:mi>e</mml:mi><mml:mi>v</mml:mi><mml:mi>i</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:msup><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math>
+            <graphic xlink:href="123456v2_eqn2.tif" mime-subtype="tif" mimetype="image"/>
+        </alternatives>
+    </disp-formula>
+<p>Here is a sequence (5’-<named-content content-type="sequence">CCTGGGAACTCTTCTGTCTAGAGT</named-content>-3’).</p>
+</sec>
+<?page-break?>
+<!-- ?page-break is for PDF display, only added if appearance needs adjusting -->
+<sec id="s4">
+<title>Materials and methods</title>
+<table-wrap id="utbl1" orientation="portrait" position="float">
+<label>Key resources table.</label>
+<graphic xlink:href="123456v2_utbl1.tif" mimetype="image" mime-subtype="tiff"/>
+<graphic xlink:href="123456v2_utbl1a.tif" mimetype="image" mime-subtype="tiff"/>
+<graphic xlink:href="123456v2_utbl1b.tif" mimetype="image" mime-subtype="tiff"/>
+</table-wrap>
+<sec id="s4a">
+<title>Materials and methods sub-heading 1</title>
+    <p>This is the Materials and methods sub-heading 1.</p>
+        <p>The following references are cited <xref ref-type="bibr" rid="c1"><sup>1</sup></xref><sup>-</sup><xref ref-type="bibr" rid="c10"><sup>10</sup></xref>.</p>
+</sec>
+<sec id="s4b">
+<title>Materials and methods sub-heading 2</title>
+<p>This is the Materials and methods sub-heading 2.</p>
+    <p>Below is some code.</p>
+<code>
+fastFMM::fui(
+formula = photometry ∼ session + trial + lick + (1 + lick | id),
+data = data,
+concurrent = TRUE
+)
+</code>
+</sec>
+</sec>
+</body>
+<back>
+<sec id="s5" sec-type="supplementary">
+<title>Supplementary information</title>
+    <!-- best practice to add a title to this section -->
+<fig id="figs1" position="float" orientation="portrait" fig-type="figure">
+<label>Fig S1.</label>
+<caption>
+<title>Single-sentence title for this figure.</title>
+<p>Figure caption found here.</p>
+</caption>
+<graphic xlink:href="123456v2_figs1.tif" mimetype="image" mime-subtype="tiff"/>
+<permissions>
+<copyright-statement>© 2025, Journal A</copyright-statement>
+<copyright-year>2025</copyright-year>
+<copyright-holder>Journal A</copyright-holder>
+<license>
+<license-p>Panel A is reproduced from Figure 1A from <xref ref-type="bibr" rid="c2">Author B et al., 2025</xref> with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.</license-p>
+</license>
+</permissions>
+</fig>
+</sec>
+<sec id="das" sec-type="data-availability">
+<title>Data availability</title>
+<p>Data can be found at <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE265874">https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE265874</ext-link>. Source data can be found in <xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref>.</p>
+</sec>
+<ack>
+<title>Acknowledgements</title>
+<p>This is the Acknowledgements.</p>
+</ack>
+<sec id="additional-info" sec-type="additional-information">
+<title>Additional information</title>
+<sec id="s6">
+<title>Author contributions</title>
+<p>All authors wrote and edited this paper.</p>
+</sec>
+</sec>
+<sec id="additional-files" sec-type="supplementary-material">
+<title>Additional files</title>
+<supplementary-material id="supp1">
+<label>Supplementary file 1.</label>
+    <!-- labels should ideally always have a fullstop at the end -->
+<caption>
+<title>Title.</title>
+<p>Caption.</p></caption>
+<media xlink:href="1234567890v2_file01.xlsx"/>
+</supplementary-material>
+<supplementary-material id="suppvid1">
+<label>Supplementary video 1.</label>
+<caption>
+<title>Title.</title>
+<p>Caption.</p></caption>
+<media xlink:href="1234567890v2_file02.mp4"/>
+</supplementary-material>
+</sec>
+<glossary>
+<title>Abbreviations</title>
+<def-list>
+<def-item><term>RP</term><def><p>Reviewed Preprint</p></def></def-item>
+<def-item><term>PRC</term><def><p>Publish, Review, Curate</p></def></def-item>
+</def-list>
+</glossary>
+<ref-list>
+<title>References</title>
+<ref id="c1"><label>1.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>A</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Age-dependent aggregation of ribosomal RNA-binding proteins links deterioration in chromatin stability with challenges to proteostasis</article-title>. <source>eLife</source>. <year>2022</year> <volume>11</volume> <elocation-id>e75978</elocation-id>. <pub-id pub-id-type="doi">10.7554/elife.75978</pub-id> <pub-id pub-id-type="pmid">36194205</pub-id></mixed-citation></ref>
+<ref id="c2"><label>2.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>B</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Something Something</article-title> <source>Journal A</source> <year>2025</year> <volume>1</volume> <fpage>1</fpage>-<lpage>10</lpage></mixed-citation></ref>
+<ref id="c3"><label>3.</label><mixed-citation publication-type="preprint"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>C</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Molecular Mechanisms of Genotype-Dependent Lifespan Variation Mediated by Caloric Restriction: Insight from Wild Yeast Isolates</article-title>. <source>bioRxiv</source>. <year>2024</year> <pub-id pub-id-type="doi">10.1101/2024.03.17.585422</pub-id> <pub-id pub-id-type="pmid">38559208</pub-id></mixed-citation></ref>
+    <ref id="c4"><label>4.</label><mixed-citation publication-type="thesis"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>D</given-names></string-name>, <etal>et al.</etal></person-group> <source>PhD thesis</source> <publisher-name>University of Cambridge</publisher-name> <year>2025</year> </mixed-citation></ref>
+    <ref id="c5"><label>5.</label><mixed-citation publication-type="software"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>E</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Source code</article-title><source>Zenodo</source> <version>1.0</version> <year>2025</year></mixed-citation></ref>
+<ref id="c6"><label>6.</label><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>F</given-names></string-name>, <etal>et al.</etal></person-group> <chapter-title>Chapter 1: Something Something</chapter-title> <source>Handbook for Science</source> <person-group person-group-type="editor"><string-name><surname>Editor</surname><given-names>A</given-names></string-name></person-group> <publisher-name>Springer</publisher-name> </mixed-citation></ref>
+<ref id="c7"><label>7.</label><mixed-citation publication-type="confproc"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>G</given-names></string-name>, <etal>et al.</etal></person-group> <article-title>Something Something again</article-title> <conf-name>Conference of Something</conf-name></mixed-citation></ref>
+<ref id="c8"><label>8.</label><mixed-citation publication-type="patent"><person-group person-group-type="author"><string-name><surname>Kothe</surname>, <given-names>C. A. E.</given-names></string-name>, &amp; <string-name><surname>Jung</surname>, <given-names>T.-P.</given-names></string-name></person-group> (<year>2015</year>). <article-title>Artifact removal techniques with signal reconstruction</article-title> (<source>World Intellectual Property Organization</source> Patent No. 2015/047462 A9). <ext-link ext-link-type="uri" xlink:href="https://patents.google.com/patent/WO2015047462A9/en">https://patents.google.com/patent/WO2015047462A9/en</ext-link></mixed-citation></ref>
+    <ref id="c9"><label>9.</label><mixed-citation publication-type="report"><person-group person-group-type="author"><collab>WHO</collab></person-group> <source>WHO report 2025</source> <year>2025</year> <publisher-name>WHO</publisher-name></mixed-citation></ref>
+<ref id="c10"><label>10.</label><mixed-citation publication-type="web"><person-group person-group-type="author"><collab>FDA</collab></person-group>. <year>2017</year>. <article-title>Ribociclib (Kisqali)</article-title> <ext-link ext-link-type="uri" xlink:href="https://www.fda.gov/drugs/resources-information-approved-drugs/ribociclib-kisqali">https://www.fda.gov/drugs/resources-information-approved-drugs/ribociclib-kisqali</ext-link> <source>FDA</source></mixed-citation></ref>
+<ref id="dataref1"><mixed-citation publication-type="data" specific-use="generated"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>H</given-names></string-name>, <etal>et al</etal></person-group> (<year iso-8601-date="2025">2025</year>) <article-title>Single-cell multi-omic dataset mapping chromatin modifications and transcriptome during zebrafish development</article-title>. <source>NCBI Gene Expression Omnibus</source>. <pub-id pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE265874">GSE265874</pub-id></mixed-citation></ref>
+<ref id="dataref2"><mixed-citation publication-type="data" specific-use="analysed"><person-group person-group-type="author"><string-name><surname>Author</surname> <given-names>H</given-names></string-name>, <etal>et al</etal></person-group> (<year iso-8601-date="2025">2025</year>) <article-title>Single-cell multi-omic dataset mapping chromatin modifications and transcriptome during zebrafish development</article-title>. <source>NCBI Gene Expression Omnibus</source>. <pub-id pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE265874">GSE265874</pub-id></mixed-citation></ref></ref-list>
+<app-group>
+<app id="app1">
+<title>Appendix 1</title>
+<sec id="app1-1">
+<title>Appendix 1 sub-heading 1</title>
+<p>This is Appendix 1 sub-heading 1.</p>
+<?fig-width 50%?>
+<fig id="figA1-1" position="anchor" fig-type="figure">
+<!-- ?fig-width is for PDF display, only added if appearance needs adjusting -->
+<label>Appendix 1–figure 1.</label>
+<caption>
+<title>Single-sentence title for this figure..</title>
+<p>Figure caption found here.</p></caption>
+<graphic xlink:href="671383v2_figA1-1.tif" mimetype="image" mime-subtype="tiff"/>
+</fig>
+</sec>
+<sec id="app1-2">
+<title>Appendix 1 sub-heading 2</title>
+<p>This is Appendix 1 sub-heading 2.</p>
+</sec>
+</app>
+<app id="app2">
+<title>Appendix 2</title>
+<sec id="app2-1">
+<title>Appendix 2 sub-heading 1</title>
+<p>This is Appendix 2 sub-heading 1.</p>
+<table-wrap id="tblA2-1" orientation="portrait" position="anchor">
+<label>Appendix 2—table 1.</label>
+<caption><title>Validation AUC across participants, data types, algorithms, and feature sets.</title></caption>
+<graphic xlink:href="123456v2_tblA2-1.tif" mime-subtype="tif" mimetype="image"/>
+</table-wrap>
+</sec>
+</app>
+<app id="app3">
+<title>Appendix 3</title>
+<sec id="app3-1">
+<title>Appendix 3 sub-heading 1</title>
+<p>This is Appendix 3 sub-heading 1.</p>
+<sec id="app3-1-1">
+<title>Appendix 3 sub-heading 1-1</title>
+<p>This is Appendix 3 sub-heading 1-1.</p>
+</sec>
+ <sec id="app3-1-2">
+<title>Appendix 3 sub-heading 1-2</title>
+<p>This is Appendix 3 sub-heading 1-2.</p>
+</sec>
+</sec>
+<sec id="app3-2">
+<title>Appendix 3 sub-heading 1</title>
+<p>This is Appendix 3 sub-heading 1.</p>
+</sec>
+</app>
+</app-group>
+</back>
+<sub-article id="sa0" article-type="editor-report">
+<front-stub>
+<article-id pub-id-type="doi">10.7554/eLife.123456.2.sa3</article-id>
+<title-group>
+<article-title>eLife Assessment</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Portman</surname>
+<given-names>Douglas</given-names>
+</name>
+<role specific-use="editor">Reviewing Editor</role>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-2686-8839</contrib-id>
+<aff>
+<institution-wrap>
+<institution-id institution-id-type="ror">https://ror.org/022kthw22</institution-id>
+<institution>University of Rochester</institution>
+</institution-wrap>
+<city>Rochester</city>
+<country country="US">United States</country>
+</aff>
+</contrib>
+</contrib-group>
+<kwd-group kwd-group-type="evidence-strength">
+<kwd>Solid</kwd>
+</kwd-group>
+<kwd-group kwd-group-type="claim-importance">
+<kwd>Useful</kwd>
+</kwd-group>
+</front-stub>
+<body>
+<p>This paper is <bold>useful</bold>. The evidence is <bold>solid</bold>.</p>
+<p>[Editors' note: this paper was reviewed by <ext-link ext-link-type="uri" xlink:href="https://www.reviewcommons.org/">Review Commons</ext-link>.]</p>
+<!-- Editor's note: is for Review Commons papers only -->
+<!-- Review articles do not use kwd terms -->
+</body>
+</sub-article>
+<sub-article id="sa1" article-type="referee-report">
+<front-stub>
+<article-id pub-id-type="doi">10.7554/eLife.123456.2.sa2</article-id>
+<title-group>
+<article-title>Reviewer #1 (Public review):</article-title>
+<!-- Joint Public Review: is also an option -->
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<anonymous/>
+<role specific-use="referee">Reviewer</role>
+</contrib>
+</contrib-group>
+</front-stub>
+<body>
+<p>This is Reviewer's 1 comments.</p>
+<p>This is Reviewer's 1 comments, again.</p>
+</body>
+</sub-article>
+<sub-article id="sa2" article-type="referee-report">
+<front-stub>
+<article-id pub-id-type="doi">10.7554/eLife.123456.2.sa1</article-id>
+<title-group>
+<article-title>Reviewer #2 (Public review):</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<anonymous/>
+<role specific-use="referee">Reviewer</role>
+</contrib>
+</contrib-group>
+</front-stub>
+<body>
+<p>This is Reviewer's 2 comments.</p>
+<p>This is Reviewer's 2 comments, again.</p>
+</body>
+</sub-article>
+<sub-article id="sa3" article-type="author-comment">
+<front-stub>
+<article-id pub-id-type="doi">10.7554/eLife.123456.2.sa0</article-id>
+<title-group>
+<article-title>Author Response:</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+    <surname>Thomson</surname>
+    <given-names>Naushin</given-names>
+</name>
+<role specific-use="author">Author</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+    <surname>Gilbert</surname>
+    <given-names>James</given-names>
+</name>
+<role specific-use="author">Author</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Cook</surname>
+<given-names>Rebecca</given-names>
+    <suffix>I</suffix>
+</name>
+<role specific-use="author">Author</role>
+<contrib-id contrib-id-type="orcid">https://orcid.org/0009-0003-4562-3711</contrib-id>
+</contrib>
+    <contrib contrib-type="author">
+        <collab>Brain Interfacing Laboratory</collab>
+        <role specific-use="author">Author</role>
+    </contrib>
+    <contrib contrib-type="on-behalf-of">
+    <collab>On behalf of the NIH BRAIN Initiative Integrative and Quantitative Neuroscience Team</collab>
+    <role specific-use="author">Author</role>
+    </contrib>
+</contrib-group>
+</front-stub>
+<body>
+<disp-quote content-type="editor-comment">
+<p><bold>eLife Assessment</bold></p>
+<p>This paper is useful. The evidence is solid.</p>
+</disp-quote>
+<p>Thank you for the comments on the eLife Assessment.</p>
+<disp-quote content-type="editor-comment">
+<p><bold>Public Reviews:</bold></p>
+<p><bold>Reviewer #1 (Public review):</bold></p>
+<p>This is Reviewer's 1 comments.</p>
+<p>This is Reviewer's 1 comments, again.</p>
+</disp-quote>
+<p>Thank you for your comments Reviewer 1.</p>
+<disp-quote content-type="editor-comment">
+<p>This is Reviewer's 1 comments, again.</p>
+</disp-quote>
+<p>Thank you for your comments Reviewer 1, again.</p>
+<disp-quote content-type="editor-comment">
+<p><bold>Reviewer #2 (Public review):</bold></p>
+<p>This is Reviewer's 2 comments.</p>
+<p>This is Reviewer's 2 comments, again.</p>
+</disp-quote>
+<p>Thank you for your comments Reviewer 2.</p>
+<disp-quote content-type="editor-comment">
+<p>This is Reviewer's 2 comments, again</p>
+</disp-quote>
+<p>Thank you for your comments Reviewer 1, again.</p>
+<p>Here is a Author response image.</p>
+<fig id="sa3fig1">
+<label>Author response image 1.</label>
+<caption>
+<title>Single-sentence title for Author response image 1.</title>
+<p>Author response image 1 caption.</p>
+</caption>
+<graphic mime-subtype="jpg" xlink:href="elife-123456v2-sa3-fig1.jpg" mimetype="image"/>
+</fig>
+<p>Here is a Author response table.</p>
+<table-wrap id="sa3table1">
+<label>Author response table 1.</label>
+<graphic mime-subtype="jpg" xlink:href="elife-123456v2-sa3-table1.jpg" mimetype="image"/>
+</table-wrap>
+    <p>This is an inline equation in the Author response <inline-formula id="inline-eqn-2"><inline-graphic xlink:href="123456v2_inline2.gif" mimetype="image" mime-subtype="gif"/></inline-formula>. Below is a display equation in the Author response.</p>
+<disp-formula id="sa3equ1">
+<graphic mime-subtype="jpg" xlink:href="elife-123456v2-sa3-equ1.jpg" mimetype="image"/>
+</disp-formula>
+</body>
+</sub-article>
+</article>
