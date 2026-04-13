@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.3 20210610//EN" "JATS-archivearticle1-mathml3.dtd">
-<!-- Use JATS 1.3 -->
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.4 20241031//EN" "JATS-archivearticle1-mathml3.dtd">
+<!-- Use JATS 1.4 -->
 <!-- All XML would be on one line (with the exception of code snippets with new lines). 
      Only pretty-printed here for readability -->
-<article article-type="research-article" dtd-version="1.3" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/">
+<article article-type="research-article" dtd-version="1.4" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/">
     <front>
         <journal-meta>
             <journal-id journal-id-type="nlm-ta">elife</journal-id>
@@ -78,7 +78,9 @@
                     <xref ref-type="fn" rid="conf2"/>
                 </contrib>
                 <contrib contrib-type="author" corresp="yes">
-                    <collab>Example Group author
+                    <!-- The <collab> element has been depricated; group authors will now use the <collab-wrap> structure, with their name captured in <collab-name> -->
+                    <collab-wrap>
+                        <collab-name>Example Group author</collab-name>
                         <contrib-group content-type="group-members">
                             <contrib contrib-type="author">
                                 <name>
@@ -95,7 +97,7 @@
                                 </aff>
                             </contrib>
                         </contrib-group>
-                    </collab>
+                    </collab-wrap>
                     <!-- group author roles added at the top level -->
                     <xref ref-type="fn" rid="con3"/>
                     <xref ref-type="fn" rid="conf2"/>
@@ -146,17 +148,17 @@
             <contrib-group content-type="section">
                 <contrib contrib-type="senior_editor">
                     <name>
-                        <surname>Eisen</surname>
-                        <given-names>Mike</given-names>
+                        <surname>Behrens</surname>
+                        <given-names>Timothy</given-names>
                     </name>
                     <role>Senior Editor</role>
                     <aff>
                         <institution-wrap>
-                            <institution-id institution-id-type="ror">https://ror.org/01an7q238</institution-id>
-                            <institution>University of California, Berkeley</institution>
+                            <institution-id institution-id-type="ror">https://ror.org/052gg0110</institution-id>
+                            <institution>University of Oxford</institution>
                         </institution-wrap>
-                        <addr-line><named-content content-type="city">Berkeley</named-content></addr-line>
-                        <country country="US">United States</country>
+                        <addr-line><named-content content-type="city">Oxford</named-content></addr-line>
+                        <country country="GB">United Kingdom</country>
                     </aff>
                 </contrib>
                 <contrib contrib-type="editor">
@@ -192,13 +194,6 @@
                                            and e{article number} for non-PRC content 
                  PMC are relying on this convention - inform them of any change -->
             <elocation-id>RP1234567890</elocation-id>
-            <history>
-                <date date-type="sent-for-review" iso-8601-date="2023-03-20">
-                    <day>20</day>
-                    <month>03</month>
-                    <year>2023</year>
-                </date>           
-            </history>
             <pub-history>
                 <event>
                     <event-desc>Preprint posted</event-desc>
@@ -210,6 +205,15 @@
                     <!-- Should this be content-type="preprint" or content-type="pre-print"? Examples and text in JATS4R conflict
                             https://jats4r.org/article-publication-and-history-dates/ -->
                     <self-uri content-type="preprint" xlink:href="https://doi.org/10.1101/2021.11.09.467796"/>   
+                </event>
+                <!-- With the deprication of <history> we are moving the sent-for-review date into <pub-history> -->
+                <event>
+                    <event-desc>Sent for review</event-desc>
+                    <date date-type="sent-for-review" iso-8601-date="2023-03-20">
+                        <day>20</day>
+                        <month>03</month>
+                        <year>2023</year>
+                    </date>
                 </event>
                 <event>
                     <!-- We are using a new date-type and content-type here, 'reviewed-preprint', as the output of the PRC process is distinct from a normal preprint. There will be discussions necessary
@@ -558,7 +562,7 @@
                                 <title>Source data title.</title>
                                 <p>Source data caption.</p>
                             </caption>
-                            <media mime-subtype="docx" mimetype="application" xlink:href="elife-1234567890-fig1-data1.docx"/>
+                            <media mimetype="application/docx" xlink:href="elife-1234567890-fig1-data1.docx"/>
                         </supplementary-material></p>
                         <p>
                             <supplementary-material id="fig1sdata2">
@@ -567,7 +571,7 @@
                                     <title>Source data title (<xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>).</title>
                                     <p>Source data caption.</p>
                                 </caption>
-                                <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-fig1-data2.zip"/>
+                                <media mimetype="application/zip" xlink:href="elife-1234567890-fig1-data2.zip"/>
                             </supplementary-material></p>
                         <p>
                             <supplementary-material id="fig1scode1">
@@ -576,10 +580,10 @@
                                     <title>Source code title.</title>
                                     <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
                                 </caption>
-                                <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-fig1-code1.zip"/>
+                                <media mimetype="application/zip" xlink:href="elife-1234567890-fig1-code1.zip"/>
                             </supplementary-material></p>
                     </caption>
-                        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-1234567890-fig1.tif"/><permissions>
+                        <graphic mimetype="image/tiff" xlink:href="elife-1234567890-fig1.tif"/><permissions>
                         <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
                         <copyright-year>2004</copyright-year>
                         <copyright-holder>American Society for Cell Biology</copyright-holder>
@@ -608,7 +612,7 @@
                                 <title>Source data title.</title>
                                 <p>Source data caption.</p>
                             </caption>
-                            <media mime-subtype="docx" mimetype="application" xlink:href="elife-1234567890-fig1-figsupp1-data1.docx"/>
+                            <media mimetype="application/docx" xlink:href="elife-1234567890-fig1-figsupp1-data1.docx"/>
                         </supplementary-material></p>
                         <p>
                             <supplementary-material id="fig1s1sdata2">
@@ -617,7 +621,7 @@
                                     <title>Source data title.</title>
                                     <p>Source data caption.</p>
                                 </caption>
-                                <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-fig1-figsupp1-data2.zip"/>
+                                <media mimetype="application/zip" xlink:href="elife-1234567890-fig1-figsupp1-data2.zip"/>
                             </supplementary-material></p>
                         <p>
                             <supplementary-material id="fig1s1scode1">
@@ -626,10 +630,10 @@
                                     <title>Source code title.</title>
                                     <p>Source code caption.</p>
                                 </caption>
-                                <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-fig1-figsupp1-code1.zip"/>
+                                <media mimetype="application/zip" xlink:href="elife-1234567890-fig1-figsupp1-code1.zip"/>
                             </supplementary-material></p>
                     </caption>
-                    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-1234567890-fig1-figsupp1.tif"/>
+                    <graphic mimetype="image/tiff" xlink:href="elife-1234567890-fig1-figsupp1.tif"/>
                     <permissions>
                         <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
                         <copyright-year>2004</copyright-year>
@@ -648,7 +652,7 @@
                         </license>
                     </permissions>
                 </fig>
-                <media id="fig1video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-fig1-video1.mp4">
+                <media id="fig1video1" mimetype="video/mp4" xlink:href="elife-1234567890-fig1-video1.mp4">
                     <label>Figure 1&#x2014;video 1.</label>
                     <caption>
                         <title>Video associated with a main figure.</title>
@@ -663,7 +667,7 @@
                         </license>
                     </permissions>
                 </media>
-                <media id="fig1video2" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-fig1-video2.mp4">
+                <media id="fig1video2" mimetype="video/mp4" xlink:href="elife-1234567890-fig1-video2.mp4">
                     <label>Figure 1&#x2014;video 2.</label>
                     <caption>
                         <title>Another video associated with a main figure.</title>
@@ -678,7 +682,7 @@
                         </license>
                     </permissions>
                 </media>
-                <media id="fig1video3" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-fig1-video3.mp4">
+                <media id="fig1video3" mimetype="video/mp4" xlink:href="elife-1234567890-fig1-video3.mp4">
                     <label>Figure 1&#x2014;Animation 1.</label>
                     <caption>
                         <title>Animation associated with a main figure.</title>
@@ -704,7 +708,7 @@
                         <p>To a solution of 5-methylthiazol-2-amine (1) (0.5 g; 4.39 mmol) in xylene (10 ml) was added 2, 2-dimethyl-4H-1, 3-dioxin-4-one (2) (685 mg; 4.83 mmol). <xref ref-type="bibr" rid="bib3">Galkin et al., 2010a</xref>. The mixture was stirred for 12 hr at 135°C, then cooled to room temperature. The solution was filtered and washed with petroleum ether, after filtration, the solid was used directly without purification (3) (0.73 g; 3.69 mmol, 84%). <sup>1</sup>H NMR (400 MHz, DMSO-<italic>d</italic><sub>6</sub>) δ 11.95 (s, 1H), 7.13 (s, 1H), 3.66 (s, 2H), 2.34 (s, 3H), 2.19 (s, 3H); <sup>13</sup>C NMR (101 MHz, DMSO-<italic>d</italic><sub>6</sub>) δ 202.68, 165.26, 156.30, 135.18, 126.70, 51.22, 30.70, 11.53; HRMS (<italic>m/z</italic>): [M+H]<sup>+</sup> calculated for C<sub>8</sub>H<sub>11</sub>N<sub>2</sub>O<sub>2</sub>S, 199.0530; found, 199.0548.</p>
                     </caption>
                     <!-- Filename change - see https://github.com/elifesciences/issues/issues/6256 -->
-                    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-1234567890-C1-fig1.tif"/>
+                    <graphic mimetype="image/tiff" xlink:href="elife-1234567890-C1-fig1.tif"/>
                 </fig>
                 <fig id="S1" position="anchor">
                     <label>Scheme 1.</label>
@@ -712,13 +716,13 @@
                         <title>General procedure A.</title>
                     </caption>
                     <!-- Filename change - see https://github.com/elifesciences/issues/issues/6256 -->
-                    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-1234567890-scheme1-fig1.tif"/>
+                    <graphic mimetype="image/tiff" xlink:href="elife-1234567890-scheme1-fig1.tif"/>
                     <attrib>Image credit - Ms. Claus.</attrib>
                 </fig>
                 <sec id="s1-1-1">
                     <title>Section level 3</title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit in <xref ref-type="video" rid="video1">Video 1</xref>. In maximus, turpis ut molestie bibendum, arcu dolor facilisis erat, eu rhoncus libero magna ac nunc (<xref ref-type="video" rid="video2">Animation 1</xref>).</p>
-                    <media id="video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-video1.mp4">
+                    <media id="video1" mimetype="video/mp4" xlink:href="elife-1234567890-video1.mp4">
                         <label>Video 1.</label>
                         <caption>
                             <title>TIRF force reconstitution assay of wild-type vinculin ABD.</title>
@@ -730,7 +734,7 @@
                                         <title>Source code title.</title>
                                         <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
                                     </caption>
-                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-video1-code1.zip"/>
+                                    <media mimetype="application/zip" xlink:href="elife-1234567890-video1-code1.zip"/>
                                 </supplementary-material>
                             </p>
                             <p>
@@ -740,12 +744,12 @@
                                         <title>Source code title.</title>
                                         <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
                                     </caption>
-                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-video1-data1.zip"/>
+                                    <media mimetype="application/zip" xlink:href="elife-1234567890-video1-data1.zip"/>
                                 </supplementary-material>
                             </p>
                         </caption>
                     </media>
-                    <media id="video2" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-video2.mp4">
+                    <media id="video2" mimetype="video/mp4" xlink:href="elife-1234567890-video2.mp4">
                         <label>Animation 1.</label>
                         <caption>
                             <title>A demonstration of how to tag an animated gif file to ensure it is autolooped when on the eLife website.</title>
@@ -757,7 +761,7 @@
                                         <title>Source code title.</title>
                                         <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
                                     </caption>
-                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-video2-code1.zip"/>
+                                    <media mimetype="application/zip" xlink:href="elife-1234567890-video2-code1.zip"/>
                                 </supplementary-material>
                             </p>
                             <p>
@@ -767,7 +771,7 @@
                                         <title>Source code title.</title>
                                         <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
                                     </caption>
-                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-video2-data1.zip"/>
+                                    <media mimetype="application/zip" xlink:href="elife-1234567890-video2-data1.zip"/>
                                 </supplementary-material>
                             </p>
                         </caption>
@@ -809,7 +813,7 @@
                                             <caption><title>Representative curves of steady-state kinetic analyses for each IGF1R protein characterized.</title>
                                                 <p>Each data point was performed in duplicate and is shown separately.</p>
                                             </caption>
-                                            <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-1234567890-table1-data1.xlsx"/>
+                                            <media mimetype="application/xlsx" xlink:href="elife-1234567890-table1-data1.xlsx"/>
                                         </supplementary-material>
                                     </p>
                                 </caption>
@@ -1040,7 +1044,7 @@
                         <p>This is a caption (<xref ref-type="bibr" rid="bib12">Richter, 2013</xref>).</p>
                         <p>This is a second paragraph in a caption.</p>
                     </caption>
-                    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-1234567890-box1-fig1.tif"/>
+                    <graphic mimetype="image/tiff" xlink:href="elife-1234567890-box1-fig1.tif"/>
                 </fig>
                 <p>...</p>
                 <list list-type="order">
@@ -1316,44 +1320,44 @@ module load anaconda</code>
                     <title>This is the title of the supplementary file 1 (<xref ref-type="bibr" rid="bib14">Srinivasan, 2019</xref>).</title>
                     <p>A file containing underlying data.</p>
                 </caption>
-                <media mimetype="application" mime-subtype="csv" xlink:href="elife-1234567890-supp1.csv"/>
+                <media mimetype="application/csv" xlink:href="elife-1234567890-supp1.csv"/>
             </supplementary-material>
             <supplementary-material id="audio1">
                 <label>Audio file 1.</label>
                 <caption>
                     <title>This is a title for an audio file.</title>
                 </caption>
-                <media mime-subtype="x-wav" mimetype="audio" xlink:href="elife-1234567890-audio1.wav"/></supplementary-material>
+                <media mimetype="audio/x-wav" xlink:href="elife-1234567890-audio1.wav"/></supplementary-material>
             <supplementary-material id="sdata1">   
                 <label>Source data 1.</label>
                 <caption>
                     <title>This is the title of the source data that is not attached to a specific figure, but to the article as a whole.</title>
                 </caption>
-                <media mimetype="application" mime-subtype="xlsx" xlink:href="elife-1234567890-data1.xlsx"/>
+                <media mimetype="application/xlsx" xlink:href="elife-1234567890-data1.xlsx"/>
             </supplementary-material>
             <supplementary-material id="scode1">   
                 <label>Source code 1.</label>
                 <caption>
                     <title>This is the title of the source code that is not attached to a specific figure, but to the article as a whole.</title>
                 </caption>
-                <media mimetype="application" mime-subtype="zip" xlink:href="elife-1234567890-code1.zip"/>
+                <media mimetype="application/zip" xlink:href="elife-1234567890-code1.zip"/>
             </supplementary-material>
             <supplementary-material id="repstand1">
                 <label>Reporting standard 1.</label>
                 <caption>
                     <title>CONSORT checklist.</title>
                 </caption>
-                <media mimetype="application" mime-subtype="pdf" xlink:href="elife-1234567890-repstand1.pdf"/>
+                <media mimetype="application/pdf" xlink:href="elife-1234567890-repstand1.pdf"/>
             </supplementary-material>
             <!-- The MDAR checklist replaces the Transparent reporting form used previously -->
             <supplementary-material id="mdar">
                 <label>MDAR checklist</label>
-                <media mimetype="application" mime-subtype="pdf" xlink:href="elife-1234567890-mdarchecklist1.pdf"/>
+                <media mimetype="application/pdf" xlink:href="elife-1234567890-mdarchecklist1.pdf"/>
             </supplementary-material>
             <!-- Inclusion in global research form with the eJP file-type="stub_table" -->
             <supplementary-material id="igrf">
                 <label>Inclusion in global research form</label>
-                <media mimetype="application" mime-subtype="pdf" xlink:href="elife-1234567890-inclusion_global_research.pdf"/>
+                <media mimetype="application/pdf" xlink:href="elife-1234567890-inclusion_global_research.pdf"/>
             </supplementary-material>
         </sec>
         <sec id="s7" sec-type="data-availability">
@@ -1617,7 +1621,8 @@ module load anaconda</code>
             <ref id="bib11">
                 <element-citation publication-type="software">
                     <person-group person-group-type="author">
-                        <collab>R Development Core Team</collab>
+                        <!-- <collab> changed to <collab-name> for group authors in references -->
+                        <collab-name>R Development Core Team</collab-name>
                     </person-group>
                     <year iso-8601-date="2017">2017</year>
                     <data-title>R: a language and environment for statistical computing</data-title>
@@ -1678,7 +1683,8 @@ module load anaconda</code>
             <ref id="bib15">
               <element-citation publication-type="report">
                 <person-group person-group-type="author">
-                  <collab>World Health Organization</collab>
+                    <!-- <collab> changed to <collab-name> for group authors in references -->
+                  <collab-name>World Health Organization</collab-name>
                 </person-group>
                 <year iso-8601-date="2015">2015</year>
                 <source>World Malaria Report 2015</source>
@@ -1976,23 +1982,23 @@ module load anaconda</code>
                             <title>Figure added to demonstrate that not only paragaphs but other forms of content may be included as a child of the boxed-text.</title>
                             <p>If there is a caption to accompany the title it would display here (<xref ref-type="bibr" rid="bib5">Hao et al., 2020</xref>).</p>
                         </caption>
-                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-app2-fig1.tif"/>
+                        <graphic mimetype="image/tiff" xlink:href="elife-1234567890-app2-fig1.tif"/>
                     </fig>
                     <fig id="app2scheme1" position="float">
                         <label>Appendix 2&#x2014;scheme 1.</label>
                         <caption>
                             <title>Scheme title.</title>
                         </caption>
-                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-app2-scheme1-fig1.tif"/>
+                        <graphic mimetype="image/tiff" xlink:href="elife-1234567890-app2-scheme1-fig1.tif"/>
                     </fig>
                     <fig id="app2C1" position="float">
                         <label>Appendix 2&#x2014;chemical structure 1.</label>
                         <caption>
                             <title>Chemical structure title.</title>
                         </caption>
-                        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-app2-chem1-fig1.tif"/>
+                        <graphic mimetype="image/tiff" xlink:href="elife-1234567890-app2-chem1-fig1.tif"/>
                     </fig>
-                    <media id="app2video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-app2-video1.mp4">
+                    <media id="app2video1" mimetype="video/mp4" xlink:href="elife-1234567890-app2-video1.mp4">
                         <label>Appendix 2&#x2014;video 1.</label>
                         <caption>
                             <title>TIRF force reconstitution assay of wild-type vinculin ABD.</title>
@@ -2004,7 +2010,7 @@ module load anaconda</code>
                                         <title>Source code title.</title>
                                         <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
                                     </caption>
-                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app2-video1-code1.zip"/>
+                                    <media mimetype="application/zip" xlink:href="elife-1234567890-app2-video1-code1.zip"/>
                                 </supplementary-material>
                             </p>
                             <p>
@@ -2014,12 +2020,12 @@ module load anaconda</code>
                                         <title>Source code title.</title>
                                         <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
                                     </caption>
-                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app2-video1-data1.zip"/>
+                                    <media mimetype="application/zip" xlink:href="elife-1234567890-app2-video1-data1.zip"/>
                                 </supplementary-material>
                             </p>
                         </caption>
                     </media>
-                    <media id="app2video2" mimetype="video" mime-subtype="mp4" xlink:href="elife-1234567890-app2-video2.mp4">
+                    <media id="app2video2" mimetype="video/mp4" xlink:href="elife-1234567890-app2-video2.mp4">
                         <label>Appendix 2&#x2014;animation 1.</label>
                         <caption>
                             <title>A demonstration of how to tag an animated gif file to ensure it is autolooped when on the eLife website.</title>
@@ -2031,7 +2037,7 @@ module load anaconda</code>
                                         <title>Source code title.</title>
                                         <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
                                     </caption>
-                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app2-video2-code1.zip"/>
+                                    <media mimetype="application/zip" xlink:href="elife-1234567890-app2-video2-code1.zip"/>
                                 </supplementary-material>
                             </p>
                             <p>
@@ -2041,7 +2047,7 @@ module load anaconda</code>
                                         <title>Source code title.</title>
                                         <p>Source code caption <xref ref-type="bibr" rid="bib15">World Health Organization, 2015</xref>.</p>
                                     </caption>
-                                    <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app2-video2-data1.zip"/>
+                                    <media mimetype="application/zip" xlink:href="elife-1234567890-app2-video2-data1.zip"/>
                                 </supplementary-material>
                             </p>
                         </caption>
@@ -2113,7 +2119,7 @@ module load anaconda</code>
                                         <title>Source data title.</title>
                                         <p>Source data caption.</p>
                                     </caption>
-                                    <media mime-subtype="docx" mimetype="application" xlink:href="elife-1234567890-app3-fig1-data1.docx"/>
+                                    <media mimetype="application/docx" xlink:href="elife-1234567890-app3-fig1-data1.docx"/>
                                 </supplementary-material></p>
                                 <p>
                                     <supplementary-material id="app3fig1sdata2">
@@ -2122,7 +2128,7 @@ module load anaconda</code>
                                             <title>Source data title.</title>
                                             <p>Source data caption.</p>
                                         </caption>
-                                        <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app3-fig1-data2.zip"/>
+                                        <media mimetype="application/zip" xlink:href="elife-1234567890-app3-fig1-data2.zip"/>
                                     </supplementary-material></p>
                                 <p>
                                     <supplementary-material id="app3fig1scode1">
@@ -2131,10 +2137,10 @@ module load anaconda</code>
                                             <title>Source code title.</title>
                                             <p>Source code caption.</p>
                                         </caption>
-                                        <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app3-fig1-code1.zip"/>
+                                        <media mimetype="application/zip" xlink:href="elife-1234567890-app3-fig1-code1.zip"/>
                                     </supplementary-material></p>
                             </caption>
-                            <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-1234567890-app3-fig1.tif"/>
+                            <graphic mimetype="image/tiff" xlink:href="elife-1234567890-app3-fig1.tif"/>
                             <permissions>
                                 <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
                                 <copyright-year>2004</copyright-year>
@@ -2164,7 +2170,7 @@ module load anaconda</code>
                                         <title>Source data title.</title>
                                         <p>Source data caption.</p>
                                     </caption>
-                                    <media mime-subtype="docx" mimetype="application" xlink:href="elife-1234567890-app3-fig1-figsupp1-data1.docx"/>
+                                    <media mimetype="application/docx" xlink:href="elife-1234567890-app3-fig1-figsupp1-data1.docx"/>
                                 </supplementary-material></p>
                                 <p>
                                     <supplementary-material id="app3fig1s1sdata2">
@@ -2173,7 +2179,7 @@ module load anaconda</code>
                                             <title>Source data title.</title>
                                             <p>Source data caption.</p>
                                         </caption>
-                                        <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app3-fig1-figsup1-data2.zip"/>
+                                        <media mimetype="application/zip" xlink:href="elife-1234567890-app3-fig1-figsup1-data2.zip"/>
                                     </supplementary-material></p>
                                 <p>
                                     <supplementary-material id="app3fig1s1scode1">
@@ -2182,10 +2188,10 @@ module load anaconda</code>
                                             <title>Source code title.</title>
                                             <p>Source code caption.</p>
                                         </caption>
-                                        <media mime-subtype="zip" mimetype="application" xlink:href="elife-1234567890-app3-fig1-figsup1-code1.zip"/>
+                                        <media mimetype="application/zip" xlink:href="elife-1234567890-app3-fig1-figsup1-code1.zip"/>
                                     </supplementary-material></p>
                             </caption>
-                            <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-1234567890-app3-fig1-figsupp1.tif"/>
+                            <graphic mimetype="image/tiff" xlink:href="elife-1234567890-app3-fig1-figsupp1.tif"/>
                             <permissions>
                                 <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
                                 <copyright-year>2004</copyright-year>
@@ -2204,14 +2210,14 @@ module load anaconda</code>
                                 </license>
                             </permissions>
                         </fig>
-                        <media id="app3fig1video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-app3-fig1-video1.mp4">
+                        <media id="app3fig1video1" mimetype="video/mp4" xlink:href="elife-1234567890-app3-fig1-video1.mp4">
                             <label>Appendix 3&#x2014;figure 1&#x2014;video 1.</label>
                             <caption>
                                 <title>Video assocaited with an appendix figure.</title>
                                 <p>First 100 s of representative ... Scale bar, 20 µm.</p>
                             </caption>
                         </media>
-                        <media id="app3fig1video2" mime-subtype="mp4" mimetype="video" xlink:href="elife-1234567890-app3-fig1-video2.mp4">
+                        <media id="app3fig1video2" mimetype="video/mp4" xlink:href="elife-1234567890-app3-fig1-video2.mp4">
                             <label>Appendix 3&#x2014;figure 1&#x2014;animation 1.</label>
                             <caption>
                                 <title>Animation associated with an appendix figure.</title>
@@ -2312,7 +2318,7 @@ module load anaconda</code>
                 <caption>
                     <p>Single figure: The header of an eLife article example on the HTML page.</p>
                 </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-sa1-fig1.tif"/>
+                <graphic mimetype="image/tiff" xlink:href="elife-1234567890-sa1-fig1.tif"/>
             </fig>
             <table-wrap id="sa1table1" position="float">
                 <label>Review table 1.</label>
@@ -2371,7 +2377,7 @@ module load anaconda</code>
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="video" mime-subtype="mp4" id="sa1video1" xlink:href="elife-1234567890-sa1-video1.mp4">
+            <media mimetype="video/mp4" id="sa1video1" xlink:href="elife-1234567890-sa1-video1.mp4">
                 <label>Review video 1.</label>
                 <caption>
                     <title>Caption and/or a title is required.</title>
@@ -2592,7 +2598,7 @@ module load anaconda</code>
                 <caption>
                     <p>Another review illustrative image.</p>
                 </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-sa2-fig1.tif"/>
+                <graphic mimetype="image/tiff" xlink:href="elife-1234567890-sa2-fig1.tif"/>
             </fig>
         </body>
     </sub-article>
@@ -2747,7 +2753,8 @@ module load anaconda</code>
                     <role specific-use="author">Author</role>
                 </contrib>
                 <contrib contrib-type="author">
-                    <collab>Example Group author
+                    <collab-wrap>
+                        <collab-name>Example Group author</collab-name>
                         <contrib-group content-type="group-members">
                             <contrib contrib-type="author">
                                 <name>
@@ -2756,7 +2763,7 @@ module load anaconda</code>
                                 </name>
                             </contrib>
                         </contrib-group>
-                    </collab>
+                    </collab-wrap>
                     <role specific-use="author">Author</role>
                 </contrib>
                 <contrib contrib-type="author">
@@ -2794,7 +2801,7 @@ module load anaconda</code>
                 <caption>
                     <p>Single figure: The header of an eLife article example on the HTML page.</p>
                 </caption>
-                <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-1234567890-sa7-fig1.tif"/>
+                <graphic mimetype="image/tiff" xlink:href="elife-1234567890-sa7-fig1.tif"/>
             </fig>
             <table-wrap id="sa7table1" position="float">
                 <label>Author response table 1.</label>
@@ -2853,7 +2860,7 @@ module load anaconda</code>
                     </tbody>
                 </table>
             </table-wrap>
-            <media mimetype="video" mime-subtype="mp4" id="sa7video1" xlink:href="elife-1234567890-sa7-video1.mp4">
+            <media mimetype="video/mp4" id="sa7video1" xlink:href="elife-1234567890-sa7-video1.mp4">
                 <label>Author response video 1.</label>
                 <caption>
                     <title>Caption and/or a title is required for all author response assets.</title>
