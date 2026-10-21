@@ -320,7 +320,7 @@
                                     </mml:mrow>
                                 </mml:mfrac>
                             </mml:math>
-                            <tex-math id="inft1"><![CDATA[\begin{document}PPV=\frac{TP}{TP+FP}\end{document}]]></tex-math>
+                            <tex-math id="inft1"><![CDATA[\begin{document}$PPV=\frac{TP}{TP+FP}$\end{document}]]></tex-math>
                         </alternatives>
                         </inline-formula></p>
                 </sec>
@@ -552,7 +552,7 @@
                                             </mml:mrow>
                                         </mml:mstyle>
                                     </mml:math>
-                                        <tex-math id="t1"><![CDATA[\begin{document}\displaystyle d=\sqrt{\left(\frac{\text{Predicted\, count\, }_i-\text{Observed\, count}_i}{\text{Observed\, count}_i}\right)^2}\end{document}\end{document}]]></tex-math>
+                                        <tex-math id="t1"><![CDATA[\begin{document}$$\displaystyle d=\sqrt{\left(\frac{\text{Predicted\, count\, }_i-\text{Observed\, count}_i}{\text{Observed\, count}_i}\right)^2}$$\end{document}]]></tex-math>
                                     </alternatives>
                                 </disp-formula></p>
                         <!-- Pending a suspected change in JATS 1.X or 2.0 supplementary-material could be captured as a child of fig, or could be captured in the addition files section in <back> and linked to with an <xref> which is a direct child of the object, rather than inside a p in the caption. For now kept as is, because this is not permitted in JATS. -->
@@ -657,6 +657,32 @@
                     <caption>
                         <title>Video associated with a main figure.</title>
                         <p>First 100 s of representative ... Scale bar, 20 µm.</p>
+                        <p><supplementary-material id="fig1video1sdata1">
+                            <label>Figure 1&#x2014;video 1&#x2014;source data 1.</label>
+                            <caption>
+                                <title>Source data title.</title>
+                                <p>Source data caption.</p>
+                            </caption>
+                            <media mimetype="application/docx" xlink:href="elife-1234567890-fig1-video1-data1.docx"/>
+                        </supplementary-material></p>
+                        <p>
+                            <supplementary-material id="fig1video1sdata2">
+                                <label>Figure 1&#x2014;video 1&#x2014;source data 2.</label>
+                                <caption>
+                                    <title>Source data title.</title>
+                                    <p>Source data caption.</p>
+                                </caption>
+                                <media mimetype="application/zip" xlink:href="elife-1234567890-fig1-video1-data2.zip"/>
+                            </supplementary-material></p>
+                        <p>
+                            <supplementary-material id="fig1video1scode1">
+                                <label>Figure 1&#x2014;video 1&#x2014;source code 1.</label>
+                                <caption>
+                                    <title>Source code title.</title>
+                                    <p>Source code caption.</p>
+                                </caption>
+                                <media mimetype="application/zip" xlink:href="elife-1234567890-fig1-video1-code1.zip"/>
+                            </supplementary-material></p>
                     </caption>
                     <permissions>
                         <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
@@ -682,11 +708,28 @@
                         </license>
                     </permissions>
                 </media>
-                <media id="fig1video3" mimetype="video/mp4" xlink:href="elife-1234567890-fig1-video3.mp4">
-                    <label>Figure 1&#x2014;Animation 1.</label>
+                <media id="fig1video3" mimetype="video/mp4" xlink:href="elife-1234567890-fig1-video3.gif">
+                    <label>Figure 1&#x2014;animation 1.</label>
                     <caption>
                         <title>Animation associated with a main figure.</title>
                         <p>Note that file naming and ID for videos and animations is sequential regardless of labelling (e.g. videos and animations are counted together).</p>
+                        <p><supplementary-material id="fig1video3sdata1">
+                            <label>Figure 1&#x2014;animation 1&#x2014;source data 1.</label>
+                            <caption>
+                                <title>Source data title.</title>
+                                <p>Source data caption.</p>
+                            </caption>
+                            <media mimetype="application/docx" xlink:href="elife-1234567890-fig1-video3-data1.docx"/>
+                        </supplementary-material></p>
+                        <p>
+                            <supplementary-material id="fig1video3scode1">
+                                <label>Figure 1&#x2014;animation 1&#x2014;source code 1.</label>
+                                <caption>
+                                    <title>Source code title.</title>
+                                    <p>Source code caption.</p>
+                                </caption>
+                                <media mimetype="application/zip" xlink:href="elife-1234567890-fig1-video3-code1.zip"/>
+                            </supplementary-material></p>
                     </caption>
                     <permissions>
                         <copyright-statement>© 2004, American Society for Cell Biology, All Rights Reserved</copyright-statement>
@@ -857,7 +900,7 @@
                                             <!-- The following cell has background shading.
                                                  The value fo @style has been updated. 
                                                  Hex values are now used:
-                                                    - Blue: #90caf9
+                                                    - Blue: #90CAF9
                                                     - Green: #C5E1A5
                                                     - Orange: #FFB74D
                                                     - Yellow: #FFF176
@@ -867,7 +910,7 @@
                                                     - Grey: #E6E6E6
                                                  Including it in this way means that the colours are rendered on PMC.
                                             -->
-                                            <td style="background-color: #90caf9;">7.96%</td>
+                                            <td style="background-color: #90CAF9;">7.96%</td>
                                             <td>±</td>
                                             <td>4.25%</td>
                                             <!-- Coloured text is styled using styled-content instead of named-content.
@@ -1085,9 +1128,9 @@
                                     </mml:mrow>
                                 </mml:mfrac>
                             </mml:math>
-                        <tex-math id="t2"><![CDATA[\begin{document}\displaystyle PPV=\frac{TP}{TP+FP}\end{document}]]></tex-math>
+                        <tex-math id="t2"><![CDATA[\begin{document}$$\displaystyle PPV=\frac{TP}{TP+FP}$$\end{document}]]></tex-math>
                     </alternatives>
-                    </disp-formula>where each term above describes the rate of events that change the epidemic state: Births (<inline-formula><alternatives><mml:math id="infm2"><mml:mi>B</mml:mi></mml:math><tex-math id="inft2"><![CDATA[\begin{document}B\end{document}]]></tex-math></alternatives></inline-formula>), loss of maternally derived protection after MAB vaccination (<xref ref-type="bibr" rid="bib13">Spangler, 2014</xref>).</p>
+                    </disp-formula>where each term above describes the rate of events that change the epidemic state: Births (<inline-formula><alternatives><mml:math id="infm2"><mml:mi>B</mml:mi></mml:math><tex-math id="inft2"><![CDATA[\begin{document}$$B$$\end{document}]]></tex-math></alternatives></inline-formula>), loss of maternally derived protection after MAB vaccination (<xref ref-type="bibr" rid="bib13">Spangler, 2014</xref>).</p>
                 <p>...</p>
                 <list list-type="simple">
                             <list-item>
@@ -1178,7 +1221,7 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mfrac>
                         </mml:math>
-                        <tex-math id="t3"><![CDATA[\begin{document}\displaystyle K_d^{\mathrm{IgaA}-\mathrm{RcsF}}=\frac{[\mathrm{IgaA}][\mathrm{RcsF}]}{[\mathrm{IgaA}-\mathrm{RcsF}]}\end{document}]]></tex-math>    
+                        <tex-math id="t3"><![CDATA[\begin{document}$$\displaystyle K_d^{\mathrm{IgaA}-\mathrm{RcsF}}=\frac{[\mathrm{IgaA}][\mathrm{RcsF}]}{[\mathrm{IgaA}-\mathrm{RcsF}]}$$\end{document}]]></tex-math>    
                         </alternatives>   
                 </disp-formula></p>
                 <p>... <inline-formula>
@@ -1228,7 +1271,7 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
-                    <tex-math id="inft3"><![CDATA[\begin{document}[A] \sim \sqrt{\frac{F^{AA}}{k_{mDHFR} k_f^{AA}}}\end{document}]]></tex-math>
+                    <tex-math id="inft3"><![CDATA[\begin{document}$[A] \sim \sqrt{\frac{F^{AA}}{k_{mDHFR} k_f^{AA}}}$\end{document}]]></tex-math>
                     </alternatives>
                 </inline-formula> ... 
                     <inline-formula>
@@ -1240,7 +1283,7 @@ module load anaconda</code>
                                     <mml:mi>X</mml:mi>
                                 </mml:mrow>
                             </mml:math>
-                            <tex-math id="inft4"><![CDATA[\begin{document}ν \ll X\end{document}]]></tex-math>
+                            <tex-math id="inft4"><![CDATA[\begin{document}$ν \ll X$\end{document}]]></tex-math>
                         </alternatives>
                 </inline-formula> ... 
                     <inline-formula>
@@ -1252,7 +1295,7 @@ module load anaconda</code>
                                     <mml:mi>G</mml:mi>
                                 </mml:mrow>
                             </mml:math>
-                            <tex-math id="inft5"><![CDATA[\begin{document}ν \ll G\end{document}]]></tex-math>
+                            <tex-math id="inft5"><![CDATA[\begin{document}$ν \ll G$\end{document}]]></tex-math>
                         </alternatives>
                 </inline-formula> ...</p>
             </sec>
@@ -2025,7 +2068,7 @@ module load anaconda</code>
                             </p>
                         </caption>
                     </media>
-                    <media id="app2video2" mimetype="video/mp4" xlink:href="elife-1234567890-app2-video2.mp4">
+                    <media id="app2video2" mimetype="video/mp4" xlink:href="elife-1234567890-app2-video2.gif">
                         <label>Appendix 2&#x2014;animation 1.</label>
                         <caption>
                             <title>A demonstration of how to tag an animated gif file to ensure it is autolooped when on the eLife website.</title>
@@ -2082,7 +2125,7 @@ module load anaconda</code>
                                         </mml:msup>
                                     </mml:mrow>
                                 </mml:math>
-                                <tex-math id="t696"><![CDATA[\begin{document}\displaystyle \phi=e^{-\frac{z F V}{n R T}}\end{document}]]></tex-math>    
+                                <tex-math id="t696"><![CDATA[\begin{document}$$\displaystyle \phi=e^{-\frac{z F V}{n R T}}$$\end{document}]]></tex-math>    
                                 </alternatives>
                         </disp-formula></p>
                         <sec id="app2s2-1">
@@ -2215,13 +2258,53 @@ module load anaconda</code>
                             <caption>
                                 <title>Video assocaited with an appendix figure.</title>
                                 <p>First 100 s of representative ... Scale bar, 20 µm.</p>
+                                <p>
+                                    <supplementary-material id="app3fig1video1sdata1">
+                                        <label>Appendix 3&#x2014;figure 1&#x2014;video 1&#x2014;source data 1.</label>
+                                        <caption>
+                                            <title>Source data title.</title>
+                                            <p>Source data caption.</p>
+                                        </caption>
+                                    <media mimetype="application/docx" xlink:href="elife-1234567890-app3-fig1-video1-data1.docx"/>
+                                    </supplementary-material>
+                                </p>
+                                <p>
+                                    <supplementary-material id="app3fig1video1scode1">
+                                        <label>Appendix 3&#x2014;figure 1&#x2014;video 1&#x2014;source code 1.</label>
+                                        <caption>
+                                            <title>Source code title.</title>
+                                            <p>Source code caption.</p>
+                                        </caption>
+                                        <media mimetype="application/zip" xlink:href="elife-1234567890-app3-fig1-video1-code1.zip"/>
+                                    </supplementary-material>
+                                </p>
                             </caption>
                         </media>
-                        <media id="app3fig1video2" mimetype="video/mp4" xlink:href="elife-1234567890-app3-fig1-video2.mp4">
+                        <media id="app3fig1video2" mimetype="video/mp4" xlink:href="elife-1234567890-app3-fig1-video2.gif">
                             <label>Appendix 3&#x2014;figure 1&#x2014;animation 1.</label>
                             <caption>
                                 <title>Animation associated with an appendix figure.</title>
                                 <p>First 100 s of representative ... Scale bar, 20 µm.</p>
+                                <p>
+                                    <supplementary-material id="app3fig1video2sdata1">
+                                        <label>Appendix 3&#x2014;figure 1&#x2014;animation 1&#x2014;source data 1.</label>
+                                        <caption>
+                                            <title>Source data title.</title>
+                                            <p>Source data caption.</p>
+                                        </caption>
+                                    <media mimetype="application/docx" xlink:href="elife-1234567890-app3-fig1-video2-data1.docx"/>
+                                    </supplementary-material>
+                                </p>
+                                <p>
+                                    <supplementary-material id="app3fig1video2scode1">
+                                        <label>Appendix 3&#x2014;figure 1&#x2014;animation 1&#x2014;source code 1.</label>
+                                        <caption>
+                                            <title>Source code title.</title>
+                                            <p>Source code caption.</p>
+                                        </caption>
+                                        <media mimetype="application/zip" xlink:href="elife-1234567890-app3-fig1-video2-code1.zip"/>
+                                    </supplementary-material>
+                                </p>
                             </caption>
                         </media>
                     </fig-group>
@@ -2449,7 +2532,7 @@ module load anaconda</code>
                         </mml:mrow>
                     </mml:mstyle>
                 </mml:math>
-                <tex-math id="sa1t1"><![CDATA[\begin{document}F^{A B} \sim \frac{k_f^{A B}}{\sqrt{k_f^{A A} k_f^{B B}}} \sqrt{F^{A A} F^{B B}}\end{document}]]></tex-math>
+                <tex-math id="sa1t1"><![CDATA[\begin{document}$$F^{A B} \sim \frac{k_f^{A B}}{\sqrt{k_f^{A A} k_f^{B B}}} \sqrt{F^{A A} F^{B B}}$$\end{document}]]></tex-math>
                 </alternatives>
             </inline-formula>
             </p>
@@ -2545,7 +2628,7 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
-                        <tex-math id="sa1t2"><![CDATA[\begin{document}\displaystyle d=\sqrt{\left(\frac{\text { Predicted\, count }_i-\text { Observed\, count }_i}{\text { Observed\, count }_i}\right)^2}\end{document}]]></tex-math>
+                        <tex-math id="sa1t2"><![CDATA[\begin{document}$$\displaystyle d=\sqrt{\left(\frac{\text { Predicted\, count }_i-\text { Observed\, count }_i}{\text { Observed\, count }_i}\right)^2}$$\end{document}]]></tex-math>
                         </alternatives>
                 </disp-formula>
             </p>
@@ -2933,7 +3016,7 @@ module load anaconda</code>
                         </mml:mrow>
                     </mml:mstyle>
                 </mml:math>
-                    <tex-math id="sa7t1"><![CDATA[\begin{document}F^{A B} \sim \frac{k_f^{A B}}{\sqrt{k_f^{A A} k_f^{B B}}} \sqrt{F^{A A} F^{B B}}\end{document}]]></tex-math>
+                    <tex-math id="sa7t1"><![CDATA[\begin{document}$F^{A B} \sim \frac{k_f^{A B}}{\sqrt{k_f^{A A} k_f^{B B}}} \sqrt{F^{A A} F^{B B}}$\end{document}]]></tex-math>
                 </alternatives>
             </inline-formula>
             </p>
@@ -3029,7 +3112,7 @@ module load anaconda</code>
                                 </mml:mrow>
                             </mml:mstyle>
                         </mml:math>
-                            <tex-math id="sa7s2"><![CDATA[\begin{document}\displaystyle d=\sqrt{\left(\frac{\text { Predicted\, count }_i-\text { Observed\, count }_i}{\text { Observed\, count }_i}\right)^2}\end{document}]]></tex-math>
+                            <tex-math id="sa7s2"><![CDATA[\begin{document}$$\displaystyle d=\sqrt{\left(\frac{\text { Predicted\, count }_i-\text { Observed\, count }_i}{\text { Observed\, count }_i}\right)^2}$$\end{document}]]></tex-math>
                         </alternatives>
                 </disp-formula>
             </p>
